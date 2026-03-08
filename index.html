@@ -41,7 +41,7 @@
     }
     .hero::before{content:"";position:absolute;width:460px;height:460px;right:-120px;top:-120px;background:radial-gradient(circle, rgba(53,215,255,.20), transparent 68%);filter:blur(16px);z-index:-1}
     .hero::after{content:"";position:absolute;width:360px;height:360px;left:-90px;bottom:-140px;background:radial-gradient(circle, rgba(154,134,255,.18), transparent 68%);filter:blur(18px);z-index:-1}
-    .eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--cyan-2);margin-bottom:10px}
+    .eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--cyan-2);margin-bottom:10px;min-height:14px}
     .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:24px;align-items:start}
     .title{font-family:'Space Grotesk',sans-serif;font-size:60px;line-height:.92;letter-spacing:-2.4px;font-weight:800;margin-bottom:12px;text-shadow:0 0 26px rgba(53,215,255,.12)}
     .subtitle{max-width:920px;color:var(--muted);font-size:15px;line-height:1.8}
@@ -130,6 +130,15 @@
     .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:12px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);color:var(--text);font-size:13px;transition:.2s ease;box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 14px 24px rgba(0,0,0,.16)}
     .btn:hover{transform:translateY(-1px);border-color:rgba(53,215,255,.26);background:rgba(53,215,255,.10);box-shadow:var(--glow-cyan)}
     .btn.primary{color:#04111d;font-weight:800;border-color:transparent;background:linear-gradient(90deg, var(--cyan), var(--cyan-2));box-shadow:0 14px 32px rgba(53,215,255,.24)}
+    .history-zone{padding:0 22px 22px}
+    .history-wrap{margin-top:18px;border-top:1px solid rgba(255,255,255,.06);padding-top:18px}
+    .history-head{font:12px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:1.6px;color:var(--cyan-2);margin-bottom:12px}
+    .history-list{display:grid;gap:12px}
+    .history-day{border:1px solid rgba(255,255,255,.08);border-radius:20px;background:rgba(255,255,255,.03);overflow:hidden}
+    .history-day summary{padding:16px 18px}
+    .history-day-title{font:700 16px/1.3 'Inter',sans-serif;color:var(--text)}
+    .history-day-meta{margin-top:6px;color:var(--muted);font-size:13px}
+    .history-items{padding:0 18px 18px;display:grid;gap:12px}
     .empty{border-radius:20px;border:1px dashed rgba(255,255,255,.10);padding:18px;color:var(--muted);background:rgba(255,255,255,.03);font-size:14px}
     @media (max-width:1200px){.hero-grid,.layout,.summary-zone,.subgrid,.news-top{grid-template-columns:1fr}.state{justify-items:start;text-align:left}}
     @media (max-width:760px){body{padding:14px}.app{padding:0}.title{font-size:44px}.metrics-grid{grid-template-columns:1fr}.hero,.panel,.content{border-radius:24px}}
@@ -207,6 +216,15 @@
         <div class="news-grid" id="newsContainer">
           <div class="empty">Cargando radar…</div>
         </div>
+
+        <div class="history-zone">
+          <div class="history-wrap">
+            <div class="history-head">¿Buscas una consulta pasada?</div>
+            <div class="history-list" id="historyContainer">
+              <div class="empty">Cargando historial…</div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
@@ -240,14 +258,12 @@
             </div>
           </div>
         </summary>
-
         <div class="news-body">
           <div class="news-meta">
             <span class="mini-chip">Fuente · ${safe(item.source_name, "Fuente")}</span>
             <span class="mini-chip">Tipo · ${categoryLabel(category)}</span>
             ${tags.map(t => `<span class="mini-chip">${t}</span>`).join("")}
           </div>
-
           <div class="subgrid">
             <div class="subcard">
               <h4>Qué cambió</h4>
@@ -258,12 +274,10 @@
               <p>${safe(item.why_it_matters, "Relevancia detectada por el radar.")}</p>
             </div>
           </div>
-
           <div class="impact">
             <h4>Impacto para tu sector</h4>
             <p>${safe(item.sector_impact, "Aplicación potencial en procesos, automatización o trabajo empresarial.")}</p>
           </div>
-
           <div class="action-row">
             <div class="inline-note">Fuente integrada dentro de la tarjeta.</div>
             <div class="btn-row">
@@ -275,11 +289,52 @@
       return el;
     }
 
+    function buildHistory(history){
+      const container = document.getElementById("historyContainer");
+      if(!container) return;
+      container.innerHTML = "";
+
+      const days = Array.isArray(history.days) ? history.days : [];
+      if(!days.length){
+        container.innerHTML = '<div class="empty">No hay historial disponible todavía.</div>';
+        return;
+      }
+
+      days.forEach((day, idx) => {
+        const wrap = document.createElement("details");
+        wrap.className = "history-day";
+        if(idx === 0) wrap.open = false;
+
+        const title = day.executive_title || `Histórico ${day.date || ""}`;
+        const count = Array.isArray(day.items) ? day.items.length : 0;
+
+        wrap.innerHTML = `
+          <summary>
+            <div class="history-day-title">${title}</div>
+            <div class="history-day-meta">${safe(day.date, "Sin fecha")} · ${count} registros</div>
+          </summary>
+          <div class="history-items"></div>
+        `;
+
+        const itemsBox = wrap.querySelector(".history-items");
+        (day.items || []).forEach((item, index) => {
+          itemsBox.appendChild(buildCard(item, index));
+        });
+
+        container.appendChild(wrap);
+      });
+    }
+
     async function loadRadar(){
       const container = document.getElementById("newsContainer");
       try{
-        const res = await fetch("daily.json?t=" + Date.now());
-        const data = await res.json();
+        const [dailyRes, historyRes] = await Promise.all([
+          fetch("daily.json?t=" + Date.now()),
+          fetch("history.json?t=" + Date.now())
+        ]);
+
+        const data = await dailyRes.json();
+        const history = await historyRes.json();
         const items = Array.isArray(data.items) ? data.items : [];
 
         const total = items.length;
@@ -309,13 +364,16 @@
         container.innerHTML = "";
         if(!items.length){
           container.innerHTML = '<div class="empty">No hay novedades cargadas en daily.json.</div>';
-          return;
+        } else {
+          items.forEach((item, index) => container.appendChild(buildCard(item, index)));
         }
 
-        items.forEach((item, index) => container.appendChild(buildCard(item, index)));
+        buildHistory(history);
       }catch(error){
         console.error(error);
         container.innerHTML = '<div class="empty">No se pudo cargar daily.json.</div>';
+        const historyBox = document.getElementById("historyContainer");
+        if(historyBox) historyBox.innerHTML = '<div class="empty">No se pudo cargar history.json.</div>';
       }
     }
     loadRadar();
