@@ -58,17 +58,15 @@ function getHistoryLinks(history) {
   return links;
 }
 
-function updateHistory(history, items, date) {
+function updateHistory(history, items, date, executiveTitle) {
   const nextDays = Array.isArray(history.days) ? [...history.days] : [];
+
   nextDays.unshift({
     date,
-    items: items.map((item) => ({
-      title: item.title,
-      source_name: item.source_name || "",
-      source_url: item.source_url || "",
-      category: item.category || ""
-    }))
+    executive_title: executiveTitle || "Resumen ejecutivo del día",
+    items: items
   });
+
   return { days: nextDays.slice(0, 7) };
 }
 
@@ -174,7 +172,8 @@ Reglas obligatorias:
 - Usa únicamente la información dada.
 - Si algo no está claro, resume sin inventar detalles.
 - Prioriza utilidad para automatización, agentes, workflows, productividad, enterprise, tools y frameworks.
-- Si una nota parece investigación general sin aplicación clara al trabajo empresarial, minimízala o descártala.
+- Si una nota parece investigación general sin aplicación clara al trabajo empresarial, descártala.
+- La apertura debe ser más inmersiva, con más cuerpo, más narrativa y más contexto.
 - Clasifica cada item en una sola categoría:
   labs | model | framework | tool | sector
 
@@ -231,7 +230,7 @@ ${JSON.stringify(limited, null, 2)}
       category: ["labs", "model", "framework", "tool", "sector"].includes(item.category) ? item.category : "tool",
       source_name: item.source_name || "",
       source_url: item.source_url || "",
-      relevance_score: typeof item.relevance_score === "number" ? item.relevance_score : 7,
+      relevance_score: Math.max(0, Math.min(10, Number(item.relevance_score) || 7)),
       status: item.status === "follow_up" ? "follow_up" : "new",
       tags: Array.isArray(item.tags) ? item.tags.slice(0, 4) : [],
       what_changed: item.what_changed || "",
@@ -245,13 +244,21 @@ ${JSON.stringify(limited, null, 2)}
     date,
     executive_title: raw.executive_title || "Resumen ejecutivo del día",
     intro_message: raw.intro_message || "Radar diario generado a partir de fuentes reales.",
-    opening_message: raw.opening_message || "Estas son las novedades más relevantes del día con aplicación útil para automatización, herramientas, modelos y trabajo empresarial.",
+    opening_message:
+      raw.opening_message ||
+      "Estas son las señales más relevantes del día, filtradas para priorizar herramientas, modelos, frameworks y movimientos con utilidad real para automatización, productividad y trabajo empresarial.",
     items: cleanedItems
   };
 
   fs.writeFileSync(DAILY_FILE, JSON.stringify(cleaned, null, 2));
 
-  const updatedHistory = updateHistory(history, cleaned.items, date);
+  const updatedHistory = updateHistory(
+    history,
+    cleaned.items,
+    date,
+    cleaned.executive_title
+  );
+
   saveHistory(updatedHistory);
 }
 
