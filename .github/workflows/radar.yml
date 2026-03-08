@@ -1,43 +1,39 @@
-name: Radar IA
+name: RADAR IA
 
 on:
   schedule:
-    - cron: '30 13 * * *'   # 7:30 AM México
+    - cron: "0 12 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  radar:
     runs-on: ubuntu-latest
 
     steps:
 
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Install dependencies
-      run: |
-        npm install rss-parser node-fetch --no-save
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-    - name: Generate radar
-      run: node generate_radar.js
+      - name: Install dependencies
+        run: npm install rss-parser
 
-    - name: Commit files
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-        git add daily.json history.json
-        git commit -m "update radar" || echo "no changes"
-        git pull --rebase
-        git push
+      - name: Generate radar
+        run: node generate_radar.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          API_KEY: ${{ secrets.API_KEY }}
+          OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
 
-    - name: Send Radar to Telegram
-      run: |
-        MESSAGE="🛰️ RADAR IA
-
-        Nuevas señales detectadas.
-
-        https://acarmona-debug.github.io/RADAR-IA/"
-
-        curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
-        -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
-        -d text="$MESSAGE"
+      - name: Commit radar files
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "actions@github.com"
+          git add daily.json history.json
+          git diff --cached --quiet || git commit -m "update radar"
+          git push
