@@ -1,33 +1,28 @@
 name: Radar IA
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 14 * * *'
-  workflow_dispatch:
 
 jobs:
   generate-radar:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
 
-      - name: Install OpenAI
-        run: npm install openai
+      - run: npm install openai
 
-      - name: Run radar generator
-        run: node generate_radar.js
+      - run: node generate_radar.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
-      - name: Commit results
-        run: |
+      - run: |
           git config --global user.name "radar-bot"
           git config --global user.email "bot@radar.ai"
           git add daily.json
