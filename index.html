@@ -752,148 +752,84 @@
     </div>
   </div>
 
-  <script>
-    function safe(v, fallback = "Sin dato"){
-      return (v !== undefined && v !== null && String(v).trim() !== "") ? String(v) : fallback;
+ <script>
+async function loadRadar() {
+  try {
+    const res = await fetch("daily.json?" + Date.now());
+    const data = await res.json();
+
+    const dateBox = document.getElementById("radarDate");
+    const intro = document.getElementById("introText");
+    const opening = document.getElementById("friendlyIntro");
+    const executiveTitle = document.getElementById("executiveTitle");
+
+    if (dateBox) {
+      dateBox.textContent = data.date || "Sin fecha";
     }
 
-    function categoryLabel(category){
-      const map = { labs:"Labs", model:"Modelo", framework:"Framework", tool:"Tool", sector:"Sector" };
-      return map[category] || "Nota";
+    if (executiveTitle) {
+      executiveTitle.textContent =
+        data.executive_title || "Resumen ejecutivo del día";
     }
 
-    function statusLabel(status){
-      return status === "follow_up" ? "Seguimiento" : "Nuevo";
+    if (intro) {
+      intro.textContent =
+        data.intro_message || "Sin resumen disponible.";
     }
 
-    function average(arr){
-      if(!arr.length) return 0;
-      return arr.reduce((a,b)=>a+b,0) / arr.length;
+    if (opening) {
+      opening.textContent =
+        data.opening_message ||
+        "Radar diario con las novedades más relevantes de IA.";
     }
 
-    function dominantCategory(items){
-      if(!items.length) return "—";
-      const counts = {};
-      items.forEach(i => {
-        const key = i.category || "tool";
-        counts[key] = (counts[key] || 0) + 1;
-      });
-      const best = Object.entries(counts).sort((a,b)=>b[1]-a[1])[0]?.[0];
-      return categoryLabel(best);
-    }
+    const container = document.getElementById("newsContainer");
 
-    function intensityLabel(total, avg){
-      if(total >= 12 && avg >= 8.2) return "Alta";
-      if(total >= 8 && avg >= 7.2) return "Media";
-      if(total > 0) return "Ligera";
-      return "Vacía";
-    }
+    if (!container) return;
 
-    function buildCard(item, index){
-      const category = safe(item.category, "tool").toLowerCase();
-      const tags = Array.isArray(item.tags) ? item.tags : [];
-      const el = document.createElement("details");
-      el.className = "news-card";
-      if(index === 0) el.open = true;
+    container.innerHTML = "";
 
-      el.innerHTML = `
-        <summary>
-          <div class="news-top">
-            <span class="badge ${category}">${categoryLabel(category)}</span>
-            <div class="headline">
-              <h3>${safe(item.title)}</h3>
-              <p>${safe(item.summary)}</p>
-            </div>
-            <div class="state">
-              <span class="status">${statusLabel(item.status)}</span>
-              <div class="score">Relevancia · ${item.relevance_score ?? "—"}</div>
-            </div>
-          </div>
-        </summary>
+    (data.items || []).forEach((item) => {
+      const card = document.createElement("details");
+      card.className = "news-card";
 
-        <div class="news-body">
-          <div class="news-meta">
-            <span class="mini-chip">Fuente · ${safe(item.source_name, "Fuente")}</span>
-            <span class="mini-chip">Tipo · ${categoryLabel(category)}</span>
-            ${tags.map(t => `<span class="mini-chip">${t}</span>`).join("")}
-          </div>
+      const summary = document.createElement("summary");
 
-          <div class="subgrid">
-            <div class="subcard">
-              <h4>Qué cambió</h4>
-              <p>${safe(item.what_changed, item.summary)}</p>
-            </div>
-            <div class="subcard">
-              <h4>Por qué importa</h4>
-              <p>${safe(item.why_it_matters, "Relevancia detectada por el radar.")}</p>
-            </div>
-          </div>
-
-          <div class="impact">
-            <h4>Impacto para tu sector</h4>
-            <p>${safe(item.sector_impact, "Aplicación potencial en procesos, automatización o trabajo empresarial.")}</p>
-          </div>
-
-          <div class="action-row">
-            <div class="inline-note">Más relieve, más sombra, más lectura de producto tech.</div>
-            <div class="btn-row">
-              <a class="btn primary" href="${safe(item.source_url, "#")}" target="_blank" rel="noopener noreferrer">Abrir fuente</a>
-              <a class="btn" href="${safe(item.source_url, "#")}" target="_blank" rel="noopener noreferrer">Ver referencia</a>
-            </div>
-          </div>
-        </div>
+      summary.innerHTML = `
+        <span class="badge">${item.category || "tool"}</span>
+        <span class="title">${item.title || ""}</span>
+        <span class="relevance">Relevancia · ${item.relevance_score || 7}</span>
       `;
-      return el;
-    }
 
-    async function loadRadar(){
-      const container = document.getElementById("newsContainer");
-      try{
-        const res = await fetch("daily.json?t=" + Date.now());
-        const data = await res.json();
-        const items = Array.isArray(data.items) ? data.items : [];
+      const body = document.createElement("div");
+      body.className = "news-body";
 
-        const total = items.length;
-        const high = items.filter(i => Number(i.relevance_score || 0) >= 8.5).length;
-        const core = items.filter(i => ["labs","model"].includes(i.category)).length;
-        const build = items.filter(i => ["framework","tool"].includes(i.category)).length;
-        const avg = average(items.map(i => Number(i.relevance_score || 0)));
-        const follow = items.filter(i => i.status === "follow_up").length;
-        const sources = new Set(items.map(i => safe(i.source_name, "Fuente"))).size;
+      body.innerHTML = `
+        <p>${item.summary || ""}</p>
 
-        document.getElementById("chipDate").textContent = data.date || "Sin fecha";
-        document.getElementById("introText").textContent = data.intro_message || "Sin resumen disponible.";
-        document.getElementById("friendlyIntro").textContent =
-          data.intro_message ||
-          "Hoy el tablero cargó correctamente y refleja la actividad relevante del día.";
+        <p><strong>Qué cambió:</strong> ${item.what_changed || ""}</p>
+        <p><strong>Por qué importa:</strong> ${item.why_it_matters || ""}</p>
+        <p><strong>Impacto:</strong> ${item.sector_impact || ""}</p>
 
-        document.getElementById("metricTotal").textContent = total;
-        document.getElementById("metricHigh").textContent = high;
-        document.getElementById("metricCore").textContent = core;
-        document.getElementById("metricBuild").textContent = build;
+        <p>
+          <a href="${item.source_url}" target="_blank">
+            Abrir fuente
+          </a>
+        </p>
+      `;
 
-        document.getElementById("sideDate").textContent = data.date || "—";
-        document.getElementById("sideAvg").textContent = avg ? avg.toFixed(1) : "0.0";
-        document.getElementById("sideDominant").textContent = dominantCategory(items);
-        document.getElementById("sideFollow").textContent = follow;
-        document.getElementById("sideSources").textContent = sources;
-        document.getElementById("sideIntensity").textContent = intensityLabel(total, avg);
-        document.getElementById("countChip").textContent = `${total} ítems`;
+      card.appendChild(summary);
+      card.appendChild(body);
 
-        container.innerHTML = "";
-        if(!items.length){
-          container.innerHTML = '<div class="empty">No hay novedades cargadas en daily.json.</div>';
-          return;
-        }
+      container.appendChild(card);
+    });
 
-        items.forEach((item, index) => container.appendChild(buildCard(item, index)));
-      }catch(error){
-        console.error(error);
-        container.innerHTML = '<div class="empty">No se pudo cargar daily.json.</div>';
-      }
-    }
+  } catch (err) {
+    console.error("Radar load error:", err);
+  }
+}
 
-    loadRadar();
-  </script>
+loadRadar();
+</script>
 </body>
 </html>
