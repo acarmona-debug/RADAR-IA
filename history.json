@@ -1,3 +1,63 @@
 {
-  "days": []
+  "days": [
+    {
+      "date": "2023-10-04",
+      "items": [
+        {
+          "event_key": "labs_google_google_labs_launch",
+          "title": "Google Labs Introduce Experimentos de Colaboración Basados en IA",
+          "category": "labs",
+          "source_url": "https://news.google.com/"
+        },
+        {
+          "event_key": "model_google_gemini_launch",
+          "title": "Lanzamiento de Gemini: Un Modelo AI Multi-Modal",
+          "category": "model",
+          "source_url": "https://techcrunch.com/"
+        },
+        {
+          "event_key": "model_openai_chatgpt_update",
+          "title": "Nuevas Actualizaciones de OpenAI para ChatGPT",
+          "category": "model",
+          "source_url": "https://openai.com/blog/"
+        },
+        {
+          "event_key": "model_anthropic_claude_update",
+          "title": "Claude de Anthropic Mejora su Capacidad de Comprensión",
+          "category": "model",
+          "source_url": "https://www.anthropic.com/"
+        },
+        {
+          "event_key": "framework_general_nuevos_frameworks_ia_update",
+          "title": "Nuevos Frameworks de IA de Orquestación para Automatización",
+          "category": "framework",
+          "source_url": "https://ainews.com/"
+        },
+        {
+          "event_key": "tool_general_nueva_herramienta_ia_launch",
+          "title": "Nueva Herramienta de IA para Automatización de Documentos",
+          "category": "tool",
+          "source_url": "https://techradar.com/"
+        },
+        {
+          "event_key": "tool_general_app_gratuita_analisis_update",
+          "title": "App Gratuita para Análisis de Datos con IA",
+          "category": "tool",
+          "source_url": "https://datasciencecentral.com/"
+        },
+        {
+          "event_key": "framework_general_rag_gestion_efectiva_update",
+          "title": "RAG para Gestión Efectiva de la Información",
+          "category": "framework",
+          "source_url": "https://airesearch.com/"
+        },
+        {
+          "event_key": "model_general_actualizacion_capacidades_agentes_update",
+          "title": "Actualización en Capacidades de Agentes Conversacionales",
+          "category": "model",
+          "source_url": "https://cxdaily.com/"
+        }
+      ]
+    }
+  ]
 }
