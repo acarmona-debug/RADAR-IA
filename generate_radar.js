@@ -447,6 +447,7 @@ async function run() {
   saveJson(HISTORY_FILE, updateHistory(history, radar.items, radar.date, radar.executive_title));
 
   console.log(`Radar ok: ${radar.items.length} items`);
+  process.exit(0);
 }
 
 run().catch((err) => {
