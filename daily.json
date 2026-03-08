@@ -1,49 +1,49 @@
 {
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre herramientas, modelos y características nuevas en el campo de la IA.",
-  "opening_message": "Aquí están las últimas innovaciones y desarrollos en inteligencia artificial que no querrás perderte.",
+  "executive_title": "Radar Diario de IA - Herramientas, Modelos y Frameworks",
+  "intro_message": "Últimas novedades sobre herramientas y modelos de inteligencia artificial.",
+  "opening_message": "Este informe destaca las herramientas, modelos y características más recientes en el mundo de la inteligencia artificial.",
   "items": [
+    {
+      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+      "published_at": "2026-03-06T17:56:07.000Z",
+      "summary": "Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users."
+    },
+    {
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "published_at": "2026-03-05T17:00:00.000Z",
+      "summary": "Developers connected to Andela share how they’re learning AI tools inside real production workflows."
+    },
     {
       "title": "Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models",
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
       "published_at": "2026-03-05T18:11:36.000Z",
-      "summary": "Luma introdujo Luma Agents, modelos de 'Inteligencia Unificada' diseñados para coordinar múltiples sistemas de IA y generar trabajo creativo integral a través de texto, imágenes, video y audio."
-    },
-    {
-      "title": "Evaluating Skills",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/evaluating-skills/",
-      "published_at": "2026-03-05T18:00:49.000Z",
-      "summary": "LangChain está desarrollando habilidades para ayudar a agentes de codificación a trabajar con su ecosistema, incluyendo LangChain y LangSmith."
+      "summary": "Luma introduced Luma Agents, powered by its new “Unified Intelligence” models, designed to generate end-to-end creative work across text, images, video and audio."
     },
     {
       "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
       "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
       "published_at": "2026-03-05T23:14:04.000Z",
-      "summary": "DiligenceSquared utiliza agentes de voz AI para llevar a cabo entrevistas con clientes de empresas que están siendo consideradas para adquisiciones, haciendo la investigación M&A más accesible."
+      "summary": "This startup uses AI voice agents to conduct interviews with customers, making M&A research more affordable."
     },
     {
-      "title": "After Europe, WhatsApp will let rival AI companies offer chatbots in Brazil",
+      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
-      "published_at": "2026-03-06T13:20:43.000Z",
-      "summary": "Meta permite a las empresas de IA rivales ofrecer sus chatbots en WhatsApp a usuarios brasileños por una tarifa."
+      "source_url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "published_at": "2026-03-06T19:00:22.000Z",
+      "summary": "In a recent security partnership with Mozilla, Anthropic's Claude found 22 separate vulnerabilities in Firefox."
     },
     {
-      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+      "title": "OpenAI delays ChatGPT’s ‘adult mode’ again",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
-      "published_at": "2026-03-06T17:56:07.000Z",
-      "summary": "La aplicación Claude está experimentando un aumento en nuevas instalaciones, superando a ChatGPT en crecimiento de usuarios activos diarios."
-    },
-    {
-      "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-      "published_at": "2026-03-05T14:16:49.000Z",
-      "summary": "Este artículo detalla cómo llevar la IA robótica a plataformas embebidas a través de grabación de datos, ajuste fino y optimizaciones en el dispositivo."
+      "source_url": "https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again/",
+      "published_at": "2026-03-07T17:28:41.000Z",
+      "summary": "The feature will give verified adult users access to erotica and other adult content, but has been delayed again."
     }
   ]
 }
