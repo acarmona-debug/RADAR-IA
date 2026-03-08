@@ -1,17 +1,12 @@
 const fs = require("fs");
 const Parser = require("rss-parser");
 
-const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-});
-
 const parser = new Parser({ timeout: 15000 });
 
 const HISTORY_FILE = "history.json";
 const DAILY_FILE = "daily.json";
 
 const FEEDS = [
-
   // LABS / EMPRESAS IA
   { source: "OpenAI", url: "https://openai.com/blog/rss.xml" },
   { source: "Google AI", url: "https://blog.google/technology/ai/rss/" },
@@ -35,7 +30,6 @@ const FEEDS = [
   // INDUSTRIA / STARTUPS
   { source: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/" },
   { source: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/" }
-
 ];
 
 const ALLOW_KEYWORDS = [
@@ -54,8 +48,15 @@ const BLOCK_KEYWORDS = [
   "agriculture", "crop", "satellite", "astronomy", "particle physics"
 ];
 
+function ensureJsonFile(filePath, fallbackData) {
+  if (!fs.existsSync(filePath)) {
+    fs.writeFileSync(filePath, JSON.stringify(fallbackData, null, 2), "utf8");
+  }
+}
+
 function loadHistory() {
-  if (!fs.existsSync(HISTORY_FILE)) return { days: [] };
+  ensureJsonFile(HISTORY_FILE, { days: [] });
+
   try {
     const raw = JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8"));
     if (raw && Array.isArray(raw.days)) return raw;
@@ -66,16 +67,20 @@ function loadHistory() {
 }
 
 function saveHistory(history) {
-  fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
+  fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2), "utf8");
 }
 
 function getHistoryLinks(history) {
   const links = new Set();
+
   for (const day of history.days || []) {
     for (const item of day.items || []) {
-      if (item && item.source_url) links.add(String(item.source_url).trim());
+      if (item && item.source_url) {
+        links.add(String(item.source_url).trim());
+      }
     }
   }
+
   return links;
 }
 
@@ -85,7 +90,7 @@ function updateHistory(history, items, date, executiveTitle) {
   nextDays.unshift({
     date,
     executive_title: executiveTitle || "Resumen ejecutivo del día",
-    items: items
+    items: Array.isArray(items) ? items : []
   });
 
   return { days: nextDays.slice(0, 7) };
@@ -123,6 +128,7 @@ async function fetchFeedItems() {
   for (const feed of FEEDS) {
     try {
       const parsed = await parser.parseURL(feed.url);
+
       for (const item of parsed.items || []) {
         collected.push({
           source_name: feed.source,
@@ -133,7 +139,7 @@ async function fetchFeedItems() {
         });
       }
     } catch (err) {
-      console.error(`Feed error: ${feed.source}`, err.message);
+      console.error(`Feed error: ${feed.source} -> ${err.message}`);
     }
   }
 
@@ -142,7 +148,7 @@ async function fetchFeedItems() {
 
 function filterRecent(items) {
   const now = new Date();
-  const maxAgeMs = 1000 * 60 * 60 * 96;
+  const maxAgeMs = 1000 * 60 * 60 * 96; // 96 horas
 
   return items.filter((item) => {
     if (!item.title || !item.source_url) return false;
@@ -162,7 +168,118 @@ function sectorFilter(items) {
     .sort((a, b) => b.sector_score - a.sector_score);
 }
 
+function extractJsonText(rawText) {
+  const text = String(rawText || "").trim();
+
+  if (!text) {
+    throw new Error("OpenAI devolvió respuesta vacía");
+  }
+
+  const cleaned = text
+    .replace(/^```json\s*/i, "")
+    .replace(/^```\s*/i, "")
+    .replace(/\s*```$/i, "")
+    .trim();
+
+  const firstBrace = cleaned.indexOf("{");
+  const lastBrace = cleaned.lastIndexOf("}");
+
+  if (firstBrace === -1 || lastBrace === -1 || lastBrace <= firstBrace) {
+    throw new Error("No se encontró un JSON válido en la respuesta");
+  }
+
+  return cleaned.slice(firstBrace, lastBrace + 1);
+}
+
+async function callOpenAI(prompt) {
+  if (!process.env.OPENAI_API_KEY) {
+    throw new Error("Falta OPENAI_API_KEY en los secrets del repositorio");
+  }
+
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`
+    },
+    body: JSON.stringify({
+      model: "gpt-4o-mini",
+      input: prompt
+    })
+  });
+
+  if (!response.ok) {
+    const errText = await response.text();
+    throw new Error(`OpenAI API error: ${response.status} ${errText}`);
+  }
+
+  const data = await response.json();
+
+  let content = "";
+
+  if (data.output_text) {
+    content = data.output_text;
+  } else if (Array.isArray(data.output)) {
+    const parts = data.output
+      .flatMap((o) => Array.isArray(o.content) ? o.content : [])
+      .filter((c) => c.type === "output_text" && c.text)
+      .map((c) => c.text);
+
+    content = parts.join("\n");
+  }
+
+  return content.trim();
+}
+
+function normalizeRadar(raw) {
+  const rawItems = Array.isArray(raw.items) ? raw.items : [];
+
+  const cleanedItems = rawItems
+    .filter((item) => item && item.source_url)
+    .slice(0, 8)
+    .map((item) => ({
+      title: String(item.title || "").trim(),
+      summary: String(item.summary || "").trim(),
+      category: ["labs", "model", "framework", "tool", "sector"].includes(item.category)
+        ? item.category
+        : "tool",
+      source_name: String(item.source_name || "").trim(),
+      source_url: String(item.source_url || "").trim(),
+      relevance_score: Math.max(0, Math.min(10, Number(item.relevance_score) || 7)),
+      status: item.status === "follow_up" ? "follow_up" : "new",
+      tags: Array.isArray(item.tags)
+        ? item.tags.map((t) => String(t).trim()).filter(Boolean).slice(0, 4)
+        : [],
+      what_changed: String(item.what_changed || "").trim(),
+      why_it_matters: String(item.why_it_matters || "").trim(),
+      sector_impact: String(item.sector_impact || "").trim()
+    }))
+    .filter((item) => item.title && item.source_url);
+
+  const date = new Date().toISOString().slice(0, 10);
+
+  return {
+    date,
+    executive_title: String(raw.executive_title || "Resumen ejecutivo del día").trim(),
+    intro_message: String(raw.intro_message || "Radar diario generado a partir de fuentes reales.").trim(),
+    opening_message: String(
+      raw.opening_message ||
+      "Estas son las señales más relevantes del día, filtradas para priorizar herramientas, modelos, frameworks y movimientos con utilidad real para automatización, productividad y trabajo empresarial."
+    ).trim(),
+    items: cleanedItems
+  };
+}
+
 async function run() {
+  ensureJsonFile(HISTORY_FILE, { days: [] });
+  ensureJsonFile(DAILY_FILE, {
+    date: "",
+    executive_title: "",
+    intro_message: "",
+    opening_message: "",
+    items: []
+  });
+
   const history = loadHistory();
   const existingLinks = getHistoryLinks(history);
 
@@ -174,7 +291,9 @@ async function run() {
   const seen = new Set();
 
   for (const item of feedItems) {
-    const key = item.source_url.trim();
+    const key = String(item.source_url || "").trim();
+    if (!key) continue;
+
     if (!seen.has(key) && !existingLinks.has(key)) {
       seen.add(key);
       uniqueByLink.push(item);
@@ -182,6 +301,21 @@ async function run() {
   }
 
   const limited = uniqueByLink.slice(0, 18);
+
+  if (limited.length === 0) {
+    const date = new Date().toISOString().slice(0, 10);
+    const emptyRadar = {
+      date,
+      executive_title: "Sin novedades relevantes",
+      intro_message: "No se encontraron novedades suficientemente relevantes en las fuentes revisadas.",
+      opening_message: "Hoy no aparecieron señales nuevas con peso suficiente para automatización, agentes, frameworks, tools o impacto empresarial.",
+      items: []
+    };
+
+    fs.writeFileSync(DAILY_FILE, JSON.stringify(emptyRadar, null, 2), "utf8");
+    saveHistory(updateHistory(history, [], date, emptyRadar.executive_title));
+    return;
+  }
 
   const prompt = `
 Convierte estas notas REALES en un radar diario de IA en español.
@@ -227,64 +361,17 @@ Notas reales:
 ${JSON.stringify(limited, null, 2)}
 `;
 
-  const response = await fetch("https://api.openai.com/v1/responses", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    "Authorization": Bearer ${process.env.OPENAI_API_KEY}
-  },
-  body: JSON.stringify({
-    model: "gpt-4o-mini",
-    input: prompt
-  })
-  });
+  const rawText = await callOpenAI(prompt);
+  const jsonText = extractJsonText(rawText);
+  const parsed = JSON.parse(jsonText);
+  const cleaned = normalizeRadar(parsed);
 
-  const data = await response.json();
-
-  const content = response.choices[0].message.content || "";
-  const cleanedContent = content
-    .replace(/^```json\s*/i, "")
-    .replace(/^```\s*/i, "")
-    .replace(/\s*```$/i, "")
-    .trim();
-
-  const raw = JSON.parse(cleanedContent);
-  const rawItems = Array.isArray(raw.items) ? raw.items : [];
-
-  const cleanedItems = rawItems
-    .filter((item) => item && item.source_url)
-    .map((item) => ({
-      title: item.title || "",
-      summary: item.summary || "",
-      category: ["labs", "model", "framework", "tool", "sector"].includes(item.category) ? item.category : "tool",
-      source_name: item.source_name || "",
-      source_url: item.source_url || "",
-      relevance_score: Math.max(0, Math.min(10, Number(item.relevance_score) || 7)),
-      status: item.status === "follow_up" ? "follow_up" : "new",
-      tags: Array.isArray(item.tags) ? item.tags.slice(0, 4) : [],
-      what_changed: item.what_changed || "",
-      why_it_matters: item.why_it_matters || "",
-      sector_impact: item.sector_impact || ""
-    }));
-
-  const date = new Date().toISOString().slice(0, 10);
-
-  const cleaned = {
-    date,
-    executive_title: raw.executive_title || "Resumen ejecutivo del día",
-    intro_message: raw.intro_message || "Radar diario generado a partir de fuentes reales.",
-    opening_message:
-      raw.opening_message ||
-      "Estas son las señales más relevantes del día, filtradas para priorizar herramientas, modelos, frameworks y movimientos con utilidad real para automatización, productividad y trabajo empresarial.",
-    items: cleanedItems
-  };
-
-  fs.writeFileSync(DAILY_FILE, JSON.stringify(cleaned, null, 2));
+  fs.writeFileSync(DAILY_FILE, JSON.stringify(cleaned, null, 2), "utf8");
 
   const updatedHistory = updateHistory(
     history,
     cleaned.items,
-    date,
+    cleaned.date,
     cleaned.executive_title
   );
 
@@ -292,6 +379,7 @@ ${JSON.stringify(limited, null, 2)}
 }
 
 run().catch((err) => {
-  console.error(err);
+  console.error("Radar generation failed:");
+  console.error(err && err.stack ? err.stack : err);
   process.exit(1);
 });
