@@ -8,50 +8,117 @@ const openai = new OpenAI({
 const prompt = `
 Genera un radar diario de IA en español.
 
-Incluye solo novedades relevantes sobre:
-- Google Labs
+Objetivo:
+Entregar novedades reales y útiles sobre inteligencia artificial para trabajo empresarial, automatización, procesos, gestión documental, agentes y productividad.
+
+Incluye solo:
+- Google Labs y experimentos nuevos
 - Gemini
 - OpenAI / ChatGPT
-- Claude
-- frameworks de agentes o automatización
-- tools nuevas útiles para trabajo o automatización
+- Claude / Anthropic
+- frameworks de agentes, RAG, orquestación o automatización
+- tools o apps abiertas o gratuitas con utilidad real
+- novedades de IA aplicables a procesos, automatización o trabajo empresarial
 
-Excluye política, regulación, hardware y rumores.
+Excluye:
+- política
+- regulación
+- hardware
+- inversión / funding
+- rumores sin fuente seria
+- artículos repetidos sobre el mismo evento
+- notas sin utilidad práctica
 
-Devuelve SOLO JSON con esta estructura:
+Reglas editoriales:
+- agrupa por evento, no por medio
+- prioriza novedad verdadera
+- prioriza utilidad real
+- si varios medios hablan del mismo hecho, trátalo como un solo evento
+- escribe todo en español claro y natural
 
+Devuelve SOLO JSON válido, sin markdown y sin texto fuera del JSON.
+
+Estructura obligatoria:
 {
   "date": "YYYY-MM-DD",
-  "intro_message": "mensaje corto",
+  "intro_message": "string",
   "items": [
     {
       "category": "labs | model | framework | tool | sector",
       "title": "string",
       "summary": "string",
+      "what_changed": "string",
+      "why_it_matters": "string",
+      "sector_impact": "string",
       "source_name": "string",
-      "source_url": "string"
+      "source_url": "string",
+      "status": "new | follow_up",
+      "relevance_score": 0,
+      "tags": ["string", "string"]
     }
   ]
 }
 
-Máximo 12 items.
+Reglas de calidad:
+- genera entre 10 y 15 items si hay suficientes
+- relevance_score debe ser numérico de 0 a 10
+- summary breve: 1 o 2 oraciones
+- what_changed debe explicar el cambio real
+- why_it_matters debe explicar por qué importa
+- sector_impact debe aterrizarlo a procesos, automatización, gestión documental o trabajo empresarial
+- tags debe traer de 2 a 4 etiquetas cortas
+- source_url debe ser útil y directo
 `;
+
+function normalizeItem(item) {
+  return {
+    category: ["labs", "model", "framework", "tool", "sector"].includes(item.category)
+      ? item.category
+      : "tool",
+    title: item.title || "Sin título",
+    summary: item.summary || "Sin resumen",
+    what_changed: item.what_changed || item.summary || "Sin detalle",
+    why_it_matters: item.why_it_matters || "Relevancia detectada por el radar.",
+    sector_impact:
+      item.sector_impact ||
+      "Aplicación potencial en procesos, automatización o trabajo empresarial.",
+    source_name: item.source_name || "Fuente",
+    source_url: item.source_url || "#",
+    status: ["new", "follow_up"].includes(item.status) ? item.status : "new",
+    relevance_score:
+      typeof item.relevance_score === "number"
+        ? Math.max(0, Math.min(10, item.relevance_score))
+        : 7,
+    tags: Array.isArray(item.tags) ? item.tags.slice(0, 4) : []
+  };
+}
 
 async function run() {
   const response = await openai.responses.create({
     model: "gpt-4o-mini",
     input: prompt,
-    max_output_tokens: 1200
+    max_output_tokens: 2200
   });
 
   const text = response.output_text;
 
   try {
     const json = JSON.parse(text);
-    fs.writeFileSync("daily.json", JSON.stringify(json, null, 2));
-    console.log("Radar actualizado");
+
+    const cleaned = {
+      date: json.date || new Date().toISOString().slice(0, 10),
+      intro_message:
+        json.intro_message ||
+        "Hoy hubo movimiento relevante en labs, modelos, frameworks y tools con potencial real para automatización y trabajo empresarial.",
+      items: Array.isArray(json.items) ? json.items.map(normalizeItem) : []
+    };
+
+    fs.writeFileSync("daily.json", JSON.stringify(cleaned, null, 2), "utf8");
+    console.log("Radar actualizado correctamente");
   } catch (e) {
-    console.error("Error parseando JSON:", text);
+    console.error("Error parseando JSON:");
+    console.error(text);
+    process.exit(1);
   }
 }
 
