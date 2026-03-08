@@ -74,7 +74,16 @@ function scoreItem(item) {
   BLOCK_KEYWORDS.forEach(k => {
     if (text.includes(k)) score -= 6;
   });
-
+  const PRIORITY_TERMS = [
+  "cursor", "cursor.sh",
+  "chatgpt", "gpt", "gpt-4", "gpt-5",
+  "claude", "anthropic",
+  "gemini", "google ai", "google deepmind"
+  ];
+  
+  PRIORITY_TERMS.forEach(k => {
+    if (text.includes(k)) score += 5;
+  });
   return score;
 }
 
