@@ -28,8 +28,7 @@ function updateHistory(history, items) {
   const today = new Date();
 
   const cleanedHistory = history.filter(item => {
-    const diff =
-      (today - new Date(item.date)) / (1000 * 60 * 60 * 24);
+    const diff = (today - new Date(item.date)) / (1000 * 60 * 60 * 24);
     return diff < 7;
   });
 
@@ -38,15 +37,14 @@ function updateHistory(history, items) {
     date: today.toISOString()
   }));
 
-  const updated = [...cleanedHistory, ...newEntries];
-  saveHistory(updated);
+  saveHistory([...cleanedHistory, ...newEntries]);
 }
 
 async function run() {
   const history = loadHistory();
 
   const prompt = `
-Genera un radar diario de novedades relevantes de IA.
+Genera un radar diario de novedades relevantes de IA en español.
 
 Categorías posibles:
 labs
@@ -56,13 +54,13 @@ tool
 sector
 
 Enfocado en:
-Google Labs
-Gemini
-ChatGPT / OpenAI
-Claude / Anthropic
-frameworks de agentes
-tools nuevas de IA
-IA aplicada a empresa
+- Google Labs
+- Gemini
+- ChatGPT / OpenAI
+- Claude / Anthropic
+- frameworks de agentes
+- tools nuevas de IA
+- IA aplicada a empresa
 
 Devuelve JSON con esta estructura exacta:
 
@@ -86,6 +84,8 @@ Devuelve JSON con esta estructura exacta:
 }
 
 Máximo 8 items.
+No agregues explicación.
+No uses markdown.
 `;
 
   const response = await client.chat.completions.create({
@@ -96,7 +96,13 @@ Máximo 8 items.
 
   const content = response.choices[0].message.content;
 
-  const raw = JSON.parse(content);
+  const cleanedContent = content
+    .replace(/^json\s*/i, "")
+    .replace(/^\s*/i, "")
+    .replace(/\s*```$/i, "")
+    .trim();
+
+  const raw = JSON.parse(cleanedContent);
 
   const dedupedItems = (raw.items || []).filter(
     item => !isDuplicate(history, item.title)
@@ -108,8 +114,7 @@ Máximo 8 items.
   const cleaned = {
     date,
     intro_message:
-      raw.intro_message ||
-      "Resumen diario de novedades relevantes de IA.",
+      raw.intro_message || "Resumen diario de novedades relevantes de IA.",
     items: dedupedItems
   };
 
