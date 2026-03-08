@@ -1,0 +1,121 @@
+{
+  "date": "2026-03-08",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas para la Productividad Empresarial",
+  "intro_message": "En un mundo donde la inteligencia artificial está transformando la manera en que trabajamos, es crucial mantenerse al tanto de las últimas innovaciones y herramientas que pueden mejorar la productividad y la eficiencia en el entorno empresarial. Este radar diario presenta un resumen de las novedades más relevantes en el ámbito de la IA, enfocándose en aplicaciones prácticas que pueden ser integradas en flujos de trabajo y procesos organizacionales.",
+  "opening_message": "La inteligencia artificial continúa evolucionando a un ritmo vertiginoso, ofreciendo nuevas oportunidades para optimizar procesos y mejorar la toma de decisiones en las empresas. Desde herramientas que integran modelos avanzados de IA en aplicaciones cotidianas hasta sistemas que permiten una mayor automatización en el desarrollo de software, cada avance representa una oportunidad para transformar la forma en que operamos. A continuación, se presentan las últimas innovaciones que están marcando la pauta en el uso de la inteligencia artificial en el ámbito empresarial.",
+  "items": [
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "summary": "OpenAI presenta ChatGPT para Excel y nuevas integraciones de aplicaciones financieras, impulsadas por GPT-5.4, para acelerar la modelización, investigación y análisis en entornos regulados.",
+      "category": "tool",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/chatgpt-for-excel",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "Excel",
+        "finanzas",
+        "modelización"
+      ],
+      "what_changed": "Lanzamiento de ChatGPT para Excel.",
+      "why_it_matters": "Facilita la integración de IA en análisis financieros, mejorando la eficiencia.",
+      "sector_impact": "Finanzas"
+    },
+    {
+      "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+      "summary": "Canvas en Modo IA ahora está disponible para todos en EE. UU., ayudando a redactar documentos y construir herramientas interactivas.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "documentación",
+        "herramientas interactivas"
+      ],
+      "what_changed": "Disponibilidad general de Canvas en Modo IA.",
+      "why_it_matters": "Permite a los usuarios materializar ideas de manera más eficiente.",
+      "sector_impact": "General"
+    },
+    {
+      "title": "Codex Security: now in research preview",
+      "summary": "Codex Security es un agente de seguridad de IA que analiza el contexto del proyecto para detectar, validar y corregir vulnerabilidades complejas con mayor confianza.",
+      "category": "tool",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/codex-security-now-in-research-preview",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "vulnerabilidades"
+      ],
+      "what_changed": "Lanzamiento de Codex Security en vista previa de investigación.",
+      "why_it_matters": "Mejora la seguridad en aplicaciones de IA, crucial para empresas.",
+      "sector_impact": "Tecnología"
+    },
+    {
+      "title": "How Balyasny Asset Management built an AI research engine for investing",
+      "summary": "Balyasny construyó un sistema de investigación de IA con GPT-5.4 para transformar el análisis de inversiones a gran escala.",
+      "category": "framework",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/balyasny-asset-management",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "inversión",
+        "análisis"
+      ],
+      "what_changed": "Desarrollo de un motor de investigación de IA para inversiones.",
+      "why_it_matters": "Optimiza el análisis de inversiones, aumentando la competitividad.",
+      "sector_impact": "Finanzas"
+    },
+    {
+      "title": "Cursor is rolling out a new kind of agentic coding tool",
+      "summary": "Automations permite a los usuarios lanzar agentes automáticamente en su entorno de codificación, activados por cambios en el código o mensajes de Slack.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "codificación",
+        "automatización"
+      ],
+      "what_changed": "Introducción de un nuevo sistema de codificación automatizada.",
+      "why_it_matters": "Facilita la automatización en el desarrollo de software.",
+      "sector_impact": "Tecnología"
+    },
+    {
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "summary": "Desarrolladores conectados a Andela comparten cómo están aprendiendo herramientas de IA dentro de flujos de trabajo de producción reales.",
+      "category": "sector",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "aprendizaje",
+        "desarrollo"
+      ],
+      "what_changed": "Compartición de experiencias sobre el aprendizaje de IA en producción.",
+      "why_it_matters": "Promueve la adopción de IA en el desarrollo de software.",
+      "sector_impact": "Tecnología"
+    },
+    {
+      "title": "Introducing the Adoption news channel",
+      "summary": "OpenAI presenta un canal de noticias con insights prácticos y marcos para convertir el progreso de IA en ventaja empresarial.",
+      "category": "framework",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "adopción",
+        "marcos"
+      ],
+      "what_changed": "Lanzamiento de un canal de noticias sobre adopción de IA.",
+      "why_it_matters": "Ofrece recursos para maximizar el uso de IA en negocios.",
+      "sector_impact": "General"
+    }
+  ]
+}
