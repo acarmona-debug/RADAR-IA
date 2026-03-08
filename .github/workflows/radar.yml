@@ -2,7 +2,7 @@ name: Radar IA
 
 on:
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '30 13 * * *'   # 7:30 AM México
   workflow_dispatch:
 
 jobs:
@@ -10,28 +10,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Install deps
-        run: npm install openai rss-parser --no-save
+    - name: Install dependencies
+      run: |
+        npm install rss-parser node-fetch --no-save
 
-      - name: Generate radar
-        run: node generate_radar.js
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    - name: Generate radar
+      run: node generate_radar.js
 
-      - name: Commit results
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add daily.json history.json
-          git commit -m "update radar" || echo "no changes"
-          git pull --rebase origin main
-          git push origin main
+    - name: Commit files
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add daily.json history.json
+        git commit -m "update radar" || echo "no changes"
+        git pull --rebase
+        git push
+
+    - name: Send Radar to Telegram
+      run: |
+        MESSAGE="🛰️ RADAR IA
+
+        Nuevas señales detectadas.
+
+        https://acarmona-debug.github.io/RADAR-IA/"
+
+        curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
+        -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+        -d text="$MESSAGE"
