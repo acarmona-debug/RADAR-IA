@@ -9,39 +9,73 @@ const HISTORY_FILE = "history.json";
 const DAILY_FILE = "daily.json";
 
 function loadHistory() {
-  if (!fs.existsSync(HISTORY_FILE)) return [];
-  return JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8"));
+  if (!fs.existsSync(HISTORY_FILE)) {
+    return { days: [] };
+  }
+
+  try {
+    const raw = JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8"));
+
+    if (Array.isArray(raw)) {
+      return {
+        days: [
+          {
+            date: new Date().toISOString().slice(0, 10),
+            items: raw
+          }
+        ]
+      };
+    }
+
+    if (raw && Array.isArray(raw.days)) {
+      return raw;
+    }
+
+    return { days: [] };
+  } catch {
+    return { days: [] };
+  }
 }
 
 function saveHistory(history) {
   fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2));
 }
 
-function isDuplicate(history, title) {
-  return history.some(h =>
-    (h.title || "").toLowerCase().trim() ===
-    (title || "").toLowerCase().trim()
-  );
+function getHistoryTitles(history) {
+  const titles = new Set();
+
+  for (const day of history.days || []) {
+    for (const item of day.items || []) {
+      if (item && item.title) {
+        titles.add(String(item.title).toLowerCase().trim());
+      }
+    }
+  }
+
+  return titles;
 }
 
-function updateHistory(history, items) {
-  const today = new Date();
+function updateHistory(history, items, date) {
+  const nextDays = Array.isArray(history.days) ? [...history.days] : [];
 
-  const cleanedHistory = history.filter(item => {
-    const diff = (today - new Date(item.date)) / (1000 * 60 * 60 * 24);
-    return diff < 7;
+  nextDays.unshift({
+    date,
+    items: items.map(item => ({
+      title: item.title,
+      source_name: item.source_name || "",
+      source_url: item.source_url || "",
+      category: item.category || ""
+    }))
   });
 
-  const newEntries = items.map(item => ({
-    title: item.title,
-    date: today.toISOString()
-  }));
+  const trimmed = nextDays.slice(0, 7);
 
-  saveHistory([...cleanedHistory, ...newEntries]);
+  return { days: trimmed };
 }
 
 async function run() {
   const history = loadHistory();
+  const existingTitles = getHistoryTitles(history);
 
   const prompt = `
 Genera un radar diario de novedades relevantes de IA en español.
@@ -94,7 +128,7 @@ No uses markdown.
     temperature: 0.3
   });
 
-  const content = response.choices[0].message.content;
+  const content = response.choices[0].message.content || "";
 
   const cleanedContent = content
     .replace(/^json\s*/i, "")
@@ -104,12 +138,14 @@ No uses markdown.
 
   const raw = JSON.parse(cleanedContent);
 
-  const dedupedItems = (raw.items || []).filter(
-    item => !isDuplicate(history, item.title)
-  );
+  const rawItems = Array.isArray(raw.items) ? raw.items : [];
 
-  const now = new Date();
-  const date = now.toISOString().slice(0, 10);
+  const dedupedItems = rawItems.filter(item => {
+    const title = String(item.title || "").toLowerCase().trim();
+    return title && !existingTitles.has(title);
+  });
+
+  const date = new Date().toISOString().slice(0, 10);
 
   const cleaned = {
     date,
@@ -120,7 +156,8 @@ No uses markdown.
 
   fs.writeFileSync(DAILY_FILE, JSON.stringify(cleaned, null, 2));
 
-  updateHistory(history, dedupedItems);
+  const updatedHistory = updateHistory(history, dedupedItems, date);
+  saveHistory(updatedHistory);
 }
 
 run().catch(err => {
