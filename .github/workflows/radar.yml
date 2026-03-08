@@ -11,13 +11,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-      - name: Install Node
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install OpenAI
+      - name: Install deps
         run: npm install openai rss-parser --no-save
 
       - name: Generate radar
@@ -31,4 +33,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git add daily.json history.json
           git commit -m "update radar" || echo "no changes"
-          git push
+          git pull --rebase origin main
+          git push origin main
