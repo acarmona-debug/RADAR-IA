@@ -6,15 +6,12 @@ const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const parser = new Parser({
-  timeout: 15000
-});
+const parser = new Parser({ timeout: 15000 });
 
 const HISTORY_FILE = "history.json";
 const DAILY_FILE = "daily.json";
 
 const FEEDS = [
-  { source: "OpenAI News", url: "https://openai.com/news/" },
   { source: "Google AI", url: "https://blog.google/technology/ai/rss/" },
   { source: "Anthropic News", url: "https://www.anthropic.com/news/rss.xml" },
   { source: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml" }
@@ -38,11 +35,15 @@ function saveHistory(history) {
 
 function getHistoryLinks(history) {
   const links = new Set();
+
   for (const day of history.days || []) {
     for (const item of day.items || []) {
-      if (item.source_url) links.add(String(item.source_url).trim());
+      if (item && item.source_url) {
+        links.add(String(item.source_url).trim());
+      }
     }
   }
+
   return links;
 }
 
@@ -51,7 +52,7 @@ function updateHistory(history, items, date) {
 
   nextDays.unshift({
     date,
-    items: items.map(item => ({
+    items: items.map((item) => ({
       title: item.title,
       source_name: item.source_name || "",
       source_url: item.source_url || "",
@@ -74,10 +75,6 @@ async function fetchFeedItems() {
 
   for (const feed of FEEDS) {
     try {
-      if (feed.url.endsWith("/news/")) {
-        continue;
-      }
-
       const parsed = await parser.parseURL(feed.url);
 
       for (const item of parsed.items || []) {
@@ -86,11 +83,11 @@ async function fetchFeedItems() {
           title: cleanText(item.title),
           source_url: item.link || item.guid || "",
           published_at: item.isoDate || item.pubDate || "",
-          summary: cleanText(item.contentSnippet || item.content || "")
+          summary: cleanText(item.contentSnippet || item.content || item.summary || "")
         });
       }
     } catch (err) {
-      console.error(Feed error: ${feed.source}, err.message);
+      console.error(`Feed error: ${feed.source}`, err.message);
     }
   }
 
@@ -101,7 +98,7 @@ function filterRecent(items) {
   const now = new Date();
   const maxAgeMs = 1000 * 60 * 60 * 72;
 
-  return items.filter(item => {
+  return items.filter((item) => {
     if (!item.title || !item.source_url) return false;
     if (!item.published_at) return true;
 
@@ -179,21 +176,17 @@ ${JSON.stringify(limited, null, 2)}
   const content = response.choices[0].message.content || "";
 
   const cleanedContent = content
-    .replace(/^json\s*/i, "")
-    .replace(/^\s*/i, "")
+    .replace(/^```json\s*/i, "")
+    .replace(/^```\s*/i, "")
     .replace(/\s*```$/i, "")
     .trim();
 
   const raw = JSON.parse(cleanedContent);
+  const rawItems = Array.isArray(raw.items) ? raw.items : [];
 
-  const date = new Date().toISOString().slice(0, 10);
-
-  const items = Array.isArray(raw.items) ? raw.items : [];
-
-  const cleaned = {
-    date,
-    intro_message: raw.intro_message || "Radar diario generado a partir de fuentes reales.",
-    items: items.map(item => ({
+  const cleanedItems = rawItems
+    .filter((item) => item && item.source_url)
+    .map((item) => ({
       title: item.title || "",
       summary: item.summary || "",
       category: item.category || "tool",
@@ -205,7 +198,14 @@ ${JSON.stringify(limited, null, 2)}
       what_changed: item.what_changed || "",
       why_it_matters: item.why_it_matters || "",
       sector_impact: item.sector_impact || ""
-    }))
+    }));
+
+  const date = new Date().toISOString().slice(0, 10);
+
+  const cleaned = {
+    date,
+    intro_message: raw.intro_message || "Radar diario generado a partir de fuentes reales.",
+    items: cleanedItems
   };
 
   fs.writeFileSync(DAILY_FILE, JSON.stringify(cleaned, null, 2));
@@ -214,7 +214,7 @@ ${JSON.stringify(limited, null, 2)}
   saveHistory(updatedHistory);
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.error(err);
   process.exit(1);
 });
