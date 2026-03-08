@@ -1,6 +1,59 @@
 {
   "days": [
     {
+      "date": "2026-03-08",
+      "items": [
+        {
+          "title": "Google Labs presenta nuevas funciones en Gemini",
+          "source_name": "TechCrunch",
+          "source_url": "https://techcrunch.com/google-labs-gemini-update",
+          "category": "model"
+        },
+        {
+          "title": "OpenAI lanza ChatGPT-4.5 con nuevas capacidades",
+          "source_name": "The Verge",
+          "source_url": "https://theverge.com/openai-chatgpt-4-5-launch",
+          "category": "model"
+        },
+        {
+          "title": "Claude de Anthropic mejora su alineación ética",
+          "source_name": "Wired",
+          "source_url": "https://wired.com/claude-ethical-alignment",
+          "category": "model"
+        },
+        {
+          "title": "Frameworks de agentes ganan popularidad en el desarrollo de IA",
+          "source_name": "AI Weekly",
+          "source_url": "https://aiweekly.com/agent-frameworks",
+          "category": "framework"
+        },
+        {
+          "title": "Nueva herramienta de IA para análisis de datos empresariales",
+          "source_name": "Forbes",
+          "source_url": "https://forbes.com/ai-data-analysis-tool",
+          "category": "tool"
+        },
+        {
+          "title": "Google Labs experimenta con IA generativa en publicidad",
+          "source_name": "AdAge",
+          "source_url": "https://adage.com/google-labs-ai-generative-ads",
+          "category": "labs"
+        },
+        {
+          "title": "Nuevas aplicaciones de IA en el sector salud",
+          "source_name": "HealthTech",
+          "source_url": "https://healthtech.com/ai-healthcare-applications",
+          "category": "sector"
+        },
+        {
+          "title": "Claude lanza una API para desarrolladores",
+          "source_name": "TechCrunch",
+          "source_url": "https://techcrunch.com/claude-api-launch",
+          "category": "tool"
+        }
+      ]
+    },
+    {
       "date": "2023-10-04",
       "items": [
         {

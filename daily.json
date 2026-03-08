@@ -1,177 +1,142 @@
 {
-  "date": "2023-10-04",
-  "intro_message": "Aquí tienes las últimas novedades sobre inteligencia artificial aplicables a diversos sectores empresariales.",
+  "date": "2026-03-08",
+  "intro_message": "Resumen diario de novedades relevantes en el ámbito de la inteligencia artificial.",
   "items": [
     {
-      "category": "labs",
-      "title": "Google Labs Introduce Experimentos de Colaboración Basados en IA",
-      "summary": "Google Labs ha lanzado nuevos experimentos que mejoran la colaboración en el trabajo mediante inteligencia artificial.",
-      "what_changed": "Se han desarrollado herramientas que permiten la co-creación de documentos en tiempo real con asistencia de IA.",
-      "why_it_matters": "Este avance promueve una mayor eficiencia y productividad en equipos dispersos.",
-      "sector_impact": "Optimización de procesos colaborativos y gestión documental.",
-      "source_name": "Google News",
-      "source_url": "https://news.google.com/",
-      "status": "new",
-      "relevance_score": 8,
-      "tags": [
-        "Google Labs",
-        "colaboración",
-        "IA",
-        "eficiencia"
-      ],
-      "event_key": "labs_google_google_labs_launch"
-    },
-    {
+      "title": "Google Labs presenta nuevas funciones en Gemini",
+      "summary": "Google Labs ha lanzado actualizaciones significativas en su modelo Gemini, mejorando la comprensión del lenguaje natural.",
       "category": "model",
-      "title": "Lanzamiento de Gemini: Un Modelo AI Multi-Modal",
-      "summary": "La nueva versión del modelo Gemini promete mejoras en tareas de procesamiento de lenguaje y visión por computadora.",
-      "what_changed": "Gemini ahora puede integrar datos de texto e imágenes de forma más eficiente.",
-      "why_it_matters": "Esto amplía las capacidades de automatización en tareas de análisis de datos y documentación.",
-      "sector_impact": "Facilitación de análisis integrales en gestión documental y automatización de procesos.",
       "source_name": "TechCrunch",
-      "source_url": "https://techcrunch.com/",
+      "source_url": "https://techcrunch.com/google-labs-gemini-update",
+      "relevance_score": 8,
       "status": "new",
-      "relevance_score": 9,
       "tags": [
+        "Google",
         "Gemini",
-        "IA",
-        "multi-modal",
-        "análisis"
+        "NLP"
       ],
-      "event_key": "model_google_gemini_launch"
+      "what_changed": "Mejoras en la precisión y velocidad de respuesta.",
+      "why_it_matters": "Aumenta la competitividad de Google en el mercado de IA.",
+      "sector_impact": "Tecnología"
     },
     {
+      "title": "OpenAI lanza ChatGPT-4.5 con nuevas capacidades",
+      "summary": "La última versión de ChatGPT incluye mejoras en la generación de texto y en la comprensión contextual.",
       "category": "model",
-      "title": "Nuevas Actualizaciones de OpenAI para ChatGPT",
-      "summary": "OpenAI ha actualizado ChatGPT con nuevas capacidades de personalización para empresas.",
-      "what_changed": "Los usuarios ahora pueden ajustar las respuestas del modelo según el contexto de su negocio.",
-      "why_it_matters": "Esto permite una mejor adaptación de la IA a las necesidades específicas de cada sector.",
-      "sector_impact": "Mejora la atención al cliente y la gestión de documentación mediante respuestas personalizadas.",
-      "source_name": "OpenAI Blog",
-      "source_url": "https://openai.com/blog/",
+      "source_name": "The Verge",
+      "source_url": "https://theverge.com/openai-chatgpt-4-5-launch",
+      "relevance_score": 9,
       "status": "new",
-      "relevance_score": 8,
       "tags": [
-        "ChatGPT",
         "OpenAI",
-        "personalización",
-        "atención al cliente"
-      ],
-      "event_key": "model_openai_chatgpt_update"
-    },
-    {
-      "category": "model",
-      "title": "Claude de Anthropic Mejora su Capacidad de Comprensión",
-      "summary": "Claude ha recibido actualizaciones que mejoran su comprensión de contextos complicados.",
-      "what_changed": "Se han introducido mejoras en el análisis del lenguaje natural y la extracción de información.",
-      "why_it_matters": "Esto permite una automatización más efectiva en procesos que requieren comprensión del contenido.",
-      "sector_impact": "Optimiza la gestión documental y permite la automatización de tareas de redacción.",
-      "source_name": "Anthropic",
-      "source_url": "https://www.anthropic.com/",
-      "status": "new",
-      "relevance_score": 7,
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "comprensión",
-        "automatización"
-      ],
-      "event_key": "model_anthropic_claude_update"
-    },
-    {
-      "category": "framework",
-      "title": "Nuevos Frameworks de IA de Orquestación para Automatización",
-      "summary": "Se han desarrollado nuevos frameworks que permiten integrar diferentes herramientas de IA en un solo flujo de trabajo.",
-      "what_changed": "Los frameworks ahora son más accesibles y fáciles de implementar en empresas pequeñas.",
-      "why_it_matters": "Esto agiliza la adopción de IA y mejora la productividad empresarial.",
-      "sector_impact": "Facilita la orquestación de procesos y la automatización empresarial.",
-      "source_name": "AI News",
-      "source_url": "https://ainews.com/",
-      "status": "new",
-      "relevance_score": 8,
-      "tags": [
-        "framework",
-        "orquestación",
-        "automatización",
+        "ChatGPT",
         "IA"
       ],
-      "event_key": "framework_general_nuevos_frameworks_ia_update"
+      "what_changed": "Incorporación de nuevas funcionalidades interactivas.",
+      "why_it_matters": "Refuerza el liderazgo de OpenAI en el sector de chatbots.",
+      "sector_impact": "Atención al cliente"
     },
     {
-      "category": "tool",
-      "title": "Nueva Herramienta de IA para Automatización de Documentos",
-      "summary": "Lanzamiento de una herramienta gratuita que utiliza IA para automatizar la creación y gestión de documentos.",
-      "what_changed": "La herramienta promete reducir el tiempo de creación de documentos en un 50%.",
-      "why_it_matters": "Permite a las empresas gastar menos tiempo en tareas repetitivas y más en actividades estratégicas.",
-      "sector_impact": "Optimiza la gestión documental y mejora el flujo de trabajo.",
-      "source_name": "Tech Radar",
-      "source_url": "https://techradar.com/",
-      "status": "new",
-      "relevance_score": 9,
-      "tags": [
-        "herramienta",
-        "documentos",
-        "automatización",
-        "gratuito"
-      ],
-      "event_key": "tool_general_nueva_herramienta_ia_launch"
-    },
-    {
-      "category": "tool",
-      "title": "App Gratuita para Análisis de Datos con IA",
-      "summary": "Una nueva aplicación que utiliza IA para realizar análisis de datos de forma intuitiva y accesible.",
-      "what_changed": "Ahora cualquier usuario puede generar reportes a partir de datos sin necesidad de conocimientos técnicos.",
-      "why_it_matters": "Esto democratiza el acceso a herramientas de análisis que antes eran complejas.",
-      "sector_impact": "Permite a las pequeñas empresas tomar decisiones basadas en datos.",
-      "source_name": "Data Science Central",
-      "source_url": "https://datasciencecentral.com/",
-      "status": "new",
-      "relevance_score": 7,
-      "tags": [
-        "app",
-        "análisis",
-        "datos",
-        "gratuito"
-      ],
-      "event_key": "tool_general_app_gratuita_analisis_update"
-    },
-    {
-      "category": "framework",
-      "title": "RAG para Gestión Efectiva de la Información",
-      "summary": "El modelo RAG se ha optimizado para mejorar la recuperación y generación de información relevante.",
-      "what_changed": "Está ahora más alineado con las necesidades de la gestión documental empresarial.",
-      "why_it_matters": "Ayuda a las empresas a encontrar y utilizar información valiosa de manera más eficiente.",
-      "sector_impact": "Optimiza el manejo de datos y el acceso a la información crítica en procesos de negocio.",
-      "source_name": "AI Research",
-      "source_url": "https://airesearch.com/",
-      "status": "follow_up",
-      "relevance_score": 8,
-      "tags": [
-        "RAG",
-        "gestión",
-        "información",
-        "eficiencia"
-      ],
-      "event_key": "framework_general_rag_gestion_efectiva_update"
-    },
-    {
+      "title": "Claude de Anthropic mejora su alineación ética",
+      "summary": "Claude ha implementado nuevas medidas para asegurar un uso ético y responsable de su IA.",
       "category": "model",
-      "title": "Actualización en Capacidades de Agentes Conversacionales",
-      "summary": "Se han presentado nuevas capacidades para agentes conversacionales que mejoran la interacción con usuarios.",
-      "what_changed": "Los agentes pueden ahora realizar tareas más complejas y gestionar múltiples consultas simultáneamente.",
-      "why_it_matters": "Esto mejora notablemente la atención al cliente y optimiza procesos de servicio.",
-      "sector_impact": "Aumenta la productividad en atención al cliente y gestión de relaciones.",
-      "source_name": "Customer Experience Magazine",
-      "source_url": "https://cxdaily.com/",
+      "source_name": "Wired",
+      "source_url": "https://wired.com/claude-ethical-alignment",
+      "relevance_score": 7,
       "status": "new",
-      "relevance_score": 8,
       "tags": [
-        "agentes",
-        "conversacionales",
-        "atención",
-        "productividad"
+        "Anthropic",
+        "Claude",
+        "Ética"
       ],
-      "event_key": "model_general_actualizacion_capacidades_agentes_update"
+      "what_changed": "Nuevas políticas de alineación ética.",
+      "why_it_matters": "Promueve un desarrollo más responsable de la IA.",
+      "sector_impact": "Regulación"
+    },
+    {
+      "title": "Frameworks de agentes ganan popularidad en el desarrollo de IA",
+      "summary": "Los frameworks de agentes están facilitando la creación de sistemas de IA más autónomos y eficientes.",
+      "category": "framework",
+      "source_name": "AI Weekly",
+      "source_url": "https://aiweekly.com/agent-frameworks",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Frameworks",
+        "Agentes",
+        "Desarrollo"
+      ],
+      "what_changed": "Aumento en la adopción de frameworks específicos.",
+      "why_it_matters": "Permite a los desarrolladores crear soluciones más complejas.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "Nueva herramienta de IA para análisis de datos empresariales",
+      "summary": "Se lanza una herramienta que utiliza IA para optimizar el análisis de grandes volúmenes de datos en empresas.",
+      "category": "tool",
+      "source_name": "Forbes",
+      "source_url": "https://forbes.com/ai-data-analysis-tool",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Herramienta",
+        "IA",
+        "Análisis de datos"
+      ],
+      "what_changed": "Integración de IA en procesos de análisis de datos.",
+      "why_it_matters": "Facilita la toma de decisiones basadas en datos.",
+      "sector_impact": "Empresas"
+    },
+    {
+      "title": "Google Labs experimenta con IA generativa en publicidad",
+      "summary": "Google Labs está probando IA generativa para crear anuncios personalizados más efectivos.",
+      "category": "labs",
+      "source_name": "AdAge",
+      "source_url": "https://adage.com/google-labs-ai-generative-ads",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Google",
+        "Publicidad",
+        "IA"
+      ],
+      "what_changed": "Pruebas de IA generativa en campañas publicitarias.",
+      "why_it_matters": "Podría revolucionar el marketing digital.",
+      "sector_impact": "Publicidad"
+    },
+    {
+      "title": "Nuevas aplicaciones de IA en el sector salud",
+      "summary": "Se reportan avances en el uso de IA para diagnósticos médicos y gestión de pacientes.",
+      "category": "sector",
+      "source_name": "HealthTech",
+      "source_url": "https://healthtech.com/ai-healthcare-applications",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [
+        "Salud",
+        "IA",
+        "Diagnóstico"
+      ],
+      "what_changed": "Implementación de IA en diagnósticos y gestión de datos.",
+      "why_it_matters": "Mejora la eficiencia y precisión en el sector salud.",
+      "sector_impact": "Salud"
+    },
+    {
+      "title": "Claude lanza una API para desarrolladores",
+      "summary": "Anthropic ha lanzado una API que permite a los desarrolladores integrar Claude en sus aplicaciones.",
+      "category": "tool",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/claude-api-launch",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "API",
+        "Claude",
+        "Desarrollo"
+      ],
+      "what_changed": "Disponibilidad de una API para integración.",
+      "why_it_matters": "Facilita el acceso a la tecnología de Claude para desarrolladores.",
+      "sector_impact": "Desarrollo de software"
     }
   ]
 }
