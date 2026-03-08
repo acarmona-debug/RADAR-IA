@@ -351,18 +351,56 @@ async function buildRadarWithAI(items) {
   const prompt = `
 Convierte estas notas REALES en un radar diario de IA en español.
 
+PRINCIPIO CENTRAL:
+El radar debe priorizar novedades con impacto real en herramientas, desarrollo de software, agentes, automatización, modelos y productividad empresarial.
+
+Prioriza fuertemente:
+
+- Lanzamientos de herramientas de IA
+- Nuevas features en productos de IA
+- Frameworks para agentes o LLM apps
+- SDKs, APIs, plataformas developer
+- Modelos nuevos o mejoras importantes
+- Integraciones relevantes
+- Startups o productos que cambian cómo se trabaja con IA
+- Infraestructura para construir apps o agentes
+
+También son válidas:
+
+- movimientos importantes de OpenAI, Google, Anthropic, Meta, Microsoft
+- avances que cambien el ecosistema developer o enterprise
+
+Descarta completamente:
+
+- noticias de política pública o gobierno
+- regulación o posicionamientos institucionales
+- investigación académica sin aplicación clara
+- publicaciones científicas sin impacto práctico
+- notas demasiado generales sobre "el futuro de la IA"
+- artículos de opinión
+- comunicados institucionales
+
+Solo incluye noticias que ayuden a entender:
+
+- nuevas herramientas
+- nuevos modelos
+- nuevas capacidades
+- nuevas formas de construir productos con IA
+
+Clasifica cada item en una sola categoría:
+
+labs | model | framework | tool | sector
+
 Reglas obligatorias:
-- Todo el texto final debe estar en español.
-- No inventes noticias.
-- No inventes links.
-- Usa únicamente la información dada.
-- Si algo no está claro, resume sin inventar detalles.
-- Prioriza utilidad para automatización, agentes, workflows, productividad, enterprise, tools y frameworks.
-- Si una nota parece investigación general sin aplicación clara al trabajo empresarial, descártala.
-- Clasifica cada item en una sola categoría:
-  labs | model | framework | tool | sector
+
+- Todo el texto final debe estar en español
+- No inventes noticias
+- No inventes links
+- Usa únicamente la información dada
+- Si algo no está claro, resume sin inventar
 
 Devuelve SOLO JSON válido con esta estructura:
+
 {
   "executive_title": "string",
   "intro_message": "string",
@@ -384,6 +422,11 @@ Devuelve SOLO JSON válido con esta estructura:
   ]
 }
 
+Máximo 8 items.
+
+Notas reales:
+${JSON.stringify(items.slice(0, 18), null, 2)}
+`;
 Máximo ${MAX_OUTPUT_ITEMS} items.
 
 Notas reales:
