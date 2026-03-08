@@ -1,0 +1,56 @@
+{
+  "days": [
+    {
+      "items": [
+        {
+          "title": "Luma lanza agentes creativos de IA impulsados por sus nuevos modelos ‘Inteligencia Unificada’",
+          "source_url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+          "published_at": "2026-03-05T18:11:36.000Z",
+          "summary": "Luma introdujo agentes que coordinan múltiples sistemas de IA para generar trabajos creativos en texto, imágenes, video y audio."
+        },
+        {
+          "title": "DiligenceSquared utiliza IA y agentes de voz para hacer la investigación M&A asequible",
+          "source_url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+          "published_at": "2026-03-05T23:14:04.000Z",
+          "summary": "La startup utiliza agentes de voz de IA para realizar entrevistas, eliminando la necesidad de costosos consultores."
+        },
+        {
+          "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+          "source_url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+          "published_at": "2026-03-06T17:56:07.000Z",
+          "summary": "Claude está viendo más nuevas instalaciones que ChatGPT, aumentando sus usuarios activos diarios."
+        },
+        {
+          "title": "Evaluando Habilidades",
+          "source_url": "https://blog.langchain.com/evaluating-skills/",
+          "published_at": "2026-03-05T18:00:49.000Z",
+          "summary": "LangChain está desarrollando habilidades para ayudar a agentes de codificación como Codex y Claude a trabajar en su ecosistema."
+        },
+        {
+          "title": "OpenAI retrasa nuevamente el ‘modo adulto’ de ChatGPT",
+          "source_url": "https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again/",
+          "published_at": "2026-03-07T17:28:41.000Z",
+          "summary": "El modo que dará acceso a contenido para adultos a usuarios verificados se ha retrasado otra vez."
+        },
+        {
+          "title": "Anthropic’s Claude encontró 22 vulnerabilidades en Firefox en dos semanas",
+          "source_url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+          "published_at": "2026-03-06T19:00:22.000Z",
+          "summary": "A través de una asociación con Mozilla, Claude identificó 22 vulnerabilidades, 14 de ellas de 'alta severidad'."
+        },
+        {
+          "title": "Microsoft, Google, Amazon dicen que Anthropic Claude sigue disponible para clientes no defensivos",
+          "source_url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+          "published_at": "2026-03-06T19:50:10.000Z",
+          "summary": "La disputa del Departamento de Defensa no afectará a otros clientes que utilizan Claude a través de productos de Microsoft y Google."
+        },
+        {
+          "title": "Ask a Techspert: ¿Cómo entiende la IA mis búsquedas visuales?",
+          "source_url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+          "published_at": "2026-03-05T18:00:00.000Z",
+          "summary": "Explorando cómo la IA de Google mejora las búsquedas visuales con métodos de distribución de consultas."
+        }
+      ]
+    }
+  ]
+}
