@@ -259,8 +259,29 @@ ${JSON.stringify(items.slice(0, MAX_INPUT_ITEMS), null, 2)}
   if (!raw) return buildFallbackRadar(items);
 
   const parsed = JSON.parse(extractJson(raw));
-  return parsed;
-}
+  return {
+    date: new Date().toISOString().slice(0, 10),
+    executive_title: parsed.executive_title || "Radar IA del día",
+    intro_message: parsed.intro_message || "Resumen automático del ecosistema de IA.",
+    opening_message: parsed.opening_message || "Estas son las señales más relevantes detectadas hoy.",
+    items: Array.isArray(parsed.items)
+      ? parsed.items.slice(0, MAX_OUTPUT_ITEMS).map(i => ({
+          title: i.title || "",
+          summary: i.summary || "",
+          category: ["labs", "model", "framework", "tool", "sector"].includes(i.category)
+            ? i.category
+            : "tool",
+          source_name: i.source_name || "",
+          source_url: i.source_url || "",
+          relevance_score: Number(i.relevance_score) || 7,
+          status: i.status || "new",
+          tags: Array.isArray(i.tags) ? i.tags : [],
+          what_changed: i.what_changed || "",
+          why_it_matters: i.why_it_matters || i.summary || "",
+          sector_impact: i.sector_impact || ""
+        }))
+      : []
+  };
 
 async function run() {
   console.log("Radar start");
