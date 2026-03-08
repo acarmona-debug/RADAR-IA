@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install deps
-        run: npm install openai
+      - name: Install OpenAI
+        run: npm install openai rss-parser --no-save
 
       - name: Generate radar
         run: node generate_radar.js
