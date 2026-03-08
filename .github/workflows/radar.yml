@@ -32,6 +32,6 @@ jobs:
           rm -rf node_modules package-lock.json
           git config --global user.name "radar-bot"
           git config --global user.email "bot@radar.ai"
-          git add daily.json
+          daily.json history.json
           git diff --cached --quiet || git commit -m "update radar"
           git push
