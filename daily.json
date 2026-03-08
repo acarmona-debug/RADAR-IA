@@ -1,7 +1,56 @@
 {
-  "date": "",
-  "executive_title": "",
-  "intro_message": "",
-  "opening_message": "",
-  "items": []
+  "date": "2026-03-08",
+  "executive_title": "Actualizaciones de IA de Google",
+  "intro_message": "Descubre las últimas herramientas y funcionalidades de IA que pueden mejorar tu productividad y flujos de trabajo.",
+  "opening_message": "A continuación, se presentan las novedades más relevantes en el ámbito de la inteligencia artificial.",
+  "items": [
+    {
+      "title": "Uso de Canvas en Modo IA",
+      "summary": "Canvas en Modo IA ahora está disponible para todos en EE. UU., ayudando a redactar documentos y construir herramientas interactivas.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+      "relevance_score": 14,
+      "status": "new",
+      "tags": [
+        "productividad",
+        "herramientas interactivas"
+      ],
+      "what_changed": "Disponibilidad ampliada de Canvas en Modo IA.",
+      "why_it_matters": "Facilita la creación de contenido y herramientas, mejorando la eficiencia en tareas diarias.",
+      "sector_impact": "Aumenta la productividad en entornos empresariales."
+    },
+    {
+      "title": "Cómo entiende Google AI mis búsquedas visuales",
+      "summary": "Información sobre el método de expansión de consultas en el Modo IA para búsquedas visuales.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "búsqueda visual",
+        "IA"
+      ],
+      "what_changed": "Explicación detallada del funcionamiento del Modo IA en búsquedas visuales.",
+      "why_it_matters": "Mejora la comprensión de cómo se procesan las búsquedas, lo que puede optimizar estrategias de marketing.",
+      "sector_impact": "Impacto en el sector de marketing y publicidad."
+    },
+    {
+      "title": "Últimas noticias de IA de Google en febrero",
+      "summary": "Actualizaciones sobre las últimas innovaciones en IA anunciadas por Google en febrero de 2026.",
+      "category": "sector",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+      "relevance_score": 2,
+      "status": "new",
+      "tags": [
+        "actualizaciones",
+        "IA"
+      ],
+      "what_changed": "Nuevas innovaciones y actualizaciones en el campo de la IA.",
+      "why_it_matters": "Mantenerse al día con las innovaciones es crucial para la competitividad empresarial.",
+      "sector_impact": "Relevante para todos los sectores que utilizan IA."
+    }
+  ]
 }
