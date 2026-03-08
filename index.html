@@ -3,833 +3,322 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Radar IA — Futuristic Command Center</title>
+  <title>Radar IA</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600;700&display=swap');
 
     :root{
-      --bg:#03050d;
-      --bg2:#071121;
-      --panel:rgba(8,15,29,.78);
-      --panel2:rgba(12,22,42,.82);
-      --card:rgba(12,24,46,.84);
-      --card2:rgba(18,33,64,.92);
-      --line:rgba(121,173,255,.16);
-      --line-strong:rgba(121,173,255,.30);
-      --text:#f4f8ff;
-      --muted:#aab7d8;
-      --soft:#7890c5;
-
-      --cyan:#2ed8ff;
-      --cyan2:#93f6ff;
-      --blue:#71a7ff;
-      --violet:#9d84ff;
-      --green:#42f0a4;
-      --orange:#ffb24f;
-      --yellow:#ffe56e;
-      --pink:#ff70d7;
-      --red:#ff6f87;
-
-      --glow-cyan:0 0 0 1px rgba(46,216,255,.10),0 0 30px rgba(46,216,255,.18),0 0 80px rgba(46,216,255,.10);
-      --glow-violet:0 0 0 1px rgba(157,132,255,.10),0 0 30px rgba(157,132,255,.18),0 0 80px rgba(157,132,255,.10);
-      --glow-green:0 0 0 1px rgba(66,240,164,.10),0 0 30px rgba(66,240,164,.18),0 0 80px rgba(66,240,164,.10);
-
-      --shadow-xl:0 36px 100px rgba(0,0,0,.50);
-      --shadow-lg:0 22px 50px rgba(0,0,0,.34);
-      --shadow-md:0 14px 26px rgba(0,0,0,.22);
+      --bg:#02040c; --border-2:rgba(117,167,255,.30); --border:rgba(117,167,255,.18);
+      --text:#f4f8ff; --muted:#acb9db; --soft:#7b93c8;
+      --cyan:#35d7ff; --cyan-2:#92f3ff; --violet:#9a86ff; --green:#48f0a5; --orange:#ffb14d; --pink:#ff6de1;
+      --glow-cyan:0 0 0 1px rgba(53,215,255,.10), 0 0 34px rgba(53,215,255,.18), 0 0 80px rgba(53,215,255,.10);
+      --shadow-xl:0 32px 90px rgba(0,0,0,.48); --shadow-lg:0 22px 56px rgba(0,0,0,.34); --shadow-md:0 14px 26px rgba(0,0,0,.22);
     }
-
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
+    *{box-sizing:border-box;margin:0;padding:0} html{scroll-behavior:smooth}
     body{
-      min-height:100vh;
-      color:var(--text);
-      font-family:'Inter',sans-serif;
+      min-height:100vh;font-family:'Inter',sans-serif;color:var(--text);
       background:
-        radial-gradient(circle at 10% -5%, rgba(46,216,255,.16), transparent 20%),
-        radial-gradient(circle at 96% 3%, rgba(157,132,255,.14), transparent 20%),
-        radial-gradient(circle at 50% 110%, rgba(66,240,164,.11), transparent 24%),
-        linear-gradient(180deg, #02040a 0%, #06101f 55%, #030813 100%);
+        radial-gradient(circle at 12% -4%, rgba(53,215,255,.16), transparent 18%),
+        radial-gradient(circle at 92% 2%, rgba(154,134,255,.14), transparent 20%),
+        radial-gradient(circle at 50% 110%, rgba(72,240,165,.10), transparent 22%),
+        linear-gradient(180deg, #02040b 0%, #06101f 55%, #040914 100%);
       overflow-x:hidden;
     }
-
-    body::before, body::after{
-      content:"";
-      position:fixed;
-      inset:0;
-      pointer-events:none;
-      z-index:0;
-    }
-
+    body::before, body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0}
     body::before{
-      background:
-        linear-gradient(rgba(255,255,255,.028) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.028) 1px, transparent 1px);
-      background-size:38px 38px;
-      opacity:.28;
-      mask-image:linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,.05));
+      background:linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      background-size:42px 42px; mask-image:linear-gradient(to bottom, rgba(0,0,0,.55), rgba(0,0,0,.06)); opacity:.34;
     }
-
     body::after{
-      background:
-        radial-gradient(760px 280px at 50% -8%, rgba(46,216,255,.14), transparent 70%),
-        radial-gradient(500px 220px at 100% 10%, rgba(157,132,255,.12), transparent 70%),
-        radial-gradient(500px 180px at 0% 100%, rgba(66,240,164,.08), transparent 70%);
-      filter:blur(24px);
-      opacity:.86;
+      background:radial-gradient(700px 280px at 50% -10%, rgba(53,215,255,.16), transparent 70%), radial-gradient(520px 240px at 100% 12%, rgba(154,134,255,.12), transparent 70%);
+      filter:blur(26px); opacity:.88;
     }
-
-    .app{
-      position:relative;
-      z-index:1;
-      max-width:1600px;
-      margin:0 auto;
-      padding:18px;
+    .app{position:relative;z-index:1;max-width:1580px;margin:0 auto;padding:22px}
+    .hero{
+      position:relative;overflow:hidden;border-radius:34px;border:1px solid var(--border-2);
+      background:linear-gradient(135deg, rgba(10,18,35,.92), rgba(7,15,31,.90) 55%, rgba(6,14,28,.96)),linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.015));
+      box-shadow:var(--shadow-xl), var(--glow-cyan); padding:30px; margin-bottom:18px; backdrop-filter:blur(18px); isolation:isolate;
     }
-
-    .frame{
-      position:relative;
-      border:1px solid var(--line-strong);
-      border-radius:34px;
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)),
-        linear-gradient(135deg, rgba(8,15,29,.92), rgba(5,10,20,.94));
-      box-shadow:var(--shadow-xl), var(--glow-cyan);
-      overflow:hidden;
+    .hero::before{content:"";position:absolute;width:460px;height:460px;right:-120px;top:-120px;background:radial-gradient(circle, rgba(53,215,255,.20), transparent 68%);filter:blur(16px);z-index:-1}
+    .hero::after{content:"";position:absolute;width:360px;height:360px;left:-90px;bottom:-140px;background:radial-gradient(circle, rgba(154,134,255,.18), transparent 68%);filter:blur(18px);z-index:-1}
+    .eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--cyan-2);margin-bottom:10px}
+    .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:24px;align-items:start}
+    .title{font-family:'Space Grotesk',sans-serif;font-size:60px;line-height:.92;letter-spacing:-2.4px;font-weight:800;margin-bottom:12px;text-shadow:0 0 26px rgba(53,215,255,.12)}
+    .subtitle{max-width:920px;color:var(--muted);font-size:15px;line-height:1.8}
+    .chip-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .chip{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:9px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.08);color:var(--muted);background:rgba(255,255,255,.04);backdrop-filter:blur(8px);box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 10px 18px rgba(0,0,0,.10)}
+    .chip.cyan{color:#b5fbff;border-color:rgba(53,215,255,.36);background:rgba(53,215,255,.15);box-shadow:0 0 20px rgba(53,215,255,.16)}
+    .chip.violet{color:#ede8ff;border-color:rgba(154,134,255,.34);background:rgba(154,134,255,.14);box-shadow:0 0 20px rgba(154,134,255,.16)}
+    .chip.green{color:#d3ffe9;border-color:rgba(72,240,165,.34);background:rgba(72,240,165,.14);box-shadow:0 0 20px rgba(72,240,165,.16)}
+    .chip.orange{color:#ffe8c7;border-color:rgba(255,177,77,.34);background:rgba(255,177,77,.14);box-shadow:0 0 20px rgba(255,177,77,.16)}
+    .metrics-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;perspective:1200px}
+    .metric{
+      position:relative;overflow:hidden;min-height:132px;border-radius:22px;padding:16px;border:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(53,215,255,.07), transparent 60%);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 18px 28px rgba(0,0,0,.26),0 28px 62px rgba(0,0,0,.20); transform:translateZ(0) rotateX(8deg);
     }
-
-    .frame::before{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:
-        linear-gradient(135deg, rgba(46,216,255,.04), transparent 34%, transparent 65%, rgba(157,132,255,.04)),
-        linear-gradient(180deg, rgba(255,255,255,.03), transparent 20%);
-      pointer-events:none;
-    }
-
-    .frame-corners span{
-      position:absolute;
-      width:34px;height:34px;
-      border-color:rgba(147,246,255,.55);
-      z-index:2;
-      opacity:.9;
-      filter:drop-shadow(0 0 10px rgba(46,216,255,.25));
-    }
-    .frame-corners .tl{top:14px;left:14px;border-top:2px solid;border-left:2px solid}
-    .frame-corners .tr{top:14px;right:14px;border-top:2px solid;border-right:2px solid}
-    .frame-corners .bl{bottom:14px;left:14px;border-bottom:2px solid;border-left:2px solid}
-    .frame-corners .br{bottom:14px;right:14px;border-bottom:2px solid;border-right:2px solid}
-
-    .top{
-      display:grid;
-      grid-template-columns:1.1fr .9fr;
-      gap:18px;
-      padding:22px;
-      border-bottom:1px solid rgba(255,255,255,.06);
-    }
-
-    .eyebrow{
-      font-family:'JetBrains Mono',monospace;
-      font-size:11px;
-      letter-spacing:2px;
-      text-transform:uppercase;
-      color:var(--cyan2);
-      margin-bottom:10px;
-    }
-
-    .title{
-      font-family:'Space Grotesk',sans-serif;
-      font-size:64px;
-      line-height:.9;
-      letter-spacing:-2.8px;
-      font-weight:800;
-      margin-bottom:12px;
-      text-shadow:0 0 30px rgba(46,216,255,.12);
-    }
-
-    .title .accent{color:var(--cyan2)}
-    .subtitle{
-      max-width:880px;
-      color:var(--muted);
-      font-size:14px;
-      line-height:1.76;
-    }
-
-    .system-row{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      margin-top:18px;
-    }
-
-    .system-tag{
-      padding:9px 13px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.04);
-      color:var(--muted);
-      font:10px 'JetBrains Mono',monospace;
-      letter-spacing:1px;
-      text-transform:uppercase;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 10px 16px rgba(0,0,0,.12);
-    }
-    .system-tag.cyan{color:#b8fbff;border-color:rgba(46,216,255,.34);background:rgba(46,216,255,.16);box-shadow:0 0 20px rgba(46,216,255,.16)}
-    .system-tag.violet{color:#ede8ff;border-color:rgba(157,132,255,.32);background:rgba(157,132,255,.15);box-shadow:0 0 20px rgba(157,132,255,.14)}
-    .system-tag.green{color:#d2ffe8;border-color:rgba(66,240,164,.32);background:rgba(66,240,164,.15);box-shadow:0 0 20px rgba(66,240,164,.14)}
-    .system-tag.orange{color:#ffe8ca;border-color:rgba(255,178,79,.32);background:rgba(255,178,79,.15);box-shadow:0 0 20px rgba(255,178,79,.14)}
-
-    .hud{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:12px;
-      align-content:start;
-      perspective:1200px;
-    }
-
-    .hud-card{
-      position:relative;
-      overflow:hidden;
-      min-height:132px;
-      border-radius:22px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(46,216,255,.07), transparent 60%);
-      padding:16px;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), var(--shadow-md);
-      transform:translateZ(0) rotateX(7deg);
-    }
-    .hud-card::before{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:linear-gradient(145deg, rgba(255,255,255,.11), transparent 24%, transparent 74%, rgba(46,216,255,.05));
-      pointer-events:none;
-    }
-    .hud-card::after{
-      content:"";
-      position:absolute;
-      right:-40px;bottom:-40px;
-      width:130px;height:130px;
-      background:radial-gradient(circle, rgba(46,216,255,.14), transparent 68%);
-      filter:blur(10px);
-    }
-    .hud-card.violet{
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(157,132,255,.08), transparent 60%);
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), var(--shadow-md), var(--glow-violet);
-    }
-    .hud-card.green{
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(66,240,164,.08), transparent 60%);
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), var(--shadow-md), var(--glow-green);
-    }
-    .hud-card.orange{
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(255,178,79,.08), transparent 60%);
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), var(--shadow-md);
-    }
-
-    .hud-k{font:10px 'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--soft);margin-bottom:8px}
-    .hud-v{font:800 32px/1 'Space Grotesk',sans-serif;letter-spacing:-1px;margin-bottom:8px}
-    .hud-s{color:var(--muted);font-size:12px;line-height:1.5}
-
-    .middle{
-      display:grid;
-      grid-template-columns:420px 1fr;
-      gap:18px;
-      padding:18px;
-      align-items:start;
-    }
-
-    .sidebar{
-      border:1px solid var(--line);
-      border-radius:28px;
-      background:
-        linear-gradient(180deg, rgba(10,18,36,.92), rgba(7,13,27,.95)),
-        linear-gradient(135deg, rgba(46,216,255,.03), transparent 60%);
-      box-shadow:var(--shadow-lg), inset 0 1px 0 rgba(255,255,255,.04);
-      min-height:100%;
-      overflow:hidden;
-    }
-
-    .section{
-      padding:20px;
-      border-bottom:1px solid rgba(255,255,255,.06);
-    }
-    .section:last-child{border-bottom:none}
-
-    .section-title{
-      font:11px 'JetBrains Mono',monospace;
-      letter-spacing:1.6px;
-      text-transform:uppercase;
-      color:var(--cyan2);
-      margin-bottom:12px;
-    }
-
+    .metric::before{content:"";position:absolute;inset:0;background:linear-gradient(150deg, rgba(255,255,255,.12), transparent 24%, transparent 74%, rgba(53,215,255,.05));pointer-events:none}
+    .metric::after{content:"";position:absolute;inset:auto -44px -44px auto;width:130px;height:130px;background:radial-gradient(circle, rgba(53,215,255,.14), transparent 68%);filter:blur(10px)}
+    .metric.violet{background:linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(154,134,255,.08), transparent 60%)}
+    .metric.green{background:linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(72,240,165,.08), transparent 60%)}
+    .metric.orange{background:linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(255,177,77,.08), transparent 60%)}
+    .metric-k{font:10px 'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--soft);margin-bottom:8px}
+    .metric-v{font:800 32px/1 'Space Grotesk',sans-serif;letter-spacing:-1px;margin-bottom:8px}
+    .metric-s{color:var(--muted);font-size:13px;line-height:1.55;max-width:92%}
+    .layout{display:grid;grid-template-columns:380px 1fr;gap:18px;align-items:start}
+    .panel,.content{background:linear-gradient(180deg, rgba(10,18,36,.86), rgba(7,14,28,.92));border:1px solid var(--border);border-radius:28px;box-shadow:var(--shadow-xl);backdrop-filter:blur(16px);overflow:hidden}
+    .section{padding:20px;border-bottom:1px solid rgba(255,255,255,.06)} .section:last-child{border-bottom:none}
+    .section-title{font:11px 'JetBrains Mono',monospace;letter-spacing:1.6px;text-transform:uppercase;color:var(--cyan-2);margin-bottom:12px}
     .stack{display:grid;gap:10px}
-
-    .micro{
-      border-radius:18px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(113,168,255,.05), transparent 60%);
-      padding:15px;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 14px 24px rgba(0,0,0,.16);
-    }
-
+    .micro{border-radius:18px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(113,168,255,.05), transparent 60%);padding:15px;box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 14px 24px rgba(0,0,0,.16)}
     .micro-k{font:10px 'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase;color:var(--soft);margin-bottom:6px}
     .micro-v{font:800 26px/1 'Space Grotesk',sans-serif;letter-spacing:-1px;margin-bottom:6px}
-    .micro-s{color:var(--muted);font-size:12px;line-height:1.45}
-
+    .micro-s{color:var(--muted);font-size:13px;line-height:1.5}
     .cloud{display:flex;flex-wrap:wrap;gap:8px}
-    .pill{
-      padding:8px 11px;
-      border-radius:12px;
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.04);
-      color:var(--muted);
-      font-size:11px;
-      box-shadow:0 10px 14px rgba(0,0,0,.10);
-    }
-
-    .content{
-      border:1px solid var(--line);
-      border-radius:28px;
-      background:
-        linear-gradient(180deg, rgba(10,18,36,.92), rgba(7,13,27,.95)),
-        linear-gradient(135deg, rgba(46,216,255,.03), transparent 60%);
-      box-shadow:var(--shadow-lg), inset 0 1px 0 rgba(255,255,255,.04);
-      overflow:hidden;
-    }
-
-    .summary-zone{
-      display:grid;
-      grid-template-columns:1.12fr .88fr;
-      gap:16px;
-      padding:20px;
-      border-bottom:1px solid rgba(255,255,255,.06);
-    }
-
+    .pill{padding:8px 11px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04);color:var(--muted);font-size:11px;box-shadow:0 10px 14px rgba(0,0,0,.10)}
+    .summary-zone{display:grid;grid-template-columns:1.12fr .88fr;gap:16px;padding:20px;border-bottom:1px solid rgba(255,255,255,.06)}
     .summary-card{
-      position:relative;
-      overflow:hidden;
-      border-radius:24px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(46,216,255,.08), transparent 52%);
-      padding:20px;
-      box-shadow:var(--shadow-md), var(--glow-cyan);
+      position:relative;overflow:hidden;border-radius:24px;border:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(53,215,255,.08), transparent 52%);
+      padding:20px;box-shadow:var(--shadow-md), var(--glow-cyan);
     }
     .summary-card.secondary{
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(255,112,215,.08), transparent 52%);
-      box-shadow:var(--shadow-md), 0 0 0 1px rgba(255,112,215,.08), 0 0 30px rgba(255,112,215,.12);
-      border-left:3px solid var(--pink);
+      background:linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(255,112,215,.08), transparent 52%);
+      box-shadow:var(--shadow-md), 0 0 0 1px rgba(255,112,215,.08), 0 0 30px rgba(255,112,215,.12); border-left:3px solid var(--pink);
     }
-
-    .summary-head{
-      font:800 34px/1.02 'Space Grotesk',sans-serif;
-      letter-spacing:-1.2px;
-      margin-bottom:10px;
-    }
-
-    .copy{
-      color:var(--muted);
-      font-size:14px;
-      line-height:1.74;
-    }
-
-    .signal-list{
-      display:grid;
-      gap:10px;
-      margin-top:16px;
-    }
-    .signal{
-      display:flex;
-      gap:10px;
-      align-items:flex-start;
-      color:var(--muted);
-      font-size:13px;
-      line-height:1.52;
-    }
-    .signal-dot{
-      width:10px;height:10px;border-radius:999px;flex:0 0 auto;margin-top:5px;
-      background:linear-gradient(180deg, var(--cyan), var(--cyan2));
-      box-shadow:0 0 22px rgba(46,216,255,.50);
-    }
-
-    .toolbar{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:12px;
-      flex-wrap:wrap;
-      padding:20px 22px 0;
-    }
-    .toolbar-title{
-      font:12px 'JetBrains Mono',monospace;
-      text-transform:uppercase;
-      letter-spacing:1.6px;
-      color:var(--cyan2);
-    }
-
-    .news-grid{
-      display:grid;
-      gap:16px;
-      padding:18px 22px 22px;
-    }
-
+    .summary-head{font:800 34px/1.02 'Space Grotesk',sans-serif;letter-spacing:-1.2px;margin-bottom:10px}
+    .copy{color:var(--muted);font-size:15px;line-height:1.82}
+    .signal-list{display:grid;gap:10px;margin-top:16px}
+    .signal{display:flex;gap:10px;align-items:flex-start;color:var(--muted);font-size:14px;line-height:1.56}
+    .signal-dot{width:10px;height:10px;border-radius:999px;flex:0 0 auto;margin-top:5px;background:linear-gradient(180deg, var(--cyan), var(--cyan-2));box-shadow:0 0 22px rgba(53,215,255,.50)}
+    .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:20px 22px 0}
+    .toolbar-title{font:12px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:1.6px;color:var(--cyan-2)}
+    .news-grid{display:grid;gap:16px;padding:18px 22px 22px}
     details.news-card{
-      position:relative;
-      overflow:hidden;
-      border-radius:24px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(180deg, rgba(15,28,54,.90), rgba(10,18,36,.97)),
-        linear-gradient(135deg, rgba(46,216,255,.06), transparent 44%);
-      box-shadow:var(--shadow-lg);
-      transition:.22s ease;
-      transform-style:preserve-3d;
+      position:relative;overflow:hidden;border-radius:24px;border:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg, rgba(15,28,54,.90), rgba(10,18,36,.97)),linear-gradient(135deg, rgba(53,215,255,.06), transparent 44%);
+      box-shadow:var(--shadow-lg);transition:.22s ease;transform-style:preserve-3d;
     }
-    details.news-card::before{
-      content:"";
-      position:absolute;
-      inset:0 auto 0 0;
-      width:4px;
-      background:linear-gradient(180deg, rgba(46,216,255,.92), rgba(157,132,255,.90), rgba(66,240,164,.86));
-      opacity:.56;
-    }
-    details.news-card::after{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:linear-gradient(150deg, rgba(255,255,255,.08), transparent 22%, transparent 70%, rgba(46,216,255,.05));
-      pointer-events:none;
-    }
-    details.news-card:hover{
-      transform:translateY(-4px);
-      background:
-        linear-gradient(180deg, rgba(19,36,70,.96), rgba(11,20,39,.98)),
-        linear-gradient(135deg, rgba(46,216,255,.10), transparent 44%);
-      border-color:rgba(46,216,255,.22);
-      box-shadow:0 26px 60px rgba(0,0,0,.34), var(--glow-cyan);
-    }
-    details[open].news-card{
-      border-color:rgba(46,216,255,.26);
-      box-shadow:0 26px 60px rgba(0,0,0,.34), var(--glow-cyan);
-    }
-
-    summary{list-style:none;cursor:pointer;padding:20px}
-    summary::-webkit-details-marker{display:none}
-
-    .news-top{
-      display:grid;
-      grid-template-columns:auto 1fr auto;
-      gap:16px;
-      align-items:start;
-    }
-
-    .badge{
-      font:10px 'JetBrains Mono',monospace;
-      letter-spacing:1px;
-      text-transform:uppercase;
-      white-space:nowrap;
-      padding:8px 11px;
-      border-radius:999px;
-      border:1px solid transparent;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.08);
-    }
-    .labs{color:#bafcff;background:rgba(46,216,255,.16);border-color:rgba(46,216,255,.30);box-shadow:0 0 18px rgba(46,216,255,.16)}
-    .model{color:#efe9ff;background:rgba(157,132,255,.16);border-color:rgba(157,132,255,.30);box-shadow:0 0 18px rgba(157,132,255,.16)}
-    .framework{color:#d7ffea;background:rgba(66,240,164,.16);border-color:rgba(66,240,164,.30);box-shadow:0 0 18px rgba(66,240,164,.16)}
+    details.news-card::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(180deg, rgba(53,215,255,.92), rgba(154,134,255,.90), rgba(72,240,165,.86));opacity:.56}
+    details.news-card::after{content:"";position:absolute;inset:0;background:linear-gradient(150deg, rgba(255,255,255,.08), transparent 22%, transparent 70%, rgba(53,215,255,.05));pointer-events:none}
+    details.news-card:hover{transform:translateY(-4px);background:linear-gradient(180deg, rgba(19,36,70,.96), rgba(11,20,39,.98)),linear-gradient(135deg, rgba(53,215,255,.10), transparent 44%);border-color:rgba(53,215,255,.22);box-shadow:0 26px 60px rgba(0,0,0,.34), var(--glow-cyan)}
+    details[open].news-card{border-color:rgba(53,215,255,.26);box-shadow:0 26px 60px rgba(0,0,0,.34), var(--glow-cyan)}
+    summary{list-style:none;cursor:pointer;padding:20px} summary::-webkit-details-marker{display:none}
+    .news-top{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:start}
+    .badge{font:10px 'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase;white-space:nowrap;padding:8px 11px;border-radius:999px;border:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+    .labs{color:#bafcff;background:rgba(53,215,255,.16);border-color:rgba(53,215,255,.30);box-shadow:0 0 18px rgba(53,215,255,.16)}
+    .model{color:#efe9ff;background:rgba(154,134,255,.16);border-color:rgba(154,134,255,.30);box-shadow:0 0 18px rgba(154,134,255,.16)}
+    .framework{color:#d7ffea;background:rgba(72,240,165,.16);border-color:rgba(72,240,165,.30);box-shadow:0 0 18px rgba(72,240,165,.16)}
     .tool{color:#ffe9ca;background:rgba(255,178,79,.16);border-color:rgba(255,178,79,.30);box-shadow:0 0 18px rgba(255,178,79,.16)}
     .sector{color:#fff6ca;background:rgba(255,229,110,.16);border-color:rgba(255,229,110,.30);box-shadow:0 0 18px rgba(255,229,110,.16)}
-
-    .headline h3{
-      font:800 22px/1.23 'Inter',sans-serif;
-      letter-spacing:-.5px;
-      margin-bottom:6px;
-    }
-    .headline p{
-      color:var(--muted);
-      font-size:13px;
-      line-height:1.6;
-      max-width:980px;
-    }
-
-    .state{
-      display:grid;
-      justify-items:end;
-      text-align:right;
-      gap:7px;
-    }
-    .status{
-      font:10px 'JetBrains Mono',monospace;
-      text-transform:uppercase;
-      letter-spacing:1px;
-      padding:8px 10px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.05);
-      box-shadow:0 10px 18px rgba(0,0,0,.10);
-    }
-    .score{
-      font-size:12px;
-      color:var(--cyan2);
-      font-weight:700;
-      text-shadow:0 0 18px rgba(46,216,255,.18);
-    }
-
-    .news-body{
-      padding:0 20px 20px;
-      display:grid;
-      gap:14px;
-    }
-
-    .news-meta{
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
-    }
-    .mini-chip{
-      padding:7px 10px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.04);
-      color:var(--muted);
-      font-size:11px;
-      box-shadow:0 10px 18px rgba(0,0,0,.08);
-    }
-
-    .subgrid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:14px;
-    }
-    .subcard{
-      border-radius:18px;
-      padding:16px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(113,168,255,.05), transparent 55%);
-      box-shadow:
-        inset 0 1px 0 rgba(255,255,255,.05),
-        0 16px 28px rgba(0,0,0,.16);
-    }
-
-    .subcard h4,.impact h4{
-      font:11px 'JetBrains Mono',monospace;
-      text-transform:uppercase;
-      letter-spacing:1.2px;
-      color:var(--cyan2);
-      margin-bottom:8px;
-    }
-    .subcard p,.impact p{
-      color:var(--muted);
-      font-size:13px;
-      line-height:1.66;
-    }
-
-    .impact{
-      border-radius:18px;
-      padding:18px;
-      border:1px solid rgba(255,255,255,.08);
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
-        linear-gradient(135deg, rgba(66,240,164,.08), transparent 55%);
-      box-shadow:
-        inset 0 1px 0 rgba(255,255,255,.05),
-        0 18px 30px rgba(0,0,0,.18),
-        0 0 0 1px rgba(66,240,164,.08),
-        0 0 24px rgba(66,240,164,.10);
-    }
-
-    .action-row{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:12px;
-      flex-wrap:wrap;
-    }
-
-    .inline-note{
-      color:var(--soft);
-      font-size:12px;
-      line-height:1.5;
-    }
-
+    .headline h3{font:800 22px/1.23 'Inter',sans-serif;letter-spacing:-.5px;margin-bottom:6px}
+    .headline p{color:var(--muted);font-size:14px;line-height:1.64;max-width:980px}
+    .state{display:grid;justify-items:end;text-align:right;gap:7px}
+    .status{font:10px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:1px;padding:8px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);box-shadow:0 10px 18px rgba(0,0,0,.10)}
+    .score{font-size:13px;color:var(--cyan-2);font-weight:700;text-shadow:0 0 18px rgba(53,215,255,.18)}
+    .news-body{padding:0 20px 20px;display:grid;gap:14px}
+    .news-meta{display:flex;gap:8px;flex-wrap:wrap}
+    .mini-chip{padding:7px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04);color:var(--muted);font-size:11px;box-shadow:0 10px 18px rgba(0,0,0,.08)}
+    .subgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .subcard{border-radius:18px;padding:16px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(113,168,255,.05), transparent 55%);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 16px 28px rgba(0,0,0,.16)}
+    .subcard h4,.impact h4{font:11px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:1.2px;color:var(--cyan-2);margin-bottom:8px}
+    .subcard p,.impact p{color:var(--muted);font-size:14px;line-height:1.7}
+    .impact{border-radius:18px;padding:18px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),linear-gradient(135deg, rgba(72,240,165,.08), transparent 55%);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 30px rgba(0,0,0,.18),0 0 0 1px rgba(72,240,165,.08),0 0 24px rgba(72,240,165,.10)}
+    .action-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .inline-note{color:var(--soft);font-size:13px;line-height:1.52}
     .btn-row{display:flex;gap:10px;flex-wrap:wrap}
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      text-decoration:none;
-      padding:12px 16px;
-      border-radius:14px;
-      border:1px solid rgba(255,255,255,.08);
-      background:rgba(255,255,255,.05);
-      color:var(--text);
-      font-size:13px;
-      transition:.2s ease;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.05), 0 14px 24px rgba(0,0,0,.16);
-    }
-    .btn:hover{
-      transform:translateY(-1px);
-      border-color:rgba(46,216,255,.26);
-      background:rgba(46,216,255,.10);
-      box-shadow:var(--glow-cyan);
-    }
-    .btn.primary{
-      color:#04111d;
-      font-weight:800;
-      border-color:transparent;
-      background:linear-gradient(90deg, var(--cyan), var(--cyan2));
-      box-shadow:0 14px 32px rgba(46,216,255,.24);
-    }
-
-    .empty{
-      border-radius:20px;
-      border:1px dashed rgba(255,255,255,.10);
-      padding:18px;
-      color:var(--muted);
-      background:rgba(255,255,255,.03);
-    }
-
-    @media (max-width:1200px){
-      .top,.middle,.summary-zone,.subgrid,.news-top{grid-template-columns:1fr}
-      .state{justify-items:start;text-align:left}
-    }
-
-    @media (max-width:760px){
-      body{padding:14px}
-      .app{padding:0}
-      .title{font-size:44px}
-      .hud{grid-template-columns:1fr}
-      .frame,.sidebar,.content{border-radius:24px}
-    }
+    .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;padding:12px 16px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);color:var(--text);font-size:13px;transition:.2s ease;box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 14px 24px rgba(0,0,0,.16)}
+    .btn:hover{transform:translateY(-1px);border-color:rgba(53,215,255,.26);background:rgba(53,215,255,.10);box-shadow:var(--glow-cyan)}
+    .btn.primary{color:#04111d;font-weight:800;border-color:transparent;background:linear-gradient(90deg, var(--cyan), var(--cyan-2));box-shadow:0 14px 32px rgba(53,215,255,.24)}
+    .empty{border-radius:20px;border:1px dashed rgba(255,255,255,.10);padding:18px;color:var(--muted);background:rgba(255,255,255,.03);font-size:14px}
+    @media (max-width:1200px){.hero-grid,.layout,.summary-zone,.subgrid,.news-top{grid-template-columns:1fr}.state{justify-items:start;text-align:left}}
+    @media (max-width:760px){body{padding:14px}.app{padding:0}.title{font-size:44px}.metrics-grid{grid-template-columns:1fr}.hero,.panel,.content{border-radius:24px}}
   </style>
 </head>
 <body>
   <div class="app">
-    <div class="frame">
-      <div class="frame-corners">
-        <span class="tl"></span><span class="tr"></span><span class="bl"></span><span class="br"></span>
-      </div>
-
-      <section class="top">
+    <header class="hero">
+      <div class="eyebrow"></div>
+      <div class="hero-grid">
         <div>
-          <div class="eyebrow">Radar IA · command center futurista</div>
-          <h1 class="title">RADAR <span class="accent">IA</span></h1>
-          <p class="subtitle">
-            Monitoreo diario de labs, modelos, frameworks, tools y señales aplicables a automatización, procesos y trabajo empresarial. Esta versión cambia la composición completa: menos dashboard elegante, más centro de comando tech.
-          </p>
-          <div class="system-row">
-            <span class="system-tag cyan" id="chipDate">Cargando fecha</span>
-            <span class="system-tag violet">Gemini · GPT · Claude</span>
-            <span class="system-tag green">Frameworks · Agents</span>
-            <span class="system-tag orange">Tools · Apps</span>
+          <h1 class="title">RADAR IA</h1>
+          <p class="subtitle">Monitoreo diario de labs, modelos, frameworks, tools y señales aplicables a automatización, procesos y trabajo empresarial.</p>
+          <div class="chip-row">
+            <span class="chip cyan" id="chipDate">Cargando fecha</span>
+            <span class="chip violet">Gemini · GPT · Claude</span>
+            <span class="chip green">Frameworks · Agents</span>
+            <span class="chip orange">Tools · Apps</span>
           </div>
         </div>
+        <div class="metrics-grid">
+          <div class="metric"><div class="metric-k">Novedades totales</div><div class="metric-v" id="metricTotal">0</div><div class="metric-s">Cantidad total de hallazgos cargados hoy en el radar.</div></div>
+          <div class="metric violet"><div class="metric-k">Alta relevancia</div><div class="metric-v" id="metricHigh">0</div><div class="metric-s">Notas con prioridad alta para seguimiento inmediato.</div></div>
+          <div class="metric green"><div class="metric-k">Labs + Models</div><div class="metric-v" id="metricCore">0</div><div class="metric-s">Señales clave de laboratorios y modelos principales detectadas hoy.</div></div>
+          <div class="metric orange"><div class="metric-k">Tools + Frameworks</div><div class="metric-v" id="metricBuild">0</div><div class="metric-s">Hallazgos más útiles para construir, automatizar y aplicar.</div></div>
+        </div>
+      </div>
+    </header>
 
-        <div class="hud">
-          <div class="hud-card">
-            <div class="hud-k">Novedades totales</div>
-            <div class="hud-v" id="metricTotal">0</div>
-            <div class="hud-s">Cantidad total de hallazgos cargados hoy en el radar.</div>
-          </div>
-          <div class="hud-card violet">
-            <div class="hud-k">Alta relevancia</div>
-            <div class="hud-v" id="metricHigh">0</div>
-            <div class="hud-s">Notas con prioridad fuerte para seguimiento inmediato.</div>
-          </div>
-          <div class="hud-card green">
-            <div class="hud-k">Labs + Models</div>
-            <div class="hud-v" id="metricCore">0</div>
-            <div class="hud-s">Señales núcleo del ecosistema principal detectadas hoy.</div>
-          </div>
-          <div class="hud-card orange">
-            <div class="hud-k">Tools + Frameworks</div>
-            <div class="hud-v" id="metricBuild">0</div>
-            <div class="hud-s">Hallazgos más aplicables a construir y automatizar.</div>
+    <main class="layout">
+      <aside class="panel sidebar">
+        <div class="section">
+          <div class="section-title">Panel rápido ampliado</div>
+          <div class="stack">
+            <div class="micro"><div class="micro-k">Última fecha</div><div class="micro-v" id="sideDate">—</div><div class="micro-s">Fecha efectiva del radar actualmente desplegado.</div></div>
+            <div class="micro"><div class="micro-k">Promedio relevancia</div><div class="micro-v" id="sideAvg">0.0</div><div class="micro-s">Media del score de relevancia entre las notas del día.</div></div>
+            <div class="micro"><div class="micro-k">Dominante hoy</div><div class="micro-v" id="sideDominant">—</div><div class="micro-s">Categoría con mayor peso en la carga diaria.</div></div>
+            <div class="micro"><div class="micro-k">Seguimientos</div><div class="micro-v" id="sideFollow">0</div><div class="micro-s">Items marcados como seguimiento frente a novedades nuevas.</div></div>
+            <div class="micro"><div class="micro-k">Fuentes únicas</div><div class="micro-v" id="sideSources">0</div><div class="micro-s">Número de fuentes distintas presentes hoy en el tablero.</div></div>
+            <div class="micro"><div class="micro-k">Intensidad del radar</div><div class="micro-v" id="sideIntensity">—</div><div class="micro-s">Lectura rápida del nivel general del día según volumen y relevancia.</div></div>
           </div>
         </div>
+        <div class="section">
+          <div class="section-title">Cobertura</div>
+          <div class="cloud">
+            <span class="pill">Labs</span><span class="pill">Modelos</span><span class="pill">Frameworks</span><span class="pill">Tools</span><span class="pill">Sector</span><span class="pill">Automatización</span>
+          </div>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div class="summary-zone">
+          <article class="summary-card">
+            <div class="eyebrow">Resumen ejecutivo</div>
+            <h2 class="summary-head" id="executiveTitle">Resumen ejecutivo del día</h2>
+            <p class="copy" id="introText">Cargando resumen…</p>
+            <div class="signal-list">
+              <div class="signal"><span class="signal-dot"></span><span>Agrupado por evento y no por medio.</span></div>
+              <div class="signal"><span class="signal-dot"></span><span>Links integrados dentro de cada tarjeta.</span></div>
+              <div class="signal"><span class="signal-dot"></span><span>Métricas enfocadas en hallazgos reales del radar.</span></div>
+            </div>
+          </article>
+
+          <article class="summary-card secondary">
+            <div class="eyebrow">Apertura</div>
+            <p class="copy" id="friendlyIntro">Cargando apertura…</p>
+          </article>
+        </div>
+
+        <div class="toolbar">
+          <div class="toolbar-title">Novedades del día</div>
+          <div class="chip-row" style="margin-top:0"><span class="chip cyan" id="countChip">0 ítems</span></div>
+        </div>
+
+        <div class="news-grid" id="newsContainer">
+          <div class="empty">Cargando radar…</div>
+        </div>
       </section>
-
-      <section class="middle">
-        <aside class="sidebar">
-          <div class="section">
-            <div class="section-title">Panel rápido ampliado</div>
-            <div class="stack">
-              <div class="micro">
-                <div class="micro-k">Última fecha</div>
-                <div class="micro-v" id="sideDate">—</div>
-                <div class="micro-s">Fecha efectiva del radar actualmente desplegado.</div>
-              </div>
-              <div class="micro">
-                <div class="micro-k">Promedio relevancia</div>
-                <div class="micro-v" id="sideAvg">0.0</div>
-                <div class="micro-s">Media del score de relevancia entre las notas del día.</div>
-              </div>
-              <div class="micro">
-                <div class="micro-k">Dominante hoy</div>
-                <div class="micro-v" id="sideDominant">—</div>
-                <div class="micro-s">Categoría con mayor peso en la carga diaria.</div>
-              </div>
-              <div class="micro">
-                <div class="micro-k">Seguimientos</div>
-                <div class="micro-v" id="sideFollow">0</div>
-                <div class="micro-s">Items marcados como seguimiento frente a novedades nuevas.</div>
-              </div>
-              <div class="micro">
-                <div class="micro-k">Fuentes únicas</div>
-                <div class="micro-v" id="sideSources">0</div>
-                <div class="micro-s">Número de fuentes distintas presentes hoy en el tablero.</div>
-              </div>
-              <div class="micro">
-                <div class="micro-k">Intensidad del radar</div>
-                <div class="micro-v" id="sideIntensity">—</div>
-                <div class="micro-s">Lectura rápida del nivel general del día según volumen y relevancia.</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="section">
-            <div class="section-title">Cobertura</div>
-            <div class="cloud">
-              <span class="pill">Labs</span>
-              <span class="pill">Modelos</span>
-              <span class="pill">Frameworks</span>
-              <span class="pill">Tools</span>
-              <span class="pill">Sector</span>
-              <span class="pill">Automatización</span>
-            </div>
-          </div>
-        </aside>
-
-        <section class="content">
-          <div class="summary-zone">
-            <article class="summary-card">
-              <div class="eyebrow">Resumen ejecutivo</div>
-              <h2 class="summary-head">Menos HTML, más consola viva.</h2>
-              <p class="copy" id="introText">Cargando resumen…</p>
-
-              <div class="signal-list">
-                <div class="signal"><span class="signal-dot"></span><span>Agrupado por evento y no por medio.</span></div>
-                <div class="signal"><span class="signal-dot"></span><span>Links integrados dentro de cada tarjeta.</span></div>
-                <div class="signal"><span class="signal-dot"></span><span>Métricas superiores y laterales enfocadas en hallazgos reales.</span></div>
-              </div>
-            </article>
-
-            <article class="summary-card secondary">
-              <div class="eyebrow">Apertura</div>
-              <p class="copy" id="friendlyIntro">
-                Hoy el radar se ve y se siente como un centro de comando. Si hubo movimiento real en labs, modelos o herramientas útiles, abajo lo verás con más energía, profundidad y peso visual.
-              </p>
-            </article>
-          </div>
-
-          <div class="toolbar">
-            <div class="toolbar-title">Novedades del día</div>
-            <div class="system-row" style="margin-top:0">
-              <span class="system-tag cyan" id="countChip">0 ítems</span>
-            </div>
-          </div>
-
-          <div class="news-grid" id="newsContainer">
-            <div class="empty">Cargando radar…</div>
-          </div>
-        </section>
-      </section>
-    </div>
+    </main>
   </div>
 
- <script>
-async function loadRadar() {
-  try {
-    const res = await fetch("daily.json?" + Date.now());
-    const data = await res.json();
+  <script>
+    function safe(v, fallback="Sin dato"){ return (v!==undefined && v!==null && String(v).trim()!=="") ? String(v) : fallback; }
+    function categoryLabel(category){ const map={labs:"Labs",model:"Modelo",framework:"Framework",tool:"Tool",sector:"Sector"}; return map[category] || "Nota"; }
+    function statusLabel(status){ return status==="follow_up" ? "Seguimiento" : "Nuevo"; }
+    function average(arr){ if(!arr.length) return 0; return arr.reduce((a,b)=>a+b,0)/arr.length; }
+    function dominantCategory(items){ if(!items.length) return "—"; const counts={}; items.forEach(i=>{const key=i.category||"tool"; counts[key]=(counts[key]||0)+1;}); const best=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0]?.[0]; return categoryLabel(best); }
+    function intensityLabel(total, avg){ if(total>=12 && avg>=8.2) return "Alta"; if(total>=8 && avg>=7.2) return "Media"; if(total>0) return "Ligera"; return "Vacía"; }
 
-    const dateBox = document.getElementById("radarDate");
-    const intro = document.getElementById("introText");
-    const opening = document.getElementById("friendlyIntro");
-    const executiveTitle = document.getElementById("executiveTitle");
+    function buildCard(item, index){
+      const category = safe(item.category, "tool").toLowerCase();
+      const tags = Array.isArray(item.tags) ? item.tags : [];
+      const el = document.createElement("details");
+      el.className = "news-card";
+      if(index===0) el.open = true;
 
-    if (dateBox) {
-      dateBox.textContent = data.date || "Sin fecha";
+      el.innerHTML = `
+        <summary>
+          <div class="news-top">
+            <span class="badge ${category}">${categoryLabel(category)}</span>
+            <div class="headline">
+              <h3>${safe(item.title)}</h3>
+              <p>${safe(item.summary)}</p>
+            </div>
+            <div class="state">
+              <span class="status">${statusLabel(item.status)}</span>
+              <div class="score">Relevancia · ${item.relevance_score ?? "—"}</div>
+            </div>
+          </div>
+        </summary>
+
+        <div class="news-body">
+          <div class="news-meta">
+            <span class="mini-chip">Fuente · ${safe(item.source_name, "Fuente")}</span>
+            <span class="mini-chip">Tipo · ${categoryLabel(category)}</span>
+            ${tags.map(t => `<span class="mini-chip">${t}</span>`).join("")}
+          </div>
+
+          <div class="subgrid">
+            <div class="subcard">
+              <h4>Qué cambió</h4>
+              <p>${safe(item.what_changed, item.summary)}</p>
+            </div>
+            <div class="subcard">
+              <h4>Por qué importa</h4>
+              <p>${safe(item.why_it_matters, "Relevancia detectada por el radar.")}</p>
+            </div>
+          </div>
+
+          <div class="impact">
+            <h4>Impacto para tu sector</h4>
+            <p>${safe(item.sector_impact, "Aplicación potencial en procesos, automatización o trabajo empresarial.")}</p>
+          </div>
+
+          <div class="action-row">
+            <div class="inline-note">Fuente integrada dentro de la tarjeta.</div>
+            <div class="btn-row">
+              <a class="btn primary" href="${safe(item.source_url, "#")}" target="_blank" rel="noopener noreferrer">Abrir fuente</a>
+              <a class="btn" href="${safe(item.source_url, "#")}" target="_blank" rel="noopener noreferrer">Ver referencia</a>
+            </div>
+          </div>
+        </div>`;
+      return el;
     }
 
-    if (executiveTitle) {
-      executiveTitle.textContent =
-        data.executive_title || "Resumen ejecutivo del día";
+    async function loadRadar(){
+      const container = document.getElementById("newsContainer");
+      try{
+        const res = await fetch("daily.json?t=" + Date.now());
+        const data = await res.json();
+        const items = Array.isArray(data.items) ? data.items : [];
+
+        const total = items.length;
+        const high = items.filter(i => Number(i.relevance_score || 0) >= 8.5).length;
+        const core = items.filter(i => ["labs","model"].includes(i.category)).length;
+        const build = items.filter(i => ["framework","tool"].includes(i.category)).length;
+        const avg = average(items.map(i => Number(i.relevance_score || 0)));
+        const follow = items.filter(i => i.status === "follow_up").length;
+        const sources = new Set(items.map(i => safe(i.source_name, "Fuente"))).size;
+
+        document.getElementById("chipDate").textContent = data.date || "Sin fecha";
+        document.getElementById("executiveTitle").textContent = data.executive_title || "Resumen ejecutivo del día";
+        document.getElementById("introText").textContent = data.intro_message || "Sin resumen disponible.";
+        document.getElementById("friendlyIntro").textContent = data.opening_message || "Radar diario con las novedades más relevantes de IA.";
+        document.getElementById("metricTotal").textContent = total;
+        document.getElementById("metricHigh").textContent = high;
+        document.getElementById("metricCore").textContent = core;
+        document.getElementById("metricBuild").textContent = build;
+        document.getElementById("sideDate").textContent = data.date || "—";
+        document.getElementById("sideAvg").textContent = avg ? avg.toFixed(1) : "0.0";
+        document.getElementById("sideDominant").textContent = dominantCategory(items);
+        document.getElementById("sideFollow").textContent = follow;
+        document.getElementById("sideSources").textContent = sources;
+        document.getElementById("sideIntensity").textContent = intensityLabel(total, avg);
+        document.getElementById("countChip").textContent = `${total} ítems`;
+
+        container.innerHTML = "";
+        if(!items.length){
+          container.innerHTML = '<div class="empty">No hay novedades cargadas en daily.json.</div>';
+          return;
+        }
+
+        items.forEach((item, index) => container.appendChild(buildCard(item, index)));
+      }catch(error){
+        console.error(error);
+        container.innerHTML = '<div class="empty">No se pudo cargar daily.json.</div>';
+      }
     }
-
-    if (intro) {
-      intro.textContent =
-        data.intro_message || "Sin resumen disponible.";
-    }
-
-    if (opening) {
-      opening.textContent =
-        data.opening_message ||
-        "Radar diario con las novedades más relevantes de IA.";
-    }
-
-    const container = document.getElementById("newsContainer");
-
-    if (!container) return;
-
-    container.innerHTML = "";
-
-    (data.items || []).forEach((item) => {
-      const card = document.createElement("details");
-      card.className = "news-card";
-
-      const summary = document.createElement("summary");
-
-      summary.innerHTML = `
-        <span class="badge">${item.category || "tool"}</span>
-        <span class="title">${item.title || ""}</span>
-        <span class="relevance">Relevancia · ${item.relevance_score || 7}</span>
-      `;
-
-      const body = document.createElement("div");
-      body.className = "news-body";
-
-      body.innerHTML = `
-        <p>${item.summary || ""}</p>
-
-        <p><strong>Qué cambió:</strong> ${item.what_changed || ""}</p>
-        <p><strong>Por qué importa:</strong> ${item.why_it_matters || ""}</p>
-        <p><strong>Impacto:</strong> ${item.sector_impact || ""}</p>
-
-        <p>
-          <a href="${item.source_url}" target="_blank">
-            Abrir fuente
-          </a>
-        </p>
-      `;
-
-      card.appendChild(summary);
-      card.appendChild(body);
-
-      container.appendChild(card);
-    });
-
-  } catch (err) {
-    console.error("Radar load error:", err);
-  }
-}
-
-loadRadar();
-</script>
+    loadRadar();
+  </script>
 </body>
 </html>
