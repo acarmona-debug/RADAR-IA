@@ -2,7 +2,7 @@ name: Radar IA
 
 on:
   schedule:
-    - cron: '0 14 * * *'   # 8:00 AM Mexico aprox
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install OpenAI SDK
+      - name: Install OpenAI
         run: npm install openai
 
       - name: Run radar generator
