@@ -17,9 +17,24 @@ const FEEDS = [
   { source: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml" }
 ];
 
+const ALLOW_KEYWORDS = [
+  "agent", "agents", "workflow", "automation", "automate", "enterprise",
+  "productivity", "assistant", "assistants", "copilot", "rag", "orchestration",
+  "orchestrator", "framework", "sdk", "api", "workspace", "gemini", "openai",
+  "chatgpt", "claude", "anthropic", "google ai", "google labs", "model",
+  "llm", "tool", "tools", "app", "apps", "builder", "search", "browser",
+  "document", "documents", "knowledge", "retrieval", "integration", "integrations"
+];
+
+const BLOCK_KEYWORDS = [
+  "wildlife", "conservation", "ecology", "ecological", "biodiversity", "biology",
+  "genomics", "genome", "protein", "proteins", "drug discovery", "clinical",
+  "hospital", "medical imaging", "patient", "healthcare", "radiology", "surgery",
+  "agriculture", "crop", "satellite", "astronomy", "particle physics"
+];
+
 function loadHistory() {
   if (!fs.existsSync(HISTORY_FILE)) return { days: [] };
-
   try {
     const raw = JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8"));
     if (raw && Array.isArray(raw.days)) return raw;
@@ -35,21 +50,16 @@ function saveHistory(history) {
 
 function getHistoryLinks(history) {
   const links = new Set();
-
   for (const day of history.days || []) {
     for (const item of day.items || []) {
-      if (item && item.source_url) {
-        links.add(String(item.source_url).trim());
-      }
+      if (item && item.source_url) links.add(String(item.source_url).trim());
     }
   }
-
   return links;
 }
 
 function updateHistory(history, items, date) {
   const nextDays = Array.isArray(history.days) ? [...history.days] : [];
-
   nextDays.unshift({
     date,
     items: items.map((item) => ({
@@ -59,7 +69,6 @@ function updateHistory(history, items, date) {
       category: item.category || ""
     }))
   });
-
   return { days: nextDays.slice(0, 7) };
 }
 
@@ -70,13 +79,31 @@ function cleanText(text) {
     .trim();
 }
 
+function scoreItemForSector(item) {
+  const text = `${item.title || ""} ${item.summary || ""} ${item.source_name || ""}`.toLowerCase();
+  let score = 0;
+
+  for (const k of ALLOW_KEYWORDS) {
+    if (text.includes(k)) score += 2;
+  }
+
+  for (const k of BLOCK_KEYWORDS) {
+    if (text.includes(k)) score -= 6;
+  }
+
+  if (text.includes("gemini") || text.includes("chatgpt") || text.includes("claude")) score += 3;
+  if (text.includes("google labs") || text.includes("labs")) score += 2;
+  if (text.includes("framework") || text.includes("tool") || text.includes("app")) score += 2;
+
+  return score;
+}
+
 async function fetchFeedItems() {
   const collected = [];
 
   for (const feed of FEEDS) {
     try {
       const parsed = await parser.parseURL(feed.url);
-
       for (const item of parsed.items || []) {
         collected.push({
           source_name: feed.source,
@@ -96,7 +123,7 @@ async function fetchFeedItems() {
 
 function filterRecent(items) {
   const now = new Date();
-  const maxAgeMs = 1000 * 60 * 60 * 72;
+  const maxAgeMs = 1000 * 60 * 60 * 96;
 
   return items.filter((item) => {
     if (!item.title || !item.source_url) return false;
@@ -109,12 +136,20 @@ function filterRecent(items) {
   });
 }
 
+function sectorFilter(items) {
+  return items
+    .map((item) => ({ ...item, sector_score: scoreItemForSector(item) }))
+    .filter((item) => item.sector_score >= 2)
+    .sort((a, b) => b.sector_score - a.sector_score);
+}
+
 async function run() {
   const history = loadHistory();
   const existingLinks = getHistoryLinks(history);
 
   let feedItems = await fetchFeedItems();
   feedItems = filterRecent(feedItems);
+  feedItems = sectorFilter(feedItems);
 
   const uniqueByLink = [];
   const seen = new Set();
@@ -127,23 +162,28 @@ async function run() {
     }
   }
 
-  const limited = uniqueByLink.slice(0, 20);
+  const limited = uniqueByLink.slice(0, 18);
 
   const prompt = `
-Toma estas notas REALES y conviértelas en un radar diario de IA en español.
+Convierte estas notas REALES en un radar diario de IA en español.
 
-Reglas:
+Reglas obligatorias:
+- Todo el texto final debe estar en español.
 - No inventes noticias.
 - No inventes links.
 - Usa únicamente la información dada.
 - Si algo no está claro, resume sin inventar detalles.
+- Prioriza utilidad para automatización, agentes, workflows, productividad, enterprise, tools y frameworks.
+- Si una nota parece investigación general sin aplicación clara al trabajo empresarial, minimízala o descártala.
 - Clasifica cada item en una sola categoría:
   labs | model | framework | tool | sector
 
 Devuelve SOLO JSON válido con esta estructura:
 
 {
+  "executive_title": "string",
   "intro_message": "string",
+  "opening_message": "string",
   "items": [
     {
       "title": "string",
@@ -174,7 +214,6 @@ ${JSON.stringify(limited, null, 2)}
   });
 
   const content = response.choices[0].message.content || "";
-
   const cleanedContent = content
     .replace(/^```json\s*/i, "")
     .replace(/^```\s*/i, "")
@@ -189,7 +228,7 @@ ${JSON.stringify(limited, null, 2)}
     .map((item) => ({
       title: item.title || "",
       summary: item.summary || "",
-      category: item.category || "tool",
+      category: ["labs", "model", "framework", "tool", "sector"].includes(item.category) ? item.category : "tool",
       source_name: item.source_name || "",
       source_url: item.source_url || "",
       relevance_score: typeof item.relevance_score === "number" ? item.relevance_score : 7,
@@ -204,7 +243,9 @@ ${JSON.stringify(limited, null, 2)}
 
   const cleaned = {
     date,
+    executive_title: raw.executive_title || "Resumen ejecutivo del día",
     intro_message: raw.intro_message || "Radar diario generado a partir de fuentes reales.",
+    opening_message: raw.opening_message || "Estas son las novedades más relevantes del día con aplicación útil para automatización, herramientas, modelos y trabajo empresarial.",
     items: cleanedItems
   };
 
