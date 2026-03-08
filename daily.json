@@ -1,74 +1,7 @@
 {
-  "date": "2026-03-08",
-  "intro_message": "Radar diario de IA con las últimas novedades y avances en el campo.",
-  "items": [
-    {
-      "title": "How our open-source AI model SpeciesNet is helping to promote wildlife conservation",
-      "summary": "An overview of SpeciesNet, our open-source AI model that is helping people around the world protect and conserve wildlife.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
-      "relevance_score": 0,
-      "status": "new",
-      "tags": [
-        "conservación",
-        "modelo abierto",
-        "vida silvestre"
-      ],
-      "what_changed": "Lanzamiento del modelo SpeciesNet.",
-      "why_it_matters": "Promueve la conservación de la vida silvestre a través de la inteligencia artificial.",
-      "sector_impact": "Medio ambiente"
-    },
-    {
-      "title": "Ask a Techspert: How does AI understand my visual searches?",
-      "summary": "Learn more about AI Mode in Search’s query fan-out method for visual search.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
-      "relevance_score": 0,
-      "status": "new",
-      "tags": [
-        "búsqueda visual",
-        "inteligencia artificial",
-        "tecnología"
-      ],
-      "what_changed": "Explicación del método de búsqueda visual de Google.",
-      "why_it_matters": "Mejora la comprensión de las búsquedas visuales por parte de la IA.",
-      "sector_impact": "Tecnología"
-    },
-    {
-      "title": "The latest AI news we announced in February",
-      "summary": "Here are Google’s latest AI updates from February 2026",
-      "category": "sector",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
-      "relevance_score": 0,
-      "status": "new",
-      "tags": [
-        "actualizaciones",
-        "noticias",
-        "Google AI"
-      ],
-      "what_changed": "Actualizaciones de IA de Google en febrero.",
-      "why_it_matters": "Mantiene a la comunidad informada sobre los avances de Google en IA.",
-      "sector_impact": "Tecnología"
-    },
-    {
-      "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
-      "summary": "",
-      "category": "framework",
-      "source_name": "Hugging Face Blog",
-      "source_url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-      "relevance_score": 0,
-      "status": "new",
-      "tags": [
-        "robótica",
-        "IA embebida",
-        "optimización"
-      ],
-      "what_changed": "Introducción de IA robótica en plataformas embebidas.",
-      "why_it_matters": "Facilita la implementación de IA en dispositivos embebidos.",
-      "sector_impact": "Robótica"
-    }
-  ]
+  "date": "",
+  "executive_title": "",
+  "intro_message": "",
+  "opening_message": "",
+  "items": []
 }
