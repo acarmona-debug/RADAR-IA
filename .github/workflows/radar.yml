@@ -37,3 +37,28 @@ jobs:
           git add daily.json history.json
           git diff --cached --quiet || git commit -m "update radar"
           git push
+      - name: Send Telegram briefing
+        run: |
+          MESSAGE=$(node -e "
+          const fs=require('fs');
+          const data=JSON.parse(fs.readFileSync('daily.json','utf8'));
+      
+          let text='🧠 *Radar IA — '+data.date+'*\\n\\n';
+      
+          text+='Se detectaron '+data.items.length+' movimientos relevantes en el ecosistema de IA.\\n\\n';
+      
+          data.items.slice(0,5).forEach(i=>{
+            text+='🔹 *'+i.title+'*\\n';
+            text+='Impacto: '+(i.why_it_matters || i.summary)+'\\n\\n';
+          });
+      
+          text+='🌐 *Radar completo*\\n';
+          text+='https://'+process.env.GITHUB_REPOSITORY_OWNER+'.github.io/'+process.env.GITHUB_REPOSITORY.split('/')[1];
+      
+          console.log(text);
+          ")
+      
+          curl -s -X POST https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage \
+            -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
+            -d text="$MESSAGE" \
+            -d parse_mode=Markdown
