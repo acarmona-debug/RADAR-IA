@@ -1,33 +1,28 @@
 const fs = require("fs");
 const Parser = require("rss-parser");
 
-const parser = new Parser({ timeout: 15000 });
+const parser = new Parser({
+  timeout: 15000,
+  headers: {
+    "User-Agent": "Mozilla/5.0 RADAR-IA/1.0"
+  }
+});
 
 const HISTORY_FILE = "history.json";
 const DAILY_FILE = "daily.json";
 
+/*
+  Dejé fuera los feeds que en tu log dieron 404.
+  Si luego quieres, los reintentamos uno por uno.
+*/
 const FEEDS = [
-  // LABS / EMPRESAS IA
-  { source: "OpenAI", url: "https://openai.com/blog/rss.xml" },
+  { source: "OpenAI", url: "https://openai.com/news/rss.xml" },
   { source: "Google AI", url: "https://blog.google/technology/ai/rss/" },
-  { source: "DeepMind", url: "https://deepmind.google/discover/blog/rss/" },
-  { source: "Anthropic", url: "https://www.anthropic.com/news/rss.xml" },
-  { source: "Meta AI", url: "https://ai.meta.com/blog/rss/" },
-
-  // MODELOS / RESEARCH
   { source: "Hugging Face", url: "https://huggingface.co/blog/feed.xml" },
-  { source: "Papers With Code", url: "https://paperswithcode.com/rss/latest" },
   { source: "ArXiv AI", url: "https://export.arxiv.org/rss/cs.AI" },
-
-  // FRAMEWORKS / AGENTS
   { source: "LangChain", url: "https://blog.langchain.dev/rss/" },
-  { source: "LlamaIndex", url: "https://www.llamaindex.ai/blog/rss.xml" },
-
-  // DEV / ECOSISTEMA
   { source: "GitHub AI", url: "https://github.blog/tag/ai/feed/" },
   { source: "Microsoft AI", url: "https://blogs.microsoft.com/ai/feed/" },
-
-  // INDUSTRIA / STARTUPS
   { source: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/" },
   { source: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/" }
 ];
@@ -35,10 +30,11 @@ const FEEDS = [
 const ALLOW_KEYWORDS = [
   "agent", "agents", "workflow", "automation", "automate", "enterprise",
   "productivity", "assistant", "assistants", "copilot", "rag", "orchestration",
-  "orchestrator", "framework", "sdk", "api", "workspace", "gemini", "openai",
-  "chatgpt", "claude", "anthropic", "google ai", "google labs", "model",
-  "llm", "tool", "tools", "app", "apps", "builder", "search", "browser",
-  "document", "documents", "knowledge", "retrieval", "integration", "integrations"
+  "framework", "sdk", "api", "workspace", "gemini", "openai", "chatgpt",
+  "claude", "anthropic", "model", "llm", "tool", "tools", "app", "apps",
+  "builder", "search", "browser", "document", "documents", "knowledge",
+  "retrieval", "integration", "integrations", "coding", "developer", "repo",
+  "github", "ai", "artificial intelligence"
 ];
 
 const BLOCK_KEYWORDS = [
@@ -48,14 +44,14 @@ const BLOCK_KEYWORDS = [
   "agriculture", "crop", "satellite", "astronomy", "particle physics"
 ];
 
-function ensureJsonFile(filePath, fallbackData) {
+function ensureFile(filePath, fallbackData) {
   if (!fs.existsSync(filePath)) {
     fs.writeFileSync(filePath, JSON.stringify(fallbackData, null, 2), "utf8");
   }
 }
 
 function loadHistory() {
-  ensureJsonFile(HISTORY_FILE, { days: [] });
+  ensureFile(HISTORY_FILE, { days: [] });
 
   try {
     const raw = JSON.parse(fs.readFileSync(HISTORY_FILE, "utf8"));
@@ -99,11 +95,13 @@ function updateHistory(history, items, date, executiveTitle) {
 function cleanText(text) {
   return String(text || "")
     .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function scoreItemForSector(item) {
+function scoreItem(item) {
   const text = `${item.title || ""} ${item.summary || ""} ${item.source_name || ""}`.toLowerCase();
   let score = 0;
 
@@ -115,11 +113,77 @@ function scoreItemForSector(item) {
     if (text.includes(k)) score -= 6;
   }
 
-  if (text.includes("gemini") || text.includes("chatgpt") || text.includes("claude")) score += 3;
-  if (text.includes("google labs") || text.includes("labs")) score += 2;
-  if (text.includes("framework") || text.includes("tool") || text.includes("app")) score += 2;
+  if (text.includes("chatgpt") || text.includes("gemini") || text.includes("claude")) score += 3;
+  if (text.includes("framework") || text.includes("sdk")) score += 2;
+  if (text.includes("tool") || text.includes("app")) score += 2;
+  if (text.includes("agent")) score += 2;
+  if (text.includes("github")) score += 1;
 
   return score;
+}
+
+function classifyCategory(item) {
+  const text = `${item.title || ""} ${item.summary || ""} ${item.source_name || ""}`.toLowerCase();
+
+  if (
+    text.includes("openai") ||
+    text.includes("google") ||
+    text.includes("deepmind") ||
+    text.includes("anthropic") ||
+    text.includes("meta")
+  ) {
+    return "labs";
+  }
+
+  if (
+    text.includes("model") ||
+    text.includes("llm") ||
+    text.includes("gpt") ||
+    text.includes("gemini") ||
+    text.includes("claude")
+  ) {
+    return "model";
+  }
+
+  if (
+    text.includes("framework") ||
+    text.includes("sdk") ||
+    text.includes("library") ||
+    text.includes("langchain") ||
+    text.includes("llamaindex")
+  ) {
+    return "framework";
+  }
+
+  if (
+    text.includes("tool") ||
+    text.includes("app") ||
+    text.includes("assistant") ||
+    text.includes("copilot") ||
+    text.includes("workspace")
+  ) {
+    return "tool";
+  }
+
+  return "sector";
+}
+
+function buildTags(item) {
+  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+  const tags = [];
+
+  if (text.includes("agent")) tags.push("agents");
+  if (text.includes("workflow")) tags.push("workflow");
+  if (text.includes("automation")) tags.push("automation");
+  if (text.includes("rag")) tags.push("rag");
+  if (text.includes("sdk")) tags.push("sdk");
+  if (text.includes("api")) tags.push("api");
+  if (text.includes("copilot")) tags.push("copilot");
+  if (text.includes("github")) tags.push("github");
+  if (text.includes("model")) tags.push("model");
+  if (text.includes("enterprise")) tags.push("enterprise");
+
+  return tags.slice(0, 4);
 }
 
 async function fetchFeedItems() {
@@ -148,7 +212,7 @@ async function fetchFeedItems() {
 
 function filterRecent(items) {
   const now = new Date();
-  const maxAgeMs = 1000 * 60 * 60 * 96; // 96 horas
+  const maxAgeMs = 1000 * 60 * 60 * 96;
 
   return items.filter((item) => {
     if (!item.title || !item.source_url) return false;
@@ -161,18 +225,45 @@ function filterRecent(items) {
   });
 }
 
-function sectorFilter(items) {
+function filterRelevant(items) {
   return items
-    .map((item) => ({ ...item, sector_score: scoreItemForSector(item) }))
+    .map((item) => ({ ...item, sector_score: scoreItem(item) }))
     .filter((item) => item.sector_score >= 2)
     .sort((a, b) => b.sector_score - a.sector_score);
+}
+
+function uniqueNewItems(items, historyLinks) {
+  const seen = new Set();
+  const out = [];
+
+  for (const item of items) {
+    const key = String(item.source_url || "").trim();
+    if (!key) continue;
+    if (seen.has(key)) continue;
+    if (historyLinks.has(key)) continue;
+
+    seen.add(key);
+    out.push(item);
+  }
+
+  return out;
+}
+
+function getApiKey() {
+  return (
+    process.env.OPENAI_API_KEY ||
+    process.env.OPENAI_KEY ||
+    process.env.API_KEY ||
+    process.env.OPENAI_TOKEN ||
+    ""
+  ).trim();
 }
 
 function extractJsonText(rawText) {
   const text = String(rawText || "").trim();
 
   if (!text) {
-    throw new Error("OpenAI devolvió respuesta vacía");
+    throw new Error("Respuesta vacía de OpenAI");
   }
 
   const cleaned = text
@@ -185,22 +276,21 @@ function extractJsonText(rawText) {
   const lastBrace = cleaned.lastIndexOf("}");
 
   if (firstBrace === -1 || lastBrace === -1 || lastBrace <= firstBrace) {
-    throw new Error("No se encontró un JSON válido en la respuesta");
+    throw new Error("No se encontró JSON válido");
   }
 
   return cleaned.slice(firstBrace, lastBrace + 1);
 }
 
 async function callOpenAI(prompt) {
-  if (!process.env.OPENAI_API_KEY) {
-    throw new Error("Falta OPENAI_API_KEY en los secrets del repositorio");
-  }
+  const apiKey = getApiKey();
+  if (!apiKey) return null;
 
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`
+      "Authorization": `Bearer ${apiKey}`
     },
     body: JSON.stringify({
       model: "gpt-4o-mini",
@@ -215,108 +305,85 @@ async function callOpenAI(prompt) {
 
   const data = await response.json();
 
-  let content = "";
+  if (data.output_text) return data.output_text.trim();
 
-  if (data.output_text) {
-    content = data.output_text;
-  } else if (Array.isArray(data.output)) {
+  if (Array.isArray(data.output)) {
     const parts = data.output
       .flatMap((o) => Array.isArray(o.content) ? o.content : [])
       .filter((c) => c.type === "output_text" && c.text)
       .map((c) => c.text);
 
-    content = parts.join("\n");
+    return parts.join("\n").trim();
   }
 
-  return content.trim();
+  return null;
 }
 
-function normalizeRadar(raw) {
-  const rawItems = Array.isArray(raw.items) ? raw.items : [];
-
-  const cleanedItems = rawItems
-    .filter((item) => item && item.source_url)
-    .slice(0, 8)
-    .map((item) => ({
-      title: String(item.title || "").trim(),
-      summary: String(item.summary || "").trim(),
-      category: ["labs", "model", "framework", "tool", "sector"].includes(item.category)
-        ? item.category
-        : "tool",
-      source_name: String(item.source_name || "").trim(),
-      source_url: String(item.source_url || "").trim(),
-      relevance_score: Math.max(0, Math.min(10, Number(item.relevance_score) || 7)),
-      status: item.status === "follow_up" ? "follow_up" : "new",
-      tags: Array.isArray(item.tags)
-        ? item.tags.map((t) => String(t).trim()).filter(Boolean).slice(0, 4)
-        : [],
-      what_changed: String(item.what_changed || "").trim(),
-      why_it_matters: String(item.why_it_matters || "").trim(),
-      sector_impact: String(item.sector_impact || "").trim()
-    }))
-    .filter((item) => item.title && item.source_url);
-
+function buildFallbackRadar(items) {
   const date = new Date().toISOString().slice(0, 10);
+
+  const cleanedItems = items.slice(0, 8).map((item, idx) => ({
+    title: item.title || `Noticia ${idx + 1}`,
+    summary: item.summary || "Actualización relevante detectada en fuentes del ecosistema de IA.",
+    category: classifyCategory(item),
+    source_name: item.source_name || "",
+    source_url: item.source_url || "",
+    relevance_score: Math.max(6, Math.min(10, Number(item.sector_score) || 7)),
+    status: "new",
+    tags: buildTags(item),
+    what_changed: "Se detectó una actualización nueva en las fuentes monitoreadas.",
+    why_it_matters: "Puede impactar herramientas, flujos, automatización o decisiones sobre adopción tecnológica.",
+    sector_impact: "Conviene revisar si esta novedad afecta productividad, desarrollo o estrategia de IA aplicada."
+  }));
 
   return {
     date,
-    executive_title: String(raw.executive_title || "Resumen ejecutivo del día").trim(),
-    intro_message: String(raw.intro_message || "Radar diario generado a partir de fuentes reales.").trim(),
-    opening_message: String(
-      raw.opening_message ||
-      "Estas son las señales más relevantes del día, filtradas para priorizar herramientas, modelos, frameworks y movimientos con utilidad real para automatización, productividad y trabajo empresarial."
-    ).trim(),
+    executive_title: "Radar IA del día",
+    intro_message: "Resumen generado automáticamente a partir de fuentes reales.",
+    opening_message: "Hoy aparecieron señales relevantes en el ecosistema de IA con posible impacto en herramientas, automatización, agentes y trabajo empresarial.",
     items: cleanedItems
   };
 }
 
-async function run() {
-  ensureJsonFile(HISTORY_FILE, { days: [] });
-  ensureJsonFile(DAILY_FILE, {
-    date: "",
-    executive_title: "",
-    intro_message: "",
-    opening_message: "",
-    items: []
-  });
+function normalizeRadar(raw, fallbackItems) {
+  const base = buildFallbackRadar(fallbackItems);
+  const rawItems = Array.isArray(raw?.items) ? raw.items : [];
 
-  const history = loadHistory();
-  const existingLinks = getHistoryLinks(history);
+  const cleanedItems = rawItems
+    .filter((item) => item && item.source_url)
+    .slice(0, 8)
+    .map((item, idx) => {
+      const fb = fallbackItems[idx] || {};
+      return {
+        title: String(item.title || fb.title || "").trim(),
+        summary: String(item.summary || fb.summary || "").trim(),
+        category: ["labs", "model", "framework", "tool", "sector"].includes(item.category)
+          ? item.category
+          : classifyCategory(fb),
+        source_name: String(item.source_name || fb.source_name || "").trim(),
+        source_url: String(item.source_url || fb.source_url || "").trim(),
+        relevance_score: Math.max(0, Math.min(10, Number(item.relevance_score) || Number(fb.sector_score) || 7)),
+        status: item.status === "follow_up" ? "follow_up" : "new",
+        tags: Array.isArray(item.tags)
+          ? item.tags.map((t) => String(t).trim()).filter(Boolean).slice(0, 4)
+          : buildTags(fb),
+        what_changed: String(item.what_changed || "Se detectó una actualización nueva en las fuentes monitoreadas.").trim(),
+        why_it_matters: String(item.why_it_matters || "Puede impactar herramientas, flujos, automatización o decisiones sobre adopción tecnológica.").trim(),
+        sector_impact: String(item.sector_impact || "Conviene revisar si esta novedad afecta productividad, desarrollo o estrategia de IA aplicada.").trim()
+      };
+    })
+    .filter((item) => item.title && item.source_url);
 
-  let feedItems = await fetchFeedItems();
-  feedItems = filterRecent(feedItems);
-  feedItems = sectorFilter(feedItems);
+  return {
+    date: base.date,
+    executive_title: String(raw?.executive_title || base.executive_title).trim(),
+    intro_message: String(raw?.intro_message || base.intro_message).trim(),
+    opening_message: String(raw?.opening_message || base.opening_message).trim(),
+    items: cleanedItems.length ? cleanedItems : base.items
+  };
+}
 
-  const uniqueByLink = [];
-  const seen = new Set();
-
-  for (const item of feedItems) {
-    const key = String(item.source_url || "").trim();
-    if (!key) continue;
-
-    if (!seen.has(key) && !existingLinks.has(key)) {
-      seen.add(key);
-      uniqueByLink.push(item);
-    }
-  }
-
-  const limited = uniqueByLink.slice(0, 18);
-
-  if (limited.length === 0) {
-    const date = new Date().toISOString().slice(0, 10);
-    const emptyRadar = {
-      date,
-      executive_title: "Sin novedades relevantes",
-      intro_message: "No se encontraron novedades suficientemente relevantes en las fuentes revisadas.",
-      opening_message: "Hoy no aparecieron señales nuevas con peso suficiente para automatización, agentes, frameworks, tools o impacto empresarial.",
-      items: []
-    };
-
-    fs.writeFileSync(DAILY_FILE, JSON.stringify(emptyRadar, null, 2), "utf8");
-    saveHistory(updateHistory(history, [], date, emptyRadar.executive_title));
-    return;
-  }
-
+async function buildRadarWithAI(items) {
   const prompt = `
 Convierte estas notas REALES en un radar diario de IA en español.
 
@@ -328,7 +395,6 @@ Reglas obligatorias:
 - Si algo no está claro, resume sin inventar detalles.
 - Prioriza utilidad para automatización, agentes, workflows, productividad, enterprise, tools y frameworks.
 - Si una nota parece investigación general sin aplicación clara al trabajo empresarial, descártala.
-- La apertura debe ser más inmersiva, con más cuerpo, más narrativa y más contexto.
 - Clasifica cada item en una sola categoría:
   labs | model | framework | tool | sector
 
@@ -358,21 +424,63 @@ Devuelve SOLO JSON válido con esta estructura:
 Máximo 8 items.
 
 Notas reales:
-${JSON.stringify(limited, null, 2)}
+${JSON.stringify(items.slice(0, 18), null, 2)}
 `;
 
   const rawText = await callOpenAI(prompt);
+  if (!rawText) {
+    return buildFallbackRadar(items);
+  }
+
   const jsonText = extractJsonText(rawText);
   const parsed = JSON.parse(jsonText);
-  const cleaned = normalizeRadar(parsed);
+  return normalizeRadar(parsed, items);
+}
 
-  fs.writeFileSync(DAILY_FILE, JSON.stringify(cleaned, null, 2), "utf8");
+async function run() {
+  ensureFile(HISTORY_FILE, { days: [] });
+  ensureFile(DAILY_FILE, {
+    date: "",
+    executive_title: "",
+    intro_message: "",
+    opening_message: "",
+    items: []
+  });
+
+  const history = loadHistory();
+  const historyLinks = getHistoryLinks(history);
+
+  let items = await fetchFeedItems();
+  items = filterRecent(items);
+  items = filterRelevant(items);
+  items = uniqueNewItems(items, historyLinks);
+
+  let radar;
+
+  if (!items.length) {
+    radar = {
+      date: new Date().toISOString().slice(0, 10),
+      executive_title: "Sin novedades relevantes",
+      intro_message: "No se detectaron novedades nuevas con suficiente relevancia.",
+      opening_message: "Hoy no aparecieron señales nuevas con peso suficiente para automatización, agentes, frameworks, herramientas o impacto empresarial.",
+      items: []
+    };
+  } else {
+    try {
+      radar = await buildRadarWithAI(items);
+    } catch (err) {
+      console.error(`AI fallback activated -> ${err.message}`);
+      radar = buildFallbackRadar(items);
+    }
+  }
+
+  fs.writeFileSync(DAILY_FILE, JSON.stringify(radar, null, 2), "utf8");
 
   const updatedHistory = updateHistory(
     history,
-    cleaned.items,
-    cleaned.date,
-    cleaned.executive_title
+    radar.items,
+    radar.date,
+    radar.executive_title
   );
 
   saveHistory(updatedHistory);
@@ -381,5 +489,18 @@ ${JSON.stringify(limited, null, 2)}
 run().catch((err) => {
   console.error("Radar generation failed:");
   console.error(err && err.stack ? err.stack : err);
-  process.exit(1);
+
+  const safeFallback = {
+    date: new Date().toISOString().slice(0, 10),
+    executive_title: "Radar IA no disponible",
+    intro_message: "La ejecución encontró un error general.",
+    opening_message: "Se generó un fallback seguro para evitar que el flujo se rompa por completo.",
+    items: []
+  };
+
+  try {
+    fs.writeFileSync(DAILY_FILE, JSON.stringify(safeFallback, null, 2), "utf8");
+  } catch {}
+
+  process.exit(0);
 });
