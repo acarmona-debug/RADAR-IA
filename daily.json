@@ -1,144 +1,56 @@
 {
-  "date": "2026-03-08",
-  "executive_title": "Radar diario de IA - Oportunidades y Desafíos",
-  "intro_message": "Este informe presenta las últimas noticias y desarrollos en inteligencia artificial, enfocándose en herramientas, marcos y oportunidades relevantes para empresas.",
-  "opening_message": "A continuación, se destacan las tendencias más recientes que impactan la automatización y la productividad en el entorno empresarial.",
+  "executive_title": "Radar Diario de IA - Análisis de Herramientas y Modelos",
+  "intro_message": "Este radar diario destaca las últimas innovaciones en herramientas, modelos y frameworks de IA.",
+  "opening_message": "Las colaboraciones y desarrollos recientes están marcando la pauta en el ecosistema de inteligencia artificial.",
   "items": [
     {
-      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
-      "summary": "Desarrolladores de Andela comparten cómo están aprendiendo herramientas de IA en flujos de trabajo reales.",
-      "category": "sector",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [
-        "formación",
-        "IA",
-        "desarrollo"
-      ],
-      "what_changed": "Conexiones nuevas entre desarrolladores y herramientas de IA.",
-      "why_it_matters": "Impulsa la adopción de IA en el desarrollo de software.",
-      "sector_impact": "Potencial impacto en la capacitación de desarrolladores."
-    },
-    {
+      "source_name": "TechCrunch AI",
       "title": "Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models",
-      "summary": "Luma presentó agentes de IA diseñados para coordinar múltiples sistemas de IA y generar trabajos creativos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [
-        "creatividad",
-        "IA",
-        "productos"
-      ],
-      "what_changed": "Lanzamiento de nuevos modelos de inteligencia unificada.",
-      "why_it_matters": "Aumenta la eficiencia en la creación de contenido creativo.",
-      "sector_impact": "Transformación en la producción de medios y marketing."
+      "published_at": "2026-03-05T18:11:36.000Z",
+      "summary": "Luma presentó Luma Agents, impulsados por sus nuevos modelos 'Inteligencia Unificada', diseñados para coordinar múltiples sistemas de IA y generar trabajo creativo de forma integral en texto, imágenes, video y audio."
     },
     {
-      "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
-      "summary": "La startup utiliza agentes de voz de IA para realizar entrevistas y reducir costos de investigación en fusiones y adquisiciones.",
-      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "M&A",
-        "IA",
-        "eficiencia"
-      ],
-      "what_changed": "Implementación de agentes de voz para levantar información.",
-      "why_it_matters": "Disminuye los costos de investigación en el sector financiero.",
-      "sector_impact": "Mejoras significativas en la eficiencia de M&A."
-    },
-    {
-      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
-      "summary": "La aplicación Claude experimenta un aumento en instalaciones, superando a ChatGPT.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [
-        "crecimiento",
-        "aplicaciones",
-        "IA"
-      ],
-      "what_changed": "Crecimiento acelerado de usuarios activos.",
-      "why_it_matters": "Remarca el potencial de Claude frente a competidores.",
-      "sector_impact": "Competencia intensificada en el mercado de aplicaciones de IA."
-    },
-    {
       "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
-      "summary": "Lanzamiento de GPT-5.4, el modelo más eficiente para trabajo profesional.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
       "source_url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [
-        "modelo",
-        "eficiencia",
-        "IA"
-      ],
-      "what_changed": "Mejoras en capacidades de procesamiento.",
-      "why_it_matters": "Facilita tareas complejas en entornos profesionales.",
-      "sector_impact": "Aumento de eficiencia en diversas industrias."
+      "published_at": "2026-03-05T18:00:15.000Z",
+      "summary": "GPT-5.4 se presenta como 'nuestro modelo fronterizo más capaz y eficiente para trabajos profesionales'."
     },
     {
-      "title": "Anthropic to challenge DOD’s supply-chain label in court",
-      "summary": "Anthropic planea impugnar la designación del DOD de riesgo en la cadena de suministro.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
-      "relevance_score": 2,
-      "status": "new",
-      "tags": [
-        "legal",
-        "IA",
-        "defensa"
-      ],
-      "what_changed": "Acción legal contra el DOD.",
-      "why_it_matters": "Puede impactar herramientas, flujos, automatización o decisiones sobre adopción tecnológica.",
-      "sector_impact": "Podría alterar la dinámica en contratos de defensa."
+      "source_name": "LangChain",
+      "title": "Evaluating Skills",
+      "source_url": "https://blog.langchain.com/evaluating-skills/",
+      "published_at": "2026-03-05T18:00:49.000Z",
+      "summary": "En LangChain, hemos estado construyendo habilidades para ayudar a agentes de codificación a trabajar con nuestro ecosistema, específicamente a través de LangChain y LangSmith."
     },
     {
-      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
-      "summary": "Las plataformas no afectadas por el conflicto de Anthropic con el DOD continúan brindando servicios a clientes no defensivos.",
-      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "clientes",
-        "negocios"
-      ],
-      "what_changed": "Clarificación del acceso de los clientes a Claude.",
-      "why_it_matters": "Puede impactar herramientas, flujos, automatización o decisiones sobre adopción tecnológica.",
-      "sector_impact": "Estabilidad en la oferta para clientes comerciales."
+      "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
+      "source_url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+      "published_at": "2026-03-05T23:14:04.000Z",
+      "summary": "La startup utiliza agentes de voz de IA para realizar entrevistas a clientes de las empresas que los fondos de capital privado están considerando adquirir."
     },
     {
-      "title": "US reportedly considering sweeping new chip export controls",
-      "summary": "El gobierno de EE. UU. estaría considerando controles nuevos sobre la exportación de chips.",
-      "category": "sector",
+      "source_name": "GitHub AI",
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "source_url": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "published_at": "2026-03-05T17:00:00.000Z",
+      "summary": "Desarrolladores conectados a Andela comparten cómo están aprendiendo herramientas de IA dentro de flujos de trabajo reales de producción."
+    },
+    {
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/",
-      "relevance_score": 2,
-      "status": "new",
-      "tags": [
-        "regulación",
-        "tecnología",
-        "exportaciones"
-      ],
-      "what_changed": "Propuesta para controlar exportaciones de chips.",
-      "why_it_matters": "Puede impactar herramientas, flujos, automatización o decisiones sobre adopción tecnológica.",
-      "sector_impact": "Alteraciones potenciales en la cadena de suministro global."
+      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+      "source_url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+      "published_at": "2026-03-06T17:56:07.000Z",
+      "summary": "La aplicación de Claude está viendo más nuevas instalaciones que ChatGPT y está creciendo sus usuarios activos diarios."
+    },
+    {
+      "source_name": "TechCrunch AI",
+      "title": "After Europe, WhatsApp will let rival AI companies offer chatbots in Brazil",
+      "source_url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+      "published_at": "2026-03-06T13:20:43.000Z",
+      "summary": "Meta ahora permite a empresas de IA rivales ofrecer sus chatbots a usuarios brasileños por un costo, tras una decisión similar en Europa."
     }
   ]
 }
