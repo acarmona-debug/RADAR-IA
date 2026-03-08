@@ -12,9 +12,31 @@ const HISTORY_FILE = "history.json";
 const DAILY_FILE = "daily.json";
 
 const FEEDS = [
+
+  // LABS / EMPRESAS IA
+  { source: "OpenAI", url: "https://openai.com/blog/rss.xml" },
   { source: "Google AI", url: "https://blog.google/technology/ai/rss/" },
-  { source: "Anthropic News", url: "https://www.anthropic.com/news/rss.xml" },
-  { source: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml" }
+  { source: "DeepMind", url: "https://deepmind.google/discover/blog/rss/" },
+  { source: "Anthropic", url: "https://www.anthropic.com/news/rss.xml" },
+  { source: "Meta AI", url: "https://ai.meta.com/blog/rss/" },
+
+  // MODELOS / RESEARCH
+  { source: "Hugging Face", url: "https://huggingface.co/blog/feed.xml" },
+  { source: "Papers With Code", url: "https://paperswithcode.com/rss/latest" },
+  { source: "ArXiv AI", url: "https://export.arxiv.org/rss/cs.AI" },
+
+  // FRAMEWORKS / AGENTS
+  { source: "LangChain", url: "https://blog.langchain.dev/rss/" },
+  { source: "LlamaIndex", url: "https://www.llamaindex.ai/blog/rss.xml" },
+
+  // DEV / ECOSISTEMA
+  { source: "GitHub AI", url: "https://github.blog/tag/ai/feed/" },
+  { source: "Microsoft AI", url: "https://blogs.microsoft.com/ai/feed/" },
+
+  // INDUSTRIA / STARTUPS
+  { source: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/" },
+  { source: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/" }
+
 ];
 
 const ALLOW_KEYWORDS = [
