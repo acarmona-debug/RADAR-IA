@@ -1,55 +1,127 @@
 {
-  "executive_title": "Resumen Diario de AI",
-  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y características en IA.",
-  "opening_message": "Aquí están los desarrollos más relevantes en el mundo de la inteligencia artificial, centrados en herramientas y nuevas capacidades.",
+  "date": "2026-03-08",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas novedades y tendencias del mundo de la inteligencia artificial.",
+  "opening_message": "Aquí están las actualizaciones más relevantes sobre herramientas, modelos y frameworks en el ámbito de la IA.",
   "items": [
     {
-      "title": "Luma lanza agentes creativos de IA impulsados por sus nuevos modelos ‘Inteligencia Unificada’",
-      "source_url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
-      "published_at": "2026-03-05T18:11:36.000Z",
-      "summary": "Luma introdujo agentes que coordinan múltiples sistemas de IA para generar trabajos creativos en texto, imágenes, video y audio."
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "summary": "Desarrolladores conectados a Andela comparten cómo están integrando herramientas de IA en flujos de trabajo de producción reales.",
+      "category": "tool",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "IA",
+        "desarrolladores",
+        "herramientas"
+      ],
+      "what_changed": "Los desarrolladores están adoptando herramientas de IA en producción.",
+      "why_it_matters": "Facilita la integración de IA en proyectos actuales.",
+      "sector_impact": "Impulsa la capacitación y oportunidades en desarrollo de IA."
     },
     {
-      "title": "DiligenceSquared utiliza IA y agentes de voz para hacer la investigación M&A asequible",
-      "source_url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
-      "published_at": "2026-03-05T23:14:04.000Z",
-      "summary": "La startup utiliza agentes de voz de IA para realizar entrevistas, eliminando la necesidad de costosos consultores."
+      "title": "WhatsApp permitirá a empresas de IA rivales ofrecer chatbots en Brasil",
+      "summary": "Meta habilita que compañías de IA rivales ofrezcan chatbots a usuarios brasileños por un costo.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "chatbots",
+        "WhatsApp",
+        "competencia"
+      ],
+      "what_changed": "Apertura de la plataforma a soluciones de IA externas.",
+      "why_it_matters": "Aumenta la competitividad y opciones para los usuarios.",
+      "sector_impact": "Transforma la interacción de los usuarios con la tecnología de mensajería."
     },
     {
-      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
-      "source_url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
-      "published_at": "2026-03-06T17:56:07.000Z",
-      "summary": "Claude está viendo más nuevas instalaciones que ChatGPT, aumentando sus usuarios activos diarios."
+      "title": "Google AI Updates - Febrero 2026",
+      "summary": "Actualizaciones de IA de Google que incluyen nuevas herramientas y mejoras.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Google",
+        "actualizaciones",
+        "IA"
+      ],
+      "what_changed": "Nuevas funcionalidades fueron presentadas.",
+      "why_it_matters": "Permite a los desarrolladores acceder a herramientas más potentes.",
+      "sector_impact": "Impulsa la innovación en el ecosistema de IA."
     },
     {
-      "title": "Evaluando Habilidades",
-      "source_url": "https://blog.langchain.com/evaluating-skills/",
-      "published_at": "2026-03-05T18:00:49.000Z",
-      "summary": "LangChain está desarrollando habilidades para ayudar a agentes de codificación como Codex y Claude a trabajar en su ecosistema."
+      "title": "Bringing Robotics AI to Embedded Platforms",
+      "summary": "Exploración de optimizaciones de IA robótica en plataformas integradas.",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Robótica",
+        "IA",
+        "embebidos"
+      ],
+      "what_changed": "Optimización de IA para plataformas más pequeñas.",
+      "why_it_matters": "Aumenta la viabilidad de la IA en dispositivos compactos.",
+      "sector_impact": "Facilita avances en tecnología portable y robótica."
     },
     {
-      "title": "OpenAI retrasa nuevamente el ‘modo adulto’ de ChatGPT",
-      "source_url": "https://techcrunch.com/2026/03/07/openai-delays-chatgpts-adult-mode-again/",
-      "published_at": "2026-03-07T17:28:41.000Z",
-      "summary": "El modo que dará acceso a contenido para adultos a usuarios verificados se ha retrasado otra vez."
+      "title": "Google presenta SpeciesNet, un modelo de IA de código abierto",
+      "summary": "Un modelo de IA de código abierto que ayuda en la conservación de la vida silvestre.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "conservación",
+        "IA",
+        "código abierto"
+      ],
+      "what_changed": "Lanzamiento de un modelo de IA enfocado en sostenibilidad.",
+      "why_it_matters": "Fomenta el uso de IA para el bien social y ambiental.",
+      "sector_impact": "Impulsa iniciativas de sostenibilidad global."
     },
     {
-      "title": "Anthropic’s Claude encontró 22 vulnerabilidades en Firefox en dos semanas",
-      "source_url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
-      "published_at": "2026-03-06T19:00:22.000Z",
-      "summary": "A través de una asociación con Mozilla, Claude identificó 22 vulnerabilidades, 14 de ellas de 'alta severidad'."
+      "title": "Nuevos agentes automáticos en plataformas de trabajo",
+      "summary": "La integración de agentes automáticos está facilitando la eficiencia operativa.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "agentes",
+        "eficiencia"
+      ],
+      "what_changed": "Se han desarrollado nuevas capacidades automáticas.",
+      "why_it_matters": "Mejora la productividad y reduce el tiempo en tareas repetitivas.",
+      "sector_impact": "Transforma la dinámica de trabajo en múltiples sectores."
     },
     {
-      "title": "Microsoft, Google, Amazon dicen que Anthropic Claude sigue disponible para clientes no defensivos",
-      "source_url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-      "published_at": "2026-03-06T19:50:10.000Z",
-      "summary": "La disputa del Departamento de Defensa no afectará a otros clientes que utilizan Claude a través de productos de Microsoft y Google."
-    },
-    {
-      "title": "Ask a Techspert: ¿Cómo entiende la IA mis búsquedas visuales?",
-      "source_url": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
-      "published_at": "2026-03-05T18:00:00.000Z",
-      "summary": "Explorando cómo la IA de Google mejora las búsquedas visuales con métodos de distribución de consultas."
+      "title": "OpenAI abandona proyecto de colaboración con Defensa",
+      "summary": "Caitlin Kalinowski renuncia por desacuerdos sobre un proyecto con el Pentágono.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "OpenAI",
+        "defensa",
+        "renuncia"
+      ],
+      "what_changed": "Cambio significativo en el liderazgo de OpenAI.",
+      "why_it_matters": "Puede impactar el enfoque estratégico de la empresa.",
+      "sector_impact": "Potencial reorientación en proyectos de IA."
     }
   ]
 }
