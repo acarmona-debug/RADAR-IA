@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Radar IA</title>
 
+<style>
+body{
+font-family: system-ui;
+background:#0f1115;
+color:#e8e8e8;
+margin:0;
+padding:40px;
+}
+
+h1{
+font-size:32px;
+margin-bottom:5px;
+}
+
+#date{
+color:#888;
+margin-bottom:20px;
+}
+
+.card{
+background:#1a1d24;
+padding:20px;
+margin-bottom:15px;
+border-radius:8px;
+}
+
+.category{
+font-size:12px;
+color:#8da2ff;
+text-transform:uppercase;
+margin-bottom:6px;
+}
+
+.title{
+font-size:18px;
+font-weight:600;
+margin-bottom:6px;
+}
+
+.summary{
+color:#bbb;
+}
+
+a{
+color:#8da2ff;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Radar IA</h1>
+<div id="date"></div>
+
+<div id="intro"></div>
+
+<div id="news"></div>
+
+<script>
+
+async function loadRadar(){
+
+const res = await fetch("daily.json");
+const data = await res.json();
+
+document.getElementById("date").innerText = data.date;
+document.getElementById("intro").innerText = data.intro_message;
+
+const container = document.getElementById("news");
+
+data.items.forEach(item=>{
+
+const card = document.createElement("div");
+card.className="card";
+
+card.innerHTML = `
+<div class="category">${item.category}</div>
+<div class="title">${item.title}</div>
+<div class="summary">${item.summary}</div>
+<br>
+<a href="${item.source_url}" target="_blank">${item.source_name}</a>
+`;
+
+container.appendChild(card);
+
+});
+
+}
+
+loadRadar();
+
+</script>
+
+</body>
+</html>
