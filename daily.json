@@ -1,127 +1,120 @@
 {
-  "date": "2026-03-08",
+  "date": "2026-03-09",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas novedades y tendencias del mundo de la inteligencia artificial.",
-  "opening_message": "Aquí están las actualizaciones más relevantes sobre herramientas, modelos y frameworks en el ámbito de la IA.",
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en IA enfocados en herramientas, modelos, y automatización.",
+  "opening_message": "A continuación, se presentan los avances más relevantes en inteligencia artificial que se centran en la mejora de herramientas y la automatización para desarrolladores.",
   "items": [
     {
-      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
-      "summary": "Desarrolladores conectados a Andela comparten cómo están integrando herramientas de IA en flujos de trabajo de producción reales.",
-      "category": "tool",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "title": "Knowledge Graphs are Implicit Reward Models",
+      "summary": "Presenta un nuevo enfoque para el razonamiento compuesto en modelos de lenguaje mediante gráficos de conocimiento, mejorando el rendimiento en tareas complejas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2601.15160",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "IA",
-        "desarrolladores",
-        "herramientas"
+        "modelos",
+        "razonamiento composto"
       ],
-      "what_changed": "Los desarrolladores están adoptando herramientas de IA en producción.",
-      "why_it_matters": "Facilita la integración de IA en proyectos actuales.",
-      "sector_impact": "Impulsa la capacitación y oportunidades en desarrollo de IA."
+      "what_changed": "Integración de gráficos de conocimiento como modelos de recompensa implícitos.",
+      "why_it_matters": "Aumenta la capacidad de los modelos de lenguaje para resolver tareas de razonamiento difíciles.",
+      "sector_impact": "Mejora significativa en campos como la medicina y la ciencia de datos."
     },
     {
-      "title": "WhatsApp permitirá a empresas de IA rivales ofrecer chatbots en Brasil",
-      "summary": "Meta habilita que compañías de IA rivales ofrezcan chatbots a usuarios brasileños por un costo.",
+      "title": "XAI for Coding Agent Failures",
+      "summary": "Aborda la interpretación de fallas en agentes de codificación, transformando trazas de ejecución en explicaciones comprensibles.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/06/after-europe-whatsapp-will-let-rival-ai-companies-offer-chatbots-in-brazil/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.05941",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "chatbots",
-        "WhatsApp",
-        "competencia"
+        "XAI",
+        "desarrollo de software"
       ],
-      "what_changed": "Apertura de la plataforma a soluciones de IA externas.",
-      "why_it_matters": "Aumenta la competitividad y opciones para los usuarios.",
-      "sector_impact": "Transforma la interacción de los usuarios con la tecnología de mensajería."
+      "what_changed": "Desarrollo de un enfoque sistemático de XAI que traduce fallas en explicaciones útiles.",
+      "why_it_matters": "Facilita la identificación y resolución de errores en el software, incrementando la eficiencia del desarrollo.",
+      "sector_impact": "Potencial para revolucionar flujos de trabajo en ingeniería de software."
     },
     {
-      "title": "Google AI Updates - Febrero 2026",
-      "summary": "Actualizaciones de IA de Google que incluyen nuevas herramientas y mejoras.",
+      "title": "Interactive Multi-Agent System for Evaluation of New Product Concepts",
+      "summary": "Un sistema de evaluación automatizado basado en múltiples agentes que mejora la toma de decisiones en el desarrollo de productos.",
       "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Google",
-        "actualizaciones",
-        "IA"
-      ],
-      "what_changed": "Nuevas funcionalidades fueron presentadas.",
-      "why_it_matters": "Permite a los desarrolladores acceder a herramientas más potentes.",
-      "sector_impact": "Impulsa la innovación en el ecosistema de IA."
-    },
-    {
-      "title": "Bringing Robotics AI to Embedded Platforms",
-      "summary": "Exploración de optimizaciones de IA robótica en plataformas integradas.",
-      "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Robótica",
-        "IA",
-        "embebidos"
-      ],
-      "what_changed": "Optimización de IA para plataformas más pequeñas.",
-      "why_it_matters": "Aumenta la viabilidad de la IA en dispositivos compactos.",
-      "sector_impact": "Facilita avances en tecnología portable y robótica."
-    },
-    {
-      "title": "Google presenta SpeciesNet, un modelo de IA de código abierto",
-      "summary": "Un modelo de IA de código abierto que ayuda en la conservación de la vida silvestre.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [
-        "conservación",
-        "IA",
-        "código abierto"
-      ],
-      "what_changed": "Lanzamiento de un modelo de IA enfocado en sostenibilidad.",
-      "why_it_matters": "Fomenta el uso de IA para el bien social y ambiental.",
-      "sector_impact": "Impulsa iniciativas de sostenibilidad global."
-    },
-    {
-      "title": "Nuevos agentes automáticos en plataformas de trabajo",
-      "summary": "La integración de agentes automáticos está facilitando la eficiencia operativa.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.05980",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automatización",
         "agentes",
-        "eficiencia"
+        "evaluación de producto"
       ],
-      "what_changed": "Se han desarrollado nuevas capacidades automáticas.",
-      "why_it_matters": "Mejora la productividad y reduce el tiempo en tareas repetitivas.",
-      "sector_impact": "Transforma la dinámica de trabajo en múltiples sectores."
+      "what_changed": "Introducción de un sistema automatizado de evaluación utilizando múltiples agentes especializados.",
+      "why_it_matters": "Elimina sesgos en la evaluación y optimiza el uso de recursos en el desarrollo de productos.",
+      "sector_impact": "Fomenta innovaciones más alineadas al mercado, mejorando las decisiones estratégicas."
     },
     {
-      "title": "OpenAI abandona proyecto de colaboración con Defensa",
-      "summary": "Caitlin Kalinowski renuncia por desacuerdos sobre un proyecto con el Pentágono.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis",
+      "summary": "Desarrolla un marco de referencia para analizar cómo los LLMs pueden procesar grafos dinámicos y patrones temporales.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2512.22266",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "defensa",
-        "renuncia"
+        "LLMs",
+        "grafos dinámicos"
       ],
-      "what_changed": "Cambio significativo en el liderazgo de OpenAI.",
-      "why_it_matters": "Puede impactar el enfoque estratégico de la empresa.",
-      "sector_impact": "Potencial reorientación en proyectos de IA."
+      "what_changed": "Implementación de un marco de evaluación que optimiza el rendimiento de los LLMs en grafos.",
+      "why_it_matters": "Mejora la comprensión de dinámicas complejas en conjuntos de datos dinámicos.",
+      "sector_impact": "Aplica en áreas como la detección de anomalías y análisis predictivo."
+    },
+    {
+      "title": "vLLM Semantic Router",
+      "summary": "Un marco de enrutamiento para modelos multinivel que optimiza la selección de modelos en función de señales complejas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.04444",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "enrutamiento",
+        "modelos"
+      ],
+      "what_changed": "Introducción de un enrutador semántico que maneja múltiples modalidades.",
+      "why_it_matters": "Permite una implementación más eficiente de modelos en contextos multifuncionales.",
+      "sector_impact": "Impacto en la reducción de costos y mejora de seguridad en aplicaciones multinube."
+    },
+    {
+      "title": "SecureRAG-RTL for Hardware Vulnerability Detection",
+      "summary": "Un marco que mejora la detección de vulnerabilidades en hardware utilizando LLMs y generación aumentada por recuperación.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.05689",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "detección de vulnerabilidades",
+        "hardware"
+      ],
+      "what_changed": "Integración de generación aumentada con capacidad de recuperación específica para hardware.",
+      "why_it_matters": "Aumenta la precisión en la verificación de la seguridad del diseño de hardware.",
+      "sector_impact": "Mejora la seguridad en dispositivos electrónicos y sistemas embebidos."
+    },
+    {
+      "title": "MOOSEnger: A Domain-Specific AI Agent for MOOSE",
+      "summary": "Un agente de IA diseñado para simplificar la creación de entradas en MOOSE, mejorando la eficiencia del proceso.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.04756",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "simulación"
+      ],
+      "what_changed": "Desarrollo de un flujo de trabajo conversacional para la generación de entradas en MOOSE.",
+      "why_it_matters": "Facilita la interacción y reduce el tiempo de configuración para simulaciones complejas.",
+      "sector_impact": "Optimiza flujos de trabajo en entornos de simulación científica."
     }
   ]
 }

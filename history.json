@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-03-09",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Knowledge Graphs are Implicit Reward Models",
+          "summary": "Presenta un nuevo enfoque para el razonamiento compuesto en modelos de lenguaje mediante gráficos de conocimiento, mejorando el rendimiento en tareas complejas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.15160",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "razonamiento composto"
+          ],
+          "what_changed": "Integración de gráficos de conocimiento como modelos de recompensa implícitos.",
+          "why_it_matters": "Aumenta la capacidad de los modelos de lenguaje para resolver tareas de razonamiento difíciles.",
+          "sector_impact": "Mejora significativa en campos como la medicina y la ciencia de datos."
+        },
+        {
+          "title": "XAI for Coding Agent Failures",
+          "summary": "Aborda la interpretación de fallas en agentes de codificación, transformando trazas de ejecución en explicaciones comprensibles.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.05941",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "XAI",
+            "desarrollo de software"
+          ],
+          "what_changed": "Desarrollo de un enfoque sistemático de XAI que traduce fallas en explicaciones útiles.",
+          "why_it_matters": "Facilita la identificación y resolución de errores en el software, incrementando la eficiencia del desarrollo.",
+          "sector_impact": "Potencial para revolucionar flujos de trabajo en ingeniería de software."
+        },
+        {
+          "title": "Interactive Multi-Agent System for Evaluation of New Product Concepts",
+          "summary": "Un sistema de evaluación automatizado basado en múltiples agentes que mejora la toma de decisiones en el desarrollo de productos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.05980",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "evaluación de producto"
+          ],
+          "what_changed": "Introducción de un sistema automatizado de evaluación utilizando múltiples agentes especializados.",
+          "why_it_matters": "Elimina sesgos en la evaluación y optimiza el uso de recursos en el desarrollo de productos.",
+          "sector_impact": "Fomenta innovaciones más alineadas al mercado, mejorando las decisiones estratégicas."
+        },
+        {
+          "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis",
+          "summary": "Desarrolla un marco de referencia para analizar cómo los LLMs pueden procesar grafos dinámicos y patrones temporales.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.22266",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLMs",
+            "grafos dinámicos"
+          ],
+          "what_changed": "Implementación de un marco de evaluación que optimiza el rendimiento de los LLMs en grafos.",
+          "why_it_matters": "Mejora la comprensión de dinámicas complejas en conjuntos de datos dinámicos.",
+          "sector_impact": "Aplica en áreas como la detección de anomalías y análisis predictivo."
+        },
+        {
+          "title": "vLLM Semantic Router",
+          "summary": "Un marco de enrutamiento para modelos multinivel que optimiza la selección de modelos en función de señales complejas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.04444",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "enrutamiento",
+            "modelos"
+          ],
+          "what_changed": "Introducción de un enrutador semántico que maneja múltiples modalidades.",
+          "why_it_matters": "Permite una implementación más eficiente de modelos en contextos multifuncionales.",
+          "sector_impact": "Impacto en la reducción de costos y mejora de seguridad en aplicaciones multinube."
+        },
+        {
+          "title": "SecureRAG-RTL for Hardware Vulnerability Detection",
+          "summary": "Un marco que mejora la detección de vulnerabilidades en hardware utilizando LLMs y generación aumentada por recuperación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.05689",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "detección de vulnerabilidades",
+            "hardware"
+          ],
+          "what_changed": "Integración de generación aumentada con capacidad de recuperación específica para hardware.",
+          "why_it_matters": "Aumenta la precisión en la verificación de la seguridad del diseño de hardware.",
+          "sector_impact": "Mejora la seguridad en dispositivos electrónicos y sistemas embebidos."
+        },
+        {
+          "title": "MOOSEnger: A Domain-Specific AI Agent for MOOSE",
+          "summary": "Un agente de IA diseñado para simplificar la creación de entradas en MOOSE, mejorando la eficiencia del proceso.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.04756",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "simulación"
+          ],
+          "what_changed": "Desarrollo de un flujo de trabajo conversacional para la generación de entradas en MOOSE.",
+          "why_it_matters": "Facilita la interacción y reduce el tiempo de configuración para simulaciones complejas.",
+          "sector_impact": "Optimiza flujos de trabajo en entornos de simulación científica."
+        }
+      ]
+    },
+    {
       "date": "2026-03-08",
       "executive_title": "Radar Diario de IA",
       "items": [
