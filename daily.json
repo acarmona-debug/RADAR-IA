@@ -1,120 +1,126 @@
 {
   "date": "2026-03-09",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones y desarrollos en IA enfocados en herramientas, modelos, y automatización.",
-  "opening_message": "A continuación, se presentan los avances más relevantes en inteligencia artificial que se centran en la mejora de herramientas y la automatización para desarrolladores.",
+  "intro_message": "Actualizaciones clave en herramientas, modelos y frameworks en IA.",
+  "opening_message": "Este radar presenta las últimas innovaciones y desarrollos en inteligencia artificial, priorizando las herramientas y modelos más relevantes para el ámbito del desarrollo.",
   "items": [
     {
-      "title": "Knowledge Graphs are Implicit Reward Models",
-      "summary": "Presenta un nuevo enfoque para el razonamiento compuesto en modelos de lenguaje mediante gráficos de conocimiento, mejorando el rendimiento en tareas complejas.",
-      "category": "model",
+      "title": "EigenData: Un Sistema Multi-Agente para la Síntesis Y Auditoría de Datos",
+      "summary": "EigenData es una plataforma auto-evolutiva que automatiza el ciclo de vida de los datos a través de una arquitectura multi-agente.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.15160",
+      "source_url": "https://arxiv.org/abs/2603.05553",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "modelos",
-        "razonamiento composto"
+        "multi-agente",
+        "sistemas",
+        "auditoría"
       ],
-      "what_changed": "Integración de gráficos de conocimiento como modelos de recompensa implícitos.",
-      "why_it_matters": "Aumenta la capacidad de los modelos de lenguaje para resolver tareas de razonamiento difíciles.",
-      "sector_impact": "Mejora significativa en campos como la medicina y la ciencia de datos."
+      "what_changed": "Introducción de un nuevo sistema que integra múltiples agentes para la gestión de datos.",
+      "why_it_matters": "Mejora la calidad y precisión de los datos en entornos complejos.",
+      "sector_impact": "Aumenta la eficiencia en la auditoría de bases de datos y sistemas de información."
     },
     {
-      "title": "XAI for Coding Agent Failures",
-      "summary": "Aborda la interpretación de fallas en agentes de codificación, transformando trazas de ejecución en explicaciones comprensibles.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.05941",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "XAI",
-        "desarrollo de software"
-      ],
-      "what_changed": "Desarrollo de un enfoque sistemático de XAI que traduce fallas en explicaciones útiles.",
-      "why_it_matters": "Facilita la identificación y resolución de errores en el software, incrementando la eficiencia del desarrollo.",
-      "sector_impact": "Potencial para revolucionar flujos de trabajo en ingeniería de software."
-    },
-    {
-      "title": "Interactive Multi-Agent System for Evaluation of New Product Concepts",
-      "summary": "Un sistema de evaluación automatizado basado en múltiples agentes que mejora la toma de decisiones en el desarrollo de productos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.05980",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "evaluación de producto"
-      ],
-      "what_changed": "Introducción de un sistema automatizado de evaluación utilizando múltiples agentes especializados.",
-      "why_it_matters": "Elimina sesgos en la evaluación y optimiza el uso de recursos en el desarrollo de productos.",
-      "sector_impact": "Fomenta innovaciones más alineadas al mercado, mejorando las decisiones estratégicas."
-    },
-    {
-      "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis",
-      "summary": "Desarrolla un marco de referencia para analizar cómo los LLMs pueden procesar grafos dinámicos y patrones temporales.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2512.22266",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "LLMs",
-        "grafos dinámicos"
-      ],
-      "what_changed": "Implementación de un marco de evaluación que optimiza el rendimiento de los LLMs en grafos.",
-      "why_it_matters": "Mejora la comprensión de dinámicas complejas en conjuntos de datos dinámicos.",
-      "sector_impact": "Aplica en áreas como la detección de anomalías y análisis predictivo."
-    },
-    {
-      "title": "vLLM Semantic Router",
-      "summary": "Un marco de enrutamiento para modelos multinivel que optimiza la selección de modelos en función de señales complejas.",
+      "title": "KramaBench: Un Marco de Referencia para Sistemas IA en Pipelines de Datos",
+      "summary": "KramaBench ofrece un conjunto de desafíos para evaluar sistemas de IA en la extracción de insights de lagos de datos.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.04444",
+      "source_url": "https://arxiv.org/abs/2506.06541",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "enrutamiento",
-        "modelos"
+        "benchmark",
+        "data pipelines",
+        "evaluación"
       ],
-      "what_changed": "Introducción de un enrutador semántico que maneja múltiples modalidades.",
-      "why_it_matters": "Permite una implementación más eficiente de modelos en contextos multifuncionales.",
-      "sector_impact": "Impacto en la reducción de costos y mejora de seguridad en aplicaciones multinube."
+      "what_changed": "Presentación de un marco de referencia que evalúa capacidades de IA en la orquestación de tareas de datos.",
+      "why_it_matters": "Proporciona una evaluación clara de la efectividad de diferentes modelos de IA.",
+      "sector_impact": "Facilita la identifiación de modelos más eficaces para procesar grandes volúmenes de datos."
     },
     {
-      "title": "SecureRAG-RTL for Hardware Vulnerability Detection",
-      "summary": "Un marco que mejora la detección de vulnerabilidades en hardware utilizando LLMs y generación aumentada por recuperación.",
+      "title": "ESAA-Security: Arquitectura Verificable para Auditorías de Seguridad",
+      "summary": "ESAA-Security ofrece un proceso auditivo estructurado, dirigido a código generado por IA.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.05689",
+      "source_url": "https://arxiv.org/abs/2603.06365",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "detección de vulnerabilidades",
-        "hardware"
+        "seguridad",
+        "auditoría",
+        "IA"
       ],
-      "what_changed": "Integración de generación aumentada con capacidad de recuperación específica para hardware.",
-      "why_it_matters": "Aumenta la precisión en la verificación de la seguridad del diseño de hardware.",
-      "sector_impact": "Mejora la seguridad en dispositivos electrónicos y sistemas embebidos."
+      "what_changed": "Nueva arquitectura para auditar la seguridad del código generado por IA de forma verificable.",
+      "why_it_matters": "Garantiza procesos seguros en la generación de software mediante IA.",
+      "sector_impact": "Reduce riesgos asociados con software inseguro generado automáticamente."
     },
     {
-      "title": "MOOSEnger: A Domain-Specific AI Agent for MOOSE",
-      "summary": "Un agente de IA diseñado para simplificar la creación de entradas en MOOSE, mejorando la eficiencia del proceso.",
+      "title": "TML-Bench: Benchmark para Agentes de Ciencia de Datos",
+      "summary": "TML-Bench introduce un marco para evaluar agentes en tareas de ML tabulares.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.04756",
+      "source_url": "https://arxiv.org/abs/2603.05764",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "ciencia de datos"
+      ],
+      "what_changed": "Creación de un benchmark específico para evaluar el rendimiento en competiciones de Kaggle.",
+      "why_it_matters": "Facilita la evaluación comparativa y mejora de modelos de IA en tareas específicas.",
+      "sector_impact": "Optimiza la precisión en el desarrollo de modelos de datos para la ciencia de datos."
+    },
+    {
+      "title": "Automatización de la Investigación Matemática con Aletheia",
+      "summary": "Aletheia es un agente de investigación matemática que genera y verifica soluciones automáticamente.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.10177",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "IA",
+        "matemáticas",
+        "agentes"
+      ],
+      "what_changed": "Presentación de un agente que puede generar y verificar investigación matemática compleja de manera autónoma.",
+      "why_it_matters": "Aumenta la eficiencia en la investigación matemática, permitiendo abordar problemas más complejos.",
+      "sector_impact": "Transforma la manera en que la investigación matemática se lleva a cabo, integrando IA en su proceso."
+    },
+    {
+      "title": "Shoot First, Ask Questions Later? Agentes Racionales en Búsqueda de Información",
+      "summary": "Desarrollo de agentes que buscan información de manera estratégica, como humanos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.20886",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "agentes",
-        "simulación"
+        "estrategia",
+        "IA"
       ],
-      "what_changed": "Desarrollo de un flujo de trabajo conversacional para la generación de entradas en MOOSE.",
-      "why_it_matters": "Facilita la interacción y reduce el tiempo de configuración para simulaciones complejas.",
-      "sector_impact": "Optimiza flujos de trabajo en entornos de simulación científica."
+      "what_changed": "Introducción de métodos que mejoran la capacidad de los modelos de lenguaje en contextos de búsqueda.",
+      "why_it_matters": "Permite a los modelos comportarse de manera más análoga a los humanos en la toma de decisiones.",
+      "sector_impact": "Mejora interacciones en aplicaciones de IA que requieren toma de decisiones bajo incertidumbre."
+    },
+    {
+      "title": "Accelerando la Investigación Científica con Gemini",
+      "summary": "Estudio de casos sobre cómo los modelos Gemini aceleran la investigación en matemáticas y ciencias.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.03837",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "investigación",
+        "colaboración"
+      ],
+      "what_changed": "Presentación de estudios que demuestran los avances de Gemini en colaboración científica.",
+      "why_it_matters": "Destaca el potencial de la IA como socio en el fomento de descubrimientos científicos.",
+      "sector_impact": "Facilita la colaboración entre humanos y máquinas, ampliando el horizonte de investigación."
     }
   ]
 }
