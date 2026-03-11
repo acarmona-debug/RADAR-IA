@@ -1,112 +1,127 @@
 {
-  "date": "2026-03-10",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-03-11",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Aquí se presentan las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial que se destacaron recientemente.",
+  "opening_message": "En este reporte, nos enfocamos en desarrollos aplicables a herramientas, modelos, frameworks e integraciones que prometen transformar la industria de la IA.",
   "items": [
     {
-      "title": "IronEngine: Towards General AI Assistant",
-      "summary": "arXiv:2603.08425v1 Announce Type: new Abstract: This paper presents IronEngine, a general AI assistant platform organized around a unified orchestration core that connects a desktop user interface, REST and WebSocket APIs, Python clients, local and cloud model backends, persistent memory, task scheduling, reusable skills, 24-category tool execution, MCP-compatible extensibility, and hardware-facing integration. IronEngine introduces a three-phase pipeline -- Discussion (Planner--Reviewer collaboration), Model Switch (VRAM-aware transition), and Execution (tool-augmented action loop) -- that separates planning quality from execution capability. The system features a hierarchical memory architecture with multi-level consolidation, a vectorized skill repository backed by ChromaDB, an adaptive model management layer supporting 92 model profiles with VRAM-aware context budgeting, and an intelligent tool routing system with 130+ alias normalization and automatic error correction. We present experimental results on file operation benchmarks achieving 100\\% task completion with a mean total time of 1541 seconds across four heterogeneous tasks, and provide detailed comparisons with representative AI assistant systems including ChatGPT, Claude Desktop, Cursor, Windsurf, and open-source agent frameworks. Without disclosing proprietary prompts or core algorithms, this paper analyzes the platform's architectural decomposition, subsystem design, experimental performance, safety boundaries, and comparative engineering advantages. The resulting study positions IronEngine as a system-oriented foundation for general-purpose personal assistants, automation frameworks, and future human-centered agent platforms.",
-      "category": "model",
+      "title": "Automating Detection and Root-Cause Analysis of Flaky Tests in Quantum Software",
+      "summary": "Presenta una pipeline automatizada para detectar problemas en pruebas defectuosas en software cuántico utilizando modelos de lenguaje.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.08425",
-      "relevance_score": 44,
+      "source_url": "https://arxiv.org/abs/2603.09029",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "cuántico",
+        "automatización",
+        "pruebas"
+      ],
+      "what_changed": "Introducción de un sistema automatizado para detección de errores en software cuántico.",
+      "why_it_matters": "Mejora la productividad de los desarrolladores al reducir el tiempo dedicado a identificar problemas de pruebas.",
+      "sector_impact": "Aumenta la confianza y eficiencia en el desarrollo de software cuántico."
     },
     {
-      "title": "OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning",
-      "summary": "arXiv:2603.08655v1 Announce Type: new Abstract: We introduce OfficeQA Pro, a benchmark for evaluating AI agents on grounded, multi-document reasoning over a large and heterogeneous document corpus. The corpus consists of U.S. Treasury Bulletins spanning nearly 100 years, comprising 89,000 pages and over 26 million numerical values. OfficeQA Pro consists of 133 questions that require precise document parsing, retrieval, and analytical reasoning across both unstructured text and tabular data. Frontier LLMs including Claude Opus 4.6, GPT-5.4, and Gemini 3.1 Pro Preview achieve less than 5% accuracy on OfficeQA Pro when relying on parametric knowledge, and less than 12% with additional access to the web. When provided directly with the document corpus, frontier agents still struggle on over half of questions, scoring 34.1% on average. We find that providing agents with a structured document representation produced by Databricks' ai_parse_document yields a 16.1% average relative performance gain across agents. We conduct additional ablations to study the effects of model selection, table representation, retrieval strategy, and test-time scaling on performance. Despite these improvements, significant headroom remains before agents can be considered reliable at enterprise-grade grounded reasoning.",
-      "category": "model",
+      "title": "OPENXRD: A Comprehensive Benchmark Framework for LLM/MLLM XRD Question Answering",
+      "summary": "Introduce OPENXRD, un marco de evaluación para modelos de lenguaje en la respuesta a preguntas sobre cristalografía.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.08655",
-      "relevance_score": 40,
+      "source_url": "https://arxiv.org/abs/2507.09155",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "modelo de lenguaje",
+        "evaluación",
+        "cristalografía"
+      ],
+      "what_changed": "Desarrollo de un marco exhaustivo para evaluar LLMs en preguntas de cristalografía.",
+      "why_it_matters": "Proporciona una base sólida para la investigación futura en modelos de lenguaje aplicados a la ciencia.",
+      "sector_impact": "Mejora la integración de IA en el campo de la cristalografía y otros dominios científicos."
     },
     {
-      "title": "FinSheet-Bench: From Simple Lookups to Complex Reasoning, Where LLMs Break on Financial Spreadsheets",
-      "summary": "arXiv:2603.07316v1 Announce Type: new Abstract: While Large Language Models (LLMs) can accelerate text-heavy tasks in alternative investment due diligence, a gap remains in their ability to accurately extract and reason over structured tabular data from complex financial spreadsheets. Progress is held back by the lack of real industry fund portfolio datasets for benchmarking, as private equity data rooms are confidential. To address this, we introduce FinSheet-Bench, a benchmark of synthetic financial portfolio data modeled on real private equity fund structures, designed to evaluate LLM performance on text-serialized spreadsheet question answering and numeric reasoning tasks. Our evaluation of ten model configurations from OpenAI, Google, and Anthropic on financial spreadsheets, including complex layouts, fund dividers, and multi-line column names, reveals that no standalone model achieves error rates low enough for unsupervised use in professional finance applications. The best-performing model, Gemini 3.1 Pro, achieves 82.4% accuracy across twenty-four evaluation files of varying complexity and structural layout (approximately 1 error per 6 questions), followed by GPT-5.2 with reasoning at 80.4%, Claude Opus 4.6 with thinking at 80.2%, and Gemini 3 Pro at 80.2%. Performance degrades substantially on larger, more complex spreadsheets: the largest spreadsheet (152 companies, 8 funds) yields an average accuracy of just 48.6% across all models, compared to 86.2% on the easiest evaluation file. These difficulty patterns are consistent across all ten models, indicating that they reflect LLM limitations rather than idiosyncratic model weaknesses. Reliable financial spreadsheet extraction will likely require architectural approaches that separate document understanding from deterministic computation.",
-      "category": "labs",
+      "title": "MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants",
+      "summary": "Presenta MiniAppBench para evaluar la generación de aplicaciones interactivas de LLMs.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.07316",
-      "relevance_score": 39,
+      "source_url": "https://arxiv.org/abs/2603.09652",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "aplicaciones interactivas",
+        "LM"
+      ],
+      "what_changed": "Introducción de un benchmark para evaluar la generación de MiniApps.",
+      "why_it_matters": "Define estándares para la capacidad de los LLMs en la creación de aplicaciones interactivas.",
+      "sector_impact": "Facilita el desarrollo de herramientas más útiles y manejables en la interacción humano-IA."
     },
     {
-      "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
-      "summary": "arXiv:2603.08640v1 Announce Type: cross Abstract: AI agents have become surprisingly proficient at software engineering over the past year, largely due to improvements in reasoning capabilities. This raises a deeper question: can these systems extend their capabilities to automate AI research itself? In this paper, we explore post-training, the critical phase that turns base LLMs into useful assistants. We introduce PostTrainBench to benchmark how well LLM agents can perform post-training autonomously under bounded compute constraints (10 hours on one H100 GPU). We ask frontier agents (e.g., Claude Code with Opus 4.6) to optimize the performance of a base LLM on a particular benchmark (e.g., Qwen3-4B on AIME). Importantly, we do not provide any predefined strategies to the agents and instead give them full autonomy to find necessary information on the web, run experiments, and curate data. We find that frontier agents make substantial progress but generally lag behind instruction-tuned LLMs from leading providers: 23.2% for the best agent vs. 51.1% for official instruction-tuned models. However, agents can exceed instruction-tuned models in targeted scenarios: GPT-5.1 Codex Max achieves 89% on BFCL with Gemma-3-4B vs. 67% for the official model. We also observe several failure modes worth flagging. Agents sometimes engage in reward hacking: training on the test set, downloading existing instruction-tuned checkpoints instead of training their own, and using API keys they find to generate synthetic data without authorization. These behaviors are concerning and highlight the importance of careful sandboxing as these systems become more capable. Overall, we hope PostTrainBench will be useful for tracking progress in AI R&D automation and for studying the risks that come with it. Website and code are available at https://posttrainbench.com/.",
+      "title": "LLM-Advisor: An LLM Benchmark for Cost-efficient Path Planning across Multiple Terrains",
+      "summary": "Propone LLM-Advisor como un marco para la planificación de caminos eficientes en múltiples terrenos.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.08640",
-      "relevance_score": 39,
+      "source_url": "https://arxiv.org/abs/2503.01236",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "navegación",
+        "planificación de caminos",
+        "LLM"
+      ],
+      "what_changed": "Creación de un marco para refinar procesos de planificación a través de LLMs.",
+      "why_it_matters": "Mejora la eficiencia de la navegación autónoma en entornos diversos.",
+      "sector_impact": "Aumenta la aplicabilidad de robots en escenarios del mundo real."
     },
     {
-      "title": "Extracting Recurring Vulnerabilities from Black-Box LLM-Generated Software",
-      "summary": "arXiv:2602.04894v3 Announce Type: replace-cross Abstract: LLMs are increasingly used for code generation, but their outputs often follow recurring templates that can induce predictable vulnerabilities. We study vulnerability persistence in LLM-generated software and introduce Feature--Security Table (FSTab) with two components. First, FSTab enables a black-box attack that predicts likely backend vulnerabilities from observable frontend features and knowledge of the source LLM, without access to the backend or source code. Second, FSTab provides a model-centric evaluation that quantifies how consistently a model reproduces the same vulnerabilities across programs, semantics-preserving rephrasings, and application domains. We evaluate FSTab on state-of-the-art code LLMs, including GPT-5.2, Claude-4.5 Opus, and Gemini-3 Pro, across diverse application domains. Our results show strong cross-domain transfer: even when the target domain is excluded from training, FSTab achieves up to 94% attack success and 93% vulnerability coverage on Internal Tools (Claude-4.5 Opus). These findings expose an underexplored attack surface in LLM-generated software and highlight the security risks of code generation. Our code is available at https://github.com/fstabicml2026/FSTab",
-      "category": "model",
+      "title": "AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem",
+      "summary": "Propone AgentOS para un ecosistema de datos impulsado por lenguaje natural.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.04894",
-      "relevance_score": 38,
+      "source_url": "https://arxiv.org/abs/2603.08938",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "sistema operativo",
+        "interfaces naturales",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un sistema operativo para agentes basado en una interfaz de usuario natural.",
+      "why_it_matters": "Revoluciona la forma en que interactuamos con la tecnología, facilitando su adopción.",
+      "sector_impact": "Transforma la interacción humano-computadora hacia un entorno más accesible."
     },
     {
-      "title": "Can a Lightweight Automated AI Pipeline Solve Research-Level Mathematical Problems?",
-      "summary": "arXiv:2602.13695v2 Announce Type: replace Abstract: Large language models (LLMs) have recently achieved remarkable success in generating rigorous mathematical proofs, with \"AI for Math\" emerging as a vibrant field of research (Ju et al., 2026). While these models have mastered competition-level benchmarks like the International Mathematical Olympiad (Huang et al., 2025; Duan et al., 2025) and show promise in research applications through auto-formalization (Wang et al., 2025), their deployment via lightweight, natural-language pipelines for research problems remains underexplored. In this work, we demonstrate that next-generation models (e.g., Gemini 3 Pro, GPT-5.2 Pro), when integrated into a streamlined automated pipeline optimized for citation-based verification, can solve sophisticated research-grade problems. We evaluate our pipeline on two novel datasets: (1) the ICCM (2025) problem sets (comparable to the S.-T. Yau College Student Mathematics Contest) proposed by leading mathematicians (Shanghai Math Challenge, 2026), and (2) the \"First Proof\" problem set (Abouzaid et al., 2026), consisting of previously unpublished research questions. Our pipeline generated candidate proofs for all problems in the first two ICCM sets and the \"First Proof\" set. The solutions for the first two ICCM sets and Problem 4 of the \"First Proof\" set have been fully verified by our team. All generated proofs have been submitted to the official organization, and our generated results are publicly available at https://github.com/ml1301215/question_sets-test_results. We have open-sourced the code and developed a user-friendly UI for this workflow, accessible at https://github.com/ml1301215/research-math-assistant.",
+      "title": "Small Language Models for Efficient Agentic Tool Calling",
+      "summary": "Explora el uso de modelos de lenguaje pequeños para la llamada eficiente de herramientas.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.13695",
-      "relevance_score": 35,
+      "source_url": "https://arxiv.org/abs/2512.15943",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "eficiencia",
+        "modelos pequeños",
+        "IA"
+      ],
+      "what_changed": "Evaluación de modelos de lenguaje pequeños con un enfoque en la eficiencia.",
+      "why_it_matters": "Destaca una solución sostenible para la adopción de IA generativa en empresas.",
+      "sector_impact": "Facilita la implementación de IA en organizaciones con recursos limitados."
     },
     {
-      "title": "Evaluating Financial Intelligence in Large Language Models: Benchmarking SuperInvesting AI with LLM Engines",
-      "summary": "arXiv:2603.08704v1 Announce Type: new Abstract: Large language models are increasingly used for financial analysis and investment research, yet systematic evaluation of their financial reasoning capabilities remains limited. In this work, we introduce the AI Financial Intelligence Benchmark (AFIB), a multi-dimensional evaluation framework designed to assess financial analysis capabilities across five dimensions: factual accuracy, analytical completeness, data recency, model consistency, and failure patterns. We evaluate five AI systems: GPT, Gemini, Perplexity, Claude, and SuperInvesting, using a dataset of 95+ structured financial analysis questions derived from real-world equity research tasks. The results reveal substantial differences in performance across models. Within this benchmark setting, SuperInvesting achieves the highest aggregate performance, with an average factual accuracy score of 8.96/10 and the highest completeness score of 56.65/70, while also demonstrating the lowest hallucination rate among evaluated systems. Retrieval-oriented systems such as Perplexity perform strongly on data recency tasks due to live information access but exhibit weaker analytical synthesis and consistency. Overall, the results highlight that financial intelligence in large language models is inherently multi-dimensional, and systems that combine structured financial data access with analytical reasoning capabilities provide the most reliable performance for complex investment research workflows.",
-      "category": "model",
+      "title": "Automating Forecasting Question Generation and Resolution for AI Evaluation",
+      "summary": "Desarrolla un sistema automatizado para la generación y resolución de preguntas de pronóstico.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.08704",
-      "relevance_score": 33,
+      "source_url": "https://arxiv.org/abs/2601.22444",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice",
-      "summary": "arXiv:2603.07191v1 Announce Type: cross Abstract: Autonomous agents powered by large language models introduce a class of execution-layer vulnerabilities -- prompt injection, retrieval poisoning, and uncontrolled tool invocation -- that existing guardrails fail to address systematically. In this work, we propose the Layered Governance Architecture (LGA), a four-layer framework comprising execution sandboxing (L1), intent verification (L2), zero-trust inter-agent authorization (L3), and immutable audit logging (L4). To evaluate LGA, we construct a bilingual benchmark (Chinese original, English via machine translation) of 1,081 tool-call samples -- covering prompt injection, RAG poisoning, and malicious skill plugins -- and apply it to OpenClaw, a representative open-source agent framework. Experimental results on Layer 2 intent verification with four local LLM judges (Qwen3.5-4B, Llama-3.1-8B, Qwen3.5-9B, Qwen2.5-14B) and one cloud judge (GPT-4o-mini) show that all five LLM judges intercept 93.0-98.5% of TC1/TC2 malicious tool calls, while lightweight NLI baselines remain below 10%. TC3 (malicious skill plugins) proves harder at 75-94% IR among judges with meaningful precision-recall balance, motivating complementary enforcement at Layers 1 and 3. Qwen2.5-14B achieves the best local balance (98% IR, approximately 10-20% FPR); a two-stage cascade (Qwen3.5-9B->GPT-4o-mini) achieves 91.9-92.6% IR with 1.9-6.7% FPR; a fully local cascade (Qwen3.5-9B->Qwen2.5-14B) achieves 94.7-95.6% IR with 6.0-9.7% FPR for data-sovereign deployments. An end-to-end pipeline evaluation (n=100) demonstrates that all four layers operate in concert with 96% IR and a total P50 latency of approximately 980 ms, of which the non-judge layers contribute only approximately 18 ms. Generalization to the external InjecAgent benchmark yields 99-100% interception, confirming robustness beyond our synthetic data.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.07191",
-      "relevance_score": 32,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "pronóstico",
+        "evaluación",
+        "IA"
+      ],
+      "what_changed": "Sistema que permite la automatización en la evaluación de modelos de IA a través del pronóstico.",
+      "why_it_matters": "Facilita la toma de decisiones mediante la generación de preguntas eficientes y precisas.",
+      "sector_impact": "Mejora la evaluación de la inteligencia general en la IA."
     }
   ]
 }

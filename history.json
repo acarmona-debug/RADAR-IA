@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-03-11",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Automating Detection and Root-Cause Analysis of Flaky Tests in Quantum Software",
+          "summary": "Presenta una pipeline automatizada para detectar problemas en pruebas defectuosas en software cuántico utilizando modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.09029",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "cuántico",
+            "automatización",
+            "pruebas"
+          ],
+          "what_changed": "Introducción de un sistema automatizado para detección de errores en software cuántico.",
+          "why_it_matters": "Mejora la productividad de los desarrolladores al reducir el tiempo dedicado a identificar problemas de pruebas.",
+          "sector_impact": "Aumenta la confianza y eficiencia en el desarrollo de software cuántico."
+        },
+        {
+          "title": "OPENXRD: A Comprehensive Benchmark Framework for LLM/MLLM XRD Question Answering",
+          "summary": "Introduce OPENXRD, un marco de evaluación para modelos de lenguaje en la respuesta a preguntas sobre cristalografía.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2507.09155",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "modelo de lenguaje",
+            "evaluación",
+            "cristalografía"
+          ],
+          "what_changed": "Desarrollo de un marco exhaustivo para evaluar LLMs en preguntas de cristalografía.",
+          "why_it_matters": "Proporciona una base sólida para la investigación futura en modelos de lenguaje aplicados a la ciencia.",
+          "sector_impact": "Mejora la integración de IA en el campo de la cristalografía y otros dominios científicos."
+        },
+        {
+          "title": "MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants",
+          "summary": "Presenta MiniAppBench para evaluar la generación de aplicaciones interactivas de LLMs.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.09652",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "aplicaciones interactivas",
+            "LM"
+          ],
+          "what_changed": "Introducción de un benchmark para evaluar la generación de MiniApps.",
+          "why_it_matters": "Define estándares para la capacidad de los LLMs en la creación de aplicaciones interactivas.",
+          "sector_impact": "Facilita el desarrollo de herramientas más útiles y manejables en la interacción humano-IA."
+        },
+        {
+          "title": "LLM-Advisor: An LLM Benchmark for Cost-efficient Path Planning across Multiple Terrains",
+          "summary": "Propone LLM-Advisor como un marco para la planificación de caminos eficientes en múltiples terrenos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2503.01236",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "navegación",
+            "planificación de caminos",
+            "LLM"
+          ],
+          "what_changed": "Creación de un marco para refinar procesos de planificación a través de LLMs.",
+          "why_it_matters": "Mejora la eficiencia de la navegación autónoma en entornos diversos.",
+          "sector_impact": "Aumenta la aplicabilidad de robots en escenarios del mundo real."
+        },
+        {
+          "title": "AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem",
+          "summary": "Propone AgentOS para un ecosistema de datos impulsado por lenguaje natural.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.08938",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "sistema operativo",
+            "interfaces naturales",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un sistema operativo para agentes basado en una interfaz de usuario natural.",
+          "why_it_matters": "Revoluciona la forma en que interactuamos con la tecnología, facilitando su adopción.",
+          "sector_impact": "Transforma la interacción humano-computadora hacia un entorno más accesible."
+        },
+        {
+          "title": "Small Language Models for Efficient Agentic Tool Calling",
+          "summary": "Explora el uso de modelos de lenguaje pequeños para la llamada eficiente de herramientas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.15943",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "eficiencia",
+            "modelos pequeños",
+            "IA"
+          ],
+          "what_changed": "Evaluación de modelos de lenguaje pequeños con un enfoque en la eficiencia.",
+          "why_it_matters": "Destaca una solución sostenible para la adopción de IA generativa en empresas.",
+          "sector_impact": "Facilita la implementación de IA en organizaciones con recursos limitados."
+        },
+        {
+          "title": "Automating Forecasting Question Generation and Resolution for AI Evaluation",
+          "summary": "Desarrolla un sistema automatizado para la generación y resolución de preguntas de pronóstico.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.22444",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "pronóstico",
+            "evaluación",
+            "IA"
+          ],
+          "what_changed": "Sistema que permite la automatización en la evaluación de modelos de IA a través del pronóstico.",
+          "why_it_matters": "Facilita la toma de decisiones mediante la generación de preguntas eficientes y precisas.",
+          "sector_impact": "Mejora la evaluación de la inteligencia general en la IA."
+        }
+      ]
+    },
+    {
       "date": "2026-03-10",
       "executive_title": "Radar IA del día",
       "items": [
