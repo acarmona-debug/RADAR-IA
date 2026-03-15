@@ -1,127 +1,123 @@
 {
-  "date": "2026-03-13",
+  "date": "2026-03-15",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y frameworks en inteligencia artificial.",
-  "opening_message": "Este radar diario proporciona información valiosa sobre los desarrollos más recientes y relevantes en el ámbito de la inteligencia artificial, priorizando herramientas, modelos y características innovadoras.",
+  "intro_message": "Últimas novedades en herramientas, modelos y automatización en el ámbito de la inteligencia artificial.",
+  "opening_message": "Este informe destaca las innovaciones y lanzamientos más relevantes en el ecosistema de IA.",
   "items": [
     {
-      "title": "UtilityMax Prompting: Un Framework para la Optimización de Modelos de Lenguaje",
-      "summary": "Se presenta un framework que especifica tareas usando lenguaje matemático formal para optimizar modelos de lenguaje hacia objetivos múltiples.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.11583",
+      "title": "Cómo usar las nuevas integraciones de la app ChatGPT",
+      "summary": "Aprende a utilizar Spotify, Canva, Figma y más aplicaciones directamente en ChatGPT.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/14/how-to-use-the-new-chatgpt-app-integrations-including-doordash-spotify-uber-and-others/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "optimización",
-        "modelos",
-        "IA"
+        "ChatGPT",
+        "integraciones",
+        "apps"
       ],
-      "what_changed": "Introducción de un enfoque matemático para especificar tareas.",
-      "why_it_matters": "Permite una mejor precisión en la respuesta de modelos de lenguaje.",
-      "sector_impact": "Aplicaciones en sistemas de recomendación y análisis de datos."
+      "what_changed": "Integraciones de nuevas aplicaciones en ChatGPT.",
+      "why_it_matters": "Permite a los usuarios interactuar de manera más fluida con varias herramientas en una sola plataforma.",
+      "sector_impact": "Transformación en la forma en que se utilizan múltiples aplicaciones."
     },
     {
-      "title": "ResearchGym: Evaluando Agentes de Modelos de Lenguaje en Investigaciones AI",
-      "summary": "Un entorno de evaluación para agentes de inteligencia artificial en investigaciones, con resultados que evidencian un gap entre capacidad y fiabilidad.",
+      "title": "Compresión de contexto autónoma",
+      "summary": "Nueva herramienta en el SDK de Deep Agents que permite a los modelos comprimir sus ventanas de contexto.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.15112",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/autonomous-context-compression/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "evaluación",
-        "agentes",
-        "IA"
+        "modelos",
+        "agentes"
       ],
-      "what_changed": "Establecimiento de un benchmark específico para la investigación con AI.",
-      "why_it_matters": "Proporciona un enfoque sistemático para analizar el rendimiento de agentes en la investigación.",
-      "sector_impact": "Innovación en métodos de evaluación en inteligencia artificial."
+      "what_changed": "Incorporación de una nueva herramienta para gestión de contexto en modelos.",
+      "why_it_matters": "Mejora la eficiencia operativa de los agentes al optimizar su memoria de trabajo.",
+      "sector_impact": "Impacto en la inteligencia artificial aplicada y eficiencia de modelos."
     },
     {
-      "title": "COMPASS: Un Marco Explicable para la Toma de Decisiones en IA",
-      "summary": "COMPASS es un sistema de orquestación que integra principios éticos en la toma de decisiones autónoma.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.11277",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ética",
-        "IA",
-        "marco"
-      ],
-      "what_changed": "Integración de un marco holístico que aborda múltiples dimensiones éticas.",
-      "why_it_matters": "Provoca confianza y alineación en la toma de decisiones AI.",
-      "sector_impact": "Amplia aplicaciones en sistemas automatizados y de gestión de riesgos."
-    },
-    {
-      "title": "Automatizando la Adquisición de Habilidades en Agentes Abiertos",
-      "summary": "Un marco para la extracción de habilidades de alta calidad de repositorios de código abierto mejorando las capacidades de los modelos de lenguaje.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.11808",
+      "title": "Rox AI alcanza una valoración de $1.2B",
+      "summary": "Rox, una alternativa nativa de AI a herramientas CRM, liderada por un ex-CGO de New Relic.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "automatización",
-        "habilidades",
-        "IA"
+        "CRM"
       ],
-      "what_changed": "Desarrollo de un marco automatizado para adquirir habilidades especializadas.",
-      "why_it_matters": "Aumenta la eficiencia en la formación de modelos respecto a tareas específicas.",
-      "sector_impact": "Mejora el aprendizaje y la especialización de agentes en diversas aplicaciones."
+      "what_changed": "Valoración significativa y reconocimiento en el sector.",
+      "why_it_matters": "Indica la creciente importancia de herramientas automatizadas en ventas.",
+      "sector_impact": "Refuerza la tendencia hacia la automatización en ventas."
     },
     {
-      "title": "TURA: Agente de Recuperación Unificada para Búsquedas AI",
-      "summary": "Propuesta de un nuevo framework que combina recuperación y uso de herramientas para acceder a información estática y dinámica.",
+      "title": "Musk's xAI renueva su enfoque en herramientas de IA",
+      "summary": "El laboratorio de IA está remodelando su esfuerzo para crear una herramienta de codificación de IA.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2508.04604",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "búsqueda",
-        "IA",
-        "herramientas"
-      ],
-      "what_changed": "Incorporación de un enfoque de agente que combina búsqueda estática y dinámica.",
-      "why_it_matters": "Facilita un acceso eficiente a datos en tiempo real, mejorando la calidad de la búsqueda.",
-      "sector_impact": "Revoluciona la interacción con motores de búsqueda en entornos industriales."
-    },
-    {
-      "title": "StegoAttack: Enfoque de Steganografía para Jailbreaks en LLM",
-      "summary": "Un nuevo marco que atraviesa la seguridad en modelos de lenguaje usando técnicas de steganografía.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.16765",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "modelos",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de técnicas que combinan stealth semántico y lingüístico.",
-      "why_it_matters": "Aborda las amenazas de seguridad en aplicaciones de IA de manera innovadora.",
-      "sector_impact": "Mejora las defensas contra ataques que buscan eludir las salvaguardias de modelos."
-    },
-    {
-      "title": "Multi-Agent Collaboration para Exploraciones de Diseño Automatizado",
-      "summary": "Presentación de un marco que coordina múltiples agentes para abordar flujos de trabajo de diseño complejos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.11515",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "colaboración",
-        "diseño",
-        "IA"
+        "tools",
+        "codificación"
       ],
-      "what_changed": "Integración de agentes especializados para automatizar tareas de diseño.",
-      "why_it_matters": "Optimiza el proceso de diseño y mejora la eficiencia en la investigación científica.",
-      "sector_impact": "Potencia el desarrollo de nuevas tecnologías en ambientes de alta complejidad."
+      "what_changed": "Reestructuración del enfoque desplegado por xAI.",
+      "why_it_matters": "Un enfoque renovado puede atraer más desarrolladores y recursos al proyecto.",
+      "sector_impact": "Impulso a la creación de herramientas innovadoras en la codificación."
+    },
+    {
+      "title": "Nyne proporciona contexto humano a agentes de IA",
+      "summary": "Startup que recaudó $5.3 millones en fondos, enfocada en la infraestructura de datos.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "infraestructura"
+      ],
+      "what_changed": "Captación de fondos para desarrollar mejor los agentes de IA.",
+      "why_it_matters": "Añade una dimensión importante al aprendizaje de máquinas a través del contexto humano.",
+      "sector_impact": "Mejoras significativas en interacciones de agentes de IA."
+    },
+    {
+      "title": "Asistente de citas AI de Bumble, 'Bee'",
+      "summary": "El nuevo asistente AI de Bumble busca emparejar personas según compatibilidad y metas.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/12/bumble-introduces-an-ai-dating-assistant-bee/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "features",
+        "AI",
+        "relaciones"
+      ],
+      "what_changed": "Introducción de un asistente con enfoque en la compatibilidad.",
+      "why_it_matters": "Revoluciona el enfoque tradicional de citas al centrarse en la inteligencia emocional.",
+      "sector_impact": "Transformación en aplicaciones de relaciones personales."
+    },
+    {
+      "title": "Peacock se expande hacia videos impulsados por AI",
+      "summary": "Iniciativa de Peacock que incorpora experiencias de video alimentadas por AI para su crecimiento.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/13/peacock-expands-into-ai-driven-video-mobile-first-live-sports-and-gaming/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "AI",
+        "video",
+        "entretenimiento"
+      ],
+      "what_changed": "Nuevas propuestas de contenido en video mediante inteligencia artificial.",
+      "why_it_matters": "Establece un nuevo estándar para experiencias de entretenimiento digital.",
+      "sector_impact": "Aumento de la competencia en el sector de contenido digital."
     }
   ]
 }
