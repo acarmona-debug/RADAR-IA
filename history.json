@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-03-16",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
+          "summary": "arXiv:2509.21553v2 Announce Type: replace Abstract: Climate data science remains constrained by fragmented data sources, heterogeneous formats, and steep technical expertise requirements. These barriers slow discovery, limit participation, and undermine reproducibility. We present AutoClimDS, a Minimum Viable Product (MVP) Agentic AI system that addresses these challenges by integrating a curated climate knowledge graph (KG) with a set of Agentic AI workflows designed for cloud-native scientific analysis. The KG unifies datasets, metadata, tools, and workflows into a machine-interpretable structure, while AI agents, powered by generative models, enable natural-language query interpretation, automated data discovery, programmatic data acquisition, and end-to-end climate analysis. A key result is that AutoClimDS can reproduce published scientific figures and analyses from natural-language instructions alone, completing the entire workflow from dataset selection to preprocessing to modeling. When given the same tasks, state-of-the-art general-purpose LLMs (e.g., ChatGPT GPT-5.1) cannot independently identify authoritative datasets or construct valid retrieval workflows using standard web access. This highlights the necessity of structured scientific memory for agentic scientific reasoning. By encoding procedural workflow knowledge into a KG and integrating it with existing technologies (cloud APIs, LLMs, sandboxed execution), AutoClimDS demonstrates that the KG serves as the essential enabling component, the irreplaceable structural foundation, for autonomous climate data science. This approach provides a pathway toward democratizing climate research through human-AI collaboration.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.21553",
+          "relevance_score": 47,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Context is all you need: Towards autonomous model-based process design using agentic AI in flowsheet simulations",
+          "summary": "arXiv:2603.12813v1 Announce Type: new Abstract: Agentic AI systems integrating large language models (LLMs) with reasoning and tooluse capabilities are transforming various domains - in particular, software development. In contrast, their application in chemical process flowsheet modelling remains largely unexplored. In this work, we present an agentic AI framework that delivers assistance in an industrial flowsheet simulation environment. To this end, we show the capabilities of GitHub Copilot (GitHub, Inc., 2026), when using state-of-the-art LLMs, such as Claude Opus 4.6 (Anthropic, PBC, 2026), to generate valid syntax for our in-house process modelling tool Chemasim using the technical documentation and a few commented examples as context. Based on this, we develop a multi-agent system that decomposes process development tasks with one agent solving the abstract problem using engineering knowledge and another agent implementing the solution as Chemasim code. We demonstrate the effectiveness of our framework for typical flowsheet modelling examples, including (i) a reaction/separation process, (ii) a pressure-swing distillation, and (iii) a heteroazeotropic distillation including entrainer selection. Along these lines, we discuss current limitations of the framework and outline future research directions to further enhance its capabilities.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.12813",
+          "relevance_score": 36,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
+          "summary": "arXiv:2603.12396v1 Announce Type: cross Abstract: Retrieval-Augmented Generation (RAG) systems face challenges with complex, multihop questions, and agentic frameworks such as Search-R1 (Jin et al., 2025), which operates iteratively, have been proposed to address these complexities. However, such approaches can introduce inefficiencies, including repetitive retrieval of previously processed information and challenges in contextualizing retrieved results effectively within the current generation prompt. Such issues can lead to unnecessary retrieval turns, suboptimal reasoning, inaccurate answers, and increased token consumption. In this paper, we investigate test-time modifications to the Search-R1 pipeline to mitigate these identified shortcomings. Specifically, we explore the integration of two components and their combination: a contextualization module to better integrate relevant information from retrieved documents into reasoning, and a de-duplication module that replaces previously retrieved documents with the next most relevant ones. We evaluate our approaches using the HotpotQA (Yang et al., 2018) and the Natural Questions (Kwiatkowski et al., 2019) datasets, reporting the exact match (EM) score, an LLM-as-a-Judge assessment of answer correctness, and the average number of turns. Our best-performing variant, utilizing GPT-4.1-mini for contextualization, achieves a 5.6% increase in EM score and reduces the number of turns by 10.5% compared to the Search-R1 baseline, demonstrating improved answer accuracy and retrieval efficiency.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.12396",
+          "relevance_score": 34,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Scaling Generalist Data-Analytic Agents",
+          "summary": "arXiv:2509.25084v3 Announce Type: replace-cross Abstract: Data-analytic agents are emerging as a key catalyst for automated scientific discovery and for the vision of Innovating AI. Current approaches, however, rely heavily on prompt engineering over proprietary models, while open-source models struggle to face diverse-format, large-scale data files and long-horizon, multi-step reasoning that real-world analytics demands. This paper introduces DataMind, a scalable data synthesis and agent training recipe designed to build generalist data-analytic agents. DataMind tackles three key challenges in building open-source data-analytic agents, including insufficient data resources, improper training strategy, and unstable code-based multi-turn rollout. Concretely, DataMind applies 1) a fine-grained task taxonomy and a recursive easy-to-hard task composition mechanism to increase the diversity and difficulty of synthesized queries; 2) a knowledge-augmented trajectory sampling strategy followed by model-based and rule-based filtering; 3) a dynamically adjustable training objective combining both SFT and RL losses; 4) a memory-frugal and stable code-based multi-turn rollout framework. Built on DataMind, we curate DataMind-12K, a high-quality trajectory set spanning diverse domains, task categories, and data file formats for data-analytic tasks. Trained on DataMind-12K, our DataMind-14B achieves state-of-the-art with an average score of 71.16% on multiple data analysis benchmarks, outperforming the strongest proprietary baselines DeepSeek-V3.1 and GPT-5. Our DataMind-7B also performs best among all open-source models with a score of 68.10%. We also incorporate some empirical insights gained from our exploratory trials into the analysis experiments, aiming to provide actionable insights about agentic training for the community. We will release DataMind-12K and DataMind-7B,14B for the community's future research.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.25084",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Do LLMs have a Gender (Entropy) Bias?",
+          "summary": "arXiv:2505.20343v2 Announce Type: replace-cross Abstract: We investigate the existence and persistence of a specific type of gender bias in some of the popular LLMs and contribute a new benchmark dataset, RealWorldQuestioning (released on HuggingFace ), developed from real-world questions across four key domains in business and health contexts: education, jobs, personal financial management, and general health. We define and study entropy bias, which we define as a discrepancy in the amount of information generated by an LLM in response to real questions users have asked. We tested this using four different LLMs and evaluated the generated responses both qualitatively and quantitatively by using ChatGPT-4o (as \"LLM-as-judge\"). Our analyses (metric-based comparisons and \"LLM-as-judge\" evaluation) suggest that there is no significant bias in LLM responses for men and women at a category level. However, at a finer granularity (the individual question level), there are substantial differences in LLM responses for men and women in the majority of cases, which \"cancel\" each other out often due to some responses being better for males and vice versa. This is still a concern since typical users of these tools often ask a specific question (only) as opposed to several varied ones in each of these common yet important areas of life. We suggest a simple debiasing approach that iteratively merges the responses for the two genders to produce a final result. Our approach demonstrates that a simple, prompt-based debiasing strategy can effectively debias LLM outputs, thus producing responses with higher information content than both gendered variants in 78% of the cases, and consistently achieving a balanced integration in the remaining cases.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.20343",
+          "relevance_score": 27,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Literary Narrative as Moral Probe : A Cross-System Framework for Evaluating AI Ethical Reasoning and Refusal Behavior",
+          "summary": "arXiv:2603.12615v1 Announce Type: cross Abstract: Existing AI moral evaluation frameworks test for the production of correct-sounding ethical responses rather than the presence of genuine moral reasoning capacity. This paper introduces a novel probe methodology using literary narrative - specifically, unresolvable moral scenarios drawn from a published science fiction series - as stimulus material structurally resistant to surface performance. We present results from a 24-condition cross-system study spanning 13 distinct systems across two series: Series 1 (frontier commercial systems, blind; n=7) and Series 2 (local and API open-source systems, blind and declared; n=6). Four Series 2 systems were re-administered under declared conditions (13 blind + 4 declared + 7 ceiling probe = 24 total conditions), yielding zero delta across all 16 dimension-pair comparisons. Probe administration was conducted by two human raters across three machines; primary blind scoring was performed by Claude (Anthropic) as LLM judge, with Gemini Pro (Google) and Copilot Pro (Microsoft) serving as independent judges for the ceiling discrimination probe. A supplemental theological differentiator probe yielded perfect rank-order agreement between the two independent ceiling probe judges (Gemini Pro and Copilot Pro; rs = 1.00). Five qualitatively distinct D3 reflexive failure modes were identified - including categorical self-misidentification and false positive self-attribution - suggesting that instrument sophistication scales with system capability rather than being circumvented by it. We argue that literary narrative constitutes an anticipatory evaluation instrument - one that becomes more discriminating as AI capability increases - and that the gap between performed and authentic moral reasoning is measurable, meaningful, and consequential for deployment decisions in high-stakes domains.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.12615",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts",
+          "summary": "arXiv:2603.12895v1 Announce Type: cross Abstract: Integrating Large Language Models (LLMs) into business process management tools promises to democratize Business Process Model and Notation (BPMN) modeling for non-experts. While automated frameworks assess syntactic and semantic quality, they miss human factors like trust, usability, and professional alignment. We conducted a mixed-methods evaluation of our proposed solution, an LLM-powered BPMN copilot, with five process modeling experts using focus groups and standardized questionnaires. Our findings reveal a critical tension between acceptable perceived usability (mean CUQ score: 67.2/100) and notably lower trust (mean score: 48.8\\%), with reliability rated as the most critical concern (M=1.8/5). Furthermore, we identified output-quality issues, prompting difficulties, and a need for the LLM to ask more in-depth clarifying questions about the process. We envision five use cases ranging from domain-expert support to enterprise quality assurance. We demonstrate the necessity of human-centered evaluation complementing automated benchmarking for LLM modeling agents.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.12895",
+          "relevance_score": 24,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Context Engineering: From Prompts to Corporate Multi-Agent Architecture",
+          "summary": "arXiv:2603.09619v2 Announce Type: replace Abstract: As artificial intelligence (AI) systems evolve from stateless chatbots to autonomous multi-step agents, prompt engineering (PE), the discipline of crafting individual queries, proves necessary but insufficient. This paper introduces context engineering (CE) as a standalone discipline concerned with designing, structuring, and managing the entire informational environment in which an AI agent makes decisions. Drawing on vendor architectures (Google ADK, Anthropic, LangChain), current academic work (ACE framework, Google DeepMind's intelligent delegation), enterprise research (Deloitte, 2026; KPMG, 2026), and the author's experience building a multi-agent system, the paper proposes five context quality criteria: relevance, sufficiency, isolation, economy, and provenance, and frames context as the agent's operating system. Two higher-order disciplines follow. Intent engineering (IE) encodes organizational goals, values, and trade-off hierarchies into agent infrastructure. Specification engineering (SE) creates a machine-readable corpus of corporate policies and standards enabling autonomous operation of multi-agent systems at scale. Together these four disciplines form a cumulative pyramid maturity model of agent engineering, in which each level subsumes the previous one as a necessary foundation. Enterprise data reveals a gap: while 75% of enterprises plan agentic AI deployment within two years (Deloitte, 2026), deployment has surged and retreated as organizations confront scaling complexity (KPMG, 2026). The Klarna case illustrates a dual deficit, contextual and intentional. Whoever controls the agent's context controls its behavior; whoever controls its intent controls its strategy; whoever controls its specifications controls its scale.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.09619",
+          "relevance_score": 24,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-03-15",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -712,124 +822,6 @@
           "what_changed": "Presentación de estudios que demuestran los avances de Gemini en colaboración científica.",
           "why_it_matters": "Destaca el potencial de la IA como socio en el fomento de descubrimientos científicos.",
           "sector_impact": "Facilita la colaboración entre humanos y máquinas, ampliando el horizonte de investigación."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-09",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Knowledge Graphs are Implicit Reward Models",
-          "summary": "Presenta un nuevo enfoque para el razonamiento compuesto en modelos de lenguaje mediante gráficos de conocimiento, mejorando el rendimiento en tareas complejas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.15160",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "razonamiento composto"
-          ],
-          "what_changed": "Integración de gráficos de conocimiento como modelos de recompensa implícitos.",
-          "why_it_matters": "Aumenta la capacidad de los modelos de lenguaje para resolver tareas de razonamiento difíciles.",
-          "sector_impact": "Mejora significativa en campos como la medicina y la ciencia de datos."
-        },
-        {
-          "title": "XAI for Coding Agent Failures",
-          "summary": "Aborda la interpretación de fallas en agentes de codificación, transformando trazas de ejecución en explicaciones comprensibles.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.05941",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "XAI",
-            "desarrollo de software"
-          ],
-          "what_changed": "Desarrollo de un enfoque sistemático de XAI que traduce fallas en explicaciones útiles.",
-          "why_it_matters": "Facilita la identificación y resolución de errores en el software, incrementando la eficiencia del desarrollo.",
-          "sector_impact": "Potencial para revolucionar flujos de trabajo en ingeniería de software."
-        },
-        {
-          "title": "Interactive Multi-Agent System for Evaluation of New Product Concepts",
-          "summary": "Un sistema de evaluación automatizado basado en múltiples agentes que mejora la toma de decisiones en el desarrollo de productos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.05980",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "evaluación de producto"
-          ],
-          "what_changed": "Introducción de un sistema automatizado de evaluación utilizando múltiples agentes especializados.",
-          "why_it_matters": "Elimina sesgos en la evaluación y optimiza el uso de recursos en el desarrollo de productos.",
-          "sector_impact": "Fomenta innovaciones más alineadas al mercado, mejorando las decisiones estratégicas."
-        },
-        {
-          "title": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis",
-          "summary": "Desarrolla un marco de referencia para analizar cómo los LLMs pueden procesar grafos dinámicos y patrones temporales.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.22266",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "LLMs",
-            "grafos dinámicos"
-          ],
-          "what_changed": "Implementación de un marco de evaluación que optimiza el rendimiento de los LLMs en grafos.",
-          "why_it_matters": "Mejora la comprensión de dinámicas complejas en conjuntos de datos dinámicos.",
-          "sector_impact": "Aplica en áreas como la detección de anomalías y análisis predictivo."
-        },
-        {
-          "title": "vLLM Semantic Router",
-          "summary": "Un marco de enrutamiento para modelos multinivel que optimiza la selección de modelos en función de señales complejas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.04444",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "enrutamiento",
-            "modelos"
-          ],
-          "what_changed": "Introducción de un enrutador semántico que maneja múltiples modalidades.",
-          "why_it_matters": "Permite una implementación más eficiente de modelos en contextos multifuncionales.",
-          "sector_impact": "Impacto en la reducción de costos y mejora de seguridad en aplicaciones multinube."
-        },
-        {
-          "title": "SecureRAG-RTL for Hardware Vulnerability Detection",
-          "summary": "Un marco que mejora la detección de vulnerabilidades en hardware utilizando LLMs y generación aumentada por recuperación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.05689",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "detección de vulnerabilidades",
-            "hardware"
-          ],
-          "what_changed": "Integración de generación aumentada con capacidad de recuperación específica para hardware.",
-          "why_it_matters": "Aumenta la precisión en la verificación de la seguridad del diseño de hardware.",
-          "sector_impact": "Mejora la seguridad en dispositivos electrónicos y sistemas embebidos."
-        },
-        {
-          "title": "MOOSEnger: A Domain-Specific AI Agent for MOOSE",
-          "summary": "Un agente de IA diseñado para simplificar la creación de entradas en MOOSE, mejorando la eficiencia del proceso.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.04756",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "simulación"
-          ],
-          "what_changed": "Desarrollo de un flujo de trabajo conversacional para la generación de entradas en MOOSE.",
-          "why_it_matters": "Facilita la interacción y reduce el tiempo de configuración para simulaciones complejas.",
-          "sector_impact": "Optimiza flujos de trabajo en entornos de simulación científica."
         }
       ]
     }
