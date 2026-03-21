@@ -1,112 +1,127 @@
 {
-  "date": "2026-03-19",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-03-21",
+  "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos Clave",
+  "intro_message": "Este radar presenta las últimas herramientas, modelos y frameworks relevantes en el ámbito de la Inteligencia Artificial, priorizando aquellas integraciones y funcionalidades que impactan directamente en el desarrollo de nuevas soluciones.",
+  "opening_message": "Mantente a la vanguardia de las innovaciones en IA con este compendio de recursos cruciales que pueden transformar la forma en que trabajamos con modelos de lenguaje y sistemas autónomos.",
   "items": [
     {
-      "title": "VeriGrey: Greybox Agent Validation",
-      "summary": "arXiv:2603.17639v1 Announce Type: new Abstract: Agentic AI has been a topic of great interest recently. A Large Language Model (LLM) agent involves one or more LLMs in the back-end. In the front end, it conducts autonomous decision-making by combining the LLM outputs with results obtained by invoking several external tools. The autonomous interactions with the external environment introduce critical security risks. In this paper, we present a grey-box approach to explore diverse behaviors and uncover security risks in LLM agents. Our approach VeriGrey uses the sequence of tools invoked as a feedback function to drive the testing process. This helps uncover infrequent but dangerous tool invocations that cause unexpected agent behavior. As mutation operators in the testing process, we mutate prompts to design pernicious injection prompts. This is carefully accomplished by linking the task of the agent to an injection task, so that the injection task becomes a necessary step of completing the agent functionality. Comparing our approach with a black-box baseline on the well-known AgentDojo benchmark, VeriGrey achieves 33% additional efficacy in finding indirect prompt injection vulnerabilities with a GPT-4.1 back-end. We also conduct real-world case studies with the widely used coding agent Gemini CLI, and the well-known OpenClaw personal assistant. VeriGrey finds prompts inducing several attack scenarios that could not be identified by black-box approaches. In OpenClaw, by constructing a conversation agent which employs mutational fuzz testing as needed, VeriGrey is able to discover malicious skill variants from 10 malicious skills (with 10/10= 100% success rate on the Kimi-K2.5 LLM backend, and 9/10= 90% success rate on Opus 4.6 LLM backend). This demonstrates the value of a dynamic approach like VeriGrey to test agents, and to eventually lead to an agent assurance framework.",
-      "category": "model",
+      "title": "ZEBRAARENA: Entorno de Simulación Diagnóstica para Modelos LLM",
+      "summary": "Una plataforma para evaluar la conexión entre razonamiento y acción en modelos LLM aumentados por herramientas.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17639",
-      "relevance_score": 35,
+      "source_url": "https://arxiv.org/abs/2603.18614",
+      "relevance_score": 9,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "herramientas",
+        "evaluación",
+        "razonamiento"
+      ],
+      "what_changed": "Introducción de un entorno procedimentalmente generado para estudiar el uso de herramientas en LLMs.",
+      "why_it_matters": "Aumenta la capacidad de los modelos para usar herramientas externas eficientemente.",
+      "sector_impact": "Impacto significativo en la formación de modelos de lenguaje más efectivos en aplicaciones prácticas."
     },
     {
-      "title": "CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents",
-      "summary": "arXiv:2603.17829v1 Announce Type: cross Abstract: A prerequisite for coding agents to perform tasks on large repositories is code localization - the identification of relevant files, classes, and functions to work on. While repository-level code localization has been performed using embedding-based retrieval approaches such as vector search, recent work has focused on developing agents to localize relevant code either as a standalone precursor to or interleaved with performing actual work. Most prior methods on agentic code search equip the agent with complex, specialized tools, such as repository graphs derived from static analysis. In this paper, we demonstrate that, with an effective reinforcement learning recipe, a coding agent equipped with nothing more than a standard Unix terminal can be trained to achieve strong results. Our experiments on three benchmarks (SWE-Bench Verified, Pro, and Lite) reveal that our models consistently achieve superior or competitive performance over 2-18x larger base and post-trained LLMs and sometimes approach performance provided by closed models like Claude Sonnet, even when using specialized scaffolds. Our work particularly focuses on techniques for re-purposing existing coding agent environments for code search, reward design, and RL optimization. We release the resulting model family, CodeScout, along with all our code and data for the community to build upon.",
-      "category": "model",
+      "title": "Infherno: Sínteisis de Recursos Clínicos con IA",
+      "summary": "Una solución integral para integrar datos clínicos libres en recursos FHIR estructurados.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17829",
-      "relevance_score": 34,
+      "source_url": "https://arxiv.org/abs/2507.12261",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "automatización",
+        "salud",
+        "aunque"
+      ],
+      "what_changed": "Framework que mejora la traducción de notas clínicas a recursos estructurados.",
+      "why_it_matters": "Facilita la interoperabilidad en el sector salud.",
+      "sector_impact": "Transforma la manera de manejar datos clínicos, mejorando la calidad en atención médica."
     },
     {
-      "title": "LLM NL2SQL Robustness: Surface Noise vs. Linguistic Variation in Traditional and Agentic Settings",
-      "summary": "arXiv:2603.17017v1 Announce Type: cross Abstract: Robustness evaluation for Natural Language to SQL (NL2SQL) systems is essential because real-world database environments are dynamic, noisy, and continuously evolving, whereas conventional benchmark evaluations typically assume static schemas and well-formed user inputs. In this work, we introduce a robustness evaluation benchmark containing approximately ten types of perturbations and conduct evaluations under both traditional and agentic settings. We assess multiple state-of-the-art large language models (LLMs), including Grok-4.1, Gemini-3-Pro, Claude-Opus-4.6, and GPT-5.2. Our results show that these models generally maintain strong performance under several perturbations; however, notable performance degradation is observed for surface-level noise (e.g., character-level corruption) and linguistic variation that preserves semantics while altering lexical or syntactic forms. Furthermore, we observe that surface-level noise causes larger performance drops in traditional pipelines, whereas linguistic variation presents greater challenges in agentic settings. These findings highlight the remaining challenges in achieving robust NL2SQL systems, particularly in handling linguistic variability.",
-      "category": "model",
+      "title": "Memento-Skills: Sistema de Agente que Diseña Agentes",
+      "summary": "Sistema LLM que aprende a crear y adaptar agentes específicos de tareas de manera autónoma.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17017",
-      "relevance_score": 32,
+      "source_url": "https://arxiv.org/abs/2603.18743",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "agentes",
+        "aprendizaje",
+        "autonomía"
+      ],
+      "what_changed": "Introducción de un sistema que optimiza la creación de agentes para tareas específicas.",
+      "why_it_matters": "Permite que los agentes se automejoren sin intervención humana.",
+      "sector_impact": "Capacita la evolución continua en el desarrollo de agentes IA."
     },
     {
-      "title": "A Contextual Help Browser Extension to Assist Digital Illiterate Internet Users",
-      "summary": "arXiv:2603.17592v1 Announce Type: cross Abstract: This paper describes the design, implementation, and evaluation of a browser extension that provides contextual help to users who hover over technological acronyms and abbreviations on web pages. The extension combines a curated technical dictionary with OpenAI's large language model (LLM) to deliver on-demand definitions through lightweight tooltip overlays. A dual-layer artificial intelligence (AI) pipeline, comprising Google Cloud's Natural Language Processing (NLP) taxonomy API and OpenAI's ChatGPT, classifies each visited page as technology-related before activating the tooltip logic, thereby reducing false-positive detections. A mixed-methods study with 25 participants evaluated the tool's effect on reading comprehension and information-retrieval time among users with low to intermediate digital literacy. Results show that 92% of participants reported improved understanding of technical terms, 96% confirmed time savings over manual web searches, and all participants found the tooltips non-disruptive. Dictionary-based definitions were appended in an average of 2135 ms, compared to 16429 ms for AI-generated definitions and a mean manual search time of 17200 ms per acronym. The work demonstrates a practical, real-time approach to bridging the digital literacy gap and points toward extending contextual help to other domains such as medicine, law, and finance.",
-      "category": "labs",
+      "title": "DynaRAG: Integración de Conocimiento Estático y Dinámico",
+      "summary": "Framework RAG que maneja tanto información estática como necesidades dinámicas.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17592",
-      "relevance_score": 32,
+      "source_url": "https://arxiv.org/abs/2603.18012",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "RAG",
+        "automatización",
+        "preguntas"
+      ],
+      "what_changed": "Sistema que invoca APIs externas para mejorar la precisión en respuestas a preguntas dinámicas.",
+      "why_it_matters": "Reduce alucinaciones y mejora la precisión en aplicaciones del mundo real.",
+      "sector_impact": "Optimiza sistemas de respuesta a preguntas, aplicables en múltiples industrias."
     },
     {
-      "title": "Security Assessment and Mitigation Strategies for Large Language Models: A Comprehensive Defensive Framework",
-      "summary": "arXiv:2603.17123v1 Announce Type: cross Abstract: Large Language Models increasingly power critical infrastructure from healthcare to finance, yet their vulnerability to adversarial manipulation threatens system integrity and user safety. Despite growing deployment, no comprehensive comparative security assessment exists across major LLM architectures, leaving organizations unable to quantify risk or select appropriately secure LLMs for sensitive applications. This research addresses this gap by establishing a standardized vulnerability assessment framework and developing a multi-layered defensive system to protect against identified threats. We systematically evaluate five widely-deployed LLM families GPT-4, GPT-3.5 Turbo, Claude-3 Haiku, LLaMA-2-70B, and Gemini-2.5-pro against 10,000 adversarial prompts spanning six attack categories. Our assessment reveals critical security disparities, with vulnerability rates ranging from 11.9\\% to 29.8\\%, demonstrating that LLM capability does not correlate with security robustness. To mitigate these risks, we develop a production-ready defensive framework achieving 83\\% average detection accuracy with only 5\\% false positives. These results demonstrate that systematic security assessment combined with external defensive measures provides a viable path toward safer LLM deployment in production environments.",
+      "title": "Learning to Self-Evolve: Mejora Contextual con IA",
+      "summary": "Framework de RL que permite a los LLMs mejorar sus contextos en tiempo de prueba.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17123",
-      "relevance_score": 30,
+      "source_url": "https://arxiv.org/abs/2603.18620",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "aprendizaje",
+        "mejora",
+        "eficiencia"
+      ],
+      "what_changed": "Propuesta de un nuevo tipo de aprendizaje adaptativo en LLMs.",
+      "why_it_matters": "Aumenta la efectividad de los modelos en tareas específicas.",
+      "sector_impact": "Impulsa el potencial de los LLMs en aplicaciones más complejas."
     },
     {
-      "title": "Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures",
-      "summary": "arXiv:2603.17244v1 Announce Type: new Abstract: While individual components for AI agent memory exist in prior systems, their architectural synthesis and formal grounding remain underexplored. We present Kumiho, a graph-native cognitive memory architecture grounded in formal belief revision semantics. The structural primitives required for cognitive memory -- immutable revisions, mutable tag pointers, typed dependency edges, URI-based addressing -- are identical to those required for managing agent-produced work as versionable assets, enabling a unified graph-native architecture that serves both purposes. The central formal contribution is a correspondence between the AGM belief revision framework and the operational semantics of a property graph memory system, proving satisfaction of the basic AGM postulates (K*2--K*6) and Hansson's belief base postulates (Relevance, Core-Retainment). The architecture implements a dual-store model (Redis working memory, Neo4j long-term graph) with hybrid fulltext and vector retrieval. On LoCoMo (token-level F1), Kumiho achieves 0.565 overall F1 (n=1,986) including 97.5% adversarial refusal accuracy. On LoCoMo-Plus, a Level-2 cognitive memory benchmark testing implicit constraint recall, Kumiho achieves 93.3% judge accuracy (n=401); independent reproduction by the benchmark authors yielded results in the mid-80% range, still substantially outperforming all published baselines (best: Gemini 2.5 Pro, 45.7%). Three architectural innovations drive the results: prospective indexing (LLM-generated future-scenario implications indexed at write time), event extraction (structured causal events preserved in summaries), and client-side LLM reranking. The architecture is model-decoupled: switching the answer model from GPT-4o-mini (~88%) to GPT-4o (93.3%) improves end-to-end accuracy without pipeline changes, at a total evaluation cost of ~$14 for 401 entries.",
-      "category": "model",
+      "title": "Auditoria de Preferencias en LLMs",
+      "summary": "Framework para auditar preferencias de marcas y culturas en LLMs y su impacto en el mercado.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17244",
-      "relevance_score": 29,
+      "source_url": "https://arxiv.org/abs/2603.18300",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "auditoría",
+        "marcas",
+        "mercado"
+      ],
+      "what_changed": "Introducción de un sistema de auditoría para cuantificar sesgos en LLMs.",
+      "why_it_matters": "Aborda la necesidad de equidad y competitividad en la mediación del mercado.",
+      "sector_impact": "Mejora la transparencia y la equidad en el proceso de toma de decisiones de mercado."
     },
     {
-      "title": "AI Scientist via Synthetic Task Scaling",
-      "summary": "arXiv:2603.17216v1 Announce Type: new Abstract: With the advent of AI agents, automatic scientific discovery has become a tenable goal. Many recent works scaffold agentic systems that can perform machine learning research, but don't offer a principled way to train such agents -- and current LLMs often generate plausible-looking but ineffective ideas. To make progress on training agents that can learn from doing, we provide a novel synthetic environment generation pipeline targeting machine learning agents. Our pipeline automatically synthesizes machine learning challenges compatible with the SWE-agent framework, covering topic sampling, dataset proposal, and code generation. The resulting synthetic tasks are 1) grounded in real machine learning datasets, because the proposed datasets are verified against the Huggingface API and are 2) verified for higher quality with a self-debugging loop. To validate the effectiveness of our synthetic tasks, we tackle MLGym, a benchmark for machine learning tasks. From the synthetic tasks, we sample trajectories from a teacher model (GPT-5), then use the trajectories to train a student model (Qwen3-4B and Qwen3-8B). The student models trained with our synthetic tasks achieve improved performance on MLGym, raising the AUP metric by 9% for Qwen3-4B and 12% for Qwen3-8B.",
-      "category": "model",
+      "title": "MEMO: Optimización de Contexto en Juegos Multi-Agent LLM",
+      "summary": "Framework que optimiza el contexto en juegos multi-agente mediante memoria.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17216",
-      "relevance_score": 28,
+      "source_url": "https://arxiv.org/abs/2603.09022",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "RPMS: Enhancing LLM-Based Embodied Planning through Rule-Augmented Memory Synergy",
-      "summary": "arXiv:2603.17831v1 Announce Type: new Abstract: LLM agents often fail in closed-world embodied environments because actions must satisfy strict preconditions -- such as location, inventory, and container states -- and failure feedback is sparse. We identify two structurally coupled failure modes: (P1) invalid action generation and (P2) state drift, each amplifying the other in a degenerative cycle. We present RPMS, a conflict-managed architecture that enforces action feasibility via structured rule retrieval, gates memory applicability via a lightweight belief state, and resolves conflicts between the two sources via rules-first arbitration. On ALFWorld (134 unseen tasks), RPMS achieves 59.7% single-trial success with Llama 3.1 8B (+23.9 pp over baseline) and 98.5% with Claude Sonnet 4.5 (+11.9 pp); of the 8B gain, rule retrieval alone contributes +14.9 pp (statistically significant), making it the dominant factor. A key finding is that episodic memory is conditionally useful: it harms performance on some task types when used without grounding, but becomes a stable net positive once filtered by current state and constrained by explicit action rules. Adapting RPMS to ScienceWorld with GPT-4 yields consistent gains across all ablation conditions (avg. score 54.0 vs. 44.9 for the ReAct baseline), providing transfer evidence that the core mechanisms hold across structurally distinct environments.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.17831",
-      "relevance_score": 27,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "optimización",
+        "juegos",
+        "multi-agente"
+      ],
+      "what_changed": "Mecanismo de autocomposición que almacena información de interacciones previas.",
+      "why_it_matters": "Aumenta la estabilidad y el rendimiento de los LLMs en juegos.",
+      "sector_impact": "Transforma la evaluación y competencia en entornos de juegos multi-agente."
     }
   ]
 }
