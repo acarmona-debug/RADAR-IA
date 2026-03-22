@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-03-22",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "How Squad runs coordinated AI agents inside your repository",
+          "summary": "An inside look at repository-native orchestration with GitHub Copilot and the design patterns behind multi-agent workflows that stay inspectable, predictable, and collaborative. The post How Squad runs coordinated AI agents inside your repository appeared first on The GitHub Blog.",
+          "category": "tool",
+          "source_name": "GitHub AI",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/",
+          "relevance_score": 18,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Introducing LangSmith Fleet",
+          "summary": "Agent Builder is now Fleet: a central place for all of your teams to build, use, and manage agents across the enterprise.",
+          "category": "framework",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/introducing-langsmith-fleet/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
+          "summary": "After compressing models from major AI labs, including OpenAI, Meta, DeepSeek, and Mistral AI, Multiverse Computing has launched both an app that showcases the capabilities of its compressed models and an API that makes them more widely available.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple",
+          "summary": "Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Polly is generally available everywhere you work in LangSmith",
+          "summary": "Debugging agents is different from debugging anything else you've built. Traces run hundreds of steps deep, prompts span thousands of lines, and when something goes wrong, the context that caused it is buried somewhere in the middle. We built Polly to be the AI assistant that can read",
+          "category": "framework",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/polly-langsmith-ga/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Rethinking open source mentorship in the AI era",
+          "summary": "As contribution volume grows, mentorship signals are harder to read. The 3 Cs framework helps maintainers mentor more strategically... without burning out. The post Rethinking open source mentorship in the AI era appeared first on The GitHub Blog.",
+          "category": "framework",
+          "source_name": "GitHub AI",
+          "source_url": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+          "summary": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "WordPress.com now lets AI agents write and publish posts, and more",
+          "summary": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-03-21",
       "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos Clave",
       "items": [
@@ -683,131 +793,6 @@
           "what_changed": "Nuevas propuestas de contenido en video mediante inteligencia artificial.",
           "why_it_matters": "Establece un nuevo estándar para experiencias de entretenimiento digital.",
           "sector_impact": "Aumento de la competencia en el sector de contenido digital."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-13",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "UtilityMax Prompting: Un Framework para la Optimización de Modelos de Lenguaje",
-          "summary": "Se presenta un framework que especifica tareas usando lenguaje matemático formal para optimizar modelos de lenguaje hacia objetivos múltiples.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11583",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "modelos",
-            "IA"
-          ],
-          "what_changed": "Introducción de un enfoque matemático para especificar tareas.",
-          "why_it_matters": "Permite una mejor precisión en la respuesta de modelos de lenguaje.",
-          "sector_impact": "Aplicaciones en sistemas de recomendación y análisis de datos."
-        },
-        {
-          "title": "ResearchGym: Evaluando Agentes de Modelos de Lenguaje en Investigaciones AI",
-          "summary": "Un entorno de evaluación para agentes de inteligencia artificial en investigaciones, con resultados que evidencian un gap entre capacidad y fiabilidad.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.15112",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "agentes",
-            "IA"
-          ],
-          "what_changed": "Establecimiento de un benchmark específico para la investigación con AI.",
-          "why_it_matters": "Proporciona un enfoque sistemático para analizar el rendimiento de agentes en la investigación.",
-          "sector_impact": "Innovación en métodos de evaluación en inteligencia artificial."
-        },
-        {
-          "title": "COMPASS: Un Marco Explicable para la Toma de Decisiones en IA",
-          "summary": "COMPASS es un sistema de orquestación que integra principios éticos en la toma de decisiones autónoma.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11277",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ética",
-            "IA",
-            "marco"
-          ],
-          "what_changed": "Integración de un marco holístico que aborda múltiples dimensiones éticas.",
-          "why_it_matters": "Provoca confianza y alineación en la toma de decisiones AI.",
-          "sector_impact": "Amplia aplicaciones en sistemas automatizados y de gestión de riesgos."
-        },
-        {
-          "title": "Automatizando la Adquisición de Habilidades en Agentes Abiertos",
-          "summary": "Un marco para la extracción de habilidades de alta calidad de repositorios de código abierto mejorando las capacidades de los modelos de lenguaje.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11808",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "habilidades",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un marco automatizado para adquirir habilidades especializadas.",
-          "why_it_matters": "Aumenta la eficiencia en la formación de modelos respecto a tareas específicas.",
-          "sector_impact": "Mejora el aprendizaje y la especialización de agentes en diversas aplicaciones."
-        },
-        {
-          "title": "TURA: Agente de Recuperación Unificada para Búsquedas AI",
-          "summary": "Propuesta de un nuevo framework que combina recuperación y uso de herramientas para acceder a información estática y dinámica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2508.04604",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "búsqueda",
-            "IA",
-            "herramientas"
-          ],
-          "what_changed": "Incorporación de un enfoque de agente que combina búsqueda estática y dinámica.",
-          "why_it_matters": "Facilita un acceso eficiente a datos en tiempo real, mejorando la calidad de la búsqueda.",
-          "sector_impact": "Revoluciona la interacción con motores de búsqueda en entornos industriales."
-        },
-        {
-          "title": "StegoAttack: Enfoque de Steganografía para Jailbreaks en LLM",
-          "summary": "Un nuevo marco que atraviesa la seguridad en modelos de lenguaje usando técnicas de steganografía.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.16765",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "modelos",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de técnicas que combinan stealth semántico y lingüístico.",
-          "why_it_matters": "Aborda las amenazas de seguridad en aplicaciones de IA de manera innovadora.",
-          "sector_impact": "Mejora las defensas contra ataques que buscan eludir las salvaguardias de modelos."
-        },
-        {
-          "title": "Multi-Agent Collaboration para Exploraciones de Diseño Automatizado",
-          "summary": "Presentación de un marco que coordina múltiples agentes para abordar flujos de trabajo de diseño complejos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11515",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "colaboración",
-            "diseño",
-            "IA"
-          ],
-          "what_changed": "Integración de agentes especializados para automatizar tareas de diseño.",
-          "why_it_matters": "Optimiza el proceso de diseño y mejora la eficiencia en la investigación científica.",
-          "sector_impact": "Potencia el desarrollo de nuevas tecnologías en ambientes de alta complejidad."
         }
       ]
     }

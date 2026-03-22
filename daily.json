@@ -1,127 +1,112 @@
 {
-  "date": "2026-03-21",
-  "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos Clave",
-  "intro_message": "Este radar presenta las últimas herramientas, modelos y frameworks relevantes en el ámbito de la Inteligencia Artificial, priorizando aquellas integraciones y funcionalidades que impactan directamente en el desarrollo de nuevas soluciones.",
-  "opening_message": "Mantente a la vanguardia de las innovaciones en IA con este compendio de recursos cruciales que pueden transformar la forma en que trabajamos con modelos de lenguaje y sistemas autónomos.",
+  "date": "2026-03-22",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "ZEBRAARENA: Entorno de Simulación Diagnóstica para Modelos LLM",
-      "summary": "Una plataforma para evaluar la conexión entre razonamiento y acción en modelos LLM aumentados por herramientas.",
+      "title": "How Squad runs coordinated AI agents inside your repository",
+      "summary": "An inside look at repository-native orchestration with GitHub Copilot and the design patterns behind multi-agent workflows that stay inspectable, predictable, and collaborative. The post How Squad runs coordinated AI agents inside your repository appeared first on The GitHub Blog.",
+      "category": "tool",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/",
+      "relevance_score": 18,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Introducing LangSmith Fleet",
+      "summary": "Agent Builder is now Fleet: a central place for all of your teams to build, use, and manage agents across the enterprise.",
       "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.18614",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/introducing-langsmith-fleet/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
+      "summary": "After compressing models from major AI labs, including OpenAI, Meta, DeepSeek, and Mistral AI, Multiverse Computing has launched both an app that showcases the capabilities of its compressed models and an API that makes them more widely available.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple",
+      "summary": "Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
       "relevance_score": 9,
       "status": "new",
-      "tags": [
-        "herramientas",
-        "evaluación",
-        "razonamiento"
-      ],
-      "what_changed": "Introducción de un entorno procedimentalmente generado para estudiar el uso de herramientas en LLMs.",
-      "why_it_matters": "Aumenta la capacidad de los modelos para usar herramientas externas eficientemente.",
-      "sector_impact": "Impacto significativo en la formación de modelos de lenguaje más efectivos en aplicaciones prácticas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Infherno: Sínteisis de Recursos Clínicos con IA",
-      "summary": "Una solución integral para integrar datos clínicos libres en recursos FHIR estructurados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2507.12261",
+      "title": "Polly is generally available everywhere you work in LangSmith",
+      "summary": "Debugging agents is different from debugging anything else you've built. Traces run hundreds of steps deep, prompts span thousands of lines, and when something goes wrong, the context that caused it is buried somewhere in the middle. We built Polly to be the AI assistant that can read",
+      "category": "framework",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/polly-langsmith-ga/",
       "relevance_score": 8,
       "status": "new",
-      "tags": [
-        "automatización",
-        "salud",
-        "aunque"
-      ],
-      "what_changed": "Framework que mejora la traducción de notas clínicas a recursos estructurados.",
-      "why_it_matters": "Facilita la interoperabilidad en el sector salud.",
-      "sector_impact": "Transforma la manera de manejar datos clínicos, mejorando la calidad en atención médica."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Memento-Skills: Sistema de Agente que Diseña Agentes",
-      "summary": "Sistema LLM que aprende a crear y adaptar agentes específicos de tareas de manera autónoma.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.18743",
+      "title": "Rethinking open source mentorship in the AI era",
+      "summary": "As contribution volume grows, mentorship signals are harder to read. The 3 Cs framework helps maintainers mentor more strategically... without burning out. The post Rethinking open source mentorship in the AI era appeared first on The GitHub Blog.",
+      "category": "framework",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
       "relevance_score": 8,
       "status": "new",
-      "tags": [
-        "agentes",
-        "aprendizaje",
-        "autonomía"
-      ],
-      "what_changed": "Introducción de un sistema que optimiza la creación de agentes para tareas específicas.",
-      "why_it_matters": "Permite que los agentes se automejoren sin intervención humana.",
-      "sector_impact": "Capacita la evolución continua en el desarrollo de agentes IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "DynaRAG: Integración de Conocimiento Estático y Dinámico",
-      "summary": "Framework RAG que maneja tanto información estática como necesidades dinámicas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.18012",
-      "relevance_score": 7,
+      "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+      "summary": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [
-        "RAG",
-        "automatización",
-        "preguntas"
-      ],
-      "what_changed": "Sistema que invoca APIs externas para mejorar la precisión en respuestas a preguntas dinámicas.",
-      "why_it_matters": "Reduce alucinaciones y mejora la precisión en aplicaciones del mundo real.",
-      "sector_impact": "Optimiza sistemas de respuesta a preguntas, aplicables en múltiples industrias."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Learning to Self-Evolve: Mejora Contextual con IA",
-      "summary": "Framework de RL que permite a los LLMs mejorar sus contextos en tiempo de prueba.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.18620",
-      "relevance_score": 7,
+      "title": "WordPress.com now lets AI agents write and publish posts, and more",
+      "summary": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [
-        "aprendizaje",
-        "mejora",
-        "eficiencia"
-      ],
-      "what_changed": "Propuesta de un nuevo tipo de aprendizaje adaptativo en LLMs.",
-      "why_it_matters": "Aumenta la efectividad de los modelos en tareas específicas.",
-      "sector_impact": "Impulsa el potencial de los LLMs en aplicaciones más complejas."
-    },
-    {
-      "title": "Auditoria de Preferencias en LLMs",
-      "summary": "Framework para auditar preferencias de marcas y culturas en LLMs y su impacto en el mercado.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.18300",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "auditoría",
-        "marcas",
-        "mercado"
-      ],
-      "what_changed": "Introducción de un sistema de auditoría para cuantificar sesgos en LLMs.",
-      "why_it_matters": "Aborda la necesidad de equidad y competitividad en la mediación del mercado.",
-      "sector_impact": "Mejora la transparencia y la equidad en el proceso de toma de decisiones de mercado."
-    },
-    {
-      "title": "MEMO: Optimización de Contexto en Juegos Multi-Agent LLM",
-      "summary": "Framework que optimiza el contexto en juegos multi-agente mediante memoria.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.09022",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "optimización",
-        "juegos",
-        "multi-agente"
-      ],
-      "what_changed": "Mecanismo de autocomposición que almacena información de interacciones previas.",
-      "why_it_matters": "Aumenta la estabilidad y el rendimiento de los LLMs en juegos.",
-      "sector_impact": "Transforma la evaluación y competencia en entornos de juegos multi-agente."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
