@@ -1,112 +1,144 @@
 {
-  "date": "2026-03-22",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-03-23",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas actualizaciones en herramientas y modelos de IA que están marcando la pauta.",
+  "opening_message": "A continuación, se presentan las innovaciones más relevantes en el ámbito de la inteligencia artificial.",
   "items": [
     {
-      "title": "How Squad runs coordinated AI agents inside your repository",
-      "summary": "An inside look at repository-native orchestration with GitHub Copilot and the design patterns behind multi-agent workflows that stay inspectable, predictable, and collaborative. The post How Squad runs coordinated AI agents inside your repository appeared first on The GitHub Blog.",
+      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+      "summary": "Un marco que mejora la planificación a largo plazo de agentes basados en LLM mediante descomposición de subobjetivos y señales de recompensa.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.19685",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "planificación",
+        "recompensas"
+      ],
+      "what_changed": "Introducción de un nuevo marco de agentes para una mejor planificación online.",
+      "why_it_matters": "Mejorar la planificación a largo plazo es crucial para aplicaciones autónomas.",
+      "sector_impact": "Impacta en la automatización de tareas complejas en entornos digitales."
+    },
+    {
+      "title": "AI Agents Can Already Autonomously Perform Experimental High Energy Physics",
+      "summary": "Agentes de IA pueden ejecutar de forma autónoma análisis en física de alta energía con mínima intervención humana.",
       "category": "tool",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/",
-      "relevance_score": 18,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Introducing LangSmith Fleet",
-      "summary": "Agent Builder is now Fleet: a central place for all of your teams to build, use, and manage agents across the enterprise.",
-      "category": "framework",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/introducing-langsmith-fleet/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
-      "summary": "After compressing models from major AI labs, including OpenAI, Meta, DeepSeek, and Mistral AI, Multiverse Computing has launched both an app that showcases the capabilities of its compressed models and an API that makes them more widely available.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple",
-      "summary": "Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Polly is generally available everywhere you work in LangSmith",
-      "summary": "Debugging agents is different from debugging anything else you've built. Traces run hundreds of steps deep, prompts span thousands of lines, and when something goes wrong, the context that caused it is buried somewhere in the middle. We built Polly to be the AI assistant that can read",
-      "category": "framework",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/polly-langsmith-ga/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.20179",
       "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "agentes",
+        "física",
+        "autonomía"
+      ],
+      "what_changed": "Desarrollo de un prototipo para análisis autónomos en física.",
+      "why_it_matters": "Permite reducir la carga técnica sobre los investigadores al automatizar procesos repetitivos.",
+      "sector_impact": "Transforma la manera en que se realizan investigaciones en física."
     },
     {
-      "title": "Rethinking open source mentorship in the AI era",
-      "summary": "As contribution volume grows, mentorship signals are harder to read. The 3 Cs framework helps maintainers mentor more strategically... without burning out. The post Rethinking open source mentorship in the AI era appeared first on The GitHub Blog.",
+      "title": "VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking",
+      "summary": "Un agente de video de largo plazo que optimiza la búsqueda de evidencia crítica en videos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.20185",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "video",
+        "análisis",
+        "agentes"
+      ],
+      "what_changed": "Implementación de un agente que mejora la eficiencia en el análisis de video.",
+      "why_it_matters": "Reduce el costo computacional al no requerir el análisis de todos los fotogramas.",
+      "sector_impact": "Impacta en tareas de comprensión y razonamiento sobre videos."
+    },
+    {
+      "title": "Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification",
+      "summary": "Un marco neuro-simbólico que facilita la verificación automática de sistemas mediante generación de pruebas.",
       "category": "framework",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
-      "relevance_score": 8,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.19715",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "verificación",
+        "pruebas",
+        "neuro-simbólico"
+      ],
+      "what_changed": "Introducción de un nuevo enfoque para la búsqueda de pruebas.",
+      "why_it_matters": "Posibilita verificar la corrección de sistemas críticos de forma más eficiente.",
+      "sector_impact": "Mejora la calidad y seguridad en el desarrollo de software."
     },
     {
-      "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
-      "summary": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
-      "relevance_score": 8,
+      "title": "Generative AI-assisted Participatory Modeling for Socio-Environmental Planning",
+      "summary": "Un enfoque para facilitar la modelación participativa con IA generativa en planificación socioambiental.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.17021",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "planificación",
+        "IA generativa",
+        "modelado"
+      ],
+      "what_changed": "Uso de modelos de lenguaje para conceptualizar problemas complejos.",
+      "why_it_matters": "Agiliza la planificación bajo incertidumbre, permitiendo mejores decisiones.",
+      "sector_impact": "Contribuye a la sostenibilidad y la gestión eficaz de recursos."
     },
     {
-      "title": "WordPress.com now lets AI agents write and publish posts, and more",
-      "summary": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "title": "ItinBench: Benchmarking Planning Across Multiple Cognitive Dimensions",
+      "summary": "Un nuevo marco para evaluar el rendimiento de LLMs en tareas de planificación multiconductual.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.19515",
       "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmark",
+        "evaluación",
+        "plenitud cognitiva"
+      ],
+      "what_changed": "Presentación de un conjunto de pruebas que abarca múltiples dimensiones cognitivas.",
+      "why_it_matters": "Proporciona información más completa sobre el rendimiento de los LLMs.",
+      "sector_impact": "Mejora el desarrollo de agentes cognitivos más complejos."
+    },
+    {
+      "title": "LISAA: A Framework for Large Language Model Information Security Awareness Assessment",
+      "summary": "Un marco para evaluar la conciencia de seguridad de la información en modelos de lenguaje.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2411.13207",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "evaluación",
+        "modelos"
+      ],
+      "what_changed": "Introducción de métodos automatizados para evaluar vulnerabilidades de seguridad.",
+      "why_it_matters": "Mejora la seguridad y la protección contra amenazas cibernéticas en modelos de IA.",
+      "sector_impact": "Fortalece la base de seguridad de la interoperabilidad de modelos de IA."
+    },
+    {
+      "title": "Agentic Harness for Real-World Compilers",
+      "summary": "Desarrollo de un arnés para ayudar a modelos de IA en la resolución de errores de compilador.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.20075",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "compiladores",
+        "herramientas",
+        "modelos"
+      ],
+      "what_changed": "Creación de herramientas específicas para optimizar la depuración de errores.",
+      "why_it_matters": "Aumenta la eficiencia en el desarrollo de software al reducir tiempos de error.",
+      "sector_impact": "Transforma las prácticas de ingeniería de software."
     }
   ]
 }
