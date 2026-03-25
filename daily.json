@@ -1,112 +1,127 @@
 {
-  "date": "2026-03-24",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-03-25",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas noticias y avances en inteligencia artificial enfocados en herramientas, modelos y agentes.",
+  "opening_message": "Estas son las innovaciones más destacadas y relevantes en el ámbito de la inteligencia artificial que no te puedes perder.",
   "items": [
     {
-      "title": "EnterpriseLab: A Full-Stack Platform for developing and deploying agents in Enterprises",
-      "summary": "arXiv:2603.21630v1 Announce Type: new Abstract: Deploying AI agents in enterprise environments requires balancing capability with data sovereignty and cost constraints. While small language models offer privacy-preserving alternatives to frontier models, their specialization is hindered by fragmented development pipelines that separate tool integration, data generation, and training. We introduce EnterpriseLab, a full-stack platform that unifies these stages into a closed-loop framework. EnterpriseLab provides (1) a modular environment exposing enterprise applications via Model Context Protocol, enabling seamless integration of proprietary and open-source tools; (2) automated trajectory synthesis that programmatically generates training data from environment schemas; and (3) integrated training pipelines with continuous evaluation. We validate the platform through EnterpriseArena, an instantiation with 15 applications and 140+ tools across IT, HR, sales, and engineering domains. Our results demonstrate that 8B-parameter models trained within EnterpriseLab match GPT-4o's performance on complex enterprise workflows while reducing inference costs by 8-10x, and remain robust across diverse enterprise benchmarks, including EnterpriseBench (+10%) and CRMArena (+10%). EnterpriseLab provides enterprises a practical path to deploying capable, privacy-preserving agents without compromising operational capability.",
+      "title": "Vision-DeepResearch: Incentivizing DeepResearch Capability in Multimodal Large Language Models",
+      "summary": "Introducción de un nuevo paradigma de investigación profunda multimodal que realiza búsquedas visuales y textuales múltiples y soporta interacciones de motor.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.21630",
-      "relevance_score": 38,
+      "source_url": "https://arxiv.org/abs/2601.22060",
+      "relevance_score": 40,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "multimodal",
+        "investigación",
+        "IA"
+      ],
+      "what_changed": "Se propone un nuevo enfoque de búsqueda profunda que mejora la capacidad de los modelos de lenguaje multimodal.",
+      "why_it_matters": "Permite resolver preguntas complejas al agregar evidencia de diversas fuentes bajo condiciones de ruido visual.",
+      "sector_impact": "Mejoras en la búsqueda y recuperación de información visual y textual."
     },
     {
-      "title": "The Library Theorem: How External Organization Governs Agentic Reasoning Capacity",
-      "summary": "arXiv:2603.21272v1 Announce Type: new Abstract: Externalized reasoning is already exploited by transformer-based agents through chain-of-thought, but structured retrieval -- indexing over one's own reasoning state -- remains underexplored. We formalize the transformer context window as an I/O page and prove that tool-augmented agents with indexed external memory achieve exponentially lower retrieval cost than agents restricted to sequential scanning: $O(\\log_b N)$ versus $\\Omega(N)$ page reads per query, and $O(T \\log_b T)$ versus $\\Theta(T^2)$ cumulative cost over $T$ reasoning steps -- a gap that widens as deliberation deepens. We test these predictions on a controlled lookup benchmark across three content types -- random hashes, ordered integers, and encyclopedia entries -- varying store size from 50 to 5,000 items, and replicate key conditions across two model generations (GPT-4o-mini and GPT-5.4). On abstract content, the indexed agent achieves median 1 page read regardless of store size, confirming the $O(1)$ prediction. Sorted pages without an index fail to close the gap: the weaker model cannot sustain binary search at scale, and the stronger model achieves near-optimal $\\log_2 N$ search but still loses to the index by $5\\times$. On familiar content (encyclopedia entries), a competing failure mode emerges: the model recognizes the domain, bypasses the retrieval protocol, and generates answers from parametric memory, producing catastrophic token expenditure even when the index is sound. This parametric memory competition dissociates the two cognitive operations that indexing combines: understanding content (where language models excel) and following navigational protocols (where they fail when understanding tempts them to shortcut). The result argues for a separation of concerns: use language models for index construction, where semantic understanding helps, and deterministic algorithms for index traversal, where it hurts.",
-      "category": "model",
+      "title": "AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models with AI Agents",
+      "summary": "Presentación de un marco de Co-Científico de IA que automatiza la investigación de modelos de clasificación de búsqueda.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.21272",
-      "relevance_score": 31,
+      "source_url": "https://arxiv.org/abs/2603.22376",
+      "relevance_score": 39,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "clasificación",
+        "automación",
+        "IA"
+      ],
+      "what_changed": "Incorporación de agentes de IA para optimizar la fase de análisis y generación de ideas.",
+      "why_it_matters": "Reduce significativamente la carga de trabajo de investigación rutinaria y mejora la eficacia de los modelos.",
+      "sector_impact": "Transformación en el desarrollo de motores de búsqueda comerciales."
     },
     {
-      "title": "The Impact of LLM-Assistants on Software Developer Productivity: A Systematic Review and Mapping Study",
-      "summary": "arXiv:2507.03156v2 Announce Type: replace-cross Abstract: Large language model assistants (LLM-assistants) present new opportunities to transform software development. Developers are increasingly adopting these tools across tasks, including coding, testing, debugging, documentation, and design. Yet, despite growing interest, there is no synthesis of how LLM-assistants affect software developer productivity. In this paper, we present a systematic review and mapping of 39 peer-reviewed studies published between January 2014 and December 2024 that examine this impact. Our analysis reveals that the majority of studies report considerable benefits from LLM-assistants, though a notable subset identifies critical risks. Commonly reported gains include accelerated development, minimized code search, and the automation of trivial and repetitive tasks. However, studies also highlight concerns around cognitive offloading and reduced team collaboration. Our study reveals that whether LLM-based assistants improve or degrade code quality remains unresolved, as existing studies report contradictory outcomes contingent on context and evaluation criteria. While the majority of studies (90%) adopt a multi-dimensional perspective by examining at least two SPACE dimensions, reflecting increased awareness of the complexity of developer productivity, only 15% extend beyond three dimensions, indicating substantial room for more integrated evaluations. Satisfaction, Performance, and Efficiency are the most frequently investigated dimensions, whereas Communication and Activity remain underexplored. Most studies are exploratory (59%) and methodologically diverse, but lack longitudinal and team-based evaluations. This review surfaces key research gaps and provides recommendations for future research and practice. All artifacts associated with this study are publicly available at https://zenodo.org/records/18489222",
-      "category": "model",
+      "title": "GraphRAG for Engineering Diagrams: ChatP&ID Enables LLM Interaction",
+      "summary": "Un nuevo marco que permite la interacción natural con diagramas de ingeniería utilizando generación aumentada por recuperación.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2507.03156",
-      "relevance_score": 30,
+      "source_url": "https://arxiv.org/abs/2603.22528",
+      "relevance_score": 39,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "diagramas",
+        "interacción",
+        "IA"
+      ],
+      "what_changed": "Transformación de diagramas smart P&ID en gráficos de conocimiento estructurados para facilitar la recuperación de información.",
+      "why_it_matters": "Aumenta la precisión de las consultas y reduce significativamente los costos computacionales.",
+      "sector_impact": "Mejora la interacción en ingeniería de procesos mediante IA."
     },
     {
-      "title": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
-      "summary": "arXiv:2603.20278v1 Announce Type: cross Abstract: Training deep research agents requires long-horizon trajectories that interleave search, evidence aggregation, and multi-step reasoning. However, existing data collection pipelines typically rely on proprietary web APIs, making large-scale trajectory synthesis costly, unstable, and difficult to reproduce. We present OpenResearcher, a reproducible pipeline that decouples one-time corpus bootstrapping from multi-turn trajectory synthesis and executes the search-and-browse loop entirely offline using three explicit browser primitives: search, open, and find, over a 15M-document corpus. Using GPT-OSS-120B as the teacher model, we synthesize over 97K trajectories, including a substantial long-horizon tail with 100+ tool calls. Supervised fine-tuning a 30B-A3B backbone on these trajectories achieves 54.8\\% accuracy on BrowseComp-Plus, a +34.0 point improvement over the base model, while remaining competitive on BrowseComp, GAIA, and xbench-DeepSearch. Because the environment is offline and fully instrumented, it also enables controlled analysis, where our study reveals practical insights into deep research pipeline design, including data filtering strategies, agent configuration choices, and how retrieval success relates to final answer accuracy. We release the pipeline, synthesized trajectories, model checkpoints, and the offline search environment at https://github.com/TIGER-AI-Lab/OpenResearcher.",
-      "category": "model",
+      "title": "ReqFusion: A Multi-Provider Framework for Automated PEGS Analysis",
+      "summary": "Sistema que automatiza la extracción y análisis de requisitos de software utilizando múltiples modelos de lenguaje.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.20278",
-      "relevance_score": 29,
+      "source_url": "https://arxiv.org/abs/2603.23482",
+      "relevance_score": 35,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "software",
+        "requisitos",
+        "automación"
+      ],
+      "what_changed": "Integración de múltiples LLMs para mejorar la extracción de requisitos en diferentes formatos.",
+      "why_it_matters": "Aumenta la eficiencia y precisión del proceso de desarrollo de software.",
+      "sector_impact": "Optimización del proceso de ingeniería de requisitos."
     },
     {
-      "title": "LLM-Powered Workflow Optimization for Multidisciplinary Software Development: An Automotive Industry Case Study",
-      "summary": "arXiv:2603.21439v1 Announce Type: cross Abstract: Multidisciplinary Software Development (MSD) requires domain experts and developers to collaborate across incompatible formalisms and separate artifact sets. Today, even with AI coding assistants like GitHub Copilot, this process remains inefficient; individual coding tasks are semi-automated, but the workflow connecting domain knowledge to implementation is not. Developers and experts still lack a shared view, resulting in repeated coordination, clarification rounds, and error-prone handoffs. We address this gap through a graph-based workflow optimization approach that progressively replaces manual coordination with LLM-powered services, enabling incremental adoption without disrupting established practices. We evaluate our approach on \\texttt{spapi}, a production in-vehicle API system at Volvo Group involving 192 endpoints, 420 properties, and 776 CAN signals across six functional domains. The automated workflow achieves 93.7\\% F1 score while reducing per-API development time from approximately 5 hours to under 7 minutes, saving an estimated 979 engineering hours. In production, the system received high satisfaction from both domain experts and developers, with all participants reporting full satisfaction with communication efficiency.",
+      "title": "T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search",
+      "summary": "Método que permite la generación automática de ataques a LLMs utilizando trayectorias de ejecución.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.21439",
+      "source_url": "https://arxiv.org/abs/2603.22341",
+      "relevance_score": 37,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "investigación",
+        "IA"
+      ],
+      "what_changed": "Nuevo enfoque para descubrir vulnerabilidades específicas de los agentes LLM.",
+      "why_it_matters": "Revela vulnerabilidades poco exploradas en agentes autónomos, mejorando la seguridad.",
+      "sector_impact": "Aumento en la robustez de los sistemas de IA."
+    },
+    {
+      "title": "Reasoner-Executor-Synthesizer: Scalable Agentic Architecture",
+      "summary": "Arquitectura que optimiza modelos LLM como agentes autónomos mediante la separación de roles en la ejecución.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.22367",
+      "relevance_score": 26,
+      "status": "new",
+      "tags": [
+        "arquitectura",
+        "IA",
+        "optimización"
+      ],
+      "what_changed": "Diseño de separación de intenciones y ejecución mejorando la eficiencia del uso de tokens.",
+      "why_it_matters": "Elimina la alucinación de datos al no exponer el modelo a los registros crudos.",
+      "sector_impact": "Optimización de costos en el uso de IA."
+    },
+    {
+      "title": "BIRD-INTERACT: Realistic Evaluation for Text-to-SQL Tasks",
+      "summary": "Benchmark que mejora la evaluación de modelos LLM en tareas de consulta a bases de datos mediante interacciones dinámicas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.05318",
       "relevance_score": 28,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "KG-Hopper: Empowering Compact Open LLMs with Knowledge Graph Reasoning via Reinforcement Learning",
-      "summary": "arXiv:2603.21440v1 Announce Type: cross Abstract: Large Language Models (LLMs) demonstrate impressive natural language capabilities but often struggle with knowledge-intensive reasoning tasks. Knowledge Base Question Answering (KBQA), which leverages structured Knowledge Graphs (KGs) exemplifies this challenge due to the need for accurate multi-hop reasoning. Existing approaches typically perform sequential reasoning steps guided by predefined pipelines, restricting flexibility and causing error cascades due to isolated reasoning at each step. To address these limitations, we propose KG-Hopper, a novel Reinforcement Learning (RL) framework that empowers compact open LLMs with the ability to perform integrated multi-hop KG reasoning within a single inference round. Rather than reasoning step-by-step, we train a Reasoning LLM that embeds the entire KG traversal and decision process into a unified ``thinking'' stage, enabling global reasoning over cross-step dependencies and dynamic path exploration with backtracking. Experimental results on eight KG reasoning benchmarks show that KG-Hopper, based on a 7B-parameter LLM, consistently outperforms larger multi-step systems (up to 70B) and achieves competitive performance with proprietary models such as GPT-3.5-Turbo and GPT-4o-mini, while remaining compact, open, and data-efficient. The code is publicly available at: https://github.com/Wangshuaiia/KG-Hopper.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.21440",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Towards Urban General Intelligence: A Review and Outlook of Urban Foundation Models",
-      "summary": "arXiv:2402.01749v3 Announce Type: replace-cross Abstract: The integration of machine learning techniques has become a cornerstone in the development of intelligent urban services, significantly contributing to the enhancement of urban efficiency, sustainability, and overall livability. Recent advancements in foundational models, such as ChatGPT, have introduced a paradigm shift within the fields of machine learning and artificial intelligence. These models, with their exceptional capacity for contextual comprehension, problem-solving, and task adaptability, present a transformative opportunity to reshape the future of smart cities and drive progress toward Urban General Intelligence (UGI). Despite increasing attention to Urban Foundation Models (UFMs), this rapidly evolving field faces critical challenges, including the lack of clear definitions, systematic reviews, and universalizable solutions. To address these issues, this paper first introduces the definition and concept of UFMs and highlights the distinctive challenges involved in their development. Furthermore, we present a data-centric taxonomy that classifies existing research on UFMs according to the various urban data modalities and types. In addition, we propose a prospective framework designed to facilitate the realization of versatile UFMs, aimed at overcoming the identified challenges and driving further progress in this field. Finally, this paper systematically summarizes and discusses existing benchmarks and datasets related to UFMs, and explores the wide-ranging applications of UFMs within urban contexts, illustrating their potential to significantly impact and transform urban systems. A comprehensive collection of relevant research papers and open-source resources have been collated and are continuously updated at: https://github.com/usail-hkust/Awesome-Urban-Foundation-Models.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2402.01749",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation",
-      "summary": "arXiv:2505.15054v4 Announce Type: replace-cross Abstract: Precise recognition, editing, and generation of molecules are essential prerequisites for both chemists and AI systems tackling various chemical tasks. We present MolLangBench, a comprehensive benchmark designed to evaluate fundamental molecule-language interface tasks: language-prompted molecular structure recognition, editing, and generation. To ensure high-quality, unambiguous, and deterministic outputs, we construct the recognition tasks using automated cheminformatics tools, and curate editing and generation tasks through rigorous expert annotation and validation. MolLangBench supports the evaluation of models that interface language with different molecular representations, including linear strings, molecular images, and molecular graphs. Evaluations of state-of-the-art models reveal significant limitations: the strongest model (GPT-5) achieves $86.2\\%$ and $85.5\\%$ accuracy on recognition and editing tasks, which are intuitively simple for humans, and performs even worse on the generation task, reaching only $43.0\\%$ accuracy. These results highlight the shortcomings of current AI systems in handling even preliminary molecular recognition and manipulation tasks. We hope MolLangBench will catalyze further research toward more effective and reliable AI systems for chemical applications.The dataset and code can be accessed at https://huggingface.co/datasets/ChemFM/MolLangBench and https://github.com/TheLuoFengLab/MolLangBench, respectively.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.15054",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "SQL",
+        "IA"
+      ],
+      "what_changed": "Introducción de un entorno interactivo para evaluar la capacidad de los modelos en tareas complejas.",
+      "why_it_matters": "Aumenta la fiabilidad y precisión en la utilización de modelos LLM en entornos de bases de datos.",
+      "sector_impact": "Mejoras en la implementación de asistentes de bases de datos."
     }
   ]
 }
