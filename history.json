@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-03-26",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "GTO Wizard Benchmark",
+          "summary": "Un marco estandarizado para evaluar algoritmos en el juego de póker Heads-Up No-Limit Texas Hold'em.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.23660",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "AI",
+            "póker"
+          ],
+          "what_changed": "Introducción de un nuevo marco de evaluación para agentes de póker.",
+          "why_it_matters": "Proporciona un entorno de evaluación cuantificable para mejorar algoritmos de toma de decisiones en juegos de múltiples agentes.",
+          "sector_impact": "Desarrollo y evaluación de algoritmos de IA en entornos competitivos."
+        },
+        {
+          "title": "AnalogAgent: Automatización del diseño de circuitos analógicos",
+          "summary": "Un sistema multi-agente basado en LLM para automatizar el diseño de circuitos analógicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.23910",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "circuitos",
+            "LLM"
+          ],
+          "what_changed": "Se introduce un marco que integra varios agentes para la creación de diseños complejos.",
+          "why_it_matters": "Optimiza el proceso de diseño de circuitos, reduciendo el tiempo y mejorando la precisión.",
+          "sector_impact": "Eficiencia en el diseño y prototipado de circuitos electrónicos."
+        },
+        {
+          "title": "LLMORPH: Pruebas automáticas para LLMs",
+          "summary": "Una herramienta de prueba automatizada diseñada para evaluar la robustez de modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.23611",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "pruebas",
+            "automatización",
+            "LLM"
+          ],
+          "what_changed": "Incorporación de técnicas de Metamorphic Testing para detectar comportamientos erróneos.",
+          "why_it_matters": "Facilita la identificación de inconsistencias sin necesidad de datos etiquetados.",
+          "sector_impact": "Aumenta la confiabilidad de sistemas de NLP."
+        },
+        {
+          "title": "TikZilla: Generación de gráficos científicos desde texto",
+          "summary": "Modelo que genera gráficos de alta calidad desde descripciones textuales utilizando aprendizaje por refuerzo.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.03072",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "gráficos",
+            "text-to-image",
+            " aprendizaje por refuerzo"
+          ],
+          "what_changed": "Se presenta un modelo mejorado para crear gráficos a partir de texto.",
+          "why_it_matters": "Facilita la creación de visualizaciones científicas precisas a partir de descripciones textuales.",
+          "sector_impact": "Apoya la comunicación científica y la investigación."
+        },
+        {
+          "title": "CastMind: Un marco de razonamiento para la previsión de series temporales",
+          "summary": "Framework que mejora la previsión a través de un proceso iterativo de razonamiento.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.08947",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "series temporales",
+            "razonamiento",
+            "IA"
+          ],
+          "what_changed": "Transforma la previsión en un proceso interactivo y autónomo.",
+          "why_it_matters": "Mejora la precisión de las predicciones en contextos variados.",
+          "sector_impact": "Aumenta la efectividad en la toma de decisiones basada en datos."
+        },
+        {
+          "title": "From Prompts to Packets: Análisis del tráfico de ChatGPT y Gemini",
+          "summary": "Estudio del tráfico asociado a chatbots en aplicaciones móviles, revelando patrones únicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.11269",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "tráfico",
+            "chatbots",
+            "analítica"
+          ],
+          "what_changed": "Análisis detallado del tráfico de datos generado por chatbots.",
+          "why_it_matters": "Estudio del tráfico asociado a chatbots en aplicaciones móviles, revelando patrones únicos.",
+          "sector_impact": "Optimiza la planificación de capacidad en infraestructuras de red."
+        },
+        {
+          "title": "Claudini: Descubrimiento automático de algoritmos adversariales para LLMs",
+          "summary": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.24511",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "adversarial",
+            "seguridad",
+            "IA"
+          ],
+          "what_changed": "Se descubre un nuevo enfoque para la investigación de seguridad en LLMs.",
+          "why_it_matters": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
+          "sector_impact": "Aumenta la resiliencia de modelos de lenguaje ante amenazas."
+        }
+      ]
+    },
+    {
       "date": "2026-03-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -714,116 +839,6 @@
           "source_name": "ArXiv AI",
           "source_url": "https://arxiv.org/abs/2603.17831",
           "relevance_score": 27,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-18",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Can large language models assist choice modelling? Insights into prompting strategies and current models capabilities",
-          "summary": "arXiv:2507.21790v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are becoming widely used to support various workflows across different disciplines, yet their potential in discrete choice modelling remains relatively unexplored. This work examines the potential of LLMs as assistive agents in the specification and, where technically feasible, estimation of Multinomial Logit models. We implement a systematic experimental framework involving twelve versions of seven leading LLMs (ChatGPT, Claude, DeepSeek, Gemini, Gemma, Llama, and Mistral) evaluated under five experimental configurations. These configurations vary along three dimensions: (i) modelling goal (suggesting vs. suggesting and estimating MNL models); (ii) prompting strategy (Zero-Shot vs. Chain-of-Thoughts (CoT)); and (iii) information availability (full dataset vs. data dictionary summarising variable names and types). Each specification suggested by the LLMs is implemented, estimated, and evaluated based on goodness-of-fit metrics, behavioural plausibility, and model complexity. Our findings reveal that proprietary LLMs can generate valid and behaviourally sound utility specifications, particularly when guided by structured prompts (CoT). Open-weight models such as Llama and Gemma struggled to produce meaningful specifications. Notably, some LLMs performed better when provided with just data dictionary, suggesting that limiting raw data access may enhance internal reasoning capabilities. Among all LLMs, GPT o3, operating in an agentic setting, was uniquely capable of correctly estimating its own specifications by executing self-generated code. Overall, the results demonstrate both the promise and current limitations of LLMs as assistive agents in discrete choice modelling, not only for model specification but also for supporting modelling decision and estimation, and provide practical guidance for integrating these tools into choice modellers' workflows.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2507.21790",
-          "relevance_score": 40,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "SWE-QA-Pro: A Representative Benchmark and Scalable Training Recipe for Repository-Level Code Understanding",
-          "summary": "arXiv:2603.16124v1 Announce Type: cross Abstract: Agentic repository-level code understanding is essential for automating complex software engineering tasks, yet the field lacks reliable benchmarks. Existing evaluations often overlook the long tail topics and rely on popular repositories where Large Language Models (LLMs) can cheat via memorized knowledge. To address this, we introduce SWE-QA-Pro, a benchmark constructed from diverse, long-tail repositories with executable environments. We enforce topical balance via issue-driven clustering to cover under-represented task types and apply a rigorous difficulty calibration process: questions solvable by direct-answer baselines are filtered out. This results in a dataset where agentic workflows significantly outperform direct answering (e.g., a ~13-point gap for Claude Sonnet 4.5), confirming the necessity of agentic codebase exploration. Furthermore, to tackle the scarcity of training data for such complex behaviors, we propose a scalable synthetic data pipeline that powers a two-stage training recipe: Supervised Fine-Tuning (SFT) followed by Reinforcement Learning from AI Feedback (RLAIF). This approach allows small open models to learn efficient tool usage and reasoning. Empirically, a Qwen3-8B model trained with our recipe surpasses GPT-4o by 2.3 points on SWE-QA-Pro and substantially narrows the gap to state-of-the-art proprietary models, demonstrating both the validity of our evaluation and the effectiveness of our agentic training workflow.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.16124",
-          "relevance_score": 35,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Differential Harm Propensity in Personalized LLM Agents: The Curious Case of Mental Health Disclosure",
-          "summary": "arXiv:2603.16734v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as tool-using agents, shifting safety concerns from harmful text generation to harmful task completion. Deployed systems often condition on user profiles or persistent memory, yet agent safety evaluations typically ignore personalization signals. To address this gap, we investigated how mental health disclosure, a sensitive and realistic user-context cue, affects harmful behavior in agentic settings. Building on the AgentHarm benchmark, we evaluated frontier and open-source LLMs on multi-step malicious tasks (and their benign counterparts) under controlled prompt conditions that vary user-context personalization (no bio, bio-only, bio+mental health disclosure) and include a lightweight jailbreak injection. Our results reveal that harmful task completion is non-trivial across models: frontier lab models (e.g., GPT 5.2, Claude Sonnet 4.5, Gemini 3-Pro) still complete a measurable fraction of harmful tasks, while an open model (DeepSeek 3.2) exhibits substantially higher harmful completion. Adding a bio-only context generally reduces harm scores and increases refusals. Adding an explicit mental health disclosure often shifts outcomes further in the same direction, though effects are modest and not uniformly reliable after multiple-testing correction. Importantly, the refusal increase also appears on benign tasks, indicating a safety--utility trade-off via over-refusal. Finally, jailbreak prompting sharply elevates harm relative to benign conditions and can weaken or override the protective shift induced by personalization. Taken together, our results indicate that personalization can act as a weak protective factor in agentic misuse settings, but it is fragile under minimal adversarial pressure, highlighting the need for personalization-aware evaluations and safeguards that remain robust across user-context conditions.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.16734",
-          "relevance_score": 33,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "AIDABench: AI Data Analytics Benchmark",
-          "summary": "arXiv:2603.15636v1 Announce Type: new Abstract: As AI-driven document understanding and processing tools become increasingly prevalent in real-world applications, the need for rigorous evaluation standards has grown increasingly urgent. Existing benchmarks and evaluations often focus on isolated capabilities or simplified scenarios, failing to capture the end-to-end task effectiveness required in practical settings. To address this gap, we introduce AIDABench, a comprehensive benchmark for evaluating AI systems on complex data analytics tasks in an end-to-end manner. AIDABench encompasses 600+ diverse document analysis tasks across three core capability dimensions: question answering, data visualization, and file generation. These tasks are grounded in realistic scenarios involving heterogeneous data types, including spreadsheets, databases, financial reports, and operational records, and reflect analytical demands across diverse industries and job functions. Notably, the tasks in AIDABench are sufficiently challenging that even human experts require 1-2 hours per question when assisted by AI tools, underscoring the benchmark's difficulty and real-world complexity. We evaluate 11 state-of-the-art models on AIDABench, spanning both proprietary (e.g., Claude Sonnet 4.5, Gemini 3 Pro Preview) and open-source (e.g., Qwen3-Max-2026-01-23-Thinking) families. Our results reveal that complex, real-world data analytics tasks remain a significant challenge for current AI systems, with the best-performing model achieving only 59.43% pass-at-1. We provide a detailed analysis of failure modes across each capability dimension and identify key challenges for future research. AIDABench offers a principled reference for enterprise procurement, tool selection, and model optimization, and is publicly available at https://github.com/MichaelYang-lyx/AIDABench.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.15636",
-          "relevance_score": 32,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Exploring the Use of VLMs for Navigation Assistance for People with Blindness and Low Vision",
-          "summary": "arXiv:2603.15624v1 Announce Type: cross Abstract: This paper investigates the potential of vision-language models (VLMs) to assist people with blindness and low vision (pBLV) in navigation tasks. We evaluate state-of-the-art closed-source models, including GPT-4V, GPT-4o, Gemini-1.5-Pro, and Claude-3.5-Sonnet, alongside open-source models, such as Llava-v1.6-mistral and Llava-onevision-qwen, to analyze their capabilities in foundational visual skills: counting ambient obstacles, relative spatial reasoning, and common-sense wayfinding-pertinent scene understanding. We further assess their performance in navigation scenarios, using pBLV-specific prompts designed to simulate real-world assistance tasks. Our findings reveal notable performance disparities between these models: GPT-4o consistently outperforms others across all tasks, particularly in spatial reasoning and scene understanding. In contrast, open-source models struggle with nuanced reasoning and adaptability in complex environments. Common challenges include difficulties in accurately counting objects in cluttered settings, biases in spatial reasoning, and a tendency to prioritize object details over spatial feedback, limiting their usability for pBLV in navigation tasks. Despite these limitations, VLMs show promise for wayfinding assistance when better aligned with human feedback and equipped with improved spatial reasoning. This research provides actionable insights into the strengths and limitations of current VLMs, guiding developers on effectively integrating VLMs into assistive technologies while addressing key limitations for enhanced usability.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.15624",
-          "relevance_score": 32,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition",
-          "summary": "arXiv:2603.15714v1 Announce Type: cross Abstract: LLM based agents are increasingly deployed in high stakes settings where they process external data sources such as emails, documents, and code repositories. This creates exposure to indirect prompt injection attacks, where adversarial instructions embedded in external content manipulate agent behavior without user awareness. A critical but underexplored dimension of this threat is concealment: since users tend to observe only an agent's final response, an attack can conceal its existence by presenting no clue of compromise in the final user facing response while successfully executing harmful actions. This leaves users unaware of the manipulation and likely to accept harmful outcomes as legitimate. We present findings from a large scale public red teaming competition evaluating this dual objective across three agent settings: tool calling, coding, and computer use. The competition attracted 464 participants who submitted 272000 attack attempts against 13 frontier models, yielding 8648 successful attacks across 41 scenarios. All models proved vulnerable, with attack success rates ranging from 0.5% (Claude Opus 4.5) to 8.5% (Gemini 2.5 Pro). We identify universal attack strategies that transfer across 21 of 41 behaviors and multiple model families, suggesting fundamental weaknesses in instruction following architectures. Capability and robustness showed weak correlation, with Gemini 2.5 Pro exhibiting both high capability and high vulnerability. To address benchmark saturation and obsoleteness, we will endeavor to deliver quarterly updates through continued red teaming competitions. We open source the competition environment for use in evaluations, along with 95 successful attacks against Qwen that did not transfer to any closed source model. We share model-specific attack data with respective frontier labs and the full dataset with the UK AISI and US CAISI to support robustness research.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.15714",
-          "relevance_score": 32,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning",
-          "summary": "arXiv:2603.15914v1 Announce Type: cross Abstract: AI tools and agents are reshaping how researchers work, from proving theorems to training neural networks. Yet for many, it remains unclear how these tools fit into everyday research practice. This paper is a practical guide to AI-assisted research in mathematics and machine learning: We discuss how researchers can use modern AI systems productively, where these systems help most, and what kinds of guardrails are needed to use them responsibly. It is organized into three parts: (I) a five-level taxonomy of AI integration, (II) an open-source framework that, through a set of methodological rules formulated as agent prompts, turns CLI coding agents (e.g., Claude Code, Codex CLI, OpenCode) into autonomous research assistants, and (III) case studies from deep learning and mathematics. The framework runs inside a sandboxed container, works with any frontier LLM through existing CLI agents, is simple enough to install and use within minutes, and scales from personal-laptop prototyping to multi-node, multi-GPU experimentation across compute clusters. In practice, our longest autonomous session ran for over 20 hours, dispatching independent experiments across multiple nodes without human intervention. We stress that our framework is not intended to replace the researcher in the loop, but to augment them. Our code is publicly available at https://github.com/ZIB-IOL/The-Agentic-Researcher.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.15914",
-          "relevance_score": 31,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Compiled Memory: Not More Information, but More Precise Instructions for Language Agents",
-          "summary": "arXiv:2603.15666v1 Announce Type: new Abstract: Existing memory systems for language agents address memory management: how to retrieve and page more information within a context budget. We address a complementary problem -- memory utility: what experience is worth keeping, and how it should change agent behavior. We present Atlas, a memory kernel that compiles accumulated task experience into an agent's instruction structure -- without fine-tuning, RAG, or human intervention. Memory is distillation, not storage; delivery is instruction rewriting, not context injection. Facts extracted from agent failures and successes are verified through a three-step promotion gate and delivered by rewriting the agent's system prompt with learned sub-bullets. On CUAD contract analysis, the evolved prompt improves GPT-4o token-level F1 by $+8.7$pp and precision by $+12.5$pp. On HotpotQA multi-hop QA, joint F1 improves $+3.16$pp. An ablation isolates the mechanism's defining property -- the training signal constraint: the evolved prompt learns exactly what it is taught, and nothing more. Applied to Claude Sonnet~4.5 using the same evolved prompt -- compiled from GPT-4o errors, unchanged -- joint F1 improves $+2.31$pp, with gains concentrating where Claude's stronger baseline leaves the most room -- confirming that the compiled knowledge is task-shaped, not model-shaped.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.15666",
-          "relevance_score": 29,
           "status": "new",
           "tags": [],
           "what_changed": "Nueva señal detectada.",

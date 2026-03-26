@@ -1,127 +1,127 @@
 {
-  "date": "2026-03-25",
+  "date": "2026-03-26",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas noticias y avances en inteligencia artificial enfocados en herramientas, modelos y agentes.",
-  "opening_message": "Estas son las innovaciones más destacadas y relevantes en el ámbito de la inteligencia artificial que no te puedes perder.",
+  "intro_message": "Actualizaciones importantes en herramientas, modelos y automatización de IA.",
+  "opening_message": "Este documento presenta las innovaciones más relevantes en el ámbito de IA, priorizando herramientas, frameworks y agentes.",
   "items": [
     {
-      "title": "Vision-DeepResearch: Incentivizing DeepResearch Capability in Multimodal Large Language Models",
-      "summary": "Introducción de un nuevo paradigma de investigación profunda multimodal que realiza búsquedas visuales y textuales múltiples y soporta interacciones de motor.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.22060",
-      "relevance_score": 40,
-      "status": "new",
-      "tags": [
-        "multimodal",
-        "investigación",
-        "IA"
-      ],
-      "what_changed": "Se propone un nuevo enfoque de búsqueda profunda que mejora la capacidad de los modelos de lenguaje multimodal.",
-      "why_it_matters": "Permite resolver preguntas complejas al agregar evidencia de diversas fuentes bajo condiciones de ruido visual.",
-      "sector_impact": "Mejoras en la búsqueda y recuperación de información visual y textual."
-    },
-    {
-      "title": "AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models with AI Agents",
-      "summary": "Presentación de un marco de Co-Científico de IA que automatiza la investigación de modelos de clasificación de búsqueda.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.22376",
-      "relevance_score": 39,
-      "status": "new",
-      "tags": [
-        "clasificación",
-        "automación",
-        "IA"
-      ],
-      "what_changed": "Incorporación de agentes de IA para optimizar la fase de análisis y generación de ideas.",
-      "why_it_matters": "Reduce significativamente la carga de trabajo de investigación rutinaria y mejora la eficacia de los modelos.",
-      "sector_impact": "Transformación en el desarrollo de motores de búsqueda comerciales."
-    },
-    {
-      "title": "GraphRAG for Engineering Diagrams: ChatP&ID Enables LLM Interaction",
-      "summary": "Un nuevo marco que permite la interacción natural con diagramas de ingeniería utilizando generación aumentada por recuperación.",
+      "title": "GTO Wizard Benchmark",
+      "summary": "Un marco estandarizado para evaluar algoritmos en el juego de póker Heads-Up No-Limit Texas Hold'em.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.22528",
-      "relevance_score": 39,
+      "source_url": "https://arxiv.org/abs/2603.23660",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "diagramas",
-        "interacción",
+        "benchmark",
+        "AI",
+        "póker"
+      ],
+      "what_changed": "Introducción de un nuevo marco de evaluación para agentes de póker.",
+      "why_it_matters": "Proporciona un entorno de evaluación cuantificable para mejorar algoritmos de toma de decisiones en juegos de múltiples agentes.",
+      "sector_impact": "Desarrollo y evaluación de algoritmos de IA en entornos competitivos."
+    },
+    {
+      "title": "AnalogAgent: Automatización del diseño de circuitos analógicos",
+      "summary": "Un sistema multi-agente basado en LLM para automatizar el diseño de circuitos analógicos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.23910",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "circuitos",
+        "LLM"
+      ],
+      "what_changed": "Se introduce un marco que integra varios agentes para la creación de diseños complejos.",
+      "why_it_matters": "Optimiza el proceso de diseño de circuitos, reduciendo el tiempo y mejorando la precisión.",
+      "sector_impact": "Eficiencia en el diseño y prototipado de circuitos electrónicos."
+    },
+    {
+      "title": "LLMORPH: Pruebas automáticas para LLMs",
+      "summary": "Una herramienta de prueba automatizada diseñada para evaluar la robustez de modelos de lenguaje.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.23611",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "pruebas",
+        "automatización",
+        "LLM"
+      ],
+      "what_changed": "Incorporación de técnicas de Metamorphic Testing para detectar comportamientos erróneos.",
+      "why_it_matters": "Facilita la identificación de inconsistencias sin necesidad de datos etiquetados.",
+      "sector_impact": "Aumenta la confiabilidad de sistemas de NLP."
+    },
+    {
+      "title": "TikZilla: Generación de gráficos científicos desde texto",
+      "summary": "Modelo que genera gráficos de alta calidad desde descripciones textuales utilizando aprendizaje por refuerzo.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.03072",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "gráficos",
+        "text-to-image",
+        " aprendizaje por refuerzo"
+      ],
+      "what_changed": "Se presenta un modelo mejorado para crear gráficos a partir de texto.",
+      "why_it_matters": "Facilita la creación de visualizaciones científicas precisas a partir de descripciones textuales.",
+      "sector_impact": "Apoya la comunicación científica y la investigación."
+    },
+    {
+      "title": "CastMind: Un marco de razonamiento para la previsión de series temporales",
+      "summary": "Framework que mejora la previsión a través de un proceso iterativo de razonamiento.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.08947",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "series temporales",
+        "razonamiento",
         "IA"
       ],
-      "what_changed": "Transformación de diagramas smart P&ID en gráficos de conocimiento estructurados para facilitar la recuperación de información.",
-      "why_it_matters": "Aumenta la precisión de las consultas y reduce significativamente los costos computacionales.",
-      "sector_impact": "Mejora la interacción en ingeniería de procesos mediante IA."
+      "what_changed": "Transforma la previsión en un proceso interactivo y autónomo.",
+      "why_it_matters": "Mejora la precisión de las predicciones en contextos variados.",
+      "sector_impact": "Aumenta la efectividad en la toma de decisiones basada en datos."
     },
     {
-      "title": "ReqFusion: A Multi-Provider Framework for Automated PEGS Analysis",
-      "summary": "Sistema que automatiza la extracción y análisis de requisitos de software utilizando múltiples modelos de lenguaje.",
-      "category": "framework",
+      "title": "From Prompts to Packets: Análisis del tráfico de ChatGPT y Gemini",
+      "summary": "Estudio del tráfico asociado a chatbots en aplicaciones móviles, revelando patrones únicos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23482",
-      "relevance_score": 35,
+      "source_url": "https://arxiv.org/abs/2510.11269",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "software",
-        "requisitos",
-        "automación"
+        "tráfico",
+        "chatbots",
+        "analítica"
       ],
-      "what_changed": "Integración de múltiples LLMs para mejorar la extracción de requisitos en diferentes formatos.",
-      "why_it_matters": "Aumenta la eficiencia y precisión del proceso de desarrollo de software.",
-      "sector_impact": "Optimización del proceso de ingeniería de requisitos."
+      "what_changed": "Análisis detallado del tráfico de datos generado por chatbots.",
+      "why_it_matters": "Estudio del tráfico asociado a chatbots en aplicaciones móviles, revelando patrones únicos.",
+      "sector_impact": "Optimiza la planificación de capacidad en infraestructuras de red."
     },
     {
-      "title": "T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search",
-      "summary": "Método que permite la generación automática de ataques a LLMs utilizando trayectorias de ejecución.",
-      "category": "model",
+      "title": "Claudini: Descubrimiento automático de algoritmos adversariales para LLMs",
+      "summary": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.22341",
-      "relevance_score": 37,
+      "source_url": "https://arxiv.org/abs/2603.24511",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
+        "adversarial",
         "seguridad",
-        "investigación",
         "IA"
       ],
-      "what_changed": "Nuevo enfoque para descubrir vulnerabilidades específicas de los agentes LLM.",
-      "why_it_matters": "Revela vulnerabilidades poco exploradas en agentes autónomos, mejorando la seguridad.",
-      "sector_impact": "Aumento en la robustez de los sistemas de IA."
-    },
-    {
-      "title": "Reasoner-Executor-Synthesizer: Scalable Agentic Architecture",
-      "summary": "Arquitectura que optimiza modelos LLM como agentes autónomos mediante la separación de roles en la ejecución.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.22367",
-      "relevance_score": 26,
-      "status": "new",
-      "tags": [
-        "arquitectura",
-        "IA",
-        "optimización"
-      ],
-      "what_changed": "Diseño de separación de intenciones y ejecución mejorando la eficiencia del uso de tokens.",
-      "why_it_matters": "Elimina la alucinación de datos al no exponer el modelo a los registros crudos.",
-      "sector_impact": "Optimización de costos en el uso de IA."
-    },
-    {
-      "title": "BIRD-INTERACT: Realistic Evaluation for Text-to-SQL Tasks",
-      "summary": "Benchmark que mejora la evaluación de modelos LLM en tareas de consulta a bases de datos mediante interacciones dinámicas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.05318",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "SQL",
-        "IA"
-      ],
-      "what_changed": "Introducción de un entorno interactivo para evaluar la capacidad de los modelos en tareas complejas.",
-      "why_it_matters": "Aumenta la fiabilidad y precisión en la utilización de modelos LLM en entornos de bases de datos.",
-      "sector_impact": "Mejoras en la implementación de asistentes de bases de datos."
+      "what_changed": "Se descubre un nuevo enfoque para la investigación de seguridad en LLMs.",
+      "why_it_matters": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
+      "sector_impact": "Aumenta la resiliencia de modelos de lenguaje ante amenazas."
     }
   ]
 }
