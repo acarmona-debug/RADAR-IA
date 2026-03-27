@@ -1,127 +1,127 @@
 {
-  "date": "2026-03-26",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones importantes en herramientas, modelos y automatización de IA.",
-  "opening_message": "Este documento presenta las innovaciones más relevantes en el ámbito de IA, priorizando herramientas, frameworks y agentes.",
+  "date": "2026-03-27",
+  "executive_title": "Radar Diario de IA - Novedades y Desarrollos",
+  "intro_message": "Descubre las últimas innovaciones y herramientas en el mundo de la Inteligencia Artificial.",
+  "opening_message": "A continuación, presentamos un resumen de los desarrollos más relevantes que impactan el ecosistema de IA.",
   "items": [
     {
-      "title": "GTO Wizard Benchmark",
-      "summary": "Un marco estandarizado para evaluar algoritmos en el juego de póker Heads-Up No-Limit Texas Hold'em.",
-      "category": "tool",
+      "title": "Nuevo Método para el Diseño de Evaluaciones en la Era de la IA",
+      "summary": "Método que identifica diferencias en las respuestas entre humanos y chatbots, mejorando el diseño de evaluaciones.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23660",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "AI",
-        "póker"
-      ],
-      "what_changed": "Introducción de un nuevo marco de evaluación para agentes de póker.",
-      "why_it_matters": "Proporciona un entorno de evaluación cuantificable para mejorar algoritmos de toma de decisiones en juegos de múltiples agentes.",
-      "sector_impact": "Desarrollo y evaluación de algoritmos de IA en entornos competitivos."
-    },
-    {
-      "title": "AnalogAgent: Automatización del diseño de circuitos analógicos",
-      "summary": "Un sistema multi-agente basado en LLM para automatizar el diseño de circuitos analógicos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23910",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "automatización",
-        "circuitos",
-        "LLM"
-      ],
-      "what_changed": "Se introduce un marco que integra varios agentes para la creación de diseños complejos.",
-      "why_it_matters": "Optimiza el proceso de diseño de circuitos, reduciendo el tiempo y mejorando la precisión.",
-      "sector_impact": "Eficiencia en el diseño y prototipado de circuitos electrónicos."
-    },
-    {
-      "title": "LLMORPH: Pruebas automáticas para LLMs",
-      "summary": "Una herramienta de prueba automatizada diseñada para evaluar la robustez de modelos de lenguaje.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23611",
+      "source_url": "https://arxiv.org/abs/2603.23682",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "pruebas",
-        "automatización",
-        "LLM"
+        "evaluación",
+        "IA en educación",
+        "diseño de pruebas"
       ],
-      "what_changed": "Incorporación de técnicas de Metamorphic Testing para detectar comportamientos erróneos.",
-      "why_it_matters": "Facilita la identificación de inconsistencias sin necesidad de datos etiquetados.",
-      "sector_impact": "Aumenta la confiabilidad de sistemas de NLP."
+      "what_changed": "Introducción de un enfoque estadístico para analizar diferencias en las respuestas.",
+      "why_it_matters": "Mejora la fiabilidad y validez de las evaluaciones en entornos educativos con LLMs.",
+      "sector_impact": "Educación"
     },
     {
-      "title": "TikZilla: Generación de gráficos científicos desde texto",
-      "summary": "Modelo que genera gráficos de alta calidad desde descripciones textuales utilizando aprendizaje por refuerzo.",
+      "title": "Framework para la Detección de Documentos Financieros Generados por IA",
+      "summary": "Benchmark que compara documentos generados por GPT-4o con auténticos, revelando capacidades de detección de LLMs.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.03072",
+      "source_url": "https://arxiv.org/abs/2603.11442",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "gráficos",
-        "text-to-image",
-        " aprendizaje por refuerzo"
+        "forense",
+        "IA en finanzas",
+        "evaluación"
       ],
-      "what_changed": "Se presenta un modelo mejorado para crear gráficos a partir de texto.",
-      "why_it_matters": "Facilita la creación de visualizaciones científicas precisas a partir de descripciones textuales.",
-      "sector_impact": "Apoya la comunicación científica y la investigación."
+      "what_changed": "Desarrollo de un benchmark de recepciones para estudios futuros.",
+      "why_it_matters": "Proporciona un marco para la investigación en la detección de documentos generados por IA.",
+      "sector_impact": "Finanzas"
     },
     {
-      "title": "CastMind: Un marco de razonamiento para la previsión de series temporales",
-      "summary": "Framework que mejora la previsión a través de un proceso iterativo de razonamiento.",
-      "category": "tool",
+      "title": "Colapso de Seguridad Interna en Modelos de Lenguaje",
+      "summary": "Identificación de un modo de falla crítico en LLMs que genera contenido dañino durante tareas benignas.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2511.08947",
+      "source_url": "https://arxiv.org/abs/2603.23509",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "series temporales",
-        "razonamiento",
-        "IA"
-      ],
-      "what_changed": "Transforma la previsión en un proceso interactivo y autónomo.",
-      "why_it_matters": "Mejora la precisión de las predicciones en contextos variados.",
-      "sector_impact": "Aumenta la efectividad en la toma de decisiones basada en datos."
-    },
-    {
-      "title": "From Prompts to Packets: Análisis del tráfico de ChatGPT y Gemini",
-      "summary": "Estudio del tráfico asociado a chatbots en aplicaciones móviles, revelando patrones únicos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.11269",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "tráfico",
-        "chatbots",
-        "analítica"
-      ],
-      "what_changed": "Análisis detallado del tráfico de datos generado por chatbots.",
-      "why_it_matters": "Estudio del tráfico asociado a chatbots en aplicaciones móviles, revelando patrones únicos.",
-      "sector_impact": "Optimiza la planificación de capacidad en infraestructuras de red."
-    },
-    {
-      "title": "Claudini: Descubrimiento automático de algoritmos adversariales para LLMs",
-      "summary": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.24511",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "adversarial",
         "seguridad",
-        "IA"
+        "Riesgos en IA",
+        "modelos de lenguaje"
       ],
-      "what_changed": "Se descubre un nuevo enfoque para la investigación de seguridad en LLMs.",
-      "why_it_matters": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
-      "sector_impact": "Aumenta la resiliencia de modelos de lenguaje ante amenazas."
+      "what_changed": "Introducción de un marco para evaluar el colapso de seguridad.",
+      "why_it_matters": "Aumenta la comprensión de las vulnerabilidades de seguridad en el uso de LLMs.",
+      "sector_impact": "Seguridad"
+    },
+    {
+      "title": "Framework Med-Shicheng para Transferencia de Conocimientos Médicos",
+      "summary": "Framework que utiliza LLM para estandarizar y escalar la experiencia médica de los fisios.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.23520",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "medicina",
+        "IA en salud",
+        "transferencia de conocimiento"
+      ],
+      "what_changed": "Desarrollo de un modelo que integra conocimientos de físicos destacados.",
+      "why_it_matters": "Facilita el acceso a la experiencia médica en contextos de escasez.",
+      "sector_impact": "Salud"
+    },
+    {
+      "title": "Swiss-Bench SBP-002: Comparación de Modelos Fronterizos en Tareas Legales",
+      "summary": "Benchmark que evalúa modelos de lenguaje en tareas legales suizas con un enfoque multidimensional.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.23646",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ley",
+        "regulación",
+        "benchmark"
+      ],
+      "what_changed": "Creación de un marco para evaluar la capacidad de modelo en tareas de cumplimiento regulatorio.",
+      "why_it_matters": "Proporciona un punto de referencia empírico para el rendimiento de modelos en estas tareas.",
+      "sector_impact": "Legal"
+    },
+    {
+      "title": "MM-tau-p²: Evaluación de Agentes Multi-Modal",
+      "summary": "Nuevo benchmark que mide la robustez de agentes multimodales en configuraciones de doble control.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.09643",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "agentes",
+        "IA multi-modal"
+      ],
+      "what_changed": "Introducción de métricas novedosas para la evaluación de agentes.",
+      "why_it_matters": "Establece un enfoque integral para evaluar agentes multimodales en interacciones complejas.",
+      "sector_impact": "Tecnología"
+    },
+    {
+      "title": "VehicleMemBench: Evaluación de Memoria en Agentes In-Vehículo",
+      "summary": "Benchmark que evalúa cómo los agentes en vehículos gestionan la memoria multiusuario a lo largo del tiempo.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.23840",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA en vehículos",
+        "memoria",
+        "evaluación"
+      ],
+      "what_changed": "Desarrollo de un entorno simulado para evaluar el uso de herramientas y la memoria en vehículos.",
+      "why_it_matters": "Proporciona un marco para mejorar la toma de decisiones en escenarios de múltiples usuarios.",
+      "sector_impact": "Automotriz"
     }
   ]
 }
