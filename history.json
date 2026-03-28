@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-03-28",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Build with Lyria 3, our newest music generation model",
+          "summary": "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Lyria 3",
+            "model",
+            "musica"
+          ],
+          "what_changed": "Lanzamiento de Lyria 3 en modo de vista previa paga.",
+          "why_it_matters": "Ofrece una nueva herramienta para la generación de música asistida por IA.",
+          "sector_impact": "Música y entretenimiento."
+        },
+        {
+          "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+          "summary": "Gemini 3.1 Flash Live is now available across Google products.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "audio",
+            "modelo"
+          ],
+          "what_changed": "Disponibilidad de Gemini 3.1 Flash Live en productos de Google.",
+          "why_it_matters": "Mejora la naturalidad y confiabilidad del audio generado por IA.",
+          "sector_impact": "Medios y comunicaciones."
+        },
+        {
+          "title": "How Kensho built a multi-agent framework with LangGraph",
+          "summary": "Kensho leverages LangGraph to create its Grounding framework for trusted financial data retrieval.",
+          "category": "framework",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/customers-kensho/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Kensho",
+            "multi-agent",
+            "framework"
+          ],
+          "what_changed": "Desarrollo del framework Grounding para datos financieros.",
+          "why_it_matters": "Permite un acceso unificado a datos financieros en gran escala.",
+          "sector_impact": "Finanzas."
+        },
+        {
+          "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+          "summary": "We are bringing Lyria 3 to the tools where professionals work and create every day.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Lyria 3 Pro",
+            "music",
+            "feature"
+          ],
+          "what_changed": "Incorporación de Lyria 3 Pro en herramientas profesionales.",
+          "why_it_matters": "Facilita la creación musical para profesionales.",
+          "sector_impact": "Música y producción."
+        },
+        {
+          "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+          "summary": "Google is launching 'switching tools' to make it easier for users to switch to Gemini.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "transfer",
+            "feature"
+          ],
+          "what_changed": "Herramientas de transición para usuarios de otros chatbots.",
+          "why_it_matters": "Mejora la experiencia del usuario y fomenta la adopción de Gemini.",
+          "sector_impact": "Tecnología y chatbots."
+        },
+        {
+          "title": "Mistral releases a new open source model for speech generation",
+          "summary": "The model allows enterprises to build voice agents for sales and customer engagement.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Mistral",
+            "open source",
+            "speech generation"
+          ],
+          "what_changed": "Lanzamiento de un modelo de generación de voz de código abierto.",
+          "why_it_matters": "Permite a las empresas crear agentes de voz para interacción con clientes.",
+          "sector_impact": "Ventas y atención al cliente."
+        },
+        {
+          "title": "How Middleware Lets You Customize Your Agent Harness",
+          "summary": "Agent Middleware empowers you to build an application-specific agent harness.",
+          "category": "framework",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Middleware",
+            "agent harness",
+            "customización"
+          ],
+          "what_changed": "Introducción de Middleware para agentes.",
+          "why_it_matters": "Permite personalizar la integración de agentes en aplicaciones específicas.",
+          "sector_impact": "Desarrollo de software."
+        },
+        {
+          "title": "Skills in LangSmith Fleet",
+          "summary": "Fleet now supports shareable skills for agents across your team.",
+          "category": "tool",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/skills-in-langsmith-fleet/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "LangSmith",
+            "skills",
+            "agentes"
+          ],
+          "what_changed": "Soporte para habilidades compartibles en el equipo.",
+          "why_it_matters": "Mejora la colaboración y la eficiencia del equipo en tareas especializadas.",
+          "sector_impact": "Desarrollo colaborativo."
+        }
+      ]
+    },
+    {
       "date": "2026-03-27",
       "executive_title": "Radar Diario de IA - Novedades y Desarrollos",
       "items": [
@@ -734,131 +876,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-21",
-      "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos Clave",
-      "items": [
-        {
-          "title": "ZEBRAARENA: Entorno de Simulación Diagnóstica para Modelos LLM",
-          "summary": "Una plataforma para evaluar la conexión entre razonamiento y acción en modelos LLM aumentados por herramientas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.18614",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "evaluación",
-            "razonamiento"
-          ],
-          "what_changed": "Introducción de un entorno procedimentalmente generado para estudiar el uso de herramientas en LLMs.",
-          "why_it_matters": "Aumenta la capacidad de los modelos para usar herramientas externas eficientemente.",
-          "sector_impact": "Impacto significativo en la formación de modelos de lenguaje más efectivos en aplicaciones prácticas."
-        },
-        {
-          "title": "Infherno: Sínteisis de Recursos Clínicos con IA",
-          "summary": "Una solución integral para integrar datos clínicos libres en recursos FHIR estructurados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2507.12261",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "salud",
-            "aunque"
-          ],
-          "what_changed": "Framework que mejora la traducción de notas clínicas a recursos estructurados.",
-          "why_it_matters": "Facilita la interoperabilidad en el sector salud.",
-          "sector_impact": "Transforma la manera de manejar datos clínicos, mejorando la calidad en atención médica."
-        },
-        {
-          "title": "Memento-Skills: Sistema de Agente que Diseña Agentes",
-          "summary": "Sistema LLM que aprende a crear y adaptar agentes específicos de tareas de manera autónoma.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.18743",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "aprendizaje",
-            "autonomía"
-          ],
-          "what_changed": "Introducción de un sistema que optimiza la creación de agentes para tareas específicas.",
-          "why_it_matters": "Permite que los agentes se automejoren sin intervención humana.",
-          "sector_impact": "Capacita la evolución continua en el desarrollo de agentes IA."
-        },
-        {
-          "title": "DynaRAG: Integración de Conocimiento Estático y Dinámico",
-          "summary": "Framework RAG que maneja tanto información estática como necesidades dinámicas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.18012",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "RAG",
-            "automatización",
-            "preguntas"
-          ],
-          "what_changed": "Sistema que invoca APIs externas para mejorar la precisión en respuestas a preguntas dinámicas.",
-          "why_it_matters": "Reduce alucinaciones y mejora la precisión en aplicaciones del mundo real.",
-          "sector_impact": "Optimiza sistemas de respuesta a preguntas, aplicables en múltiples industrias."
-        },
-        {
-          "title": "Learning to Self-Evolve: Mejora Contextual con IA",
-          "summary": "Framework de RL que permite a los LLMs mejorar sus contextos en tiempo de prueba.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.18620",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "mejora",
-            "eficiencia"
-          ],
-          "what_changed": "Propuesta de un nuevo tipo de aprendizaje adaptativo en LLMs.",
-          "why_it_matters": "Aumenta la efectividad de los modelos en tareas específicas.",
-          "sector_impact": "Impulsa el potencial de los LLMs en aplicaciones más complejas."
-        },
-        {
-          "title": "Auditoria de Preferencias en LLMs",
-          "summary": "Framework para auditar preferencias de marcas y culturas en LLMs y su impacto en el mercado.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.18300",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "auditoría",
-            "marcas",
-            "mercado"
-          ],
-          "what_changed": "Introducción de un sistema de auditoría para cuantificar sesgos en LLMs.",
-          "why_it_matters": "Aborda la necesidad de equidad y competitividad en la mediación del mercado.",
-          "sector_impact": "Mejora la transparencia y la equidad en el proceso de toma de decisiones de mercado."
-        },
-        {
-          "title": "MEMO: Optimización de Contexto en Juegos Multi-Agent LLM",
-          "summary": "Framework que optimiza el contexto en juegos multi-agente mediante memoria.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.09022",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "juegos",
-            "multi-agente"
-          ],
-          "what_changed": "Mecanismo de autocomposición que almacena información de interacciones previas.",
-          "why_it_matters": "Aumenta la estabilidad y el rendimiento de los LLMs en juegos.",
-          "sector_impact": "Transforma la evaluación y competencia en entornos de juegos multi-agente."
         }
       ]
     }

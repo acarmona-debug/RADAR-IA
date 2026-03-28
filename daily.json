@@ -1,127 +1,144 @@
 {
-  "date": "2026-03-27",
-  "executive_title": "Radar Diario de IA - Novedades y Desarrollos",
-  "intro_message": "Descubre las últimas innovaciones y herramientas en el mundo de la Inteligencia Artificial.",
-  "opening_message": "A continuación, presentamos un resumen de los desarrollos más relevantes que impactan el ecosistema de IA.",
+  "date": "2026-03-28",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Descubre las últimas innovaciones en herramientas, modelos y frameworks de IA que están impactando el sector.",
+  "opening_message": "Este radar diario destaca las novedades más relevantes en inteligencia artificial, priorizando aquellas con aplicaciones prácticas para desarrolladores y empresas.",
   "items": [
     {
-      "title": "Nuevo Método para el Diseño de Evaluaciones en la Era de la IA",
-      "summary": "Método que identifica diferencias en las respuestas entre humanos y chatbots, mejorando el diseño de evaluaciones.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23682",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "IA en educación",
-        "diseño de pruebas"
-      ],
-      "what_changed": "Introducción de un enfoque estadístico para analizar diferencias en las respuestas.",
-      "why_it_matters": "Mejora la fiabilidad y validez de las evaluaciones en entornos educativos con LLMs.",
-      "sector_impact": "Educación"
-    },
-    {
-      "title": "Framework para la Detección de Documentos Financieros Generados por IA",
-      "summary": "Benchmark que compara documentos generados por GPT-4o con auténticos, revelando capacidades de detección de LLMs.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.11442",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "forense",
-        "IA en finanzas",
-        "evaluación"
-      ],
-      "what_changed": "Desarrollo de un benchmark de recepciones para estudios futuros.",
-      "why_it_matters": "Proporciona un marco para la investigación en la detección de documentos generados por IA.",
-      "sector_impact": "Finanzas"
-    },
-    {
-      "title": "Colapso de Seguridad Interna en Modelos de Lenguaje",
-      "summary": "Identificación de un modo de falla crítico en LLMs que genera contenido dañino durante tareas benignas.",
+      "title": "Build with Lyria 3, our newest music generation model",
+      "summary": "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23509",
-      "relevance_score": 7,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "seguridad",
-        "Riesgos en IA",
-        "modelos de lenguaje"
+        "Lyria 3",
+        "model",
+        "musica"
       ],
-      "what_changed": "Introducción de un marco para evaluar el colapso de seguridad.",
-      "why_it_matters": "Aumenta la comprensión de las vulnerabilidades de seguridad en el uso de LLMs.",
-      "sector_impact": "Seguridad"
+      "what_changed": "Lanzamiento de Lyria 3 en modo de vista previa paga.",
+      "why_it_matters": "Ofrece una nueva herramienta para la generación de música asistida por IA.",
+      "sector_impact": "Música y entretenimiento."
     },
     {
-      "title": "Framework Med-Shicheng para Transferencia de Conocimientos Médicos",
-      "summary": "Framework que utiliza LLM para estandarizar y escalar la experiencia médica de los fisios.",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "summary": "Gemini 3.1 Flash Live is now available across Google products.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Gemini",
+        "audio",
+        "modelo"
+      ],
+      "what_changed": "Disponibilidad de Gemini 3.1 Flash Live en productos de Google.",
+      "why_it_matters": "Mejora la naturalidad y confiabilidad del audio generado por IA.",
+      "sector_impact": "Medios y comunicaciones."
+    },
+    {
+      "title": "How Kensho built a multi-agent framework with LangGraph",
+      "summary": "Kensho leverages LangGraph to create its Grounding framework for trusted financial data retrieval.",
       "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23520",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/customers-kensho/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "medicina",
-        "IA en salud",
-        "transferencia de conocimiento"
+        "Kensho",
+        "multi-agent",
+        "framework"
       ],
-      "what_changed": "Desarrollo de un modelo que integra conocimientos de físicos destacados.",
-      "why_it_matters": "Facilita el acceso a la experiencia médica en contextos de escasez.",
-      "sector_impact": "Salud"
+      "what_changed": "Desarrollo del framework Grounding para datos financieros.",
+      "why_it_matters": "Permite un acceso unificado a datos financieros en gran escala.",
+      "sector_impact": "Finanzas."
     },
     {
-      "title": "Swiss-Bench SBP-002: Comparación de Modelos Fronterizos en Tareas Legales",
-      "summary": "Benchmark que evalúa modelos de lenguaje en tareas legales suizas con un enfoque multidimensional.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23646",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ley",
-        "regulación",
-        "benchmark"
-      ],
-      "what_changed": "Creación de un marco para evaluar la capacidad de modelo en tareas de cumplimiento regulatorio.",
-      "why_it_matters": "Proporciona un punto de referencia empírico para el rendimiento de modelos en estas tareas.",
-      "sector_impact": "Legal"
-    },
-    {
-      "title": "MM-tau-p²: Evaluación de Agentes Multi-Modal",
-      "summary": "Nuevo benchmark que mide la robustez de agentes multimodales en configuraciones de doble control.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.09643",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "agentes",
-        "IA multi-modal"
-      ],
-      "what_changed": "Introducción de métricas novedosas para la evaluación de agentes.",
-      "why_it_matters": "Establece un enfoque integral para evaluar agentes multimodales en interacciones complejas.",
-      "sector_impact": "Tecnología"
-    },
-    {
-      "title": "VehicleMemBench: Evaluación de Memoria en Agentes In-Vehículo",
-      "summary": "Benchmark que evalúa cómo los agentes en vehículos gestionan la memoria multiusuario a lo largo del tiempo.",
+      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+      "summary": "We are bringing Lyria 3 to the tools where professionals work and create every day.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23840",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "IA en vehículos",
-        "memoria",
-        "evaluación"
+        "Lyria 3 Pro",
+        "music",
+        "feature"
       ],
-      "what_changed": "Desarrollo de un entorno simulado para evaluar el uso de herramientas y la memoria en vehículos.",
-      "why_it_matters": "Proporciona un marco para mejorar la toma de decisiones en escenarios de múltiples usuarios.",
-      "sector_impact": "Automotriz"
+      "what_changed": "Incorporación de Lyria 3 Pro en herramientas profesionales.",
+      "why_it_matters": "Facilita la creación musical para profesionales.",
+      "sector_impact": "Música y producción."
+    },
+    {
+      "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+      "summary": "Google is launching 'switching tools' to make it easier for users to switch to Gemini.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Gemini",
+        "transfer",
+        "feature"
+      ],
+      "what_changed": "Herramientas de transición para usuarios de otros chatbots.",
+      "why_it_matters": "Mejora la experiencia del usuario y fomenta la adopción de Gemini.",
+      "sector_impact": "Tecnología y chatbots."
+    },
+    {
+      "title": "Mistral releases a new open source model for speech generation",
+      "summary": "The model allows enterprises to build voice agents for sales and customer engagement.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Mistral",
+        "open source",
+        "speech generation"
+      ],
+      "what_changed": "Lanzamiento de un modelo de generación de voz de código abierto.",
+      "why_it_matters": "Permite a las empresas crear agentes de voz para interacción con clientes.",
+      "sector_impact": "Ventas y atención al cliente."
+    },
+    {
+      "title": "How Middleware Lets You Customize Your Agent Harness",
+      "summary": "Agent Middleware empowers you to build an application-specific agent harness.",
+      "category": "framework",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Middleware",
+        "agent harness",
+        "customización"
+      ],
+      "what_changed": "Introducción de Middleware para agentes.",
+      "why_it_matters": "Permite personalizar la integración de agentes en aplicaciones específicas.",
+      "sector_impact": "Desarrollo de software."
+    },
+    {
+      "title": "Skills in LangSmith Fleet",
+      "summary": "Fleet now supports shareable skills for agents across your team.",
+      "category": "tool",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/skills-in-langsmith-fleet/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "LangSmith",
+        "skills",
+        "agentes"
+      ],
+      "what_changed": "Soporte para habilidades compartibles en el equipo.",
+      "why_it_matters": "Mejora la colaboración y la eficiencia del equipo en tareas especializadas.",
+      "sector_impact": "Desarrollo colaborativo."
     }
   ]
 }
