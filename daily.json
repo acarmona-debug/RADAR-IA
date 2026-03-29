@@ -1,144 +1,112 @@
 {
-  "date": "2026-03-28",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Descubre las últimas innovaciones en herramientas, modelos y frameworks de IA que están impactando el sector.",
-  "opening_message": "Este radar diario destaca las novedades más relevantes en inteligencia artificial, priorizando aquellas con aplicaciones prácticas para desarrolladores y empresas.",
+  "date": "2026-03-29",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "Build with Lyria 3, our newest music generation model",
-      "summary": "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Lyria 3",
-        "model",
-        "musica"
-      ],
-      "what_changed": "Lanzamiento de Lyria 3 en modo de vista previa paga.",
-      "why_it_matters": "Ofrece una nueva herramienta para la generación de música asistida por IA.",
-      "sector_impact": "Música y entretenimiento."
-    },
-    {
-      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-      "summary": "Gemini 3.1 Flash Live is now available across Google products.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "audio",
-        "modelo"
-      ],
-      "what_changed": "Disponibilidad de Gemini 3.1 Flash Live en productos de Google.",
-      "why_it_matters": "Mejora la naturalidad y confiabilidad del audio generado por IA.",
-      "sector_impact": "Medios y comunicaciones."
-    },
-    {
-      "title": "How Kensho built a multi-agent framework with LangGraph",
-      "summary": "Kensho leverages LangGraph to create its Grounding framework for trusted financial data retrieval.",
-      "category": "framework",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/customers-kensho/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Kensho",
-        "multi-agent",
-        "framework"
-      ],
-      "what_changed": "Desarrollo del framework Grounding para datos financieros.",
-      "why_it_matters": "Permite un acceso unificado a datos financieros en gran escala.",
-      "sector_impact": "Finanzas."
-    },
-    {
-      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
-      "summary": "We are bringing Lyria 3 to the tools where professionals work and create every day.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Lyria 3 Pro",
-        "music",
-        "feature"
-      ],
-      "what_changed": "Incorporación de Lyria 3 Pro en herramientas profesionales.",
-      "why_it_matters": "Facilita la creación musical para profesionales.",
-      "sector_impact": "Música y producción."
-    },
-    {
-      "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
-      "summary": "Google is launching 'switching tools' to make it easier for users to switch to Gemini.",
-      "category": "tool",
+      "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
+      "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
+      "category": "labs",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
-      "relevance_score": 6,
+      "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "relevance_score": 12,
       "status": "new",
-      "tags": [
-        "Gemini",
-        "transfer",
-        "feature"
-      ],
-      "what_changed": "Herramientas de transición para usuarios de otros chatbots.",
-      "why_it_matters": "Mejora la experiencia del usuario y fomenta la adopción de Gemini.",
-      "sector_impact": "Tecnología y chatbots."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Mistral releases a new open source model for speech generation",
-      "summary": "The model allows enterprises to build voice agents for sales and customer engagement.",
+      "title": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
+      "summary": "It's only the latest of several side projects that the AI startup has ditched over the past week.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
+      "relevance_score": 12,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Search Live is expanding globally",
+      "summary": "We’re expanding Search Live globally, to all languages and locations where AI Mode is available.",
+      "category": "labs",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
+      "summary": "Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
-      "relevance_score": 6,
+      "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [
-        "Mistral",
-        "open source",
-        "speech generation"
-      ],
-      "what_changed": "Lanzamiento de un modelo de generación de voz de código abierto.",
-      "why_it_matters": "Permite a las empresas crear agentes de voz para interacción con clientes.",
-      "sector_impact": "Ventas y atención al cliente."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "How Middleware Lets You Customize Your Agent Harness",
-      "summary": "Agent Middleware empowers you to build an application-specific agent harness.",
+      "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+      "summary": "In the latest episode of our Dialogues on Technology and Society series, LL COOL J sits down with James Manyika.",
+      "category": "labs",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Transform your headphones into a live personal translator on iOS.",
+      "summary": "Google Translate’s Live translate with headphones is officially arriving on iOS! And we're expanding the capability for both iOS and Android users to even more countries…",
+      "category": "labs",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+      "summary": "A federal judge has ordered that the Trump administration rescind recent restrictions it placed on the AI company.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "How we build evals for Deep Agents",
+      "summary": "💡 TLDR: The best agent evals directly measure an agent behavior we care about. Here's how we source data, create metrics, and run well-scoped, targeted experiments over time to make agents more accurate and reliable. Evals shape agent behavior We’ve been curating evaluations to measure and",
       "category": "framework",
       "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
-      "relevance_score": 5,
+      "source_url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [
-        "Middleware",
-        "agent harness",
-        "customización"
-      ],
-      "what_changed": "Introducción de Middleware para agentes.",
-      "why_it_matters": "Permite personalizar la integración de agentes en aplicaciones específicas.",
-      "sector_impact": "Desarrollo de software."
-    },
-    {
-      "title": "Skills in LangSmith Fleet",
-      "summary": "Fleet now supports shareable skills for agents across your team.",
-      "category": "tool",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/skills-in-langsmith-fleet/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "LangSmith",
-        "skills",
-        "agentes"
-      ],
-      "what_changed": "Soporte para habilidades compartibles en el equipo.",
-      "why_it_matters": "Mejora la colaboración y la eficiencia del equipo en tareas especializadas.",
-      "sector_impact": "Desarrollo colaborativo."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
