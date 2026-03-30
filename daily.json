@@ -1,112 +1,128 @@
 {
-  "date": "2026-03-29",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-03-30",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Resumen de las principales innovaciones y lanzamientos en el ámbito de la IA.",
+  "opening_message": "Hoy destacamos los avances más relevantes que impactan herramientas, modelos y frameworks en el desarrollo de IA.",
   "items": [
     {
-      "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
-      "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
-      "summary": "It's only the latest of several side projects that the AI startup has ditched over the past week.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Search Live is expanding globally",
-      "summary": "We’re expanding Search Live globally, to all languages and locations where AI Mode is available.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
-      "summary": "Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
+      "title": "ReCUBE: Evaluando Contexto a Nivel de Repositorio en Generación de Código",
+      "summary": "Presentación de un nuevo benchmark que evalúa cómo los LLMs utilizan contexto de repositorio en la generación de código.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.25770",
       "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "LLM",
+        "generación de código",
+        "benchmark",
+        "automático"
+      ],
+      "what_changed": "Introducción del benchmark ReCUBE y toolkit Caller-Centric Exploration.",
+      "why_it_matters": "Permite medir de forma precisa la capacidad de los LLMs para usar contexto en entornos de código reales.",
+      "sector_impact": "Mejora en herramientas de desarrollo de software mediante la automatización de generación de código."
     },
     {
-      "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
-      "summary": "In the latest episode of our Dialogues on Technology and Society series, LL COOL J sits down with James Manyika.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/",
-      "relevance_score": 7,
+      "title": "AIDABench: Benchmark de Analítica de Datos de IA",
+      "summary": "Desarrollo de AIDABench para evaluar sistemas de IA en tareas complejas de análisis de datos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.15636",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "análisis de datos",
+        "IA"
+      ],
+      "what_changed": "Creación de un benchmark exhaustivo para tareas de analítica de datos.",
+      "why_it_matters": "Proporciona estándares de evaluación rigurosos para sistemas de IA en escenarios del mundo real.",
+      "sector_impact": "Aumenta la fiabilidad de las herramientas de analítica en diversas industrias."
     },
     {
-      "title": "Transform your headphones into a live personal translator on iOS.",
-      "summary": "Google Translate’s Live translate with headphones is officially arriving on iOS! And we're expanding the capability for both iOS and Android users to even more countries…",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
-      "summary": "A federal judge has ordered that the Trump administration rescind recent restrictions it placed on the AI company.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "How we build evals for Deep Agents",
-      "summary": "💡 TLDR: The best agent evals directly measure an agent behavior we care about. Here's how we source data, create metrics, and run well-scoped, targeted experiments over time to make agents more accurate and reliable. Evals shape agent behavior We’ve been curating evaluations to measure and",
+      "title": "Rocks, Pebbles and Sand: Programador de Inferencia para Modelos de Lenguaje Multimodal",
+      "summary": "Implementación de un programador de inferencia consciente de la modalidad que mejora el tiempo de respuesta.",
       "category": "framework",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.26498",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "MLLM",
+        "responsive",
+        "programación"
+      ],
+      "what_changed": "Introducción del programador RPS-Serve para gestionar cargas de trabajo multimodales.",
+      "why_it_matters": "Aumenta la eficiencia en la inferencia de modelos de lenguaje multimodal al gestionar solicitudes variadas.",
+      "sector_impact": "Mejora la interacción con aplicaciones y sistemas que utilizan IA multimodal."
+    },
+    {
+      "title": "GUIDE: Resolviendo el Sesgo de Dominio en Agentes GUI",
+      "summary": "Framework para adquirir experiencia específica de dominio a través de videos de tutoriales en tiempo real.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.26266",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "GUI",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de una interfaz que permite a los agentes GUI aprender de videos.",
+      "why_it_matters": "Proporciona a los agentes la capacidad de adaptarse a contextos específicos sin reentrenamiento.",
+      "sector_impact": "Incrementa la efectividad de los agentes en entornos de trabajo específicos."
+    },
+    {
+      "title": "GazeQwen: LLM Condicionado por la Mirada para Comprensión de Video",
+      "summary": "Enfoque eficiente en parámetros para integrar la información de la mirada en MLLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.25841",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "MLLM",
+        "video",
+        "mirada"
+      ],
+      "what_changed": "Incorporación de un modulador de mirada en un modelo de lenguaje multimodal.",
+      "why_it_matters": "Mejora la precisión en tareas de comprensión de video mediante la integración de pistas visuales.",
+      "sector_impact": "Impulsa el desarrollo de tecnologías de interacción humano-computadora más sofisticadas."
+    },
+    {
+      "title": "SkinGPT-X: Sistema Multi-Agente para Diagnóstico Dermatológico",
+      "summary": "Sistema colaborativo de múltiples agentes que permite diagnósticos dermatológicos más transparentes.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.26122",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "diagnóstico",
+        "salud",
+        "IA"
+      ],
+      "what_changed": "Implementación de una memoria dermatológica auto-evolutiva para el diagnóstico.",
+      "why_it_matters": "Aumenta la confianza y la transparencia en los diagnósticos clínicos difíciles.",
+      "sector_impact": "Transforma la forma en que se realizan diagnósticos dermatológicos complejos."
+    },
+    {
+      "title": "Automatizando el Diseño Guiado por Dominio con un Framework de Prompts",
+      "summary": "Framework para automatizar actividades cruciales en el diseño guiado por dominio (DDD) usando LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.26244",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "DDD",
+        "automación",
+        "IA"
+      ],
+      "what_changed": "Introducción de un marco que optimiza tareas de DDD a través de interacciones LLM.",
+      "why_it_matters": "Permite a los expertos concentrarse en decisiones críticas mientras se reducen esfuerzos.",
+      "sector_impact": "Facilita el proceso de diseño de arquitecturas de software complejas."
     }
   ]
 }
