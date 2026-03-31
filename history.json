@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-03-31",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Does Tone Change the Answer? Evaluating Prompt Politeness Effects on Modern LLMs: GPT, Gemini, and LLaMA",
+          "summary": "arXiv:2512.12812v2 Announce Type: replace-cross Abstract: Prompt engineering has emerged as a critical factor influencing large language model (LLM) performance, yet the impact of pragmatic elements such as linguistic tone and politeness remains underexplored, particularly across different model families. In this work, we propose a systematic evaluation framework to examine how interaction tone affects model accuracy and apply it to three recently released and widely available LLMs: GPT-4o mini (OpenAI), Gemini 2.0 Flash (Google DeepMind), and Llama 4 Scout (Meta). Using the MMMLU benchmark, we evaluate model performance under Very Polite, Neutral, and Very Rude prompt variants across six tasks spanning STEM and Humanities domains, and analyze pairwise accuracy differences with statistical significance testing. Our results show that tone sensitivity is both model-dependent and domain-specific. Neutral or Very Polite prompts generally yield higher accuracy than Very Rude prompts, but statistically significant effects appear only in a subset of Humanities tasks, where rude tone reduces accuracy for GPT and Llama, while Gemini remains comparatively tone-insensitive. When performance is aggregated across tasks within each domain, tone effects diminish and largely lose statistical significance. Compared with earlier research, these findings suggest that dataset scale and coverage materially influence the detection of tone effects. Overall, our study indicates that while interaction tone can matter in specific interpretive settings, modern LLMs are broadly robust to tonal variation in typical mixed-domain use, providing practical guidance for prompt design and model selection in real-world deployments.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.12812",
+          "relevance_score": 34,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "LLM Readiness Harness: Evaluation, Observability, and CI Gates for LLM/RAG Applications",
+          "summary": "arXiv:2603.27355v1 Announce Type: new Abstract: We present a readiness harness for LLM and RAG applications that turns evaluation into a deployment decision workflow. The system combines automated benchmarks, OpenTelemetry observability, and CI quality gates under a minimal API contract, then aggregates workflow success, policy compliance, groundedness, retrieval hit rate, cost, and p95 latency into scenario-weighted readiness scores with Pareto frontiers. We evaluate the harness on ticket-routing workflows and BEIR grounding tasks (SciFact and FiQA) with full Azure matrix coverage (162/162 valid cells across datasets, scenarios, retrieval depths, seeds, and models). Results show that readiness is not a single metric: on FiQA under sla-first at k=5, gpt-4.1-mini leads in readiness and faithfulness, while gpt-5.2 pays a substantial latency cost; on SciFact, models are closer in quality but still separable operationally. Ticket-routing regression gates consistently reject unsafe prompt variants, demonstrating that the harness can block risky releases instead of merely reporting offline scores. The result is a reproducible, operationally grounded framework for deciding whether an LLM or RAG system is ready to ship.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.27355",
+          "relevance_score": 33,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "ASTER -- Agentic Science Toolkit for Exoplanet Research",
+          "summary": "arXiv:2603.26953v1 Announce Type: cross Abstract: The expansion of exoplanet observations has created a need for flexible, accessible, and user-friendly workflows. Transmission spectroscopy has become a key technique for probing atmospheric composition of transiting exoplanets. The analyses of these data require the combination of archival queries, literature search, the use of radiative transfer models, and Bayesian retrieval frameworks, each demanding specialized expertise. Modern large language models enable the coordinated execution of complex, multi-step tasks by AI agents with tool integration, structured prompts, and iterative reasoning. In this study we present ASTER, an Agentic Science Toolkit for Exoplanet Research. ASTER is an orchestration framework that brings LLM capability to the exoplanetary community by enabling LLM-driven interaction with integrated domain-specific tools, workflow planning and management, and support for common data analysis tasks. Currently ASTER incorporates tools for downloading planetary parameters and observational datasets from the NASA Exoplanet Archive, as well as the generation of transit spectra from the TauREx radiative transfer model, and the completion of Bayesian retrieval of planetary parameters with TauREx. Beyond tool integration, the agent assists users by proposing alternative modeling approaches, reporting potential issues and suggesting solutions, and interpretations. We demonstrate ASTER's workflow through a complete case study of WASP-39b, performing multiple retrievals using observational data available on the archive. The agent efficiently transitions between datasets, generates appropriate forward model spectra and performs retrievals. ASTER provides a unified platform for the characterization of exoplanet atmospheres. Ongoing development and community contributions will continue expanding ASTER's capabilities toward broader applications in exoplanet research.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.26953",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "LLMs versus the Halting Problem: Revisiting Program Termination Prediction",
+          "summary": "arXiv:2601.18987v4 Announce Type: replace-cross Abstract: Determining whether a program terminates is a central problem in computer science. Turing's foundational result established the Halting Problem as undecidable, showing that no algorithm can universally determine termination for all programs and inputs. Consequently, automatic verification tools approximate termination, sometimes failing to prove or disprove; these tools rely on problem-specific architectures, and are usually tied to particular programming languages. Recent success and progress in large language models (LLMs) raises the following question: can LLMs reliably predict program termination? In this work, we evaluate LLMs on a diverse set of programs from the Termination category of the International Competition on Software Verification (SV-Comp) 2025. Our results suggest that LLMs perform remarkably well at predicting program termination, where GPT-5 and Claude Sonnet-4.5 would rank just behind the top-ranked tool (using test-time-scaling), and Code World Model (CWM) would place just behind the second-ranked tool. While LLMs are effective at predicting program termination, they often fail to provide a valid witness as a proof. Moreover, LLMs performance drops as program length and complexity increases. We hope these insights motivate further research into program termination and the broader potential of LLMs for reasoning about undecidable problems.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.18987",
+          "relevance_score": 31,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "ComBench: A Repo-level Real-world Benchmark for Compilation Error Repair",
+          "summary": "arXiv:2603.27333v1 Announce Type: cross Abstract: Compilation errors pose pervasive and critical challenges in software development, significantly hindering productivity. Therefore, Automated Compilation Error Repair (ACER) techniques are proposed to mitigate these issues. Despite recent advancements in ACER, its real-world performance remains poorly evaluated. This can be largely attributed to the limitations of existing benchmarks, \\ie decontextualized single-file data, lack of authentic source diversity, and biased local task modeling that ignores crucial repository-level complexities. To bridge this critical gap, we propose ComBench, the first repository-level, reproducible real-world benchmark for C/C++ compilation error repair. ComBench is constructed through a novel, automated framework that systematically mines real-world failures from the GitHub CI histories of large-scale open-source projects. Our framework contributes techniques for the high-precision identification of ground-truth repair patches from complex version histories and a high-fidelity mechanism for reproducing the original, ephemeral build environments. To ensure data quality, all samples in ComBench are execution-verified -- guaranteeing reproducible failures and build success with ground-truth patches. Using ComBench, we conduct a comprehensive evaluation of 12 modern LLMs under both direct and agent-based repair settings. Our experiments reveal a significant gap between a model's ability to achieve syntactic correctness (a 73% success rate for GPT-5) and its ability to ensure semantic correctness (only 41% of its patches are valid). We also find that different models exhibit distinct specializations for different error types. ComBench provides a robust and realistic platform to guide the future development of ACER techniques capable of addressing the complexities of modern software development.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.27333",
+          "relevance_score": 30,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "CiQi-Agent: Aligning Vision, Tools and Aesthetics in Multimodal Agent for Cultural Reasoning on Chinese Porcelains",
+          "summary": "arXiv:2603.28474v1 Announce Type: cross Abstract: The connoisseurship of antique Chinese porcelain demands extensive historical expertise, material understanding, and aesthetic sensitivity, making it difficult for non-specialists to engage. To democratize cultural-heritage understanding and assist expert connoisseurship, we introduce CiQi-Agent -- a domain-specific Porcelain Connoisseurship Agent for intelligent analysis of antique Chinese porcelain. CiQi-Agent supports multi-image porcelain inputs and enables vision tool invocation and multimodal retrieval-augmented generation, performing fine-grained connoisseurship analysis across six attributes: dynasty, reign period, kiln site, glaze color, decorative motif, and vessel shape. Beyond attribute classification, it captures subtle visual details, retrieves relevant domain knowledge, and integrates visual and textual evidence to produce coherent, explainable connoisseurship descriptions. To achieve this capability, we construct a large-scale, expert-annotated dataset CiQi-VQA, comprising 29,596 porcelain specimens, 51,553 images, and 557,940 visual question--answering pairs, and further establish a comprehensive benchmark CiQi-Bench aligned with the previously mentioned six attributes. CiQi-Agent is trained through supervised fine-tuning, reinforcement learning, and a tool-augmented reasoning framework that integrates two categories of tools: a vision tool and multimodal retrieval tools. Experimental results show that CiQi-Agent (7B) outperforms all competitive open- and closed-source models across all six attributes on CiQi-Bench, achieving on average 12.2\\% higher accuracy than GPT-5. The model and dataset have been released and are publicly available at https://huggingface.co/datasets/SII-Monument-Valley/CiQi-VQA.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.28474",
+          "relevance_score": 30,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Beyond Recognition: Evaluating Visual Perspective Taking in Vision Language Models",
+          "summary": "arXiv:2505.03821v2 Announce Type: replace-cross Abstract: We investigate the ability of Vision Language Models (VLMs) to perform visual perspective taking using a new set of visual tasks inspired by established human tests. Our approach leverages carefully controlled scenes in which a single humanoid minifigure is paired with a single object. By systematically varying spatial configurations -- such as object position relative to the minifigure and the minifigure's orientation -- and using both bird's-eye and surface-level views, we created 144 unique visual tasks. Each task is paired with a series of 7 diagnostic questions designed to assess three levels of visual cognition: scene understanding, spatial reasoning, and visual perspective taking. We evaluate several high-performing models, including Gemini Robotics-ER 1.5, Llama-3.2-11B-Vision-Instruct, and variants of Claude Sonnet, GPT-4, and Qwen3, and find that while they excel at scene understanding, performance declines markedly on spatial reasoning and deteriorates further on perspective taking. Our analysis suggests a gap between surface-level object recognition and the deeper spatial and perspective reasoning required for complex visual tasks, pointing to the need for integrating explicit geometric representations and tailored training protocols in future VLM development.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.03821",
+          "relevance_score": 30,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Can AI be a Teaching Partner? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies",
+          "summary": "arXiv:2603.26673v1 Announce Type: cross Abstract: There are growing promises that Large Language Models (LLMs) can support students' learning by providing explanations, feedback, and guidance. However, despite their rapid adoption and widespread attention, there is still limited empirical evidence regarding the pedagogical skills of LLMs. This article presents a comparative study of popular LLMs, namely, ChatGPT, DeepSeek, and Gemini, acting as teaching agents. An evaluation protocol was developed, focusing on three pedagogical strategies: Examples, Explanations and Analogies, and the Socratic Method. Six human judges conducted the evaluations in the context of teaching the C programming language to beginners. The results indicate that LLM models exhibited similar interaction patterns in the pedagogical strategies of Examples and Explanations and Analogies. In contrast, for the Socratic Method, the models showed greater sensitivity to the pedagogical strategy and the initial prompt. Overall, ChatGPT and Gemini received higher scores, whereas DeepSeek obtained lower scores across the criteria, indicating differences in pedagogical performance across models.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.26673",
+          "relevance_score": 29,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-03-30",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -750,116 +860,6 @@
           "what_changed": "Introducción de un entorno interactivo para evaluar la capacidad de los modelos en tareas complejas.",
           "why_it_matters": "Aumenta la fiabilidad y precisión en la utilización de modelos LLM en entornos de bases de datos.",
           "sector_impact": "Mejoras en la implementación de asistentes de bases de datos."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "EnterpriseLab: A Full-Stack Platform for developing and deploying agents in Enterprises",
-          "summary": "arXiv:2603.21630v1 Announce Type: new Abstract: Deploying AI agents in enterprise environments requires balancing capability with data sovereignty and cost constraints. While small language models offer privacy-preserving alternatives to frontier models, their specialization is hindered by fragmented development pipelines that separate tool integration, data generation, and training. We introduce EnterpriseLab, a full-stack platform that unifies these stages into a closed-loop framework. EnterpriseLab provides (1) a modular environment exposing enterprise applications via Model Context Protocol, enabling seamless integration of proprietary and open-source tools; (2) automated trajectory synthesis that programmatically generates training data from environment schemas; and (3) integrated training pipelines with continuous evaluation. We validate the platform through EnterpriseArena, an instantiation with 15 applications and 140+ tools across IT, HR, sales, and engineering domains. Our results demonstrate that 8B-parameter models trained within EnterpriseLab match GPT-4o's performance on complex enterprise workflows while reducing inference costs by 8-10x, and remain robust across diverse enterprise benchmarks, including EnterpriseBench (+10%) and CRMArena (+10%). EnterpriseLab provides enterprises a practical path to deploying capable, privacy-preserving agents without compromising operational capability.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.21630",
-          "relevance_score": 38,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The Library Theorem: How External Organization Governs Agentic Reasoning Capacity",
-          "summary": "arXiv:2603.21272v1 Announce Type: new Abstract: Externalized reasoning is already exploited by transformer-based agents through chain-of-thought, but structured retrieval -- indexing over one's own reasoning state -- remains underexplored. We formalize the transformer context window as an I/O page and prove that tool-augmented agents with indexed external memory achieve exponentially lower retrieval cost than agents restricted to sequential scanning: $O(\\log_b N)$ versus $\\Omega(N)$ page reads per query, and $O(T \\log_b T)$ versus $\\Theta(T^2)$ cumulative cost over $T$ reasoning steps -- a gap that widens as deliberation deepens. We test these predictions on a controlled lookup benchmark across three content types -- random hashes, ordered integers, and encyclopedia entries -- varying store size from 50 to 5,000 items, and replicate key conditions across two model generations (GPT-4o-mini and GPT-5.4). On abstract content, the indexed agent achieves median 1 page read regardless of store size, confirming the $O(1)$ prediction. Sorted pages without an index fail to close the gap: the weaker model cannot sustain binary search at scale, and the stronger model achieves near-optimal $\\log_2 N$ search but still loses to the index by $5\\times$. On familiar content (encyclopedia entries), a competing failure mode emerges: the model recognizes the domain, bypasses the retrieval protocol, and generates answers from parametric memory, producing catastrophic token expenditure even when the index is sound. This parametric memory competition dissociates the two cognitive operations that indexing combines: understanding content (where language models excel) and following navigational protocols (where they fail when understanding tempts them to shortcut). The result argues for a separation of concerns: use language models for index construction, where semantic understanding helps, and deterministic algorithms for index traversal, where it hurts.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.21272",
-          "relevance_score": 31,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The Impact of LLM-Assistants on Software Developer Productivity: A Systematic Review and Mapping Study",
-          "summary": "arXiv:2507.03156v2 Announce Type: replace-cross Abstract: Large language model assistants (LLM-assistants) present new opportunities to transform software development. Developers are increasingly adopting these tools across tasks, including coding, testing, debugging, documentation, and design. Yet, despite growing interest, there is no synthesis of how LLM-assistants affect software developer productivity. In this paper, we present a systematic review and mapping of 39 peer-reviewed studies published between January 2014 and December 2024 that examine this impact. Our analysis reveals that the majority of studies report considerable benefits from LLM-assistants, though a notable subset identifies critical risks. Commonly reported gains include accelerated development, minimized code search, and the automation of trivial and repetitive tasks. However, studies also highlight concerns around cognitive offloading and reduced team collaboration. Our study reveals that whether LLM-based assistants improve or degrade code quality remains unresolved, as existing studies report contradictory outcomes contingent on context and evaluation criteria. While the majority of studies (90%) adopt a multi-dimensional perspective by examining at least two SPACE dimensions, reflecting increased awareness of the complexity of developer productivity, only 15% extend beyond three dimensions, indicating substantial room for more integrated evaluations. Satisfaction, Performance, and Efficiency are the most frequently investigated dimensions, whereas Communication and Activity remain underexplored. Most studies are exploratory (59%) and methodologically diverse, but lack longitudinal and team-based evaluations. This review surfaces key research gaps and provides recommendations for future research and practice. All artifacts associated with this study are publicly available at https://zenodo.org/records/18489222",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2507.03156",
-          "relevance_score": 30,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
-          "summary": "arXiv:2603.20278v1 Announce Type: cross Abstract: Training deep research agents requires long-horizon trajectories that interleave search, evidence aggregation, and multi-step reasoning. However, existing data collection pipelines typically rely on proprietary web APIs, making large-scale trajectory synthesis costly, unstable, and difficult to reproduce. We present OpenResearcher, a reproducible pipeline that decouples one-time corpus bootstrapping from multi-turn trajectory synthesis and executes the search-and-browse loop entirely offline using three explicit browser primitives: search, open, and find, over a 15M-document corpus. Using GPT-OSS-120B as the teacher model, we synthesize over 97K trajectories, including a substantial long-horizon tail with 100+ tool calls. Supervised fine-tuning a 30B-A3B backbone on these trajectories achieves 54.8\\% accuracy on BrowseComp-Plus, a +34.0 point improvement over the base model, while remaining competitive on BrowseComp, GAIA, and xbench-DeepSearch. Because the environment is offline and fully instrumented, it also enables controlled analysis, where our study reveals practical insights into deep research pipeline design, including data filtering strategies, agent configuration choices, and how retrieval success relates to final answer accuracy. We release the pipeline, synthesized trajectories, model checkpoints, and the offline search environment at https://github.com/TIGER-AI-Lab/OpenResearcher.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.20278",
-          "relevance_score": 29,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "LLM-Powered Workflow Optimization for Multidisciplinary Software Development: An Automotive Industry Case Study",
-          "summary": "arXiv:2603.21439v1 Announce Type: cross Abstract: Multidisciplinary Software Development (MSD) requires domain experts and developers to collaborate across incompatible formalisms and separate artifact sets. Today, even with AI coding assistants like GitHub Copilot, this process remains inefficient; individual coding tasks are semi-automated, but the workflow connecting domain knowledge to implementation is not. Developers and experts still lack a shared view, resulting in repeated coordination, clarification rounds, and error-prone handoffs. We address this gap through a graph-based workflow optimization approach that progressively replaces manual coordination with LLM-powered services, enabling incremental adoption without disrupting established practices. We evaluate our approach on \\texttt{spapi}, a production in-vehicle API system at Volvo Group involving 192 endpoints, 420 properties, and 776 CAN signals across six functional domains. The automated workflow achieves 93.7\\% F1 score while reducing per-API development time from approximately 5 hours to under 7 minutes, saving an estimated 979 engineering hours. In production, the system received high satisfaction from both domain experts and developers, with all participants reporting full satisfaction with communication efficiency.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.21439",
-          "relevance_score": 28,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "KG-Hopper: Empowering Compact Open LLMs with Knowledge Graph Reasoning via Reinforcement Learning",
-          "summary": "arXiv:2603.21440v1 Announce Type: cross Abstract: Large Language Models (LLMs) demonstrate impressive natural language capabilities but often struggle with knowledge-intensive reasoning tasks. Knowledge Base Question Answering (KBQA), which leverages structured Knowledge Graphs (KGs) exemplifies this challenge due to the need for accurate multi-hop reasoning. Existing approaches typically perform sequential reasoning steps guided by predefined pipelines, restricting flexibility and causing error cascades due to isolated reasoning at each step. To address these limitations, we propose KG-Hopper, a novel Reinforcement Learning (RL) framework that empowers compact open LLMs with the ability to perform integrated multi-hop KG reasoning within a single inference round. Rather than reasoning step-by-step, we train a Reasoning LLM that embeds the entire KG traversal and decision process into a unified ``thinking'' stage, enabling global reasoning over cross-step dependencies and dynamic path exploration with backtracking. Experimental results on eight KG reasoning benchmarks show that KG-Hopper, based on a 7B-parameter LLM, consistently outperforms larger multi-step systems (up to 70B) and achieves competitive performance with proprietary models such as GPT-3.5-Turbo and GPT-4o-mini, while remaining compact, open, and data-efficient. The code is publicly available at: https://github.com/Wangshuaiia/KG-Hopper.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.21440",
-          "relevance_score": 28,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Towards Urban General Intelligence: A Review and Outlook of Urban Foundation Models",
-          "summary": "arXiv:2402.01749v3 Announce Type: replace-cross Abstract: The integration of machine learning techniques has become a cornerstone in the development of intelligent urban services, significantly contributing to the enhancement of urban efficiency, sustainability, and overall livability. Recent advancements in foundational models, such as ChatGPT, have introduced a paradigm shift within the fields of machine learning and artificial intelligence. These models, with their exceptional capacity for contextual comprehension, problem-solving, and task adaptability, present a transformative opportunity to reshape the future of smart cities and drive progress toward Urban General Intelligence (UGI). Despite increasing attention to Urban Foundation Models (UFMs), this rapidly evolving field faces critical challenges, including the lack of clear definitions, systematic reviews, and universalizable solutions. To address these issues, this paper first introduces the definition and concept of UFMs and highlights the distinctive challenges involved in their development. Furthermore, we present a data-centric taxonomy that classifies existing research on UFMs according to the various urban data modalities and types. In addition, we propose a prospective framework designed to facilitate the realization of versatile UFMs, aimed at overcoming the identified challenges and driving further progress in this field. Finally, this paper systematically summarizes and discusses existing benchmarks and datasets related to UFMs, and explores the wide-ranging applications of UFMs within urban contexts, illustrating their potential to significantly impact and transform urban systems. A comprehensive collection of relevant research papers and open-source resources have been collated and are continuously updated at: https://github.com/usail-hkust/Awesome-Urban-Foundation-Models.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2402.01749",
-          "relevance_score": 28,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation",
-          "summary": "arXiv:2505.15054v4 Announce Type: replace-cross Abstract: Precise recognition, editing, and generation of molecules are essential prerequisites for both chemists and AI systems tackling various chemical tasks. We present MolLangBench, a comprehensive benchmark designed to evaluate fundamental molecule-language interface tasks: language-prompted molecular structure recognition, editing, and generation. To ensure high-quality, unambiguous, and deterministic outputs, we construct the recognition tasks using automated cheminformatics tools, and curate editing and generation tasks through rigorous expert annotation and validation. MolLangBench supports the evaluation of models that interface language with different molecular representations, including linear strings, molecular images, and molecular graphs. Evaluations of state-of-the-art models reveal significant limitations: the strongest model (GPT-5) achieves $86.2\\%$ and $85.5\\%$ accuracy on recognition and editing tasks, which are intuitively simple for humans, and performs even worse on the generation task, reaching only $43.0\\%$ accuracy. These results highlight the shortcomings of current AI systems in handling even preliminary molecular recognition and manipulation tasks. We hope MolLangBench will catalyze further research toward more effective and reliable AI systems for chemical applications.The dataset and code can be accessed at https://huggingface.co/datasets/ChemFM/MolLangBench and https://github.com/TheLuoFengLab/MolLangBench, respectively.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.15054",
-          "relevance_score": 28,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }

@@ -1,128 +1,112 @@
 {
-  "date": "2026-03-30",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las principales innovaciones y lanzamientos en el ámbito de la IA.",
-  "opening_message": "Hoy destacamos los avances más relevantes que impactan herramientas, modelos y frameworks en el desarrollo de IA.",
+  "date": "2026-03-31",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "ReCUBE: Evaluando Contexto a Nivel de Repositorio en Generación de Código",
-      "summary": "Presentación de un nuevo benchmark que evalúa cómo los LLMs utilizan contexto de repositorio en la generación de código.",
-      "category": "tool",
+      "title": "Does Tone Change the Answer? Evaluating Prompt Politeness Effects on Modern LLMs: GPT, Gemini, and LLaMA",
+      "summary": "arXiv:2512.12812v2 Announce Type: replace-cross Abstract: Prompt engineering has emerged as a critical factor influencing large language model (LLM) performance, yet the impact of pragmatic elements such as linguistic tone and politeness remains underexplored, particularly across different model families. In this work, we propose a systematic evaluation framework to examine how interaction tone affects model accuracy and apply it to three recently released and widely available LLMs: GPT-4o mini (OpenAI), Gemini 2.0 Flash (Google DeepMind), and Llama 4 Scout (Meta). Using the MMMLU benchmark, we evaluate model performance under Very Polite, Neutral, and Very Rude prompt variants across six tasks spanning STEM and Humanities domains, and analyze pairwise accuracy differences with statistical significance testing. Our results show that tone sensitivity is both model-dependent and domain-specific. Neutral or Very Polite prompts generally yield higher accuracy than Very Rude prompts, but statistically significant effects appear only in a subset of Humanities tasks, where rude tone reduces accuracy for GPT and Llama, while Gemini remains comparatively tone-insensitive. When performance is aggregated across tasks within each domain, tone effects diminish and largely lose statistical significance. Compared with earlier research, these findings suggest that dataset scale and coverage materially influence the detection of tone effects. Overall, our study indicates that while interaction tone can matter in specific interpretive settings, modern LLMs are broadly robust to tonal variation in typical mixed-domain use, providing practical guidance for prompt design and model selection in real-world deployments.",
+      "category": "labs",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.25770",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2512.12812",
+      "relevance_score": 34,
       "status": "new",
-      "tags": [
-        "LLM",
-        "generación de código",
-        "benchmark",
-        "automático"
-      ],
-      "what_changed": "Introducción del benchmark ReCUBE y toolkit Caller-Centric Exploration.",
-      "why_it_matters": "Permite medir de forma precisa la capacidad de los LLMs para usar contexto en entornos de código reales.",
-      "sector_impact": "Mejora en herramientas de desarrollo de software mediante la automatización de generación de código."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "AIDABench: Benchmark de Analítica de Datos de IA",
-      "summary": "Desarrollo de AIDABench para evaluar sistemas de IA en tareas complejas de análisis de datos.",
-      "category": "tool",
+      "title": "LLM Readiness Harness: Evaluation, Observability, and CI Gates for LLM/RAG Applications",
+      "summary": "arXiv:2603.27355v1 Announce Type: new Abstract: We present a readiness harness for LLM and RAG applications that turns evaluation into a deployment decision workflow. The system combines automated benchmarks, OpenTelemetry observability, and CI quality gates under a minimal API contract, then aggregates workflow success, policy compliance, groundedness, retrieval hit rate, cost, and p95 latency into scenario-weighted readiness scores with Pareto frontiers. We evaluate the harness on ticket-routing workflows and BEIR grounding tasks (SciFact and FiQA) with full Azure matrix coverage (162/162 valid cells across datasets, scenarios, retrieval depths, seeds, and models). Results show that readiness is not a single metric: on FiQA under sla-first at k=5, gpt-4.1-mini leads in readiness and faithfulness, while gpt-5.2 pays a substantial latency cost; on SciFact, models are closer in quality but still separable operationally. Ticket-routing regression gates consistently reject unsafe prompt variants, demonstrating that the harness can block risky releases instead of merely reporting offline scores. The result is a reproducible, operationally grounded framework for deciding whether an LLM or RAG system is ready to ship.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.15636",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2603.27355",
+      "relevance_score": 33,
       "status": "new",
-      "tags": [
-        "evaluación",
-        "análisis de datos",
-        "IA"
-      ],
-      "what_changed": "Creación de un benchmark exhaustivo para tareas de analítica de datos.",
-      "why_it_matters": "Proporciona estándares de evaluación rigurosos para sistemas de IA en escenarios del mundo real.",
-      "sector_impact": "Aumenta la fiabilidad de las herramientas de analítica en diversas industrias."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Rocks, Pebbles and Sand: Programador de Inferencia para Modelos de Lenguaje Multimodal",
-      "summary": "Implementación de un programador de inferencia consciente de la modalidad que mejora el tiempo de respuesta.",
-      "category": "framework",
+      "title": "ASTER -- Agentic Science Toolkit for Exoplanet Research",
+      "summary": "arXiv:2603.26953v1 Announce Type: cross Abstract: The expansion of exoplanet observations has created a need for flexible, accessible, and user-friendly workflows. Transmission spectroscopy has become a key technique for probing atmospheric composition of transiting exoplanets. The analyses of these data require the combination of archival queries, literature search, the use of radiative transfer models, and Bayesian retrieval frameworks, each demanding specialized expertise. Modern large language models enable the coordinated execution of complex, multi-step tasks by AI agents with tool integration, structured prompts, and iterative reasoning. In this study we present ASTER, an Agentic Science Toolkit for Exoplanet Research. ASTER is an orchestration framework that brings LLM capability to the exoplanetary community by enabling LLM-driven interaction with integrated domain-specific tools, workflow planning and management, and support for common data analysis tasks. Currently ASTER incorporates tools for downloading planetary parameters and observational datasets from the NASA Exoplanet Archive, as well as the generation of transit spectra from the TauREx radiative transfer model, and the completion of Bayesian retrieval of planetary parameters with TauREx. Beyond tool integration, the agent assists users by proposing alternative modeling approaches, reporting potential issues and suggesting solutions, and interpretations. We demonstrate ASTER's workflow through a complete case study of WASP-39b, performing multiple retrievals using observational data available on the archive. The agent efficiently transitions between datasets, generates appropriate forward model spectra and performs retrievals. ASTER provides a unified platform for the characterization of exoplanet atmospheres. Ongoing development and community contributions will continue expanding ASTER's capabilities toward broader applications in exoplanet research.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.26498",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2603.26953",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "MLLM",
-        "responsive",
-        "programación"
-      ],
-      "what_changed": "Introducción del programador RPS-Serve para gestionar cargas de trabajo multimodales.",
-      "why_it_matters": "Aumenta la eficiencia en la inferencia de modelos de lenguaje multimodal al gestionar solicitudes variadas.",
-      "sector_impact": "Mejora la interacción con aplicaciones y sistemas que utilizan IA multimodal."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "GUIDE: Resolviendo el Sesgo de Dominio en Agentes GUI",
-      "summary": "Framework para adquirir experiencia específica de dominio a través de videos de tutoriales en tiempo real.",
-      "category": "tool",
+      "title": "LLMs versus the Halting Problem: Revisiting Program Termination Prediction",
+      "summary": "arXiv:2601.18987v4 Announce Type: replace-cross Abstract: Determining whether a program terminates is a central problem in computer science. Turing's foundational result established the Halting Problem as undecidable, showing that no algorithm can universally determine termination for all programs and inputs. Consequently, automatic verification tools approximate termination, sometimes failing to prove or disprove; these tools rely on problem-specific architectures, and are usually tied to particular programming languages. Recent success and progress in large language models (LLMs) raises the following question: can LLMs reliably predict program termination? In this work, we evaluate LLMs on a diverse set of programs from the Termination category of the International Competition on Software Verification (SV-Comp) 2025. Our results suggest that LLMs perform remarkably well at predicting program termination, where GPT-5 and Claude Sonnet-4.5 would rank just behind the top-ranked tool (using test-time-scaling), and Code World Model (CWM) would place just behind the second-ranked tool. While LLMs are effective at predicting program termination, they often fail to provide a valid witness as a proof. Moreover, LLMs performance drops as program length and complexity increases. We hope these insights motivate further research into program termination and the broader potential of LLMs for reasoning about undecidable problems.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.26266",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2601.18987",
+      "relevance_score": 31,
       "status": "new",
-      "tags": [
-        "agentes",
-        "GUI",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de una interfaz que permite a los agentes GUI aprender de videos.",
-      "why_it_matters": "Proporciona a los agentes la capacidad de adaptarse a contextos específicos sin reentrenamiento.",
-      "sector_impact": "Incrementa la efectividad de los agentes en entornos de trabajo específicos."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "GazeQwen: LLM Condicionado por la Mirada para Comprensión de Video",
-      "summary": "Enfoque eficiente en parámetros para integrar la información de la mirada en MLLMs.",
-      "category": "tool",
+      "title": "ComBench: A Repo-level Real-world Benchmark for Compilation Error Repair",
+      "summary": "arXiv:2603.27333v1 Announce Type: cross Abstract: Compilation errors pose pervasive and critical challenges in software development, significantly hindering productivity. Therefore, Automated Compilation Error Repair (ACER) techniques are proposed to mitigate these issues. Despite recent advancements in ACER, its real-world performance remains poorly evaluated. This can be largely attributed to the limitations of existing benchmarks, \\ie decontextualized single-file data, lack of authentic source diversity, and biased local task modeling that ignores crucial repository-level complexities. To bridge this critical gap, we propose ComBench, the first repository-level, reproducible real-world benchmark for C/C++ compilation error repair. ComBench is constructed through a novel, automated framework that systematically mines real-world failures from the GitHub CI histories of large-scale open-source projects. Our framework contributes techniques for the high-precision identification of ground-truth repair patches from complex version histories and a high-fidelity mechanism for reproducing the original, ephemeral build environments. To ensure data quality, all samples in ComBench are execution-verified -- guaranteeing reproducible failures and build success with ground-truth patches. Using ComBench, we conduct a comprehensive evaluation of 12 modern LLMs under both direct and agent-based repair settings. Our experiments reveal a significant gap between a model's ability to achieve syntactic correctness (a 73% success rate for GPT-5) and its ability to ensure semantic correctness (only 41% of its patches are valid). We also find that different models exhibit distinct specializations for different error types. ComBench provides a robust and realistic platform to guide the future development of ACER techniques capable of addressing the complexities of modern software development.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.25841",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2603.27333",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "MLLM",
-        "video",
-        "mirada"
-      ],
-      "what_changed": "Incorporación de un modulador de mirada en un modelo de lenguaje multimodal.",
-      "why_it_matters": "Mejora la precisión en tareas de comprensión de video mediante la integración de pistas visuales.",
-      "sector_impact": "Impulsa el desarrollo de tecnologías de interacción humano-computadora más sofisticadas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "SkinGPT-X: Sistema Multi-Agente para Diagnóstico Dermatológico",
-      "summary": "Sistema colaborativo de múltiples agentes que permite diagnósticos dermatológicos más transparentes.",
-      "category": "tool",
+      "title": "CiQi-Agent: Aligning Vision, Tools and Aesthetics in Multimodal Agent for Cultural Reasoning on Chinese Porcelains",
+      "summary": "arXiv:2603.28474v1 Announce Type: cross Abstract: The connoisseurship of antique Chinese porcelain demands extensive historical expertise, material understanding, and aesthetic sensitivity, making it difficult for non-specialists to engage. To democratize cultural-heritage understanding and assist expert connoisseurship, we introduce CiQi-Agent -- a domain-specific Porcelain Connoisseurship Agent for intelligent analysis of antique Chinese porcelain. CiQi-Agent supports multi-image porcelain inputs and enables vision tool invocation and multimodal retrieval-augmented generation, performing fine-grained connoisseurship analysis across six attributes: dynasty, reign period, kiln site, glaze color, decorative motif, and vessel shape. Beyond attribute classification, it captures subtle visual details, retrieves relevant domain knowledge, and integrates visual and textual evidence to produce coherent, explainable connoisseurship descriptions. To achieve this capability, we construct a large-scale, expert-annotated dataset CiQi-VQA, comprising 29,596 porcelain specimens, 51,553 images, and 557,940 visual question--answering pairs, and further establish a comprehensive benchmark CiQi-Bench aligned with the previously mentioned six attributes. CiQi-Agent is trained through supervised fine-tuning, reinforcement learning, and a tool-augmented reasoning framework that integrates two categories of tools: a vision tool and multimodal retrieval tools. Experimental results show that CiQi-Agent (7B) outperforms all competitive open- and closed-source models across all six attributes on CiQi-Bench, achieving on average 12.2\\% higher accuracy than GPT-5. The model and dataset have been released and are publicly available at https://huggingface.co/datasets/SII-Monument-Valley/CiQi-VQA.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.26122",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2603.28474",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "diagnóstico",
-        "salud",
-        "IA"
-      ],
-      "what_changed": "Implementación de una memoria dermatológica auto-evolutiva para el diagnóstico.",
-      "why_it_matters": "Aumenta la confianza y la transparencia en los diagnósticos clínicos difíciles.",
-      "sector_impact": "Transforma la forma en que se realizan diagnósticos dermatológicos complejos."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Automatizando el Diseño Guiado por Dominio con un Framework de Prompts",
-      "summary": "Framework para automatizar actividades cruciales en el diseño guiado por dominio (DDD) usando LLMs.",
-      "category": "tool",
+      "title": "Beyond Recognition: Evaluating Visual Perspective Taking in Vision Language Models",
+      "summary": "arXiv:2505.03821v2 Announce Type: replace-cross Abstract: We investigate the ability of Vision Language Models (VLMs) to perform visual perspective taking using a new set of visual tasks inspired by established human tests. Our approach leverages carefully controlled scenes in which a single humanoid minifigure is paired with a single object. By systematically varying spatial configurations -- such as object position relative to the minifigure and the minifigure's orientation -- and using both bird's-eye and surface-level views, we created 144 unique visual tasks. Each task is paired with a series of 7 diagnostic questions designed to assess three levels of visual cognition: scene understanding, spatial reasoning, and visual perspective taking. We evaluate several high-performing models, including Gemini Robotics-ER 1.5, Llama-3.2-11B-Vision-Instruct, and variants of Claude Sonnet, GPT-4, and Qwen3, and find that while they excel at scene understanding, performance declines markedly on spatial reasoning and deteriorates further on perspective taking. Our analysis suggests a gap between surface-level object recognition and the deeper spatial and perspective reasoning required for complex visual tasks, pointing to the need for integrating explicit geometric representations and tailored training protocols in future VLM development.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.26244",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2505.03821",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "DDD",
-        "automación",
-        "IA"
-      ],
-      "what_changed": "Introducción de un marco que optimiza tareas de DDD a través de interacciones LLM.",
-      "why_it_matters": "Permite a los expertos concentrarse en decisiones críticas mientras se reducen esfuerzos.",
-      "sector_impact": "Facilita el proceso de diseño de arquitecturas de software complejas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Can AI be a Teaching Partner? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies",
+      "summary": "arXiv:2603.26673v1 Announce Type: cross Abstract: There are growing promises that Large Language Models (LLMs) can support students' learning by providing explanations, feedback, and guidance. However, despite their rapid adoption and widespread attention, there is still limited empirical evidence regarding the pedagogical skills of LLMs. This article presents a comparative study of popular LLMs, namely, ChatGPT, DeepSeek, and Gemini, acting as teaching agents. An evaluation protocol was developed, focusing on three pedagogical strategies: Examples, Explanations and Analogies, and the Socratic Method. Six human judges conducted the evaluations in the context of teaching the C programming language to beginners. The results indicate that LLM models exhibited similar interaction patterns in the pedagogical strategies of Examples and Explanations and Analogies. In contrast, for the Socratic Method, the models showed greater sensitivity to the pedagogical strategy and the initial prompt. Overall, ChatGPT and Gemini received higher scores, whereas DeepSeek obtained lower scores across the criteria, indicating differences in pedagogical performance across models.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.26673",
+      "relevance_score": 29,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
