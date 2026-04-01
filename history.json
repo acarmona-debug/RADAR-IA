@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-04-01",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "EventChat: Implementation and user-centric evaluation of a large language model-driven conversational recommender system for exploring leisure events in an SME context",
+          "summary": "arXiv:2407.04472v4 Announce Type: replace-cross Abstract: Large language models (LLMs) present an enormous evolution in the strategic potential of conversational recommender systems (CRS). Yet to date, research has predominantly focused upon technical frameworks to implement LLM-driven CRS, rather than end-user evaluations or strategic implications for firms, particularly from the perspective of a small to medium enterprises (SME) that makeup the bedrock of the global economy. In the current paper, we detail the design of an LLM-driven CRS in an SME setting, and its subsequent performance in the field using both objective system metrics and subjective user evaluations. While doing so, we additionally outline a short-form revised ResQue model for evaluating LLM-driven CRS, enabling replicability in a rapidly evolving field. Our results reveal good system performance from a user experience perspective (85.5% recommendation accuracy) but underscore latency, cost, and quality issues challenging business viability. Notably, with a median cost of $0.04 per interaction and a latency of 5.7s, cost-effectiveness and response time emerge as crucial areas for achieving a more user-friendly and economically viable LLM-driven CRS for SME settings. One major driver of these costs is the use of an advanced LLM as a ranker within the retrieval-augmented generation (RAG) technique. Our results additionally indicate that relying solely on approaches such as Prompt-based learning with ChatGPT as the underlying LLM makes it challenging to achieve satisfying quality in a production environment. Strategic considerations for SMEs deploying an LLM-driven CRS are outlined, particularly considering trade-offs in the current technical landscape.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2407.04472",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Med-CMR: A Fine-Grained Benchmark Integrating Visual Evidence and Clinical Logic for Medical Complex Multimodal Reasoning",
+          "summary": "arXiv:2512.00818v2 Announce Type: replace Abstract: MLLMs MLLMs are beginning to appear in clinical workflows, but their ability to perform complex medical reasoning remains unclear. We present Med-CMR, a fine-grained Medical Complex Multimodal Reasoning benchmark. Med-CMR distinguishes from existing counterparts by three core features: 1) Systematic capability decomposition, splitting medical multimodal reasoning into fine-grained visual understanding and multi-step reasoning to enable targeted evaluation; 2) Challenging task design, with visual understanding across three key dimensions (small-object detection, fine-detail discrimination, spatial understanding) and reasoning covering four clinically relevant scenarios (temporal prediction, causal reasoning, long-tail generalization, multi-source integration); 3) Broad, high-quality data coverage, comprising 20,653 Visual Question Answering (VQA) pairs spanning 11 organ systems and 12 imaging modalities, validated via a rigorous two-stage (human expert + model-assisted) review to ensure clinical authenticity. We evaluate 18 state-of-the-art MLLMs with Med-CMR, revealing GPT-5 as the top-performing commercial model: 57.81 accuracy on multiple-choice questions (MCQs) and a 48.70 open-ended score, outperforming Gemini 2.5 Pro (49.87 MCQ accuracy, 45.98 open-ended score) and leading open-source model Qwen3-VL-235B-A22B (49.34 MCQ accuracy, 42.62 open-ended score). However, specialized medical MLLMs do not reliably outperform strong general models, and long-tail generalization emerges as the dominant failure mode. Med-CMR thus provides a stress test for visual-reasoning integration and rare-case robustness in medical MLLMs, and a rigorous yardstick for future clinical systems.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.00818",
+          "relevance_score": 31,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Knowledge database development by large language models for countermeasures against viruses and marine toxins",
+          "summary": "arXiv:2603.29149v1 Announce Type: new Abstract: Access to the most up-to-date information on medical countermeasures is important for the research and development of effective treatments for viruses and marine toxins. However, there is a lack of comprehensive databases that curate data on viruses and marine toxins, making decisions on medical countermeasures slow and difficult. In this work, we employ two large language models (LLMs) of ChatGPT and Grok to design two comprehensive databases of therapeutic countermeasures for five viruses of Lassa, Marburg, Ebola, Nipah, and Venezuelan equine encephalitis, as well as marine toxins. With high-level human-provided inputs, the two LLMs identify public databases containing data on the five viruses and marine toxins, collect relevant information from these databases and the literature, iteratively cross-validate the collected information, and design interactive webpages for easy access to the curated, comprehensive databases. Notably, the ChatGPT LLM is employed to design agentic AI workflows (consisting of two AI agents for research and decision-making) to rank countermeasures for viruses and marine toxins in the databases. Together, our work explores the potential of LLMs as a scalable, updatable approach for building comprehensive knowledge databases and supporting evidence-based decision-making.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.29149",
+          "relevance_score": 30,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Structured Intent as a Protocol-Like Communication Layer: Cross-Model Robustness, Framework Comparison, and the Weak-Model Compensation Effect",
+          "summary": "arXiv:2603.29953v1 Announce Type: new Abstract: How reliably can structured intent representations preserve user goals across different AI models, languages, and prompting frameworks? Prior work showed that PPS (Prompt Protocol Specification), a 5W3H-based structured intent framework, improves goal alignment in Chinese and generalizes to English and Japanese. This paper extends that line of inquiry in three directions: cross-model robustness across Claude, GPT-4o, and Gemini 2.5 Pro; controlled comparison with CO-STAR and RISEN; and a user study (N=50) of AI-assisted intent expansion in ecologically valid settings. Across 3,240 model outputs (3 languages x 6 conditions x 3 models x 3 domains x 20 tasks), evaluated by an independent judge (DeepSeek-V3), we find that structured prompting substantially reduces cross-language score variance relative to unstructured baselines. The strongest structured conditions reduce cross-language sigma from 0.470 to about 0.020. We also observe a weak-model compensation pattern: the lowest-baseline model (Gemini) shows a much larger D-A gain (+1.006) than the strongest model (Claude, +0.217). Under the current evaluation resolution, 5W3H, CO-STAR, and RISEN achieve similarly high goal-alignment scores, suggesting that dimensional decomposition itself is an important active ingredient. In the user study, AI-expanded 5W3H prompts reduce interaction rounds by 60 percent and increase user satisfaction from 3.16 to 4.04. These findings support the practical value of structured intent representation as a robust, protocol-like communication layer for human-AI interaction.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.29953",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Mitigating \"Epistemic Debt\" in Generative AI-Scaffolded Novice Programming using Metacognitive Scripts",
+          "summary": "arXiv:2602.20206v2 Announce Type: replace-cross Abstract: The democratization of Large Language Models has given rise to vibe coding, where novice programmers prioritize semantic intent over syntactic implementation. Without pedagogical guardrails, we argue this is fundamentally misaligned with cognitive skill acquisition. Drawing on Kirschner's distinction between cognitive offloading and outsourcing, unrestricted AI encourages novices to outsource the intrinsic cognitive load required for schema formation rather than merely offloading extraneous load. This accumulation of epistemic debt creates fragile experts: developers whose high functional utility masks critically low corrective competence. To quantify and mitigate this debt, we conducted a between-subjects experiment (N=78) using a custom Cursor IDE plugin backed by Claude 3.5 Sonnet. Participants were recruited via Prolific and UserInterviews.com to represent AI-native learners. We compared three conditions: manual (control), unrestricted AI (outsourcing), and scaffolded AI (offloading). The scaffolded condition employed a novel Explanation Gate -- a real-time LLM-as-a-Judge framework enforcing a teach-back protocol before generated code could be integrated. Results reveal a collapse of competence: both AI groups significantly outperformed the manual control on functional utility (p < .001) and did not differ from each other (p = .64), yet unrestricted AI users suffered a 77% failure rate on a subsequent 30-minute AI-blackout maintenance task, vs. only 39% in the scaffolded group. Qualitative analysis suggests successful vibe coders naturally self-scaffold, treating AI as a consultant rather than a contractor. We discuss implications for AI-generated software maintainability and propose that future learning systems must enforce metacognitive friction to prevent mass production of unmaintainable code. Replication package: https://github.com/sreecharansankaranarayanan/vibecheck",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.20206",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Webscraper: Leverage Multimodal Large Language Models for Index-Content Web Scraping",
+          "summary": "arXiv:2603.29161v1 Announce Type: new Abstract: Modern web scraping struggles with dynamic, interactive websites that require more than static HTML parsing. Current methods are often brittle and require manual customization for each site. To address this, we introduce Webscraper, a framework designed to handle the challenges of modern, dynamic web applications. It leverages a Multimodal Large Language Model (MLLM) to autonomously navigate interactive interfaces, invoke specialized tools, and perform structured data extraction in environments where traditional scrapers are ineffective. Webscraper utilizes a structured five-stage prompting procedure and a set of custom-built tools to navigate and extract data from websites following the common ``index-and-content'' architecture. Our experiments, conducted on six news websites, demonstrate that the full Webscraper framework, equipped with both our guiding prompt and specialized tools, achieves a significant improvement in extraction accuracy over the baseline agent Anthropic's Computer Use. We also applied the framework to e-commerce platforms to validate its generalizability.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.29161",
+          "relevance_score": 27,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism",
+          "summary": "arXiv:2603.29252v1 Announce Type: cross Abstract: Long video understanding is a key challenge that plagues the advancement of \\emph{Multimodal Large language Models} (MLLMs). In this paper, we study this problem from the perspective of visual memory mechanism, and proposed a novel and training-free approach, termed \\emph{Flexible Memory} (\\textbf{FlexMem}). In principle, FlexMem aims to mimic human behavior of video watching, \\emph{i.e.}, continually watching video content and recalling the most relevant memory fragments to answer the question. In this way, FlexMem can help MLLMs achieve video understanding of infinite lengths, unlike previous methods that process all video information at once and have input upper-limit. Concretely, FlexMem first consider the visual KV caches as the memory sources, and realize the effective memory transfer and writing via a dual-pathway compression design. Afterwards, FlexMem also explores different memory reading strategies for the diverse video understanding tasks, including the popular streaming one. To validate FlexMem, we apply it to two popular video-MLLMs, and conduct extensive experiments on five long video and one streaming video task. The experimental results show that on \\textbf{a single 3090 GPU}, our FlexMem can achieve obvious improvements than existing efficient video understanding methods and process more than \\textbf{1k frames}, which also helps the base MLLMs achieve comparable or even better performance than SOTA MLLMs on some benchmarks, \\emph{e.g.} , GPT-4o and Gemini-1.5 Pro.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.29252",
+          "relevance_score": 27,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
+          "summary": "arXiv:2603.25158v3 Announce Type: replace Abstract: Equipping Large Language Model (LLM) agents with domain-specific skills is critical for tackling complex tasks. Yet, manual authoring creates a severe scalability bottleneck. Conversely, automated skill generation often yields fragile or fragmented results because it either relies on shallow parametric knowledge or sequentially overfits to non-generalizable trajectory-local lessons. To overcome this, we introduce Trace2Skill, a framework that mirrors how human experts author skills: by holistically analyzing broad execution experience before distilling it into a single, comprehensive guide. Instead of reacting sequentially to individual trajectories, Trace2Skill dispatches a parallel fleet of sub-agents to analyze a diverse pool of executions. It extracts trajectory-specific lessons and hierarchically consolidates them into a unified, conflict-free skill directory via inductive reasoning. Trace2Skill supports both deepening existing human-written skills and creating new ones from scratch. Experiments in challenging domains, such as spreadsheet, VisionQA and math reasoning, show that Trace2Skill significantly improves upon strong baselines, including Anthropic's official xlsx skills. Crucially, this trajectory-grounded evolution does not merely memorize task instances or model-specific quirks: evolved skills transfer across LLM scales and generalize to OOD settings. For example, skills evolved by Qwen3.5-35B on its own trajectories improved a Qwen3.5-122B agent by up to 57.65 absolute percentage points on WikiTableQuestions. Ultimately, our results demonstrate that complex agent experience can be packaged into highly transferable, declarative skills -- requiring no parameter updates, no external retrieval modules, and utilizing open-source models as small as 35B parameters.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.25158",
+          "relevance_score": 27,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-03-31",
       "executive_title": "Radar IA del día",
       "items": [
@@ -735,131 +845,6 @@
           "what_changed": "Se descubre un nuevo enfoque para la investigación de seguridad en LLMs.",
           "why_it_matters": "El uso de agentes LLM para investigar y descubrir nuevos algoritmos de ataque adversarial.",
           "sector_impact": "Aumenta la resiliencia de modelos de lenguaje ante amenazas."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-25",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Vision-DeepResearch: Incentivizing DeepResearch Capability in Multimodal Large Language Models",
-          "summary": "Introducción de un nuevo paradigma de investigación profunda multimodal que realiza búsquedas visuales y textuales múltiples y soporta interacciones de motor.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.22060",
-          "relevance_score": 40,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "investigación",
-            "IA"
-          ],
-          "what_changed": "Se propone un nuevo enfoque de búsqueda profunda que mejora la capacidad de los modelos de lenguaje multimodal.",
-          "why_it_matters": "Permite resolver preguntas complejas al agregar evidencia de diversas fuentes bajo condiciones de ruido visual.",
-          "sector_impact": "Mejoras en la búsqueda y recuperación de información visual y textual."
-        },
-        {
-          "title": "AI Co-Scientist for Ranking: Discovering Novel Search Ranking Models with AI Agents",
-          "summary": "Presentación de un marco de Co-Científico de IA que automatiza la investigación de modelos de clasificación de búsqueda.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.22376",
-          "relevance_score": 39,
-          "status": "new",
-          "tags": [
-            "clasificación",
-            "automación",
-            "IA"
-          ],
-          "what_changed": "Incorporación de agentes de IA para optimizar la fase de análisis y generación de ideas.",
-          "why_it_matters": "Reduce significativamente la carga de trabajo de investigación rutinaria y mejora la eficacia de los modelos.",
-          "sector_impact": "Transformación en el desarrollo de motores de búsqueda comerciales."
-        },
-        {
-          "title": "GraphRAG for Engineering Diagrams: ChatP&ID Enables LLM Interaction",
-          "summary": "Un nuevo marco que permite la interacción natural con diagramas de ingeniería utilizando generación aumentada por recuperación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.22528",
-          "relevance_score": 39,
-          "status": "new",
-          "tags": [
-            "diagramas",
-            "interacción",
-            "IA"
-          ],
-          "what_changed": "Transformación de diagramas smart P&ID en gráficos de conocimiento estructurados para facilitar la recuperación de información.",
-          "why_it_matters": "Aumenta la precisión de las consultas y reduce significativamente los costos computacionales.",
-          "sector_impact": "Mejora la interacción en ingeniería de procesos mediante IA."
-        },
-        {
-          "title": "ReqFusion: A Multi-Provider Framework for Automated PEGS Analysis",
-          "summary": "Sistema que automatiza la extracción y análisis de requisitos de software utilizando múltiples modelos de lenguaje.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.23482",
-          "relevance_score": 35,
-          "status": "new",
-          "tags": [
-            "software",
-            "requisitos",
-            "automación"
-          ],
-          "what_changed": "Integración de múltiples LLMs para mejorar la extracción de requisitos en diferentes formatos.",
-          "why_it_matters": "Aumenta la eficiencia y precisión del proceso de desarrollo de software.",
-          "sector_impact": "Optimización del proceso de ingeniería de requisitos."
-        },
-        {
-          "title": "T-MAP: Red-Teaming LLM Agents with Trajectory-aware Evolutionary Search",
-          "summary": "Método que permite la generación automática de ataques a LLMs utilizando trayectorias de ejecución.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.22341",
-          "relevance_score": 37,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "investigación",
-            "IA"
-          ],
-          "what_changed": "Nuevo enfoque para descubrir vulnerabilidades específicas de los agentes LLM.",
-          "why_it_matters": "Revela vulnerabilidades poco exploradas en agentes autónomos, mejorando la seguridad.",
-          "sector_impact": "Aumento en la robustez de los sistemas de IA."
-        },
-        {
-          "title": "Reasoner-Executor-Synthesizer: Scalable Agentic Architecture",
-          "summary": "Arquitectura que optimiza modelos LLM como agentes autónomos mediante la separación de roles en la ejecución.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.22367",
-          "relevance_score": 26,
-          "status": "new",
-          "tags": [
-            "arquitectura",
-            "IA",
-            "optimización"
-          ],
-          "what_changed": "Diseño de separación de intenciones y ejecución mejorando la eficiencia del uso de tokens.",
-          "why_it_matters": "Elimina la alucinación de datos al no exponer el modelo a los registros crudos.",
-          "sector_impact": "Optimización de costos en el uso de IA."
-        },
-        {
-          "title": "BIRD-INTERACT: Realistic Evaluation for Text-to-SQL Tasks",
-          "summary": "Benchmark que mejora la evaluación de modelos LLM en tareas de consulta a bases de datos mediante interacciones dinámicas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.05318",
-          "relevance_score": 28,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "SQL",
-            "IA"
-          ],
-          "what_changed": "Introducción de un entorno interactivo para evaluar la capacidad de los modelos en tareas complejas.",
-          "why_it_matters": "Aumenta la fiabilidad y precisión en la utilización de modelos LLM en entornos de bases de datos.",
-          "sector_impact": "Mejoras en la implementación de asistentes de bases de datos."
         }
       ]
     }
