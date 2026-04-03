@@ -1,144 +1,112 @@
 {
-  "date": "2026-04-02",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones diarias sobre herramientas y avances en IA.",
-  "opening_message": "Explore las últimas innovaciones y tecnologías en el campo de la inteligencia artificial, con un enfoque particular en herramientas y modelos relevantes.",
+  "date": "2026-04-03",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "BloClaw: Un entorno de trabajo multimodal para el descubrimiento científico",
-      "summary": "BloClaw integra sistemas de IA en ciencias de la vida, revolucionando los protocolos de interacción entre agente y computadora.",
-      "category": "tool",
+      "title": "How Trustworthy Are LLM-as-Judge Ratings for Interpretive Responses? Implications for Qualitative Research Workflows",
+      "summary": "arXiv:2604.00008v1 Announce Type: cross Abstract: As qualitative researchers show growing interest in using automated tools to support interpretive analysis, a large language model (LLM) is often introduced into an analytic workflow as is, without systematic evaluation of interpretive quality or comparison across models. This practice leaves model selection largely unexamined despite its potential influence on interpretive outcomes. To address this gap, this study examines whether LLM-as-judge evaluations meaningfully align with human judgments of interpretive quality and can inform model-level decision making. Using 712 conversational excerpts from semi-structured interviews with K-12 mathematics teachers, we generated one-sentence interpretive responses using five widely adopted inference models: Command R+ (Cohere), Gemini 2.5 Pro (Google), GPT-5.1 (OpenAI), Llama 4 Scout-17B Instruct (Meta), and Qwen 3-32B Dense (Alibaba). Automated evaluations were conducted using AWS Bedrock's LLM-as-judge framework across five metrics, and a stratified subset of responses was independently rated by trained human evaluators on interpretive accuracy, nuance preservation, and interpretive coherence. Results show that LLM-as-judge scores capture broad directional trends in human evaluations at the model level but diverge substantially in score magnitude. Among automated metrics, Coherence showed the strongest alignment with aggregated human ratings, whereas Faithfulness and Correctness revealed systematic misalignment at the excerpt level, particularly for non-literal and nuanced interpretations. Safety-related metrics were largely irrelevant to interpretive quality. These findings suggest that LLM-as-judge methods are better suited for screening or eliminating underperforming models than for replacing human judgment, offering practical guidance for systematic comparison and selection of LLMs in qualitative research workflows.",
+      "category": "labs",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.00550",
-      "relevance_score": 9,
+      "source_url": "https://arxiv.org/abs/2604.00008",
+      "relevance_score": 35,
       "status": "new",
-      "tags": [
-        "IA",
-        "ciencia",
-        "multimodal"
-      ],
-      "what_changed": "Presentación de un sistema operativo unificado para IA en la ciencia que supera a los protocolos tradicionales.",
-      "why_it_matters": "Facilita el descubrimiento científico mediante la automatización y mejor gestión de datos.",
-      "sector_impact": "Transformación en la investigación científica y el desarrollo de tecnologías científicas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Evaluación de Modelos de Lenguaje en Educación: Caso sobre Sesgos de Género",
-      "summary": "Se presenta un marco para benchmarking de LLM en contextos educativos, revelando sesgos de género en la retroalimentación.",
+      "title": "Eyla: Toward an Identity-Anchored LLM Architecture with Integrated Biological Priors -- Vision, Implementation Attempt, and Lessons from AI-Assisted Development",
+      "summary": "arXiv:2604.00009v1 Announce Type: cross Abstract: We present the design rationale, implementation attempt, and failure analysis of Eyla, a proposed identity-anchored LLM architecture that integrates biologically-inspired subsystems -- including HiPPO-initialized state-space models, zero-initialized adapters, episodic memory retrieval, and calibrated uncertainty training -- into a unified agent operating system running on consumer hardware. Unlike existing approaches that optimize models for generic helpfulness, Eyla targets identity consistency: the ability to maintain a coherent self-model under adversarial pressure, admit uncertainty, and resist manipulation. We propose the Identity Consistency Score (ICS), a novel benchmark for evaluating this property across LLMs. We then present an honest account of attempting to implement this architecture using AI coding assistants (Claude Code, Cursor) as a non-programmer, documenting a $1,000+ failure that produced a 1.27B parameter model with 86 brain subsystems contributing less than 2% to output. Our analysis identifies five systematic failure modes of AI-assisted development for novel architectures and offers concrete recommendations. To our knowledge, this is the first paper to combine an architectural vision with a documented first-person failure analysis of AI-assisted LLM development, providing lessons for both the AI systems and AI-assisted software engineering communities.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2511.08225",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2604.00009",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "educación",
-        "LLM",
-        "sesgo"
-      ],
-      "what_changed": "Desarrollo de un marco de evaluación que detecta sesgos en los modelos de retroalimentación educativa.",
-      "why_it_matters": "Ayuda a auditar la equidad en la retroalimentación ofrecida por modelos de IA en entornos educativos.",
-      "sector_impact": "Mejora de prácticas educativas mediante una IA más justa y equitativa."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Agentic Retrieval-Augmented Generation: Una Investigación sobre RAG",
-      "summary": "Se presenta un análisis detallado sobre la integración de agentes autónomos en sistemas de RAG para mejorar la adaptabilidad y eficiencia.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2501.09136",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "RAG",
-        "agentes",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de nuevas arquitecturas que permiten a los agentes gestionar dinámicamente estrategias de recuperación.",
-      "why_it_matters": "Aumenta la flexibilidad y escalabilidad de aplicaciones de IA en diversas industrias.",
-      "sector_impact": "Revoluciona el procesamiento de información en campos como salud, finanzas y educación."
-    },
-    {
-      "title": "Proactive Agent Research Environment: Evaluando Asistentes Proactivos",
-      "summary": "Introducción de un marco para la simulación activa de usuarios y evaluación de agentes proactivos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.00842",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "simulación",
-        "evaluación"
-      ],
-      "what_changed": "Creación de un entorno que modela aplicaciones como máquinas de estados finitos para simulación efectiva de usuarios.",
-      "why_it_matters": "Permite la evaluación realista de agentes IA en entornos digitales, mejorando su efectividad.",
-      "sector_impact": "Optimiza el desarrollo de asistentes digitales en múltiples aplicaciones."
-    },
-    {
-      "title": "AI Agents en Física de Alta Energía: Ejecución Autónoma de Análisis",
-      "summary": "Los agentes basados en LLM ahora pueden realizar de manera autónoma análisis en física de alta energía.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.20179",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "física",
-        "análisis",
-        "IA"
-      ],
-      "what_changed": "Demostración de capacidad de agentes IA para ejecutar análisis complejos con mínima entrada de expertos.",
-      "why_it_matters": "Permite a los investigadores concentrarse en el descubrimiento en lugar de tareas repetitivas.",
-      "sector_impact": "Facilita el avance en la investigación en física, optimizando recursos humanos."
-    },
-    {
-      "title": "PsychAgent: Agente de Aprendizaje de Vida para Consejería Psicológica",
-      "summary": "Un agente de aprendizaje diseñado para mejorar la calidad de la consejería psicológica mediante el aprendizaje continuo.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.00931",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "consejería",
-        "aprendizaje",
-        "IA"
-      ],
-      "what_changed": "Incorporación de un motor de planificación y memoria para interacciones de múltiples sesiones.",
-      "why_it_matters": "Mejora la continuidad terapéutica de los agentes IA en consejería psicológica.",
-      "sector_impact": "Promueve el desarrollo de herramientas de apoyo psicológico más efectivas."
-    },
-    {
-      "title": "The Silicon Mirror: Gating Dinámico para Evitar Sycophancy en Agentes LLM",
-      "summary": "Propuesta de un marco que ajusta el comportamiento de IA para mantener la integridad factual y reducir la sycophancy.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.00478",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ética",
-        "comportamiento",
-        "IA"
-      ],
-      "what_changed": "Implementación de un sistema controlado que actúa según la amenaza de sycophancy detectada.",
-      "why_it_matters": "Mejora la integridad en las respuestas de IA mediante el control de su comportamiento.",
-      "sector_impact": "Fortalece la confianza en aplicaciones de IA en contextos éticos y sociales."
-    },
-    {
-      "title": "Estudio de Caso sobre Evaluación de AI en Seguridad: Evaluación de Modelos Avanzados",
-      "summary": "Se presentan métodos para evaluar la alineación de sistemas de IA avanzados en el ámbito de la seguridad.",
+      "title": "But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors",
+      "summary": "arXiv:2505.17760v3 Announce Type: replace-cross Abstract: LLM-as-a-judge is widely used as a scalable substitute for human evaluation, yet current approaches rely on black-box access and struggle to detect subtle dishonesty, such as sycophancy and manipulation. We introduce Judge Using Safety-Steered Alternatives (JUSSA), a framework that leverages a model's internal representations to optimize an honesty-promoting steering vector from a single training example, generating contrastive alternatives that give judges a reference point for detecting dishonesty. We test JUSSA on a novel manipulation benchmark with human-validated response pairs at varying dishonesty levels, finding AUROC improvements across both GPT-4.1 (0.893 $\\to$ 0.946) and Claude Haiku (0.859 $\\to$ 0.929) judges, though performance degrades when task complexity is mismatched to judge capability, suggesting contrastive evaluation helps most when the task is challenging but within the judge's reach. Layer-wise analysis further shows that steering is most effective in middle layers, where model representations begin to diverge between honest and dishonest prompt processing. Our work demonstrates that steering vectors can serve as tools for evaluation rather than for improving model outputs at inference, opening a new direction for thorough white-box auditing.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.00788",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2505.17760",
+      "relevance_score": 31,
       "status": "new",
-      "tags": [
-        "seguridad",
-        "evaluación",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de un marco para evaluar si los modelos de IA siguen objetivos deseados en entornos de lab.",
-      "why_it_matters": "Establece un precedente para la evaluación de la seguridad y confiabilidad en sistemas autónomos.",
-      "sector_impact": "Mejora los estándares de evaluación y control en IA aplicada a la seguridad."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "The Energy Footprint of LLM-Based Environmental Analysis: LLMs and Domain Products",
+      "summary": "arXiv:2604.00053v1 Announce Type: cross Abstract: As large language models (LLMs) are increasingly used in domain-specific applications, including climate change and environmental research, understanding their energy footprint has become an important concern. The growing adoption of retrieval-augmented (RAG) systems for climate-domain specific analysis raises a key question: how does the energy consumption of domain-specific RAG workflows compare with that of direct generic LLM usage? Prior research has focused on standalone model calls or coarse token-based estimates, while leaving the energy implications of deployed application workflows insufficiently understood. In this paper, we assess the inference-time energy consumption of two LLM-based climate analysis chatbots (ChatNetZero and ChatNDC) compared to the generic GPT-4o-mini model. We estimate energy use under actual user queries by decomposing each workflow into retrieval, generation, and hallucination-checking components. We also test across different times of day and geographic access locations. Our results show that the energy consumption of domain-specific RAG systems depends strongly on their design. More agentic pipelines substantially increase inference-time energy use, particularly when used for additional accuracy or verification checks, although they may not yield proportional gains in response quality. While more research is needed to further test these initial findings more robustly across models, environments and prompting structures, this study provides a new understanding on how the design of domain-specific LLM products affects both the energy footprint and quality of output.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.00053",
+      "relevance_score": 30,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Unified Architecture Metamodel of Information Systems Developed by Generative AI",
+      "summary": "arXiv:2604.00171v1 Announce Type: cross Abstract: The rapid development of AI and LLMs has driven new methods of SDLC, in which a large portion of code, technical, and business documentation is generated automatically. However, since there is no single architectural framework that can provide consistent, repeatable transformations across different representation layers of information systems, such systems remain fragmented in their system representation. This study explores the problem of creating a unified architecture for LLM-oriented applications based on selected architectural frameworks by SMEs. A framework structure is proposed that covers some key types of architectural diagrams and supports a closed cycle of transformations, such as: \"Code to Documentation to Code\". The key architectural diagrams are split equally between main architectural layers: high-layer (business and domain understanding), middle-layer (system architecture), and low-layer (developer-layer architecture). Each architectural layer still contains some abstraction layers, which make it more flexible and better fit the requirements of design principles and architectural patterns. The conducted experiments demonstrated the stable quality of generated documentation and code when using a structured architectural context in the form of architectural diagrams. The results confirm that the proposed unified architecture metamodel can serve as an effective interface between humans and models, improving the accuracy, stability, and repeatability of LLM generation. However, the selected set of architectural diagrams should be optimised to avoid redundancy between some diagrams, and some diagrams should be updated to represent extra contextual orchestration. This work demonstrates measurable improvements for a new generation of intelligent tools that automate the SDLC and enable a comprehensive architecture compatible with AI-driven development.",
+      "category": "labs",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.00171",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Evaluating LLM-Generated ACSL Annotations for Formal Verification",
+      "summary": "arXiv:2602.13851v2 Announce Type: replace-cross Abstract: Formal specifications are crucial for building verifiable and dependable software systems, yet generating accurate and verifiable specifications for real-world C programs remains challenging. This paper empirically evaluates the extent to which formal-analysis tools can automatically generate and verify ACSL specifications without human or learning-based assistance. We conduct a controlled study on a recently released dataset of 506 C programs, repurposing it from interactive, developer-driven workflows to an automated evaluation setting. Five ACSL generation systems are compared: a rule-based Python script, Frama-C's RTE plugin, and three large language models--DeepSeek-V3.2, GPT-5.2, and OLMo 3.1 32B Instruct. All generated specifications are verified under identical conditions using the Frama-C WP plugin powered by multiple SMT solvers, allowing a direct comparison of annotation quality, solver sensitivity, and proof stability. Our results provide new empirical evidence on the capabilities and limitations of automated ACSL generation, complementing prior survey-based work.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.13851",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "The Persistent Vulnerability of Aligned AI Systems",
+      "summary": "arXiv:2604.00324v1 Announce Type: cross Abstract: Autonomous AI agents are being deployed with filesystem access, email control, and multi-step planning. This thesis contributes to four open problems in AI safety: understanding dangerous internal computations, removing dangerous behaviors once embedded, testing for vulnerabilities before deployment, and predicting when models will act against deployers. ACDC automates circuit discovery in transformers, recovering all five component types from prior manual work on GPT-2 Small by selecting 68 edges from 32,000 candidates in hours rather than months. Latent Adversarial Training (LAT) removes dangerous behaviors by optimizing perturbations in the residual stream to elicit failure modes, then training under those perturbations. LAT solved the sleeper agent problem where standard safety training failed, matching existing defenses with 700x fewer GPU hours. Best-of-N jailbreaking achieves 89% attack success on GPT-4o and 78% on Claude 3.5 Sonnet through random input augmentations. Attack success follows power law scaling across text, vision, and audio, enabling quantitative forecasting of adversarial robustness. Agentic misalignment tests whether frontier models autonomously choose harmful actions given ordinary goals. Across 16 models, agents engaged in blackmail (96% for Claude Opus 4), espionage, and actions causing death. Misbehavior rates rose from 6.5% to 55.1% when models stated scenarios were real rather than evaluations. The thesis does not fully resolve any of these problems but makes each tractable and measurable.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.00324",
+      "relevance_score": 27,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Think Twice Before You Write -- an Entropy-based Decoding Strategy to Enhance LLM Reasoning",
+      "summary": "arXiv:2604.00018v1 Announce Type: cross Abstract: Decoding strategies play a central role in shaping the reasoning ability of large language models (LLMs). Traditional methods such as greedy decoding and beam search often suffer from error propagation, while sampling-based approaches introduce randomness without adequate robustness. Self-consistency improves reliability by aggregating multiple rollouts, but incurs significant computational overhead. We propose an entropy-guided decoding framework that introduces token-level adaptivity into generation. At each step, the model computes the entropy of the token distribution, identifies high-uncertainty positions, and selectively branches on these vulnerable points. A dynamic pool of partial rollouts is maintained and expanded until solutions are completed, concentrating computation where uncertainty is greatest and avoiding unnecessary exploration in confident regions. To enable efficient termination, we apply a rollout-level Entropy After (EAT) stopping criterion by performing entropy evaluation after the full reasoning trace, rather than incrementally at every step. Experiments on GSM8K, AMC2023, and their perturbed variants demonstrate that our method achieves consistently strong accuracy. Notably, on smaller LLMs, performance is comparable to GPT-5 while operating at a fraction of the cost.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.00018",
+      "relevance_score": 26,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
