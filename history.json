@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-04-04",
+      "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
+      "items": [
+        {
+          "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
+          "summary": "Veo 3.1 Lite está disponible en vista previa pagada a través de la API de Gemini y para pruebas en Google AI Studio.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "video",
+            "generación",
+            "modelo"
+          ],
+          "what_changed": "Lanzamiento del modelo Veo 3.1 Lite.",
+          "why_it_matters": "Ofrece una solución rentable para la generación de videos mediante IA.",
+          "sector_impact": "Mejora la creación de contenido digital."
+        },
+        {
+          "title": "New ways to balance cost and reliability in the Gemini API",
+          "summary": "Google introduce dos nuevos niveles de inferencia en la API de Gemini, Flex y Priority, para equilibrar el costo y la latencia.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "API",
+            "inferencias",
+            "costo"
+          ],
+          "what_changed": "Nuevos niveles de inferencia en la API.",
+          "why_it_matters": "Optimiza el rendimiento y los costos para los desarrolladores.",
+          "sector_impact": "Facilita el uso de IA en aplicaciones comerciales."
+        },
+        {
+          "title": "Open Models have crossed a threshold",
+          "summary": "Modelos abiertos como GLM-5 y MiniMax M2.7 ahora igualan a los modelos cerrados en tareas de agente clave.",
+          "category": "model",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos abiertos",
+            "IA",
+            "evaluación"
+          ],
+          "what_changed": "Nuevos modelos abiertos han alcanzado un rendimiento competitivo.",
+          "why_it_matters": "Reduce costos y latencia en soluciones de IA.",
+          "sector_impact": "Aumenta la accesibilidad de la IA para empresas."
+        },
+        {
+          "title": "Announcing the LangChain + MongoDB Partnership",
+          "summary": "Construye agentes de IA de producción en MongoDB Atlas con memoria persistente y consultas en lenguaje natural.",
+          "category": "tool",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "integración",
+            "MongoDB",
+            "agentes"
+          ],
+          "what_changed": "Nueva colaboración entre LangChain y MongoDB.",
+          "why_it_matters": "Permite construir agentes más robustos y eficientes.",
+          "sector_impact": "Transforma la forma en que se gestionan los datos en IA."
+        },
+        {
+          "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+          "summary": "Una nueva IA multimodal para manejar documentos empresariales de manera más efectiva.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "IA",
+            "documentos"
+          ],
+          "what_changed": "Introducción de la versión Granite 4.0.",
+          "why_it_matters": "Mejora el procesamiento de documentos mediante IA.",
+          "sector_impact": "Optimiza la gestión documental en empresas."
+        },
+        {
+          "title": "Microsoft takes on AI rivals with three new foundational models",
+          "summary": "MAI lanza modelos que transcriben voz a texto y generan audio e imágenes.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "fundacional",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de nuevos modelos fundacionales por Microsoft.",
+          "why_it_matters": "Aumenta las capacidades de IA en múltiples aplicaciones.",
+          "sector_impact": "Promueve la competitividad en el mercado de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-04-03",
       "executive_title": "Radar IA del día",
       "items": [
@@ -705,148 +813,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-28",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Build with Lyria 3, our newest music generation model",
-          "summary": "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Lyria 3",
-            "model",
-            "musica"
-          ],
-          "what_changed": "Lanzamiento de Lyria 3 en modo de vista previa paga.",
-          "why_it_matters": "Ofrece una nueva herramienta para la generación de música asistida por IA.",
-          "sector_impact": "Música y entretenimiento."
-        },
-        {
-          "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-          "summary": "Gemini 3.1 Flash Live is now available across Google products.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Gemini",
-            "audio",
-            "modelo"
-          ],
-          "what_changed": "Disponibilidad de Gemini 3.1 Flash Live en productos de Google.",
-          "why_it_matters": "Mejora la naturalidad y confiabilidad del audio generado por IA.",
-          "sector_impact": "Medios y comunicaciones."
-        },
-        {
-          "title": "How Kensho built a multi-agent framework with LangGraph",
-          "summary": "Kensho leverages LangGraph to create its Grounding framework for trusted financial data retrieval.",
-          "category": "framework",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/customers-kensho/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Kensho",
-            "multi-agent",
-            "framework"
-          ],
-          "what_changed": "Desarrollo del framework Grounding para datos financieros.",
-          "why_it_matters": "Permite un acceso unificado a datos financieros en gran escala.",
-          "sector_impact": "Finanzas."
-        },
-        {
-          "title": "Lyria 3 Pro: Create longer tracks in more Google products",
-          "summary": "We are bringing Lyria 3 to the tools where professionals work and create every day.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Lyria 3 Pro",
-            "music",
-            "feature"
-          ],
-          "what_changed": "Incorporación de Lyria 3 Pro en herramientas profesionales.",
-          "why_it_matters": "Facilita la creación musical para profesionales.",
-          "sector_impact": "Música y producción."
-        },
-        {
-          "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
-          "summary": "Google is launching 'switching tools' to make it easier for users to switch to Gemini.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Gemini",
-            "transfer",
-            "feature"
-          ],
-          "what_changed": "Herramientas de transición para usuarios de otros chatbots.",
-          "why_it_matters": "Mejora la experiencia del usuario y fomenta la adopción de Gemini.",
-          "sector_impact": "Tecnología y chatbots."
-        },
-        {
-          "title": "Mistral releases a new open source model for speech generation",
-          "summary": "The model allows enterprises to build voice agents for sales and customer engagement.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Mistral",
-            "open source",
-            "speech generation"
-          ],
-          "what_changed": "Lanzamiento de un modelo de generación de voz de código abierto.",
-          "why_it_matters": "Permite a las empresas crear agentes de voz para interacción con clientes.",
-          "sector_impact": "Ventas y atención al cliente."
-        },
-        {
-          "title": "How Middleware Lets You Customize Your Agent Harness",
-          "summary": "Agent Middleware empowers you to build an application-specific agent harness.",
-          "category": "framework",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/how-middleware-lets-you-customize-your-agent-harness/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Middleware",
-            "agent harness",
-            "customización"
-          ],
-          "what_changed": "Introducción de Middleware para agentes.",
-          "why_it_matters": "Permite personalizar la integración de agentes en aplicaciones específicas.",
-          "sector_impact": "Desarrollo de software."
-        },
-        {
-          "title": "Skills in LangSmith Fleet",
-          "summary": "Fleet now supports shareable skills for agents across your team.",
-          "category": "tool",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/skills-in-langsmith-fleet/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "LangSmith",
-            "skills",
-            "agentes"
-          ],
-          "what_changed": "Soporte para habilidades compartibles en el equipo.",
-          "why_it_matters": "Mejora la colaboración y la eficiencia del equipo en tareas especializadas.",
-          "sector_impact": "Desarrollo colaborativo."
         }
       ]
     }
