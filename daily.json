@@ -1,110 +1,91 @@
 {
-  "date": "2026-04-04",
-  "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
-  "intro_message": "Bienvenido al radar diario de IA, donde destacamos las últimas innovaciones y herramientas en inteligencia artificial.",
-  "opening_message": "Aquí tienes los lanzamientos más relevantes para desarrolladores y profesionales de IA.",
+  "date": "2026-04-05",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimas novedades en herramientas, modelos y frameworks de Inteligencia Artificial.",
+  "opening_message": "Este diario presenta las actualizaciones más relevantes en el ámbito de la IA, priorizando herramientas y modelos que impactan en el desarrollo y automatización.",
   "items": [
     {
-      "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
-      "summary": "Veo 3.1 Lite está disponible en vista previa pagada a través de la API de Gemini y para pruebas en Google AI Studio.",
-      "category": "model",
+      "title": "Nueva integración de NVIDIA en LangChain",
+      "summary": "LangChain ha anunciado su integración con NVIDIA y el lanzamiento de LangSmith Fleet, anteriormente conocido como Agent Builder.",
+      "category": "framework",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/march-2026-langchain-newsletter/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "integración",
+        "NVIDIA",
+        "LangChain"
+      ],
+      "what_changed": "Incorporación de nuevas funcionalidades de NVIDIA.",
+      "why_it_matters": "Optimiza el desarrollo de agentes con capacidades avanzadas.",
+      "sector_impact": "Desarrollo de software y automatización"
+    },
+    {
+      "title": "Nuevas capacidades de video en Google Vids",
+      "summary": "Google Vids introduce capacidades de IA para crear, editar y compartir videos, sin costo adicional.",
+      "category": "tool",
       "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "video",
-        "generación",
-        "modelo"
+        "creación",
+        "IA"
       ],
-      "what_changed": "Lanzamiento del modelo Veo 3.1 Lite.",
-      "why_it_matters": "Ofrece una solución rentable para la generación de videos mediante IA.",
-      "sector_impact": "Mejora la creación de contenido digital."
+      "what_changed": "Generación de videos de alta calidad sin costo.",
+      "why_it_matters": "Permite a los usuarios crear contenido atractivo fácilmente.",
+      "sector_impact": "Marketing y creación de contenido"
     },
     {
-      "title": "New ways to balance cost and reliability in the Gemini API",
-      "summary": "Google introduce dos nuevos niveles de inferencia en la API de Gemini, Flex y Priority, para equilibrar el costo y la latencia.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "API",
-        "inferencias",
-        "costo"
-      ],
-      "what_changed": "Nuevos niveles de inferencia en la API.",
-      "why_it_matters": "Optimiza el rendimiento y los costos para los desarrolladores.",
-      "sector_impact": "Facilita el uso de IA en aplicaciones comerciales."
-    },
-    {
-      "title": "Open Models have crossed a threshold",
-      "summary": "Modelos abiertos como GLM-5 y MiniMax M2.7 ahora igualan a los modelos cerrados en tareas de agente clave.",
+      "title": "Claude Code y OpenClaw: Nuevos costos para suscriptores",
+      "summary": "Los suscriptores de Claude Code deberán pagar un extra por el uso de OpenClaw y otras herramientas de terceros.",
       "category": "model",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelos abiertos",
-        "IA",
-        "evaluación"
+        "Claude",
+        "OpenClaw"
       ],
-      "what_changed": "Nuevos modelos abiertos han alcanzado un rendimiento competitivo.",
-      "why_it_matters": "Reduce costos y latencia en soluciones de IA.",
-      "sector_impact": "Aumenta la accesibilidad de la IA para empresas."
+      "what_changed": "Incremento de costos para usuarios de Claude Code.",
+      "why_it_matters": "Impacta el costo de operación para empresas que utilizan estos modelos.",
+      "sector_impact": "Desarrollo y programática"
     },
     {
-      "title": "Announcing the LangChain + MongoDB Partnership",
-      "summary": "Construye agentes de IA de producción en MongoDB Atlas con memoria persistente y consultas en lenguaje natural.",
+      "title": "Sistema de auto-sanación de agentes en producción",
+      "summary": "Desarrollo de un pipeline de despliegue que permite a los agentes auto-sanarse después de cada despliegue.",
       "category": "tool",
       "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "integración",
-        "MongoDB",
-        "agentes"
-      ],
-      "what_changed": "Nueva colaboración entre LangChain y MongoDB.",
-      "why_it_matters": "Permite construir agentes más robustos y eficientes.",
-      "sector_impact": "Transforma la forma en que se gestionan los datos en IA."
-    },
-    {
-      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
-      "summary": "Una nueva IA multimodal para manejar documentos empresariales de manera más efectiva.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "source_url": "https://blog.langchain.com/production-agents-self-heal/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "multimodal",
-        "IA",
-        "documentos"
+        "auto-sanación",
+        "agentes"
       ],
-      "what_changed": "Introducción de la versión Granite 4.0.",
-      "why_it_matters": "Mejora el procesamiento de documentos mediante IA.",
-      "sector_impact": "Optimiza la gestión documental en empresas."
+      "what_changed": "Implementación de un sistema autónomo para corregir errores.",
+      "why_it_matters": "Aumenta la eficiencia y reduce la intervención manual en la resolución de problemas.",
+      "sector_impact": "Automatización y operaciones"
     },
     {
-      "title": "Microsoft takes on AI rivals with three new foundational models",
-      "summary": "MAI lanza modelos que transcriben voz a texto y generan audio e imágenes.",
-      "category": "model",
+      "title": "Google permite dirigir avatares en su aplicación Vids",
+      "summary": "Nuevas funciones para personalizar y dirigir avatares en la creación de videos en Google Vids.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-      "relevance_score": 5,
+      "source_url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
-        "modelo",
-        "fundacional",
-        "IA"
+        "video",
+        "avatares",
+        "interacción"
       ],
-      "what_changed": "Desarrollo de nuevos modelos fundacionales por Microsoft.",
-      "why_it_matters": "Aumenta las capacidades de IA en múltiples aplicaciones.",
-      "sector_impact": "Promueve la competitividad en el mercado de IA."
+      "what_changed": "Funcionalidad para personalizar avatares durante la creación de contenido.",
+      "why_it_matters": "Mejora la experiencia del usuario y la interacción con el contenido.",
+      "sector_impact": "Creatividad y entretenimiento"
     }
   ]
 }

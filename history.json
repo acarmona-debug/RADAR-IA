@@ -1,6 +1,95 @@
 {
   "days": [
     {
+      "date": "2026-04-05",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Nueva integración de NVIDIA en LangChain",
+          "summary": "LangChain ha anunciado su integración con NVIDIA y el lanzamiento de LangSmith Fleet, anteriormente conocido como Agent Builder.",
+          "category": "framework",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/march-2026-langchain-newsletter/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "integración",
+            "NVIDIA",
+            "LangChain"
+          ],
+          "what_changed": "Incorporación de nuevas funcionalidades de NVIDIA.",
+          "why_it_matters": "Optimiza el desarrollo de agentes con capacidades avanzadas.",
+          "sector_impact": "Desarrollo de software y automatización"
+        },
+        {
+          "title": "Nuevas capacidades de video en Google Vids",
+          "summary": "Google Vids introduce capacidades de IA para crear, editar y compartir videos, sin costo adicional.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "video",
+            "creación",
+            "IA"
+          ],
+          "what_changed": "Generación de videos de alta calidad sin costo.",
+          "why_it_matters": "Permite a los usuarios crear contenido atractivo fácilmente.",
+          "sector_impact": "Marketing y creación de contenido"
+        },
+        {
+          "title": "Claude Code y OpenClaw: Nuevos costos para suscriptores",
+          "summary": "Los suscriptores de Claude Code deberán pagar un extra por el uso de OpenClaw y otras herramientas de terceros.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "OpenClaw"
+          ],
+          "what_changed": "Incremento de costos para usuarios de Claude Code.",
+          "why_it_matters": "Impacta el costo de operación para empresas que utilizan estos modelos.",
+          "sector_impact": "Desarrollo y programática"
+        },
+        {
+          "title": "Sistema de auto-sanación de agentes en producción",
+          "summary": "Desarrollo de un pipeline de despliegue que permite a los agentes auto-sanarse después de cada despliegue.",
+          "category": "tool",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/production-agents-self-heal/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "auto-sanación",
+            "agentes"
+          ],
+          "what_changed": "Implementación de un sistema autónomo para corregir errores.",
+          "why_it_matters": "Aumenta la eficiencia y reduce la intervención manual en la resolución de problemas.",
+          "sector_impact": "Automatización y operaciones"
+        },
+        {
+          "title": "Google permite dirigir avatares en su aplicación Vids",
+          "summary": "Nuevas funciones para personalizar y dirigir avatares en la creación de videos en Google Vids.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "video",
+            "avatares",
+            "interacción"
+          ],
+          "what_changed": "Funcionalidad para personalizar avatares durante la creación de contenido.",
+          "why_it_matters": "Mejora la experiencia del usuario y la interacción con el contenido.",
+          "sector_impact": "Creatividad y entretenimiento"
+        }
+      ]
+    },
+    {
       "date": "2026-04-04",
       "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
       "items": [
@@ -703,116 +792,6 @@
           "what_changed": "Introducción de un marco que optimiza tareas de DDD a través de interacciones LLM.",
           "why_it_matters": "Permite a los expertos concentrarse en decisiones críticas mientras se reducen esfuerzos.",
           "sector_impact": "Facilita el proceso de diseño de arquitecturas de software complejas."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-29",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
-          "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
-          "summary": "It's only the latest of several side projects that the AI startup has ditched over the past week.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Search Live is expanding globally",
-          "summary": "We’re expanding Search Live globally, to all languages and locations where AI Mode is available.",
-          "category": "labs",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
-          "summary": "Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
-          "summary": "In the latest episode of our Dialogues on Technology and Society series, LL COOL J sits down with James Manyika.",
-          "category": "labs",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Transform your headphones into a live personal translator on iOS.",
-          "summary": "Google Translate’s Live translate with headphones is officially arriving on iOS! And we're expanding the capability for both iOS and Android users to even more countries…",
-          "category": "labs",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
-          "summary": "A federal judge has ordered that the Trump administration rescind recent restrictions it placed on the AI company.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "How we build evals for Deep Agents",
-          "summary": "💡 TLDR: The best agent evals directly measure an agent behavior we care about. Here's how we source data, create metrics, and run well-scoped, targeted experiments over time to make agents more accurate and reliable. Evals shape agent behavior We’ve been curating evaluations to measure and",
-          "category": "framework",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }
