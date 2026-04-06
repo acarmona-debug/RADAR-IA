@@ -1,91 +1,127 @@
 {
-  "date": "2026-04-05",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades en herramientas, modelos y frameworks de Inteligencia Artificial.",
-  "opening_message": "Este diario presenta las actualizaciones más relevantes en el ámbito de la IA, priorizando herramientas y modelos que impactan en el desarrollo y automatización.",
+  "date": "2026-04-06",
+  "executive_title": "Radar Diaria de IA",
+  "intro_message": "Bienvenido al radar diario de inteligencia artificial, donde destacamos las últimas herramientas, modelos y tendencias en el campo de IA.",
+  "opening_message": "A continuación, te presentamos las actualizaciones más relevantes del día. No te pierdas las nuevas integraciones y avances.",
   "items": [
     {
-      "title": "Nueva integración de NVIDIA en LangChain",
-      "summary": "LangChain ha anunciado su integración con NVIDIA y el lanzamiento de LangSmith Fleet, anteriormente conocido como Agent Builder.",
+      "title": "Agentic-MME: Evaluación de Capacidades Agénticas Multimodales",
+      "summary": "Se presenta un nuevo marco de evaluación para modelos multimodales que verifica su uso efectivo de herramientas en tareas reales, destacando la necesidad de una evaluación de procesos.",
       "category": "framework",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/march-2026-langchain-newsletter/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.03016",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "integración",
-        "NVIDIA",
-        "LangChain"
-      ],
-      "what_changed": "Incorporación de nuevas funcionalidades de NVIDIA.",
-      "why_it_matters": "Optimiza el desarrollo de agentes con capacidades avanzadas.",
-      "sector_impact": "Desarrollo de software y automatización"
-    },
-    {
-      "title": "Nuevas capacidades de video en Google Vids",
-      "summary": "Google Vids introduce capacidades de IA para crear, editar y compartir videos, sin costo adicional.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "video",
-        "creación",
-        "IA"
-      ],
-      "what_changed": "Generación de videos de alta calidad sin costo.",
-      "why_it_matters": "Permite a los usuarios crear contenido atractivo fácilmente.",
-      "sector_impact": "Marketing y creación de contenido"
-    },
-    {
-      "title": "Claude Code y OpenClaw: Nuevos costos para suscriptores",
-      "summary": "Los suscriptores de Claude Code deberán pagar un extra por el uso de OpenClaw y otras herramientas de terceros.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Claude",
-        "OpenClaw"
-      ],
-      "what_changed": "Incremento de costos para usuarios de Claude Code.",
-      "why_it_matters": "Impacta el costo de operación para empresas que utilizan estos modelos.",
-      "sector_impact": "Desarrollo y programática"
-    },
-    {
-      "title": "Sistema de auto-sanación de agentes en producción",
-      "summary": "Desarrollo de un pipeline de despliegue que permite a los agentes auto-sanarse después de cada despliegue.",
-      "category": "tool",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/production-agents-self-heal/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "auto-sanación",
+        "multimodal",
+        "evaluación",
         "agentes"
       ],
-      "what_changed": "Implementación de un sistema autónomo para corregir errores.",
-      "why_it_matters": "Aumenta la eficiencia y reduce la intervención manual en la resolución de problemas.",
-      "sector_impact": "Automatización y operaciones"
+      "what_changed": "Introducción de un benchmark para evaluar capacidades agénticas en modelos multimodales.",
+      "why_it_matters": "Mejora la comprensión de cómo los modelos pueden manejar tareas complejas a través de la evaluación de procesos.",
+      "sector_impact": "Aumenta la eficacia en la implementación de IA con capacidades multimodales."
     },
     {
-      "title": "Google permite dirigir avatares en su aplicación Vids",
-      "summary": "Nuevas funciones para personalizar y dirigir avatares en la creación de videos en Google Vids.",
+      "title": "AgenticRed: Sistemas Agénticos Evolutivos para Red-Teaming",
+      "summary": "Se propone un sistema automatizado para diseñar y refinar métodos de red-teaming, mejorando la detección de vulnerabilidades en IA sin intervención humana.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
-      "relevance_score": 4,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2601.13518",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "video",
-        "avatares",
-        "interacción"
+        "seguridad",
+        "IA",
+        "automatización"
       ],
-      "what_changed": "Funcionalidad para personalizar avatares durante la creación de contenido.",
-      "why_it_matters": "Mejora la experiencia del usuario y la interacción con el contenido.",
-      "sector_impact": "Creatividad y entretenimiento"
+      "what_changed": "Evolución de sistemas de red-teaming usando LLMs sin intervención humana.",
+      "why_it_matters": "Permite una mejor identificación de vulnerabilidades en un entorno autónomo.",
+      "sector_impact": "Fortalece la seguridad en modelos de IA."
+    },
+    {
+      "title": "CostBench: Evaluación de Planificación Cost-Óptima para Agentes LLM",
+      "summary": "Presentamos un nuevo marco para evaluar la capacidad de planificación de costos en agentes LLM, abordando la falta de eficiencia en entornos dinámicos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.02734",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "planificación",
+        "costos",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un marco centrado en costos para evaluar agentes LLM.",
+      "why_it_matters": "Aborda debilidades en planificación y adaptación de agentes en entornos cambiantes.",
+      "sector_impact": "Potencia la capacidad de respuesta de agentes en escenarios comerciales."
+    },
+    {
+      "title": "AutoVerifier: Marco Automatizado de Verificación usando LLM",
+      "summary": "Nuevo marco para la verificación automática de afirmaciones técnicas en IA, permitiendo evaluaciones más precisas sin necesidad de experiencia en el dominio.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.02617",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "verificación",
+        "IA",
+        "automatización"
+      ],
+      "what_changed": "Método automatizado para la verificación de afirmaciones técnicas.",
+      "why_it_matters": "Incrementa la validez de las evaluaciones tecnológicas emergentes de manera automatizada.",
+      "sector_impact": "Mejora la seguridad y fiabilidad en la investigación de IA."
+    },
+    {
+      "title": "DocShield: Seguridad de Documentos AI mediante Razonamiento Agéntico",
+      "summary": "Se propone un sistema unificado para el análisis de forensia text-centro, mejorando la detección de manipulaciones en documentos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.02694",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "forensia",
+        "seguridad",
+        "documentos"
+      ],
+      "what_changed": "Desarrollo de un marco que aborda el análisis forense de manera integral.",
+      "why_it_matters": "Facilita respuestas rápidas ante incidentes de seguridad en documentos.",
+      "sector_impact": "Aumenta la confianza en la documentación generada por IA."
+    },
+    {
+      "title": "APEX-EM: Aprendizaje No Paramétrico para Agentes Autónomos",
+      "summary": "Nuevo enfoque de aprendizaje en línea que permite a los agentes utilizar planes estructurados sin modificar los pesos del modelo.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.29093",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "aprendizaje",
+        "agentes",
+        "AI"
+      ],
+      "what_changed": "Introducción de un marco de aprendizaje para reutilizar planes de procedimientos.",
+      "why_it_matters": "Mejora la eficiencia en tareas a través del aprendizaje continuo sin reentrenamiento.",
+      "sector_impact": "Optimiza el rendimiento en la automatización de tareas."
+    },
+    {
+      "title": "Kill-Chain Canaries: Seguimiento de Inyección de Prompts en Agentes",
+      "summary": "Análisis de ataques de inyección de prompts mostrando cómo mejorar la defensa contra estas amenazas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.28013",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "agentes",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de un análisis de descomposición de etapas en ataques de inyección.",
+      "why_it_matters": "Proporciona una mejor comprensión y defensa contra inyecciones en modelos de IA.",
+      "sector_impact": "Aumenta la resiliencia de los sistemas de IA contra ataques."
     }
   ]
 }

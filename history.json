@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-04-06",
+      "executive_title": "Radar Diaria de IA",
+      "items": [
+        {
+          "title": "Agentic-MME: Evaluación de Capacidades Agénticas Multimodales",
+          "summary": "Se presenta un nuevo marco de evaluación para modelos multimodales que verifica su uso efectivo de herramientas en tareas reales, destacando la necesidad de una evaluación de procesos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.03016",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "evaluación",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un benchmark para evaluar capacidades agénticas en modelos multimodales.",
+          "why_it_matters": "Mejora la comprensión de cómo los modelos pueden manejar tareas complejas a través de la evaluación de procesos.",
+          "sector_impact": "Aumenta la eficacia en la implementación de IA con capacidades multimodales."
+        },
+        {
+          "title": "AgenticRed: Sistemas Agénticos Evolutivos para Red-Teaming",
+          "summary": "Se propone un sistema automatizado para diseñar y refinar métodos de red-teaming, mejorando la detección de vulnerabilidades en IA sin intervención humana.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.13518",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "IA",
+            "automatización"
+          ],
+          "what_changed": "Evolución de sistemas de red-teaming usando LLMs sin intervención humana.",
+          "why_it_matters": "Permite una mejor identificación de vulnerabilidades en un entorno autónomo.",
+          "sector_impact": "Fortalece la seguridad en modelos de IA."
+        },
+        {
+          "title": "CostBench: Evaluación de Planificación Cost-Óptima para Agentes LLM",
+          "summary": "Presentamos un nuevo marco para evaluar la capacidad de planificación de costos en agentes LLM, abordando la falta de eficiencia en entornos dinámicos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.02734",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "planificación",
+            "costos",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un marco centrado en costos para evaluar agentes LLM.",
+          "why_it_matters": "Aborda debilidades en planificación y adaptación de agentes en entornos cambiantes.",
+          "sector_impact": "Potencia la capacidad de respuesta de agentes en escenarios comerciales."
+        },
+        {
+          "title": "AutoVerifier: Marco Automatizado de Verificación usando LLM",
+          "summary": "Nuevo marco para la verificación automática de afirmaciones técnicas en IA, permitiendo evaluaciones más precisas sin necesidad de experiencia en el dominio.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.02617",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "verificación",
+            "IA",
+            "automatización"
+          ],
+          "what_changed": "Método automatizado para la verificación de afirmaciones técnicas.",
+          "why_it_matters": "Incrementa la validez de las evaluaciones tecnológicas emergentes de manera automatizada.",
+          "sector_impact": "Mejora la seguridad y fiabilidad en la investigación de IA."
+        },
+        {
+          "title": "DocShield: Seguridad de Documentos AI mediante Razonamiento Agéntico",
+          "summary": "Se propone un sistema unificado para el análisis de forensia text-centro, mejorando la detección de manipulaciones en documentos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.02694",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "forensia",
+            "seguridad",
+            "documentos"
+          ],
+          "what_changed": "Desarrollo de un marco que aborda el análisis forense de manera integral.",
+          "why_it_matters": "Facilita respuestas rápidas ante incidentes de seguridad en documentos.",
+          "sector_impact": "Aumenta la confianza en la documentación generada por IA."
+        },
+        {
+          "title": "APEX-EM: Aprendizaje No Paramétrico para Agentes Autónomos",
+          "summary": "Nuevo enfoque de aprendizaje en línea que permite a los agentes utilizar planes estructurados sin modificar los pesos del modelo.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.29093",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aprendizaje",
+            "agentes",
+            "AI"
+          ],
+          "what_changed": "Introducción de un marco de aprendizaje para reutilizar planes de procedimientos.",
+          "why_it_matters": "Mejora la eficiencia en tareas a través del aprendizaje continuo sin reentrenamiento.",
+          "sector_impact": "Optimiza el rendimiento en la automatización de tareas."
+        },
+        {
+          "title": "Kill-Chain Canaries: Seguimiento de Inyección de Prompts en Agentes",
+          "summary": "Análisis de ataques de inyección de prompts mostrando cómo mejorar la defensa contra estas amenazas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.28013",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un análisis de descomposición de etapas en ataques de inyección.",
+          "why_it_matters": "Proporciona una mejor comprensión y defensa contra inyecciones en modelos de IA.",
+          "sector_impact": "Aumenta la resiliencia de los sistemas de IA contra ataques."
+        }
+      ]
+    },
+    {
       "date": "2026-04-05",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -666,132 +791,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-03-30",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "ReCUBE: Evaluando Contexto a Nivel de Repositorio en Generación de Código",
-          "summary": "Presentación de un nuevo benchmark que evalúa cómo los LLMs utilizan contexto de repositorio en la generación de código.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.25770",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "generación de código",
-            "benchmark",
-            "automático"
-          ],
-          "what_changed": "Introducción del benchmark ReCUBE y toolkit Caller-Centric Exploration.",
-          "why_it_matters": "Permite medir de forma precisa la capacidad de los LLMs para usar contexto en entornos de código reales.",
-          "sector_impact": "Mejora en herramientas de desarrollo de software mediante la automatización de generación de código."
-        },
-        {
-          "title": "AIDABench: Benchmark de Analítica de Datos de IA",
-          "summary": "Desarrollo de AIDABench para evaluar sistemas de IA en tareas complejas de análisis de datos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.15636",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "análisis de datos",
-            "IA"
-          ],
-          "what_changed": "Creación de un benchmark exhaustivo para tareas de analítica de datos.",
-          "why_it_matters": "Proporciona estándares de evaluación rigurosos para sistemas de IA en escenarios del mundo real.",
-          "sector_impact": "Aumenta la fiabilidad de las herramientas de analítica en diversas industrias."
-        },
-        {
-          "title": "Rocks, Pebbles and Sand: Programador de Inferencia para Modelos de Lenguaje Multimodal",
-          "summary": "Implementación de un programador de inferencia consciente de la modalidad que mejora el tiempo de respuesta.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.26498",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "MLLM",
-            "responsive",
-            "programación"
-          ],
-          "what_changed": "Introducción del programador RPS-Serve para gestionar cargas de trabajo multimodales.",
-          "why_it_matters": "Aumenta la eficiencia en la inferencia de modelos de lenguaje multimodal al gestionar solicitudes variadas.",
-          "sector_impact": "Mejora la interacción con aplicaciones y sistemas que utilizan IA multimodal."
-        },
-        {
-          "title": "GUIDE: Resolviendo el Sesgo de Dominio en Agentes GUI",
-          "summary": "Framework para adquirir experiencia específica de dominio a través de videos de tutoriales en tiempo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.26266",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "GUI",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de una interfaz que permite a los agentes GUI aprender de videos.",
-          "why_it_matters": "Proporciona a los agentes la capacidad de adaptarse a contextos específicos sin reentrenamiento.",
-          "sector_impact": "Incrementa la efectividad de los agentes en entornos de trabajo específicos."
-        },
-        {
-          "title": "GazeQwen: LLM Condicionado por la Mirada para Comprensión de Video",
-          "summary": "Enfoque eficiente en parámetros para integrar la información de la mirada en MLLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.25841",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "MLLM",
-            "video",
-            "mirada"
-          ],
-          "what_changed": "Incorporación de un modulador de mirada en un modelo de lenguaje multimodal.",
-          "why_it_matters": "Mejora la precisión en tareas de comprensión de video mediante la integración de pistas visuales.",
-          "sector_impact": "Impulsa el desarrollo de tecnologías de interacción humano-computadora más sofisticadas."
-        },
-        {
-          "title": "SkinGPT-X: Sistema Multi-Agente para Diagnóstico Dermatológico",
-          "summary": "Sistema colaborativo de múltiples agentes que permite diagnósticos dermatológicos más transparentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.26122",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "diagnóstico",
-            "salud",
-            "IA"
-          ],
-          "what_changed": "Implementación de una memoria dermatológica auto-evolutiva para el diagnóstico.",
-          "why_it_matters": "Aumenta la confianza y la transparencia en los diagnósticos clínicos difíciles.",
-          "sector_impact": "Transforma la forma en que se realizan diagnósticos dermatológicos complejos."
-        },
-        {
-          "title": "Automatizando el Diseño Guiado por Dominio con un Framework de Prompts",
-          "summary": "Framework para automatizar actividades cruciales en el diseño guiado por dominio (DDD) usando LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.26244",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "DDD",
-            "automación",
-            "IA"
-          ],
-          "what_changed": "Introducción de un marco que optimiza tareas de DDD a través de interacciones LLM.",
-          "why_it_matters": "Permite a los expertos concentrarse en decisiones críticas mientras se reducen esfuerzos.",
-          "sector_impact": "Facilita el proceso de diseño de arquitecturas de software complejas."
         }
       ]
     }
