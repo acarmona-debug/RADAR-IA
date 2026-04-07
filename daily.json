@@ -1,127 +1,138 @@
 {
-  "date": "2026-04-06",
-  "executive_title": "Radar Diaria de IA",
-  "intro_message": "Bienvenido al radar diario de inteligencia artificial, donde destacamos las últimas herramientas, modelos y tendencias en el campo de IA.",
-  "opening_message": "A continuación, te presentamos las actualizaciones más relevantes del día. No te pierdas las nuevas integraciones y avances.",
+  "date": "2026-04-07",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+  "intro_message": "Presentamos las últimas innovaciones en herramientas, modelos y marcos de trabajo en el campo de la inteligencia artificial.",
+  "opening_message": "Estas son las novedades más relevantes del día en IA, centradas en automatización, integración y mejoras en modelos de lenguaje.",
   "items": [
     {
-      "title": "Agentic-MME: Evaluación de Capacidades Agénticas Multimodales",
-      "summary": "Se presenta un nuevo marco de evaluación para modelos multimodales que verifica su uso efectivo de herramientas en tareas reales, destacando la necesidad de una evaluación de procesos.",
+      "title": "Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise Workflows",
+      "summary": "Un benchmark para evaluar agentes en flujos de trabajo de finanzas y contabilidad utilizando datos reales.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.03016",
+      "source_url": "https://arxiv.org/abs/2512.13168",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "multimodal",
-        "evaluación",
+        "benchmarking",
+        "finanzas",
         "agentes"
       ],
-      "what_changed": "Introducción de un benchmark para evaluar capacidades agénticas en modelos multimodales.",
-      "why_it_matters": "Mejora la comprensión de cómo los modelos pueden manejar tareas complejas a través de la evaluación de procesos.",
-      "sector_impact": "Aumenta la eficacia en la implementación de IA con capacidades multimodales."
+      "what_changed": "Introducción de un benchmark que integra flujos de trabajo reales de finanzas.",
+      "why_it_matters": "Provee un estándar de comparación para evaluar agentes en escenarios de finanzas reales.",
+      "sector_impact": "Mejorará el rendimiento de agentes en entornos financieros complejos."
     },
     {
-      "title": "AgenticRed: Sistemas Agénticos Evolutivos para Red-Teaming",
-      "summary": "Se propone un sistema automatizado para diseñar y refinar métodos de red-teaming, mejorando la detección de vulnerabilidades en IA sin intervención humana.",
+      "title": "Context Engineering: A Practitioner Methodology for Structured Human-AI Collaboration",
+      "summary": "Una metodología estructurada para ensamblar y declarar el contexto que acompaña un prompt a una herramienta de IA.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.13518",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2604.04258",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "seguridad",
-        "IA",
-        "automatización"
+        "metodología",
+        "colaboración"
       ],
-      "what_changed": "Evolución de sistemas de red-teaming usando LLMs sin intervención humana.",
-      "why_it_matters": "Permite una mejor identificación de vulnerabilidades en un entorno autónomo.",
-      "sector_impact": "Fortalece la seguridad en modelos de IA."
+      "what_changed": "Introducción de una estructura de paquetes de contexto para optimizar la colaboración entre humanos e IA.",
+      "why_it_matters": "Mejora la calidad de salida de los modelos de IA al proporcionar contexto completo.",
+      "sector_impact": "Aumentará la eficiencia en tareas que requieren interacción con IA."
     },
     {
-      "title": "CostBench: Evaluación de Planificación Cost-Óptima para Agentes LLM",
-      "summary": "Presentamos un nuevo marco para evaluar la capacidad de planificación de costos en agentes LLM, abordando la falta de eficiencia en entornos dinámicos.",
+      "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
+      "summary": "Exploración del potencial de LLMs para simplificar la programación y automatización de instrumentos científicos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.03286",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "laboratorio"
+      ],
+      "what_changed": "Demostración de cómo LLMs pueden automatizar el control de instrumentos de laboratorio.",
+      "why_it_matters": "Reduce la barrera técnica para investigadores sin habilidades de programación.",
+      "sector_impact": "Acelera el progreso científico y democratiza el acceso a la automatización en investigación."
+    },
+    {
+      "title": "Single-agent vs. Multi-agents for Automated Video Analysis of On-Screen Collaborative Learning Behaviors",
+      "summary": "Comparación de sistemas multi-agente y un solo agente para el análisis automatizado de comportamientos colaborativos en video.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2511.02734",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.03631",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "planificación",
-        "costos",
-        "agentes"
+        "video análisis",
+        "comportamiento",
+        "colaboración"
       ],
-      "what_changed": "Introducción de un marco centrado en costos para evaluar agentes LLM.",
-      "why_it_matters": "Aborda debilidades en planificación y adaptación de agentes en entornos cambiantes.",
-      "sector_impact": "Potencia la capacidad de respuesta de agentes en escenarios comerciales."
+      "what_changed": "Presentación de nuevos marcos multi-agente para detectar comportamientos en clases en tiempo real.",
+      "why_it_matters": "Comparación de sistemas multi-agente y un solo agente para el análisis automatizado de comportamientos colaborativos en video.",
+      "sector_impact": "Aumenta la efectividad de las plataformas educativas en el análisis del aprendizaje."
     },
     {
-      "title": "AutoVerifier: Marco Automatizado de Verificación usando LLM",
-      "summary": "Nuevo marco para la verificación automática de afirmaciones técnicas en IA, permitiendo evaluaciones más precisas sin necesidad de experiencia en el dominio.",
+      "title": "Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw",
+      "summary": "Análisis de seguridad del agente de IA OpenClaw en escenarios del mundo real.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.02617",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "verificación",
-        "IA",
-        "automatización"
-      ],
-      "what_changed": "Método automatizado para la verificación de afirmaciones técnicas.",
-      "why_it_matters": "Incrementa la validez de las evaluaciones tecnológicas emergentes de manera automatizada.",
-      "sector_impact": "Mejora la seguridad y fiabilidad en la investigación de IA."
-    },
-    {
-      "title": "DocShield: Seguridad de Documentos AI mediante Razonamiento Agéntico",
-      "summary": "Se propone un sistema unificado para el análisis de forensia text-centro, mejorando la detección de manipulaciones en documentos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.02694",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "forensia",
-        "seguridad",
-        "documentos"
-      ],
-      "what_changed": "Desarrollo de un marco que aborda el análisis forense de manera integral.",
-      "why_it_matters": "Facilita respuestas rápidas ante incidentes de seguridad en documentos.",
-      "sector_impact": "Aumenta la confianza en la documentación generada por IA."
-    },
-    {
-      "title": "APEX-EM: Aprendizaje No Paramétrico para Agentes Autónomos",
-      "summary": "Nuevo enfoque de aprendizaje en línea que permite a los agentes utilizar planes estructurados sin modificar los pesos del modelo.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.29093",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "aprendizaje",
-        "agentes",
-        "AI"
-      ],
-      "what_changed": "Introducción de un marco de aprendizaje para reutilizar planes de procedimientos.",
-      "why_it_matters": "Mejora la eficiencia en tareas a través del aprendizaje continuo sin reentrenamiento.",
-      "sector_impact": "Optimiza el rendimiento en la automatización de tareas."
-    },
-    {
-      "title": "Kill-Chain Canaries: Seguimiento de Inyección de Prompts en Agentes",
-      "summary": "Análisis de ataques de inyección de prompts mostrando cómo mejorar la defensa contra estas amenazas.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.28013",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.04759",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
         "seguridad",
-        "agentes",
-        "IA"
+        "evaluación"
       ],
-      "what_changed": "Desarrollo de un análisis de descomposición de etapas en ataques de inyección.",
-      "why_it_matters": "Proporciona una mejor comprensión y defensa contra inyecciones en modelos de IA.",
-      "sector_impact": "Aumenta la resiliencia de los sistemas de IA contra ataques."
+      "what_changed": "Introducción de la taxonomía CIK para analizar la seguridad de agentes de IA.",
+      "why_it_matters": "Análisis de seguridad del agente de IA OpenClaw en escenarios del mundo real.",
+      "sector_impact": "Impulsa la creación de protocolos de seguridad más robustos."
+    },
+    {
+      "title": "GPA: Learning GUI Process Automation from Demonstrations",
+      "summary": "Automatización de procesos GUI mediante un enfoque basado en demostraciones únicas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.01676",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "RPA"
+      ],
+      "what_changed": "Introducción de un nuevo método para la automatización de procesos GUI robustos.",
+      "why_it_matters": "Automatización de procesos GUI mediante un enfoque basado en demostraciones únicas.",
+      "sector_impact": "Incrementa la eficiencia en entornos empresariales con flujos de trabajo automatizados."
+    },
+    {
+      "title": "UtilityMax Prompting: A Formal Framework for Multi-Objective Large Language Model Optimization",
+      "summary": "Marco formal para optimizar modelos de lenguaje para múltiples objetivos mediante lenguaje matemático.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.11583",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "optimización",
+        "modelos de lenguaje"
+      ],
+      "what_changed": "Introducción de un enfoque formal para mejorar la precisión de modelos de lenguaje.",
+      "why_it_matters": "Marco formal para optimizar modelos de lenguaje para múltiples objetivos mediante lenguaje matemático.",
+      "sector_impact": "Aumenta la aplicabilidad de LLM en entornos industriales."
+    },
+    {
+      "title": "Mapping the Exploitation Surface: A 10,000-Trial Taxonomy of What Makes LLM Agents Exploit Vulnerabilities",
+      "summary": "Taxonomía sistemática para entender cómo los agentes de LLM pueden explotar vulnerabilidades.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.04561",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "vulnerabilidades"
+      ],
+      "what_changed": "Análisis profundo de condiciones que permiten la explotación por parte de agentes LLM.",
+      "why_it_matters": "Taxonomía sistemática para entender cómo los agentes de LLM pueden explotar vulnerabilidades.",
+      "sector_impact": "Aumenta la seguridad en aplicaciones de IA en entornos críticos."
     }
   ]
 }
