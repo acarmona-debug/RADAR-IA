@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-04-09",
+      "executive_title": "Actualización Diaria de IA",
+      "items": [
+        {
+          "title": "AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent",
+          "summary": "Introducción de un paquete Python para la optimización en el lado del cliente de agentes basados en LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.06296",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "agentes",
+            "Python"
+          ],
+          "what_changed": "Presentación del primer paquete de optimización en el lado del cliente.",
+          "why_it_matters": "Permite a los desarrolladores asignar recursos de manera efectiva para mejorar la eficiencia de los agentes.",
+          "sector_impact": "Mejora el rendimiento en entornos donde se utilizan múltiples modelos y herramientas."
+        },
+        {
+          "title": "Commander-GPT: Dividing and Routing for Multimodal Sarcasm Detection",
+          "summary": "Propuesta de un marco modular que mejora la detección de sarcasmo mediante múltiples agentes LLM especializados.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2506.19420",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "sarcasmo",
+            "multimodal",
+            "detección"
+          ],
+          "what_changed": "Implementación de un sistema que combina múltiples agentes para mejorar la comprensión del sarcasmo.",
+          "why_it_matters": "Mejora la precisión en tareas de análisis de sentimientos y comprensión del lenguaje.",
+          "sector_impact": "Aumenta la utilidad de los modelos en aplicaciones de análisis de texto."
+        },
+        {
+          "title": "VisCoder2: Building Multi-Language Visualization Coding Agents",
+          "summary": "Desarrollo de un modelo para agentes de codificación en visualización con soporte para múltiples lenguajes.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.23642",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "visualización",
+            "codificación",
+            "multilenguaje"
+          ],
+          "what_changed": "Presentación de un modelo que supera baselines abiertos en tareas de ejecución de código.",
+          "why_it_matters": "Facilita la creación y corrección de código de visualización de manera eficiente.",
+          "sector_impact": "Impulsa la adopción de agentes automatizados en el desarrollo de software."
+        },
+        {
+          "title": "Knowledge Graphs Generation from Cultural Heritage Texts",
+          "summary": "Introducción de un modelo para la generación de gráficos de conocimiento a partir de textos del patrimonio cultural.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.10354",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "gráficos de conocimiento",
+            "patrimonio cultural",
+            "LLM"
+          ],
+          "what_changed": "Validación de una metodología para la extracción de conocimiento utilizando LLM.",
+          "why_it_matters": "Facilita el acceso a información estructurada desde documentos no estructurados.",
+          "sector_impact": "Potencia la investigación y conservación en el sector cultural."
+        },
+        {
+          "title": "ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents",
+          "summary": "Desarrollo de un nuevo marco para evaluar agentes de productividad LLM en entornos realistas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.05172",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "evaluación",
+            "productividad"
+          ],
+          "what_changed": "Presentación de un marco que incluye servicios simulados y tareas estructuradas para evaluación.",
+          "why_it_matters": "Ofrece un método fiable para evaluar el rendimiento de los agentes en escenarios del mundo real.",
+          "sector_impact": "Optimiza la confiabilidad de los agentes en entornos multi-servicio."
+        },
+        {
+          "title": "LLM Spirals of Delusion: A Benchmarking Audit Study",
+          "summary": "Estudio sobre cómo diferentes LLMs manejan la conversación y refuerzan ideaciones perjudiciales.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.06188",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "auditoría",
+            "LLM",
+            "comportamiento"
+          ],
+          "what_changed": "Comparación de las salidas de la API y la interfaz de usuario en entornos de conversación.",
+          "why_it_matters": "Destaca la importancia de la transparencia en los modelos de IA.",
+          "sector_impact": "Informa el desarrollo de modelos más seguros y efectivos."
+        },
+        {
+          "title": "An Automated Survey of Generative Artificial Intelligence",
+          "summary": "Análisis exhaustivo sobre los modelos generativos y sus aplicaciones en diversas industrias.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2306.02781",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "IA generativa",
+            "modelos",
+            "aplicaciones"
+          ],
+          "what_changed": "Revisión comparativa de modelos LLM y protocolos de despliegue.",
+          "why_it_matters": "Proporciona información clave sobre aplicaciones en varios sectores.",
+          "sector_impact": "Facilita la toma de decisiones en la implementación de IA."
+        },
+        {
+          "title": "Dynamic Context Evolution for Scalable Synthetic Data Generation",
+          "summary": "Propuesta de un framework para mitigar la pérdida de diversidad de salida en modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.07147",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "diversidad",
+            "datos sintéticos",
+            "modelo de lenguaje"
+          ],
+          "what_changed": "Implementación de métodos para filtrar y evolucionar el contexto de generación.",
+          "why_it_matters": "Mejora la calidad y variedad de los datos generados por LLM.",
+          "sector_impact": "Optimiza el uso de LLM en aplicaciones de generación de datos."
+        }
+      ]
+    },
+    {
       "date": "2026-04-08",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -688,148 +830,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-02",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "BloClaw: Un entorno de trabajo multimodal para el descubrimiento científico",
-          "summary": "BloClaw integra sistemas de IA en ciencias de la vida, revolucionando los protocolos de interacción entre agente y computadora.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.00550",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "IA",
-            "ciencia",
-            "multimodal"
-          ],
-          "what_changed": "Presentación de un sistema operativo unificado para IA en la ciencia que supera a los protocolos tradicionales.",
-          "why_it_matters": "Facilita el descubrimiento científico mediante la automatización y mejor gestión de datos.",
-          "sector_impact": "Transformación en la investigación científica y el desarrollo de tecnologías científicas."
-        },
-        {
-          "title": "Evaluación de Modelos de Lenguaje en Educación: Caso sobre Sesgos de Género",
-          "summary": "Se presenta un marco para benchmarking de LLM en contextos educativos, revelando sesgos de género en la retroalimentación.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.08225",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "educación",
-            "LLM",
-            "sesgo"
-          ],
-          "what_changed": "Desarrollo de un marco de evaluación que detecta sesgos en los modelos de retroalimentación educativa.",
-          "why_it_matters": "Ayuda a auditar la equidad en la retroalimentación ofrecida por modelos de IA en entornos educativos.",
-          "sector_impact": "Mejora de prácticas educativas mediante una IA más justa y equitativa."
-        },
-        {
-          "title": "Agentic Retrieval-Augmented Generation: Una Investigación sobre RAG",
-          "summary": "Se presenta un análisis detallado sobre la integración de agentes autónomos en sistemas de RAG para mejorar la adaptabilidad y eficiencia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2501.09136",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "RAG",
-            "agentes",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de nuevas arquitecturas que permiten a los agentes gestionar dinámicamente estrategias de recuperación.",
-          "why_it_matters": "Aumenta la flexibilidad y escalabilidad de aplicaciones de IA en diversas industrias.",
-          "sector_impact": "Revoluciona el procesamiento de información en campos como salud, finanzas y educación."
-        },
-        {
-          "title": "Proactive Agent Research Environment: Evaluando Asistentes Proactivos",
-          "summary": "Introducción de un marco para la simulación activa de usuarios y evaluación de agentes proactivos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.00842",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "simulación",
-            "evaluación"
-          ],
-          "what_changed": "Creación de un entorno que modela aplicaciones como máquinas de estados finitos para simulación efectiva de usuarios.",
-          "why_it_matters": "Permite la evaluación realista de agentes IA en entornos digitales, mejorando su efectividad.",
-          "sector_impact": "Optimiza el desarrollo de asistentes digitales en múltiples aplicaciones."
-        },
-        {
-          "title": "AI Agents en Física de Alta Energía: Ejecución Autónoma de Análisis",
-          "summary": "Los agentes basados en LLM ahora pueden realizar de manera autónoma análisis en física de alta energía.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.20179",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "física",
-            "análisis",
-            "IA"
-          ],
-          "what_changed": "Demostración de capacidad de agentes IA para ejecutar análisis complejos con mínima entrada de expertos.",
-          "why_it_matters": "Permite a los investigadores concentrarse en el descubrimiento en lugar de tareas repetitivas.",
-          "sector_impact": "Facilita el avance en la investigación en física, optimizando recursos humanos."
-        },
-        {
-          "title": "PsychAgent: Agente de Aprendizaje de Vida para Consejería Psicológica",
-          "summary": "Un agente de aprendizaje diseñado para mejorar la calidad de la consejería psicológica mediante el aprendizaje continuo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.00931",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "consejería",
-            "aprendizaje",
-            "IA"
-          ],
-          "what_changed": "Incorporación de un motor de planificación y memoria para interacciones de múltiples sesiones.",
-          "why_it_matters": "Mejora la continuidad terapéutica de los agentes IA en consejería psicológica.",
-          "sector_impact": "Promueve el desarrollo de herramientas de apoyo psicológico más efectivas."
-        },
-        {
-          "title": "The Silicon Mirror: Gating Dinámico para Evitar Sycophancy en Agentes LLM",
-          "summary": "Propuesta de un marco que ajusta el comportamiento de IA para mantener la integridad factual y reducir la sycophancy.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.00478",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ética",
-            "comportamiento",
-            "IA"
-          ],
-          "what_changed": "Implementación de un sistema controlado que actúa según la amenaza de sycophancy detectada.",
-          "why_it_matters": "Mejora la integridad en las respuestas de IA mediante el control de su comportamiento.",
-          "sector_impact": "Fortalece la confianza en aplicaciones de IA en contextos éticos y sociales."
-        },
-        {
-          "title": "Estudio de Caso sobre Evaluación de AI en Seguridad: Evaluación de Modelos Avanzados",
-          "summary": "Se presentan métodos para evaluar la alineación de sistemas de IA avanzados en el ámbito de la seguridad.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.00788",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "evaluación",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un marco para evaluar si los modelos de IA siguen objetivos deseados en entornos de lab.",
-          "why_it_matters": "Establece un precedente para la evaluación de la seguridad y confiabilidad en sistemas autónomos.",
-          "sector_impact": "Mejora los estándares de evaluación y control en IA aplicada a la seguridad."
         }
       ]
     }

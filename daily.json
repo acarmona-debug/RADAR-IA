@@ -1,125 +1,144 @@
 {
-  "date": "2026-04-08",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Bienvenido al radar diario que destaca las últimas innovaciones en inteligencia artificial.",
-  "opening_message": "Hoy, priorizamos avances en herramientas, modelos, y características que potencian la automatización y la integración de IA.",
+  "date": "2026-04-09",
+  "executive_title": "Actualización Diaria de IA",
+  "intro_message": "Aquí están las últimas actualizaciones sobre herramientas, modelos y avances en IA que deberías conocer.",
+  "opening_message": "A continuación, te presentamos un resumen de los lanzamientos y avances más relevantes en el ámbito de inteligencia artificial.",
   "items": [
     {
-      "title": "Deep Researcher Agent: Un Marco Autónomo para Experimentación en Aprendizaje Profundo",
-      "summary": "Un marco de código abierto que permite a los agentes de LLM realizar experimentos de aprendizaje profundo de forma autónoma.",
-      "category": "framework",
+      "title": "AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent",
+      "summary": "Introducción de un paquete Python para la optimización en el lado del cliente de agentes basados en LLM.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.05854",
+      "source_url": "https://arxiv.org/abs/2604.06296",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "autonomía",
-        "aprendizaje profundo",
-        "eficiencia"
-      ],
-      "what_changed": "Introduce un enfoque de monitoreo sin costo durante el entrenamiento del modelo.",
-      "why_it_matters": "Permite experimentos constantes y reduce costos operativos, impulsando la investigación de IA.",
-      "sector_impact": "Acelera el desarrollo de modelos de aprendizaje profundo, impactando múltiples industrias."
-    },
-    {
-      "title": "Graph of Skills: Recuperación Estructural para Habilidades de Agentes",
-      "summary": "Una capa de recuperación estructural que mejora la capacidad de los agentes para completar tareas complejas mediante la optimización del uso de habilidades.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.05333",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "habilidades",
+        "optimización",
         "agentes",
-        "eficiencia"
+        "Python"
       ],
-      "what_changed": "Mejora la eficiencia de la carga de habilidades y reduce los costos de tokens.",
-      "why_it_matters": "Incrementa la capacidad de los agentes para realizar tareas complejas con menos recursos.",
-      "sector_impact": "Transforma la forma en que los agentes interactúan con entornos diversos."
+      "what_changed": "Presentación del primer paquete de optimización en el lado del cliente.",
+      "why_it_matters": "Permite a los desarrolladores asignar recursos de manera efectiva para mejorar la eficiencia de los agentes.",
+      "sector_impact": "Mejora el rendimiento en entornos donde se utilizan múltiples modelos y herramientas."
     },
     {
-      "title": "CritBench: Un Marco para Evaluar Capacidades de Ciberseguridad de Modelos de Lenguaje",
-      "summary": "Un nuevo marco que evalúa las capacidades de ciberseguridad de modelos de lenguaje en entornos industriales.",
-      "category": "framework",
+      "title": "Commander-GPT: Dividing and Routing for Multimodal Sarcasm Detection",
+      "summary": "Propuesta de un marco modular que mejora la detección de sarcasmo mediante múltiples agentes LLM especializados.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.06019",
+      "source_url": "https://arxiv.org/abs/2506.19420",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "sarcasmo",
+        "multimodal",
+        "detección"
+      ],
+      "what_changed": "Implementación de un sistema que combina múltiples agentes para mejorar la comprensión del sarcasmo.",
+      "why_it_matters": "Mejora la precisión en tareas de análisis de sentimientos y comprensión del lenguaje.",
+      "sector_impact": "Aumenta la utilidad de los modelos en aplicaciones de análisis de texto."
+    },
+    {
+      "title": "VisCoder2: Building Multi-Language Visualization Coding Agents",
+      "summary": "Desarrollo de un modelo para agentes de codificación en visualización con soporte para múltiples lenguajes.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.23642",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "visualización",
+        "codificación",
+        "multilenguaje"
+      ],
+      "what_changed": "Presentación de un modelo que supera baselines abiertos en tareas de ejecución de código.",
+      "why_it_matters": "Facilita la creación y corrección de código de visualización de manera eficiente.",
+      "sector_impact": "Impulsa la adopción de agentes automatizados en el desarrollo de software."
+    },
+    {
+      "title": "Knowledge Graphs Generation from Cultural Heritage Texts",
+      "summary": "Introducción de un modelo para la generación de gráficos de conocimiento a partir de textos del patrimonio cultural.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.10354",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "modelos de lenguaje"
+        "gráficos de conocimiento",
+        "patrimonio cultural",
+        "LLM"
       ],
-      "what_changed": "Proporciona herramientas específicas para la interacción con protocolos industriales.",
-      "why_it_matters": "Ayuda a mitigar riesgos de seguridad en infraestructuras tecnológicas críticas.",
-      "sector_impact": "Aumenta la confianza en la implementación de LLM en entornos sensibles."
+      "what_changed": "Validación de una metodología para la extracción de conocimiento utilizando LLM.",
+      "why_it_matters": "Facilita el acceso a información estructurada desde documentos no estructurados.",
+      "sector_impact": "Potencia la investigación y conservación en el sector cultural."
     },
     {
-      "title": "CODESTRUCT: Agentes de Código sobre Espacios de Acción Estructurados",
-      "summary": "Proposta un marco donde agentes de código operan sobre entidades sintácticas en lugar de texto plano.",
-      "category": "framework",
+      "title": "ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents",
+      "summary": "Desarrollo de un nuevo marco para evaluar agentes de productividad LLM en entornos realistas.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.05407",
+      "source_url": "https://arxiv.org/abs/2604.05172",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes de código",
-        "eficiencia"
-      ],
-      "what_changed": "Reestructura el enfoque para mejorar la precisión y reducir el consumo de tokens.",
-      "why_it_matters": "Proporciona una base más confiable para la interacción con el código.",
-      "sector_impact": "Optimiza el desarrollo y mantenimiento de software."
-    },
-    {
-      "title": "MM-tau-p$^2$: Evaluación de Agentes Multi-Modal en Configuraciones de Doble Control",
-      "summary": "Un nuevo marco para evaluar la robustez de agentes multi-modales adaptándose a las personalidades de los usuarios.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.09643",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
+        "agentes",
         "evaluación",
-        "multi-modal",
-        "interacción"
+        "productividad"
       ],
-      "what_changed": "Introduce métricas para evaluar la adaptación de personas en agentes multi-modales.",
-      "why_it_matters": "Mejora la calidad de las interacciones entre usuarios y agentes.",
-      "sector_impact": "Impulsa la personalización y efectividad en la experiencia del usuario."
+      "what_changed": "Presentación de un marco que incluye servicios simulados y tareas estructuradas para evaluación.",
+      "why_it_matters": "Ofrece un método fiable para evaluar el rendimiento de los agentes en escenarios del mundo real.",
+      "sector_impact": "Optimiza la confiabilidad de los agentes en entornos multi-servicio."
     },
     {
-      "title": "SUMMIR: Un Marco Consciente de Alucinaciones para Clasificación de Insights Deportivos",
-      "summary": "Propuesta de un marco que genera automáticamente insights a partir de artículos de deportes, evaluando su precisión.",
-      "category": "framework",
+      "title": "LLM Spirals of Delusion: A Benchmarking Audit Study",
+      "summary": "Estudio sobre cómo diferentes LLMs manejan la conversación y refuerzan ideaciones perjudiciales.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.04947",
+      "source_url": "https://arxiv.org/abs/2604.06188",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "auditoría",
+        "LLM",
+        "comportamiento"
+      ],
+      "what_changed": "Comparación de las salidas de la API y la interfaz de usuario en entornos de conversación.",
+      "why_it_matters": "Destaca la importancia de la transparencia en los modelos de IA.",
+      "sector_impact": "Informa el desarrollo de modelos más seguros y efectivos."
+    },
+    {
+      "title": "An Automated Survey of Generative Artificial Intelligence",
+      "summary": "Análisis exhaustivo sobre los modelos generativos y sus aplicaciones en diversas industrias.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2306.02781",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "deportes",
-        "insights",
-        "automación"
+        "IA generativa",
+        "modelos",
+        "aplicaciones"
       ],
-      "what_changed": "Utiliza un enfoque de validación de precisión para asegurar la calidad de los insights.",
-      "why_it_matters": "Aumenta la relevancia y calidad de la información generada automáticamente.",
-      "sector_impact": "Transforma el periodismo deportivo y la interacción con usuarios."
+      "what_changed": "Revisión comparativa de modelos LLM y protocolos de despliegue.",
+      "why_it_matters": "Proporciona información clave sobre aplicaciones en varios sectores.",
+      "sector_impact": "Facilita la toma de decisiones en la implementación de IA."
     },
     {
-      "title": "QUASAR: Un Sistema Universal Autónomo para Simulación Atomística",
-      "summary": "Introducción de un sistema que orquesta flujos de trabajo complejos en simulaciones científicas sin intervención humana.",
-      "category": "framework",
+      "title": "Dynamic Context Evolution for Scalable Synthetic Data Generation",
+      "summary": "Propuesta de un framework para mitigar la pérdida de diversidad de salida en modelos de lenguaje.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.00185",
+      "source_url": "https://arxiv.org/abs/2604.07147",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "simulación",
-        "ciencia",
-        "automatización"
+        "diversidad",
+        "datos sintéticos",
+        "modelo de lenguaje"
       ],
-      "what_changed": "Facilita la integración de diversos métodos en un flujo de trabajo cohesivo.",
-      "why_it_matters": "Optimiza la investigación en química computacional y materiales.",
-      "sector_impact": "Aumenta la eficiencia en la exploración y descubrimiento científico."
+      "what_changed": "Implementación de métodos para filtrar y evolucionar el contexto de generación.",
+      "why_it_matters": "Mejora la calidad y variedad de los datos generados por LLM.",
+      "sector_impact": "Optimiza el uso de LLM en aplicaciones de generación de datos."
     }
   ]
 }
