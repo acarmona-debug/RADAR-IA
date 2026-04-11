@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-04-11",
+      "executive_title": "Radar diario de IA - Herramientas y Modelos",
+      "items": [
+        {
+          "title": "Tubi is the first streamer to launch a native app within ChatGPT",
+          "summary": "Tubi integra su aplicación directamente en ChatGPT, permitiendo a los usuarios acceder a sus servicios de streaming mediante el chatbot.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "streaming",
+            "integración"
+          ],
+          "what_changed": "Lanzamiento de una nueva app nativa en ChatGPT.",
+          "why_it_matters": "Amplía las capacidades de ChatGPT y ofrece nuevas experiencias a los usuarios.",
+          "sector_impact": "Streaming y tecnología de chatbots."
+        },
+        {
+          "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
+          "summary": "Lanzamiento beta de Deep Agents deploy, una herramienta de implementación rápida y open source para agentes de IA.",
+          "category": "tool",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "open source",
+            "implementación"
+          ],
+          "what_changed": "Introducción de una alternativa abierta para el manejo de agentes AI.",
+          "why_it_matters": "Facilita la implementación de agentes IA en entornos de producción.",
+          "sector_impact": "Desarrollo de software y automatización."
+        },
+        {
+          "title": "Arcade.dev tools now in LangSmith Fleet",
+          "summary": "Arcade proporciona una colección de herramientas optimizadas para agentes a través de un acceso seguro y único.",
+          "category": "tool",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Arcade",
+            "herramientas",
+            "integración"
+          ],
+          "what_changed": "Integración de herramientas en LangSmith Fleet.",
+          "why_it_matters": "Mejora la funcionalidad y efectividad de los agentes en producción.",
+          "sector_impact": "Productividad empresarial."
+        },
+        {
+          "title": "ChatGPT finally offers $100/month Pro plan",
+          "summary": "OpenAI lanza un plan Pro para ChatGPT a $100 al mes, haciendo accesibles características avanzadas para usuarios intensivos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "suscripción",
+            "plan"
+          ],
+          "what_changed": "Introducción de un nuevo plan de suscripción.",
+          "why_it_matters": "Ofrece opciones más flexibles para usuarios avanzados.",
+          "sector_impact": "Mercado de aplicaciones y suscripciones."
+        },
+        {
+          "title": "Poke makes using AI agents as easy as sending a text",
+          "summary": "Poke simplifica el uso de agentes de IA a través de mensajes de texto, facilitando tareas sin necesidad de configuraciones complicadas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "automatización",
+            "texto"
+          ],
+          "what_changed": "Lanzamiento de una plataforma accesible para usuarios diarios.",
+          "why_it_matters": "Democratiza el acceso a la tecnología de agentes IA.",
+          "sector_impact": "Tecnología y usuario final."
+        },
+        {
+          "title": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support",
+          "summary": "Workbench de Astropad permite controlar agentes de IA en Mac Minis desde dispositivos móviles con baja latencia.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "control remoto",
+            "tecnología"
+          ],
+          "what_changed": "Nuevo enfoque en la gestión de agentes IA a través de desktop remoto.",
+          "why_it_matters": "Mejora la gestión y control de agentes IA de manera eficiente.",
+          "sector_impact": "Tecnología de escritorio y administración de IA."
+        },
+        {
+          "title": "Sierra’s Bret Taylor says the era of clicking buttons is over",
+          "summary": "Lanzamiento de Ghostwriter, un agente diseñado para crear otros agentes mediante lenguaje natural, eliminando la necesidad de hacer clic.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "automación",
+            "interfaz"
+          ],
+          "what_changed": "Introducción de un nuevo paradigma para la creación de agentes.",
+          "why_it_matters": "Revoluciona la forma en que interactuamos con la tecnología.",
+          "sector_impact": "Interacción usuario-tecnología."
+        }
+      ]
+    },
+    {
       "date": "2026-04-10",
       "executive_title": "Radar IA del día",
       "items": [
@@ -722,114 +847,6 @@
           "what_changed": "Funcionalidad para personalizar avatares durante la creación de contenido.",
           "why_it_matters": "Mejora la experiencia del usuario y la interacción con el contenido.",
           "sector_impact": "Creatividad y entretenimiento"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-04",
-      "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
-      "items": [
-        {
-          "title": "Build with Veo 3.1 Lite, our most cost-effective video generation model",
-          "summary": "Veo 3.1 Lite está disponible en vista previa pagada a través de la API de Gemini y para pruebas en Google AI Studio.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "video",
-            "generación",
-            "modelo"
-          ],
-          "what_changed": "Lanzamiento del modelo Veo 3.1 Lite.",
-          "why_it_matters": "Ofrece una solución rentable para la generación de videos mediante IA.",
-          "sector_impact": "Mejora la creación de contenido digital."
-        },
-        {
-          "title": "New ways to balance cost and reliability in the Gemini API",
-          "summary": "Google introduce dos nuevos niveles de inferencia en la API de Gemini, Flex y Priority, para equilibrar el costo y la latencia.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "API",
-            "inferencias",
-            "costo"
-          ],
-          "what_changed": "Nuevos niveles de inferencia en la API.",
-          "why_it_matters": "Optimiza el rendimiento y los costos para los desarrolladores.",
-          "sector_impact": "Facilita el uso de IA en aplicaciones comerciales."
-        },
-        {
-          "title": "Open Models have crossed a threshold",
-          "summary": "Modelos abiertos como GLM-5 y MiniMax M2.7 ahora igualan a los modelos cerrados en tareas de agente clave.",
-          "category": "model",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos abiertos",
-            "IA",
-            "evaluación"
-          ],
-          "what_changed": "Nuevos modelos abiertos han alcanzado un rendimiento competitivo.",
-          "why_it_matters": "Reduce costos y latencia en soluciones de IA.",
-          "sector_impact": "Aumenta la accesibilidad de la IA para empresas."
-        },
-        {
-          "title": "Announcing the LangChain + MongoDB Partnership",
-          "summary": "Construye agentes de IA de producción en MongoDB Atlas con memoria persistente y consultas en lenguaje natural.",
-          "category": "tool",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "integración",
-            "MongoDB",
-            "agentes"
-          ],
-          "what_changed": "Nueva colaboración entre LangChain y MongoDB.",
-          "why_it_matters": "Permite construir agentes más robustos y eficientes.",
-          "sector_impact": "Transforma la forma en que se gestionan los datos en IA."
-        },
-        {
-          "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
-          "summary": "Una nueva IA multimodal para manejar documentos empresariales de manera más efectiva.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "IA",
-            "documentos"
-          ],
-          "what_changed": "Introducción de la versión Granite 4.0.",
-          "why_it_matters": "Mejora el procesamiento de documentos mediante IA.",
-          "sector_impact": "Optimiza la gestión documental en empresas."
-        },
-        {
-          "title": "Microsoft takes on AI rivals with three new foundational models",
-          "summary": "MAI lanza modelos que transcriben voz a texto y generan audio e imágenes.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "modelo",
-            "fundacional",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de nuevos modelos fundacionales por Microsoft.",
-          "why_it_matters": "Aumenta las capacidades de IA en múltiples aplicaciones.",
-          "sector_impact": "Promueve la competitividad en el mercado de IA."
         }
       ]
     }
