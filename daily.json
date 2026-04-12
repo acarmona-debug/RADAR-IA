@@ -1,127 +1,76 @@
 {
-  "date": "2026-04-11",
-  "executive_title": "Radar diario de IA - Herramientas y Modelos",
-  "intro_message": "Bienvenidos a la actualización diaria de IA, donde priorizamos las herramientas, modelos y nuevas características que están transformando el ecosistema de la inteligencia artificial.",
-  "opening_message": "En este radar, destacamos las innovaciones más relevantes de la industria. ¡Vamos a descubrir lo nuevo!",
+  "date": "2026-04-12",
+  "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+  "intro_message": "Descubre las últimas innovaciones y tendencias en herramientas, modelos y automatización de IA que están marcando el camino hacia el futuro.",
+  "opening_message": "Estos son los desarrollos más relevantes en el ecosistema de inteligencia artificial que no te puedes perder.",
   "items": [
     {
-      "title": "Tubi is the first streamer to launch a native app within ChatGPT",
-      "summary": "Tubi integra su aplicación directamente en ChatGPT, permitiendo a los usuarios acceder a sus servicios de streaming mediante el chatbot.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "streaming",
-        "integración"
-      ],
-      "what_changed": "Lanzamiento de una nueva app nativa en ChatGPT.",
-      "why_it_matters": "Amplía las capacidades de ChatGPT y ofrece nuevas experiencias a los usuarios.",
-      "sector_impact": "Streaming y tecnología de chatbots."
-    },
-    {
-      "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
-      "summary": "Lanzamiento beta de Deep Agents deploy, una herramienta de implementación rápida y open source para agentes de IA.",
+      "title": "Human judgment in the agent improvement loop",
+      "summary": "Los agentes de IA funcionan mejor cuando reflejan el conocimiento y juicio de su equipo.",
       "category": "tool",
       "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
-      "relevance_score": 8,
+      "source_url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
+      "relevance_score": 10,
       "status": "new",
       "tags": [
         "agentes",
-        "open source",
-        "implementación"
+        "mejora",
+        "conocimiento"
       ],
-      "what_changed": "Introducción de una alternativa abierta para el manejo de agentes AI.",
-      "why_it_matters": "Facilita la implementación de agentes IA en entornos de producción.",
-      "sector_impact": "Desarrollo de software y automatización."
+      "what_changed": "Se destaca la importancia de la experiencia humana en la mejora de agentes.",
+      "why_it_matters": "Incorpora el conocimiento tácito de los empleados, mejorando así la efectividad de los agentes.",
+      "sector_impact": "Aumenta la eficiencia operativa en organizaciones que utilizan IA."
     },
     {
-      "title": "Arcade.dev tools now in LangSmith Fleet",
-      "summary": "Arcade proporciona una colección de herramientas optimizadas para agentes a través de un acceso seguro y único.",
+      "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+      "summary": "Innovaciones en el aprendizaje práctico para agentes de IA.",
       "category": "tool",
-      "source_name": "LangChain",
-      "source_url": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Arcade",
-        "herramientas",
-        "integración"
-      ],
-      "what_changed": "Integración de herramientas en LangSmith Fleet.",
-      "why_it_matters": "Mejora la funcionalidad y efectividad de los agentes en producción.",
-      "sector_impact": "Productividad empresarial."
-    },
-    {
-      "title": "ChatGPT finally offers $100/month Pro plan",
-      "summary": "OpenAI lanza un plan Pro para ChatGPT a $100 al mes, haciendo accesibles características avanzadas para usuarios intensivos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "suscripción",
-        "plan"
-      ],
-      "what_changed": "Introducción de un nuevo plan de suscripción.",
-      "why_it_matters": "Ofrece opciones más flexibles para usuarios avanzados.",
-      "sector_impact": "Mercado de aplicaciones y suscripciones."
-    },
-    {
-      "title": "Poke makes using AI agents as easy as sending a text",
-      "summary": "Poke simplifica el uso de agentes de IA a través de mensajes de texto, facilitando tareas sin necesidad de configuraciones complicadas.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "automatización",
-        "texto"
-      ],
-      "what_changed": "Lanzamiento de una plataforma accesible para usuarios diarios.",
-      "why_it_matters": "Democratiza el acceso a la tecnología de agentes IA.",
-      "sector_impact": "Tecnología y usuario final."
-    },
-    {
-      "title": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support",
-      "summary": "Workbench de Astropad permite controlar agentes de IA en Mac Minis desde dispositivos móviles con baja latencia.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "control remoto",
-        "tecnología"
-      ],
-      "what_changed": "Nuevo enfoque en la gestión de agentes IA a través de desktop remoto.",
-      "why_it_matters": "Mejora la gestión y control de agentes IA de manera eficiente.",
-      "sector_impact": "Tecnología de escritorio y administración de IA."
-    },
-    {
-      "title": "Sierra’s Bret Taylor says the era of clicking buttons is over",
-      "summary": "Lanzamiento de Ghostwriter, un agente diseñado para crear otros agentes mediante lenguaje natural, eliminando la necesidad de hacer clic.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "agentes",
-        "automación",
-        "interfaz"
+        "aprendizaje",
+        "IA",
+        "agentes"
       ],
-      "what_changed": "Introducción de un nuevo paradigma para la creación de agentes.",
-      "why_it_matters": "Revoluciona la forma en que interactuamos con la tecnología.",
-      "sector_impact": "Interacción usuario-tecnología."
+      "what_changed": "Presentación de un nuevo método de aprendizaje sobre el trabajo.",
+      "why_it_matters": "Mejora la adaptabilidad y desempeño de los agentes de IA.",
+      "sector_impact": "Impulsa la productividad en diversos sectores mediante capacitación continua."
+    },
+    {
+      "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+      "summary": "Se presenta cómo las evals pueden optimizar la construcción de mejores harnesses para agentes.",
+      "category": "framework",
+      "source_name": "LangChain",
+      "source_url": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "framework",
+        "mejora",
+        "agentes"
+      ],
+      "what_changed": "Se introducen técnicas de 'hill-climbing' para mejorar los harnesses.",
+      "why_it_matters": "Permite a los desarrolladores crear agentes más eficientes.",
+      "sector_impact": "Optimiza el desarrollo de herramientas de IA en múltiples industrias."
+    },
+    {
+      "title": "Google and Intel deepen AI infrastructure partnership",
+      "summary": "Colaboración entre Google e Intel para co-desarrollar chips personalizados.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
+      "relevance_score": 2,
+      "status": "new",
+      "tags": [
+        "IA",
+        "infraestructura",
+        "chips"
+      ],
+      "what_changed": "Fortalecen su colaboración ante la alta demanda de recursos de computación.",
+      "why_it_matters": "Responde a la creciente necesidad de soluciones informáticas efectivas.",
+      "sector_impact": "Puede mejorar el desarrollo de tecnologías de IA a nivel global."
     }
   ]
 }

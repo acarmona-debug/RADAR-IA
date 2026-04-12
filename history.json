@@ -1,6 +1,80 @@
 {
   "days": [
     {
+      "date": "2026-04-12",
+      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+      "items": [
+        {
+          "title": "Human judgment in the agent improvement loop",
+          "summary": "Los agentes de IA funcionan mejor cuando reflejan el conocimiento y juicio de su equipo.",
+          "category": "tool",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "mejora",
+            "conocimiento"
+          ],
+          "what_changed": "Se destaca la importancia de la experiencia humana en la mejora de agentes.",
+          "why_it_matters": "Incorpora el conocimiento tácito de los empleados, mejorando así la efectividad de los agentes.",
+          "sector_impact": "Aumenta la eficiencia operativa en organizaciones que utilizan IA."
+        },
+        {
+          "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+          "summary": "Innovaciones en el aprendizaje práctico para agentes de IA.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "aprendizaje",
+            "IA",
+            "agentes"
+          ],
+          "what_changed": "Presentación de un nuevo método de aprendizaje sobre el trabajo.",
+          "why_it_matters": "Mejora la adaptabilidad y desempeño de los agentes de IA.",
+          "sector_impact": "Impulsa la productividad en diversos sectores mediante capacitación continua."
+        },
+        {
+          "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+          "summary": "Se presenta cómo las evals pueden optimizar la construcción de mejores harnesses para agentes.",
+          "category": "framework",
+          "source_name": "LangChain",
+          "source_url": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "framework",
+            "mejora",
+            "agentes"
+          ],
+          "what_changed": "Se introducen técnicas de 'hill-climbing' para mejorar los harnesses.",
+          "why_it_matters": "Permite a los desarrolladores crear agentes más eficientes.",
+          "sector_impact": "Optimiza el desarrollo de herramientas de IA en múltiples industrias."
+        },
+        {
+          "title": "Google and Intel deepen AI infrastructure partnership",
+          "summary": "Colaboración entre Google e Intel para co-desarrollar chips personalizados.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [
+            "IA",
+            "infraestructura",
+            "chips"
+          ],
+          "what_changed": "Fortalecen su colaboración ante la alta demanda de recursos de computación.",
+          "why_it_matters": "Responde a la creciente necesidad de soluciones informáticas efectivas.",
+          "sector_impact": "Puede mejorar el desarrollo de tecnologías de IA a nivel global."
+        }
+      ]
+    },
+    {
       "date": "2026-04-11",
       "executive_title": "Radar diario de IA - Herramientas y Modelos",
       "items": [
@@ -758,95 +832,6 @@
           "what_changed": "Desarrollo de un análisis de descomposición de etapas en ataques de inyección.",
           "why_it_matters": "Proporciona una mejor comprensión y defensa contra inyecciones en modelos de IA.",
           "sector_impact": "Aumenta la resiliencia de los sistemas de IA contra ataques."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-05",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Nueva integración de NVIDIA en LangChain",
-          "summary": "LangChain ha anunciado su integración con NVIDIA y el lanzamiento de LangSmith Fleet, anteriormente conocido como Agent Builder.",
-          "category": "framework",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/march-2026-langchain-newsletter/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "integración",
-            "NVIDIA",
-            "LangChain"
-          ],
-          "what_changed": "Incorporación de nuevas funcionalidades de NVIDIA.",
-          "why_it_matters": "Optimiza el desarrollo de agentes con capacidades avanzadas.",
-          "sector_impact": "Desarrollo de software y automatización"
-        },
-        {
-          "title": "Nuevas capacidades de video en Google Vids",
-          "summary": "Google Vids introduce capacidades de IA para crear, editar y compartir videos, sin costo adicional.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "video",
-            "creación",
-            "IA"
-          ],
-          "what_changed": "Generación de videos de alta calidad sin costo.",
-          "why_it_matters": "Permite a los usuarios crear contenido atractivo fácilmente.",
-          "sector_impact": "Marketing y creación de contenido"
-        },
-        {
-          "title": "Claude Code y OpenClaw: Nuevos costos para suscriptores",
-          "summary": "Los suscriptores de Claude Code deberán pagar un extra por el uso de OpenClaw y otras herramientas de terceros.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "OpenClaw"
-          ],
-          "what_changed": "Incremento de costos para usuarios de Claude Code.",
-          "why_it_matters": "Impacta el costo de operación para empresas que utilizan estos modelos.",
-          "sector_impact": "Desarrollo y programática"
-        },
-        {
-          "title": "Sistema de auto-sanación de agentes en producción",
-          "summary": "Desarrollo de un pipeline de despliegue que permite a los agentes auto-sanarse después de cada despliegue.",
-          "category": "tool",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/production-agents-self-heal/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "auto-sanación",
-            "agentes"
-          ],
-          "what_changed": "Implementación de un sistema autónomo para corregir errores.",
-          "why_it_matters": "Aumenta la eficiencia y reduce la intervención manual en la resolución de problemas.",
-          "sector_impact": "Automatización y operaciones"
-        },
-        {
-          "title": "Google permite dirigir avatares en su aplicación Vids",
-          "summary": "Nuevas funciones para personalizar y dirigir avatares en la creación de videos en Google Vids.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "video",
-            "avatares",
-            "interacción"
-          ],
-          "what_changed": "Funcionalidad para personalizar avatares durante la creación de contenido.",
-          "why_it_matters": "Mejora la experiencia del usuario y la interacción con el contenido.",
-          "sector_impact": "Creatividad y entretenimiento"
         }
       ]
     }
