@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-04-14",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Disambiguation-Centric Finetuning Makes Enterprise Tool-Calling LLMs More Realistic and Less Risky",
+          "summary": "arXiv:2507.03336v4 Announce Type: replace Abstract: Large language models (LLMs) are increasingly tasked with invoking enterprise APIs, yet they routinely falter when near-duplicate tools vie for the same user intent or when required arguments are left underspecified. We introduce DiaFORGE (Dialogue Framework for Organic Response Generation & Evaluation), a disambiguation-centric, three-stage pipeline that (i) synthesizes persona-driven, multi-turn dialogues in which the assistant must distinguish among highly similar tools, (ii) performs supervised fine-tuning of open-source models with reasoning traces across 3B - 70B parameters, and (iii) evaluates real-world readiness via a dynamic suite that redeploys each model in a live agentic loop and reports end-to-end goal completion alongside conventional static metrics. On our dynamic benchmark DiaBENCH, models trained with DiaFORGE raise tool-invocation success by 27 pp over GPT-4o and by 49 pp over Claude-3.5-Sonnet, both under optimized prompting. To spur further research, we release an open corpus of 5000 production-grade enterprise API specifications paired with rigorously validated, disambiguation-focused dialogues, offering a practical blueprint for building reliable, enterprise-ready tool-calling agents.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2507.03336",
+          "relevance_score": 43,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "From GPT-3 to GPT-5: Mapping their capabilities, scope, limitations, and consequences",
+          "summary": "arXiv:2604.10332v1 Announce Type: new Abstract: We present the progress of the GPT family from GPT-3 through GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4.1, and the GPT-5 family. Our work is comparative rather than merely historical. We investigates how the family evolved in technical framing, user interaction, modality, deployment architecture, and governance viewpoint. The work focuses on five recurring themes: technical progression, capability changes, deployment shifts, persistent limitations, and downstream consequences. In term of research design, we consider official technical reports, system cards, API and model documentation, product announcements, release notes, and peer-reviewed secondary studies. A primary assertion is that later GPT generations should not be interpreted only as larger or more accurate language models. Instead, the family evolves from a scaled few-shot text predictor into a set of aligned, multimodal, tool-oriented, long-context, and increasingly workflow-integrated systems. This development complicates simple model-to-model comparison because product routing, tool access, safety tuning, and interface design become part of the effective system. Across generations, several limitations remain unchanged: hallucination, prompt sensitivity, benchmark fragility, uneven behavior across domains and populations, and incomplete public transparency about architecture and training. However, the family has evolved software development, educational practice, information work, interface design, and discussions of frontier-model governance. We infer that the transition from GPT-3 to GPT-5 is best understood not only as an improvement in model capability, but also as a broader reformulation of what a deployable AI system is, how it is evaluated, and where responsibility should be located when such systems are used at scale.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.10332",
+          "relevance_score": 37,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents",
+          "summary": "arXiv:2604.11557v1 Announce Type: new Abstract: Tool-use capability is a fundamental component of LLM agents, enabling them to interact with external systems through structured function calls. However, existing research exhibits inconsistent interaction representations, largely overlooks the structural distribution of tool-use trajectories, and relies on incompatible evaluation benchmarks. We present UniToolCall, a unified framework for tool learning that standardizes the entire pipeline from toolset construction and dataset generation to evaluation. The framework curates a large tool pool of 22k+ tools and constructs a hybrid training corpus of 390k+ instances by combining 10 standardized public datasets with structurally controlled synthetic trajectories. It explicitly models diverse interaction patterns, including single-hop vs. multi-hop and single-turn vs. multi-turn, while capturing both serial and parallel execution structures. To support coherent multi-turn reasoning, we further introduce an Anchor Linkage mechanism that enforces cross-turn dependencies. Furthermore, we convert 7 public benchmarks into a unified Query--Action--Observation--Answer (QAOA) representation with fine-grained evaluation at the function-call, turn, and conversation levels. Experiments show that fine-tuning Qwen3-8B on our dataset substantially improves tool-use performance. Under the distractor-heavy Hybrid-20 setting, achieves 93.0% single-turn Strict Precision, outperforming commercial models including GPT, Gemini, and Claude.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.11557",
+          "relevance_score": 35,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "AOP-Smart: A RAG-Enhanced Large Language Model Framework for Adverse Outcome Pathway Analysis",
+          "summary": "arXiv:2604.10874v1 Announce Type: cross Abstract: Adverse Outcome Pathways (AOPs) are an important knowledge framework in toxicological research and risk assessment. In recent years, large language models (LLMs) have gradually been applied to AOP-related question answering and mechanistic reasoning tasks. However, due to the existence of the hallucination problem, that is, the model may generate content that is inconsistent with facts or lacks evidence, their reliability is still limited. To address this issue, this study proposes an AOP-oriented Retrieval-Augmented Generation (RAG) framework, AOP-Smart. Based on the official XML data from AOP-Wiki, this method uses Key Events (KEs), Key Event Relationships (KERs), and specific AOP information to retrieve relevant knowledge for user questions, thereby improving the reliability of the generated results of large language models. To evaluate the effectiveness of the proposed method, this study constructed a test set containing 20 AOP-related question answering tasks, covering KE identification, upstream and downstream KE retrieval, and complex AOP retrieval tasks. Experiments were conducted on three mainstream large language models, Gemini, DeepSeek, and ChatGPT, and comparative tests were performed under two settings: without RAG and with RAG. The experimental results show that, without using RAG, the accuracies of GPT, DeepSeek, and Gemini were 15.0\\%, 35.0\\%, and 20.0\\%, respectively; after using RAG, their accuracies increased to 95.0\\%, 100.0\\%, and 95.0\\%, respectively. The results indicate that AOP-Smart can significantly alleviate the hallucination problem of large language models in AOP knowledge tasks, and greatly improve the accuracy and consistency of their answers.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.10874",
+          "relevance_score": 35,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Do LLMs Build Spatial World Models? Evidence from Grid-World Maze Tasks",
+          "summary": "arXiv:2604.10690v1 Announce Type: new Abstract: Foundation models have shown remarkable performance across diverse tasks, yet their ability to construct internal spatial world models for reasoning and planning remains unclear. We systematically evaluate the spatial understanding of large language models through maze tasks, a controlled testing context requiring multi-step planning and spatial abstraction. Across comprehensive experiments with Gemini-2.5-Flash, GPT-5-mini, Claude-Haiku-4.5, and DeepSeek-Chat, we uncover significant discrepancies in spatial reasoning that challenge assumptions about LLM planning capabilities. Using chain-of-thought prompting, Gemini achieves 80-86% accuracy on smaller mazes (5x5 to 7x7 grids) with tokenized adjacency representations, but performance collapses to 16-34% with visual grid formats, which is a 2-5x difference, suggesting representation-dependent rather than format-invariant spatial reasoning. We further probe spatial understanding through sequential proximity questions and compositional distance comparisons. Despite achieving 96-99% semantic coverage in reasoning traces, models fail to leverage this understanding for consistent spatial computations, indicating that they treat each question independently rather than building cumulative spatial knowledge. Our findings based on the maze-solving tasks suggest that LLMs do not develop robust spatial world models, but rather exhibit representation-specific and prompting-dependent reasoning that succeeds only under narrow conditions. These results have critical implications for deploying foundation models in applications requiring spatial abstraction.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.10690",
+          "relevance_score": 34,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "BankerToolBench: Evaluating AI Agents in End-to-End Investment Banking Workflows",
+          "summary": "arXiv:2604.11304v1 Announce Type: new Abstract: Existing AI benchmarks lack the fidelity to assess economically meaningful progress on professional workflows. To evaluate frontier AI agents in a high-value, labor-intensive profession, we introduce BankerToolBench (BTB): an open-source benchmark of end-to-end analytical workflows routinely performed by junior investment bankers. To develop an ecologically valid benchmark grounded in representative work environments, we collaborated with 502 investment bankers from leading firms. BTB requires agents to execute senior banker requests by navigating data rooms, using industry tools (market data platform, SEC filings database), and generating multi-file deliverables--including Excel financial models, PowerPoint pitch decks, and PDF/Word reports. Completing a BTB task takes bankers up to 21 hours, underscoring the economic stakes of successfully delegating this work to AI. BTB enables automated evaluation of any LLM or agent, scoring deliverables against 100+ rubric criteria defined by veteran investment bankers to capture stakeholder utility. Testing 9 frontier models, we find that even the best-performing model (GPT-5.4) fails nearly half of the rubric criteria and bankers rate 0% of its outputs as client-ready. Our failure analysis reveals key obstacles (such as breakdowns in cross-artifact consistency) and improvement directions for agentic AI in high-stakes professional workflows.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.11304",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Intersectional Sycophancy: How Perceived User Demographics Shape False Validation in Large Language Models",
+          "summary": "arXiv:2604.11609v1 Announce Type: new Abstract: Large language models exhibit sycophantic tendencies--validating incorrect user beliefs to appear agreeable. We investigate whether this behavior varies systematically with perceived user demographics, testing whether combinations of race, age, gender, and expressed confidence level produce differential false validation rates. Inspired by the legal concept of intersectionality, we conduct 768 multi-turn adversarial conversations using Anthropic's Petri evaluation framework, probing GPT-5-nano and Claude Haiku 4.5 across 128 persona combinations in mathematics, philosophy, and conspiracy theory domains. GPT-5-nano is significantly more sycophantic than Claude Haiku 4.5 overall ($\\bar{x}=2.96$ vs. $1.74$, $p < 10^{-32}$, Wilcoxon signed-rank). For GPT-5-nano, we find that philosophy elicits 41% more sycophancy than mathematics and that Hispanic personas receive the highest sycophancy across races. The worst-scoring persona, a confident, 23-year-old Hispanic woman, averages 5.33/10 on sycophancy. Claude Haiku 4.5 exhibits uniformly low sycophancy with no significant demographic variation. These results demonstrate that sycophancy is not uniformly distributed across users and that safety evaluations should incorporate identity-aware testing.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.11609",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Hunt Globally: Wide Search AI Agents for Drug Asset Scouting in Investing, Business Development, and Competitive Intelligence",
+          "summary": "arXiv:2602.15019v3 Announce Type: replace Abstract: Bio-pharmaceutical innovation has shifted: many new drug assets now originate outside the United States and are disclosed primarily via regional, non-English channels. Recent data suggests that over 85% of patent filings originate outside the U.S., with China accounting for nearly half of the global total. A growing share of scholarly output is also non-U.S. Industry estimates put China at 30% of global drug development, spanning 1,200+ novel candidates. In this high-stakes environment, failing to surface \"under-the-radar\" assets creates multi-billion-dollar risk for investors and business development teams, making asset scouting a coverage-critical competition where speed and completeness drive value. Yet today's Deep Research AI agents still lag human experts in achieving high recall discovery across heterogeneous, multilingual sources without hallucination. We propose a benchmarking methodology for drug asset scouting and a tuned, tree-based self-learning Bioptic Agent aimed at complete, non-hallucinated scouting. We construct a challenging completeness benchmark using a multilingual multi-agent pipeline: complex user queries paired with ground-truth assets that are largely outside U.S.-centric radar. To reflect real-deal complexity, we collected screening queries from expert investors, BD, and VC professionals and used them as priors to conditionally generate benchmark queries. For grading, we use LLM-as-judge evaluation calibrated to expert opinions. On this benchmark, our Bioptic Agent achieves 79.7% F1 score, outperforming Claude Opus 4.6 (56.2%), Gemini 3 Pro + Deep Research (50.6%), OpenAI GPT-5.2 Pro (46.6%), Perplexity Deep Research (44.2%), and Exa Websets (26.9%). Performance improves steeply with additional compute, supporting the view that more compute yields better results.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.15019",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-04-13",
       "executive_title": "Radar IA del día",
       "items": [
@@ -681,142 +791,6 @@
           "what_changed": "Facilita la integración de diversos métodos en un flujo de trabajo cohesivo.",
           "why_it_matters": "Optimiza la investigación en química computacional y materiales.",
           "sector_impact": "Aumenta la eficiencia en la exploración y descubrimiento científico."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-07",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise Workflows",
-          "summary": "Un benchmark para evaluar agentes en flujos de trabajo de finanzas y contabilidad utilizando datos reales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.13168",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmarking",
-            "finanzas",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un benchmark que integra flujos de trabajo reales de finanzas.",
-          "why_it_matters": "Provee un estándar de comparación para evaluar agentes en escenarios de finanzas reales.",
-          "sector_impact": "Mejorará el rendimiento de agentes en entornos financieros complejos."
-        },
-        {
-          "title": "Context Engineering: A Practitioner Methodology for Structured Human-AI Collaboration",
-          "summary": "Una metodología estructurada para ensamblar y declarar el contexto que acompaña un prompt a una herramienta de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.04258",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "metodología",
-            "colaboración"
-          ],
-          "what_changed": "Introducción de una estructura de paquetes de contexto para optimizar la colaboración entre humanos e IA.",
-          "why_it_matters": "Mejora la calidad de salida de los modelos de IA al proporcionar contexto completo.",
-          "sector_impact": "Aumentará la eficiencia en tareas que requieren interacción con IA."
-        },
-        {
-          "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
-          "summary": "Exploración del potencial de LLMs para simplificar la programación y automatización de instrumentos científicos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.03286",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "laboratorio"
-          ],
-          "what_changed": "Demostración de cómo LLMs pueden automatizar el control de instrumentos de laboratorio.",
-          "why_it_matters": "Reduce la barrera técnica para investigadores sin habilidades de programación.",
-          "sector_impact": "Acelera el progreso científico y democratiza el acceso a la automatización en investigación."
-        },
-        {
-          "title": "Single-agent vs. Multi-agents for Automated Video Analysis of On-Screen Collaborative Learning Behaviors",
-          "summary": "Comparación de sistemas multi-agente y un solo agente para el análisis automatizado de comportamientos colaborativos en video.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.03631",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "video análisis",
-            "comportamiento",
-            "colaboración"
-          ],
-          "what_changed": "Presentación de nuevos marcos multi-agente para detectar comportamientos en clases en tiempo real.",
-          "why_it_matters": "Comparación de sistemas multi-agente y un solo agente para el análisis automatizado de comportamientos colaborativos en video.",
-          "sector_impact": "Aumenta la efectividad de las plataformas educativas en el análisis del aprendizaje."
-        },
-        {
-          "title": "Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw",
-          "summary": "Análisis de seguridad del agente de IA OpenClaw en escenarios del mundo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.04759",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de la taxonomía CIK para analizar la seguridad de agentes de IA.",
-          "why_it_matters": "Análisis de seguridad del agente de IA OpenClaw en escenarios del mundo real.",
-          "sector_impact": "Impulsa la creación de protocolos de seguridad más robustos."
-        },
-        {
-          "title": "GPA: Learning GUI Process Automation from Demonstrations",
-          "summary": "Automatización de procesos GUI mediante un enfoque basado en demostraciones únicas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.01676",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "RPA"
-          ],
-          "what_changed": "Introducción de un nuevo método para la automatización de procesos GUI robustos.",
-          "why_it_matters": "Automatización de procesos GUI mediante un enfoque basado en demostraciones únicas.",
-          "sector_impact": "Incrementa la eficiencia en entornos empresariales con flujos de trabajo automatizados."
-        },
-        {
-          "title": "UtilityMax Prompting: A Formal Framework for Multi-Objective Large Language Model Optimization",
-          "summary": "Marco formal para optimizar modelos de lenguaje para múltiples objetivos mediante lenguaje matemático.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11583",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "modelos de lenguaje"
-          ],
-          "what_changed": "Introducción de un enfoque formal para mejorar la precisión de modelos de lenguaje.",
-          "why_it_matters": "Marco formal para optimizar modelos de lenguaje para múltiples objetivos mediante lenguaje matemático.",
-          "sector_impact": "Aumenta la aplicabilidad de LLM en entornos industriales."
-        },
-        {
-          "title": "Mapping the Exploitation Surface: A 10,000-Trial Taxonomy of What Makes LLM Agents Exploit Vulnerabilities",
-          "summary": "Taxonomía sistemática para entender cómo los agentes de LLM pueden explotar vulnerabilidades.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.04561",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "vulnerabilidades"
-          ],
-          "what_changed": "Análisis profundo de condiciones que permiten la explotación por parte de agentes LLM.",
-          "why_it_matters": "Taxonomía sistemática para entender cómo los agentes de LLM pueden explotar vulnerabilidades.",
-          "sector_impact": "Aumenta la seguridad en aplicaciones de IA en entornos críticos."
         }
       ]
     }
