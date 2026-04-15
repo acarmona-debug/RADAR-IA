@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-04-15",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Horizon: Diagnóstico de Sistemas Agentes a Largo Plazo",
+          "summary": "Se presenta HORIZON, un benchmark diagnóstico para evaluar el desempeño de sistemas de LLM en tareas de largo plazo, con el fin de identificar patrones de degradación y mejorar la fiabilidad.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.11978",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "long-horizon",
+            "diagnóstico",
+            "agentes"
+          ],
+          "what_changed": "Se introdujo un benchmark diagnóstico.",
+          "why_it_matters": "Proporciona herramientas para definir y medir el rendimiento de agentes LLM en tareas complejas.",
+          "sector_impact": "Mejora el desarrollo de sistemas que requieren planificación a largo plazo."
+        },
+        {
+          "title": "Auto-Diagnose: Diagnóstico Automatizado de Fallos en Pruebas de Integración",
+          "summary": "Auto-Diagnose utiliza LLMs para ayudar a los desarrolladores a identificar eficientemente las causas de fallos en pruebas de integración, mejorando así la calidad del software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.12108",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "diagnóstico",
+            "desarrollo de software",
+            "herramienta"
+          ],
+          "what_changed": "Se creó una herramienta de diagnóstico basada en LLMs.",
+          "why_it_matters": "Reduce significativamente el tiempo necesario para diagnosticar fallos, mejorando la productividad de los desarrolladores.",
+          "sector_impact": "Aumenta la calidad del desarrollo de software."
+        },
+        {
+          "title": "KG-Hopper: Razonamiento Basado en Grafos de Conocimiento",
+          "summary": "KG-Hopper es un marco de aprendizaje por refuerzo que permite realizar razonamientos integrados basados en grafos de conocimiento usando LLMs compactos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.21440",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "razonamiento",
+            "grafos de conocimiento",
+            "LLMs"
+          ],
+          "what_changed": "Se introdujo un nuevo marco de razonamiento para LLMs.",
+          "why_it_matters": "Mejora la capacidad de razonamiento en tareas complejas utilizando modelos de lenguaje de menor tamaño.",
+          "sector_impact": "Optimiza el uso de modelos ligeros en aplicaciones de razonamiento intensivo."
+        },
+        {
+          "title": "ALL-FEM: Modelos de Lenguaje Agentes para Métodos de Elementos Finitos",
+          "summary": "ALL-FEM combina AI agente con LLMs ajustados específicamente para la generación de códigos de elementos finitos, mejorando la simulación en ingeniería.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.21011",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "elementos finitos",
+            "simulación",
+            "ingeniería"
+          ],
+          "what_changed": "Se presentó un sistema de simulación autónoma para la ingeniería.",
+          "why_it_matters": "Automatiza los flujos de trabajo de simulación, reduciendo la necesidad de codificación manual.",
+          "sector_impact": "Deja a los ingenieros enfocarse en el diseño innovador al simplificar los procesos técnicos."
+        },
+        {
+          "title": "IDEA: Marco Decisional Interpretable para LLMs",
+          "summary": "IDEA es un marco que permite calibrar probabilidades y facilitar la colaboración humano-IA, mejorando la confianza en decisiones críticas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.12573",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "decisiones",
+            "calibración",
+            "LLMs"
+          ],
+          "what_changed": "Se lanzó un nuevo marco de calibración.",
+          "why_it_matters": "Facilita el uso de LLMs en entornos donde la precisión y la interpretabilidad son cruciales.",
+          "sector_impact": "Aumenta la adopción de IA en sectores críticos como la sanidad y la banca."
+        },
+        {
+          "title": "Hubble: Un Marco para el Descubrimiento de Factores en Finanzas",
+          "summary": "Hubble es un marco que combina LLMs con un lenguaje de operador específico para descubrir factores financieros de manera segura y eficiente.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.09601",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "finanzas",
+            "descubrimiento de factores",
+            "herramienta"
+          ],
+          "what_changed": "Se introdujo un nuevo marco para la búsqueda de factores en finanzas.",
+          "why_it_matters": "Hubble es un marco que combina LLMs con un lenguaje de operador específico para descubrir factores financieros de manera segura y eficiente.",
+          "sector_impact": "Mejora las estrategias de inversión y análisis del mercado."
+        },
+        {
+          "title": "Frontier-Eng: Benchmark para Agentes de Ingeniería",
+          "summary": "Frontier-Eng establece un nuevo estándar para evaluar la capacidad de los agentes de IA en problemas de ingeniería mediante optimización generativa.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.12290",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ingeniería",
+            "benchmark",
+            "agentes"
+          ],
+          "what_changed": "Se lanzó un nuevo benchmark para evaluar agentes de IA en ingeniería.",
+          "why_it_matters": "Frontier-Eng establece un nuevo estándar para evaluar la capacidad de los agentes de IA en problemas de ingeniería mediante optimización generativa.",
+          "sector_impact": "Avanza la capacidad de la IA para resolver problemas de ingeniería complejos."
+        }
+      ]
+    },
+    {
       "date": "2026-04-14",
       "executive_title": "Radar IA del día",
       "items": [
@@ -668,129 +793,6 @@
           "what_changed": "Implementación de métodos para filtrar y evolucionar el contexto de generación.",
           "why_it_matters": "Mejora la calidad y variedad de los datos generados por LLM.",
           "sector_impact": "Optimiza el uso de LLM en aplicaciones de generación de datos."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-08",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Deep Researcher Agent: Un Marco Autónomo para Experimentación en Aprendizaje Profundo",
-          "summary": "Un marco de código abierto que permite a los agentes de LLM realizar experimentos de aprendizaje profundo de forma autónoma.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.05854",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "autonomía",
-            "aprendizaje profundo",
-            "eficiencia"
-          ],
-          "what_changed": "Introduce un enfoque de monitoreo sin costo durante el entrenamiento del modelo.",
-          "why_it_matters": "Permite experimentos constantes y reduce costos operativos, impulsando la investigación de IA.",
-          "sector_impact": "Acelera el desarrollo de modelos de aprendizaje profundo, impactando múltiples industrias."
-        },
-        {
-          "title": "Graph of Skills: Recuperación Estructural para Habilidades de Agentes",
-          "summary": "Una capa de recuperación estructural que mejora la capacidad de los agentes para completar tareas complejas mediante la optimización del uso de habilidades.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.05333",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "habilidades",
-            "agentes",
-            "eficiencia"
-          ],
-          "what_changed": "Mejora la eficiencia de la carga de habilidades y reduce los costos de tokens.",
-          "why_it_matters": "Incrementa la capacidad de los agentes para realizar tareas complejas con menos recursos.",
-          "sector_impact": "Transforma la forma en que los agentes interactúan con entornos diversos."
-        },
-        {
-          "title": "CritBench: Un Marco para Evaluar Capacidades de Ciberseguridad de Modelos de Lenguaje",
-          "summary": "Un nuevo marco que evalúa las capacidades de ciberseguridad de modelos de lenguaje en entornos industriales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.06019",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "modelos de lenguaje"
-          ],
-          "what_changed": "Proporciona herramientas específicas para la interacción con protocolos industriales.",
-          "why_it_matters": "Ayuda a mitigar riesgos de seguridad en infraestructuras tecnológicas críticas.",
-          "sector_impact": "Aumenta la confianza en la implementación de LLM en entornos sensibles."
-        },
-        {
-          "title": "CODESTRUCT: Agentes de Código sobre Espacios de Acción Estructurados",
-          "summary": "Proposta un marco donde agentes de código operan sobre entidades sintácticas en lugar de texto plano.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.05407",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes de código",
-            "eficiencia"
-          ],
-          "what_changed": "Reestructura el enfoque para mejorar la precisión y reducir el consumo de tokens.",
-          "why_it_matters": "Proporciona una base más confiable para la interacción con el código.",
-          "sector_impact": "Optimiza el desarrollo y mantenimiento de software."
-        },
-        {
-          "title": "MM-tau-p$^2$: Evaluación de Agentes Multi-Modal en Configuraciones de Doble Control",
-          "summary": "Un nuevo marco para evaluar la robustez de agentes multi-modales adaptándose a las personalidades de los usuarios.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.09643",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "multi-modal",
-            "interacción"
-          ],
-          "what_changed": "Introduce métricas para evaluar la adaptación de personas en agentes multi-modales.",
-          "why_it_matters": "Mejora la calidad de las interacciones entre usuarios y agentes.",
-          "sector_impact": "Impulsa la personalización y efectividad en la experiencia del usuario."
-        },
-        {
-          "title": "SUMMIR: Un Marco Consciente de Alucinaciones para Clasificación de Insights Deportivos",
-          "summary": "Propuesta de un marco que genera automáticamente insights a partir de artículos de deportes, evaluando su precisión.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.04947",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "deportes",
-            "insights",
-            "automación"
-          ],
-          "what_changed": "Utiliza un enfoque de validación de precisión para asegurar la calidad de los insights.",
-          "why_it_matters": "Aumenta la relevancia y calidad de la información generada automáticamente.",
-          "sector_impact": "Transforma el periodismo deportivo y la interacción con usuarios."
-        },
-        {
-          "title": "QUASAR: Un Sistema Universal Autónomo para Simulación Atomística",
-          "summary": "Introducción de un sistema que orquesta flujos de trabajo complejos en simulaciones científicas sin intervención humana.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.00185",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "ciencia",
-            "automatización"
-          ],
-          "what_changed": "Facilita la integración de diversos métodos en un flujo de trabajo cohesivo.",
-          "why_it_matters": "Optimiza la investigación en química computacional y materiales.",
-          "sector_impact": "Aumenta la eficiencia en la exploración y descubrimiento científico."
         }
       ]
     }
