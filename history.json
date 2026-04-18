@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-04-18",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "New ways to create personalized images in the Gemini app",
+          "summary": "Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
+          "category": "labs",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+          "relevance_score": 14,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Turn your best AI prompts into one-click tools in Chrome",
+          "summary": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
+          "category": "labs",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Tokenmaxxing, OpenAI’s shopping spree, and the AI Anxiety Gap",
+          "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly …but apparently not too […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Are we tokenmaxxing our way to nowhere?",
+          "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly …but apparently not too […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Anthropic CPO leaves Figma’s board after reports he will offer a competing product",
+          "summary": "Krieger's departure and any forthcoming design tools will be another data point for investors who fear the SaaSpocalypse — that the largest AI labs will come to dominate software businesses, a thesis that has rocked public markets at times this year.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+          "summary": "Gemini 3.1 Flash TTS is now available across Google products.",
+          "category": "labs",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
+          "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "7 ways to travel smarter this summer, with help from Google",
+          "summary": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+          "category": "labs",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-04-17",
       "executive_title": "Radar IA del día",
       "items": [
@@ -644,131 +754,6 @@
           "what_changed": "Fortalecen su colaboración ante la alta demanda de recursos de computación.",
           "why_it_matters": "Responde a la creciente necesidad de soluciones informáticas efectivas.",
           "sector_impact": "Puede mejorar el desarrollo de tecnologías de IA a nivel global."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-11",
-      "executive_title": "Radar diario de IA - Herramientas y Modelos",
-      "items": [
-        {
-          "title": "Tubi is the first streamer to launch a native app within ChatGPT",
-          "summary": "Tubi integra su aplicación directamente en ChatGPT, permitiendo a los usuarios acceder a sus servicios de streaming mediante el chatbot.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "streaming",
-            "integración"
-          ],
-          "what_changed": "Lanzamiento de una nueva app nativa en ChatGPT.",
-          "why_it_matters": "Amplía las capacidades de ChatGPT y ofrece nuevas experiencias a los usuarios.",
-          "sector_impact": "Streaming y tecnología de chatbots."
-        },
-        {
-          "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
-          "summary": "Lanzamiento beta de Deep Agents deploy, una herramienta de implementación rápida y open source para agentes de IA.",
-          "category": "tool",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "open source",
-            "implementación"
-          ],
-          "what_changed": "Introducción de una alternativa abierta para el manejo de agentes AI.",
-          "why_it_matters": "Facilita la implementación de agentes IA en entornos de producción.",
-          "sector_impact": "Desarrollo de software y automatización."
-        },
-        {
-          "title": "Arcade.dev tools now in LangSmith Fleet",
-          "summary": "Arcade proporciona una colección de herramientas optimizadas para agentes a través de un acceso seguro y único.",
-          "category": "tool",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Arcade",
-            "herramientas",
-            "integración"
-          ],
-          "what_changed": "Integración de herramientas en LangSmith Fleet.",
-          "why_it_matters": "Mejora la funcionalidad y efectividad de los agentes en producción.",
-          "sector_impact": "Productividad empresarial."
-        },
-        {
-          "title": "ChatGPT finally offers $100/month Pro plan",
-          "summary": "OpenAI lanza un plan Pro para ChatGPT a $100 al mes, haciendo accesibles características avanzadas para usuarios intensivos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "suscripción",
-            "plan"
-          ],
-          "what_changed": "Introducción de un nuevo plan de suscripción.",
-          "why_it_matters": "Ofrece opciones más flexibles para usuarios avanzados.",
-          "sector_impact": "Mercado de aplicaciones y suscripciones."
-        },
-        {
-          "title": "Poke makes using AI agents as easy as sending a text",
-          "summary": "Poke simplifica el uso de agentes de IA a través de mensajes de texto, facilitando tareas sin necesidad de configuraciones complicadas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "automatización",
-            "texto"
-          ],
-          "what_changed": "Lanzamiento de una plataforma accesible para usuarios diarios.",
-          "why_it_matters": "Democratiza el acceso a la tecnología de agentes IA.",
-          "sector_impact": "Tecnología y usuario final."
-        },
-        {
-          "title": "Astropad’s Workbench reimagines remote desktop for AI agents, not IT support",
-          "summary": "Workbench de Astropad permite controlar agentes de IA en Mac Minis desde dispositivos móviles con baja latencia.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "control remoto",
-            "tecnología"
-          ],
-          "what_changed": "Nuevo enfoque en la gestión de agentes IA a través de desktop remoto.",
-          "why_it_matters": "Mejora la gestión y control de agentes IA de manera eficiente.",
-          "sector_impact": "Tecnología de escritorio y administración de IA."
-        },
-        {
-          "title": "Sierra’s Bret Taylor says the era of clicking buttons is over",
-          "summary": "Lanzamiento de Ghostwriter, un agente diseñado para crear otros agentes mediante lenguaje natural, eliminando la necesidad de hacer clic.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "automación",
-            "interfaz"
-          ],
-          "what_changed": "Introducción de un nuevo paradigma para la creación de agentes.",
-          "why_it_matters": "Revoluciona la forma en que interactuamos con la tecnología.",
-          "sector_impact": "Interacción usuario-tecnología."
         }
       ]
     }
