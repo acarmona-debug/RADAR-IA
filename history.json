@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-04-19",
+      "executive_title": "Resumen Diario de Innovaciones en IA",
+      "items": [
+        {
+          "title": "OpenAI takes aim at Anthropic with beefed-up Codex",
+          "summary": "OpenAI ha renovado su herramienta Codex con nuevas capacidades que mejoran su funcionalidad para la codificación.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "Codex",
+            "IA"
+          ],
+          "what_changed": "Mejoras significativas en las capacidades de programación.",
+          "why_it_matters": "Esta herramienta puede revolucionar la forma en que los desarrolladores interactúan con el código.",
+          "sector_impact": "Transformación en la eficiencia del desarrollo de software."
+        },
+        {
+          "title": "Sources: Cursor in talks to raise $2B+",
+          "summary": "Cursor está en negociaciones para una ronda de financiamiento de más de $2B, reflejando su crecimiento en el sector empresarial.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Cursor",
+            "financiamiento",
+            "IA"
+          ],
+          "what_changed": "Aumento significativo en la valoración y el interés de inversores.",
+          "why_it_matters": "El crecimiento de Cursor puede influir en el desarrollo de herramientas destinadas a empresas.",
+          "sector_impact": "Impulso en la adopción de IA en entornos corporativos."
+        },
+        {
+          "title": "A new way to explore the web with AI Mode in Chrome",
+          "summary": "Google lanza actualizaciones para el Modo IA en Chrome, cambiando la forma de interactuar con la web.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google",
+            "Chrome",
+            "IA"
+          ],
+          "what_changed": "Transformaciones en la interfaz de usuario y capacidades de búsqueda.",
+          "why_it_matters": "Mejora la experiencia de navegación y acceso a información relevante.",
+          "sector_impact": "Aumento en la eficiencia de la búsqueda en la web."
+        },
+        {
+          "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
+          "summary": "InsightFinder ha recaudado $15M para mejorar el diagnóstico en el uso de agentes de IA en empresas.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "InsightFinder",
+            "diagnóstico",
+            "IA"
+          ],
+          "what_changed": "Obtención de fondos para impulsar herramientas de diagnóstico.",
+          "why_it_matters": "Contribuye a optimizar el rendimiento de los modelos de IA implementados.",
+          "sector_impact": "Mejoras en la operatividad de la infraestructura tecnológica empresarial."
+        },
+        {
+          "title": "The App Store is booming again, and AI may be why",
+          "summary": "El App Store está experimentando un auge de lanzamientos, impulsado por herramientas de IA.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "App Store",
+            "crecimiento",
+            "IA"
+          ],
+          "what_changed": "Incremento en el lanzamiento de nuevas aplicaciones.",
+          "why_it_matters": "Indica un crecimiento en la innovación y la adopción de IA en aplicaciones.",
+          "sector_impact": "Crecimiento del ecosistema móvil impulsado por IA."
+        },
+        {
+          "title": "AI chip startup Cerebras files for IPO",
+          "summary": "Cerebras, startup de chips de IA, se prepara para salir a bolsa tras acuerdos significativos.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Cerebras",
+            "IPO",
+            "chips de IA"
+          ],
+          "what_changed": "Presentación para oferta pública inicial en el mercado.",
+          "why_it_matters": "Destaca la importancia de los chips diseñados para aplicaciones de IA.",
+          "sector_impact": "Posible revolución en la capacidad de procesamiento para aplicaciones de IA."
+        },
+        {
+          "title": "‘Tokenmaxxing’ is making developers less productive than they think",
+          "summary": "El fenómeno de 'Tokenmaxxing' está afectando la productividad de los desarrolladores debido a la complejidad del código.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "desarrollo",
+            "productividad",
+            "IA"
+          ],
+          "what_changed": "Identificación de problemas en prácticas de codificación.",
+          "why_it_matters": "Llama la atención sobre la necesidad de simplificación en el desarrollo de software.",
+          "sector_impact": "Impacto en la eficiencia de la industria del desarrollo de software."
+        },
+        {
+          "title": "Kevin Weil and Bill Peebles exit OpenAI",
+          "summary": "La salida de dos ejecutivos clave de OpenAI marca un cambio en la dirección de la compañía hacia la IA empresarial.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "cambio organizacional",
+            "IA"
+          ],
+          "what_changed": "Reorganización de la estructura de liderazgo en OpenAI.",
+          "why_it_matters": "Indica un enfoque más claro en el desarrollo de IA para empresas.",
+          "sector_impact": "Redefinición del futuro de las aplicaciones de IA en el sector empresarial."
+        }
+      ]
+    },
+    {
       "date": "2026-04-18",
       "executive_title": "Radar IA del día",
       "items": [
@@ -680,80 +822,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-12",
-      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
-      "items": [
-        {
-          "title": "Human judgment in the agent improvement loop",
-          "summary": "Los agentes de IA funcionan mejor cuando reflejan el conocimiento y juicio de su equipo.",
-          "category": "tool",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
-          "relevance_score": 10,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "mejora",
-            "conocimiento"
-          ],
-          "what_changed": "Se destaca la importancia de la experiencia humana en la mejora de agentes.",
-          "why_it_matters": "Incorpora el conocimiento tácito de los empleados, mejorando así la efectividad de los agentes.",
-          "sector_impact": "Aumenta la eficiencia operativa en organizaciones que utilizan IA."
-        },
-        {
-          "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
-          "summary": "Innovaciones en el aprendizaje práctico para agentes de IA.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "IA",
-            "agentes"
-          ],
-          "what_changed": "Presentación de un nuevo método de aprendizaje sobre el trabajo.",
-          "why_it_matters": "Mejora la adaptabilidad y desempeño de los agentes de IA.",
-          "sector_impact": "Impulsa la productividad en diversos sectores mediante capacitación continua."
-        },
-        {
-          "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
-          "summary": "Se presenta cómo las evals pueden optimizar la construcción de mejores harnesses para agentes.",
-          "category": "framework",
-          "source_name": "LangChain",
-          "source_url": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "framework",
-            "mejora",
-            "agentes"
-          ],
-          "what_changed": "Se introducen técnicas de 'hill-climbing' para mejorar los harnesses.",
-          "why_it_matters": "Permite a los desarrolladores crear agentes más eficientes.",
-          "sector_impact": "Optimiza el desarrollo de herramientas de IA en múltiples industrias."
-        },
-        {
-          "title": "Google and Intel deepen AI infrastructure partnership",
-          "summary": "Colaboración entre Google e Intel para co-desarrollar chips personalizados.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [
-            "IA",
-            "infraestructura",
-            "chips"
-          ],
-          "what_changed": "Fortalecen su colaboración ante la alta demanda de recursos de computación.",
-          "why_it_matters": "Responde a la creciente necesidad de soluciones informáticas efectivas.",
-          "sector_impact": "Puede mejorar el desarrollo de tecnologías de IA a nivel global."
         }
       ]
     }

@@ -1,112 +1,144 @@
 {
-  "date": "2026-04-18",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-04-19",
+  "executive_title": "Resumen Diario de Innovaciones en IA",
+  "intro_message": "Explora las últimas herramientas, modelos y avances en la integración de inteligencia artificial.",
+  "opening_message": "A continuación, un resumen de las novedades más relevantes en el ámbito de la inteligencia artificial que no te puedes perder.",
   "items": [
     {
-      "title": "New ways to create personalized images in the Gemini app",
-      "summary": "Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-      "relevance_score": 14,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "relevance_score": 13,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Tokenmaxxing, OpenAI’s shopping spree, and the AI Anxiety Gap",
-      "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly …but apparently not too […]",
-      "category": "labs",
+      "title": "OpenAI takes aim at Anthropic with beefed-up Codex",
+      "summary": "OpenAI ha renovado su herramienta Codex con nuevas capacidades que mejoran su funcionalidad para la codificación.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
-      "relevance_score": 13,
+      "source_url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+      "relevance_score": 9,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "IA"
+      ],
+      "what_changed": "Mejoras significativas en las capacidades de programación.",
+      "why_it_matters": "Esta herramienta puede revolucionar la forma en que los desarrolladores interactúan con el código.",
+      "sector_impact": "Transformación en la eficiencia del desarrollo de software."
     },
     {
-      "title": "Are we tokenmaxxing our way to nowhere?",
-      "summary": "The gap between AI insiders and everyone else is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from finance apps to talk shows, a certain shoe company just rebranded as an AI infrastructure play, and Anthropic unveiled a model it says is too powerful to release publicly …but apparently not too […]",
-      "category": "labs",
+      "title": "Sources: Cursor in talks to raise $2B+",
+      "summary": "Cursor está en negociaciones para una ronda de financiamiento de más de $2B, reflejando su crecimiento en el sector empresarial.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
-      "relevance_score": 13,
+      "source_url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Cursor",
+        "financiamiento",
+        "IA"
+      ],
+      "what_changed": "Aumento significativo en la valoración y el interés de inversores.",
+      "why_it_matters": "El crecimiento de Cursor puede influir en el desarrollo de herramientas destinadas a empresas.",
+      "sector_impact": "Impulso en la adopción de IA en entornos corporativos."
     },
     {
-      "title": "Anthropic CPO leaves Figma’s board after reports he will offer a competing product",
-      "summary": "Krieger's departure and any forthcoming design tools will be another data point for investors who fear the SaaSpocalypse — that the largest AI labs will come to dominate software businesses, a thesis that has rocked public markets at times this year.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/",
-      "relevance_score": 13,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "summary": "Gemini 3.1 Flash TTS is now available across Google products.",
-      "category": "labs",
+      "title": "A new way to explore the web with AI Mode in Chrome",
+      "summary": "Google lanza actualizaciones para el Modo IA en Chrome, cambiando la forma de interactuar con la web.",
+      "category": "tool",
       "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "relevance_score": 12,
+      "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Google",
+        "Chrome",
+        "IA"
+      ],
+      "what_changed": "Transformaciones en la interfaz de usuario y capacidades de búsqueda.",
+      "why_it_matters": "Mejora la experiencia de navegación y acceso a información relevante.",
+      "sector_impact": "Aumento en la eficiencia de la búsqueda en la web."
     },
     {
-      "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
-      "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
-      "category": "labs",
+      "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
+      "summary": "InsightFinder ha recaudado $15M para mejorar el diagnóstico en el uso de agentes de IA en empresas.",
+      "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
-      "relevance_score": 12,
+      "source_url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "InsightFinder",
+        "diagnóstico",
+        "IA"
+      ],
+      "what_changed": "Obtención de fondos para impulsar herramientas de diagnóstico.",
+      "why_it_matters": "Contribuye a optimizar el rendimiento de los modelos de IA implementados.",
+      "sector_impact": "Mejoras en la operatividad de la infraestructura tecnológica empresarial."
     },
     {
-      "title": "7 ways to travel smarter this summer, with help from Google",
-      "summary": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
-      "relevance_score": 11,
+      "title": "The App Store is booming again, and AI may be why",
+      "summary": "El App Store está experimentando un auge de lanzamientos, impulsado por herramientas de IA.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "App Store",
+        "crecimiento",
+        "IA"
+      ],
+      "what_changed": "Incremento en el lanzamiento de nuevas aplicaciones.",
+      "why_it_matters": "Indica un crecimiento en la innovación y la adopción de IA en aplicaciones.",
+      "sector_impact": "Crecimiento del ecosistema móvil impulsado por IA."
+    },
+    {
+      "title": "AI chip startup Cerebras files for IPO",
+      "summary": "Cerebras, startup de chips de IA, se prepara para salir a bolsa tras acuerdos significativos.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Cerebras",
+        "IPO",
+        "chips de IA"
+      ],
+      "what_changed": "Presentación para oferta pública inicial en el mercado.",
+      "why_it_matters": "Destaca la importancia de los chips diseñados para aplicaciones de IA.",
+      "sector_impact": "Posible revolución en la capacidad de procesamiento para aplicaciones de IA."
+    },
+    {
+      "title": "‘Tokenmaxxing’ is making developers less productive than they think",
+      "summary": "El fenómeno de 'Tokenmaxxing' está afectando la productividad de los desarrolladores debido a la complejidad del código.",
+      "category": "framework",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "desarrollo",
+        "productividad",
+        "IA"
+      ],
+      "what_changed": "Identificación de problemas en prácticas de codificación.",
+      "why_it_matters": "Llama la atención sobre la necesidad de simplificación en el desarrollo de software.",
+      "sector_impact": "Impacto en la eficiencia de la industria del desarrollo de software."
+    },
+    {
+      "title": "Kevin Weil and Bill Peebles exit OpenAI",
+      "summary": "La salida de dos ejecutivos clave de OpenAI marca un cambio en la dirección de la compañía hacia la IA empresarial.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "OpenAI",
+        "cambio organizacional",
+        "IA"
+      ],
+      "what_changed": "Reorganización de la estructura de liderazgo en OpenAI.",
+      "why_it_matters": "Indica un enfoque más claro en el desarrollo de IA para empresas.",
+      "sector_impact": "Redefinición del futuro de las aplicaciones de IA en el sector empresarial."
     }
   ]
 }
