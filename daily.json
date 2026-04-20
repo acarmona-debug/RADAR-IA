@@ -1,144 +1,144 @@
 {
-  "date": "2026-04-19",
-  "executive_title": "Resumen Diario de Innovaciones en IA",
-  "intro_message": "Explora las últimas herramientas, modelos y avances en la integración de inteligencia artificial.",
-  "opening_message": "A continuación, un resumen de las novedades más relevantes en el ámbito de la inteligencia artificial que no te puedes perder.",
+  "date": "2026-04-20",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Actualizaciones sobre herramientas, modelos y avances en IA.",
+  "opening_message": "Explora las últimas innovaciones en el campo de la inteligencia artificial y su impacto en la automatización y el desarrollo de herramientas.",
   "items": [
     {
-      "title": "OpenAI takes aim at Anthropic with beefed-up Codex",
-      "summary": "OpenAI ha renovado su herramienta Codex con nuevas capacidades que mejoran su funcionalidad para la codificación.",
+      "title": "AISysRev -- LLM-based Tool for Title-abstract Screening",
+      "summary": "Herramienta de revisión sistemática que utiliza LLM para la selección de estudios.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "OpenAI",
-        "Codex",
-        "IA"
-      ],
-      "what_changed": "Mejoras significativas en las capacidades de programación.",
-      "why_it_matters": "Esta herramienta puede revolucionar la forma en que los desarrolladores interactúan con el código.",
-      "sector_impact": "Transformación en la eficiencia del desarrollo de software."
-    },
-    {
-      "title": "Sources: Cursor in talks to raise $2B+",
-      "summary": "Cursor está en negociaciones para una ronda de financiamiento de más de $2B, reflejando su crecimiento en el sector empresarial.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.06708",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Cursor",
-        "financiamiento",
-        "IA"
+        "LLM",
+        "revisión sistemática",
+        "automatización"
       ],
-      "what_changed": "Aumento significativo en la valoración y el interés de inversores.",
-      "why_it_matters": "El crecimiento de Cursor puede influir en el desarrollo de herramientas destinadas a empresas.",
-      "sector_impact": "Impulso en la adopción de IA en entornos corporativos."
+      "what_changed": "Desarrollo de una herramienta LLM para la criba de títulos y resúmenes.",
+      "why_it_matters": "Ayuda a reducir la carga de la revisión de literatura científica.",
+      "sector_impact": "Mejora en la eficiencia de los estudios científicos."
     },
     {
-      "title": "A new way to explore the web with AI Mode in Chrome",
-      "summary": "Google lanza actualizaciones para el Modo IA en Chrome, cambiando la forma de interactuar con la web.",
+      "title": "Automating Crash Diagram Generation Using Vision-Language Models",
+      "summary": "Automatización de la generación de diagramas de accidentes con modelos de visión-lenguaje.",
       "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.15332",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
-        "Chrome",
-        "IA"
+        "VLM",
+        "seguridad",
+        "automatización"
       ],
-      "what_changed": "Transformaciones en la interfaz de usuario y capacidades de búsqueda.",
-      "why_it_matters": "Mejora la experiencia de navegación y acceso a información relevante.",
-      "sector_impact": "Aumento en la eficiencia de la búsqueda en la web."
+      "what_changed": "Integración de modelos de visión-lenguaje para una tarea de seguridad.",
+      "why_it_matters": "Aumenta la eficiencia y la consistencia en la seguridad del transporte.",
+      "sector_impact": "Impacto en la gestión de accidentes y análisis de seguridad."
     },
     {
-      "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
-      "summary": "InsightFinder ha recaudado $15M para mejorar el diagnóstico en el uso de agentes de IA en empresas.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "InsightFinder",
-        "diagnóstico",
-        "IA"
-      ],
-      "what_changed": "Obtención de fondos para impulsar herramientas de diagnóstico.",
-      "why_it_matters": "Contribuye a optimizar el rendimiento de los modelos de IA implementados.",
-      "sector_impact": "Mejoras en la operatividad de la infraestructura tecnológica empresarial."
-    },
-    {
-      "title": "The App Store is booming again, and AI may be why",
-      "summary": "El App Store está experimentando un auge de lanzamientos, impulsado por herramientas de IA.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "App Store",
-        "crecimiento",
-        "IA"
-      ],
-      "what_changed": "Incremento en el lanzamiento de nuevas aplicaciones.",
-      "why_it_matters": "Indica un crecimiento en la innovación y la adopción de IA en aplicaciones.",
-      "sector_impact": "Crecimiento del ecosistema móvil impulsado por IA."
-    },
-    {
-      "title": "AI chip startup Cerebras files for IPO",
-      "summary": "Cerebras, startup de chips de IA, se prepara para salir a bolsa tras acuerdos significativos.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Cerebras",
-        "IPO",
-        "chips de IA"
-      ],
-      "what_changed": "Presentación para oferta pública inicial en el mercado.",
-      "why_it_matters": "Destaca la importancia de los chips diseñados para aplicaciones de IA.",
-      "sector_impact": "Posible revolución en la capacidad de procesamiento para aplicaciones de IA."
-    },
-    {
-      "title": "‘Tokenmaxxing’ is making developers less productive than they think",
-      "summary": "El fenómeno de 'Tokenmaxxing' está afectando la productividad de los desarrolladores debido a la complejidad del código.",
+      "title": "GTA-2: Benchmarking General Tool Agents",
+      "summary": "Propuesta de un benchmark para evaluar agentes de herramientas generales.",
       "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.15715",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "desarrollo",
-        "productividad",
-        "IA"
+        "benchmark",
+        "agentes",
+        "automatización"
       ],
-      "what_changed": "Identificación de problemas en prácticas de codificación.",
-      "why_it_matters": "Llama la atención sobre la necesidad de simplificación en el desarrollo de software.",
-      "sector_impact": "Impacto en la eficiencia de la industria del desarrollo de software."
+      "what_changed": "Desarrollo de un benchmark jerárquico para agentes de herramientas.",
+      "why_it_matters": "Mejora la evaluación y el desarrollo de agentes de tareas complejas.",
+      "sector_impact": "Perfeccionamiento de asistentes personales y profesionales."
     },
     {
-      "title": "Kevin Weil and Bill Peebles exit OpenAI",
-      "summary": "La salida de dos ejecutivos clave de OpenAI marca un cambio en la dirección de la compañía hacia la IA empresarial.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
-      "relevance_score": 5,
+      "title": "A PennyLane-Centric Dataset for Quantum Code Generation",
+      "summary": "Dataset para mejorar la generación de código cuántico con LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2503.02497",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "cambio organizacional",
-        "IA"
+        "quantum",
+        "LLM",
+        "código"
       ],
-      "what_changed": "Reorganización de la estructura de liderazgo en OpenAI.",
-      "why_it_matters": "Indica un enfoque más claro en el desarrollo de IA para empresas.",
-      "sector_impact": "Redefinición del futuro de las aplicaciones de IA en el sector empresarial."
+      "what_changed": "Creación de un dataset específico de PennyLane para LLMs.",
+      "why_it_matters": "Facilita el desarrollo de software cuántico eficiente.",
+      "sector_impact": "Avance en desarrollos de IA en computación cuántica."
+    },
+    {
+      "title": "Facial-Expression-Aware Prompting for Empathetic LLM Tutoring",
+      "summary": "Integración de señales de expresión facial en tutores LLM para mejor empatía.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.15336",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "empatía",
+        "LLM",
+        "tutorización"
+      ],
+      "what_changed": "Incorporación de expresiones faciales en el tutoring.",
+      "why_it_matters": "Integración de señales de expresión facial en tutores LLM para mejor empatía.",
+      "sector_impact": "Optimización en entornos educativos de IA."
+    },
+    {
+      "title": "QuantSightBench: Evaluating LLM Quantitative Forecasting",
+      "summary": "Benchmark para evaluar la predicción cuantitativa con intervalos de predicción.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.15859",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "predicción",
+        "evaluación"
+      ],
+      "what_changed": "Introducción de intervalos de predicción como método de evaluación.",
+      "why_it_matters": "Proporciona un marco más riguroso para pruebas de modelos.",
+      "sector_impact": "Permite una mejor toma de decisiones en múltiples industrias."
+    },
+    {
+      "title": "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
+      "summary": "Marco automatizado para simulación y análisis de XANES utilizando agentes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.16205",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "XANES",
+        "simulación",
+        "análisis"
+      ],
+      "what_changed": "Unificación de operaciones de simulación XANES mediante agentes.",
+      "why_it_matters": "Marco automatizado para simulación y análisis de XANES utilizando agentes.",
+      "sector_impact": "Optimiza la espectroscopía computacional."
+    },
+    {
+      "title": "VeriMoA: A Mixture-of-Agents Framework for Spec-to-HDL Generation",
+      "summary": "Marco de múltiples agentes para la generación de HDL automatizada.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.27617",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "HDL",
+        "generación",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un marco de mezcla de agentes para generación de HDL.",
+      "why_it_matters": "Marco de múltiples agentes para la generación de HDL automatizada.",
+      "sector_impact": "Avance en ingeniería eléctrica y electrónica."
     }
   ]
 }
