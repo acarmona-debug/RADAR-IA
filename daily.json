@@ -1,144 +1,137 @@
 {
-  "date": "2026-04-20",
+  "date": "2026-04-21",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones sobre herramientas, modelos y avances en IA.",
-  "opening_message": "Explora las últimas innovaciones en el campo de la inteligencia artificial y su impacto en la automatización y el desarrollo de herramientas.",
+  "intro_message": "Actualizaciones sobre herramientas y modelos de IA.",
+  "opening_message": "Explora las últimas innovaciones y desarrollos en el ámbito de la inteligencia artificial.",
   "items": [
     {
-      "title": "AISysRev -- LLM-based Tool for Title-abstract Screening",
-      "summary": "Herramienta de revisión sistemática que utiliza LLM para la selección de estudios.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.06708",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "LLM",
-        "revisión sistemática",
-        "automatización"
-      ],
-      "what_changed": "Desarrollo de una herramienta LLM para la criba de títulos y resúmenes.",
-      "why_it_matters": "Ayuda a reducir la carga de la revisión de literatura científica.",
-      "sector_impact": "Mejora en la eficiencia de los estudios científicos."
-    },
-    {
-      "title": "Automating Crash Diagram Generation Using Vision-Language Models",
-      "summary": "Automatización de la generación de diagramas de accidentes con modelos de visión-lenguaje.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.15332",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "VLM",
-        "seguridad",
-        "automatización"
-      ],
-      "what_changed": "Integración de modelos de visión-lenguaje para una tarea de seguridad.",
-      "why_it_matters": "Aumenta la eficiencia y la consistencia en la seguridad del transporte.",
-      "sector_impact": "Impacto en la gestión de accidentes y análisis de seguridad."
-    },
-    {
-      "title": "GTA-2: Benchmarking General Tool Agents",
-      "summary": "Propuesta de un benchmark para evaluar agentes de herramientas generales.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.15715",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "agentes",
-        "automatización"
-      ],
-      "what_changed": "Desarrollo de un benchmark jerárquico para agentes de herramientas.",
-      "why_it_matters": "Mejora la evaluación y el desarrollo de agentes de tareas complejas.",
-      "sector_impact": "Perfeccionamiento de asistentes personales y profesionales."
-    },
-    {
-      "title": "A PennyLane-Centric Dataset for Quantum Code Generation",
-      "summary": "Dataset para mejorar la generación de código cuántico con LLMs.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2503.02497",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "quantum",
-        "LLM",
-        "código"
-      ],
-      "what_changed": "Creación de un dataset específico de PennyLane para LLMs.",
-      "why_it_matters": "Facilita el desarrollo de software cuántico eficiente.",
-      "sector_impact": "Avance en desarrollos de IA en computación cuántica."
-    },
-    {
-      "title": "Facial-Expression-Aware Prompting for Empathetic LLM Tutoring",
-      "summary": "Integración de señales de expresión facial en tutores LLM para mejor empatía.",
+      "title": "Modelos de Lenguaje Agentes para Análisis de Imágenes Médicas",
+      "summary": "Se presenta un enfoque sin entrenamiento usando LLMs para el análisis automático de MRI cerebral, orquestando herramientas especializadas.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.15336",
+      "source_url": "https://arxiv.org/abs/2604.16729",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "salud",
+        "IA"
+      ],
+      "what_changed": "Implementación de un pipeline agente para análisis de imágenes.",
+      "why_it_matters": "Reduce la necesidad de entrenamiento previo para tareas complejas en radiología.",
+      "sector_impact": "Transforma el análisis de imágenes médicas."
+    },
+    {
+      "title": "Evaluación de Modelos de Lenguaje para Tareas Cibernéticas Ofensivas",
+      "summary": "Benchmarking de 10 modelos en tareas de ciberseguridad, mostrando la efectividad en un entorno de Kali Linux.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.17159",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "benchmarking"
+      ],
+      "what_changed": "Mejora en la tasa de resolución utilizando un entorno específico.",
+      "why_it_matters": "Identifica los modelos más efectivos para tareas ciberseguras.",
+      "sector_impact": "Impulsa la eficacia en ciberseguridad."
+    },
+    {
+      "title": "Agentes de Lenguaje que Usan Herramientas: Evaluación y Fiabilidad",
+      "summary": "Nuevo benchmark que mide la fiabilidad de LLMs que utilizan herramientas en diversas tareas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.16706",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "empatía",
-        "LLM",
-        "tutorización"
+        "evaluación",
+        "herramientas"
       ],
-      "what_changed": "Incorporación de expresiones faciales en el tutoring.",
-      "why_it_matters": "Integración de señales de expresión facial en tutores LLM para mejor empatía.",
-      "sector_impact": "Optimización en entornos educativos de IA."
+      "what_changed": "Introducción de un benchmark para la evaluación de agentes.",
+      "why_it_matters": "Ayuda a mejorar la fiabilidad de LLMs en aplicaciones prácticas.",
+      "sector_impact": "Optimiza el uso de LLMs en diversas tareas."
     },
     {
-      "title": "QuantSightBench: Evaluating LLM Quantitative Forecasting",
-      "summary": "Benchmark para evaluar la predicción cuantitativa con intervalos de predicción.",
-      "category": "framework",
+      "title": "Preguntas y Respuestas en Tiempo Real a través de Flujos de Trabajo Ejecutables",
+      "summary": "Se propone un marco de evaluación dinámica para agentes que generan respuestas en tiempo real utilizando código ejecutable.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.15859",
+      "source_url": "https://arxiv.org/abs/2604.16349",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "benchmark",
-        "predicción",
-        "evaluación"
+        "agentes",
+        "respuesta en tiempo real"
       ],
-      "what_changed": "Introducción de intervalos de predicción como método de evaluación.",
-      "why_it_matters": "Proporciona un marco más riguroso para pruebas de modelos.",
-      "sector_impact": "Permite una mejor toma de decisiones en múltiples industrias."
+      "what_changed": "Desarrollo de un pipeline de generación de código para respuestas actualizadas.",
+      "why_it_matters": "Facilita el acceso a información en tiempo real eficaz.",
+      "sector_impact": "Revoluciona el acceso a información dinámica."
     },
     {
-      "title": "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
-      "summary": "Marco automatizado para simulación y análisis de XANES utilizando agentes.",
+      "title": "DailyDroid: Automatización de Tareas en Smartphones",
+      "summary": "Benchmark que evalúa la automatización en teléfonos inteligentes utilizando LLMs y entradas multimodales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.17817",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "movilidad"
+      ],
+      "what_changed": "Introducción de un nuevo benchmark para evaluar tareas automatizadas.",
+      "why_it_matters": "Identifica y mejora la precisión de agentes móviles.",
+      "sector_impact": "Impulsa el desarrollo de la automatización en dispositivos móviles."
+    },
+    {
+      "title": "Educación mediante Claude Code",
+      "summary": "Presentamos un currículo modular para aprender a utilizar Claude Code a través de proyectos prácticos.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.16205",
+      "source_url": "https://arxiv.org/abs/2604.17460",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "XANES",
-        "simulación",
+        "educación",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de un sistema de aprendizaje adaptativo para Claude Code.",
+      "why_it_matters": "Abre nuevas vías para la enseñanza práctica de herramientas de IA.",
+      "sector_impact": "Revoluciona el aprendizaje de herramientas de programación."
+    },
+    {
+      "title": "RAVEN: Exploración de Vulnerabilidades Automatizada",
+      "summary": "Nuevo marco que utiliza LLMs para generar informes de análisis de vulnerabilidades a partir de código fuente vulnerable.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.17948",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "ciberseguridad",
         "análisis"
       ],
-      "what_changed": "Unificación de operaciones de simulación XANES mediante agentes.",
-      "why_it_matters": "Marco automatizado para simulación y análisis de XANES utilizando agentes.",
-      "sector_impact": "Optimiza la espectroscopía computacional."
+      "what_changed": "Introducción de un sistema responsable de la generación de informes.",
+      "why_it_matters": "Automatiza la documentación de vulnerabilidades, mejorando la seguridad.",
+      "sector_impact": "Sofistica el análisis de seguridad en software."
     },
     {
-      "title": "VeriMoA: A Mixture-of-Agents Framework for Spec-to-HDL Generation",
-      "summary": "Marco de múltiples agentes para la generación de HDL automatizada.",
+      "title": "Modelo de Capacitación de POLÍTICAS Multimodales para Agentes Conversacionales",
+      "summary": "Se presenta una nueva metodología para internalizar políticas de agentes conversacionales multimodales en los parámetros del modelo.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.27617",
+      "source_url": "https://arxiv.org/abs/2510.09474",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "HDL",
-        "generación",
-        "agentes"
+        "políticas",
+        "multimodal"
       ],
-      "what_changed": "Introducción de un marco de mezcla de agentes para generación de HDL.",
-      "why_it_matters": "Marco de múltiples agentes para la generación de HDL automatizada.",
-      "sector_impact": "Avance en ingeniería eléctrica y electrónica."
+      "what_changed": "Desarrollo de un sistema para la internalización de políticas complejas.",
+      "why_it_matters": "Mejora la adherencia a políticas en aplicaciones multimodales.",
+      "sector_impact": "Optimiza el comportamiento de los agentes conversacionales."
     }
   ]
 }
