@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-04-22",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Debug2Fix: Can Interactive Debugging Help Coding Agents Fix More Bugs?",
+          "summary": "arXiv:2602.18571v2 Announce Type: replace-cross Abstract: While significant progress has been made in automating various aspects of software development through coding agents, there is still significant room for improvement in their bug fixing capabilities. Debugging and investigation of runtime behavior remains largely a manual, developer-driven process. Popular coding agents typically rely on either static analysis of the code or iterative test-fix cycles, which is akin to trial and error debugging. We posit that there is a wealth of rich runtime information that developers routinely access while debugging code, which agents are currently deprived of due to design limitations. Despite how prevalent debuggers are in modern IDEs and command-line tools, they have surprisingly not made their way into coding agents. In this work, we introduce Debug2Fix, a novel framework that incorporates interactive debugging as a core component of a software engineering agent via a subagent architecture. We incorporate debuggers for Java and Python into our agent framework and evaluate against GitBug-Java and SWE-Bench-Live and achieve >20% improvement in performance compared to the baseline for certain models. Furthermore, using our framework, we're able to make weaker models like GPT-5 and Claude Haiku 4.5 match or exceed the performances of stronger models like Claude Sonnet 4.5, showing that better tool design is often just as important as switching to a more expensive model. Finally, we conduct systematic ablations demonstrating the importance of both the subagent architecture and debugger integration.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.18571",
+          "relevance_score": 37,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps",
+          "summary": "arXiv:2604.19533v1 Announce Type: cross Abstract: We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events. The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment. Each episode presents the agent with an in-memory SQLite database of 75,000-135,000 log records produced by a deterministic campaign simulator that time-shifts and entity-obfuscates the raw recordings. The agent must iteratively submit SQL queries to discover malicious event timestamps and explicitly flag them, scored CTF-style against Sigma-rule-derived ground truth. Evaluating five frontier models - Claude Opus 4.6, GPT-5, Gemini 3.1 Pro, Kimi K2.5, and Gemini 3 Flash - on 26 campaigns covering 105 of 106 procedures, we find that all models fail dramatically: the best model (Claude Opus 4.6) submits correct flags for only 3.8% of malicious events on average, and no run across any model ever finds all flags. We define a passing score as >= 50% recall on every ATT&CK tactic - the minimum bar for unsupervised SOC deployment. No model passes: the leader clears this bar on 5 of 13 tactics and the remaining four on zero. These results suggest that current LLMs are poorly suited for open-ended, evidence-driven threat hunting despite strong performance on curated Q&A security benchmarks.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19533",
+          "relevance_score": 34,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "On Accelerating Grounded Code Development for Research",
+          "summary": "arXiv:2604.19022v1 Announce Type: new Abstract: A major challenge for niche scientific and technical domains in leveraging coding agents is the lack of access to up-to-date, domain- specific knowledge. Foundational models often demonstrate limited reasoning capabilities in specialized fields and cannot inherently incorporate knowledge that evolves through ongoing research and experimentation. Materials scientists exploring novel compounds, communication engineers designing and evaluating new protocols, and bioengineering researchers conducting iterative experiments all face this limitation. These experts typically lack the resources to fine-tune large models or continuously embed new findings, creating a barrier to adopting AI-driven coding agents. To address this, we introduce a framework that gives coding agents instanta- neous access to research repositories and technical documentation, enabling real-time, context-aware operation. Our open-source im- plementation allows users to upload documents via doc-search.dev and includes zed-fork, which enforces domain-specific rules and workflows. Together, these tools accelerate the integration of coding agents into specialized scientific and technical workflows",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19022",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Time Series Augmented Generation for Financial Applications",
+          "summary": "arXiv:2604.19633v1 Announce Type: new Abstract: Evaluating the reasoning capabilities of Large Language Models (LLMs) for complex, quantitative financial tasks is a critical and unsolved challenge. Standard benchmarks often fail to isolate an agent's core ability to parse queries and orchestrate computations. To address this, we introduce a novel evaluation methodology and benchmark designed to rigorously measure an LLM agent's reasoning for financial time-series analysis. We apply this methodology in a large-scale empirical study using our framework, Time Series Augmented Generation (TSAG), where an LLM agent delegates quantitative tasks to verifiable, external tools. Our benchmark, consisting of 100 financial questions, is used to compare multiple SOTA agents (e.g., GPT-4o, Llama 3, Qwen2) on metrics assessing tool selection accuracy, faithfulness, and hallucination. The results demonstrate that capable agents can achieve near-perfect tool-use accuracy with minimal hallucination, validating the tool-augmented paradigm. Our primary contribution is this evaluation framework and the corresponding empirical insights into agent performance, which we release publicly to foster standardized research on reliable financial AI.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19633",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "The Rise of Verbal Tics in Large Language Models: A Systematic Analysis Across Frontier Models",
+          "summary": "arXiv:2604.19139v1 Announce Type: cross Abstract: As Large Language Models (LLMs) continue to evolve through alignment techniques such as Reinforcement Learning from Human Feedback (RLHF) and Constitutional AI, a growing and increasingly conspicuous phenomenon has emerged: the proliferation of verbal tics -- repetitive, formulaic linguistic patterns that pervade model outputs. These range from sycophantic openers (\"That's a great question!\", \"Awesome!\") to pseudo-empathetic affirmations (\"I completely understand your concern\", \"I'm right here to catch you\") and overused vocabulary (\"delve\", \"tapestry\", \"nuanced\"). In this paper, we present a systematic analysis of the verbal tic phenomenon across eight state-of-the-art LLMs: GPT-5.4, Claude Opus 4.7, Gemini 3.1 Pro, Grok 4.2, Doubao-Seed-2.0-pro, Kimi K2.5, DeepSeek V3.2, and MiMo-V2-Pro. Utilizing a custom evaluation framework for standardized API-based evaluation, we assess 10,000 prompts across 10 task categories in both English and Chinese, yielding 160,000 model responses. We introduce the Verbal Tic Index (VTI), a composite metric quantifying tic prevalence, and analyze its correlation with sycophancy, lexical diversity, and human-perceived naturalness. Our findings reveal significant inter-model variation: Gemini 3.1 Pro exhibits the highest VTI (0.590), while DeepSeek V3.2 achieves the lowest (0.295). We further demonstrate that verbal tics accumulate over multi-turn conversations, are amplified in subjective tasks, and show distinct cross-lingual patterns. Human evaluation (N = 120) confirms a strong inverse relationship between sycophancy and perceived naturalness (r = -0.87, p < 0.001). These results underscore the \"alignment tax\" of current training paradigms and highlight the urgent need for more authentic human-AI interaction frameworks.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19139",
+          "relevance_score": 32,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "CASS: Nvidia to AMD Transpilation with Data, Models, and Benchmark",
+          "summary": "arXiv:2505.16968v4 Announce Type: replace-cross Abstract: Cross-architecture GPU code transpilation is essential for unlocking low-level hardware portability, yet no scalable solution exists. We introduce CASS, the first dataset and model suite for source- and assembly-level GPU translation (CUDA HIP, SASS RDNA3). CASS contains 60k verified host-device code pairs, enabling learning-based translation across both ISA and runtime boundaries. We generate each sample using our automated pipeline that scrapes, translates, compiles, and aligns GPU programs across vendor stacks. Leveraging CASS, we train a suite of domain-specific translation models that achieve 88.2% accuracy on CUDA -> HIP and 69.1% on SASS -> RDNA3, outperforming commercial baselines including GPT-5.1, Claude-4.5, and Hipify by wide margins. Generated code matches native performance in 85% of cases, preserving both runtime and memory behavior. To support rigorous evaluation, we introduce CASS-Bench, a curated benchmark spanning 18 GPU domains with ground-truth execution. All data, models, and evaluation tools will be released as open source to support progress in GPU compiler tooling, binary compatibility, and LLM-guided code translation.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.16968",
+          "relevance_score": 31,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "SAVOIR: Learning Social Savoir-Faire via Shapley-based Reward Attribution",
+          "summary": "arXiv:2604.18982v1 Announce Type: new Abstract: Social intelligence, the ability to navigate complex interpersonal interactions, presents a fundamental challenge for language agents. Training such agents via reinforcement learning requires solving the credit assignment problem: determining how individual utterances contribute to multi-turn dialogue outcomes. Existing approaches directly employ language models to distribute episode-level rewards, yielding attributions that are retrospective and lack theoretical grounding. We propose SAVOIR (ShApley Value fOr SocIal RL), a novel principled framework grounded in cooperative game theory. Our approach combines two complementary principles: expected utility shifts evaluation from retrospective attribution to prospective valuation, capturing an utterance's strategic potential for enabling favorable future trajectories; Shapley values ensure fair credit distribution with axiomatic guarantees of efficiency, symmetry, and marginality. Experiments on the SOTOPIA benchmark demonstrate that SAVOIR achieves new state-of-the-art performance across all evaluation settings, with our 7B model matching or exceeding proprietary models including GPT-4o and Claude-3.5-Sonnet. Notably, even large reasoning models consistently underperform, suggesting social intelligence requires qualitatively different capabilities than analytical reasoning.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.18982",
+          "relevance_score": 29,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text",
+          "summary": "arXiv:2604.19298v1 Announce Type: cross Abstract: We introduce IndiaFinBench, to our knowledge the first publicly available evaluation benchmark for assessing large language model (LLM) performance on Indian financial regulatory text. Existing financial NLP benchmarks draw exclusively from Western financial corpora (SEC filings, US earnings reports, and English-language financial news), leaving a significant gap in coverage of non-Western regulatory frameworks. IndiaFinBench addresses this gap with 406 expert-annotated question-answer pairs drawn from 192 documents sourced from the Securities and Exchange Board of India (SEBI) and the Reserve Bank of India (RBI), spanning four task types: regulatory interpretation (174 items), numerical reasoning (92 items), contradiction detection (62 items), and temporal reasoning (78 items). Annotation quality is validated through a model-based secondary pass (kappa=0.918 on contradiction detection) and a 60-item human inter-annotator agreement evaluation (kappa=0.611; 76.7% overall agreement). We evaluate twelve models under zero-shot conditions, with accuracy ranging from 70.4% (Gemma 4 E4B) to 89.7% (Gemini 2.5 Flash). All models substantially outperform a non-specialist human baseline of 60.0%. Numerical reasoning is the most discriminative task, with a 35.9 percentage-point spread across models. Bootstrap significance testing (10,000 resamples) reveals three statistically distinct performance tiers. The dataset, evaluation code, and all model outputs are available at https://github.com/rajveerpall/IndiaFinBench",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19298",
+          "relevance_score": 29,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-04-21",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -754,131 +864,6 @@
           "what_changed": "Exploración de la eficiencia del proceso de personalización en contextos educativos.",
           "why_it_matters": "Estudio sobre el uso de generadores de tareas personalizadas en educación media con participación docente.",
           "sector_impact": "Transforma cómo se enseña y aprende, potenciando el interés estudiantil."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-15",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Horizon: Diagnóstico de Sistemas Agentes a Largo Plazo",
-          "summary": "Se presenta HORIZON, un benchmark diagnóstico para evaluar el desempeño de sistemas de LLM en tareas de largo plazo, con el fin de identificar patrones de degradación y mejorar la fiabilidad.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.11978",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "long-horizon",
-            "diagnóstico",
-            "agentes"
-          ],
-          "what_changed": "Se introdujo un benchmark diagnóstico.",
-          "why_it_matters": "Proporciona herramientas para definir y medir el rendimiento de agentes LLM en tareas complejas.",
-          "sector_impact": "Mejora el desarrollo de sistemas que requieren planificación a largo plazo."
-        },
-        {
-          "title": "Auto-Diagnose: Diagnóstico Automatizado de Fallos en Pruebas de Integración",
-          "summary": "Auto-Diagnose utiliza LLMs para ayudar a los desarrolladores a identificar eficientemente las causas de fallos en pruebas de integración, mejorando así la calidad del software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.12108",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "diagnóstico",
-            "desarrollo de software",
-            "herramienta"
-          ],
-          "what_changed": "Se creó una herramienta de diagnóstico basada en LLMs.",
-          "why_it_matters": "Reduce significativamente el tiempo necesario para diagnosticar fallos, mejorando la productividad de los desarrolladores.",
-          "sector_impact": "Aumenta la calidad del desarrollo de software."
-        },
-        {
-          "title": "KG-Hopper: Razonamiento Basado en Grafos de Conocimiento",
-          "summary": "KG-Hopper es un marco de aprendizaje por refuerzo que permite realizar razonamientos integrados basados en grafos de conocimiento usando LLMs compactos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.21440",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "grafos de conocimiento",
-            "LLMs"
-          ],
-          "what_changed": "Se introdujo un nuevo marco de razonamiento para LLMs.",
-          "why_it_matters": "Mejora la capacidad de razonamiento en tareas complejas utilizando modelos de lenguaje de menor tamaño.",
-          "sector_impact": "Optimiza el uso de modelos ligeros en aplicaciones de razonamiento intensivo."
-        },
-        {
-          "title": "ALL-FEM: Modelos de Lenguaje Agentes para Métodos de Elementos Finitos",
-          "summary": "ALL-FEM combina AI agente con LLMs ajustados específicamente para la generación de códigos de elementos finitos, mejorando la simulación en ingeniería.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.21011",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "elementos finitos",
-            "simulación",
-            "ingeniería"
-          ],
-          "what_changed": "Se presentó un sistema de simulación autónoma para la ingeniería.",
-          "why_it_matters": "Automatiza los flujos de trabajo de simulación, reduciendo la necesidad de codificación manual.",
-          "sector_impact": "Deja a los ingenieros enfocarse en el diseño innovador al simplificar los procesos técnicos."
-        },
-        {
-          "title": "IDEA: Marco Decisional Interpretable para LLMs",
-          "summary": "IDEA es un marco que permite calibrar probabilidades y facilitar la colaboración humano-IA, mejorando la confianza en decisiones críticas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.12573",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "decisiones",
-            "calibración",
-            "LLMs"
-          ],
-          "what_changed": "Se lanzó un nuevo marco de calibración.",
-          "why_it_matters": "Facilita el uso de LLMs en entornos donde la precisión y la interpretabilidad son cruciales.",
-          "sector_impact": "Aumenta la adopción de IA en sectores críticos como la sanidad y la banca."
-        },
-        {
-          "title": "Hubble: Un Marco para el Descubrimiento de Factores en Finanzas",
-          "summary": "Hubble es un marco que combina LLMs con un lenguaje de operador específico para descubrir factores financieros de manera segura y eficiente.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.09601",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "finanzas",
-            "descubrimiento de factores",
-            "herramienta"
-          ],
-          "what_changed": "Se introdujo un nuevo marco para la búsqueda de factores en finanzas.",
-          "why_it_matters": "Hubble es un marco que combina LLMs con un lenguaje de operador específico para descubrir factores financieros de manera segura y eficiente.",
-          "sector_impact": "Mejora las estrategias de inversión y análisis del mercado."
-        },
-        {
-          "title": "Frontier-Eng: Benchmark para Agentes de Ingeniería",
-          "summary": "Frontier-Eng establece un nuevo estándar para evaluar la capacidad de los agentes de IA en problemas de ingeniería mediante optimización generativa.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.12290",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ingeniería",
-            "benchmark",
-            "agentes"
-          ],
-          "what_changed": "Se lanzó un nuevo benchmark para evaluar agentes de IA en ingeniería.",
-          "why_it_matters": "Frontier-Eng establece un nuevo estándar para evaluar la capacidad de los agentes de IA en problemas de ingeniería mediante optimización generativa.",
-          "sector_impact": "Avanza la capacidad de la IA para resolver problemas de ingeniería complejos."
         }
       ]
     }
