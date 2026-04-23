@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-04-23",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenHands Software Agent SDK",
+          "summary": "Una herramienta flexible para la implementación de agentes en desarrollo de software, que destaca por su fácil extensión y seguridad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.03690",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "SDK",
+            "agentes",
+            "software"
+          ],
+          "what_changed": "Nueva herramienta para desarrollar agentes de software.",
+          "why_it_matters": "Facilita la implementación y escalabilidad de soluciones de IA en el desarrollo de software.",
+          "sector_impact": "Mejora la eficiencia en la creación de aplicaciones personalizadas."
+        },
+        {
+          "title": "Automatic Ontology Construction Using LLMs",
+          "summary": "Un enfoque para la construcción automática de ontologías utilizando modelos de lenguaje para mejorar el razonamiento estructurado.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.20795",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ontologías",
+            "razonamiento",
+            "IA"
+          ],
+          "what_changed": "Introducción de un modelo híbrido para razonamiento semántico.",
+          "why_it_matters": "Aborda limitaciones de modelos LLM actuales y mejora la validación de resultados generados.",
+          "sector_impact": "Impacto significativo en sistemas inteligentes y soluciones empresariales de IA."
+        },
+        {
+          "title": "KOCO-BENCH: Benchmark para Especialización de Dominio",
+          "summary": "Un nuevo marco de evaluación para medir la efectividad de métodos de especialización de LLM en el desarrollo de software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.13240",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "especialización",
+            "IA"
+          ],
+          "what_changed": "Se presenta un estándar para evaluar métodos de especialización en LLMs.",
+          "why_it_matters": "Facilita la comprensión y aplicación de conocimientos específicos de dominio.",
+          "sector_impact": "Mejora la capacidad de LLM para manejar desarrollos de software en dominios específicos."
+        },
+        {
+          "title": "ThermoQA: Evaluación del Razonamiento Termodinámico",
+          "summary": "Un nuevo benchmark para evaluar el razonamiento en problemas de ingeniería termodinámica utilizando LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19758",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "razonamiento",
+            "termodinámica"
+          ],
+          "what_changed": "Nuevas pruebas que cuantifican el razonamiento en termodinámica.",
+          "why_it_matters": "Proporciona un contexto práctico para evaluar el desempeño de LLMs en ingeniería.",
+          "sector_impact": "Aumenta la confianza en soluciones desarrolladas en este campo."
+        },
+        {
+          "title": "ChipCraftBrain: Generación RTL Automatizada",
+          "summary": "Un marco para la generación de código RTL utilizando una orquestación multi-agente adaptativa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19856",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "RTL",
+            "automatización",
+            "código"
+          ],
+          "what_changed": "Mejora en la generación de código mediante un enfoque multi-agente.",
+          "why_it_matters": "Aumenta la efectividad y reduzca costos en la generación de RTL.",
+          "sector_impact": "Mejora la productividad en el desarrollo de hardware."
+        },
+        {
+          "title": "SolidCoder: Generación de Código Robusta",
+          "summary": "Plantea una nueva arquitectura para la generación de código que evita errores comunes en la simulación mental.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19825",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "código",
+            "generación",
+            "errores"
+          ],
+          "what_changed": "Introducción de una ejecución real en la verificación del código.",
+          "why_it_matters": "Aborda una de las principales debilidades en las actuales herramientas de generación de código.",
+          "sector_impact": "Mejora la calidad y fiabilidad del software generado."
+        },
+        {
+          "title": "OTthink-SRR1: Aprendizaje Reforzado para Modelos LLM",
+          "summary": "Un nuevo marco que mejora los modelos LLM utilizando un proceso iterativo de búsqueda, refinamiento y razonamiento.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.19766",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aprendizaje",
+            "razonamiento",
+            "modelos"
+          ],
+          "what_changed": "Mejora la precisión del razonamiento a través de un marco basado en refuerzo.",
+          "why_it_matters": "Permite una mejor identificación de evidencias y un razonamiento más eficiente.",
+          "sector_impact": "Aumenta la eficacia de los agentes de búsqueda de información."
+        }
+      ]
+    },
+    {
       "date": "2026-04-22",
       "executive_title": "Radar IA del día",
       "items": [
@@ -746,124 +871,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-16",
-      "executive_title": "Radar Diario de IA - Novedades Clave",
-      "items": [
-        {
-          "title": "MCP Framework para Investigación Clínica",
-          "summary": "Desarrollo de un sistema de inteligencia para investigar clínicamente que evita el manejo directo de datos sensibles mientras automatiza flujos de trabajo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.12258",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "investigación clínica"
-          ],
-          "what_changed": "Introducción de un marco que integra modelos de lenguaje y herramientas modulares para la investigación clínicas.",
-          "why_it_matters": "Facilita que los investigadores realicen estudios sin acceso directo a datos, mejorando la eficiencia y la seguridad.",
-          "sector_impact": "Impacto significativo en el sector de la salud y la investigación clínica."
-        },
-        {
-          "title": "Código Agente con Espacios de Acción Estructurados",
-          "summary": "Presentación del marco CODESTRUCT que mejora la precisión y la eficiencia de los agentes de código en tareas de edición.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.05407",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "diseño de software",
-            "agentes"
-          ],
-          "what_changed": "Reestructuración del código base como un espacio de acción estructurada.",
-          "why_it_matters": "Ofrece una base más confiable para que los agentes de código gestionen tareas complejas.",
-          "sector_impact": "Transforma estrategias de desarrollo de software, mejorando la calidad y la seguridad."
-        },
-        {
-          "title": "AnyPoC: Generación de Pruebas de Concepto para Detección de Bugs",
-          "summary": "Marco que permite la generación automatizada de pruebas de concepto para validar candidatos a errores en el código.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.11950",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "detección de errores",
-            "automatización"
-          ],
-          "what_changed": "Nueva estrategia que proporciona pruebas evidentes para los informes de errores.",
-          "why_it_matters": "Facilita la validación autónoma de posibles errores en el código, mejorando la eficiencia en el desarrollo.",
-          "sector_impact": "Aumenta la calidad del software y reduce la tasa de errores en producciones."
-        },
-        {
-          "title": "Long-Horizon Planificación usando Entropy-Guided Branching",
-          "summary": "Propuesta de un algoritmo que optimiza la ejecución de tareas complejas mediante una búsqueda consciente de la incertidumbre.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.12126",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "planificación",
-            "algoritmos"
-          ],
-          "what_changed": "Mejoras en la planificación de tareas dentro de amplios conjuntos de herramientas.",
-          "why_it_matters": "Posibilita un mejor uso de los recursos y tasas de éxito en desafíos complejos.",
-          "sector_impact": "Revoluciona la automatización en entornos de trabajo con múltiples herramientas."
-        },
-        {
-          "title": "ReflectCAP: Leyendas de Imágenes Detalladas",
-          "summary": "Sistema de generación de leyendas de imágenes que mejora la factualidad y la cobertura utilizando notas de reflexión estructuradas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.12357",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "visión por computadora",
-            "IA"
-          ],
-          "what_changed": "Método innovador para guiar modelos en la generación de leyendas más precisas.",
-          "why_it_matters": "Optimiza la generación de contenido visual, relevante para aplicaciones comerciales.",
-          "sector_impact": "Impulsa el desarrollo de aplicaciones de IA en marketing y redes sociales."
-        },
-        {
-          "title": "Evaluación de Anotaciones Generadas por LLM para Verificación Formal",
-          "summary": "Estudio sobre la efectividad de LLM en la generación de especificaciones automatizadas para programas C.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.13851",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "verificación",
-            "software"
-          ],
-          "what_changed": "Comparación empírica de métodos de anotación automatizada para verificación.",
-          "why_it_matters": "Identifica las limitaciones y potencial de LLM como herramientas complementarias.",
-          "sector_impact": "Ayuda en la creación de software más confiable y verificable."
-        },
-        {
-          "title": "Generación de Tareas Personalizadas con AI en Educación",
-          "summary": "Estudio sobre el uso de generadores de tareas personalizadas en educación media con participación docente.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.15876",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "educación",
-            "AI"
-          ],
-          "what_changed": "Exploración de la eficiencia del proceso de personalización en contextos educativos.",
-          "why_it_matters": "Estudio sobre el uso de generadores de tareas personalizadas en educación media con participación docente.",
-          "sector_impact": "Transforma cómo se enseña y aprende, potenciando el interés estudiantil."
         }
       ]
     }
