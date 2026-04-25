@@ -1,112 +1,144 @@
 {
-  "date": "2026-04-24",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-04-25",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimas novedades y desarrollos en herramientas y modelos de IA",
+  "opening_message": "A continuación, se presentan los avances más relevantes en IA que debes tener en cuenta.",
   "items": [
     {
-      "title": "The Last Harness You'll Ever Build",
-      "summary": "arXiv:2604.21003v1 Announce Type: new Abstract: AI agents are increasingly deployed on complex, domain-specific workflows -- navigating enterprise web applications that require dozens of clicks and form fills, orchestrating multi-step research pipelines that span search, extraction, and synthesis, automating code review across unfamiliar repositories, and handling customer escalations that demand nuanced domain knowledge. \\textbf{Each new task domain requires painstaking, expert-driven harness engineering}: designing the prompts, tools, orchestration logic, and evaluation criteria that make a foundation model effective. We present a two-level framework that automates this process. At the first level, the \\textbf{Harness Evolution Loop} optimizes a worker agent's harness $\\mathcal{H}$ for a single task: a Worker Agent $W_{\\mathcal{H}}$ executes the task, an Evaluator Agent $V$ adversarially diagnoses failures and scores performance, and an Evolution Agent $E$ modifies the harness based on the full history of prior attempts. At the second level, the \\textbf{Meta-Evolution Loop} optimizes the evolution protocol $\\Lambda = (W_{\\mathcal{H}}, \\mathcal{H}^{(0)}, V, E)$ itself across diverse tasks, \\textbf{learning a protocol $\\Lambda^{(\\text{best})}$ that enables rapid harness convergence on any new task -- so that adapting an agent to a novel domain requires no human harness engineering at all.} We formalize the correspondence to meta-learning and present both algorithms. The framework \\textbf{shifts manual harness engineering into automated harness engineering}, and takes one step further -- \\textbf{automating the design of the automation itself}.",
-      "category": "labs",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.21003",
-      "relevance_score": 34,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Evaluating AI Meeting Summaries with a Reusable Cross-Domain Pipeline",
-      "summary": "arXiv:2604.21345v1 Announce Type: new Abstract: We present a reusable evaluation pipeline for generative AI applications, instantiated for AI meeting summaries and released with a public artifact package derived from a Dataset Pipeline. The system separates reusable orchestration from task-specific semantics across five stages: source intake, structured reference construction, candidate generation, structured scoring, and reporting. Unlike standalone claim scorers, it treats both ground truth and evaluator outputs as typed, persisted artifacts, enabling aggregation, issue analysis, and statistical testing. We benchmark the offline loop on a typed dataset of 114 meetings spanning city_council, private_data, and whitehouse_press_briefings, producing 340 meeting-model pairs and 680 judge runs across gpt-4.1-mini, gpt-5-mini, and gpt-5.1. Under this protocol, gpt-4.1-mini achieves the highest mean accuracy (0.583), while gpt-5.1 leads in completeness (0.886) and coverage (0.942). Paired sign tests with Holm correction show no significant accuracy winner but confirm significant retention gains for gpt-5.1. A typed DeepEval contrastive baseline preserves retention ordering but reports higher holistic accuracy, suggesting that reference-based scoring may overlook unsupported-specifics errors captured by claim-grounded evaluation. Typed analysis identifies whitehouse_press_briefings as an accuracy-challenging domain with frequent unsupported specifics. A deployment follow-up shows gpt-5.4 outperforming gpt-4.1 across all metrics, with statistically robust gains on retention metrics under the same protocol. The system benchmarks the offline loop and documents, but does not quantitatively evaluate, the online feedback-to-evaluation path.",
+      "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
+      "summary": "OpenAI ha lanzado GPT-5.5, un modelo con capacidades mejoradas en diversas categorías.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.21345",
-      "relevance_score": 31,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+      "relevance_score": 9,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT-5.5"
+      ],
+      "what_changed": "Mejoras en capacidades del modelo.",
+      "why_it_matters": "Aumenta la competitividad en el desarrollo de aplicaciones de IA avanzadas.",
+      "sector_impact": "Transformación en la forma en que interactuamos con la tecnología."
     },
     {
-      "title": "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
-      "summary": "arXiv:2604.21375v1 Announce Type: cross Abstract: Autonomous GUI agents face two fundamental challenges: early stopping, where agents prematurely declare success without verifiable evidence, and repetitive loops, where agents cycle through the same failing actions without recovery. We present VLAA-GUI, a modular GUI agentic framework built around three integrated components that guide the system on when to Stop, Recover, and Search. First, a mandatory Completeness Verifier enforces UI-observable success criteria and verification at every finish step -- with an agent-level verifier that cross-examines completion claims with decision rules, rejecting those lacking direct visual evidence. Second, a mandatory Loop Breaker provides multi-tier filtering: switching interaction mode after repeated failures, forcing strategy changes after persistent screen-state recurrence, and binding reflection signals to strategy shifts. Third, an on-demand Search Agent searches online for unfamiliar workflows by directly querying a capable LLM with search ability, returning results as plain text. We additionally integrate a Coding Agent for code-intensive actions and a Grounding Agent for precise action grounding, both invoked on demand when required. We evaluate VLAA-GUI across five top-tier backbones, including Opus 4.5, 4.6 and Gemini 3.1 Pro, on two benchmarks with Linux and Windows tasks, achieving top performance on both (77.5% on OSWorld and 61.0% on WindowsAgentArena). Notably, three of the five backbones surpass human performance (72.4%) on OSWorld in a single pass. Ablation studies show that all three proposed components consistently improve a strong backbone, while a weaker backbone benefits more from these tools when the step budget is sufficient. Further analysis also shows that the Loop Breaker nearly halves wasted steps for loop-prone models.",
+      "title": "We’re launching two specialized TPUs for the agentic era.",
+      "summary": "Google presenta dos nuevos TPUs que impulsarán el futuro de la IA.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "TPU",
+        "Google",
+        "IA"
+      ],
+      "what_changed": "Introducción de chips especializados.",
+      "why_it_matters": "Aumenta la capacidad de procesamiento para cargas de trabajo de IA.",
+      "sector_impact": "Mejora la infraestructura para tareas complejas de IA."
+    },
+    {
+      "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
+      "summary": "DeepSeek presenta un nuevo modelo de IA más eficiente que casi cierra la brecha con los líderes del sector.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.21375",
-      "relevance_score": 29,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "DeepSeek",
+        "IA",
+        "Modelo"
+      ],
+      "what_changed": "Mejoras en la arquitectura del modelo.",
+      "why_it_matters": "Proporciona capacidades de razonamiento avanzadas.",
+      "sector_impact": "Impulsa el desarrollo de aplicaciones de IA más sofisticadas."
     },
     {
-      "title": "AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts",
-      "summary": "arXiv:2601.11044v4 Announce Type: replace Abstract: Large Language Models (LLMs) based autonomous agents demonstrate multifaceted capabilities to contribute substantially to economic production. However, existing benchmarks remain focused on single agentic capability, failing to capture long-horizon real-world scenarios. Moreover, the reliance on human-in-the-loop feedback for realistic tasks creates a scalability bottleneck, hindering automated rollout collection and evaluation. To bridge this gap, we introduce AgencyBench, a comprehensive benchmark derived from daily AI usage, evaluating 6 core agentic capabilities across 32 real-world scenarios, comprising 138 tasks with specific queries, deliverables, and rubrics. These scenarios require an average of 90 tool calls, 1 million tokens, and hours of execution time to resolve. To enable automated evaluation, we employ a user simulation agent to provide iterative feedback, and a Docker sandbox to conduct visual and functional rubric-based assessment. Experiments reveal that closed-source models significantly outperform open-source models (48.4% vs 32.1%). Further analysis reveals significant disparities across models in resource efficiency, feedback-driven self-correction, and specific tool-use preferences. Finally, we investigate the impact of agentic scaffolds, observing that proprietary models demonstrate superior performance within their native ecosystems (e.g., Claude-4.5-Opus via Claude-Agent-SDK), while open-source models exhibit distinct performance peaks, suggesting potential optimization for specific execution frameworks. AgencyBench serves as a critical testbed for next-generation agents, highlighting the necessity of co-optimizing model architecture with agentic frameworks. We believe this work sheds light on the future direction of autonomous agents, and we release the full benchmark and evaluation toolkit at https://github.com/GAIR-NLP/AgencyBench.",
+      "title": "Google to invest up to $40B in Anthropic in cash and compute",
+      "summary": "Google planea invertir hasta $40 mil millones en Anthropic para aumentar la capacidad de cómputo de IA.",
+      "category": "framework",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Google",
+        "Anthropic",
+        "Inversión"
+      ],
+      "what_changed": "Aumento considerables en financiación.",
+      "why_it_matters": "Permitirá una mayor innovación en modelos de IA.",
+      "sector_impact": "Aceleración en el desarrollo de IA segura y competitiva."
+    },
+    {
+      "title": "Nothing introduces an AI-powered dictation tool",
+      "summary": "El nuevo dictado de Nothing soporta más de 100 idiomas y mejora la experiencia del usuario.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Nothing",
+        "Dictado",
+        "IA"
+      ],
+      "what_changed": "Soporte de dictado para múltiples idiomas.",
+      "why_it_matters": "Facilita la comunicación global en múltiples lenguajes.",
+      "sector_impact": "Mejora la accesibilidad de tecnologías de IA."
+    },
+    {
+      "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+      "summary": "ComfyUI ha alcanzado una valoración de $500 millones tras conseguir financiamiento que le otorga más control sobre generación de medios con IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "ComfyUI",
+        "IA",
+        "Media"
+      ],
+      "what_changed": "Recepción de nueva inversión y valoración.",
+      "why_it_matters": "Impulsa la creación de medios personalizados utilizando IA.",
+      "sector_impact": "Transforma la industria creativa al fomentar la innovación."
+    },
+    {
+      "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+      "summary": "La demanda incremental por mini Mac de Apple debido a su uso en modelos e IA ha provocado un aumento en precios en eBay.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Apple",
+        "Mac",
+        "IA"
+      ],
+      "what_changed": "Escasez de unidades y aumento de precios.",
+      "why_it_matters": "Indica un aumento en la adopción de equipamiento para IA.",
+      "sector_impact": "Cambio en la dinámica del mercado tecnológico."
+    },
+    {
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "summary": "",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.11044",
-      "relevance_score": 29,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/deepseekv4",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Biomedical systems biology workflow orchestration and execution with PoSyMed",
-      "summary": "arXiv:2604.20906v1 Announce Type: cross Abstract: The rapid growth of scientific software has created practical barriers for bioinformatics research. Although powerful statistical, artificial intelligence (AI)-based methods are now widely available, their effective use is often hindered by fragmented distribution, inconsistent documentation, complex dependencies, and difficult-to-reproduce execution environments. As a result, reusing published tools and workflow adaptation to own date remains technically demanding and time-intensive, even for experienced users. Here, we present PoSyMed, an open and modular platform for the controlled integration, composition, and execution of bioinformatics tools and workflows. PoSyMed combines a backend-centered platform architecture with formal tool descriptions, controlled container-based build and execution processes, persistent workflow state, and a dialogue-based user interface. Large language models (LLM) are integrated not as autonomous decision-makers, but as human-computer interface with bounded semantic assistants that help identify tools, propose workflow steps, and support parameterization within a typed, validated, and human-supervised execution environment. PoSyMed is designed to improve reproducibility, traceability, and transparency in practical biomedical analysis within one platform. We describe the system architecture and evaluate its behavior across representative biological software scenarios with respect to workflow support, interaction design, and platform extensibility. PoSyMed is publicly available at https://apps.cosy.bio/posymed.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.20906",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Cross-Model Consistency of AI-Generated Exercise Prescriptions: A Repeated Generation Study Across Three Large Language Models",
-      "summary": "arXiv:2604.19598v2 Announce Type: replace-cross Abstract: This study compared repeated generation consistency of exercise prescription outputs across three large language models (LLMs), specifically GPT-4.1, Claude Sonnet 4.6, and Gemini 2.5 Flash, under temperature=0 conditions. Each model generated prescriptions for six clinical scenarios 20 times, yielding 360 total outputs analyzed across four dimensions: semantic similarity, output reproducibility, FITT classification, and safety expression. Mean semantic similarity was highest for GPT-4.1 (0.955), followed by Gemini 2.5 Flash (0.950) and Claude Sonnet 4.6 (0.903), with significant inter-model differences confirmed (H = 458.41, p < .001). Critically, these scores reflected fundamentally different generative behaviors: GPT-4.1 produced entirely unique outputs (100%) with stable semantic content, while Gemini 2.5 Flash showed pronounced output repetition (27.5% unique outputs), indicating that its high similarity score derived from text duplication rather than consistent reasoning. Identical decoding settings thus yielded fundamentally different consistency profiles, a distinction that single-output evaluations cannot capture. Safety expression reached ceiling levels across all models, confirming its limited utility as a differentiating metric. These results indicate that model selection constitutes a clinical rather than merely technical decision, and that output behavior under repeated generation conditions should be treated as a core criterion for reliable deployment of LLM-based exercise prescription systems.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.19598",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Model Capability Assessment and Safeguards for Biological Weaponization",
-      "summary": "arXiv:2604.19811v2 Announce Type: replace-cross Abstract: AI leaders and safety reports increasingly warn that advances in model reasoning may enable biological misuse, including by low-expertise users, while major labs describe safeguards as expanding but still evolving rather than settled. This study benchmarks ChatGPT 5.2 Auto, Gemini 3 Pro Thinking, Claude Opus 4.5 and Meta's Muse Spark Thinking on 73 novice-framed, open-ended benign STEM prompts to measure operational intelligence. On benign quantitative tasks, both Gemini and Meta scored very high; ChatGPT was partially useful but text-thinned, and Claude was sparsest with some apparent false-positive refusals. A second test set detected subtle harmful intent: edge case prompts revealed Gemini's seeming lack of contextual awareness. These results warranted a focused weaponization analysis on Gemini as capability appeared to be outpacing moderation calibration. Gemini was tested across four access environments and reported cases include poison-ivy-to-crowded-transit escalation, poison production and extraction via international-anonymous logged-out AI Mode, and other concerning examples. Biological misuse may become more prevalent as a geopolitical tool, increasing the urgency of U.S. policy responses, especially if model outputs come to be treated as regulated technical data. Guidance is provided for 25 high-risk agents to help distinguish legitimate use cases from higher-risk ones.",
-      "category": "labs",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.19811",
-      "relevance_score": 28,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Nemobot Games: Crafting Strategic AI Gaming Agents for Interactive Learning with Large Language Models",
-      "summary": "arXiv:2604.21896v1 Announce Type: new Abstract: This paper introduces a new paradigm for AI game programming, leveraging large language models (LLMs) to extend and operationalize Claude Shannon's taxonomy of game-playing machines. Central to this paradigm is Nemobot, an interactive agentic engineering environment that enables users to create, customize, and deploy LLM-powered game agents while actively engaging with AI-driven strategies. The LLM-based chatbot, integrated within Nemobot, demonstrates its capabilities across four distinct classes of games. For dictionary-based games, it compresses state-action mappings into efficient, generalized models for rapid adaptability. In rigorously solvable games, it employs mathematical reasoning to compute optimal strategies and generates human-readable explanations for its decisions. For heuristic-based games, it synthesizes strategies by combining insights from classical minimax algorithms (see, e.g., shannon1950chess) with crowd-sourced data. Finally, in learning-based games, it utilizes reinforcement learning with human feedback and self-critique to iteratively refine strategies through trial-and-error and imitation learning. Nemobot amplifies this framework by offering a programmable environment where users can experiment with tool-augmented generation and fine-tuning of strategic game agents. From strategic games to role-playing games, Nemobot demonstrates how AI agents can achieve a form of self-programming by integrating crowdsourced learning and human creativity to iteratively refine their own logic. This represents a step toward the long-term goal of self-programming AI.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.21896",
-      "relevance_score": 27,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "DeepSeek",
+        "IA",
+        "Modelo"
+      ],
+      "what_changed": "Introducción de un contexto de un millón de tokens.",
+      "why_it_matters": "Aumenta la capacidad operativa de los agentes de IA.",
+      "sector_impact": "Facilita interacciones más complejas y naturales."
     }
   ]
 }
