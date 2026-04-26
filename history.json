@@ -1,6 +1,111 @@
 {
   "days": [
     {
+      "date": "2026-04-26",
+      "executive_title": "Radar Diario de Inteligencia Artificial - Prioridades Clave",
+      "items": [
+        {
+          "title": "Anthropic crea un mercado de prueba para comercio entre agentes",
+          "summary": "Anthropic ha desarrollado un mercado donde agentes de IA representan tanto a compradores como a vendedores, firmando acuerdos reales.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "comercio"
+          ],
+          "what_changed": "Se ha implementado un sistema que permite interacción directa entre agentes de IA.",
+          "why_it_matters": "Implica un avance significativo en la capacidad de los agentes de IA para realizar transacciones autónomas.",
+          "sector_impact": "Transformará la forma en que se realizan los negocios digitales."
+        },
+        {
+          "title": "Cursor en la mira: Elon Musk busca adquirirlo por $60B",
+          "summary": "Elon Musk está interesado en adquirir Cursor, lo que podría marcar un cambio significativo en el entorno tecnológico.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/apples-new-ceo-and-why-elon-musk-wants-to-buy-cursor-for-60b/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [
+            "Cursor",
+            "adquisición"
+          ],
+          "what_changed": "Aumento en el interés de inversores hacia herramientas innovadoras y efectivas.",
+          "why_it_matters": "La adquisición podría acelerar el desarrollo de nuevas funciones y capacidades para Cursor.",
+          "sector_impact": "Acelera la competencia en el sector de herramientas de IA."
+        },
+        {
+          "title": "Incremento de carga de trabajo de IA gracias a los TPUs de Google",
+          "summary": "Google destaca cómo sus TPUs están mejorando el manejo de cargas de trabajo de IA complejas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "TPUs",
+            "potencia de IA"
+          ],
+          "what_changed": "Los TPUs mejoran la eficiencia de procesar cargas de trabajo de IA.",
+          "why_it_matters": "Aumenta la capacidad para manejar aplicaciones complejas de IA.",
+          "sector_impact": "Facilita la innovación en desarrollo de modelos IA."
+        },
+        {
+          "title": "Meta firma acuerdo para millones de CPUs de IA de Amazon",
+          "summary": "Meta adquiere un gran número de CPUs de Amazon para cargas de trabajo de agentes de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "CPUs",
+            "IA"
+          ],
+          "what_changed": "Meta asegura acceso a nuevas tecnologías de hardware.",
+          "why_it_matters": "Impulsa la capacidad de Meta para desarrollar aplicaciones de IA avanzadas.",
+          "sector_impact": "Marca una tendencia en el uso de CPUs en lugar de GPUs para IA."
+        },
+        {
+          "title": "Sierra adquiere la startup de IA Fragment respaldada por YC",
+          "summary": "Sierra compra Fragment, una startup centrada en el servicio al cliente con IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "adquisición",
+            "startup",
+            "servicio al cliente"
+          ],
+          "what_changed": "Expansión de la oferta de Sierra en servicios de IA.",
+          "why_it_matters": "Mejora el potencial de servicio al cliente automatizado.",
+          "sector_impact": "Refuerza la importancia de la IA en la atención al cliente."
+        },
+        {
+          "title": "El futuro de Apple bajo el mando de John Ternus",
+          "summary": "Se anticipan cambios en la estrategia de hardware de Apple con el nuevo CEO John Ternus.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Apple",
+            "hardware",
+            "estrategia"
+          ],
+          "what_changed": "Cambio de liderazgo que puede revitalizar la dirección de la compañía.",
+          "why_it_matters": "Es crucial para la evolución de la estrategia de productos de Apple.",
+          "sector_impact": "Posibles innovaciones en su línea de productos inteligentes."
+        }
+      ]
+    },
+    {
       "date": "2026-04-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -761,148 +866,6 @@
           "what_changed": "Introducción de un marco de mezcla de agentes para generación de HDL.",
           "why_it_matters": "Marco de múltiples agentes para la generación de HDL automatizada.",
           "sector_impact": "Avance en ingeniería eléctrica y electrónica."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-19",
-      "executive_title": "Resumen Diario de Innovaciones en IA",
-      "items": [
-        {
-          "title": "OpenAI takes aim at Anthropic with beefed-up Codex",
-          "summary": "OpenAI ha renovado su herramienta Codex con nuevas capacidades que mejoran su funcionalidad para la codificación.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "Codex",
-            "IA"
-          ],
-          "what_changed": "Mejoras significativas en las capacidades de programación.",
-          "why_it_matters": "Esta herramienta puede revolucionar la forma en que los desarrolladores interactúan con el código.",
-          "sector_impact": "Transformación en la eficiencia del desarrollo de software."
-        },
-        {
-          "title": "Sources: Cursor in talks to raise $2B+",
-          "summary": "Cursor está en negociaciones para una ronda de financiamiento de más de $2B, reflejando su crecimiento en el sector empresarial.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Cursor",
-            "financiamiento",
-            "IA"
-          ],
-          "what_changed": "Aumento significativo en la valoración y el interés de inversores.",
-          "why_it_matters": "El crecimiento de Cursor puede influir en el desarrollo de herramientas destinadas a empresas.",
-          "sector_impact": "Impulso en la adopción de IA en entornos corporativos."
-        },
-        {
-          "title": "A new way to explore the web with AI Mode in Chrome",
-          "summary": "Google lanza actualizaciones para el Modo IA en Chrome, cambiando la forma de interactuar con la web.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Chrome",
-            "IA"
-          ],
-          "what_changed": "Transformaciones en la interfaz de usuario y capacidades de búsqueda.",
-          "why_it_matters": "Mejora la experiencia de navegación y acceso a información relevante.",
-          "sector_impact": "Aumento en la eficiencia de la búsqueda en la web."
-        },
-        {
-          "title": "InsightFinder raises $15M to help companies figure out where AI agents go wrong",
-          "summary": "InsightFinder ha recaudado $15M para mejorar el diagnóstico en el uso de agentes de IA en empresas.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "InsightFinder",
-            "diagnóstico",
-            "IA"
-          ],
-          "what_changed": "Obtención de fondos para impulsar herramientas de diagnóstico.",
-          "why_it_matters": "Contribuye a optimizar el rendimiento de los modelos de IA implementados.",
-          "sector_impact": "Mejoras en la operatividad de la infraestructura tecnológica empresarial."
-        },
-        {
-          "title": "The App Store is booming again, and AI may be why",
-          "summary": "El App Store está experimentando un auge de lanzamientos, impulsado por herramientas de IA.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "App Store",
-            "crecimiento",
-            "IA"
-          ],
-          "what_changed": "Incremento en el lanzamiento de nuevas aplicaciones.",
-          "why_it_matters": "Indica un crecimiento en la innovación y la adopción de IA en aplicaciones.",
-          "sector_impact": "Crecimiento del ecosistema móvil impulsado por IA."
-        },
-        {
-          "title": "AI chip startup Cerebras files for IPO",
-          "summary": "Cerebras, startup de chips de IA, se prepara para salir a bolsa tras acuerdos significativos.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Cerebras",
-            "IPO",
-            "chips de IA"
-          ],
-          "what_changed": "Presentación para oferta pública inicial en el mercado.",
-          "why_it_matters": "Destaca la importancia de los chips diseñados para aplicaciones de IA.",
-          "sector_impact": "Posible revolución en la capacidad de procesamiento para aplicaciones de IA."
-        },
-        {
-          "title": "‘Tokenmaxxing’ is making developers less productive than they think",
-          "summary": "El fenómeno de 'Tokenmaxxing' está afectando la productividad de los desarrolladores debido a la complejidad del código.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "desarrollo",
-            "productividad",
-            "IA"
-          ],
-          "what_changed": "Identificación de problemas en prácticas de codificación.",
-          "why_it_matters": "Llama la atención sobre la necesidad de simplificación en el desarrollo de software.",
-          "sector_impact": "Impacto en la eficiencia de la industria del desarrollo de software."
-        },
-        {
-          "title": "Kevin Weil and Bill Peebles exit OpenAI",
-          "summary": "La salida de dos ejecutivos clave de OpenAI marca un cambio en la dirección de la compañía hacia la IA empresarial.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "cambio organizacional",
-            "IA"
-          ],
-          "what_changed": "Reorganización de la estructura de liderazgo en OpenAI.",
-          "why_it_matters": "Indica un enfoque más claro en el desarrollo de IA para empresas.",
-          "sector_impact": "Redefinición del futuro de las aplicaciones de IA en el sector empresarial."
         }
       ]
     }

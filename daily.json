@@ -1,144 +1,107 @@
 {
-  "date": "2026-04-25",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades y desarrollos en herramientas y modelos de IA",
-  "opening_message": "A continuación, se presentan los avances más relevantes en IA que debes tener en cuenta.",
+  "date": "2026-04-26",
+  "executive_title": "Radar Diario de Inteligencia Artificial - Prioridades Clave",
+  "intro_message": "En este informe, destacamos las herramientas, modelos y tecnologías emergentes en el ámbito de la inteligencia artificial que están ocupando un lugar central en la innovación y desarrollo.",
+  "opening_message": "Aquí están las últimas actualizaciones que no te puedes perder.",
   "items": [
     {
-      "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
-      "summary": "OpenAI ha lanzado GPT-5.5, un modelo con capacidades mejoradas en diversas categorías.",
-      "category": "model",
+      "title": "Anthropic crea un mercado de prueba para comercio entre agentes",
+      "summary": "Anthropic ha desarrollado un mercado donde agentes de IA representan tanto a compradores como a vendedores, firmando acuerdos reales.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-      "relevance_score": 9,
+      "source_url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "relevance_score": 11,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "GPT-5.5"
+        "agentes",
+        "comercio"
       ],
-      "what_changed": "Mejoras en capacidades del modelo.",
-      "why_it_matters": "Aumenta la competitividad en el desarrollo de aplicaciones de IA avanzadas.",
-      "sector_impact": "Transformación en la forma en que interactuamos con la tecnología."
+      "what_changed": "Se ha implementado un sistema que permite interacción directa entre agentes de IA.",
+      "why_it_matters": "Implica un avance significativo en la capacidad de los agentes de IA para realizar transacciones autónomas.",
+      "sector_impact": "Transformará la forma en que se realizan los negocios digitales."
     },
     {
-      "title": "We’re launching two specialized TPUs for the agentic era.",
-      "summary": "Google presenta dos nuevos TPUs que impulsarán el futuro de la IA.",
+      "title": "Cursor en la mira: Elon Musk busca adquirirlo por $60B",
+      "summary": "Elon Musk está interesado en adquirir Cursor, lo que podría marcar un cambio significativo en el entorno tecnológico.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/podcast/apples-new-ceo-and-why-elon-musk-wants-to-buy-cursor-for-60b/",
+      "relevance_score": 11,
+      "status": "new",
+      "tags": [
+        "Cursor",
+        "adquisición"
+      ],
+      "what_changed": "Aumento en el interés de inversores hacia herramientas innovadoras y efectivas.",
+      "why_it_matters": "La adquisición podría acelerar el desarrollo de nuevas funciones y capacidades para Cursor.",
+      "sector_impact": "Acelera la competencia en el sector de herramientas de IA."
+    },
+    {
+      "title": "Incremento de carga de trabajo de IA gracias a los TPUs de Google",
+      "summary": "Google destaca cómo sus TPUs están mejorando el manejo de cargas de trabajo de IA complejas.",
       "category": "tool",
       "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "TPU",
-        "Google",
-        "IA"
-      ],
-      "what_changed": "Introducción de chips especializados.",
-      "why_it_matters": "Aumenta la capacidad de procesamiento para cargas de trabajo de IA.",
-      "sector_impact": "Mejora la infraestructura para tareas complejas de IA."
-    },
-    {
-      "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
-      "summary": "DeepSeek presenta un nuevo modelo de IA más eficiente que casi cierra la brecha con los líderes del sector.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "DeepSeek",
-        "IA",
-        "Modelo"
-      ],
-      "what_changed": "Mejoras en la arquitectura del modelo.",
-      "why_it_matters": "Proporciona capacidades de razonamiento avanzadas.",
-      "sector_impact": "Impulsa el desarrollo de aplicaciones de IA más sofisticadas."
-    },
-    {
-      "title": "Google to invest up to $40B in Anthropic in cash and compute",
-      "summary": "Google planea invertir hasta $40 mil millones en Anthropic para aumentar la capacidad de cómputo de IA.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
-        "Anthropic",
-        "Inversión"
+        "TPUs",
+        "potencia de IA"
       ],
-      "what_changed": "Aumento considerables en financiación.",
-      "why_it_matters": "Permitirá una mayor innovación en modelos de IA.",
-      "sector_impact": "Aceleración en el desarrollo de IA segura y competitiva."
+      "what_changed": "Los TPUs mejoran la eficiencia de procesar cargas de trabajo de IA.",
+      "why_it_matters": "Aumenta la capacidad para manejar aplicaciones complejas de IA.",
+      "sector_impact": "Facilita la innovación en desarrollo de modelos IA."
     },
     {
-      "title": "Nothing introduces an AI-powered dictation tool",
-      "summary": "El nuevo dictado de Nothing soporta más de 100 idiomas y mejora la experiencia del usuario.",
+      "title": "Meta firma acuerdo para millones de CPUs de IA de Amazon",
+      "summary": "Meta adquiere un gran número de CPUs de Amazon para cargas de trabajo de agentes de IA.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-      "relevance_score": 6,
+      "source_url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
-        "Nothing",
-        "Dictado",
+        "Meta",
+        "CPUs",
         "IA"
       ],
-      "what_changed": "Soporte de dictado para múltiples idiomas.",
-      "why_it_matters": "Facilita la comunicación global en múltiples lenguajes.",
-      "sector_impact": "Mejora la accesibilidad de tecnologías de IA."
+      "what_changed": "Meta asegura acceso a nuevas tecnologías de hardware.",
+      "why_it_matters": "Impulsa la capacidad de Meta para desarrollar aplicaciones de IA avanzadas.",
+      "sector_impact": "Marca una tendencia en el uso de CPUs en lugar de GPUs para IA."
     },
     {
-      "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
-      "summary": "ComfyUI ha alcanzado una valoración de $500 millones tras conseguir financiamiento que le otorga más control sobre generación de medios con IA.",
+      "title": "Sierra adquiere la startup de IA Fragment respaldada por YC",
+      "summary": "Sierra compra Fragment, una startup centrada en el servicio al cliente con IA.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "source_url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "ComfyUI",
-        "IA",
-        "Media"
+        "adquisición",
+        "startup",
+        "servicio al cliente"
       ],
-      "what_changed": "Recepción de nueva inversión y valoración.",
-      "why_it_matters": "Impulsa la creación de medios personalizados utilizando IA.",
-      "sector_impact": "Transforma la industria creativa al fomentar la innovación."
+      "what_changed": "Expansión de la oferta de Sierra en servicios de IA.",
+      "why_it_matters": "Mejora el potencial de servicio al cliente automatizado.",
+      "sector_impact": "Refuerza la importancia de la IA en la atención al cliente."
     },
     {
-      "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
-      "summary": "La demanda incremental por mini Mac de Apple debido a su uso en modelos e IA ha provocado un aumento en precios en eBay.",
+      "title": "El futuro de Apple bajo el mando de John Ternus",
+      "summary": "Se anticipan cambios en la estrategia de hardware de Apple con el nuevo CEO John Ternus.",
       "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-      "relevance_score": 5,
+      "source_url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
         "Apple",
-        "Mac",
-        "IA"
+        "hardware",
+        "estrategia"
       ],
-      "what_changed": "Escasez de unidades y aumento de precios.",
-      "why_it_matters": "Indica un aumento en la adopción de equipamiento para IA.",
-      "sector_impact": "Cambio en la dinámica del mercado tecnológico."
-    },
-    {
-      "title": "DeepSeek-V4: a million-token context that agents can actually use",
-      "summary": "",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/deepseekv4",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "DeepSeek",
-        "IA",
-        "Modelo"
-      ],
-      "what_changed": "Introducción de un contexto de un millón de tokens.",
-      "why_it_matters": "Aumenta la capacidad operativa de los agentes de IA.",
-      "sector_impact": "Facilita interacciones más complejas y naturales."
+      "what_changed": "Cambio de liderazgo que puede revitalizar la dirección de la compañía.",
+      "why_it_matters": "Es crucial para la evolución de la estrategia de productos de Apple.",
+      "sector_impact": "Posibles innovaciones en su línea de productos inteligentes."
     }
   ]
 }
