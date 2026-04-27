@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-04-27",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "When Does LLM Self-Correction Help? A Control-Theoretic Markov Diagnostic and Verify-First Intervention",
+          "summary": "arXiv:2604.22273v1 Announce Type: new Abstract: Iterative self-correction is widely used in agentic LLM systems, but when repeated refinement helps versus hurts remains unclear. We frame self-correction as a cybernetic feedback loop in which the same language model serves as both controller and plant, and use a two-state Markov model over {Correct, Incorrect} to operationalize a simple deployment diagnostic: iterate only when ECR/EIR > Acc/(1 - Acc). In this view, EIR functions as a stability margin and prompting functions as lightweight controller design. Across 7 models and 3 datasets (GSM8K, MATH, StrategyQA), we find a sharp near-zero EIR threshold (<= 0.5%) separating beneficial from harmful self-correction. Only o3-mini (+3.4 pp, EIR = 0%), Claude Opus 4.6 (+0.6 pp, EIR ~ 0.2%), and o4-mini (+/-0 pp) remain non-degrading; GPT-5 degrades by -1.8 pp. A verify-first prompt ablation provides causal evidence that this threshold is actionable through prompting alone: on GPT-4o-mini it reduces EIR from 2% to 0% and turns -6.2 pp degradation into +0.2 pp (paired McNemar p < 10^-4), while producing little change on already-sub-threshold models. ASC further illustrates the stopping trade-off: it halts harmful refinement but incurs a 3.8 pp confidence-elicitation cost. Overall, the paper argues that self-correction should be treated not as a default behavior, but as a control decision governed by measurable error dynamics.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.22273",
+          "relevance_score": 30,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models",
+          "summary": "arXiv:2604.22153v1 Announce Type: cross Abstract: When you ask an AI assistant for advice about your career, your marriage, or a conflict with your family, does it give you the same answer regardless of where you are from? We tested this systematically by presenting three leading AI systems (Claude Sonnet 4.5, GPT-5.4, and Gemini 2.5 Flash) with ten real-life personal dilemmas, framed for users from 10 countries across 5 continents in 7 languages (n=840 scored responses). We compared AI advice against World Values Survey Wave 7 data measuring what people in each country actually believe. All three AI systems consistently gave Western-style, individualist advice even to users from societies that prioritize family, community, and authority, significantly more so than local values would predict (mean gap +0.76 on a 1-5 scale; t=15.65, p<0.001). The gap is largest for Nigeria (+1.85) and India (+0.82). Japan is the sole exception: AI systems treated Japanese users as more group-oriented than surveys show, revealing that AI encodes outdated stereotypes. Claude and GPT-5.4 show nearly identical bias magnitude, while Gemini is lower but still significant. The models diverge in mechanism: Claude shifts further collectivist in the user's native language; Gemini shifts more individualist; GPT-5.4 responds only to stated country identity. These findings point to a systemic homogenization of values across frontier AI. Data, code, and scoring pipeline are openly released.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.22153",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "UR$^2$: Unify RAG and Reasoning through Reinforcement Learning",
+          "summary": "arXiv:2508.06165v4 Announce Type: replace-cross Abstract: Large Language Models (LLMs) have shown strong capabilities through two complementary paradigms: Retrieval-Augmented Generation (RAG) for knowledge grounding and Reinforcement Learning from Verifiable Rewards (RLVR) for complex reasoning. However, existing attempts to unify these paradigms remain narrow in scope, typically limited to open-domain QA with fixed retrieval settings, which constrains generalization to broader domains. To address this limitation, we propose UR$^2$ (Unified RAG and Reasoning)), a general reinforcement learning framework that dynamically coordinates retrieval and reasoning. UR$^2$ introduces two key designs: a difficulty-aware curriculum that selectively invokes retrieval only for challenging instances, and a hybrid knowledge access strategy that combines domain-specific offline corpora with on-the-fly LLM-generated summaries. Together, these components mitigate the imbalance between retrieval and reasoning and improve robustness to noisy information. Experiments on open-domain QA, MMLU-Pro, medical, and mathematical reasoning tasks show that UR$^2$, built on Qwen-2.5-3/7B and LLaMA-3.1-8B, consistently outperforms existing RAG and RL baselines, and achieves performance comparable to GPT-4o-mini and GPT-4.1-mini on several benchmarks. Our code is available at https://github.com/Tsinghua-dhy/UR2.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2508.06165",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "A systematic review of generative AI usage for IT project management",
+          "summary": "arXiv:2604.21958v1 Announce Type: cross Abstract: This paper aims to synthesize current knowledge on generative AI in IT project management using the PRISMA methodology to provide researchers with a comprehensive perspective on techniques, applications, adoption trends, limitations, and integration across project management tools and process groups. The analysis reveals a clear dominance of OpenAI's GPT in the included studies but relying primarily on prompt engineering, suggesting that research in this area remains at an exploratory stage. Finally, it identifies and discusses three promising research directions for AI-enabled project management, including process group-specific AI agents, project role-based AI agents, and hybrid collaborative networks that enable human-guided orchestration.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.21958",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "SecureVibeBench: Benchmarking Secure Vibe Coding of AI Agents via Reconstructing Vulnerability-Introducing Scenarios",
+          "summary": "arXiv:2509.22097v4 Announce Type: replace-cross Abstract: Large language model-powered code agents are rapidly transforming software engineering, yet the security risks of their generated code have become a critical concern. Existing benchmarks have provided valuable insights, but they fail to capture scenarios in which vulnerabilities are actually introduced by human developers, making fair comparisons between humans and agents infeasible. We therefore introduce SecureVibeBench, a benchmark of 105 C/C++ secure coding tasks sourced from 41 projects in OSS-Fuzz for code agents. SecureVibeBench has the following features: (i) realistic task settings that require multi-file edits in large repositories, (ii)~aligned contexts based on real-world open-source vulnerabilities with precisely identified vulnerability introduction points, and (iii) comprehensive evaluation that combines functionality testing and security checking with both static and dynamic oracles. We evaluate 5 popular code agents like OpenHands, supported by 5 LLMs (e.g., Claude sonnet 4.5) on SecureVibeBench. Results show that current agents struggle to produce both correct and secure code, as even the best-performing one, produces merely 23.8\\% correct and secure solutions on SecureVibeBench. Our code and data are on https://github.com/iCSawyer/SecureVibeBench.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.22097",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Ethics Testing: Proactive Identification of Generative AI System Harms",
+          "summary": "arXiv:2604.22089v1 Announce Type: cross Abstract: Generative Artificial Intelligence (GAI) systems that can automatically generate content in the form of source code or other contents (e.g., images) has seen increasing popularity due to the emergence of tools such as ChatGPT which rely on Large Language Models (LLMs). Misuse of the automatically generated content can incur serious consequences due to potential harms in the generated content. Despite the importance of ensuring the quality of automatically generated content, there is little to no approach that can systematically generate tests for identifying software harms in the content generated by these GAI systems. In this article, we introduce the novel concept of ethics testing which aims to systematically generate tests for identifying software harms. Different from existing testing methodologies (e.g., fairness testing that aims to identifying software discrimination), ethics testing aims to systematically detect software harms that could be induced due to unethical behavior (e.g., harmful behavior or behavior that violates intellectual property rights) in automatically generated content. We introduced the concept of ethics testing, discussed the challenges therewithin, and conducted five case studies to show how ethics testing can be performed for generative AI systems.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.22089",
+          "relevance_score": 24,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Evaluating LLM-Based Goal Extraction in Requirements Engineering: Prompting Strategies and Their Limitations",
+          "summary": "arXiv:2604.22207v1 Announce Type: cross Abstract: Due to the textual and repetitive nature of many Requirements Engineering (RE) artefacts, Large Language Models (LLMs) have proven useful to automate their generation and processing. In this paper, we discuss a possible approach for automating the Goal-Oriented Requirements Engineering (GORE) process by extracting functional goals from software documentation through three phases: actor identification, high and low-level goal extraction. To implement these functionalities, we propose a chain of LLMs fed with engineered prompts. We experimented with different variants of in-context learning and measured the similarities between input data and in-context examples to better investigate their impact. Another key element is the generation-critic mechanism, implemented as a feedback loop involving two LLMs. Although the pipeline achieved 61% accuracy in low-level goal identification, the final stage, these results indicate the approach is best suited as a tool to accelerate manual extraction rather than as a full replacement. The feedback-loop mechanism with Zero-shot outperformed stand-alone Few-shot, with an ablation study suggesting that performance slightly degrades without the feedback cycle. However, we reported that the combination of the feedback mechanism with Few-shot does not deliver any advantage, possibly suggesting that the primary performance ceiling is the prompting strategy applied to the 'critic' LLM. Together with the refinement of both the quantity and quality of the Shot examples, future research will integrate Retrieval-Augmented Generation (RAG) and Chain-of-Thought (CoT) prompting to improve accuracy.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.22207",
+          "relevance_score": 24,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Asymmetric Goal Drift in Coding Agents Under Value Conflict",
+          "summary": "arXiv:2603.03456v2 Announce Type: replace Abstract: Coding agents are increasingly deployed autonomously, at scale, and over long-context horizons. To be effective and safe, these agents must navigate complex trade-offs in deployment, balancing influence from the user, their learned values, and the codebase itself. Understanding how agents resolve these trade-offs in practice is critical, yet prior work has relied on static, synthetic settings that do not capture the complexity of real-world environments. To this end, we introduce a framework built on OpenCode in which a coding agent completes realistic, multi-step tasks under a system prompt constraint favoring one side of a value trade-off. We measure how often the agent violates this constraint as it completes tasks, with and without environmental pressure toward the competing value. Using this framework, we demonstrate that GPT-5 mini, Haiku 4.5, and Grok Code Fast 1 exhibit $\\textit{asymmetric drift}$: they are more likely to violate their system prompt when its constraint opposes strongly-held values like security and privacy. We find for the models and values tested that goal drift correlates with three compounding factors: value alignment, adversarial pressure, and accumulated context. However, even constraints aligned with strongly-held values like privacy are violated under sustained environmental pressure for some models. Our findings reveal that shallow compliance checks are insufficient, and that environmental signals can override explicit constraints in ways that appear exploitable. Malicious actors with access to the codebase could manipulate agent behavior by appealing to learned values, with the risk compounding over the long horizons typical of agentic deployment.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.03456",
+          "relevance_score": 24,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-04-26",
       "executive_title": "Radar Diario de Inteligencia Artificial - Prioridades Clave",
       "items": [
@@ -724,148 +834,6 @@
           "what_changed": "Desarrollo de un sistema para la internalización de políticas complejas.",
           "why_it_matters": "Mejora la adherencia a políticas en aplicaciones multimodales.",
           "sector_impact": "Optimiza el comportamiento de los agentes conversacionales."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-20",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "AISysRev -- LLM-based Tool for Title-abstract Screening",
-          "summary": "Herramienta de revisión sistemática que utiliza LLM para la selección de estudios.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.06708",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "revisión sistemática",
-            "automatización"
-          ],
-          "what_changed": "Desarrollo de una herramienta LLM para la criba de títulos y resúmenes.",
-          "why_it_matters": "Ayuda a reducir la carga de la revisión de literatura científica.",
-          "sector_impact": "Mejora en la eficiencia de los estudios científicos."
-        },
-        {
-          "title": "Automating Crash Diagram Generation Using Vision-Language Models",
-          "summary": "Automatización de la generación de diagramas de accidentes con modelos de visión-lenguaje.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.15332",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "VLM",
-            "seguridad",
-            "automatización"
-          ],
-          "what_changed": "Integración de modelos de visión-lenguaje para una tarea de seguridad.",
-          "why_it_matters": "Aumenta la eficiencia y la consistencia en la seguridad del transporte.",
-          "sector_impact": "Impacto en la gestión de accidentes y análisis de seguridad."
-        },
-        {
-          "title": "GTA-2: Benchmarking General Tool Agents",
-          "summary": "Propuesta de un benchmark para evaluar agentes de herramientas generales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.15715",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "agentes",
-            "automatización"
-          ],
-          "what_changed": "Desarrollo de un benchmark jerárquico para agentes de herramientas.",
-          "why_it_matters": "Mejora la evaluación y el desarrollo de agentes de tareas complejas.",
-          "sector_impact": "Perfeccionamiento de asistentes personales y profesionales."
-        },
-        {
-          "title": "A PennyLane-Centric Dataset for Quantum Code Generation",
-          "summary": "Dataset para mejorar la generación de código cuántico con LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2503.02497",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "quantum",
-            "LLM",
-            "código"
-          ],
-          "what_changed": "Creación de un dataset específico de PennyLane para LLMs.",
-          "why_it_matters": "Facilita el desarrollo de software cuántico eficiente.",
-          "sector_impact": "Avance en desarrollos de IA en computación cuántica."
-        },
-        {
-          "title": "Facial-Expression-Aware Prompting for Empathetic LLM Tutoring",
-          "summary": "Integración de señales de expresión facial en tutores LLM para mejor empatía.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.15336",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "empatía",
-            "LLM",
-            "tutorización"
-          ],
-          "what_changed": "Incorporación de expresiones faciales en el tutoring.",
-          "why_it_matters": "Integración de señales de expresión facial en tutores LLM para mejor empatía.",
-          "sector_impact": "Optimización en entornos educativos de IA."
-        },
-        {
-          "title": "QuantSightBench: Evaluating LLM Quantitative Forecasting",
-          "summary": "Benchmark para evaluar la predicción cuantitativa con intervalos de predicción.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.15859",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "predicción",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de intervalos de predicción como método de evaluación.",
-          "why_it_matters": "Proporciona un marco más riguroso para pruebas de modelos.",
-          "sector_impact": "Permite una mejor toma de decisiones en múltiples industrias."
-        },
-        {
-          "title": "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
-          "summary": "Marco automatizado para simulación y análisis de XANES utilizando agentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16205",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "XANES",
-            "simulación",
-            "análisis"
-          ],
-          "what_changed": "Unificación de operaciones de simulación XANES mediante agentes.",
-          "why_it_matters": "Marco automatizado para simulación y análisis de XANES utilizando agentes.",
-          "sector_impact": "Optimiza la espectroscopía computacional."
-        },
-        {
-          "title": "VeriMoA: A Mixture-of-Agents Framework for Spec-to-HDL Generation",
-          "summary": "Marco de múltiples agentes para la generación de HDL automatizada.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.27617",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "HDL",
-            "generación",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un marco de mezcla de agentes para generación de HDL.",
-          "why_it_matters": "Marco de múltiples agentes para la generación de HDL automatizada.",
-          "sector_impact": "Avance en ingeniería eléctrica y electrónica."
         }
       ]
     }
