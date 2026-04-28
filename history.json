@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-04-28",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "LEGO: An LLM Skill-Based Front-End Design Generation Platform",
+          "summary": "Una plataforma unificada que genera diseños front-end utilizando habilidades de LLM, mejorando la reutilización y eficiencia en la generación de circuitos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.23355",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "diseño",
+            "LLM",
+            "automatización"
+          ],
+          "what_changed": "Presentación de una arquitectura de habilidades modulares para el diseño front-end.",
+          "why_it_matters": "Facilita la automatización en el diseño digital y mejora la eficacia del desarrollo.",
+          "sector_impact": "Alta eficiencia en la ingeniería de producto y diseño digital."
+        },
+        {
+          "title": "xOffense: An Autonomous Multi-Agent Framework for Penetration Testing",
+          "summary": "Un marco de testing de penetración que automatiza flujos de trabajo utilizando modelos LLM y agentes especializados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.13021",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "automatización",
+            "LLM"
+          ],
+          "what_changed": "Automatización del proceso de testing de penetración a través de un marco de múltiples agentes.",
+          "why_it_matters": "Mejora la efectividad y reduce el tiempo de respuesta en pruebas de seguridad digital.",
+          "sector_impact": "Impulsa la capacidad de respuesta en ciberseguridad y disminuye el esfuerzo manual."
+        },
+        {
+          "title": "RADIANT-LLM: an Agentic Retrieval Augmented Generation Framework",
+          "summary": "Framework diseñado para mejorar la precisión en entornos críticos mediante generación y recuperación de información basada en LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.22755",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "seguridad",
+            "automatización"
+          ],
+          "what_changed": "Implementación de un marco de generación y recuperación de información para ingeniería nuclear.",
+          "why_it_matters": "Asegura la precisión y la rastreabilidad en las decisiones críticas de seguridad.",
+          "sector_impact": "Alta relevancia en los procesos de seguridad nuclear y análisis de riesgos."
+        },
+        {
+          "title": "GSAR: Typed Grounding for Hallucination Detection",
+          "summary": "Framework para detectar y categorizar las afirmaciones en LLM, mejorando la confianza en las decisiones de múltiples agentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.23366",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "detención",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de un marco que categoriza la veracidad de las afirmaciones generadas por agentes.",
+          "why_it_matters": "Facilita la supervisión y control de decisiones tomadas por LLM en entornos críticos.",
+          "sector_impact": "Significativa mejora en la usabilidad de sistemas AI para aplicaciones de alto riesgo."
+        },
+        {
+          "title": "PARASITE: Conditional System Prompt Poisoning to Hijack LLMs",
+          "summary": "Marco para inyectar comandos maliciosos en LLMs a través de la optimización de prompts en un entorno de black-box.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.16888",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "LLM",
+            "riesgos"
+          ],
+          "what_changed": "Desarrollo de un marco para manipular LLMs mediante prompts inofensivos.",
+          "why_it_matters": "Aumenta la comprensión de las vulnerabilidades en la implementación de LLMs.",
+          "sector_impact": "Relevante para la mejora de prácticas de seguridad en AI."
+        },
+        {
+          "title": "Evaluating Jailbreaking Vulnerabilities in LLMs",
+          "summary": "Análisis de las vulnerabilidades en LLMs respecto a ataques de jailbreak en entornos de operaciones de red eléctrica.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.23341",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "evaluación",
+            "LLM"
+          ],
+          "what_changed": "Evaluación de LLMs contra estándares regulativos y técnicas de evasión.",
+          "why_it_matters": "Importancia en la identificación de riesgos en operaciones críticas del sistema eléctrico.",
+          "sector_impact": "Impacto significativo en la seguridad y confiabilidad de operaciones eléctricas."
+        },
+        {
+          "title": "How Do AI Agents Spend Your Money?",
+          "summary": "Estudio de patrones de consumo de tokens en tareas de codificación por agentes basados en LLM.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.22750",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "economía",
+            "análisis",
+            "LLM"
+          ],
+          "what_changed": "Primero análisis sistemático del consumo de tokens en tareas de codificación.",
+          "why_it_matters": "Proporciona información nueva sobre la eficiencia económica de los agentes AI.",
+          "sector_impact": "Contribuye a la optimización de costos en despliegue de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-04-27",
       "executive_title": "Radar IA del día",
       "items": [
@@ -699,141 +824,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-21",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Modelos de Lenguaje Agentes para Análisis de Imágenes Médicas",
-          "summary": "Se presenta un enfoque sin entrenamiento usando LLMs para el análisis automático de MRI cerebral, orquestando herramientas especializadas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16729",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "salud",
-            "IA"
-          ],
-          "what_changed": "Implementación de un pipeline agente para análisis de imágenes.",
-          "why_it_matters": "Reduce la necesidad de entrenamiento previo para tareas complejas en radiología.",
-          "sector_impact": "Transforma el análisis de imágenes médicas."
-        },
-        {
-          "title": "Evaluación de Modelos de Lenguaje para Tareas Cibernéticas Ofensivas",
-          "summary": "Benchmarking de 10 modelos en tareas de ciberseguridad, mostrando la efectividad en un entorno de Kali Linux.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.17159",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "benchmarking"
-          ],
-          "what_changed": "Mejora en la tasa de resolución utilizando un entorno específico.",
-          "why_it_matters": "Identifica los modelos más efectivos para tareas ciberseguras.",
-          "sector_impact": "Impulsa la eficacia en ciberseguridad."
-        },
-        {
-          "title": "Agentes de Lenguaje que Usan Herramientas: Evaluación y Fiabilidad",
-          "summary": "Nuevo benchmark que mide la fiabilidad de LLMs que utilizan herramientas en diversas tareas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16706",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "herramientas"
-          ],
-          "what_changed": "Introducción de un benchmark para la evaluación de agentes.",
-          "why_it_matters": "Ayuda a mejorar la fiabilidad de LLMs en aplicaciones prácticas.",
-          "sector_impact": "Optimiza el uso de LLMs en diversas tareas."
-        },
-        {
-          "title": "Preguntas y Respuestas en Tiempo Real a través de Flujos de Trabajo Ejecutables",
-          "summary": "Se propone un marco de evaluación dinámica para agentes que generan respuestas en tiempo real utilizando código ejecutable.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16349",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "respuesta en tiempo real"
-          ],
-          "what_changed": "Desarrollo de un pipeline de generación de código para respuestas actualizadas.",
-          "why_it_matters": "Facilita el acceso a información en tiempo real eficaz.",
-          "sector_impact": "Revoluciona el acceso a información dinámica."
-        },
-        {
-          "title": "DailyDroid: Automatización de Tareas en Smartphones",
-          "summary": "Benchmark que evalúa la automatización en teléfonos inteligentes utilizando LLMs y entradas multimodales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.17817",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "movilidad"
-          ],
-          "what_changed": "Introducción de un nuevo benchmark para evaluar tareas automatizadas.",
-          "why_it_matters": "Identifica y mejora la precisión de agentes móviles.",
-          "sector_impact": "Impulsa el desarrollo de la automatización en dispositivos móviles."
-        },
-        {
-          "title": "Educación mediante Claude Code",
-          "summary": "Presentamos un currículo modular para aprender a utilizar Claude Code a través de proyectos prácticos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.17460",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "educación",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un sistema de aprendizaje adaptativo para Claude Code.",
-          "why_it_matters": "Abre nuevas vías para la enseñanza práctica de herramientas de IA.",
-          "sector_impact": "Revoluciona el aprendizaje de herramientas de programación."
-        },
-        {
-          "title": "RAVEN: Exploración de Vulnerabilidades Automatizada",
-          "summary": "Nuevo marco que utiliza LLMs para generar informes de análisis de vulnerabilidades a partir de código fuente vulnerable.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.17948",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "análisis"
-          ],
-          "what_changed": "Introducción de un sistema responsable de la generación de informes.",
-          "why_it_matters": "Automatiza la documentación de vulnerabilidades, mejorando la seguridad.",
-          "sector_impact": "Sofistica el análisis de seguridad en software."
-        },
-        {
-          "title": "Modelo de Capacitación de POLÍTICAS Multimodales para Agentes Conversacionales",
-          "summary": "Se presenta una nueva metodología para internalizar políticas de agentes conversacionales multimodales en los parámetros del modelo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.09474",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "políticas",
-            "multimodal"
-          ],
-          "what_changed": "Desarrollo de un sistema para la internalización de políticas complejas.",
-          "why_it_matters": "Mejora la adherencia a políticas en aplicaciones multimodales.",
-          "sector_impact": "Optimiza el comportamiento de los agentes conversacionales."
         }
       ]
     }
