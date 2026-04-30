@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-04-30",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "DSIPA: Detecting LLM-Generated Texts",
+          "summary": "Propuesta de un framework para detectar contenido generado por LLMs basándose en patrones de divergencia de análisis de sentimiento.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.26328",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "detección",
+            "LLM",
+            "sentimiento"
+          ],
+          "what_changed": "Introducción de un framework sin entrenamiento para detección de textos generados por LLMs.",
+          "why_it_matters": "Mejora la seguridad al identificar contenido malicioso, como desinformación.",
+          "sector_impact": "Alto en medios de comunicación y educación."
+        },
+        {
+          "title": "Learning to Rewrite Tool Descriptions for Reliable LLM-Agent Tool Use",
+          "summary": "Propuesta de un marco curricular que mejora la calidad de las descripciones de herramientas para LLMs.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.20426",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes",
+            "curaduría"
+          ],
+          "what_changed": "Desarrollo de un marco que optimiza descripciones de herramientas.",
+          "why_it_matters": "Mejora la eficacia y escalabilidad de los agentes LLM.",
+          "sector_impact": "Alto en desarrollo de software."
+        },
+        {
+          "title": "ClawGym: Scalable Framework for Building Effective Claw Agents",
+          "summary": "Marco escalable para el desarrollo de agentes Claw, optimizando interacciones con herramientas y datos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.26904",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "desarrollo",
+            "escalabilidad"
+          ],
+          "what_changed": "Introducción de un marco que apoya todo el ciclo de vida del desarrollo de agentes.",
+          "why_it_matters": "Facilita el desarrollo y evalúa la capacidad de los agentes.",
+          "sector_impact": "Alto en IA de usuario y herramientas avanzadas."
+        },
+        {
+          "title": "EvoDev: Feature-Driven Framework for Software Development",
+          "summary": "Marco iterativo inspirado en el desarrollo basado en características para la programación con agentes LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.02399",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "desarrollo",
+            "agentes",
+            "software"
+          ],
+          "what_changed": "Introducción de un enfoque que descompone requisitos en características x.",
+          "why_it_matters": "Mejora la gestión de dependencias en proyectos complejos.",
+          "sector_impact": "Alto en desarrollo de software empresarial."
+        },
+        {
+          "title": "ImproBR: Bug Report Improver Using LLMs",
+          "summary": "Sistema basado en LLMs que mejora la calidad de los informes de errores en software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.26142",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "mejora",
+            "informes",
+            "software"
+          ],
+          "what_changed": "Implementación de un pipeline que detecta y mejora informes de errores.",
+          "why_it_matters": "Aumenta la eficacia de la gestión y resolución de errores en software.",
+          "sector_impact": "Alto en ingeniería de software."
+        },
+        {
+          "title": "Bian Que: An Agentic Framework for Online System Operations",
+          "summary": "Marco para la operación de sistemas en línea que utiliza agentes LLMs para análisis de causas raíz.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.26805",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "operaciones",
+            "optimización"
+          ],
+          "what_changed": "Presentación de un marco que optimiza la supervisión y respuesta en sistemas en línea.",
+          "why_it_matters": "Reduce el tiempo de resolución y mejora la precisión del análisis.",
+          "sector_impact": "Alto en IT y operaciones digitales."
+        },
+        {
+          "title": "Benchmarking Complex Multimodal Document Processing Pipelines",
+          "summary": "Un marco de evaluación para analizar la eficiencia de los sistemas de AI en documentos de empresa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.26382",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "herramientas",
+            "documentos"
+          ],
+          "what_changed": "Introducción de un nuevo marco de referencia para evaluación de sistemas documentales de empresa.",
+          "why_it_matters": "Mejora la composición y eficacia en procesos de documentos.",
+          "sector_impact": "Alto en gestión documental y empresarial."
+        },
+        {
+          "title": "Risk Reporting for Developers' Internal AI Model Use",
+          "summary": "Guía para la elaboración de informes de riesgos en el uso interno de modelos de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.24966",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "riesgos",
+            "modelos",
+            "desarrollo"
+          ],
+          "what_changed": "Desarrollo de un marco estandarizado para reportes de riesgos internos.",
+          "why_it_matters": "Permite la gestión adecuada de riesgos asociados con IA internamente.",
+          "sector_impact": "Alto en seguridad y regulación de tecnología."
+        }
+      ]
+    },
+    {
       "date": "2026-04-29",
       "executive_title": "Radar IA del día",
       "items": [
@@ -699,131 +841,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenHands Software Agent SDK",
-          "summary": "Una herramienta flexible para la implementación de agentes en desarrollo de software, que destaca por su fácil extensión y seguridad.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.03690",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "SDK",
-            "agentes",
-            "software"
-          ],
-          "what_changed": "Nueva herramienta para desarrollar agentes de software.",
-          "why_it_matters": "Facilita la implementación y escalabilidad de soluciones de IA en el desarrollo de software.",
-          "sector_impact": "Mejora la eficiencia en la creación de aplicaciones personalizadas."
-        },
-        {
-          "title": "Automatic Ontology Construction Using LLMs",
-          "summary": "Un enfoque para la construcción automática de ontologías utilizando modelos de lenguaje para mejorar el razonamiento estructurado.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.20795",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ontologías",
-            "razonamiento",
-            "IA"
-          ],
-          "what_changed": "Introducción de un modelo híbrido para razonamiento semántico.",
-          "why_it_matters": "Aborda limitaciones de modelos LLM actuales y mejora la validación de resultados generados.",
-          "sector_impact": "Impacto significativo en sistemas inteligentes y soluciones empresariales de IA."
-        },
-        {
-          "title": "KOCO-BENCH: Benchmark para Especialización de Dominio",
-          "summary": "Un nuevo marco de evaluación para medir la efectividad de métodos de especialización de LLM en el desarrollo de software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.13240",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "especialización",
-            "IA"
-          ],
-          "what_changed": "Se presenta un estándar para evaluar métodos de especialización en LLMs.",
-          "why_it_matters": "Facilita la comprensión y aplicación de conocimientos específicos de dominio.",
-          "sector_impact": "Mejora la capacidad de LLM para manejar desarrollos de software en dominios específicos."
-        },
-        {
-          "title": "ThermoQA: Evaluación del Razonamiento Termodinámico",
-          "summary": "Un nuevo benchmark para evaluar el razonamiento en problemas de ingeniería termodinámica utilizando LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.19758",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "razonamiento",
-            "termodinámica"
-          ],
-          "what_changed": "Nuevas pruebas que cuantifican el razonamiento en termodinámica.",
-          "why_it_matters": "Proporciona un contexto práctico para evaluar el desempeño de LLMs en ingeniería.",
-          "sector_impact": "Aumenta la confianza en soluciones desarrolladas en este campo."
-        },
-        {
-          "title": "ChipCraftBrain: Generación RTL Automatizada",
-          "summary": "Un marco para la generación de código RTL utilizando una orquestación multi-agente adaptativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.19856",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "RTL",
-            "automatización",
-            "código"
-          ],
-          "what_changed": "Mejora en la generación de código mediante un enfoque multi-agente.",
-          "why_it_matters": "Aumenta la efectividad y reduzca costos en la generación de RTL.",
-          "sector_impact": "Mejora la productividad en el desarrollo de hardware."
-        },
-        {
-          "title": "SolidCoder: Generación de Código Robusta",
-          "summary": "Plantea una nueva arquitectura para la generación de código que evita errores comunes en la simulación mental.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.19825",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "código",
-            "generación",
-            "errores"
-          ],
-          "what_changed": "Introducción de una ejecución real en la verificación del código.",
-          "why_it_matters": "Aborda una de las principales debilidades en las actuales herramientas de generación de código.",
-          "sector_impact": "Mejora la calidad y fiabilidad del software generado."
-        },
-        {
-          "title": "OTthink-SRR1: Aprendizaje Reforzado para Modelos LLM",
-          "summary": "Un nuevo marco que mejora los modelos LLM utilizando un proceso iterativo de búsqueda, refinamiento y razonamiento.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.19766",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "razonamiento",
-            "modelos"
-          ],
-          "what_changed": "Mejora la precisión del razonamiento a través de un marco basado en refuerzo.",
-          "why_it_matters": "Permite una mejor identificación de evidencias y un razonamiento más eficiente.",
-          "sector_impact": "Aumenta la eficacia de los agentes de búsqueda de información."
         }
       ]
     }
