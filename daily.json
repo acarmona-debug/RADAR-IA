@@ -1,144 +1,112 @@
 {
-  "date": "2026-04-30",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones clave en el ámbito de la inteligencia artificial.",
-  "opening_message": "A continuación, se presentan las innovaciones y desarrollos más relevantes en herramientas, modelos y frameworks de IA.",
+  "date": "2026-05-01",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "DSIPA: Detecting LLM-Generated Texts",
-      "summary": "Propuesta de un framework para detectar contenido generado por LLMs basándose en patrones de divergencia de análisis de sentimiento.",
-      "category": "framework",
+      "title": "The Inverse-Wisdom Law: Architectural Tribalism and the Consensus Paradox in Agentic Swarms",
+      "summary": "arXiv:2604.27274v1 Announce Type: new Abstract: As AI transitions toward multi-agent systems (MAS) to solve complex workflows, research paradigms operate on the axiomatic assumption that agent collaboration mirrors the \"Wisdom of the Crowd\". We challenge this assumption by formalizing the Consensus Paradox: a phenomenon where agentic swarms prioritize internal architectural agreement over external logical truth. Through a 36 experiments encompassing 12,804 trajectories across three state-of-the-art (SOTA) benchmarks (GAIA, Multi-Challenge, and SWE-bench), we prove the Inverse-Wisdom Law: in kinship-dominant swarms, adding logical agents increases the stability of erroneous trajectories rather than the probability of truth. The introduction of additional logical audits converges the system toward a Logic Saturation where internal entropy hits zero while factual error hits unity. By evaluating the interaction between the 3 preeminent SOTA models (Gemini 3.1 Pro, Claude Sonnet 4.6, and GPT-5.4), we establish the Architectural Tribalism Asymmetry as a mechanistic law of transformer weights. We demonstrate that terminal swarm integrity is strictly gated by the synthesizer's receptive logic, rather than aggregate agent quality. We define the Tribalism Coefficient and the Sycophantic Weight as the primary mechanistic determinants of swarm failure. Finally, we establish the Heterogeneity Mandate as a foundational safety requirement for resilient agentic architectures.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26328",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.27274",
+      "relevance_score": 34,
       "status": "new",
-      "tags": [
-        "detección",
-        "LLM",
-        "sentimiento"
-      ],
-      "what_changed": "Introducción de un framework sin entrenamiento para detección de textos generados por LLMs.",
-      "why_it_matters": "Mejora la seguridad al identificar contenido malicioso, como desinformación.",
-      "sector_impact": "Alto en medios de comunicación y educación."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Learning to Rewrite Tool Descriptions for Reliable LLM-Agent Tool Use",
-      "summary": "Propuesta de un marco curricular que mejora la calidad de las descripciones de herramientas para LLMs.",
-      "category": "framework",
+      "title": "Agentic Education: Using Claude Code to Teach Claude Code",
+      "summary": "arXiv:2604.17460v2 Announce Type: replace-cross Abstract: AI coding assistants have proliferated rapidly, yet structured pedagogical frameworks for learning these tools remain scarce. Developers face a gap between tool documentation and practical mastery, relying on fragmented resources such as blog posts, video tutorials, and trial-and-error. We present cc-self-train, a modular interactive curriculum for learning Claude Code, an agentic AI coding tool, through hands-on project construction. The system introduces five contributions: (1) a persona progression model that adapts instructor tone across four stages (Guide, Collaborator, Peer, Launcher), operationalizing Gradual Release of Responsibility for AI-mediated instruction; (2) an adaptive learning system that observes engagement quality through hook-based heuristics and adjusts scaffolding at two timescales, using streak detection for mid-module intervention and aggregate metrics for module-boundary persona changes; (3) a cross-domain unified curriculum in which five distinct project domains share identical feature sequencing, enabling transfer learning; (4) a step-pacing mechanism with explicit pause primitives to manage information overload in an AI-as-instructor context; and (5) an auto-updating curriculum design in which the onboarding agent detects upstream tool changes and updates teaching materials before instruction begins. A parametrized test suite enforces structural consistency as a proxy for pedagogical invariants across all 50 modules. A pilot evaluation with 27 participants shows statistically significant reported self-efficacy gains across all 10 assessed skill areas (p < 0.001), with the largest effects on advanced features such as hooks and custom skills. We discuss implications for the design of auto-updating educational systems.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.20426",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.17460",
+      "relevance_score": 33,
       "status": "new",
-      "tags": [
-        "herramientas",
-        "agentes",
-        "curaduría"
-      ],
-      "what_changed": "Desarrollo de un marco que optimiza descripciones de herramientas.",
-      "why_it_matters": "Mejora la eficacia y escalabilidad de los agentes LLM.",
-      "sector_impact": "Alto en desarrollo de software."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ClawGym: Scalable Framework for Building Effective Claw Agents",
-      "summary": "Marco escalable para el desarrollo de agentes Claw, optimizando interacciones con herramientas y datos.",
-      "category": "framework",
+      "title": "Pragmos: A Process Agentic Modeling System",
+      "summary": "arXiv:2604.27311v1 Announce Type: cross Abstract: The advent of Large Language Models (LLMs) has significantly transformed tasks across Software Engineering. In the context of Business Process Management, LLMs are now being explored as tools to derive process models directly from textual descriptions. Existing approaches range from chatbot-driven systems that assist with iterative, text-based modeling to fully automated end-to-end modeling assistants. However, we argue that process modeling is inherently complex and cannot be effectively addressed through black-box solutions. Instead, we envision modeling as an open-ended conversational activity, best supported by an interactive, iterative process involving both humans and LLM. In our approach, the modeling task is decomposed into smaller, manageable steps. Each step results in intermediate artifacts and explicitly documents the rationale behind each modeling decision. During this process, we incrementally uncover simple behavioral relations that guide the construction of the model. Given the current limitations of LLMs in reasoning about complex dependencies, we complement them with specialized tools developed in the field to structure process models based on behavioral relations. This hybrid approach enables the generation of sound, yet comprehensible models that evolve through transparent and explainable steps. In this paper, we present our research agenda and introduce Pragmos, a prototype system that operationalizes this vision. Pragmos demonstrates how LLMs can collaborate with human users as both domain and modeling experts to co-create evolving process models through a structured and explainable workflow.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26904",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.27311",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "agentes",
-        "desarrollo",
-        "escalabilidad"
-      ],
-      "what_changed": "Introducción de un marco que apoya todo el ciclo de vida del desarrollo de agentes.",
-      "why_it_matters": "Facilita el desarrollo y evalúa la capacidad de los agentes.",
-      "sector_impact": "Alto en IA de usuario y herramientas avanzadas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "EvoDev: Feature-Driven Framework for Software Development",
-      "summary": "Marco iterativo inspirado en el desarrollo basado en características para la programación con agentes LLM.",
-      "category": "framework",
+      "title": "Enhancing Linux Privilege Escalation Attack Capabilities of Local LLM Agents",
+      "summary": "arXiv:2604.27143v1 Announce Type: cross Abstract: Recent research has demonstrated the potential of Large Language Models (LLMs) for autonomous penetration testing, particularly when using cloud-based restricted-weight models. However, reliance on such models introduces security, privacy, and sovereignty concerns, motivating the use of locally hosted open-weight alternatives. Prior work shows that small open-weight models perform poorly on automated Linux privilege escalation, limiting their practical applicability. In this paper, we present a systematic empirical study of whether targeted system-level and prompting interventions can bridge this performance gap. We analyze failure modes of open-weight models in autonomous privilege escalation, map them to established enhancement techniques, and evaluate five concrete interventions (chain-of-thought prompting, retrieval-augmented generation, structured prompts, history compression, and reflective analysis) implemented as extensions to hackingBuddyGPT. Our results show that open-weight models can match or outperform cloud-based baselines such as GPT-4o. With our treatments enabled, Llama3.1 70B exploits 83% of tested vulnerabilities, while smaller models including Llama3.1 8B and Qwen2.5 7B achieve 67% when using guidance. A full-factorial ablation study over all treatment combinations reveals that reflection-based treatments contribute most, while also identifying vulnerability discovery as a remaining bottleneck for local models.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2511.02399",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.27143",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "desarrollo",
-        "agentes",
-        "software"
-      ],
-      "what_changed": "Introducción de un enfoque que descompone requisitos en características x.",
-      "why_it_matters": "Mejora la gestión de dependencias en proyectos complejos.",
-      "sector_impact": "Alto en desarrollo de software empresarial."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ImproBR: Bug Report Improver Using LLMs",
-      "summary": "Sistema basado en LLMs que mejora la calidad de los informes de errores en software.",
-      "category": "tool",
+      "title": "ORFS-agent: Tool-Using Agents for Chip Design Optimization",
+      "summary": "arXiv:2506.08332v3 Announce Type: replace Abstract: Machine learning has been widely used to optimize complex engineering workflows across numerous domains. In integrated circuit design, modern flows (e.g., register-transfer level to physical layout) involve extensive configuration via thousands of parameters, and small changes can have large downstream impacts on design performance, power, and area. Recent advances in Large Language Models (LLMs) offer new opportunities for learning and reasoning within such high-dimensional optimization tasks. In this work, we introduce ORFS-agent, an LLM-based iterative optimization agent that automates parameter tuning in an open-source hardware design flow. ORFS-agent adaptively explores parameter configurations, demonstrating improvements over standard Bayesian optimization approaches in terms of resource efficiency and final design metrics. Across six benchmarks on ASAP7 and SKY130HD, thinking-model backends (Sonnet 4.6 [69] and Kimi K2.5 [28]) improve the geometric-mean normalized wirelength, effective clock period, and co-optimization objectives by up to 1.0%, 1.3%, and 2.7% over OR-AutoTuner while using 40% fewer iterations; the open-weight Kimi K2.5 remains within 0.24% of Sonnet 4.6, enabling private deployment. Relative to the earlier Sonnet 3.5 backend, these thinking models improve the same objectives by up to 7.5%, 3.1%, and 4.0%. Optional retrieval tools accelerate early convergence but do not improve final endpoints. By following natural language objectives to trade off certain metrics for others, ORFS-agent demonstrates a flexible and interpretable framework for multi-objective and constrained optimization. Crucially, ORFS-agent is modular and model-agnostic, and can be plugged into any frontier LLM without any further fine-tuning. We also report checkpoint-aligned trajectories and reasoning summaries that document the agent's decision process.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26142",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2506.08332",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "mejora",
-        "informes",
-        "software"
-      ],
-      "what_changed": "Implementación de un pipeline que detecta y mejora informes de errores.",
-      "why_it_matters": "Aumenta la eficacia de la gestión y resolución de errores en software.",
-      "sector_impact": "Alto en ingeniería de software."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Bian Que: An Agentic Framework for Online System Operations",
-      "summary": "Marco para la operación de sistemas en línea que utiliza agentes LLMs para análisis de causas raíz.",
-      "category": "framework",
+      "title": "Can Large Language Models Implement Agent-Based Models? An ODD-based Replication Study",
+      "summary": "arXiv:2602.10140v2 Announce Type: replace-cross Abstract: Large language models (LLMs) can now synthesize non-trivial executable code from textual descriptions, raising an important question: can LLMs reliably implement agent-based models from standardized specifications in a way that supports replication, verification, and validation? We address this question by evaluating 17 contemporary LLMs on a controlled ODD-to-code translation task, using the PPHPC predator-prey model as a fully specified reference. Generated Python implementations are assessed through staged executability checks, model-independent statistical comparison against a validated NetLogo baseline, and quantitative measures of runtime efficiency and maintainability. Results show that behaviorally faithful implementations are achievable but not guaranteed, and that executability alone is insufficient for scientific use. GPT-4.1 consistently produces statistically valid and efficient implementations, with Claude 3.7 Sonnet performing well but less reliably. Overall, the findings clarify both the promise and current limitations of LLMs as model engineering tools, with implications for reproducible agent-based and ecological modeling.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26805",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2602.10140",
+      "relevance_score": 29,
       "status": "new",
-      "tags": [
-        "agentes",
-        "operaciones",
-        "optimización"
-      ],
-      "what_changed": "Presentación de un marco que optimiza la supervisión y respuesta en sistemas en línea.",
-      "why_it_matters": "Reduce el tiempo de resolución y mejora la precisión del análisis.",
-      "sector_impact": "Alto en IT y operaciones digitales."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Benchmarking Complex Multimodal Document Processing Pipelines",
-      "summary": "Un marco de evaluación para analizar la eficiencia de los sistemas de AI en documentos de empresa.",
-      "category": "tool",
+      "title": "Reinforced Agent: Inference-Time Feedback for Tool-Calling Agents",
+      "summary": "arXiv:2604.27233v1 Announce Type: new Abstract: Tool-calling agents are evaluated on tool selection, parameter accuracy, and scope recognition, yet LLM trajectory assessments remain inherently post-hoc. Disconnected from the active execution loop, such assessments identify errors that are usually addressed through prompt-tuning or retraining, and fundamentally cannot course-correct the agent in real time. To close this gap, we move evaluation into the execution loop at inference time: a specialized reviewer agent evaluates provisional tool calls prior to execution, shifting the paradigm from post-hoc recovery to proactive evaluation and error mitigation. In practice, this architecture establishes a clear separation of concerns between the primary execution agent and a secondary review agent. As with any multi-agent system, the reviewer can introduce new errors while correcting others, yet no prior work to our knowledge has systematically measured this tradeoff. To quantify this tradeoff, we introduce Helpfulness-Harmfulness metrics: helpfulness measures the percentage of base agent errors that feedback corrects; harmfulness measures the percentage of correct responses that feedback degrades. These metrics directly inform reviewer design by revealing whether a given model or prompt provides net positive value. We evaluate our approach on BFCL (single-turn) and Tau2-Bench (multi-turn stateful scenarios), achieving +5.5% on irrelevance detection and +7.1% on multi-turn tasks. Our metrics reveal that reviewer model choice is critical: the reasoning model o3-mini achieves a 3:1 benefit-to-risk ratio versus 2.1:1 for GPT-4o. Automated prompt optimization via GEPA provides an additional +1.5-2.8%. Together, these results demonstrate a core advantage of separating execution and review: the reviewer can be systematically improved through model selection and prompt optimization, without retraining the base agent.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26382",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2604.27233",
+      "relevance_score": 28,
       "status": "new",
-      "tags": [
-        "evaluación",
-        "herramientas",
-        "documentos"
-      ],
-      "what_changed": "Introducción de un nuevo marco de referencia para evaluación de sistemas documentales de empresa.",
-      "why_it_matters": "Mejora la composición y eficacia en procesos de documentos.",
-      "sector_impact": "Alto en gestión documental y empresarial."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Risk Reporting for Developers' Internal AI Model Use",
-      "summary": "Guía para la elaboración de informes de riesgos en el uso interno de modelos de IA.",
-      "category": "tool",
+      "title": "OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research",
+      "summary": "arXiv:2504.15564v3 Announce Type: replace-cross Abstract: Existing class-level code generation datasets are either synthetic (ClassEval: 100 classes) or insufficient in scale for modern training needs (RealClassEval: 400 classes), hindering robust evaluation and empirical analysis. We present OpenClassGen, a large-scale corpus of 324,843 Python classes extracted from 2,970 engineered open-source projects. Each entry pairs a human-written class with its corresponding skeleton, which comprises class and method signatures with associated docstrings, and is enriched with 27 static code metrics covering complexity, coupling, cohesion, and inheritance properties. Unlike prior benchmarks that require repository-level context resolution, OpenClassGen provides self-contained class skeletons that serve as complete generation specifications. We demonstrate the corpus's utility by evaluating three LLMs (GPT-o4-mini, Claude-4-Sonnet, Qwen-3-Coder) on a curated, executable subset of 300 classes, enriched with test suites achieving 58% branch coverage. Results show strong semantic similarity (CodeBERTScore-F3: 0.89) but moderate functional correctness (pass rate: 0.33), with substantial variance across models. This variance, along with diverse class characteristics, confirms that OpenClassGen enables meaningful differentiation of LLM capabilities. The dataset supports diverse use cases, including fine-tuning, retrieval-augmented generation, difficulty modelling, and failure mode analysis. The complete dataset and curation scripts are publicly available at https://zenodo.org/records/18409150.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.24966",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2504.15564",
+      "relevance_score": 26,
       "status": "new",
-      "tags": [
-        "riesgos",
-        "modelos",
-        "desarrollo"
-      ],
-      "what_changed": "Desarrollo de un marco estandarizado para reportes de riesgos internos.",
-      "why_it_matters": "Permite la gestión adecuada de riesgos asociados con IA internamente.",
-      "sector_impact": "Alto en seguridad y regulación de tecnología."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
