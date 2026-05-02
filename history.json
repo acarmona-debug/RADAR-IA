@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-05-02",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenAI lanza GPT-5.5 Cyber para ciberseguridad",
+          "summary": "OpenAI empezará a desplegar su herramienta de ciberseguridad, GPT-5.5 Cyber, solo para defensores críticos de ciberseguridad.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "ciberseguridad",
+            "IA"
+          ],
+          "what_changed": "Se restringe el acceso inicial solo a grupos selectos.",
+          "why_it_matters": "Aumenta la seguridad en la defensa cibernética utilizando IA avanzada.",
+          "sector_impact": "Mejora la capacidad de respuesta ante amenazas cibernéticas."
+        },
+        {
+          "title": "ChatGPT Images 2.0 gana popularidad en India",
+          "summary": "Los usuarios en India están adoptando ChatGPT Images 2.0 para crear imágenes personales y creativas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "imágenes",
+            "creatividad"
+          ],
+          "what_changed": "La herramienta ha sido bien recibida en un nuevo mercado.",
+          "why_it_matters": "Ofrece nuevas oportunidades creativas a los usuarios.",
+          "sector_impact": "Fomenta la creatividad y el uso de IA en la personalización de imágenes."
+        },
+        {
+          "title": "Google introduce Gemini AI en millones de vehículos",
+          "summary": "Google está implementando su asistente AI Gemini en una gran cantidad de vehículos, mejorando la experiencia de conducción.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Google",
+            "Gemini",
+            "movilidad"
+          ],
+          "what_changed": "Lanzamiento de un asistente AI en el sector automotriz.",
+          "why_it_matters": "Transforma la experiencia de conducción con capacidades conversacionales.",
+          "sector_impact": "Revoluciona la forma en que interactuamos con los vehículos."
+        },
+        {
+          "title": "Stripe mejora Link, la billetera digital para agentes AI",
+          "summary": "Link permite a los usuarios conectar tarjetas y bancos, autorizando a agentes AI para gastar de manera segura.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Stripe",
+            "billetera digital",
+            "AI"
+          ],
+          "what_changed": "Incorporación de funcionalidades para agentes AI.",
+          "why_it_matters": "Optimiza la experiencia de compra utilizando inteligencia artificial.",
+          "sector_impact": "Modifica la dinámica de las transacciones digitales."
+        },
+        {
+          "title": "NVIDIA presenta Nemotron 3 Nano para inteligencia multimodal",
+          "summary": "Nueva herramienta de NVIDIA para la inteligencia multimodal en documentos, audio y video.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "NVIDIA",
+            "inteligencia multimodal",
+            "tecnología"
+          ],
+          "what_changed": "Lanzamiento de una nueva tecnología avanzada.",
+          "why_it_matters": "Facilita la interacción con múltiples tipos de datos.",
+          "sector_impact": "Amplía las capacidades de análisis y procesamiento de datos."
+        },
+        {
+          "title": "OpenAI mejora la seguridad de cuentas de ChatGPT",
+          "summary": "Se lanzan nuevas protecciones para cuentas de ChatGPT incluyendo una asociación con Yubico.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "seguridad",
+            "ChatGPT"
+          ],
+          "what_changed": "Implementación de nuevas medidas de seguridad.",
+          "why_it_matters": "Aumenta la protección de datos para usuarios de ChatGPT.",
+          "sector_impact": "Refuerza la confianza en el uso de plataformas de IA."
+        },
+        {
+          "title": "Meta adquiere startup de robótica para IA humanoide",
+          "summary": "Meta compra la startup Assured Robot Intelligence para mejorar sus modelos de IA en robots.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "robótica",
+            "IA humanoide"
+          ],
+          "what_changed": "Adquisición de tecnología clave para avanzar en IA humanoide.",
+          "why_it_matters": "Impulsa el desarrollo de IA más avanzada en robots.",
+          "sector_impact": "Mejora la interacción humano-robot en diversas aplicaciones."
+        }
+      ]
+    },
+    {
       "date": "2026-05-01",
       "executive_title": "Radar IA del día",
       "items": [
@@ -699,148 +824,6 @@
           "what_changed": "Cambio de liderazgo que puede revitalizar la dirección de la compañía.",
           "why_it_matters": "Es crucial para la evolución de la estrategia de productos de Apple.",
           "sector_impact": "Posibles innovaciones en su línea de productos inteligentes."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-25",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
-          "summary": "OpenAI ha lanzado GPT-5.5, un modelo con capacidades mejoradas en diversas categorías.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "ChatGPT",
-            "GPT-5.5"
-          ],
-          "what_changed": "Mejoras en capacidades del modelo.",
-          "why_it_matters": "Aumenta la competitividad en el desarrollo de aplicaciones de IA avanzadas.",
-          "sector_impact": "Transformación en la forma en que interactuamos con la tecnología."
-        },
-        {
-          "title": "We’re launching two specialized TPUs for the agentic era.",
-          "summary": "Google presenta dos nuevos TPUs que impulsarán el futuro de la IA.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "TPU",
-            "Google",
-            "IA"
-          ],
-          "what_changed": "Introducción de chips especializados.",
-          "why_it_matters": "Aumenta la capacidad de procesamiento para cargas de trabajo de IA.",
-          "sector_impact": "Mejora la infraestructura para tareas complejas de IA."
-        },
-        {
-          "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
-          "summary": "DeepSeek presenta un nuevo modelo de IA más eficiente que casi cierra la brecha con los líderes del sector.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "DeepSeek",
-            "IA",
-            "Modelo"
-          ],
-          "what_changed": "Mejoras en la arquitectura del modelo.",
-          "why_it_matters": "Proporciona capacidades de razonamiento avanzadas.",
-          "sector_impact": "Impulsa el desarrollo de aplicaciones de IA más sofisticadas."
-        },
-        {
-          "title": "Google to invest up to $40B in Anthropic in cash and compute",
-          "summary": "Google planea invertir hasta $40 mil millones en Anthropic para aumentar la capacidad de cómputo de IA.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Anthropic",
-            "Inversión"
-          ],
-          "what_changed": "Aumento considerables en financiación.",
-          "why_it_matters": "Permitirá una mayor innovación en modelos de IA.",
-          "sector_impact": "Aceleración en el desarrollo de IA segura y competitiva."
-        },
-        {
-          "title": "Nothing introduces an AI-powered dictation tool",
-          "summary": "El nuevo dictado de Nothing soporta más de 100 idiomas y mejora la experiencia del usuario.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Nothing",
-            "Dictado",
-            "IA"
-          ],
-          "what_changed": "Soporte de dictado para múltiples idiomas.",
-          "why_it_matters": "Facilita la comunicación global en múltiples lenguajes.",
-          "sector_impact": "Mejora la accesibilidad de tecnologías de IA."
-        },
-        {
-          "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
-          "summary": "ComfyUI ha alcanzado una valoración de $500 millones tras conseguir financiamiento que le otorga más control sobre generación de medios con IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "ComfyUI",
-            "IA",
-            "Media"
-          ],
-          "what_changed": "Recepción de nueva inversión y valoración.",
-          "why_it_matters": "Impulsa la creación de medios personalizados utilizando IA.",
-          "sector_impact": "Transforma la industria creativa al fomentar la innovación."
-        },
-        {
-          "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
-          "summary": "La demanda incremental por mini Mac de Apple debido a su uso en modelos e IA ha provocado un aumento en precios en eBay.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Apple",
-            "Mac",
-            "IA"
-          ],
-          "what_changed": "Escasez de unidades y aumento de precios.",
-          "why_it_matters": "Indica un aumento en la adopción de equipamiento para IA.",
-          "sector_impact": "Cambio en la dinámica del mercado tecnológico."
-        },
-        {
-          "title": "DeepSeek-V4: a million-token context that agents can actually use",
-          "summary": "",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/deepseekv4",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "DeepSeek",
-            "IA",
-            "Modelo"
-          ],
-          "what_changed": "Introducción de un contexto de un millón de tokens.",
-          "why_it_matters": "Aumenta la capacidad operativa de los agentes de IA.",
-          "sector_impact": "Facilita interacciones más complejas y naturales."
         }
       ]
     }
