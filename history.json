@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-05-03",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
+          "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit also bound to sell?",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+          "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+          "summary": "Anthropic is asking investors to submit allocations for the AI company’s latest fundraise within the next 48 hours, according to sources familiar with the matter.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "The best AI dictation apps, tested and ranked",
+          "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+          "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
+          "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Musk v. Altman is just getting started",
+          "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Apple was surprised by AI-driven demand for Macs",
+          "summary": "Apple said it will be supply-constrained on Mac mini, Studio, and Neo in the next quarter, too.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-05-02",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -719,111 +829,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-26",
-      "executive_title": "Radar Diario de Inteligencia Artificial - Prioridades Clave",
-      "items": [
-        {
-          "title": "Anthropic crea un mercado de prueba para comercio entre agentes",
-          "summary": "Anthropic ha desarrollado un mercado donde agentes de IA representan tanto a compradores como a vendedores, firmando acuerdos reales.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "comercio"
-          ],
-          "what_changed": "Se ha implementado un sistema que permite interacción directa entre agentes de IA.",
-          "why_it_matters": "Implica un avance significativo en la capacidad de los agentes de IA para realizar transacciones autónomas.",
-          "sector_impact": "Transformará la forma en que se realizan los negocios digitales."
-        },
-        {
-          "title": "Cursor en la mira: Elon Musk busca adquirirlo por $60B",
-          "summary": "Elon Musk está interesado en adquirir Cursor, lo que podría marcar un cambio significativo en el entorno tecnológico.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/apples-new-ceo-and-why-elon-musk-wants-to-buy-cursor-for-60b/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [
-            "Cursor",
-            "adquisición"
-          ],
-          "what_changed": "Aumento en el interés de inversores hacia herramientas innovadoras y efectivas.",
-          "why_it_matters": "La adquisición podría acelerar el desarrollo de nuevas funciones y capacidades para Cursor.",
-          "sector_impact": "Acelera la competencia en el sector de herramientas de IA."
-        },
-        {
-          "title": "Incremento de carga de trabajo de IA gracias a los TPUs de Google",
-          "summary": "Google destaca cómo sus TPUs están mejorando el manejo de cargas de trabajo de IA complejas.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "TPUs",
-            "potencia de IA"
-          ],
-          "what_changed": "Los TPUs mejoran la eficiencia de procesar cargas de trabajo de IA.",
-          "why_it_matters": "Aumenta la capacidad para manejar aplicaciones complejas de IA.",
-          "sector_impact": "Facilita la innovación en desarrollo de modelos IA."
-        },
-        {
-          "title": "Meta firma acuerdo para millones de CPUs de IA de Amazon",
-          "summary": "Meta adquiere un gran número de CPUs de Amazon para cargas de trabajo de agentes de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "CPUs",
-            "IA"
-          ],
-          "what_changed": "Meta asegura acceso a nuevas tecnologías de hardware.",
-          "why_it_matters": "Impulsa la capacidad de Meta para desarrollar aplicaciones de IA avanzadas.",
-          "sector_impact": "Marca una tendencia en el uso de CPUs en lugar de GPUs para IA."
-        },
-        {
-          "title": "Sierra adquiere la startup de IA Fragment respaldada por YC",
-          "summary": "Sierra compra Fragment, una startup centrada en el servicio al cliente con IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "adquisición",
-            "startup",
-            "servicio al cliente"
-          ],
-          "what_changed": "Expansión de la oferta de Sierra en servicios de IA.",
-          "why_it_matters": "Mejora el potencial de servicio al cliente automatizado.",
-          "sector_impact": "Refuerza la importancia de la IA en la atención al cliente."
-        },
-        {
-          "title": "El futuro de Apple bajo el mando de John Ternus",
-          "summary": "Se anticipan cambios en la estrategia de hardware de Apple con el nuevo CEO John Ternus.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Apple",
-            "hardware",
-            "estrategia"
-          ],
-          "what_changed": "Cambio de liderazgo que puede revitalizar la dirección de la compañía.",
-          "why_it_matters": "Es crucial para la evolución de la estrategia de productos de Apple.",
-          "sector_impact": "Posibles innovaciones en su línea de productos inteligentes."
         }
       ]
     }
