@@ -1,6 +1,93 @@
 {
   "days": [
     {
+      "date": "2026-05-05",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "TADI: Tool-Augmented Drilling Intelligence",
+          "summary": "Un sistema de IA que transforma datos operativos de perforación en inteligencia analítica basada en evidencia, utilizando integración de múltiples fuentes de datos. Este sistema demuestra un rendimiento superior en la recopilación de evidencia técnica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.00060",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "drilling",
+            "analytics",
+            "AI"
+          ],
+          "what_changed": "Mejora en la eficiencia de recopilación de datos a través de herramientas especializadas.",
+          "why_it_matters": "Ayuda a optimizar operaciones en la industria de perforación mediante análisis basado en datos.",
+          "sector_impact": "Menor tiempo y costo en la toma de decisiones operativas."
+        },
+        {
+          "title": "ML-Agent: Reinforcing LLM Agents for ML Engineering",
+          "summary": "Un marco de entrenamiento para agentes de machine learning que utiliza aprendizaje por refuerzo para mejorar la eficiencia en tareas de ML, con un costo computacional menor.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.23723",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "reinforcement learning",
+            "machine learning"
+          ],
+          "what_changed": "Introducción de un enfoque de entrenamiento enriquecido que mejora la exploración de acciones.",
+          "why_it_matters": "Puede facilitar el acceso a capacidades avanzadas de ML sin necesidades computacionales excesivas.",
+          "sector_impact": "Transformación en el desarrollo de ingeniería de machine learning."
+        },
+        {
+          "title": "InfantAgent-Next: Un Agente Multimodal Generalista",
+          "summary": "Agente capaz de interactuar con computadoras en múltiples modos (texto, imágenes, audio), resolviendo tareas de manera colaborativa y modular.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.10887",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "AI"
+          ],
+          "what_changed": "Integración de diferentes tipos de modelos para la interacción de tareas.",
+          "why_it_matters": "Facilita la resolución eficiente de tareas complejas mediante colaboración entre modelos.",
+          "sector_impact": "Aumento en la eficacia de aplicaciones de IA en entornos colaborativos."
+        },
+        {
+          "title": "SiriusHelper: Asistente Operativo basado en LLM para Grandes Datos",
+          "summary": "Un asistente inteligente que mejora la experiencia de los usuarios en plataformas de grandes datos, optimizando la recuperación de información y la gestión de tickets.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.00043",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "big data",
+            "AI"
+          ],
+          "what_changed": "Mejoras en la cobertura de escenarios y en la infraestructura de conocimientos.",
+          "why_it_matters": "Reduce la carga operativa y mejora la eficiencia en la asistencia en plataformas de grandes datos.",
+          "sector_impact": "Optimización en el manejo de datos y soporte al usuario."
+        },
+        {
+          "title": "Retrieval-Augmented Reasoning for Chartered Accountancy",
+          "summary": "Un marco de generación aumentada por recuperación diseñado para mejorar la precisión en tareas de contabilidad compleja y específica de jurisdicción.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.00257",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "finance",
+            "RAG"
+          ],
+          "what_changed": "Incorporación de contextos específicos para mejorar el razonamiento.",
+          "why_it_matters": "Aumenta la fiabilidad de las II en tareas contables, crucial en el sector financiero.",
+          "sector_impact": "Mejora en la asistencia legal y financiera automatizada."
+        }
+      ]
+    },
+    {
       "date": "2026-05-04",
       "executive_title": "Radar Diario de IA",
       "items": []
@@ -599,131 +686,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-28",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "LEGO: An LLM Skill-Based Front-End Design Generation Platform",
-          "summary": "Una plataforma unificada que genera diseños front-end utilizando habilidades de LLM, mejorando la reutilización y eficiencia en la generación de circuitos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.23355",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "diseño",
-            "LLM",
-            "automatización"
-          ],
-          "what_changed": "Presentación de una arquitectura de habilidades modulares para el diseño front-end.",
-          "why_it_matters": "Facilita la automatización en el diseño digital y mejora la eficacia del desarrollo.",
-          "sector_impact": "Alta eficiencia en la ingeniería de producto y diseño digital."
-        },
-        {
-          "title": "xOffense: An Autonomous Multi-Agent Framework for Penetration Testing",
-          "summary": "Un marco de testing de penetración que automatiza flujos de trabajo utilizando modelos LLM y agentes especializados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2509.13021",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "automatización",
-            "LLM"
-          ],
-          "what_changed": "Automatización del proceso de testing de penetración a través de un marco de múltiples agentes.",
-          "why_it_matters": "Mejora la efectividad y reduce el tiempo de respuesta en pruebas de seguridad digital.",
-          "sector_impact": "Impulsa la capacidad de respuesta en ciberseguridad y disminuye el esfuerzo manual."
-        },
-        {
-          "title": "RADIANT-LLM: an Agentic Retrieval Augmented Generation Framework",
-          "summary": "Framework diseñado para mejorar la precisión en entornos críticos mediante generación y recuperación de información basada en LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.22755",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "seguridad",
-            "automatización"
-          ],
-          "what_changed": "Implementación de un marco de generación y recuperación de información para ingeniería nuclear.",
-          "why_it_matters": "Asegura la precisión y la rastreabilidad en las decisiones críticas de seguridad.",
-          "sector_impact": "Alta relevancia en los procesos de seguridad nuclear y análisis de riesgos."
-        },
-        {
-          "title": "GSAR: Typed Grounding for Hallucination Detection",
-          "summary": "Framework para detectar y categorizar las afirmaciones en LLM, mejorando la confianza en las decisiones de múltiples agentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.23366",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "detención",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de un marco que categoriza la veracidad de las afirmaciones generadas por agentes.",
-          "why_it_matters": "Facilita la supervisión y control de decisiones tomadas por LLM en entornos críticos.",
-          "sector_impact": "Significativa mejora en la usabilidad de sistemas AI para aplicaciones de alto riesgo."
-        },
-        {
-          "title": "PARASITE: Conditional System Prompt Poisoning to Hijack LLMs",
-          "summary": "Marco para inyectar comandos maliciosos en LLMs a través de la optimización de prompts en un entorno de black-box.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.16888",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "LLM",
-            "riesgos"
-          ],
-          "what_changed": "Desarrollo de un marco para manipular LLMs mediante prompts inofensivos.",
-          "why_it_matters": "Aumenta la comprensión de las vulnerabilidades en la implementación de LLMs.",
-          "sector_impact": "Relevante para la mejora de prácticas de seguridad en AI."
-        },
-        {
-          "title": "Evaluating Jailbreaking Vulnerabilities in LLMs",
-          "summary": "Análisis de las vulnerabilidades en LLMs respecto a ataques de jailbreak en entornos de operaciones de red eléctrica.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.23341",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "evaluación",
-            "LLM"
-          ],
-          "what_changed": "Evaluación de LLMs contra estándares regulativos y técnicas de evasión.",
-          "why_it_matters": "Importancia en la identificación de riesgos en operaciones críticas del sistema eléctrico.",
-          "sector_impact": "Impacto significativo en la seguridad y confiabilidad de operaciones eléctricas."
-        },
-        {
-          "title": "How Do AI Agents Spend Your Money?",
-          "summary": "Estudio de patrones de consumo de tokens en tareas de codificación por agentes basados en LLM.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.22750",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "economía",
-            "análisis",
-            "LLM"
-          ],
-          "what_changed": "Primero análisis sistemático del consumo de tokens en tareas de codificación.",
-          "why_it_matters": "Proporciona información nueva sobre la eficiencia económica de los agentes AI.",
-          "sector_impact": "Contribuye a la optimización de costos en despliegue de IA."
         }
       ]
     }

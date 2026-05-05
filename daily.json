@@ -1,7 +1,89 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones sobre herramientas y modelos en el ámbito de la IA.",
-  "opening_message": "Descubre lo más destacado en el ecosistema de inteligencia artificial que impulsa la innovación y el desarrollo.",
-  "items": []
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas y modelos de IA.",
+  "opening_message": "En este informe, enfocamos en las herramientas y marcos más relevantes del entorno de inteligencia artificial, omitiendo temas sin aplicación operativa.",
+  "items": [
+    {
+      "title": "TADI: Tool-Augmented Drilling Intelligence",
+      "summary": "Un sistema de IA que transforma datos operativos de perforación en inteligencia analítica basada en evidencia, utilizando integración de múltiples fuentes de datos. Este sistema demuestra un rendimiento superior en la recopilación de evidencia técnica.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.00060",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "drilling",
+        "analytics",
+        "AI"
+      ],
+      "what_changed": "Mejora en la eficiencia de recopilación de datos a través de herramientas especializadas.",
+      "why_it_matters": "Ayuda a optimizar operaciones en la industria de perforación mediante análisis basado en datos.",
+      "sector_impact": "Menor tiempo y costo en la toma de decisiones operativas."
+    },
+    {
+      "title": "ML-Agent: Reinforcing LLM Agents for ML Engineering",
+      "summary": "Un marco de entrenamiento para agentes de machine learning que utiliza aprendizaje por refuerzo para mejorar la eficiencia en tareas de ML, con un costo computacional menor.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2505.23723",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "reinforcement learning",
+        "machine learning"
+      ],
+      "what_changed": "Introducción de un enfoque de entrenamiento enriquecido que mejora la exploración de acciones.",
+      "why_it_matters": "Puede facilitar el acceso a capacidades avanzadas de ML sin necesidades computacionales excesivas.",
+      "sector_impact": "Transformación en el desarrollo de ingeniería de machine learning."
+    },
+    {
+      "title": "InfantAgent-Next: Un Agente Multimodal Generalista",
+      "summary": "Agente capaz de interactuar con computadoras en múltiples modos (texto, imágenes, audio), resolviendo tareas de manera colaborativa y modular.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2505.10887",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "multimodal",
+        "AI"
+      ],
+      "what_changed": "Integración de diferentes tipos de modelos para la interacción de tareas.",
+      "why_it_matters": "Facilita la resolución eficiente de tareas complejas mediante colaboración entre modelos.",
+      "sector_impact": "Aumento en la eficacia de aplicaciones de IA en entornos colaborativos."
+    },
+    {
+      "title": "SiriusHelper: Asistente Operativo basado en LLM para Grandes Datos",
+      "summary": "Un asistente inteligente que mejora la experiencia de los usuarios en plataformas de grandes datos, optimizando la recuperación de información y la gestión de tickets.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.00043",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "big data",
+        "AI"
+      ],
+      "what_changed": "Mejoras en la cobertura de escenarios y en la infraestructura de conocimientos.",
+      "why_it_matters": "Reduce la carga operativa y mejora la eficiencia en la asistencia en plataformas de grandes datos.",
+      "sector_impact": "Optimización en el manejo de datos y soporte al usuario."
+    },
+    {
+      "title": "Retrieval-Augmented Reasoning for Chartered Accountancy",
+      "summary": "Un marco de generación aumentada por recuperación diseñado para mejorar la precisión en tareas de contabilidad compleja y específica de jurisdicción.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.00257",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "finance",
+        "RAG"
+      ],
+      "what_changed": "Incorporación de contextos específicos para mejorar el razonamiento.",
+      "why_it_matters": "Aumenta la fiabilidad de las II en tareas contables, crucial en el sector financiero.",
+      "sector_impact": "Mejora en la asistencia legal y financiera automatizada."
+    }
+  ]
 }
