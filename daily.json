@@ -1,89 +1,127 @@
 {
-  "date": "2026-05-05",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas y modelos de IA.",
-  "opening_message": "En este informe, enfocamos en las herramientas y marcos más relevantes del entorno de inteligencia artificial, omitiendo temas sin aplicación operativa.",
+  "date": "2026-05-06",
+  "executive_title": "Radar Diario de Innovaciones en IA",
+  "intro_message": "Las herramientas y marcos de referencia emergentes están transformando el paisaje de la inteligencia artificial. Aquí están los desarrollos más importantes que no puedes perderte.",
+  "opening_message": "Explora las últimas innovaciones que están configurando el futuro de la IA, priorizando herramientas, modelos, y automatización.",
   "items": [
     {
-      "title": "TADI: Tool-Augmented Drilling Intelligence",
-      "summary": "Un sistema de IA que transforma datos operativos de perforación en inteligencia analítica basada en evidencia, utilizando integración de múltiples fuentes de datos. Este sistema demuestra un rendimiento superior en la recopilación de evidencia técnica.",
-      "category": "tool",
+      "title": "DiagramNet: Un Marco de Reconocimiento para Diagramas No Estándar",
+      "summary": "Presenta un nuevo conjunto de datos multimodal y un marco para la capacitación de modelos que supera a las soluciones existentes en reconocimiento de diagramas.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.00060",
+      "source_url": "https://arxiv.org/abs/2605.01338",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "drilling",
-        "analytics",
-        "AI"
+        "diagramas",
+        "reconocimiento",
+        "multimodal"
       ],
-      "what_changed": "Mejora en la eficiencia de recopilación de datos a través de herramientas especializadas.",
-      "why_it_matters": "Ayuda a optimizar operaciones en la industria de perforación mediante análisis basado en datos.",
-      "sector_impact": "Menor tiempo y costo en la toma de decisiones operativas."
+      "what_changed": "Introducción de DiagramNet y un flujo de trabajo progresivo que mejora el rendimiento de los modelos existentes.",
+      "why_it_matters": "Impulsa la capacidad de los modelos de lenguaje para interactuar con representaciones gráficas complejas.",
+      "sector_impact": "Mejora el diseño de sistemas y herramientas en ingeniería."
     },
     {
-      "title": "ML-Agent: Reinforcing LLM Agents for ML Engineering",
-      "summary": "Un marco de entrenamiento para agentes de machine learning que utiliza aprendizaje por refuerzo para mejorar la eficiencia en tareas de ML, con un costo computacional menor.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.23723",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "reinforcement learning",
-        "machine learning"
-      ],
-      "what_changed": "Introducción de un enfoque de entrenamiento enriquecido que mejora la exploración de acciones.",
-      "why_it_matters": "Puede facilitar el acceso a capacidades avanzadas de ML sin necesidades computacionales excesivas.",
-      "sector_impact": "Transformación en el desarrollo de ingeniería de machine learning."
-    },
-    {
-      "title": "InfantAgent-Next: Un Agente Multimodal Generalista",
-      "summary": "Agente capaz de interactuar con computadoras en múltiples modos (texto, imágenes, audio), resolviendo tareas de manera colaborativa y modular.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.10887",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "multimodal",
-        "AI"
-      ],
-      "what_changed": "Integración de diferentes tipos de modelos para la interacción de tareas.",
-      "why_it_matters": "Facilita la resolución eficiente de tareas complejas mediante colaboración entre modelos.",
-      "sector_impact": "Aumento en la eficacia de aplicaciones de IA en entornos colaborativos."
-    },
-    {
-      "title": "SiriusHelper: Asistente Operativo basado en LLM para Grandes Datos",
-      "summary": "Un asistente inteligente que mejora la experiencia de los usuarios en plataformas de grandes datos, optimizando la recuperación de información y la gestión de tickets.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.00043",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "big data",
-        "AI"
-      ],
-      "what_changed": "Mejoras en la cobertura de escenarios y en la infraestructura de conocimientos.",
-      "why_it_matters": "Reduce la carga operativa y mejora la eficiencia en la asistencia en plataformas de grandes datos.",
-      "sector_impact": "Optimización en el manejo de datos y soporte al usuario."
-    },
-    {
-      "title": "Retrieval-Augmented Reasoning for Chartered Accountancy",
-      "summary": "Un marco de generación aumentada por recuperación diseñado para mejorar la precisión en tareas de contabilidad compleja y específica de jurisdicción.",
+      "title": "GOAT: Un Marco de Entrenamiento para Agentes Orientados a Objetivos",
+      "summary": "Propone un nuevo enfoque de entrenamiento para agentes de IA que permite la ejecución de datos de ejecución de API sin anotación humana.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.00257",
+      "source_url": "https://arxiv.org/abs/2510.12218",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "entrenamiento",
+        "API"
+      ],
+      "what_changed": "Desarrollo de un marco que facilita la creación de agentes LLM sin necesidad de grandes conjuntos de entrenamiento.",
+      "why_it_matters": "Permite la creación de agentes robustos que utilizan herramientas complejas de manera efectiva.",
+      "sector_impact": "Transforma el uso de agentes en diversas aplicaciones industriales."
+    },
+    {
+      "title": "Evolución del Arnés Automatizado para Agentes IA",
+      "summary": "Presenta un marco de dos niveles que automatiza el diseño y optimización de estrategias para agentes de IA en entornos complejos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.21003",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "agentes",
+        "diseño"
+      ],
+      "what_changed": "Automatización del proceso de ingeniería para adaptar agentes a nuevas tareas.",
+      "why_it_matters": "Reduce la necesidad de intervención humana en la adaptación de agentes a nuevas tareas.",
+      "sector_impact": "Aumenta la eficiencia y rapidez en la implementación de soluciones de IA."
+    },
+    {
+      "title": "Medmarks: Suite de Evaluación LLM para Tareas Médicas",
+      "summary": "Presenta un conjunto de evaluación de código abierto con 30 benchmarks para tareas médicas, mejorando la accesibilidad y cobertura.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.01417",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "medicina",
+        "evaluación",
+        "benchmarking"
+      ],
+      "what_changed": "Creación de un suite de evaluación exhaustiva para modelos de lenguaje en el ámbito médico.",
+      "why_it_matters": "Facilita la validación de modelos de IA en aplicaciones críticas de salud.",
+      "sector_impact": "Promueve el avance tecnológico en la atención médica."
+    },
+    {
+      "title": "ContextCov: Marco de Ejecución de Restricciones de Agentes",
+      "summary": "Desarrolla un sistema que convierte instrucciones pasivas en revisores automáticos para agentes de software.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.00822",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "control",
+        "automatización"
+      ],
+      "what_changed": "Implementación de guardrails ejecutables para robots de codificación autónomos.",
+      "why_it_matters": "Minimiza la acumulación de deuda técnica en proyectos complejos.",
+      "sector_impact": "Aumenta la fiabilidad de los sistemas automatizados en entornos de desarrollo."
+    },
+    {
+      "title": "DocSync: Mantenimiento de Documentación Agente",
+      "summary": "Propuesta de un flujo de trabajo que integra generación y validación del mantenimiento de documentación basada en código.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.02163",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "documentación",
+        "mantenimiento",
+        "IA"
+      ],
+      "what_changed": "Integración de bucles de auto-corrección en la actualización de documentación.",
+      "why_it_matters": "Aumenta la precisión de la documentación contra las lógicas de código subyacentes.",
+      "sector_impact": "Facilita la sostenibilidad en proyectos de software a largo plazo."
+    },
+    {
+      "title": "Hacia la Sanación Runtime Agente",
+      "summary": "Propuesta de un marco que permite a las aplicaciones de software recuperarse automáticamente de los errores en tiempo de ejecución.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2408.01055",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "finance",
-        "RAG"
+        "recuperación",
+        "runtime",
+        "agentes"
       ],
-      "what_changed": "Incorporación de contextos específicos para mejorar el razonamiento.",
-      "why_it_matters": "Aumenta la fiabilidad de las II en tareas contables, crucial en el sector financiero.",
-      "sector_impact": "Mejora en la asistencia legal y financiera automatizada."
+      "what_changed": "Desarrollo de un sistema que genera dinámicamente estrategias de manejo de errores.",
+      "why_it_matters": "Permite a los sistemas de software adaptarse y recuperarse sin intervención humana.",
+      "sector_impact": "Aumenta la resiliencia de las aplicaciones en producción."
     }
   ]
 }
