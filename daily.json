@@ -1,127 +1,112 @@
 {
-  "date": "2026-05-06",
-  "executive_title": "Radar Diario de Innovaciones en IA",
-  "intro_message": "Las herramientas y marcos de referencia emergentes están transformando el paisaje de la inteligencia artificial. Aquí están los desarrollos más importantes que no puedes perderte.",
-  "opening_message": "Explora las últimas innovaciones que están configurando el futuro de la IA, priorizando herramientas, modelos, y automatización.",
+  "date": "2026-05-07",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "DiagramNet: Un Marco de Reconocimiento para Diagramas No Estándar",
-      "summary": "Presenta un nuevo conjunto de datos multimodal y un marco para la capacitación de modelos que supera a las soluciones existentes en reconocimiento de diagramas.",
-      "category": "framework",
+      "title": "PIIGuard: Mitigating PII Harvesting under Adversarial Sanitization",
+      "summary": "arXiv:2605.03129v1 Announce Type: cross Abstract: Browsing-enabled LLM assistants can fetch webpages and answer contact-seeking queries, creating a practical channel for scraping contact-style personally identifiable information (PII) from public pages. Many prior defenses are deployed at the model, service, or agent layer rather than at the webpage itself, leaving ordinary page owners with limited deployable options. We present PIIGuard, a webpage-level defense that repurposes indirect prompt injection as a protective mechanism: the page owner embeds optimized hidden HTML fragments that steer the model away from verbatim or reconstructible disclosure of contact PII. PIIGuard searches over fragment text and insertion position using rule-based leakage scoring, evolutionary mutation, and final judge-based recoverability assessment. In direct-HTML evaluation on three target models (GPT-5.4-nano, Claude-haiku-4.5, and DeepSeek-chat(latest v3.2)), PIIGuard achieves at least 97.0% defense success rate under both rule-based and judge-based leakage evaluation, often reaching 100.0%, while preserving benign same-page QA utility. We further evaluate two harder settings: public-URL browsing and attacker-side LLM sanitization of fetched webpage. These results show that page-side defensive fragments can remain effective in deployment for some model-position pairs, but robustness varies substantially across browsing interfaces and sanitizer prompts. Overall, PIIGuard demonstrates that page owners can use page-side fragments as a practical mitigation for web-grounded PII leakage.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.01338",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2605.03129",
+      "relevance_score": 35,
       "status": "new",
-      "tags": [
-        "diagramas",
-        "reconocimiento",
-        "multimodal"
-      ],
-      "what_changed": "Introducción de DiagramNet y un flujo de trabajo progresivo que mejora el rendimiento de los modelos existentes.",
-      "why_it_matters": "Impulsa la capacidad de los modelos de lenguaje para interactuar con representaciones gráficas complejas.",
-      "sector_impact": "Mejora el diseño de sistemas y herramientas en ingeniería."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "GOAT: Un Marco de Entrenamiento para Agentes Orientados a Objetivos",
-      "summary": "Propone un nuevo enfoque de entrenamiento para agentes de IA que permite la ejecución de datos de ejecución de API sin anotación humana.",
-      "category": "framework",
+      "title": "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use",
+      "summary": "arXiv:2605.02964v1 Announce Type: cross Abstract: Reinforcement learning (RL) trained language model agents with tool access are increasingly deployed in coding assistants, research tools, and autonomous systems. We introduce the Reward Hacking Benchmark (RHB), a suite of multi-step tasks requiring sequential tool operations with naturalistic shortcut opportunities such as skipping verification steps, inferring answers from task-adjacent metadata, or tampering with evaluation-relevant functions. RHB supports independent and chained task regimes, where chain length acts as a proxy for longer-horizon agent behavior. We evaluate 13 frontier models from OpenAI, Anthropic, Google, and DeepSeek. Exploit rates range from 0% (Claude Sonnet 4.5) to 13.9% (DeepSeek-R1-Zero), varying sharply by post-training style. A controlled sibling comparison (DeepSeek-V3 vs. DeepSeek-R1-Zero) shows RL post-training is associated with substantially higher reward hacking (0.6% vs. 13.9%), with consistent gaps across all four task families. We identify six exploit categories and find that 72% of reward hacking episodes include explicit chain-of-thought rationale, suggesting models often frame exploits as legitimate problem-solving. Simple environmental hardening reduces exploit rates by 5.7 percentage points (87.7% relative) without degrading task success. Models with near-zero exploit rates on standard tasks show elevated rates on harder variants, suggesting that production-aligned post-training appears to suppress reward hacking only below a complexity threshold where honest solutions remain tractable.",
+      "category": "labs",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.12218",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2605.02964",
+      "relevance_score": 34,
       "status": "new",
-      "tags": [
-        "agentes",
-        "entrenamiento",
-        "API"
-      ],
-      "what_changed": "Desarrollo de un marco que facilita la creación de agentes LLM sin necesidad de grandes conjuntos de entrenamiento.",
-      "why_it_matters": "Permite la creación de agentes robustos que utilizan herramientas complejas de manera efectiva.",
-      "sector_impact": "Transforma el uso de agentes en diversas aplicaciones industriales."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Evolución del Arnés Automatizado para Agentes IA",
-      "summary": "Presenta un marco de dos niveles que automatiza el diseño y optimización de estrategias para agentes de IA en entornos complejos.",
-      "category": "framework",
+      "title": "RAG over Thinking Traces Can Improve Reasoning Tasks",
+      "summary": "arXiv:2605.03344v1 Announce Type: cross Abstract: Retrieval-augmented generation (RAG) has proven effective for knowledge-intensive tasks, but is widely believed to offer limited benefit for reasoning-intensive problems such as math and code generation. We challenge this assumption by showing that the limitation lies not in RAG itself, but in the choice of corpus. Instead of retrieving documents, we propose retrieving thinking traces, i.e., intermediate thinking trajectories generated during problem solving attempts. We show that thinking traces are already a strong retrieval source, and further introduce T3, an offline method that transforms them into structured, retrieval-friendly representations, to improve usability. Using these traces as a corpus, a simple retrieve-then-generate pipeline consistently improves reasoning performance across strong models and benchmarks such as AIME 2025--2026, LiveCodeBench, and GPQA-Diamond, outperforming both non-RAG baselines and retrieval over standard web corpora. For instance, on AIME, RAG with traces generated by Gemini-2-thinking achieves relative gains of +56.3%, +8.6%, and +7.6% for Gemini-2.5-Flash, GPT-OSS-120B, and GPT-5, respectively, even though these are more recent models. Interestingly, RAG on T3 also incurs little or no extra inference cost, and can even reduce inference cost by up to $15%$. Overall, our results suggest that thinking traces are an effective retrieval corpus for reasoning tasks, and transforming them into structured, compact, or diagnostic representations unlocks even stronger gains. Code available at https://github.com/Narabzad/t3.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.21003",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.03344",
+      "relevance_score": 33,
       "status": "new",
-      "tags": [
-        "automatización",
-        "agentes",
-        "diseño"
-      ],
-      "what_changed": "Automatización del proceso de ingeniería para adaptar agentes a nuevas tareas.",
-      "why_it_matters": "Reduce la necesidad de intervención humana en la adaptación de agentes a nuevas tareas.",
-      "sector_impact": "Aumenta la eficiencia y rapidez en la implementación de soluciones de IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Medmarks: Suite de Evaluación LLM para Tareas Médicas",
-      "summary": "Presenta un conjunto de evaluación de código abierto con 30 benchmarks para tareas médicas, mejorando la accesibilidad y cobertura.",
-      "category": "tool",
+      "title": "From Knowledge to Action: Outcomes of the 2025 Large Language Model (LLM) Hackathon for Applications in Materials Science and Chemistry",
+      "summary": "arXiv:2605.03205v1 Announce Type: cross Abstract: Large language models (LLMs) are rapidly changing how researchers in materials science and chemistry discover, organize, and act on scientific knowledge. This paper analyzes a broad set of community-developed LLM applications in an effort to identify emerging patterns in how these systems can be used across the scientific research lifecycle. We organize the projects into two complementary categories: Knowledge Infrastructure, systems that structure, retrieve, synthesize, and validate scientific information; and Action Systems, systems that execute, coordinate, or automate scientific work across computational and experimental environments. The submissions reveal a shift from single-purpose LLM tools toward integrated, multi-agent workflows that combine retrieval, reasoning, tool use, and domain-specific validation. Prominent themes include retrieval-augmented generation as grounding infrastructure, persistent structured knowledge representations, multimodal and multilingual scientific inputs, and early progress toward laboratory-integrated closed-loop systems. Together, these results suggest that LLMs are evolving from general-purpose assistants into composable infrastructure for scientific reasoning and action. This work provides a community snapshot of that transition and a practical taxonomy for understanding emerging LLM-enabled workflows in materials science and chemistry.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.01417",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.03205",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "medicina",
-        "evaluación",
-        "benchmarking"
-      ],
-      "what_changed": "Creación de un suite de evaluación exhaustiva para modelos de lenguaje en el ámbito médico.",
-      "why_it_matters": "Facilita la validación de modelos de IA en aplicaciones críticas de salud.",
-      "sector_impact": "Promueve el avance tecnológico en la atención médica."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ContextCov: Marco de Ejecución de Restricciones de Agentes",
-      "summary": "Desarrolla un sistema que convierte instrucciones pasivas en revisores automáticos para agentes de software.",
-      "category": "framework",
+      "title": "ARISE: A Repository-level Graph Representation and Toolset for Agentic Fault Localization and Program Repair",
+      "summary": "arXiv:2605.03117v1 Announce Type: cross Abstract: Repository-level fault localization (FL) and automated program repair (APR) require an agent to identify the relevant code units across files, follow call and data dependencies, and generate a valid patch. Existing graph-based systems provide structural representations of repositories (files, classes, functions and their relationships) but do not model how variable values flow within procedures, leaving agents without the semantic precision needed for function- and line-level localization. We present ARISE (Agentic Repository-level Issue Solving Engine), which augments an LLM-based agent with a multi-granularity program graph that extends structural relationships down to statement-level nodes connected by intra-procedural definition-use edges. ARISE exposes this graph through a three-tier tool API, which brings data-flow slicing as a first-class, queryable agent primitive that allows the model to trace, in a single call, which statements define or consume a variable of interest. We evaluate on SWE-bench Lite (300 real GitHub issues, 11 Python repositories) using Qwen2.5-Coder-32B-Instruct as the backbone. Compared to the unmodified SWE-agent baseline, ARISE improves Function Recall@1 by 17.0 points and Line Recall@1 by 15.0 points. These localization gains translate directly into repair success, with ARISE achieving 22.0% Pass@1 (66/300), a 4.7 percentage-point improvement over SWE-agent. Controlled ablations confirm that the improvement is driven by the data-flow graph rather than the tool schema, and that large code models consume structured slice output directly without requiring a natural-language summarization layer. The graph builder and slicing API are designed as a framework-agnostic, drop-in toolset for future APR research.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.00822",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.03117",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "agentes",
-        "control",
-        "automatización"
-      ],
-      "what_changed": "Implementación de guardrails ejecutables para robots de codificación autónomos.",
-      "why_it_matters": "Minimiza la acumulación de deuda técnica en proyectos complejos.",
-      "sector_impact": "Aumenta la fiabilidad de los sistemas automatizados en entornos de desarrollo."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "DocSync: Mantenimiento de Documentación Agente",
-      "summary": "Propuesta de un flujo de trabajo que integra generación y validación del mantenimiento de documentación basada en código.",
-      "category": "tool",
+      "title": "Terminus-4B: Can a Smaller Model Replace Frontier LLMs at Agentic Execution Tasks?",
+      "summary": "arXiv:2605.03195v1 Announce Type: new Abstract: Modern coding agents increasingly delegate specialized subtasks to subagents, which are smaller, focused agentic loops that handle narrow responsibilities like search, debugging or terminal execution. This architectural pattern keeps the main agent's context window clean by isolating verbose outputs (e.g. build logs, test results, etc.) within the subagent context. Typically when agents employ subagents for such tasks, they use frontier models as these subagents. In this paper, we investigate whether a finetuned small language model (SLM) can achieve comparable performance to frontier models in the task of agentic terminal execution. We present Terminus-4B, which is a post-trained Qwen3-4B model via Supervised Finetuning (SFT) and Reinforcement Learning (RL) using rubric-based LLM-as-judge reward, specifically for this task. In our extensive evaluation spanning various frontier models, training ablations and main agent configurations, we find that Terminus-4B is able to reduce the token usage of the main agent by up to ~30% compared to the No Subagent baseline with no impact to agent performance on benchmarks like SWE-Bench Pro and our internal SWE-Bench C# benchmark, which tends to be heavy in verbose execution tasks. Furthermore, Terminus-4B improves key metrics showing the main agent relying on the outputs of the subagent and doing fewer terminal execution tasks by itself. We see that our model not only closes the gap between the Vanilla Qwen model and frontier models like Claude Sonnet / Opus / GPT-5.3-Codex, but often even exceeds their performance.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.02163",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.03195",
+      "relevance_score": 29,
       "status": "new",
-      "tags": [
-        "documentación",
-        "mantenimiento",
-        "IA"
-      ],
-      "what_changed": "Integración de bucles de auto-corrección en la actualización de documentación.",
-      "why_it_matters": "Aumenta la precisión de la documentación contra las lógicas de código subyacentes.",
-      "sector_impact": "Facilita la sostenibilidad en proyectos de software a largo plazo."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Hacia la Sanación Runtime Agente",
-      "summary": "Propuesta de un marco que permite a las aplicaciones de software recuperarse automáticamente de los errores en tiempo de ejecución.",
-      "category": "framework",
+      "title": "TCM-Serve: Modality-aware Scheduling for Multimodal Large Language Model Inference",
+      "summary": "arXiv:2603.26498v2 Announce Type: replace-cross Abstract: Multimodal Large Language Models (MLLMs) power platforms like ChatGPT, Gemini, and Copilot, enabling richer interactions with text, images, and videos. These heterogeneous workloads introduce additional inference stages, such as vision preprocessing and encoding, that inflate latency and memory demand. Existing LLM serving systems, optimized for text-only workloads, fail under multimodality: large requests (e.g., videos) monopolize resources, causing severe head-of-line blocking and performance degradation. Our key insight is that multimodal requests differ by orders of magnitude in resource demands, which we capture through a simple abstraction: videos behave like trucks, images like cars, and text like motorcycles. We design TCM-Serve, a modality-aware scheduler that lets motorcycles flow quickly through cars and trucks, ensuring interactive responsiveness while avoiding starvation. TCM-Serve classifies requests, prioritizes them dynamically, and applies aging to avoid starvation. Evaluation across state-of-the-art MLLMs shows that TCM-Serve reduces, on average, time-to-first-token (TTFT) by 54% overall, and by 78.5% for latency-critical requests, compared to current systems. TCM-Serve delivers LLM-like responsiveness for MLLMs, with modality-aware scheduling and by making the most efficient use of the available resources.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2408.01055",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2603.26498",
+      "relevance_score": 29,
       "status": "new",
-      "tags": [
-        "recuperación",
-        "runtime",
-        "agentes"
-      ],
-      "what_changed": "Desarrollo de un sistema que genera dinámicamente estrategias de manejo de errores.",
-      "why_it_matters": "Permite a los sistemas de software adaptarse y recuperarse sin intervención humana.",
-      "sector_impact": "Aumenta la resiliencia de las aplicaciones en producción."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Agentic publications: redesigning scientific publishing in the age of thinking large language models",
+      "summary": "arXiv:2505.13246v2 Announce Type: replace Abstract: Purpose: This paper introduces the concept of \"Agentic Publication,\" a novel LLM-driven framework designed to complement traditional scientific publishing by transforming papers into interactive knowledge systems that address challenges created by exponential growth in scientific literature. Design/methodology/approach: Our architecture integrates structured data (knowledge graphs, metadata) with unstructured content (text, multimedia) through retrieval-augmented generation and multi-agent verification. The system provides interfaces for humans and artificial agents, offering narrative explanations alongside machine-readable outputs. Implementation leverages vector databases for semantic search, knowledge graphs for structured reasoning, and collaborative verification agents. Findings: Our proof-of-concept demonstration showcases multilingual interaction, API accessibility, continuous knowledge flow, and structured knowledge representation. The framework enables dynamic updating of knowledge, synthesis of new findings, and customizable detail levels. Originality: The Agentic Publication represents a transformative approach to scientific communication by creating responsive knowledge synthesis systems while maintaining scientific rigor. Integrating multi-agent verification with traditional publishing pathways creates a more efficient, accessible, and collaborative research ecosystem, particularly valuable in interdisciplinary fields. Practical implications: The system is a powerful companion for researchers navigating complex knowledge landscapes, offering tailored information access across disciplines while addressing ethical considerations through automated validation, expert oversight, and transparent governance.",
+      "category": "labs",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2505.13246",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
