@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-05-09",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenAI lanza nuevas características de voz en su API",
+          "summary": "OpenAI ha introducido nuevas características de inteligencia de voz que pueden ser útiles en sistemas de atención al cliente y otros campos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "API",
+            "voz"
+          ],
+          "what_changed": "Se agregaron nuevas funcionalidades de inteligencia de voz a la API.",
+          "why_it_matters": "Amplía las capacidades de implementación de IA en diversas plataformas, mejorando la interacción usuario-sistema.",
+          "sector_impact": "Aumenta la automatización en atención al cliente y plataformas educativas."
+        },
+        {
+          "title": "Spotify quiere ser el hogar del audio personal generado por IA",
+          "summary": "Los usuarios podrán crear pódcast usando Codex o Claude y cargarlos a Spotify.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Spotify",
+            "IA",
+            "pódcast"
+          ],
+          "what_changed": "Integración de herramientas de IA para la creación de contenido en la plataforma.",
+          "why_it_matters": "Facilita la creación de contenido personalizado, aumentando el compromiso del usuario.",
+          "sector_impact": "Transforma la forma en que se genera y consume contenido de audio."
+        },
+        {
+          "title": "Perplexity’s Personal Computer disponible para todos en Mac",
+          "summary": "La PC Personal de Perplexity introduce agentes de IA en tu Mac, ahora disponible para todos los usuarios.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Perplexity",
+            "Mac",
+            "agentes"
+          ],
+          "what_changed": "Lanzamiento de una herramienta de IA accesible a un público más amplio.",
+          "why_it_matters": "Permite la personalización y optimización del uso diario del computador.",
+          "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
+        },
+        {
+          "title": "CyberSecQwen-4B: Modelos de ciberseguridad especializados",
+          "summary": "Se discute la necesidad de modelos de IA pequeños y especializados para ciberseguridad que puedan ejecutarse localmente.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "modelos",
+            "Hugging Face"
+          ],
+          "what_changed": "Introducción de un nuevo enfoque para modelos de ciberseguridad.",
+          "why_it_matters": "Provee soluciones más efectivas y accesibles para la defensa cibernética.",
+          "sector_impact": "Aumenta la seguridad digital en múltiples aplicaciones."
+        },
+        {
+          "title": "Anthropic’s Mythos mejora la ciberseguridad en Firefox",
+          "summary": "Investigadores de seguridad en Mozilla destacan que Mythos de Anthropic ha descubierto bugs de alta gravedad en Firefox.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "Firefox",
+            "Anthropic"
+          ],
+          "what_changed": "Mejoras significativas en la detección de vulnerabilidades en Firefox.",
+          "why_it_matters": "Refuerza la seguridad del navegador contribuyendo a un entorno más seguro para los usuarios.",
+          "sector_impact": "Impacto positivo en la confianza del usuario y seguridad en línea."
+        },
+        {
+          "title": "Nuevas integraciones de ChatGPT para mejorar la experiencia de usuario",
+          "summary": "OpenAI está implementando nuevas integraciones en ChatGPT que mejoran las capacidades de la plataforma.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "integraciones",
+            "OpenAI"
+          ],
+          "what_changed": "Se agregaron medidas de seguridad para los usuarios.",
+          "why_it_matters": "Aumenta la seguridad y confianza en el uso de ChatGPT para interacciones delicadas.",
+          "sector_impact": "Fomenta la adopción en entornos más sensibles como la educación y salud."
+        },
+        {
+          "title": "Google lanza 'The Small Brief' para pymes",
+          "summary": "Una iniciativa que reúne a íconos de la publicidad para ayudar a pequeños negocios a usar IA para anuncios.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Google",
+            "publicidad",
+            "pymes"
+          ],
+          "what_changed": "Lanzamiento de un programa específico para ayudar a pequeñas empresas.",
+          "why_it_matters": "Facilita la incorporación de herramientas de IA en marketing para pymes.",
+          "sector_impact": "Potencial para transformar la publicidad de pequeños negocios."
+        },
+        {
+          "title": "Lanzamiento de 'Startup Battlefield 200' con oportunidades de financiación",
+          "summary": "Abiertas las aplicaciones para el programa que ofrece acceso a capital y visibilidad global.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "emprendimiento",
+            "financiación",
+            "startups"
+          ],
+          "what_changed": "Se abre un nuevo ciclo de aplicaciones para startups.",
+          "why_it_matters": "Proporciona una plataforma de visibilidad y recursos financieros vitales para nuevas empresas.",
+          "sector_impact": "Incrementa el potencial de crecimiento de startups emergentes."
+        }
+      ]
+    },
+    {
       "date": "2026-05-08",
       "executive_title": "Radar IA del día",
       "items": [
@@ -544,131 +686,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-02",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI lanza GPT-5.5 Cyber para ciberseguridad",
-          "summary": "OpenAI empezará a desplegar su herramienta de ciberseguridad, GPT-5.5 Cyber, solo para defensores críticos de ciberseguridad.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "ciberseguridad",
-            "IA"
-          ],
-          "what_changed": "Se restringe el acceso inicial solo a grupos selectos.",
-          "why_it_matters": "Aumenta la seguridad en la defensa cibernética utilizando IA avanzada.",
-          "sector_impact": "Mejora la capacidad de respuesta ante amenazas cibernéticas."
-        },
-        {
-          "title": "ChatGPT Images 2.0 gana popularidad en India",
-          "summary": "Los usuarios en India están adoptando ChatGPT Images 2.0 para crear imágenes personales y creativas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "imágenes",
-            "creatividad"
-          ],
-          "what_changed": "La herramienta ha sido bien recibida en un nuevo mercado.",
-          "why_it_matters": "Ofrece nuevas oportunidades creativas a los usuarios.",
-          "sector_impact": "Fomenta la creatividad y el uso de IA en la personalización de imágenes."
-        },
-        {
-          "title": "Google introduce Gemini AI en millones de vehículos",
-          "summary": "Google está implementando su asistente AI Gemini en una gran cantidad de vehículos, mejorando la experiencia de conducción.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Gemini",
-            "movilidad"
-          ],
-          "what_changed": "Lanzamiento de un asistente AI en el sector automotriz.",
-          "why_it_matters": "Transforma la experiencia de conducción con capacidades conversacionales.",
-          "sector_impact": "Revoluciona la forma en que interactuamos con los vehículos."
-        },
-        {
-          "title": "Stripe mejora Link, la billetera digital para agentes AI",
-          "summary": "Link permite a los usuarios conectar tarjetas y bancos, autorizando a agentes AI para gastar de manera segura.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Stripe",
-            "billetera digital",
-            "AI"
-          ],
-          "what_changed": "Incorporación de funcionalidades para agentes AI.",
-          "why_it_matters": "Optimiza la experiencia de compra utilizando inteligencia artificial.",
-          "sector_impact": "Modifica la dinámica de las transacciones digitales."
-        },
-        {
-          "title": "NVIDIA presenta Nemotron 3 Nano para inteligencia multimodal",
-          "summary": "Nueva herramienta de NVIDIA para la inteligencia multimodal en documentos, audio y video.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "NVIDIA",
-            "inteligencia multimodal",
-            "tecnología"
-          ],
-          "what_changed": "Lanzamiento de una nueva tecnología avanzada.",
-          "why_it_matters": "Facilita la interacción con múltiples tipos de datos.",
-          "sector_impact": "Amplía las capacidades de análisis y procesamiento de datos."
-        },
-        {
-          "title": "OpenAI mejora la seguridad de cuentas de ChatGPT",
-          "summary": "Se lanzan nuevas protecciones para cuentas de ChatGPT incluyendo una asociación con Yubico.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "seguridad",
-            "ChatGPT"
-          ],
-          "what_changed": "Implementación de nuevas medidas de seguridad.",
-          "why_it_matters": "Aumenta la protección de datos para usuarios de ChatGPT.",
-          "sector_impact": "Refuerza la confianza en el uso de plataformas de IA."
-        },
-        {
-          "title": "Meta adquiere startup de robótica para IA humanoide",
-          "summary": "Meta compra la startup Assured Robot Intelligence para mejorar sus modelos de IA en robots.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "robótica",
-            "IA humanoide"
-          ],
-          "what_changed": "Adquisición de tecnología clave para avanzar en IA humanoide.",
-          "why_it_matters": "Impulsa el desarrollo de IA más avanzada en robots.",
-          "sector_impact": "Mejora la interacción humano-robot en diversas aplicaciones."
         }
       ]
     }

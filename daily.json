@@ -1,112 +1,144 @@
 {
-  "date": "2026-05-08",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-05-09",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y frameworks de IA.",
+  "opening_message": "Este radar recopila las novedades más relevantes en el campo de la inteligencia artificial para desarrolladores y empresas.",
   "items": [
     {
-      "title": "Process Matters more than Output for Distinguishing Humans from Machines",
-      "summary": "arXiv:2605.06524v1 Announce Type: new Abstract: Reliable human-machine discrimination is becoming increasingly important as large language models and autonomous agents are deployed in online settings. Existing approaches evaluate whether a system can produce behavior or responses indistinguishable from those of a human, following the emphasis on outputs as a criterion for intelligence proposed by Alan Turing. Cognitive science offers an alternative perspective: evaluating the process by which behavior is produced. To test whether cognitive processes can reliably distinguish humans from machines, we introduce CogCAPTCHA30, a battery of 30 cognitive tasks designed to elicit diagnostic process-level features even when task performance is matched. Across the battery, process-level features provide stronger discriminative signal than performance metrics alone, reliably distinguishing humans from agents even under output matching (mean process-feature classifier AUC = 0.88). To evaluate agentic process differences, we compare off-the-shelf frontier agents (Claude Sonnet 4.5, GPT-5, Gemini 2.5 Pro), Centaur (a language model fine-tuned on 10.7M human decisions), and two task-specific fine-tuning approaches applied to Qwen2.5-1.5B-Instruct: action-level supervised fine-tuning (A-SFT) and process-level fine-tuning (P-SFT), which directly optimizes process features. Broad fine-tuning on human decisions improves human-like task processes relative to off-the-shelf agents, while task-specific process-level supervision further improves behavioral mimicry. However, this advantage diminishes under cross-task transfer when supervised process targets do not naturally generalize across tasks. Explicit process-level supervision can improve human behavioral mimicry, but only if appropriate task-specific process representations are available, highlighting process specification as a bottleneck for achieving human-like cognitive processes in machines.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.06524",
-      "relevance_score": 32,
+      "title": "OpenAI lanza nuevas características de voz en su API",
+      "summary": "OpenAI ha introducido nuevas características de inteligencia de voz que pueden ser útiles en sistemas de atención al cliente y otros campos.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "OpenAI",
+        "API",
+        "voz"
+      ],
+      "what_changed": "Se agregaron nuevas funcionalidades de inteligencia de voz a la API.",
+      "why_it_matters": "Amplía las capacidades de implementación de IA en diversas plataformas, mejorando la interacción usuario-sistema.",
+      "sector_impact": "Aumenta la automatización en atención al cliente y plataformas educativas."
     },
     {
-      "title": "SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety",
-      "summary": "arXiv:2605.05704v1 Announce Type: cross Abstract: With the rapid evolution of foundation models, Large Language Model (LLM) agents have demonstrated increasingly powerful tool-use capabilities. However, this proficiency introduces significant security risks, as malicious actors can manipulate agents into executing tools to generate harmful content. While existing defensive mechanisms are effective, they frequently suffer from the over-refusal problem, where increased safety strictness compromises the agent's utility on benign tasks. To mitigate this trade-off, we propose \\textsc{SafeHarbor}, a novel framework designed to establish precise decision boundaries for LLM agents. Unlike static guidelines, \\textsc{SafeHarbor} extracts context-aware defense rules through enhanced adversarial generation. We design a local hierarchical memory system for dynamic rule injection, offering a training-free, efficient, and plug-and-play solution. Furthermore, we introduce an information entropy-based self-evolution mechanism that continuously optimizes the memory structure through dynamic node splitting and merging. Extensive experiments demonstrate that \\textsc{SafeHarbor} achieves state-of-the-art performance on both ambiguous benign tasks and explicit malicious attacks, notably attaining a peak benign utility of 63.6\\% on GPT-4o while maintaining a robust refusal rate exceeding 93\\% against harmful requests. The source code is publicly available at https://github.com/ljj-cyber/SafeHarbor.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.05704",
-      "relevance_score": 32,
+      "title": "Spotify quiere ser el hogar del audio personal generado por IA",
+      "summary": "Los usuarios podrán crear pódcast usando Codex o Claude y cargarlos a Spotify.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Spotify",
+        "IA",
+        "pódcast"
+      ],
+      "what_changed": "Integración de herramientas de IA para la creación de contenido en la plataforma.",
+      "why_it_matters": "Facilita la creación de contenido personalizado, aumentando el compromiso del usuario.",
+      "sector_impact": "Transforma la forma en que se genera y consume contenido de audio."
     },
     {
-      "title": "Beyond Task Success: Measuring Workflow Fidelity in LLM-Based Agentic Payment Systems",
-      "summary": "arXiv:2605.06457v1 Announce Type: new Abstract: LLM-based multi-agent systems are increasingly deployed for payment workflows, yet prevailing metrics, Task Success Rate (TSR) and Agent Handoff F1-Score (HF1), capture only final outcomes or unordered routing decisions. We introduce the Agentic Success Rate (ASR), a trajectory-fidelity metric that compares observed and expected agent execution sequences at the transition level, decomposing performance into Transition Recall and Transition Precision. Applied to the Hierarchical Multi-Agent System for Payments (HMASP) across 18 LLMs and 90,000 task instances, ASR reveals that 10 of 18 models systematically skip a confirmation checkpoint during payment checkout, a deviation invisible to both TSR and HF1, while 8 models enforce the checkpoint perfectly. Notably, GPT-4.1 exhibits hidden workflow shortcuts despite achieving perfect TSR and HF1, while GPT-5.2 achieves perfect ASR. Prompt refinements and deterministic routing guards guided by ASR diagnostics yield substantial TSR improvements, with gains up to +93.8 percentage points for previously struggling models, demonstrating that trajectory-level evaluation is essential in regulated domains.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.06457",
-      "relevance_score": 29,
+      "title": "Perplexity’s Personal Computer disponible para todos en Mac",
+      "summary": "La PC Personal de Perplexity introduce agentes de IA en tu Mac, ahora disponible para todos los usuarios.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Perplexity",
+        "Mac",
+        "agentes"
+      ],
+      "what_changed": "Lanzamiento de una herramienta de IA accesible a un público más amplio.",
+      "why_it_matters": "Permite la personalización y optimización del uso diario del computador.",
+      "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
     },
     {
-      "title": "Multi-Dimensional Behavioral Evaluation of Agentic Stock Prediction Systems Using LLM Judges with Closed-Loop Reinforcement Learning Feedback",
-      "summary": "arXiv:2605.05739v1 Announce Type: cross Abstract: Agentic stock prediction systems make sequences of interdependent decisions (regime detection, pathway routing, reinforcement learning control) whose individual quality is hidden by aggregate metrics such as mean absolute percentage error (MAPE) or directional accuracy. We present a behavioral evaluation framework that addresses this gap. Behavioral traces logged at every autonomous decision point are grouped into five-day episodes and scored along six domain-specific dimensions (regime detection, routing, adaptation, risk calibration, strategy coherence, error recovery) by an ensemble of three large language model (LLM) judges (GPT 5.4, Claude 4.6 Opus, Gemini 3.1 Pro). Perturbation-based validation on 420 episodes yields targeted score drops of $-1.6$ to $-2.4$ on intended dimensions versus an average of $-0.32$ on the remaining five, with cross-model agreement up to Krippendorff's $\\alpha = 0.85$. The composite behavioral score, used here only for cross-episode reporting, correlates at $\\rho = 0.72$ with realized 20-day Sharpe ratio from offline backtesting. Closing the loop, the framework converts deficient per-dimension scores into a credit-assigned penalty term added to the Soft Actor-Critic (SAC) reward. Three short fine-tuning cycles, all confined to the validation period, produce on the held-out 2017-2025 test period a one-day MAPE reduction from 0.61% to 0.54% (an 11.5% relative reduction; $p<0.001$, Cohen's $d=0.31$), a directional accuracy increase from 71% to 74%, and an 18% Sharpe ratio improvement (95% bootstrap CI [8.2%, 27.4%]), with gains concentrated in high-volatility episodes where the original system was most behaviorally deficient. Results are from offline backtesting and do not address effects specific to live deployment.",
+      "title": "CyberSecQwen-4B: Modelos de ciberseguridad especializados",
+      "summary": "Se discute la necesidad de modelos de IA pequeños y especializados para ciberseguridad que puedan ejecutarse localmente.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.05739",
-      "relevance_score": 29,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "ciberseguridad",
+        "modelos",
+        "Hugging Face"
+      ],
+      "what_changed": "Introducción de un nuevo enfoque para modelos de ciberseguridad.",
+      "why_it_matters": "Provee soluciones más efectivas y accesibles para la defensa cibernética.",
+      "sector_impact": "Aumenta la seguridad digital en múltiples aplicaciones."
     },
     {
-      "title": "From History to State: Constant-Context Skill Learning for LLM Agents",
-      "summary": "arXiv:2605.05413v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used to operate browsers, files, code and tools, making personal assistants a natural deployment target. Yet personal agents face a privacy-cost-capability tension: cloud models execute multi-step workflows well but expose sensitive intermediate context to external APIs, while local models preserve privacy but remain less reliable. Both settings also pay repeatedly for long skill prompts and growing histories. We propose constant-context skill learning, a context-to-weights framework for recurring agent workflows: reusable procedures are learned in lightweight task-family modules, while inference conditions only on the current observation and a compact state block. A deterministic tracker renders this state block from task progress and supplies aligned subgoal rewards, so each module can be trained with step-level SFT and refined through online RL. Across ALFWorld, WebShop, and SciWorld, our agents achieve strong performance across Qwen3-4B, Qwen3-8B and Llama-3.1-8B. With Qwen3-8B, SFT+RL reaches 89.6\\% unseen success on ALFWorld, 76.8\\% success on WebShop, and 66.4\\% unseen success on SciWorld. They match or exceed strong published agent-training results while reducing prompt tokens per turn by 2--7$\\times$ relative to controlled ReAct prompting baselines, showing that procedural context can be moved from prompts into weights.",
+      "title": "Anthropic’s Mythos mejora la ciberseguridad en Firefox",
+      "summary": "Investigadores de seguridad en Mozilla destacan que Mythos de Anthropic ha descubierto bugs de alta gravedad en Firefox.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.05413",
-      "relevance_score": 28,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "ciberseguridad",
+        "Firefox",
+        "Anthropic"
+      ],
+      "what_changed": "Mejoras significativas en la detección de vulnerabilidades en Firefox.",
+      "why_it_matters": "Refuerza la seguridad del navegador contribuyendo a un entorno más seguro para los usuarios.",
+      "sector_impact": "Impacto positivo en la confianza del usuario y seguridad en línea."
     },
     {
-      "title": "AgenticRAG: Agentic Retrieval for Enterprise Knowledge Bases",
-      "summary": "arXiv:2605.05538v1 Announce Type: new Abstract: We present AgenticRAG, a practical agentic harness for retrieval and analysis over enterprise knowledge bases. Standard RAG pipelines place significant burden of grounding on the search stack, constraining the language model to a fixed candidate set chosen deep in the retrieval process. Our approach reduces this overdependence by layering a lightweight harness on top of existing enterprise search infrastructure, equipping a reasoning LLM with search, find, open, and summarize tools enabling the model to iteratively retrieve information, navigate within documents, and analyze evidence autonomously. On three open benchmarks we observe substantial gains: $49.6\\%$ recall@1 on BRIGHT (+21.8 pp over the best embedding baseline), 0.96 factuality on WixQA ($+13\\%$ relative improvement), and $92\\%$ answer correctness on FinanceBench--within 2 pp of oracle access to true evidence. Ablation studies show that the most significant factor is the shift from single-shot retrieval to agentic tool use ($5.9\\times$ improvement), while multi-query search and in-document navigation contribute to both quality and efficiency. We present various design choices in our agentic harness that were informed by pre-production deployments. Our results demonstrate its suitability for real-world enterprise production environments.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.05538",
-      "relevance_score": 28,
+      "title": "Nuevas integraciones de ChatGPT para mejorar la experiencia de usuario",
+      "summary": "OpenAI está implementando nuevas integraciones en ChatGPT que mejoran las capacidades de la plataforma.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "ChatGPT",
+        "integraciones",
+        "OpenAI"
+      ],
+      "what_changed": "Se agregaron medidas de seguridad para los usuarios.",
+      "why_it_matters": "Aumenta la seguridad y confianza en el uso de ChatGPT para interacciones delicadas.",
+      "sector_impact": "Fomenta la adopción en entornos más sensibles como la educación y salud."
     },
     {
-      "title": "Measuring Black-Box Confidence via Reasoning Trajectories: Geometry, Coverage, and Verbalization",
-      "summary": "arXiv:2605.06308v1 Announce Type: new Abstract: Reliable confidence estimation enables safe deployment of chain-of-thought (CoT) reasoning through text-only APIs. Yet the dominant black-box baseline, self-consistency over K samples, is linearly expensive and ignores the geometry of the trace. We propose a black-box trajectory-confidence score: we embed a CoT as a sliding-window trajectory and measure its convergence to external answer anchors with a one-parameter softmax. The method needs no logits, hidden states, or supervised calibrators. Across six (benchmark, reasoner) settings on MedQA-USMLE, GPQA Diamond, and MMLU-Pro with Gemini 3.1 Pro and Claude Sonnet 4.6, fusing this score with coverage and verbalized-confidence channels at K=4 yields Pareto improvements over self-consistency at K=8 in 6/6 settings (median AUC 0.78 vs 0.71, deltaAUC=+0.075). A fixed-pick control (+0.060) and E5 cross-embedder replication rule out answer switching and single-vendor artifacts. Geometry peaks in the penultimate window across benchmarks and reasoners, and inverts at the terminal window on GPQA Diamond. Three unscaffolded regimes separate black-box confidence into a judge-mediated Coverage prior (C), within-trace Geometry (G), and a conditional Verbalization channel (V). Across 18 benchmark x reasoner x proposer settings, C and G provide independent signal in 18/18 and 16/18, while V contributes residual signal in 6/18. Swapping the judge from GPT-5-mini to Claude Sonnet 4.6 leaves G-only AUC unchanged (|delta|<=0.013) and shifts C-only AUC by at most +/-0.02 (kappa=0.82). Fusion beats the best single channel in 17/18 settings (median AUC 0.78, max 0.92).",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.06308",
-      "relevance_score": 28,
+      "title": "Google lanza 'The Small Brief' para pymes",
+      "summary": "Una iniciativa que reúne a íconos de la publicidad para ayudar a pequeños negocios a usar IA para anuncios.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "relevance_score": 4,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Google",
+        "publicidad",
+        "pymes"
+      ],
+      "what_changed": "Lanzamiento de un programa específico para ayudar a pequeñas empresas.",
+      "why_it_matters": "Facilita la incorporación de herramientas de IA en marketing para pymes.",
+      "sector_impact": "Potencial para transformar la publicidad de pequeños negocios."
     },
     {
-      "title": "AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents",
-      "summary": "arXiv:2605.06607v1 Announce Type: cross Abstract: Recent LLM-based agents have closed substantial portions of the scientific discovery loop in software-only machine-learning research, in chemistry, and in biology. Extending the same loop to high-fidelity physical simulators is harder, because solver completion does not imply physical validity and many failure modes appear only in field-level imagery rather than in solver logs. We present AI CFD Scientist, an open-source AI scientist for computational fluid dynamics (CFD) that, to our knowledge, is the first to span literature-grounded ideation, validated execution, vision-based physics verification, source-code modification, and figure-grounded writing within a single inspectable workflow. Three coupled pathways cover parameter sweeps within a fixed solver, case-local C++ library compilation for new physical models, and open-ended hypothesis search against a reference comparator, all running on OpenFOAM through Foam-Agent. At the center of the framework is a vision-language physics-verification gate that inspects rendered flow fields before any result is accepted, rerun, or written into a manuscript. On five tasks under a shared GPT-5.5 backbone, AI CFD Scientist autonomously discovers a Spalart-Allmaras runtime correction that reduces lower-wall Cf RMSE against DNS by 7.89% on the periodic hill at Reh=5600; under matched LLM cost, two strong general AI-scientist baselines (ARIS, DeepScientist) execute partial CFD workflows but lack the domain-specific validity gates needed to convert runs into defensible scientific claims; and a controlled planted-failure ablation shows that the vision-language gate detects 14 of 16 silent failures missed by solver-level checks. Code, prompts, and run artifacts are released at https://github.com/csml-rpi/cfd-scientist.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.06607",
-      "relevance_score": 28,
+      "title": "Lanzamiento de 'Startup Battlefield 200' con oportunidades de financiación",
+      "summary": "Abiertas las aplicaciones para el programa que ofrece acceso a capital y visibilidad global.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
+      "relevance_score": 4,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "emprendimiento",
+        "financiación",
+        "startups"
+      ],
+      "what_changed": "Se abre un nuevo ciclo de aplicaciones para startups.",
+      "why_it_matters": "Proporciona una plataforma de visibilidad y recursos financieros vitales para nuevas empresas.",
+      "sector_impact": "Incrementa el potencial de crecimiento de startups emergentes."
     }
   ]
 }
