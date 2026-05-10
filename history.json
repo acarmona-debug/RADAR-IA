@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-05-10",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "The “people’s airline” and the enterprise AI gold rush",
+          "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI deployment to SAP dropping $1B on German AI startup Prior Labs, it’s becoming clear that if you’re a startup building enterprise tools, you’re likely an acquisition target. On this episode of TechCrunch’s Equity podcast, hosts Kirsten Korosec, Anthony […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "5 gardening tips you can try right in Search",
+          "summary": "We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
+          "category": "labs",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+          "summary": "",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Bumble is getting rid of the swipe, CEO says",
+          "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
+          "summary": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "EMO: Pretraining mixture of experts for emergent modularity",
+          "summary": "",
+          "category": "sector",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/allenai/emo",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+          "summary": "",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+          "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-05-09",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -578,116 +688,6 @@
       "date": "2026-05-04",
       "executive_title": "Radar Diario de IA",
       "items": []
-    },
-    {
-      "date": "2026-05-03",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
-          "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit also bound to sell?",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
-          "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
-          "summary": "Anthropic is asking investors to submit allocations for the AI company’s latest fundraise within the next 48 hours, according to sources familiar with the matter.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The best AI dictation apps, tested and ranked",
-          "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
-          "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
-          "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Musk v. Altman is just getting started",
-          "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it’s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk’s argument against OpenAI? By converting the company to a for-profit model, Sam Altman betrayed the “nonprofit for the […]",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Apple was surprised by AI-driven demand for Macs",
-          "summary": "Apple said it will be supply-constrained on Mac mini, Studio, and Neo in the next quarter, too.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
     }
   ]
 }

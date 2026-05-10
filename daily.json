@@ -1,144 +1,112 @@
 {
-  "date": "2026-05-09",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y frameworks de IA.",
-  "opening_message": "Este radar recopila las novedades más relevantes en el campo de la inteligencia artificial para desarrolladores y empresas.",
+  "date": "2026-05-10",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "OpenAI lanza nuevas características de voz en su API",
-      "summary": "OpenAI ha introducido nuevas características de inteligencia de voz que pueden ser útiles en sistemas de atención al cliente y otros campos.",
-      "category": "tool",
+      "title": "The “people’s airline” and the enterprise AI gold rush",
+      "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI deployment to SAP dropping $1B on German AI startup Prior Labs, it’s becoming clear that if you’re a startup building enterprise tools, you’re likely an acquisition target. On this episode of TechCrunch’s Equity podcast, hosts Kirsten Korosec, Anthony […]",
+      "category": "labs",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-      "relevance_score": 7,
+      "source_url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+      "relevance_score": 13,
       "status": "new",
-      "tags": [
-        "OpenAI",
-        "API",
-        "voz"
-      ],
-      "what_changed": "Se agregaron nuevas funcionalidades de inteligencia de voz a la API.",
-      "why_it_matters": "Amplía las capacidades de implementación de IA en diversas plataformas, mejorando la interacción usuario-sistema.",
-      "sector_impact": "Aumenta la automatización en atención al cliente y plataformas educativas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Spotify quiere ser el hogar del audio personal generado por IA",
-      "summary": "Los usuarios podrán crear pódcast usando Codex o Claude y cargarlos a Spotify.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Spotify",
-        "IA",
-        "pódcast"
-      ],
-      "what_changed": "Integración de herramientas de IA para la creación de contenido en la plataforma.",
-      "why_it_matters": "Facilita la creación de contenido personalizado, aumentando el compromiso del usuario.",
-      "sector_impact": "Transforma la forma en que se genera y consume contenido de audio."
-    },
-    {
-      "title": "Perplexity’s Personal Computer disponible para todos en Mac",
-      "summary": "La PC Personal de Perplexity introduce agentes de IA en tu Mac, ahora disponible para todos los usuarios.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Perplexity",
-        "Mac",
-        "agentes"
-      ],
-      "what_changed": "Lanzamiento de una herramienta de IA accesible a un público más amplio.",
-      "why_it_matters": "Permite la personalización y optimización del uso diario del computador.",
-      "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
-    },
-    {
-      "title": "CyberSecQwen-4B: Modelos de ciberseguridad especializados",
-      "summary": "Se discute la necesidad de modelos de IA pequeños y especializados para ciberseguridad que puedan ejecutarse localmente.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "ciberseguridad",
-        "modelos",
-        "Hugging Face"
-      ],
-      "what_changed": "Introducción de un nuevo enfoque para modelos de ciberseguridad.",
-      "why_it_matters": "Provee soluciones más efectivas y accesibles para la defensa cibernética.",
-      "sector_impact": "Aumenta la seguridad digital en múltiples aplicaciones."
-    },
-    {
-      "title": "Anthropic’s Mythos mejora la ciberseguridad en Firefox",
-      "summary": "Investigadores de seguridad en Mozilla destacan que Mythos de Anthropic ha descubierto bugs de alta gravedad en Firefox.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "ciberseguridad",
-        "Firefox",
-        "Anthropic"
-      ],
-      "what_changed": "Mejoras significativas en la detección de vulnerabilidades en Firefox.",
-      "why_it_matters": "Refuerza la seguridad del navegador contribuyendo a un entorno más seguro para los usuarios.",
-      "sector_impact": "Impacto positivo en la confianza del usuario y seguridad en línea."
-    },
-    {
-      "title": "Nuevas integraciones de ChatGPT para mejorar la experiencia de usuario",
-      "summary": "OpenAI está implementando nuevas integraciones en ChatGPT que mejoran las capacidades de la plataforma.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "integraciones",
-        "OpenAI"
-      ],
-      "what_changed": "Se agregaron medidas de seguridad para los usuarios.",
-      "why_it_matters": "Aumenta la seguridad y confianza en el uso de ChatGPT para interacciones delicadas.",
-      "sector_impact": "Fomenta la adopción en entornos más sensibles como la educación y salud."
-    },
-    {
-      "title": "Google lanza 'The Small Brief' para pymes",
-      "summary": "Una iniciativa que reúne a íconos de la publicidad para ayudar a pequeños negocios a usar IA para anuncios.",
-      "category": "tool",
+      "title": "5 gardening tips you can try right in Search",
+      "summary": "We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
+      "category": "labs",
       "source_name": "Google AI",
-      "source_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "source_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+      "summary": "",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
       "relevance_score": 4,
       "status": "new",
-      "tags": [
-        "Google",
-        "publicidad",
-        "pymes"
-      ],
-      "what_changed": "Lanzamiento de un programa específico para ayudar a pequeñas empresas.",
-      "why_it_matters": "Facilita la incorporación de herramientas de IA en marketing para pymes.",
-      "sector_impact": "Potencial para transformar la publicidad de pequeños negocios."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Lanzamiento de 'Startup Battlefield 200' con oportunidades de financiación",
-      "summary": "Abiertas las aplicaciones para el programa que ofrece acceso a capital y visibilidad global.",
+      "title": "Bumble is getting rid of the swipe, CEO says",
+      "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
+      "summary": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
       "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
+      "source_url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
       "relevance_score": 4,
       "status": "new",
-      "tags": [
-        "emprendimiento",
-        "financiación",
-        "startups"
-      ],
-      "what_changed": "Se abre un nuevo ciclo de aplicaciones para startups.",
-      "why_it_matters": "Proporciona una plataforma de visibilidad y recursos financieros vitales para nuevas empresas.",
-      "sector_impact": "Incrementa el potencial de crecimiento de startups emergentes."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "summary": "",
+      "category": "sector",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/emo",
+      "relevance_score": 2,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "summary": "",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "relevance_score": 2,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "relevance_score": 2,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
