@@ -1,6 +1,145 @@
 {
   "days": [
     {
+      "date": "2026-05-12",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Nautilus Compass: Detección de Drift de Persona en Agentes LLM",
+          "summary": "Detecta el drift de persona en agentes de codificación en producción sin necesidad de API abiertas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.09863",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "drift detection",
+            "agent",
+            "LLM"
+          ],
+          "what_changed": "Introducción de un detector de drift que opera a nivel de texto de entrada.",
+          "why_it_matters": "Aumenta la fiabilidad y eficiencia de los agentes en tareas de codificación.",
+          "sector_impact": "Mejora la automatización en programas de desarrollo."
+        },
+        {
+          "title": "Scam2Prompt: Marco Escalable para Auditoría de Estafas en LLMs",
+          "summary": "Permite auditar la generación de contenido malicioso en LLMs mediante un marco automatizado.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.02372",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "auditing",
+            "security",
+            "LLM"
+          ],
+          "what_changed": "Desarrollo de un marco que permite identificar promesas en estafas.",
+          "why_it_matters": "Mitiga riesgos de seguridad en la generación de código.",
+          "sector_impact": "Mejora la integridad de las aplicaciones que utilizan LLMs."
+        },
+        {
+          "title": "Pi-Serini: Búsqueda Agente para Recuperación de Documentos",
+          "summary": "Integración de un agente de búsqueda que combina BM25 con modelos de lenguaje avanzados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.10848",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "search agent",
+            "document retrieval"
+          ],
+          "what_changed": "Un nuevo enfoque que mejora la eficacia de la búsqueda de información.",
+          "why_it_matters": "Optimiza el proceso de investigación mediante la recuperación eficiente.",
+          "sector_impact": "Aumenta la productividad en el sector de la investigación."
+        },
+        {
+          "title": "MathConstraint: Generación Automatizada de Problemas de Razonamiento Combinatorial",
+          "summary": "Benchmark para evaluar capacidades de razonamiento combinatorio de LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.08498",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "combinatorial reasoning"
+          ],
+          "what_changed": "Introducción de un generador adaptativo para pruebas de razonamiento.",
+          "why_it_matters": "Permite evaluar modelos de IA con mayor desafío y adaptabilidad.",
+          "sector_impact": "Aumenta la precisión en el desarrollo de LLMs."
+        },
+        {
+          "title": "RT-QA: Cuestionamiento en Tiempo Real mediante Workflows Ejecutables",
+          "summary": "Marco dinámico para la evaluación de capacidades de respuesta en tiempo real.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.16349",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "real-time",
+            "QA",
+            "automation"
+          ],
+          "what_changed": "Se introduce un enfoque automatizado para la extracción de respuestas actualizadas.",
+          "why_it_matters": "Mejora la adaptabilidad de los agentes a la información en evolución.",
+          "sector_impact": "Optimiza el rendimiento en aplicaciones críticas de respuesta inmediata."
+        },
+        {
+          "title": "GUARD: Prueba de Cumplimiento de Guías para LLMs",
+          "summary": "Sistema que opera pruebas basadas en guías éticas para asegurar la adhesión de LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2508.20325",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ethics",
+            "LLM",
+            "compliance"
+          ],
+          "what_changed": "Se implementa un método de prueba que traduce guías en preguntas de evaluación.",
+          "why_it_matters": "Facilita la conformidad de los modelos de IA con regulaciones éticas.",
+          "sector_impact": "Asegura una implementación responsable de IA."
+        },
+        {
+          "title": "CrackMeBench: Evaluación de Ingeniería Inversa para Agentes",
+          "summary": "Benchmark para evaluar la capacidad de agentes de IA en tareas de ingeniería inversa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.10597",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "reverse engineering"
+          ],
+          "what_changed": "Introducción de tareas específicas para evaluar la ingeniería inversa.",
+          "why_it_matters": "Proporciona una base para medir el progreso en el análisis autónomo de binarios.",
+          "sector_impact": "Impulsa la seguridad en aplicaciones de software."
+        },
+        {
+          "title": "Continual Harness: Adaptación Online para Agentes de IA",
+          "summary": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.09998",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "self-improvement",
+            "agent",
+            "automation"
+          ],
+          "what_changed": "Desarrollo de un arnés que automatiza el proceso de auto-mejora del agente.",
+          "why_it_matters": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
+          "sector_impact": "Transforma la interacción entre agentes en entornos dinámicos."
+        }
+      ]
+    },
+    {
       "date": "2026-05-10",
       "executive_title": "Radar IA del día",
       "items": [
@@ -683,11 +822,6 @@
           "sector_impact": "Mejora en la asistencia legal y financiera automatizada."
         }
       ]
-    },
-    {
-      "date": "2026-05-04",
-      "executive_title": "Radar Diario de IA",
-      "items": []
     }
   ]
 }

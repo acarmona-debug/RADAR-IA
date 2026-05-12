@@ -1,112 +1,141 @@
 {
-  "date": "2026-05-10",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-05-12",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Este radar presenta las últimas innovaciones y herramientas en el campo de la Inteligencia Artificial, haciendo hincapié en las tecnologías y modelos relevantes para desarrolladores.",
+  "opening_message": "Mantente al tanto de los desarrollos más recientes que pueden impactar en tus proyectos de IA.",
   "items": [
     {
-      "title": "The “people’s airline” and the enterprise AI gold rush",
-      "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI deployment to SAP dropping $1B on German AI startup Prior Labs, it’s becoming clear that if you’re a startup building enterprise tools, you’re likely an acquisition target. On this episode of TechCrunch’s Equity podcast, hosts Kirsten Korosec, Anthony […]",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "relevance_score": 13,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "5 gardening tips you can try right in Search",
-      "summary": "We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
-      "summary": "",
-      "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Bumble is getting rid of the swipe, CEO says",
-      "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+      "title": "Nautilus Compass: Detección de Drift de Persona en Agentes LLM",
+      "summary": "Detecta el drift de persona en agentes de codificación en producción sin necesidad de API abiertas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
-      "relevance_score": 4,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.09863",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "drift detection",
+        "agent",
+        "LLM"
+      ],
+      "what_changed": "Introducción de un detector de drift que opera a nivel de texto de entrada.",
+      "why_it_matters": "Aumenta la fiabilidad y eficiencia de los agentes en tareas de codificación.",
+      "sector_impact": "Mejora la automatización en programas de desarrollo."
     },
     {
-      "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
-      "summary": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-      "relevance_score": 4,
+      "title": "Scam2Prompt: Marco Escalable para Auditoría de Estafas en LLMs",
+      "summary": "Permite auditar la generación de contenido malicioso en LLMs mediante un marco automatizado.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2509.02372",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "auditing",
+        "security",
+        "LLM"
+      ],
+      "what_changed": "Desarrollo de un marco que permite identificar promesas en estafas.",
+      "why_it_matters": "Mitiga riesgos de seguridad en la generación de código.",
+      "sector_impact": "Mejora la integridad de las aplicaciones que utilizan LLMs."
     },
     {
-      "title": "EMO: Pretraining mixture of experts for emergent modularity",
-      "summary": "",
-      "category": "sector",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/allenai/emo",
-      "relevance_score": 2,
+      "title": "Pi-Serini: Búsqueda Agente para Recuperación de Documentos",
+      "summary": "Integración de un agente de búsqueda que combina BM25 con modelos de lenguaje avanzados.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.10848",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "search agent",
+        "document retrieval"
+      ],
+      "what_changed": "Un nuevo enfoque que mejora la eficacia de la búsqueda de información.",
+      "why_it_matters": "Optimiza el proceso de investigación mediante la recuperación eficiente.",
+      "sector_impact": "Aumenta la productividad en el sector de la investigación."
     },
     {
-      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
-      "summary": "",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-      "relevance_score": 2,
+      "title": "MathConstraint: Generación Automatizada de Problemas de Razonamiento Combinatorial",
+      "summary": "Benchmark para evaluar capacidades de razonamiento combinatorio de LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.08498",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmark",
+        "combinatorial reasoning"
+      ],
+      "what_changed": "Introducción de un generador adaptativo para pruebas de razonamiento.",
+      "why_it_matters": "Permite evaluar modelos de IA con mayor desafío y adaptabilidad.",
+      "sector_impact": "Aumenta la precisión en el desarrollo de LLMs."
     },
     {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "relevance_score": 2,
+      "title": "RT-QA: Cuestionamiento en Tiempo Real mediante Workflows Ejecutables",
+      "summary": "Marco dinámico para la evaluación de capacidades de respuesta en tiempo real.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.16349",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "real-time",
+        "QA",
+        "automation"
+      ],
+      "what_changed": "Se introduce un enfoque automatizado para la extracción de respuestas actualizadas.",
+      "why_it_matters": "Mejora la adaptabilidad de los agentes a la información en evolución.",
+      "sector_impact": "Optimiza el rendimiento en aplicaciones críticas de respuesta inmediata."
+    },
+    {
+      "title": "GUARD: Prueba de Cumplimiento de Guías para LLMs",
+      "summary": "Sistema que opera pruebas basadas en guías éticas para asegurar la adhesión de LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2508.20325",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ethics",
+        "LLM",
+        "compliance"
+      ],
+      "what_changed": "Se implementa un método de prueba que traduce guías en preguntas de evaluación.",
+      "why_it_matters": "Facilita la conformidad de los modelos de IA con regulaciones éticas.",
+      "sector_impact": "Asegura una implementación responsable de IA."
+    },
+    {
+      "title": "CrackMeBench: Evaluación de Ingeniería Inversa para Agentes",
+      "summary": "Benchmark para evaluar la capacidad de agentes de IA en tareas de ingeniería inversa.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.10597",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "reverse engineering"
+      ],
+      "what_changed": "Introducción de tareas específicas para evaluar la ingeniería inversa.",
+      "why_it_matters": "Proporciona una base para medir el progreso en el análisis autónomo de binarios.",
+      "sector_impact": "Impulsa la seguridad en aplicaciones de software."
+    },
+    {
+      "title": "Continual Harness: Adaptación Online para Agentes de IA",
+      "summary": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.09998",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "self-improvement",
+        "agent",
+        "automation"
+      ],
+      "what_changed": "Desarrollo de un arnés que automatiza el proceso de auto-mejora del agente.",
+      "why_it_matters": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
+      "sector_impact": "Transforma la interacción entre agentes en entornos dinámicos."
     }
   ]
 }
