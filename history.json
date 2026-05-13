@@ -1,6 +1,108 @@
 {
   "days": [
     {
+      "date": "2026-05-13",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Modelado de Agentes en Redes Multitarea",
+          "summary": "Un análisis sobre la seguridad en redes de agentes y su herencia de memoria, revelando vulnerabilidades y proponiendo defensas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.08460",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multi-agente",
+            "seguridad"
+          ],
+          "what_changed": "Introducción de un modelo de redes de agentes que evidencia riesgos inherentes.",
+          "why_it_matters": "La herencia de memoria puede permitir que los compromisos se propaguen entre agentes, creando nuevos vectores de ataque.",
+          "sector_impact": "Desarrollo de protocolos de seguridad en sistemas de agentes."
+        },
+        {
+          "title": "Swarm-Attack: Marco de Pruebas Adversariales",
+          "summary": "Desarrollo de un framework open-source que permite pruebas de seguridad en modelos de lenguaje a través de agentes LLM coordinados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.09504",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "adversariales"
+          ],
+          "what_changed": "Demuestra la viabilidad de atacantes adversariales coordinados en sistemas productivos.",
+          "why_it_matters": "Las vulnerabilidades descubiertas pueden guiar el diseño de modelos más seguros.",
+          "sector_impact": "Mejora en la resistencia de modelos de IA frente a ataques."
+        },
+        {
+          "title": "MicroWorld: Integración de Gráficos Atribuibles Multimodales",
+          "summary": "Nuevo marco que utiliza gráficos de propiedades atribuidas para mejorar el razonamiento de modelos de lenguaje multimodal en biomedicina.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.10120",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "biomedicina"
+          ],
+          "what_changed": "Introduce un pipeline de recuperación que inyecta conocimiento estructurado en modelos de razonamiento.",
+          "why_it_matters": "Mejora el rendimiento del modelo en tareas científicas específicas, logrando nuevos estándares.",
+          "sector_impact": "Impulsa el potencial de los LLM en dominios especializados."
+        },
+        {
+          "title": "Metal-Sci: Benchmark de Cálculo Científico",
+          "summary": "Benchmark diseñado para evaluar modelos LLM en la búsqueda de kernels evolutivos en Apple Silicon.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.09708",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "computación científica"
+          ],
+          "what_changed": "Introducción de un sistema de búsqueda ergonómico para la evolución de kernels.",
+          "why_it_matters": "Facilita el desarrollo y validación de modelos optimizados en entornos específicos.",
+          "sector_impact": "Mejora en la eficiencia del desarrollo de software científico."
+        },
+        {
+          "title": "ComplexMCP: Evaluación de Agentes en Herramientas Dinámicas",
+          "summary": "Un benchmark que evalúa el rendimiento de los agentes LLM en escenarios interdependientes y dinámicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.10787",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un entorno para evaluar la efectividad de los agentes en circunstancias del mundo real.",
+          "why_it_matters": "Ofrece una visión crítica sobre las limitaciones actuales de los agentes en flujos de trabajo interdependientes.",
+          "sector_impact": "Dirección hacia la mejora de la autonomía y efectividad de agentes LLM."
+        },
+        {
+          "title": "AgentForesight: Auditoría en Línea para Predicción de Fallos",
+          "summary": "Un nuevo enfoque para la auditoría de sistemas multi-agente, permitiendo la intervención en tiempo real al identificar errores decisivos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.08715",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "auditoría",
+            "predicción"
+          ],
+          "what_changed": "Implementación de un auditor que actúa en tiempo real durante la ejecución de sistemas de agentes.",
+          "why_it_matters": "Permite corregir errores mientras se lleva a cabo la tarea, mejorando la estabilidad de los sistemas.",
+          "sector_impact": "Aumenta la fiabilidad de los sistemas basados en IA en aplicaciones críticas."
+        }
+      ]
+    },
+    {
       "date": "2026-05-12",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -733,93 +835,6 @@
           "what_changed": "Desarrollo de un sistema que genera dinámicamente estrategias de manejo de errores.",
           "why_it_matters": "Permite a los sistemas de software adaptarse y recuperarse sin intervención humana.",
           "sector_impact": "Aumenta la resiliencia de las aplicaciones en producción."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-05",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "TADI: Tool-Augmented Drilling Intelligence",
-          "summary": "Un sistema de IA que transforma datos operativos de perforación en inteligencia analítica basada en evidencia, utilizando integración de múltiples fuentes de datos. Este sistema demuestra un rendimiento superior en la recopilación de evidencia técnica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.00060",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "drilling",
-            "analytics",
-            "AI"
-          ],
-          "what_changed": "Mejora en la eficiencia de recopilación de datos a través de herramientas especializadas.",
-          "why_it_matters": "Ayuda a optimizar operaciones en la industria de perforación mediante análisis basado en datos.",
-          "sector_impact": "Menor tiempo y costo en la toma de decisiones operativas."
-        },
-        {
-          "title": "ML-Agent: Reinforcing LLM Agents for ML Engineering",
-          "summary": "Un marco de entrenamiento para agentes de machine learning que utiliza aprendizaje por refuerzo para mejorar la eficiencia en tareas de ML, con un costo computacional menor.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.23723",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "reinforcement learning",
-            "machine learning"
-          ],
-          "what_changed": "Introducción de un enfoque de entrenamiento enriquecido que mejora la exploración de acciones.",
-          "why_it_matters": "Puede facilitar el acceso a capacidades avanzadas de ML sin necesidades computacionales excesivas.",
-          "sector_impact": "Transformación en el desarrollo de ingeniería de machine learning."
-        },
-        {
-          "title": "InfantAgent-Next: Un Agente Multimodal Generalista",
-          "summary": "Agente capaz de interactuar con computadoras en múltiples modos (texto, imágenes, audio), resolviendo tareas de manera colaborativa y modular.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.10887",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "AI"
-          ],
-          "what_changed": "Integración de diferentes tipos de modelos para la interacción de tareas.",
-          "why_it_matters": "Facilita la resolución eficiente de tareas complejas mediante colaboración entre modelos.",
-          "sector_impact": "Aumento en la eficacia de aplicaciones de IA en entornos colaborativos."
-        },
-        {
-          "title": "SiriusHelper: Asistente Operativo basado en LLM para Grandes Datos",
-          "summary": "Un asistente inteligente que mejora la experiencia de los usuarios en plataformas de grandes datos, optimizando la recuperación de información y la gestión de tickets.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.00043",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "big data",
-            "AI"
-          ],
-          "what_changed": "Mejoras en la cobertura de escenarios y en la infraestructura de conocimientos.",
-          "why_it_matters": "Reduce la carga operativa y mejora la eficiencia en la asistencia en plataformas de grandes datos.",
-          "sector_impact": "Optimización en el manejo de datos y soporte al usuario."
-        },
-        {
-          "title": "Retrieval-Augmented Reasoning for Chartered Accountancy",
-          "summary": "Un marco de generación aumentada por recuperación diseñado para mejorar la precisión en tareas de contabilidad compleja y específica de jurisdicción.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.00257",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "finance",
-            "RAG"
-          ],
-          "what_changed": "Incorporación de contextos específicos para mejorar el razonamiento.",
-          "why_it_matters": "Aumenta la fiabilidad de las II en tareas contables, crucial en el sector financiero.",
-          "sector_impact": "Mejora en la asistencia legal y financiera automatizada."
         }
       ]
     }

@@ -1,141 +1,104 @@
 {
-  "date": "2026-05-12",
+  "date": "2026-05-13",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar presenta las últimas innovaciones y herramientas en el campo de la Inteligencia Artificial, haciendo hincapié en las tecnologías y modelos relevantes para desarrolladores.",
-  "opening_message": "Mantente al tanto de los desarrollos más recientes que pueden impactar en tus proyectos de IA.",
+  "intro_message": "Actualizaciones clave en herramientas y modelos de IA.",
+  "opening_message": "He aquí las novedades más relevantes en el ámbito de la inteligencia artificial, centradas en herramientas, modelos y características que impactan en el desarrollo y automatización.",
   "items": [
     {
-      "title": "Nautilus Compass: Detección de Drift de Persona en Agentes LLM",
-      "summary": "Detecta el drift de persona en agentes de codificación en producción sin necesidad de API abiertas.",
-      "category": "tool",
+      "title": "Modelado de Agentes en Redes Multitarea",
+      "summary": "Un análisis sobre la seguridad en redes de agentes y su herencia de memoria, revelando vulnerabilidades y proponiendo defensas.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.09863",
+      "source_url": "https://arxiv.org/abs/2605.08460",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "drift detection",
-        "agent",
-        "LLM"
+        "multi-agente",
+        "seguridad"
       ],
-      "what_changed": "Introducción de un detector de drift que opera a nivel de texto de entrada.",
-      "why_it_matters": "Aumenta la fiabilidad y eficiencia de los agentes en tareas de codificación.",
-      "sector_impact": "Mejora la automatización en programas de desarrollo."
+      "what_changed": "Introducción de un modelo de redes de agentes que evidencia riesgos inherentes.",
+      "why_it_matters": "La herencia de memoria puede permitir que los compromisos se propaguen entre agentes, creando nuevos vectores de ataque.",
+      "sector_impact": "Desarrollo de protocolos de seguridad en sistemas de agentes."
     },
     {
-      "title": "Scam2Prompt: Marco Escalable para Auditoría de Estafas en LLMs",
-      "summary": "Permite auditar la generación de contenido malicioso en LLMs mediante un marco automatizado.",
+      "title": "Swarm-Attack: Marco de Pruebas Adversariales",
+      "summary": "Desarrollo de un framework open-source que permite pruebas de seguridad en modelos de lenguaje a través de agentes LLM coordinados.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.09504",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "adversariales"
+      ],
+      "what_changed": "Demuestra la viabilidad de atacantes adversariales coordinados en sistemas productivos.",
+      "why_it_matters": "Las vulnerabilidades descubiertas pueden guiar el diseño de modelos más seguros.",
+      "sector_impact": "Mejora en la resistencia de modelos de IA frente a ataques."
+    },
+    {
+      "title": "MicroWorld: Integración de Gráficos Atribuibles Multimodales",
+      "summary": "Nuevo marco que utiliza gráficos de propiedades atribuidas para mejorar el razonamiento de modelos de lenguaje multimodal en biomedicina.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2509.02372",
+      "source_url": "https://arxiv.org/abs/2605.10120",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "auditing",
-        "security",
-        "LLM"
+        "multimodal",
+        "biomedicina"
       ],
-      "what_changed": "Desarrollo de un marco que permite identificar promesas en estafas.",
-      "why_it_matters": "Mitiga riesgos de seguridad en la generación de código.",
-      "sector_impact": "Mejora la integridad de las aplicaciones que utilizan LLMs."
+      "what_changed": "Introduce un pipeline de recuperación que inyecta conocimiento estructurado en modelos de razonamiento.",
+      "why_it_matters": "Mejora el rendimiento del modelo en tareas científicas específicas, logrando nuevos estándares.",
+      "sector_impact": "Impulsa el potencial de los LLM en dominios especializados."
     },
     {
-      "title": "Pi-Serini: Búsqueda Agente para Recuperación de Documentos",
-      "summary": "Integración de un agente de búsqueda que combina BM25 con modelos de lenguaje avanzados.",
+      "title": "Metal-Sci: Benchmark de Cálculo Científico",
+      "summary": "Benchmark diseñado para evaluar modelos LLM en la búsqueda de kernels evolutivos en Apple Silicon.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.10848",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "search agent",
-        "document retrieval"
-      ],
-      "what_changed": "Un nuevo enfoque que mejora la eficacia de la búsqueda de información.",
-      "why_it_matters": "Optimiza el proceso de investigación mediante la recuperación eficiente.",
-      "sector_impact": "Aumenta la productividad en el sector de la investigación."
-    },
-    {
-      "title": "MathConstraint: Generación Automatizada de Problemas de Razonamiento Combinatorial",
-      "summary": "Benchmark para evaluar capacidades de razonamiento combinatorio de LLMs.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.08498",
+      "source_url": "https://arxiv.org/abs/2605.09708",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "benchmark",
-        "combinatorial reasoning"
+        "computación científica"
       ],
-      "what_changed": "Introducción de un generador adaptativo para pruebas de razonamiento.",
-      "why_it_matters": "Permite evaluar modelos de IA con mayor desafío y adaptabilidad.",
-      "sector_impact": "Aumenta la precisión en el desarrollo de LLMs."
+      "what_changed": "Introducción de un sistema de búsqueda ergonómico para la evolución de kernels.",
+      "why_it_matters": "Facilita el desarrollo y validación de modelos optimizados en entornos específicos.",
+      "sector_impact": "Mejora en la eficiencia del desarrollo de software científico."
     },
     {
-      "title": "RT-QA: Cuestionamiento en Tiempo Real mediante Workflows Ejecutables",
-      "summary": "Marco dinámico para la evaluación de capacidades de respuesta en tiempo real.",
-      "category": "framework",
+      "title": "ComplexMCP: Evaluación de Agentes en Herramientas Dinámicas",
+      "summary": "Un benchmark que evalúa el rendimiento de los agentes LLM en escenarios interdependientes y dinámicos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.16349",
+      "source_url": "https://arxiv.org/abs/2605.10787",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "real-time",
-        "QA",
-        "automation"
+        "evaluación",
+        "agentes"
       ],
-      "what_changed": "Se introduce un enfoque automatizado para la extracción de respuestas actualizadas.",
-      "why_it_matters": "Mejora la adaptabilidad de los agentes a la información en evolución.",
-      "sector_impact": "Optimiza el rendimiento en aplicaciones críticas de respuesta inmediata."
+      "what_changed": "Desarrollo de un entorno para evaluar la efectividad de los agentes en circunstancias del mundo real.",
+      "why_it_matters": "Ofrece una visión crítica sobre las limitaciones actuales de los agentes en flujos de trabajo interdependientes.",
+      "sector_impact": "Dirección hacia la mejora de la autonomía y efectividad de agentes LLM."
     },
     {
-      "title": "GUARD: Prueba de Cumplimiento de Guías para LLMs",
-      "summary": "Sistema que opera pruebas basadas en guías éticas para asegurar la adhesión de LLMs.",
-      "category": "tool",
+      "title": "AgentForesight: Auditoría en Línea para Predicción de Fallos",
+      "summary": "Un nuevo enfoque para la auditoría de sistemas multi-agente, permitiendo la intervención en tiempo real al identificar errores decisivos.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2508.20325",
+      "source_url": "https://arxiv.org/abs/2605.08715",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ethics",
-        "LLM",
-        "compliance"
+        "auditoría",
+        "predicción"
       ],
-      "what_changed": "Se implementa un método de prueba que traduce guías en preguntas de evaluación.",
-      "why_it_matters": "Facilita la conformidad de los modelos de IA con regulaciones éticas.",
-      "sector_impact": "Asegura una implementación responsable de IA."
-    },
-    {
-      "title": "CrackMeBench: Evaluación de Ingeniería Inversa para Agentes",
-      "summary": "Benchmark para evaluar la capacidad de agentes de IA en tareas de ingeniería inversa.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.10597",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "reverse engineering"
-      ],
-      "what_changed": "Introducción de tareas específicas para evaluar la ingeniería inversa.",
-      "why_it_matters": "Proporciona una base para medir el progreso en el análisis autónomo de binarios.",
-      "sector_impact": "Impulsa la seguridad en aplicaciones de software."
-    },
-    {
-      "title": "Continual Harness: Adaptación Online para Agentes de IA",
-      "summary": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.09998",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "self-improvement",
-        "agent",
-        "automation"
-      ],
-      "what_changed": "Desarrollo de un arnés que automatiza el proceso de auto-mejora del agente.",
-      "why_it_matters": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
-      "sector_impact": "Transforma la interacción entre agentes en entornos dinámicos."
+      "what_changed": "Implementación de un auditor que actúa en tiempo real durante la ejecución de sistemas de agentes.",
+      "why_it_matters": "Permite corregir errores mientras se lleva a cabo la tarea, mejorando la estabilidad de los sistemas.",
+      "sector_impact": "Aumenta la fiabilidad de los sistemas basados en IA en aplicaciones críticas."
     }
   ]
 }
