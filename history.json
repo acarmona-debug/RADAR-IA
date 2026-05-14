@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-05-14",
+      "executive_title": "Radar Diario de IA - Novedades y Herramientas",
+      "items": [
+        {
+          "title": "Agentick: A Unified Benchmark for General Sequential Decision-Making Agents",
+          "summary": "Un benchmark para evaluar agentes de toma de decisiones secuenciales, diseñado para una comparación justa entre diferentes paradigmas de agentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.06869",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "agentes",
+            "IA"
+          ],
+          "what_changed": "Introducción de una interfaz compatible con Gymnasium para evaluar agentes de decisiones.",
+          "why_it_matters": "Permite la comparación justa entre diferentes tipos de agentes, impulsando su desarrollo.",
+          "sector_impact": "Mejora la investigación en agentes autónomos."
+        },
+        {
+          "title": "Grid-Orch: An LLM-Powered Orchestrator for Distribution Grid Simulation and Analytics",
+          "summary": "Un marco que integra LLMs y simulación de sistemas de energía, permitiendo a los ingenieros realizar análisis complejos a través del lenguaje natural.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.12728",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "simulación",
+            "energía",
+            "LLM"
+          ],
+          "what_changed": "Introducción de herramientas específicas para análisis de red eléctrica.",
+          "why_it_matters": "Reduce el tiempo necesario para análisis complejos de horas a minutos.",
+          "sector_impact": "Transforma el análisis en ingeniería eléctrica, facilitando el trabajo."
+        },
+        {
+          "title": "AI-Generated Slides: Are They Good? Can Students Tell?",
+          "summary": "Estudio sobre la efectividad de las diapositivas generadas por IA comparadas con las humanas, resaltando su calidad educativa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.13532",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "educación",
+            "IA",
+            "diapositivas"
+          ],
+          "what_changed": "Evaluación de herramientas de generación de contenido educativo.",
+          "why_it_matters": "Aumenta la integración de IA en los flujos de diseño educativo.",
+          "sector_impact": "Impulsa la productividad educativa y la calidad de materiales de aprendizaje."
+        },
+        {
+          "title": "CoT-Guard: Small Models for Strong Monitoring",
+          "summary": "Propuesta de un modelo de 4B parámetros para monitorizar modelos de CoT, mejorando la detección de objetivos ocultos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.12746",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "monitorización",
+            "modelos pequeños",
+            "seguridad"
+          ],
+          "what_changed": "Desarrollo de un monitor más accesible y eficiente.",
+          "why_it_matters": "Mejora la detección de misbehaviours en tareas de generación de código.",
+          "sector_impact": "Fortalece la confianza en modelos empleados en entornos críticos."
+        },
+        {
+          "title": "Continual Learning with Multilingual Foundation Model",
+          "summary": "Un marco para la detección de slurs en discursos multilingües en redes sociales, utilizando un modelo de lenguaje multilingüe.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.13415",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "multilingüe",
+            "detención",
+            "IA"
+          ],
+          "what_changed": "Metodología para mejorar el reconocimiento de lenguaje controvertido.",
+          "why_it_matters": "Aporta a la creación de entornos más seguros en las redes sociales.",
+          "sector_impact": "Impacta la forma en que se gestionan los discursos en línea."
+        },
+        {
+          "title": "OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research",
+          "summary": "Un marco distribuido que permite la colaboración multiagente para el diseño inteligente de materiales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.13618",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agente",
+            "materiales",
+            "colaboración"
+          ],
+          "what_changed": "Introducción de un sistema que prioriza la soberanía de los datos.",
+          "why_it_matters": "Resuelve problemas de acceso y privacidad en la investigación material.",
+          "sector_impact": "Cataliza avances en el diseño de materiales avanzados."
+        },
+        {
+          "title": "AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization",
+          "summary": "Framework que gestiona la optimización de sistemas de recomendación mediante agentes especializados.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.26969",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "recomendación",
+            "optimización",
+            "IA"
+          ],
+          "what_changed": "Implementación de un enfoque colaborativo en optimización.",
+          "why_it_matters": "Ofrece un método dinámico para mejorar sistemas de recomendación complejos.",
+          "sector_impact": "Transforma la eficiencia de recomendación en plataformas diversas."
+        }
+      ]
+    },
+    {
       "date": "2026-05-13",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -710,131 +835,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "executive_title": "Radar Diario de Innovaciones en IA",
-      "items": [
-        {
-          "title": "DiagramNet: Un Marco de Reconocimiento para Diagramas No Estándar",
-          "summary": "Presenta un nuevo conjunto de datos multimodal y un marco para la capacitación de modelos que supera a las soluciones existentes en reconocimiento de diagramas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.01338",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "diagramas",
-            "reconocimiento",
-            "multimodal"
-          ],
-          "what_changed": "Introducción de DiagramNet y un flujo de trabajo progresivo que mejora el rendimiento de los modelos existentes.",
-          "why_it_matters": "Impulsa la capacidad de los modelos de lenguaje para interactuar con representaciones gráficas complejas.",
-          "sector_impact": "Mejora el diseño de sistemas y herramientas en ingeniería."
-        },
-        {
-          "title": "GOAT: Un Marco de Entrenamiento para Agentes Orientados a Objetivos",
-          "summary": "Propone un nuevo enfoque de entrenamiento para agentes de IA que permite la ejecución de datos de ejecución de API sin anotación humana.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.12218",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "entrenamiento",
-            "API"
-          ],
-          "what_changed": "Desarrollo de un marco que facilita la creación de agentes LLM sin necesidad de grandes conjuntos de entrenamiento.",
-          "why_it_matters": "Permite la creación de agentes robustos que utilizan herramientas complejas de manera efectiva.",
-          "sector_impact": "Transforma el uso de agentes en diversas aplicaciones industriales."
-        },
-        {
-          "title": "Evolución del Arnés Automatizado para Agentes IA",
-          "summary": "Presenta un marco de dos niveles que automatiza el diseño y optimización de estrategias para agentes de IA en entornos complejos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.21003",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "agentes",
-            "diseño"
-          ],
-          "what_changed": "Automatización del proceso de ingeniería para adaptar agentes a nuevas tareas.",
-          "why_it_matters": "Reduce la necesidad de intervención humana en la adaptación de agentes a nuevas tareas.",
-          "sector_impact": "Aumenta la eficiencia y rapidez en la implementación de soluciones de IA."
-        },
-        {
-          "title": "Medmarks: Suite de Evaluación LLM para Tareas Médicas",
-          "summary": "Presenta un conjunto de evaluación de código abierto con 30 benchmarks para tareas médicas, mejorando la accesibilidad y cobertura.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.01417",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "medicina",
-            "evaluación",
-            "benchmarking"
-          ],
-          "what_changed": "Creación de un suite de evaluación exhaustiva para modelos de lenguaje en el ámbito médico.",
-          "why_it_matters": "Facilita la validación de modelos de IA en aplicaciones críticas de salud.",
-          "sector_impact": "Promueve el avance tecnológico en la atención médica."
-        },
-        {
-          "title": "ContextCov: Marco de Ejecución de Restricciones de Agentes",
-          "summary": "Desarrolla un sistema que convierte instrucciones pasivas en revisores automáticos para agentes de software.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.00822",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "control",
-            "automatización"
-          ],
-          "what_changed": "Implementación de guardrails ejecutables para robots de codificación autónomos.",
-          "why_it_matters": "Minimiza la acumulación de deuda técnica en proyectos complejos.",
-          "sector_impact": "Aumenta la fiabilidad de los sistemas automatizados en entornos de desarrollo."
-        },
-        {
-          "title": "DocSync: Mantenimiento de Documentación Agente",
-          "summary": "Propuesta de un flujo de trabajo que integra generación y validación del mantenimiento de documentación basada en código.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.02163",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "documentación",
-            "mantenimiento",
-            "IA"
-          ],
-          "what_changed": "Integración de bucles de auto-corrección en la actualización de documentación.",
-          "why_it_matters": "Aumenta la precisión de la documentación contra las lógicas de código subyacentes.",
-          "sector_impact": "Facilita la sostenibilidad en proyectos de software a largo plazo."
-        },
-        {
-          "title": "Hacia la Sanación Runtime Agente",
-          "summary": "Propuesta de un marco que permite a las aplicaciones de software recuperarse automáticamente de los errores en tiempo de ejecución.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2408.01055",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "recuperación",
-            "runtime",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un sistema que genera dinámicamente estrategias de manejo de errores.",
-          "why_it_matters": "Permite a los sistemas de software adaptarse y recuperarse sin intervención humana.",
-          "sector_impact": "Aumenta la resiliencia de las aplicaciones en producción."
         }
       ]
     }

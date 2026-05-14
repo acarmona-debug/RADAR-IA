@@ -1,104 +1,127 @@
 {
-  "date": "2026-05-13",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave en herramientas y modelos de IA.",
-  "opening_message": "He aquí las novedades más relevantes en el ámbito de la inteligencia artificial, centradas en herramientas, modelos y características que impactan en el desarrollo y automatización.",
+  "date": "2026-05-14",
+  "executive_title": "Radar Diario de IA - Novedades y Herramientas",
+  "intro_message": "Aquí están las últimas innovaciones en herramientas y modelos de IA, enfocándonos en nuevas características y marcos de trabajo relevantes para desarrolladores.",
+  "opening_message": "A continuación, se presentan las novedades más importantes en el ámbito de la inteligencia artificial que pueden impactar la eficacia operativa y el desarrollo de nuevas soluciones.",
   "items": [
     {
-      "title": "Modelado de Agentes en Redes Multitarea",
-      "summary": "Un análisis sobre la seguridad en redes de agentes y su herencia de memoria, revelando vulnerabilidades y proponiendo defensas.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.08460",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "multi-agente",
-        "seguridad"
-      ],
-      "what_changed": "Introducción de un modelo de redes de agentes que evidencia riesgos inherentes.",
-      "why_it_matters": "La herencia de memoria puede permitir que los compromisos se propaguen entre agentes, creando nuevos vectores de ataque.",
-      "sector_impact": "Desarrollo de protocolos de seguridad en sistemas de agentes."
-    },
-    {
-      "title": "Swarm-Attack: Marco de Pruebas Adversariales",
-      "summary": "Desarrollo de un framework open-source que permite pruebas de seguridad en modelos de lenguaje a través de agentes LLM coordinados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.09504",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "adversariales"
-      ],
-      "what_changed": "Demuestra la viabilidad de atacantes adversariales coordinados en sistemas productivos.",
-      "why_it_matters": "Las vulnerabilidades descubiertas pueden guiar el diseño de modelos más seguros.",
-      "sector_impact": "Mejora en la resistencia de modelos de IA frente a ataques."
-    },
-    {
-      "title": "MicroWorld: Integración de Gráficos Atribuibles Multimodales",
-      "summary": "Nuevo marco que utiliza gráficos de propiedades atribuidas para mejorar el razonamiento de modelos de lenguaje multimodal en biomedicina.",
+      "title": "Agentick: A Unified Benchmark for General Sequential Decision-Making Agents",
+      "summary": "Un benchmark para evaluar agentes de toma de decisiones secuenciales, diseñado para una comparación justa entre diferentes paradigmas de agentes.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.10120",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "multimodal",
-        "biomedicina"
-      ],
-      "what_changed": "Introduce un pipeline de recuperación que inyecta conocimiento estructurado en modelos de razonamiento.",
-      "why_it_matters": "Mejora el rendimiento del modelo en tareas científicas específicas, logrando nuevos estándares.",
-      "sector_impact": "Impulsa el potencial de los LLM en dominios especializados."
-    },
-    {
-      "title": "Metal-Sci: Benchmark de Cálculo Científico",
-      "summary": "Benchmark diseñado para evaluar modelos LLM en la búsqueda de kernels evolutivos en Apple Silicon.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.09708",
+      "source_url": "https://arxiv.org/abs/2605.06869",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "benchmark",
-        "computación científica"
+        "agentes",
+        "IA"
       ],
-      "what_changed": "Introducción de un sistema de búsqueda ergonómico para la evolución de kernels.",
-      "why_it_matters": "Facilita el desarrollo y validación de modelos optimizados en entornos específicos.",
-      "sector_impact": "Mejora en la eficiencia del desarrollo de software científico."
+      "what_changed": "Introducción de una interfaz compatible con Gymnasium para evaluar agentes de decisiones.",
+      "why_it_matters": "Permite la comparación justa entre diferentes tipos de agentes, impulsando su desarrollo.",
+      "sector_impact": "Mejora la investigación en agentes autónomos."
     },
     {
-      "title": "ComplexMCP: Evaluación de Agentes en Herramientas Dinámicas",
-      "summary": "Un benchmark que evalúa el rendimiento de los agentes LLM en escenarios interdependientes y dinámicos.",
+      "title": "Grid-Orch: An LLM-Powered Orchestrator for Distribution Grid Simulation and Analytics",
+      "summary": "Un marco que integra LLMs y simulación de sistemas de energía, permitiendo a los ingenieros realizar análisis complejos a través del lenguaje natural.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.12728",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "simulación",
+        "energía",
+        "LLM"
+      ],
+      "what_changed": "Introducción de herramientas específicas para análisis de red eléctrica.",
+      "why_it_matters": "Reduce el tiempo necesario para análisis complejos de horas a minutos.",
+      "sector_impact": "Transforma el análisis en ingeniería eléctrica, facilitando el trabajo."
+    },
+    {
+      "title": "AI-Generated Slides: Are They Good? Can Students Tell?",
+      "summary": "Estudio sobre la efectividad de las diapositivas generadas por IA comparadas con las humanas, resaltando su calidad educativa.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.10787",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.13532",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "evaluación",
-        "agentes"
+        "educación",
+        "IA",
+        "diapositivas"
       ],
-      "what_changed": "Desarrollo de un entorno para evaluar la efectividad de los agentes en circunstancias del mundo real.",
-      "why_it_matters": "Ofrece una visión crítica sobre las limitaciones actuales de los agentes en flujos de trabajo interdependientes.",
-      "sector_impact": "Dirección hacia la mejora de la autonomía y efectividad de agentes LLM."
+      "what_changed": "Evaluación de herramientas de generación de contenido educativo.",
+      "why_it_matters": "Aumenta la integración de IA en los flujos de diseño educativo.",
+      "sector_impact": "Impulsa la productividad educativa y la calidad de materiales de aprendizaje."
     },
     {
-      "title": "AgentForesight: Auditoría en Línea para Predicción de Fallos",
-      "summary": "Un nuevo enfoque para la auditoría de sistemas multi-agente, permitiendo la intervención en tiempo real al identificar errores decisivos.",
+      "title": "CoT-Guard: Small Models for Strong Monitoring",
+      "summary": "Propuesta de un modelo de 4B parámetros para monitorizar modelos de CoT, mejorando la detección de objetivos ocultos.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.08715",
+      "source_url": "https://arxiv.org/abs/2605.12746",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "auditoría",
-        "predicción"
+        "monitorización",
+        "modelos pequeños",
+        "seguridad"
       ],
-      "what_changed": "Implementación de un auditor que actúa en tiempo real durante la ejecución de sistemas de agentes.",
-      "why_it_matters": "Permite corregir errores mientras se lleva a cabo la tarea, mejorando la estabilidad de los sistemas.",
-      "sector_impact": "Aumenta la fiabilidad de los sistemas basados en IA en aplicaciones críticas."
+      "what_changed": "Desarrollo de un monitor más accesible y eficiente.",
+      "why_it_matters": "Mejora la detección de misbehaviours en tareas de generación de código.",
+      "sector_impact": "Fortalece la confianza en modelos empleados en entornos críticos."
+    },
+    {
+      "title": "Continual Learning with Multilingual Foundation Model",
+      "summary": "Un marco para la detección de slurs en discursos multilingües en redes sociales, utilizando un modelo de lenguaje multilingüe.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.13415",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "multilingüe",
+        "detención",
+        "IA"
+      ],
+      "what_changed": "Metodología para mejorar el reconocimiento de lenguaje controvertido.",
+      "why_it_matters": "Aporta a la creación de entornos más seguros en las redes sociales.",
+      "sector_impact": "Impacta la forma en que se gestionan los discursos en línea."
+    },
+    {
+      "title": "OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research",
+      "summary": "Un marco distribuido que permite la colaboración multiagente para el diseño inteligente de materiales.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.13618",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "agente",
+        "materiales",
+        "colaboración"
+      ],
+      "what_changed": "Introducción de un sistema que prioriza la soberanía de los datos.",
+      "why_it_matters": "Resuelve problemas de acceso y privacidad en la investigación material.",
+      "sector_impact": "Cataliza avances en el diseño de materiales avanzados."
+    },
+    {
+      "title": "AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization",
+      "summary": "Framework que gestiona la optimización de sistemas de recomendación mediante agentes especializados.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.26969",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "recomendación",
+        "optimización",
+        "IA"
+      ],
+      "what_changed": "Implementación de un enfoque colaborativo en optimización.",
+      "why_it_matters": "Ofrece un método dinámico para mejorar sistemas de recomendación complejos.",
+      "sector_impact": "Transforma la eficiencia de recomendación en plataformas diversas."
     }
   ]
 }
