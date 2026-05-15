@@ -1,127 +1,127 @@
 {
-  "date": "2026-05-14",
-  "executive_title": "Radar Diario de IA - Novedades y Herramientas",
-  "intro_message": "Aquí están las últimas innovaciones en herramientas y modelos de IA, enfocándonos en nuevas características y marcos de trabajo relevantes para desarrolladores.",
-  "opening_message": "A continuación, se presentan las novedades más importantes en el ámbito de la inteligencia artificial que pueden impactar la eficacia operativa y el desarrollo de nuevas soluciones.",
+  "date": "2026-05-15",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Este radar presenta las últimas innovaciones y desarrollos en el ámbito de herramientas, modelos y frameworks de inteligencia artificial.",
+  "opening_message": "Aquí se detallan los avances más relevantes que pueden impactar el sector de IA, excluyendo temas políticos y regulatorios.",
   "items": [
     {
-      "title": "Agentick: A Unified Benchmark for General Sequential Decision-Making Agents",
-      "summary": "Un benchmark para evaluar agentes de toma de decisiones secuenciales, diseñado para una comparación justa entre diferentes paradigmas de agentes.",
+      "title": "CUICurate: Framework para la Curation Automática de Conceptos Clínicos",
+      "summary": "Un marco GraphRAG que automatiza la curación de conjuntos de conceptos UMLS, superando las limitaciones de las herramientas existentes.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.06869",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "agentes",
-        "IA"
-      ],
-      "what_changed": "Introducción de una interfaz compatible con Gymnasium para evaluar agentes de decisiones.",
-      "why_it_matters": "Permite la comparación justa entre diferentes tipos de agentes, impulsando su desarrollo.",
-      "sector_impact": "Mejora la investigación en agentes autónomos."
-    },
-    {
-      "title": "Grid-Orch: An LLM-Powered Orchestrator for Distribution Grid Simulation and Analytics",
-      "summary": "Un marco que integra LLMs y simulación de sistemas de energía, permitiendo a los ingenieros realizar análisis complejos a través del lenguaje natural.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.12728",
+      "source_url": "https://arxiv.org/abs/2602.17949",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "simulación",
-        "energía",
-        "LLM"
+        "NLP",
+        "salud",
+        "clasificación"
       ],
-      "what_changed": "Introducción de herramientas específicas para análisis de red eléctrica.",
-      "why_it_matters": "Reduce el tiempo necesario para análisis complejos de horas a minutos.",
-      "sector_impact": "Transforma el análisis en ingeniería eléctrica, facilitando el trabajo."
+      "what_changed": "Introducción de un enfoque automatizado para la curación de conceptos clínicos.",
+      "why_it_matters": "Aumenta la eficiencia y precisión en la curación de datos clínicos, esencial para NLP en aplicaciones de salud.",
+      "sector_impact": "Impacto alto en el sector de salud y procesamiento de lenguaje natural."
     },
     {
-      "title": "AI-Generated Slides: Are They Good? Can Students Tell?",
-      "summary": "Estudio sobre la efectividad de las diapositivas generadas por IA comparadas con las humanas, resaltando su calidad educativa.",
+      "title": "VerbalValue: Virtual Host Inteligente para Comercio en Vivo",
+      "summary": "Un agente virtual que optimiza la conversión de ventas en comercio en vivo, mejorando la interacción y recomendación de productos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.13532",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2605.14542",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "educación",
-        "IA",
-        "diapositivas"
+        "comercio",
+        "ventas",
+        "AI"
       ],
-      "what_changed": "Evaluación de herramientas de generación de contenido educativo.",
-      "why_it_matters": "Aumenta la integración de IA en los flujos de diseño educativo.",
-      "sector_impact": "Impulsa la productividad educativa y la calidad de materiales de aprendizaje."
+      "what_changed": "Desarrollo de un anfitrión virtual que interactúa de manera más efectiva con los compradores.",
+      "why_it_matters": "Mejora la efectividad de las ventas en plataformas de comercio en vivo, aumentando el valor comercial.",
+      "sector_impact": "Fuerte impacto en e-commerce y marketing digital."
     },
     {
-      "title": "CoT-Guard: Small Models for Strong Monitoring",
-      "summary": "Propuesta de un modelo de 4B parámetros para monitorizar modelos de CoT, mejorando la detección de objetivos ocultos.",
-      "category": "model",
+      "title": "Orchard: Marco Abierto para Modelado Agente",
+      "summary": "Un marco escalable para la modelación de agentes que permite resolver tareas complejas mediante la interacción con entornos.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.12746",
+      "source_url": "https://arxiv.org/abs/2605.15040",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "monitorización",
-        "modelos pequeños",
-        "seguridad"
+        "modelado",
+        "agentes",
+        "open-source"
       ],
-      "what_changed": "Desarrollo de un monitor más accesible y eficiente.",
-      "why_it_matters": "Mejora la detección de misbehaviours en tareas de generación de código.",
-      "sector_impact": "Fortalece la confianza en modelos empleados en entornos críticos."
+      "what_changed": "Introducción de un ecosistema para la creación y evaluación de agentes.",
+      "why_it_matters": "Facilita el desarrollo y pruebas de agentes, acelerando la innovación en inteligencia artificial.",
+      "sector_impact": "Alto impacto en el desarrollo de agentes autónomos y herramientas de IA."
     },
     {
-      "title": "Continual Learning with Multilingual Foundation Model",
-      "summary": "Un marco para la detección de slurs en discursos multilingües en redes sociales, utilizando un modelo de lenguaje multilingüe.",
-      "category": "model",
+      "title": "Hunt Globally: Agentes de IA para Búsqueda de Activos Farmacéuticos",
+      "summary": "Propuesta de un agente de auto-aprendizaje para la identificación de activos farmacéuticos en múltiples fuentes de datos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.13415",
+      "source_url": "https://arxiv.org/abs/2602.15019",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "farmacéutica",
+        "investigación",
+        "IA"
+      ],
+      "what_changed": "Metodología benchmarking para la búsqueda de activos desde múltiples fuentes no convencionales.",
+      "why_it_matters": "Reduce los riesgos en la inversión mediante una mejor identificación de activos valiosos en el mercado global.",
+      "sector_impact": "Impacto significativo en la inversión farmacéutica y desarrollo de nuevos tratamientos."
+    },
+    {
+      "title": "Agentic Design de Descriptores Composicionales para Ciencias de Materiales",
+      "summary": "Un marco de autoresearch para el diseño de descriptores de propiedades materiales mediante agentes de IA.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.14671",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "materiales",
+        "IA",
+        "automación"
+      ],
+      "what_changed": "Implementación de un agente que genera descriptores para propiedades químicas de manera autónoma.",
+      "why_it_matters": "Permite avances en la predicción de propiedades materiales sin intervención manual.",
+      "sector_impact": "Fuerte implicación en la investigación material y desarrollo de nuevos compuestos."
+    },
+    {
+      "title": "Autofocus Retrieval: Pipeline para Respuestas a Preguntas Multi-Hop",
+      "summary": "Un marco modular que integra la recuperación estructurada y textual para preguntas complejas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2505.09246",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Q&A",
+        "IA",
+        "recuperación"
+      ],
+      "what_changed": "Mejora en la eficiencia de extracción de información mediante un enfoque modular.",
+      "why_it_matters": "Facilita respuestas más precisas y rápidas en tareas de preguntas y respuestas.",
+      "sector_impact": "Alto impacto en sistemas de información y atención al cliente."
+    },
+    {
+      "title": "ClawGym: Marco Escalable para Desarrollar Agentes Claw Efectivos",
+      "summary": "Un marco integral para el desarrollo y evaluación de agentes que operan en entornos Claw.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.26904",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "multilingüe",
-        "detención",
-        "IA"
+        "entornos",
+        "agentes",
+        "desarrollo"
       ],
-      "what_changed": "Metodología para mejorar el reconocimiento de lenguaje controvertido.",
-      "why_it_matters": "Aporta a la creación de entornos más seguros en las redes sociales.",
-      "sector_impact": "Impacta la forma en que se gestionan los discursos en línea."
-    },
-    {
-      "title": "OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research",
-      "summary": "Un marco distribuido que permite la colaboración multiagente para el diseño inteligente de materiales.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.13618",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agente",
-        "materiales",
-        "colaboración"
-      ],
-      "what_changed": "Introducción de un sistema que prioriza la soberanía de los datos.",
-      "why_it_matters": "Resuelve problemas de acceso y privacidad en la investigación material.",
-      "sector_impact": "Cataliza avances en el diseño de materiales avanzados."
-    },
-    {
-      "title": "AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization",
-      "summary": "Framework que gestiona la optimización de sistemas de recomendación mediante agentes especializados.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26969",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "recomendación",
-        "optimización",
-        "IA"
-      ],
-      "what_changed": "Implementación de un enfoque colaborativo en optimización.",
-      "why_it_matters": "Ofrece un método dinámico para mejorar sistemas de recomendación complejos.",
-      "sector_impact": "Transforma la eficiencia de recomendación en plataformas diversas."
+      "what_changed": "Creación de un marco sistemático para el desarrollo y diagnóstico de agentes.",
+      "why_it_matters": "Transforma el desarrollo de agentes personales, facilitando su implementación y prueba.",
+      "sector_impact": "Impacto significativo en la robótica y asistentes personales."
     }
   ]
 }
