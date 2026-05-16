@@ -1,127 +1,110 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar presenta las últimas innovaciones y desarrollos en el ámbito de herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "Aquí se detallan los avances más relevantes que pueden impactar el sector de IA, excluyendo temas políticos y regulatorios.",
+  "intro_message": "Actualizaciones diarias sobre herramientas, modelos y avances en IA.",
+  "opening_message": "Las últimas novedades en inteligencia artificial destacan innovaciones clave y mejoras en herramientas y modelos.",
   "items": [
     {
-      "title": "CUICurate: Framework para la Curation Automática de Conceptos Clínicos",
-      "summary": "Un marco GraphRAG que automatiza la curación de conjuntos de conceptos UMLS, superando las limitaciones de las herramientas existentes.",
+      "title": "Abduction-Based Procedural Refinement",
+      "summary": "Un método de refinamiento neuro-simbólico que incorpora LLMs y un meta-intérprete Prolog para mejorar la deducción de reglas latentes.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.17949",
+      "source_url": "https://arxiv.org/abs/2603.20334",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "NLP",
-        "salud",
-        "clasificación"
+        "refinamiento",
+        "neuro-simbólico",
+        "LLMs"
       ],
-      "what_changed": "Introducción de un enfoque automatizado para la curación de conceptos clínicos.",
-      "why_it_matters": "Aumenta la eficiencia y precisión en la curación de datos clínicos, esencial para NLP en aplicaciones de salud.",
-      "sector_impact": "Impacto alto en el sector de salud y procesamiento de lenguaje natural."
+      "what_changed": "Introducción del ABPR como un enfoque de refinamiento.",
+      "why_it_matters": "Mejora la precisión en la deducción de reglas complejas, clave para tareas complejas de razonamiento.",
+      "sector_impact": "Fortalece la capacidad de LLMs para resolver problemas abstractos."
     },
     {
-      "title": "VerbalValue: Virtual Host Inteligente para Comercio en Vivo",
-      "summary": "Un agente virtual que optimiza la conversión de ventas en comercio en vivo, mejorando la interacción y recomendación de productos.",
+      "title": "AgentTrap: Medición de Fallos de Confianza en Agentes",
+      "summary": "Un nuevo banco de pruebas que evalúa la capacidad de los agentes LLM para manejar habilidades de terceros sin caer en comportamientos maliciosos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.14542",
+      "source_url": "https://arxiv.org/abs/2605.13940",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "comercio",
-        "ventas",
-        "AI"
+        "seguridad",
+        "agentes",
+        "evaluación"
       ],
-      "what_changed": "Desarrollo de un anfitrión virtual que interactúa de manera más efectiva con los compradores.",
-      "why_it_matters": "Mejora la efectividad de las ventas en plataformas de comercio en vivo, aumentando el valor comercial.",
-      "sector_impact": "Fuerte impacto en e-commerce y marketing digital."
+      "what_changed": "Creación de un marco de evaluación para la seguridad en la ejecución de habilidades de terceros.",
+      "why_it_matters": "Aborda problemas de seguridad emergentes en entornos de agentes multifuncionales.",
+      "sector_impact": "Aumenta la confianza en sistemas que integran agentes LLM y habilidades de terceros."
     },
     {
-      "title": "Orchard: Marco Abierto para Modelado Agente",
-      "summary": "Un marco escalable para la modelación de agentes que permite resolver tareas complejas mediante la interacción con entornos.",
+      "title": "PersonalHomeBench: Evaluación de Agentes en Hogares Inteligentes",
+      "summary": "Un nuevo marco para evaluar modelos como asistentes en entornos domésticos personalizados, abordando limitaciones en razonamiento y planificación.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.15040",
+      "source_url": "https://arxiv.org/abs/2604.16813",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelado",
-        "agentes",
-        "open-source"
+        "evaluación",
+        "asistentes",
+        "hogares inteligentes"
       ],
-      "what_changed": "Introducción de un ecosistema para la creación y evaluación de agentes.",
-      "why_it_matters": "Facilita el desarrollo y pruebas de agentes, acelerando la innovación en inteligencia artificial.",
-      "sector_impact": "Alto impacto en el desarrollo de agentes autónomos y herramientas de IA."
+      "what_changed": "Desarrollo de un banco de pruebas que simula la interactividad en entornos domésticos.",
+      "why_it_matters": "Un nuevo marco para evaluar modelos como asistentes en entornos domésticos personalizados, abordando limitaciones en razonamiento y planificación.",
+      "sector_impact": "Impulsa el uso de IA en la automatización del hogar."
     },
     {
-      "title": "Hunt Globally: Agentes de IA para Búsqueda de Activos Farmacéuticos",
-      "summary": "Propuesta de un agente de auto-aprendizaje para la identificación de activos farmacéuticos en múltiples fuentes de datos.",
+      "title": "In-IDE Toolkit para Desarrolladores de Características IA",
+      "summary": "Un plugin para IDEs que facilita la evaluación y depuración de características basadas en LLMs y flujos de trabajo de agentes.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.15019",
+      "source_url": "https://arxiv.org/abs/2605.14612",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "farmacéutica",
-        "investigación",
-        "IA"
+        "desarrollo",
+        "IDE",
+        "evaluación"
       ],
-      "what_changed": "Metodología benchmarking para la búsqueda de activos desde múltiples fuentes no convencionales.",
-      "why_it_matters": "Reduce los riesgos en la inversión mediante una mejor identificación de activos valiosos en el mercado global.",
-      "sector_impact": "Impacto significativo en la inversión farmacéutica y desarrollo de nuevos tratamientos."
+      "what_changed": "Introducción de un flujo de trabajo nativo de IDE para la captura de trazas y evaluación.",
+      "why_it_matters": "Un plugin para IDEs que facilita la evaluación y depuración de características basadas en LLMs y flujos de trabajo de agentes.",
+      "sector_impact": "Aumenta la accesibilidad del desarrollo de características AI."
     },
     {
-      "title": "Agentic Design de Descriptores Composicionales para Ciencias de Materiales",
-      "summary": "Un marco de autoresearch para el diseño de descriptores de propiedades materiales mediante agentes de IA.",
+      "title": "AgenticEval: Evaluación de Seguridad de Modelos de Lenguaje",
+      "summary": "Propuesta para un marco de evaluación de seguridad que evoluciona de forma autónoma con la integración de LLMs.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.14671",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2509.26100",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "materiales",
-        "IA",
-        "automación"
+        "evaluación",
+        "seguridad",
+        "LLMs"
       ],
-      "what_changed": "Implementación de un agente que genera descriptores para propiedades químicas de manera autónoma.",
-      "why_it_matters": "Permite avances en la predicción de propiedades materiales sin intervención manual.",
-      "sector_impact": "Fuerte implicación en la investigación material y desarrollo de nuevos compuestos."
+      "what_changed": "Un nuevo paradigma de evaluación continua que se adapta a los riesgos emergentes.",
+      "why_it_matters": "Propuesta para un marco de evaluación de seguridad que evoluciona de forma autónoma con la integración de LLMs.",
+      "sector_impact": "Mejora la seguridad y cumplimiento en el uso de LLMs."
     },
     {
-      "title": "Autofocus Retrieval: Pipeline para Respuestas a Preguntas Multi-Hop",
-      "summary": "Un marco modular que integra la recuperación estructurada y textual para preguntas complejas.",
+      "title": "Correctness-Aware Repository Filtering",
+      "summary": "Un marco que mejora la eficiencia del contexto de las herramientas LLM al filtrar repositorios de código antes de la tokenización.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.09246",
+      "source_url": "https://arxiv.org/abs/2605.14362",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Q&A",
-        "IA",
-        "recuperación"
+        "filtrado",
+        "repositorios",
+        "eficiencia"
       ],
-      "what_changed": "Mejora en la eficiencia de extracción de información mediante un enfoque modular.",
-      "why_it_matters": "Facilita respuestas más precisas y rápidas en tareas de preguntas y respuestas.",
-      "sector_impact": "Alto impacto en sistemas de información y atención al cliente."
-    },
-    {
-      "title": "ClawGym: Marco Escalable para Desarrollar Agentes Claw Efectivos",
-      "summary": "Un marco integral para el desarrollo y evaluación de agentes que operan en entornos Claw.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.26904",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "entornos",
-        "agentes",
-        "desarrollo"
-      ],
-      "what_changed": "Creación de un marco sistemático para el desarrollo y diagnóstico de agentes.",
-      "why_it_matters": "Transforma el desarrollo de agentes personales, facilitando su implementación y prueba.",
-      "sector_impact": "Impacto significativo en la robótica y asistentes personales."
+      "what_changed": "Introducción de un filtrado heurístico basado en el tamaño de archivos.",
+      "why_it_matters": "Un marco que mejora la eficiencia del contexto de las herramientas LLM al filtrar repositorios de código antes de la tokenización.",
+      "sector_impact": "Mejora la calidad en el uso de LLMs en herramientas de desarrollo."
     }
   ]
 }
