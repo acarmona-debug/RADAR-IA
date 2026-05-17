@@ -1,6 +1,80 @@
 {
   "days": [
     {
+      "date": "2026-05-17",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenAI lanza ChatGPT para finanzas personales",
+          "summary": "Los usuarios podrán conectar sus cuentas bancarias y visualizar el rendimiento de su cartera, gastos y pagos próximos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "finanzas",
+            "automatización"
+          ],
+          "what_changed": "Lanzamiento de una nueva funcionalidad de ChatGPT.",
+          "why_it_matters": "Facilita la gestión financiera personal mediante IA.",
+          "sector_impact": "Mejora la accesibilidad de herramientas financieras para usuarios."
+        },
+        {
+          "title": "Osaurus combina modelos de IA locales y en la nube para Mac",
+          "summary": "Una aplicación que mantiene los recursos del usuario en su propio hardware, combinando lo local y lo en la nube.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [
+            "Osaurus",
+            "modelo local",
+            "modelo en la nube"
+          ],
+          "what_changed": "Lanzamiento de una nueva aplicación de IA para Mac.",
+          "why_it_matters": "Proporciona flexibilidad al usuario sobre su información y herramientas.",
+          "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
+        },
+        {
+          "title": "Clawdmeter transforma estadísticas de Claude Code en un panel de escritorio",
+          "summary": "Un gadget de código abierto que facilita a los usuarios de Claude Code visualizar estadísticas de uso.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "dashboard",
+            "código"
+          ],
+          "what_changed": "Introducción de un nuevo gadget para facilitar el análisis de datos.",
+          "why_it_matters": "Mejora la experiencia de usuario para desarrolladores de IA.",
+          "sector_impact": "Fomenta el uso eficiente de herramientas de programación."
+        },
+        {
+          "title": "OpenAI cofundador toma las riendas de la estrategia de producto",
+          "summary": "Greg Brockman liderará la integración de ChatGPT y Codex.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+          "relevance_score": 14,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "Codex"
+          ],
+          "what_changed": "Reestructuración de liderazgo en OpenAI.",
+          "why_it_matters": "Impulsa la innovación en productos de IA.",
+          "sector_impact": "Impacto significativo en la oferta de productos IA de OpenAI."
+        }
+      ]
+    },
+    {
       "date": "2026-05-16",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -706,148 +780,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-09",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI lanza nuevas características de voz en su API",
-          "summary": "OpenAI ha introducido nuevas características de inteligencia de voz que pueden ser útiles en sistemas de atención al cliente y otros campos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "API",
-            "voz"
-          ],
-          "what_changed": "Se agregaron nuevas funcionalidades de inteligencia de voz a la API.",
-          "why_it_matters": "Amplía las capacidades de implementación de IA en diversas plataformas, mejorando la interacción usuario-sistema.",
-          "sector_impact": "Aumenta la automatización en atención al cliente y plataformas educativas."
-        },
-        {
-          "title": "Spotify quiere ser el hogar del audio personal generado por IA",
-          "summary": "Los usuarios podrán crear pódcast usando Codex o Claude y cargarlos a Spotify.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Spotify",
-            "IA",
-            "pódcast"
-          ],
-          "what_changed": "Integración de herramientas de IA para la creación de contenido en la plataforma.",
-          "why_it_matters": "Facilita la creación de contenido personalizado, aumentando el compromiso del usuario.",
-          "sector_impact": "Transforma la forma en que se genera y consume contenido de audio."
-        },
-        {
-          "title": "Perplexity’s Personal Computer disponible para todos en Mac",
-          "summary": "La PC Personal de Perplexity introduce agentes de IA en tu Mac, ahora disponible para todos los usuarios.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Perplexity",
-            "Mac",
-            "agentes"
-          ],
-          "what_changed": "Lanzamiento de una herramienta de IA accesible a un público más amplio.",
-          "why_it_matters": "Permite la personalización y optimización del uso diario del computador.",
-          "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
-        },
-        {
-          "title": "CyberSecQwen-4B: Modelos de ciberseguridad especializados",
-          "summary": "Se discute la necesidad de modelos de IA pequeños y especializados para ciberseguridad que puedan ejecutarse localmente.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "modelos",
-            "Hugging Face"
-          ],
-          "what_changed": "Introducción de un nuevo enfoque para modelos de ciberseguridad.",
-          "why_it_matters": "Provee soluciones más efectivas y accesibles para la defensa cibernética.",
-          "sector_impact": "Aumenta la seguridad digital en múltiples aplicaciones."
-        },
-        {
-          "title": "Anthropic’s Mythos mejora la ciberseguridad en Firefox",
-          "summary": "Investigadores de seguridad en Mozilla destacan que Mythos de Anthropic ha descubierto bugs de alta gravedad en Firefox.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "Firefox",
-            "Anthropic"
-          ],
-          "what_changed": "Mejoras significativas en la detección de vulnerabilidades en Firefox.",
-          "why_it_matters": "Refuerza la seguridad del navegador contribuyendo a un entorno más seguro para los usuarios.",
-          "sector_impact": "Impacto positivo en la confianza del usuario y seguridad en línea."
-        },
-        {
-          "title": "Nuevas integraciones de ChatGPT para mejorar la experiencia de usuario",
-          "summary": "OpenAI está implementando nuevas integraciones en ChatGPT que mejoran las capacidades de la plataforma.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "integraciones",
-            "OpenAI"
-          ],
-          "what_changed": "Se agregaron medidas de seguridad para los usuarios.",
-          "why_it_matters": "Aumenta la seguridad y confianza en el uso de ChatGPT para interacciones delicadas.",
-          "sector_impact": "Fomenta la adopción en entornos más sensibles como la educación y salud."
-        },
-        {
-          "title": "Google lanza 'The Small Brief' para pymes",
-          "summary": "Una iniciativa que reúne a íconos de la publicidad para ayudar a pequeños negocios a usar IA para anuncios.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Google",
-            "publicidad",
-            "pymes"
-          ],
-          "what_changed": "Lanzamiento de un programa específico para ayudar a pequeñas empresas.",
-          "why_it_matters": "Facilita la incorporación de herramientas de IA en marketing para pymes.",
-          "sector_impact": "Potencial para transformar la publicidad de pequeños negocios."
-        },
-        {
-          "title": "Lanzamiento de 'Startup Battlefield 200' con oportunidades de financiación",
-          "summary": "Abiertas las aplicaciones para el programa que ofrece acceso a capital y visibilidad global.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/startup-battlefield-200-applications-close-may-27-a-shot-at-vc-access-global-visibility-techcrunch-coverage-and-100k/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "emprendimiento",
-            "financiación",
-            "startups"
-          ],
-          "what_changed": "Se abre un nuevo ciclo de aplicaciones para startups.",
-          "why_it_matters": "Proporciona una plataforma de visibilidad y recursos financieros vitales para nuevas empresas.",
-          "sector_impact": "Incrementa el potencial de crecimiento de startups emergentes."
         }
       ]
     }
