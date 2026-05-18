@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-05-18",
+      "executive_title": "Radar Diario de IA - Novedades y Avances Cruciales",
+      "items": [
+        {
+          "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
+          "summary": "Un nuevo marco que mejora la orquestación de múltiples agentes al tratar la ejecución como una máquina de estados restringida, logrando un 86.5% de finalización de tareas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.15204",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multi-agente",
+            "orquestación",
+            "eficiencia"
+          ],
+          "what_changed": "Introducción de una nueva forma de gestionar la ejecución de múltiples agentes.",
+          "why_it_matters": "Optimiza el control y la precisión en la ejecución de tareas complejas.",
+          "sector_impact": "Mejora la eficiencia en sistematizaciones empresariales."
+        },
+        {
+          "title": "VideoSeeker: Incentivizing Instance-level Video Understanding via Native Agentic Tool Invocation",
+          "summary": "Un paradigma nuevo para la comprensión de video que combina razonamiento y tacto, superando modelos anteriores en un 13.7%.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.16079",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "video",
+            "comprensión",
+            "agente"
+          ],
+          "what_changed": "Mejoras significativas en la capacidad para comprender y manipular video a nivel de instancias.",
+          "why_it_matters": "Potencia las aplicaciones de IA en videos, mejorando la interacción del usuario.",
+          "sector_impact": "Transforma el análisis de datos visuales en tiempo real."
+        },
+        {
+          "title": "A3D: Agentic AI flow for autonomous Accelerator Design",
+          "summary": "Un flujo de trabajo automatizado para el diseño de aceleradores de hardware que mejora significativamente la eficiencia del sistema.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.15237",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aceleradores",
+            "diseño",
+            "automatización"
+          ],
+          "what_changed": "Integración de flujos automatizados para el análisis y diseño.",
+          "why_it_matters": "Reduce el tiempo de desarrollo y mejora la eficiencia energética.",
+          "sector_impact": "Optimización en la industria de diseño de hardware."
+        },
+        {
+          "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?",
+          "summary": "Benchmark que evalúa agentes en ciclos de trabajo complejos utilizando sistemas SaaS en entornos de trabajo real.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.15777",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "SaaS",
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de un benchmarking para evaluar capacidades en entornos profesionales.",
+          "why_it_matters": "Identifica limitaciones de los agentes y oportunidades de mejora.",
+          "sector_impact": "Impacto directo en eficiencia operativa y colaboración."
+        },
+        {
+          "title": "Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution",
+          "summary": "Framework innovador que permite aprendizaje continuo sin necesidad de actualización de pesos en LLMs, mejorando significativamente la precisión.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.15301",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "programación",
+            "agente",
+            "aprendizaje"
+          ],
+          "what_changed": "Evolución del modelo a través de un sistema cerrado.",
+          "why_it_matters": "Presenta un nuevo estándar para la generación de código en concursos.",
+          "sector_impact": "Impulsa la competitividad en el desarrollo de software."
+        },
+        {
+          "title": "Hybrid LLM-based Intelligent Framework for Robot Task Scheduling",
+          "summary": "Marco inteligente que utiliza LLMs para optimizar la programación de tareas en robots de construcción, mejorando la comunicación y la eficiencia.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.15486",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "robótica",
+            "programación",
+            "inteligente"
+          ],
+          "what_changed": "Implementación de LLMs en la programación robótica.",
+          "why_it_matters": "Facilita la adaptación a condiciones cambiantes en el lugar de trabajo.",
+          "sector_impact": "Mejora la eficiencia en la industria de la construcción."
+        },
+        {
+          "title": "AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer Devices",
+          "summary": "Una supervisión efímera que predice y termina procesos de LLM al local para ahorrar energía sin afectar el rendimiento.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.15206",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "eficiencia",
+            "energía",
+            "local"
+          ],
+          "what_changed": "Optimización de procesos en dispositivos locales.",
+          "why_it_matters": "Reduce el consumo energético de los modelos AI en dispositivos de consumo.",
+          "sector_impact": "Fomenta un enfoque más sostenible en el uso de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-05-17",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -670,116 +795,6 @@
           "what_changed": "Desarrollo de un arnés que automatiza el proceso de auto-mejora del agente.",
           "why_it_matters": "Sistema que permite a los agentes de IA adaptarse y mejorar de manera continua.",
           "sector_impact": "Transforma la interacción entre agentes en entornos dinámicos."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-10",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "The “people’s airline” and the enterprise AI gold rush",
-          "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI deployment to SAP dropping $1B on German AI startup Prior Labs, it’s becoming clear that if you’re a startup building enterprise tools, you’re likely an acquisition target. On this episode of TechCrunch’s Equity podcast, hosts Kirsten Korosec, Anthony […]",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-          "relevance_score": 13,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "5 gardening tips you can try right in Search",
-          "summary": "We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
-          "category": "labs",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
-          "summary": "",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Bumble is getting rid of the swipe, CEO says",
-          "summary": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "China’s Moonshot AI raises $2B at $20B valuation as demand for open source AI skyrockets",
-          "summary": "Moonshot's annualized recurring revenue topped $200 million in April, driven by rapid growth in paid subscriptions and API usage.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "EMO: Pretraining mixture of experts for emergent modularity",
-          "summary": "",
-          "category": "sector",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/allenai/emo",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
-          "summary": "",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-          "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }

@@ -1,76 +1,127 @@
 {
-  "date": "2026-05-17",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas novedades en herramientas y modelos de IA.",
-  "opening_message": "Aquí están los desarrollos más relevantes en el mundo de la inteligencia artificial que impactan el sector.",
+  "date": "2026-05-18",
+  "executive_title": "Radar Diario de IA - Novedades y Avances Cruciales",
+  "intro_message": "Aquí tienes un resumen de las herramientas, modelos y frameworks más relevantes en el ámbito de la IA que están transformando el panorama tecnológico.",
+  "opening_message": "Este radar se centra en innovaciones significativas que afectan el desarrollo y la implementación de soluciones de IA.",
   "items": [
     {
-      "title": "OpenAI lanza ChatGPT para finanzas personales",
-      "summary": "Los usuarios podrán conectar sus cuentas bancarias y visualizar el rendimiento de su cartera, gastos y pagos próximos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "finanzas",
-        "automatización"
-      ],
-      "what_changed": "Lanzamiento de una nueva funcionalidad de ChatGPT.",
-      "why_it_matters": "Facilita la gestión financiera personal mediante IA.",
-      "sector_impact": "Mejora la accesibilidad de herramientas financieras para usuarios."
-    },
-    {
-      "title": "Osaurus combina modelos de IA locales y en la nube para Mac",
-      "summary": "Una aplicación que mantiene los recursos del usuario en su propio hardware, combinando lo local y lo en la nube.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [
-        "Osaurus",
-        "modelo local",
-        "modelo en la nube"
-      ],
-      "what_changed": "Lanzamiento de una nueva aplicación de IA para Mac.",
-      "why_it_matters": "Proporciona flexibilidad al usuario sobre su información y herramientas.",
-      "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
-    },
-    {
-      "title": "Clawdmeter transforma estadísticas de Claude Code en un panel de escritorio",
-      "summary": "Un gadget de código abierto que facilita a los usuarios de Claude Code visualizar estadísticas de uso.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+      "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
+      "summary": "Un nuevo marco que mejora la orquestación de múltiples agentes al tratar la ejecución como una máquina de estados restringida, logrando un 86.5% de finalización de tareas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.15204",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Claude",
-        "dashboard",
-        "código"
+        "multi-agente",
+        "orquestación",
+        "eficiencia"
       ],
-      "what_changed": "Introducción de un nuevo gadget para facilitar el análisis de datos.",
-      "why_it_matters": "Mejora la experiencia de usuario para desarrolladores de IA.",
-      "sector_impact": "Fomenta el uso eficiente de herramientas de programación."
+      "what_changed": "Introducción de una nueva forma de gestionar la ejecución de múltiples agentes.",
+      "why_it_matters": "Optimiza el control y la precisión en la ejecución de tareas complejas.",
+      "sector_impact": "Mejora la eficiencia en sistematizaciones empresariales."
     },
     {
-      "title": "OpenAI cofundador toma las riendas de la estrategia de producto",
-      "summary": "Greg Brockman liderará la integración de ChatGPT y Codex.",
+      "title": "VideoSeeker: Incentivizing Instance-level Video Understanding via Native Agentic Tool Invocation",
+      "summary": "Un paradigma nuevo para la comprensión de video que combina razonamiento y tacto, superando modelos anteriores en un 13.7%.",
       "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-      "relevance_score": 14,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.16079",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "Codex"
+        "video",
+        "comprensión",
+        "agente"
       ],
-      "what_changed": "Reestructuración de liderazgo en OpenAI.",
-      "why_it_matters": "Impulsa la innovación en productos de IA.",
-      "sector_impact": "Impacto significativo en la oferta de productos IA de OpenAI."
+      "what_changed": "Mejoras significativas en la capacidad para comprender y manipular video a nivel de instancias.",
+      "why_it_matters": "Potencia las aplicaciones de IA en videos, mejorando la interacción del usuario.",
+      "sector_impact": "Transforma el análisis de datos visuales en tiempo real."
+    },
+    {
+      "title": "A3D: Agentic AI flow for autonomous Accelerator Design",
+      "summary": "Un flujo de trabajo automatizado para el diseño de aceleradores de hardware que mejora significativamente la eficiencia del sistema.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.15237",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "aceleradores",
+        "diseño",
+        "automatización"
+      ],
+      "what_changed": "Integración de flujos automatizados para el análisis y diseño.",
+      "why_it_matters": "Reduce el tiempo de desarrollo y mejora la eficiencia energética.",
+      "sector_impact": "Optimización en la industria de diseño de hardware."
+    },
+    {
+      "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?",
+      "summary": "Benchmark que evalúa agentes en ciclos de trabajo complejos utilizando sistemas SaaS en entornos de trabajo real.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.15777",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "SaaS",
+        "agentes",
+        "evaluación"
+      ],
+      "what_changed": "Introducción de un benchmarking para evaluar capacidades en entornos profesionales.",
+      "why_it_matters": "Identifica limitaciones de los agentes y oportunidades de mejora.",
+      "sector_impact": "Impacto directo en eficiencia operativa y colaboración."
+    },
+    {
+      "title": "Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution",
+      "summary": "Framework innovador que permite aprendizaje continuo sin necesidad de actualización de pesos en LLMs, mejorando significativamente la precisión.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.15301",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "programación",
+        "agente",
+        "aprendizaje"
+      ],
+      "what_changed": "Evolución del modelo a través de un sistema cerrado.",
+      "why_it_matters": "Presenta un nuevo estándar para la generación de código en concursos.",
+      "sector_impact": "Impulsa la competitividad en el desarrollo de software."
+    },
+    {
+      "title": "Hybrid LLM-based Intelligent Framework for Robot Task Scheduling",
+      "summary": "Marco inteligente que utiliza LLMs para optimizar la programación de tareas en robots de construcción, mejorando la comunicación y la eficiencia.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.15486",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "robótica",
+        "programación",
+        "inteligente"
+      ],
+      "what_changed": "Implementación de LLMs en la programación robótica.",
+      "why_it_matters": "Facilita la adaptación a condiciones cambiantes en el lugar de trabajo.",
+      "sector_impact": "Mejora la eficiencia en la industria de la construcción."
+    },
+    {
+      "title": "AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer Devices",
+      "summary": "Una supervisión efímera que predice y termina procesos de LLM al local para ahorrar energía sin afectar el rendimiento.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.15206",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "eficiencia",
+        "energía",
+        "local"
+      ],
+      "what_changed": "Optimización de procesos en dispositivos locales.",
+      "why_it_matters": "Reduce el consumo energético de los modelos AI en dispositivos de consumo.",
+      "sector_impact": "Fomenta un enfoque más sostenible en el uso de IA."
     }
   ]
 }
