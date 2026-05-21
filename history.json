@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-05-21",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding",
+          "summary": "arXiv:2605.19846v2 Announce Type: cross Abstract: Vision-Language Models (VLMs) have demonstrated remarkable capabilities in general video understanding, yet they often struggle with the fine-grained comprehension crucial for real-world applications requiring nuanced interpretation of human actions and interactions. While some recent human-centric benchmarks evaluate aspects of model behaviour such as fairness/ethics, emotion perception, and broader human-centric metrics, they do not combine long-form videos, very dense QA coverage, and frame-level spatial/temporal grounding at scale. To bridge this gap, we introduce FineBench, a human-centric video question answering (VQA) benchmark specifically designed to assess fine-grained understanding. FineBench comprises 199,420 multiple-choice QA pairs densely annotated across 64 long-form videos (15 minutes each), focusing on detailed person movement, person interaction, and object manipulation, including compositional actions. Our extensive evaluation reveals that while proprietary models like GPT-5 achieve respectable performance, current open-source VLMs significantly underperform, struggling particularly with spatial reasoning in multi-person scenes and distinguishing subtle differences in human movements and interactions. To address these identified weaknesses, we propose FineAgent, a modular framework that enhances VLMs by leveraging a Localizer and a Descriptor. Experiments show that FineAgent consistently improves the performance of various open VLMs on FineBench. FineBench provides a rigorous testbed for future research into fine-grained human-centric video understanding, while FineAgent offers a practical approach to enhance such reasoning in current VLMs. Project page and code at https://joslefaure.github.io/assets/html/finebench.html.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.19846",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Entry-level guide to the use of large language models for medical research",
+          "summary": "arXiv:2410.18856v4 Announce Type: replace Abstract: Frontier large language models (LLMs), such as GPT-5, Claude 4.5, Gemini 3, Llama 4, and DeepSeek-R1, represent a transformative class of AI tools capable of revolutionizing various aspects of healthcare by generating human-like responses across diverse contexts and adapting to novel tasks following human instructions. Their potential application spans a broad range of medical tasks, such as clinical documentation, matching patients to clinical trials, and answering medical questions. In this paper, we propose an actionable guideline to help healthcare professionals more effectively and efficiently utilize LLMs in their work, along with a set of best practices. The overall workflow consists of several main phases, including formulating the task, choosing LLMs, prompt engineering, fine-tuning, and model deployment. We start with the discussion of critical considerations in identifying medical tasks that align with the core capabilities of LLMs and selecting models based on the selected task and data, performance requirements, and model interface. We then review the strategies, such as prompt engineering and fine-tuning, to adapt standard LLMs to specialized medical tasks. Deployment considerations, including regulatory compliance, ethical guidelines, and continuous monitoring for fairness and bias, are also discussed. By providing a structured step-by-step methodology, this entry-level tutorial aims to equip healthcare professionals with the tools necessary to effectively integrate LLMs into clinical practice, ensuring that these powerful technologies are applied in a safe, reliable, and impactful manner.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2410.18856",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "PrivScope: Task-scoped Disclosure Control for Hybrid Agentic Systems",
+          "summary": "arXiv:2605.16630v2 Announce Type: replace-cross Abstract: Hybrid local--cloud agents enrich user requests with context from persistent working state before delegating capability-intensive subtasks to a cloud language model (CLM). While this enrichment can improve task success, it also exposes unnecessary information in the cloud-bound payload, including task-irrelevant context, carryover from prior workflows, and overly specific sensitive details, resulting in \\emph{over-disclosure}. Existing solutions either isolate workflows to limit cross-workflow leakage or apply general-purpose sanitization that does not reason over LC-assembled payload scope. We present \\textsc{PrivScope}, a trusted on-device payload governor that enforces \\emph{task-scoped disclosure} at the local--CLM boundary, without requiring cloud-side changes. Its key idea: sensitive information should reach the cloud only when required for the delegated subtask, and then only in the least revealing form preserving utility. \\textsc{PrivScope} extracts disclosure units from the assembled payload and keeps direct identifiers and account-linked values on device. The remaining units pass through cloud-necessity control, which determines what is actually needed; units that must reach the cloud are abstracted to the least-specific representation sufficient for the task. On 100 medical-booking workflows across three commercial CLMs, \\textsc{PrivScope} eliminates profile leakage (0.0\\% vs.\\ 17.7\\%), more than halves attacker re-identification (23.1\\% vs.\\ 64.3\\%), and achieves the highest candidate recall on every CLM tested while preserving task success close to the unprotected baseline on GPT-4o-mini and Gemini 2.5 Flash. Gains hold across five local backbones and add only seconds of on-device latency on commodity hardware.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.16630",
+          "relevance_score": 27,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Can Large Language Models Revolutionize Survey Research? Experiments with Disaster Preparedness Responses",
+          "summary": "arXiv:2605.19229v1 Announce Type: new Abstract: Survey research faces mounting structural challenges: declining response rates, sample bias, block-wise missingness among at-risk respondents, and AI-assisted fraudulent completions in online panels. Large language models (LLMs) have been proposed as a remedy, yet rigorous evaluations across the full survey workflow remain scarce, particularly in disaster contexts where data quality matters most. We present and evaluate a five-stage framework for LLM integration covering questionnaire design, sample selection, pilot testing, missing-data imputation, and post-collection analysis, using the 2024 Hurricane Milton preparedness survey of Florida residents (n=946) as a shared empirical testbed. We introduce a Protection Motivation Theory (PMT)-constrained co-occurrence knowledge graph and develop seven LLM configurations spanning zero-shot inference, retrieval-augmented baselines, and novel theory-informed variants. Our proposed Anchored Marginal Theory-Informed LLM (A-TLM) outperforms all three classical imputation baselines (IPW/MI, MICE+PMM, missForest) on RMSE under disaster-relevant block-wise MNAR conditions (S4 RMSE 1.439 vs. 1.496 for the next-best), while achieving near-zero signed bias (-0.121) where the random-forest imputer produces the largest absolute bias (-0.631). Organizing retrieval around PMT causal structure and integrating all evidence in a single model call outperforms unstructured retrieval and staged sequential inference (MAE 0.993 vs. 1.097 for standard RAG). We document that near-zero aggregate bias can mask opposing subgroup errors and propose subgroup-stratified bias auditing as a reporting standard. A retrieval-constrained knowledge-graph chatbot demonstrates that hallucination is architecturally manageable through grounded refusal.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.19229",
+          "relevance_score": 26,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "PromptRad: Knowledge-Enhanced Multi-Label Prompt-Tuning for Low-Resource Radiology Report Labeling",
+          "summary": "arXiv:2605.20052v2 Announce Type: cross Abstract: Automatic report labeling facilitates the identification of clinical findings from unstructured text and enables large-scale annotation for medical imaging research. Existing rule-based labelers struggle with the diverse descriptions in clinical reports, while fine-tuning pre-trained language models (PLMs) requires large amounts of labeled data that are often unavailable in clinical settings. In this paper, we propose PromptRad, a knowledge-enhanced multi-label \\textbf{prompt}-tuning approach for \\textbf{rad}iology report labeling under low-resource settings. PromptRad reformulates multi-label classification as masked language modeling and incorporates synonyms from the UMLS Metathesaurus into a multi-word verbalizer to enrich category representations. By fine-tuning the PLM without additional classification layers, PromptRad requires substantially less labeled data than conventional fine-tuning. Experiments on liver CT (computed tomography) reports show that PromptRad outperforms dictionary-based and fine-tuning baselines with only 32 labeled training examples, and achieves competitive performance with GPT-4 despite using a much smaller model. Further analysis demonstrates that PromptRad captures complex negation patterns more effectively than existing methods, making it a promising solution for report labeling in data-scarce clinical scenarios. Our code is available at https://github.com/ila-lab/PromptRad.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.20052",
+          "relevance_score": 26,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Benchmarking Commercial ASR Systems on Code-Switching Speech: Arabic, Persian, and German",
+          "summary": "arXiv:2605.19069v1 Announce Type: cross Abstract: Code-switching -- the natural alternation between two languages within a single utterance -- represents one of the most challenging and under-studied conditions for automatic speech recognition (ASR). Existing commercial ASR benchmarks predominantly evaluate clean, monolingual audio and report a single Word Error Rate (WER) figure that tells practitioners little about real-world multilingual performance. We present a benchmark evaluating five commercial ASR providers across four language pairs: Egyptian Arabic--English, Saudi Arabic (Najdi/Hijazi)--English, Persian (Farsi)--English, and German--English. Each dataset comprises 300 samples selected by a two-stage pipeline: a heuristic filter scoring transcripts on five structural code-switching signals, followed by a GPT-4o and Gemini 1.5 Pro ensemble scoring candidates across six linguistic dimensions. This pipeline reduces LLM scoring costs by approximately 91\\% relative to exhaustive scoring. We evaluate the systems on both WER and BERTScore, arguing that BERTScore is a more reliable metric for Arabic and Persian pairs where transliteration variance causes WER to penalise semantically correct transcriptions. ElevenLabs Scribe v2 achieves the lowest WER across all four language pairs (13.2% overall; 13.1% on Egyptian Arabic) and leads on BERTScore (0.936 overall). We further demonstrate that difficulty-stratified analysis reveals performance gaps masked by aggregate averages, and that BERT embedding projections confirm semantic proximity between reference and hypothesis despite surface-level script differences. The benchmarking dataset is publicly available at https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.19069",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "optimize_anything: A Universal API for Optimizing any Text Parameter",
+          "summary": "arXiv:2605.19633v1 Announce Type: cross Abstract: Can a single LLM-based optimization system match specialized tools across fundamentally different domains? We show that when optimization problems are formulated as improving a text artifact evaluated by a scoring function, a single AI-based optimization system-supporting single-task search, multi-task search with cross-problem transfer, and generalization to unseen inputs-achieves state-of-the-art results across six diverse tasks. Our system discovers agent architectures that nearly triple Gemini Flash's ARC-AGI accuracy (32.5% to 89.5%), finds scheduling algorithms that cut cloud costs by 40%, generates CUDA kernels where 87% match or beat PyTorch, and outperforms AlphaEvolve's reported circle packing solution (n=26). Ablations across three domains reveal that actionable side information yields faster convergence and substantially higher final scores than score-only feedback, and that multi-task search outperforms independent optimization given equivalent per-problem budget through cross-task transfer, with benefits scaling with the number of related tasks. Together, we show for the first time that text optimization with LLM-based search is a general-purpose problem-solving paradigm, unifying tasks traditionally requiring domain-specific algorithms under a single framework. We open-source optimize\\_anything with support for multiple backends as part of the GEPA project at https://github.com/gepa-ai/gepa .",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.19633",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Less Back-and-Forth: A Comparative Study of Structured Prompting",
+          "summary": "arXiv:2605.20149v1 Announce Type: cross Abstract: Large language models (LLMs) are widely used for open-ended tasks, but underspecified prompts can lead to low-quality answers and additional interaction. This paper studies whether structured prompt design improves response quality while reducing user effort. We compare three prompt conditions: a raw prompt, a checklist-improved prompt, and a clarifying-question prompt. We evaluate these conditions across four task types--summarization, planning, explanation, and coding--using three LLM systems: ChatGPT, Claude, and Grok. Each output is scored with a unified rubric covering task completion, correctness, compliance, and clarity. Checklist-improved prompts achieved the highest mean rubric score, 7.50 out of 8, compared with 5.67 for raw prompts and 6.67 for clarifying-question prompts. Checklist prompts also produced the best quality-effort tradeoff, using fewer average tokens than both raw and clarifying prompts. These results suggest that a simple prompt checklist can improve LLM responses while reducing unnecessary interaction.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.20149",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-05-20",
       "executive_title": "Radar IA del día",
       "items": [
@@ -649,131 +759,6 @@
           "what_changed": "Creación de un marco sistemático para el desarrollo y diagnóstico de agentes.",
           "why_it_matters": "Transforma el desarrollo de agentes personales, facilitando su implementación y prueba.",
           "sector_impact": "Impacto significativo en la robótica y asistentes personales."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-14",
-      "executive_title": "Radar Diario de IA - Novedades y Herramientas",
-      "items": [
-        {
-          "title": "Agentick: A Unified Benchmark for General Sequential Decision-Making Agents",
-          "summary": "Un benchmark para evaluar agentes de toma de decisiones secuenciales, diseñado para una comparación justa entre diferentes paradigmas de agentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.06869",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "agentes",
-            "IA"
-          ],
-          "what_changed": "Introducción de una interfaz compatible con Gymnasium para evaluar agentes de decisiones.",
-          "why_it_matters": "Permite la comparación justa entre diferentes tipos de agentes, impulsando su desarrollo.",
-          "sector_impact": "Mejora la investigación en agentes autónomos."
-        },
-        {
-          "title": "Grid-Orch: An LLM-Powered Orchestrator for Distribution Grid Simulation and Analytics",
-          "summary": "Un marco que integra LLMs y simulación de sistemas de energía, permitiendo a los ingenieros realizar análisis complejos a través del lenguaje natural.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.12728",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "energía",
-            "LLM"
-          ],
-          "what_changed": "Introducción de herramientas específicas para análisis de red eléctrica.",
-          "why_it_matters": "Reduce el tiempo necesario para análisis complejos de horas a minutos.",
-          "sector_impact": "Transforma el análisis en ingeniería eléctrica, facilitando el trabajo."
-        },
-        {
-          "title": "AI-Generated Slides: Are They Good? Can Students Tell?",
-          "summary": "Estudio sobre la efectividad de las diapositivas generadas por IA comparadas con las humanas, resaltando su calidad educativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.13532",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "educación",
-            "IA",
-            "diapositivas"
-          ],
-          "what_changed": "Evaluación de herramientas de generación de contenido educativo.",
-          "why_it_matters": "Aumenta la integración de IA en los flujos de diseño educativo.",
-          "sector_impact": "Impulsa la productividad educativa y la calidad de materiales de aprendizaje."
-        },
-        {
-          "title": "CoT-Guard: Small Models for Strong Monitoring",
-          "summary": "Propuesta de un modelo de 4B parámetros para monitorizar modelos de CoT, mejorando la detección de objetivos ocultos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.12746",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "monitorización",
-            "modelos pequeños",
-            "seguridad"
-          ],
-          "what_changed": "Desarrollo de un monitor más accesible y eficiente.",
-          "why_it_matters": "Mejora la detección de misbehaviours en tareas de generación de código.",
-          "sector_impact": "Fortalece la confianza en modelos empleados en entornos críticos."
-        },
-        {
-          "title": "Continual Learning with Multilingual Foundation Model",
-          "summary": "Un marco para la detección de slurs en discursos multilingües en redes sociales, utilizando un modelo de lenguaje multilingüe.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.13415",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "multilingüe",
-            "detención",
-            "IA"
-          ],
-          "what_changed": "Metodología para mejorar el reconocimiento de lenguaje controvertido.",
-          "why_it_matters": "Aporta a la creación de entornos más seguros en las redes sociales.",
-          "sector_impact": "Impacta la forma en que se gestionan los discursos en línea."
-        },
-        {
-          "title": "OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research",
-          "summary": "Un marco distribuido que permite la colaboración multiagente para el diseño inteligente de materiales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.13618",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agente",
-            "materiales",
-            "colaboración"
-          ],
-          "what_changed": "Introducción de un sistema que prioriza la soberanía de los datos.",
-          "why_it_matters": "Resuelve problemas de acceso y privacidad en la investigación material.",
-          "sector_impact": "Cataliza avances en el diseño de materiales avanzados."
-        },
-        {
-          "title": "AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization",
-          "summary": "Framework que gestiona la optimización de sistemas de recomendación mediante agentes especializados.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.26969",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "recomendación",
-            "optimización",
-            "IA"
-          ],
-          "what_changed": "Implementación de un enfoque colaborativo en optimización.",
-          "why_it_matters": "Ofrece un método dinámico para mejorar sistemas de recomendación complejos.",
-          "sector_impact": "Transforma la eficiencia de recomendación en plataformas diversas."
         }
       ]
     }
