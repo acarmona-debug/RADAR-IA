@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-05-22",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Code Researcher: Deep Research Agent for Large Systems Code",
+          "summary": "Un agente de investigación profundo diseñado para generar parches en código de sistemas, mostrando un notable aumento en la tasa de resolución de fallos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2506.11060",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "código",
+            "agentes",
+            "investigación"
+          ],
+          "what_changed": "Introducción de Code Researcher como un nuevo agente de investigación.",
+          "why_it_matters": "Mejora significante en la resolución de fallos de sistemas, superando modelos previamente efectivos.",
+          "sector_impact": "Transforma significativamente la forma en que se maneja el código de sistemas al mejorar la eficiencia."
+        },
+        {
+          "title": "GenAI-Driven Threat Detection with Microsoft Security Copilot",
+          "summary": "Sistema de detección de amenazas impulsado por IA que mejora la identificación de amenazas ocultas en Microsoft Defender.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.20896",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "detección",
+            "Microsoft"
+          ],
+          "what_changed": "Implementación del agente DTDA en Microsoft Security Copilot.",
+          "why_it_matters": "Able to identify and recover hidden threats effectively, enhancing overall security capabilities.",
+          "sector_impact": "Significativa mejora en la ciberseguridad en organizaciones que utilizan Microsoft Defender."
+        },
+        {
+          "title": "MCP-Atlas: Tool-Use Competency Evaluation Framework",
+          "summary": "Un nuevo marco para medir la competencia en el uso de herramientas con agentes de LLM en servidores reales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.00933",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "herramientas",
+            "agentes"
+          ],
+          "what_changed": "Introducción de MCP-Atlas como un marco de evaluación.",
+          "why_it_matters": "Permite un análisis detallado y preciso de la competencia de los agentes en escenarios del mundo real.",
+          "sector_impact": "Contribuye a la mejora en la efectividad de los agentes de IA en entornos complejos."
+        },
+        {
+          "title": "DrugRAG: Enhancing Pharmacy LLM Performance",
+          "summary": "Método innovador para mejorar el rendimiento de LLM en tareas de farmacología mediante un pipeline de RAG.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.14896",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "farmacia",
+            "RAG",
+            "mejora"
+          ],
+          "what_changed": "Desarrollo de DrugRAG como un nuevo pipeline de generación-augmented.",
+          "why_it_matters": "Mejora la precisão en tareas de farmacología, ampliando la viabilidad de LLM en este sector.",
+          "sector_impact": "Optimiza la capacitación de modelos de IA centrándose en la farmacología y situaciones relacionadas."
+        },
+        {
+          "title": "SVFSearch: Benchmark for Short-Video Frame Search",
+          "summary": "El primer benchmark para la búsqueda de marcos de cortometrajes en la industria de los videojuegos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.17946",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "video",
+            "gaming"
+          ],
+          "what_changed": "Introducción de SVFSearch para evaluación en contexto de video corto.",
+          "why_it_matters": "Permite una evaluación justa y reproducible para la búsqueda en juegos, un área en rápida evolución.",
+          "sector_impact": "Facilita la integración de modelos de IA en aplicaciones de videojuegos y multimedia."
+        },
+        {
+          "title": "Heartbeat-Bound Hierarchical Credentials",
+          "summary": "Protocolo criptográfico para revocación de credenciales en agentes de IA autónomos, mejorando la seguridad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.20704",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "cripto",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un nuevo protocolo de credenciales para agentes de IA.",
+          "why_it_matters": "Minimiza el riesgo de operación de agentes 'zombis', mejorando la seguridad en los sistemas autónomos.",
+          "sector_impact": "Aumenta la fiabilidad y seguridad en aplicaciones de IA que dependen de credenciales jerárquicas."
+        },
+        {
+          "title": "Tool-Augmented Agent for Closed-loop Optimization",
+          "summary": "Marco que permite a los LLM ejecutar optimizaciones de diseño industrial mediante aprendizaje reforzado.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.20190",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "diseño",
+            "IA"
+          ],
+          "what_changed": "Propuesta del COSMO-Agent para optimizar procesos CAD-CAE.",
+          "why_it_matters": "Resuelve el problema de semántica CAD-CAE, agilizando el proceso de diseño y simulación.",
+          "sector_impact": "Impulsa la innovación en el diseño industrial al integrar tecnología de IA en procesos de modelado."
+        }
+      ]
+    },
+    {
       "date": "2026-05-21",
       "executive_title": "Radar IA del día",
       "items": [
@@ -634,131 +759,6 @@
           "what_changed": "Introducción de un filtrado heurístico basado en el tamaño de archivos.",
           "why_it_matters": "Un marco que mejora la eficiencia del contexto de las herramientas LLM al filtrar repositorios de código antes de la tokenización.",
           "sector_impact": "Mejora la calidad en el uso de LLMs en herramientas de desarrollo."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-15",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "CUICurate: Framework para la Curation Automática de Conceptos Clínicos",
-          "summary": "Un marco GraphRAG que automatiza la curación de conjuntos de conceptos UMLS, superando las limitaciones de las herramientas existentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.17949",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "NLP",
-            "salud",
-            "clasificación"
-          ],
-          "what_changed": "Introducción de un enfoque automatizado para la curación de conceptos clínicos.",
-          "why_it_matters": "Aumenta la eficiencia y precisión en la curación de datos clínicos, esencial para NLP en aplicaciones de salud.",
-          "sector_impact": "Impacto alto en el sector de salud y procesamiento de lenguaje natural."
-        },
-        {
-          "title": "VerbalValue: Virtual Host Inteligente para Comercio en Vivo",
-          "summary": "Un agente virtual que optimiza la conversión de ventas en comercio en vivo, mejorando la interacción y recomendación de productos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.14542",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "comercio",
-            "ventas",
-            "AI"
-          ],
-          "what_changed": "Desarrollo de un anfitrión virtual que interactúa de manera más efectiva con los compradores.",
-          "why_it_matters": "Mejora la efectividad de las ventas en plataformas de comercio en vivo, aumentando el valor comercial.",
-          "sector_impact": "Fuerte impacto en e-commerce y marketing digital."
-        },
-        {
-          "title": "Orchard: Marco Abierto para Modelado Agente",
-          "summary": "Un marco escalable para la modelación de agentes que permite resolver tareas complejas mediante la interacción con entornos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15040",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelado",
-            "agentes",
-            "open-source"
-          ],
-          "what_changed": "Introducción de un ecosistema para la creación y evaluación de agentes.",
-          "why_it_matters": "Facilita el desarrollo y pruebas de agentes, acelerando la innovación en inteligencia artificial.",
-          "sector_impact": "Alto impacto en el desarrollo de agentes autónomos y herramientas de IA."
-        },
-        {
-          "title": "Hunt Globally: Agentes de IA para Búsqueda de Activos Farmacéuticos",
-          "summary": "Propuesta de un agente de auto-aprendizaje para la identificación de activos farmacéuticos en múltiples fuentes de datos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.15019",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "farmacéutica",
-            "investigación",
-            "IA"
-          ],
-          "what_changed": "Metodología benchmarking para la búsqueda de activos desde múltiples fuentes no convencionales.",
-          "why_it_matters": "Reduce los riesgos en la inversión mediante una mejor identificación de activos valiosos en el mercado global.",
-          "sector_impact": "Impacto significativo en la inversión farmacéutica y desarrollo de nuevos tratamientos."
-        },
-        {
-          "title": "Agentic Design de Descriptores Composicionales para Ciencias de Materiales",
-          "summary": "Un marco de autoresearch para el diseño de descriptores de propiedades materiales mediante agentes de IA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.14671",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "materiales",
-            "IA",
-            "automación"
-          ],
-          "what_changed": "Implementación de un agente que genera descriptores para propiedades químicas de manera autónoma.",
-          "why_it_matters": "Permite avances en la predicción de propiedades materiales sin intervención manual.",
-          "sector_impact": "Fuerte implicación en la investigación material y desarrollo de nuevos compuestos."
-        },
-        {
-          "title": "Autofocus Retrieval: Pipeline para Respuestas a Preguntas Multi-Hop",
-          "summary": "Un marco modular que integra la recuperación estructurada y textual para preguntas complejas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.09246",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Q&A",
-            "IA",
-            "recuperación"
-          ],
-          "what_changed": "Mejora en la eficiencia de extracción de información mediante un enfoque modular.",
-          "why_it_matters": "Facilita respuestas más precisas y rápidas en tareas de preguntas y respuestas.",
-          "sector_impact": "Alto impacto en sistemas de información y atención al cliente."
-        },
-        {
-          "title": "ClawGym: Marco Escalable para Desarrollar Agentes Claw Efectivos",
-          "summary": "Un marco integral para el desarrollo y evaluación de agentes que operan en entornos Claw.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.26904",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "entornos",
-            "agentes",
-            "desarrollo"
-          ],
-          "what_changed": "Creación de un marco sistemático para el desarrollo y diagnóstico de agentes.",
-          "why_it_matters": "Transforma el desarrollo de agentes personales, facilitando su implementación y prueba.",
-          "sector_impact": "Impacto significativo en la robótica y asistentes personales."
         }
       ]
     }
