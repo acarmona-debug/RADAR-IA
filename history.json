@@ -1,6 +1,146 @@
 {
   "days": [
     {
+      "date": "2026-05-23",
+      "executive_title": "Radar Diario de IA - Resumen de Innovaciones Recientes",
+      "items": [
+        {
+          "title": "Gemini 3.5: frontier intelligence with action",
+          "summary": "Lanzamiento de Gemini 3.5, una serie de modelos de IA que combinan inteligencia en frontera con acciones efectivas.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "IA",
+            "modelo",
+            "Gemini"
+          ],
+          "what_changed": "Actualización en la serie de modelos Gemini.",
+          "why_it_matters": "Aporta nuevas capacidades y mejora la eficacia en diversas aplicaciones.",
+          "sector_impact": "Transforma el sector de la inteligencia artificial al mejorar la toma de decisiones automatizada."
+        },
+        {
+          "title": "I/O 2026: Welcome to the agentic Gemini era",
+          "summary": "Overview de las innovaciones presentadas en Google I/O que mejoran la productividad con Gemini.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "Gemini",
+            "conferencia"
+          ],
+          "what_changed": "Se introdujeron mejoras en la funcionalidad de Gemini.",
+          "why_it_matters": "Ofrece herramientas más efectivas para desarrolladores y usuarios.",
+          "sector_impact": "Impulsa la eficiencia en el entorno laboral moderno."
+        },
+        {
+          "title": "AI agents ecosystem unveiled at I/O 2026",
+          "summary": "Presentación de un ecosistema de agentes de IA que permite a los consumidores interactuar de manera innovadora con la web.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "agentes",
+            "ecosistema"
+          ],
+          "what_changed": "Introducción de un nuevo modelo de interacción con internet.",
+          "why_it_matters": "Revoluciona la forma en que los usuarios se relacionan con la tecnología.",
+          "sector_impact": "Crea nuevas oportunidades en el mercado de tecnología del consumidor."
+        },
+        {
+          "title": "New features in Google Workspace",
+          "summary": "Nuevas capacidades de voz y herramientas en Google Workspace para una mejor colaboración y productividad.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google Workspace",
+            "herramientas",
+            "IA"
+          ],
+          "what_changed": "Mejoras significativas en la funcionalidad de Workspace.",
+          "why_it_matters": "Facilita la colaboración y aumenta la eficiencia en entornos remotos.",
+          "sector_impact": "Fomenta la adopción de herramientas digitales en empresas."
+        },
+        {
+          "title": "Google AI subscriptions update",
+          "summary": "Presentación de un nuevo plan $100 para suscripciones de Google AI, además de nuevas funcionalidades.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "suscripción",
+            "Google AI"
+          ],
+          "what_changed": "Ampliación de la oferta de suscripciones con beneficios nuevos.",
+          "why_it_matters": "Mejora el acceso a herramientas avanzadas de inteligencia artificial.",
+          "sector_impact": "Impulsa el uso empresarial de soluciones de IA."
+        },
+        {
+          "title": "Prototype Google AI glasses demo",
+          "summary": "Demonstraión de unas gafas de IA que superponen información relevante utilizando tecnología Gemini.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "gafas",
+            "IA",
+            "Google"
+          ],
+          "what_changed": "Introducción de tecnología de visualización en el campo de visión.",
+          "why_it_matters": "Innovador enfoque para la interacción con el entorno.",
+          "sector_impact": "Abre nuevas vías en dispositivos portátiles y aplicaciones de IA."
+        },
+        {
+          "title": "Hark's multimodal AI models announcement",
+          "summary": "Hark anuncia el lanzamiento previsto de modelos multimodales que trabajarán con productos existentes.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Hark",
+            "modelos multimodales"
+          ],
+          "what_changed": "Expectativas de lanzamiento para este verano.",
+          "why_it_matters": "Promete mejorar la interacción con interfaces de IA.",
+          "sector_impact": "Puede revolucionar la forma en que interactuamos con la tecnología."
+        },
+        {
+          "title": "Spotify launches new podcast app",
+          "summary": "Spotify desvela una nueva aplicación de escritorio para crear podcasts personales, como respuesta a la competencia.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Spotify",
+            "podcasts",
+            "app"
+          ],
+          "what_changed": "Lanzamiento de una nueva plataforma enfocada en personalización.",
+          "why_it_matters": "Fortalece la posición de Spotify en el mercado de contenido auditivo.",
+          "sector_impact": "Crea un nuevo ecosistema para creadores de contenido."
+        }
+      ]
+    },
+    {
       "date": "2026-05-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -651,114 +791,6 @@
           "what_changed": "Reestructuración de liderazgo en OpenAI.",
           "why_it_matters": "Impulsa la innovación en productos de IA.",
           "sector_impact": "Impacto significativo en la oferta de productos IA de OpenAI."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-16",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Abduction-Based Procedural Refinement",
-          "summary": "Un método de refinamiento neuro-simbólico que incorpora LLMs y un meta-intérprete Prolog para mejorar la deducción de reglas latentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.20334",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "refinamiento",
-            "neuro-simbólico",
-            "LLMs"
-          ],
-          "what_changed": "Introducción del ABPR como un enfoque de refinamiento.",
-          "why_it_matters": "Mejora la precisión en la deducción de reglas complejas, clave para tareas complejas de razonamiento.",
-          "sector_impact": "Fortalece la capacidad de LLMs para resolver problemas abstractos."
-        },
-        {
-          "title": "AgentTrap: Medición de Fallos de Confianza en Agentes",
-          "summary": "Un nuevo banco de pruebas que evalúa la capacidad de los agentes LLM para manejar habilidades de terceros sin caer en comportamientos maliciosos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.13940",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Creación de un marco de evaluación para la seguridad en la ejecución de habilidades de terceros.",
-          "why_it_matters": "Aborda problemas de seguridad emergentes en entornos de agentes multifuncionales.",
-          "sector_impact": "Aumenta la confianza en sistemas que integran agentes LLM y habilidades de terceros."
-        },
-        {
-          "title": "PersonalHomeBench: Evaluación de Agentes en Hogares Inteligentes",
-          "summary": "Un nuevo marco para evaluar modelos como asistentes en entornos domésticos personalizados, abordando limitaciones en razonamiento y planificación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16813",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "asistentes",
-            "hogares inteligentes"
-          ],
-          "what_changed": "Desarrollo de un banco de pruebas que simula la interactividad en entornos domésticos.",
-          "why_it_matters": "Un nuevo marco para evaluar modelos como asistentes en entornos domésticos personalizados, abordando limitaciones en razonamiento y planificación.",
-          "sector_impact": "Impulsa el uso de IA en la automatización del hogar."
-        },
-        {
-          "title": "In-IDE Toolkit para Desarrolladores de Características IA",
-          "summary": "Un plugin para IDEs que facilita la evaluación y depuración de características basadas en LLMs y flujos de trabajo de agentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.14612",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "desarrollo",
-            "IDE",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de un flujo de trabajo nativo de IDE para la captura de trazas y evaluación.",
-          "why_it_matters": "Un plugin para IDEs que facilita la evaluación y depuración de características basadas en LLMs y flujos de trabajo de agentes.",
-          "sector_impact": "Aumenta la accesibilidad del desarrollo de características AI."
-        },
-        {
-          "title": "AgenticEval: Evaluación de Seguridad de Modelos de Lenguaje",
-          "summary": "Propuesta para un marco de evaluación de seguridad que evoluciona de forma autónoma con la integración de LLMs.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2509.26100",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "seguridad",
-            "LLMs"
-          ],
-          "what_changed": "Un nuevo paradigma de evaluación continua que se adapta a los riesgos emergentes.",
-          "why_it_matters": "Propuesta para un marco de evaluación de seguridad que evoluciona de forma autónoma con la integración de LLMs.",
-          "sector_impact": "Mejora la seguridad y cumplimiento en el uso de LLMs."
-        },
-        {
-          "title": "Correctness-Aware Repository Filtering",
-          "summary": "Un marco que mejora la eficiencia del contexto de las herramientas LLM al filtrar repositorios de código antes de la tokenización.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.14362",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "filtrado",
-            "repositorios",
-            "eficiencia"
-          ],
-          "what_changed": "Introducción de un filtrado heurístico basado en el tamaño de archivos.",
-          "why_it_matters": "Un marco que mejora la eficiencia del contexto de las herramientas LLM al filtrar repositorios de código antes de la tokenización.",
-          "sector_impact": "Mejora la calidad en el uso de LLMs en herramientas de desarrollo."
         }
       ]
     }

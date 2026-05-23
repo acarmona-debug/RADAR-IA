@@ -1,127 +1,142 @@
 {
-  "date": "2026-05-22",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones en herramientas y modelos de IA.",
-  "opening_message": "Las innovaciones en IA continúan avanzando a un ritmo acelerado. Este radar presenta los desarrollos más relevantes en herramientas, modelos y características que están redefiniendo el panorama tecnológico.",
+  "date": "2026-05-23",
+  "executive_title": "Radar Diario de IA - Resumen de Innovaciones Recientes",
+  "intro_message": "Las últimas innovaciones y herramientas en inteligencia artificial están cambiando la forma en que trabajamos y nos comunicamos. Aquí están los desarrollos más relevantes.",
+  "opening_message": "Mantente al día con los lanzamientos más recientes en modelos, herramientas y funcionalidades de IA.",
   "items": [
     {
-      "title": "Code Researcher: Deep Research Agent for Large Systems Code",
-      "summary": "Un agente de investigación profundo diseñado para generar parches en código de sistemas, mostrando un notable aumento en la tasa de resolución de fallos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2506.11060",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "summary": "Lanzamiento de Gemini 3.5, una serie de modelos de IA que combinan inteligencia en frontera con acciones efectivas.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [
+        "IA",
+        "modelo",
+        "Gemini"
+      ],
+      "what_changed": "Actualización en la serie de modelos Gemini.",
+      "why_it_matters": "Aporta nuevas capacidades y mejora la eficacia en diversas aplicaciones.",
+      "sector_impact": "Transforma el sector de la inteligencia artificial al mejorar la toma de decisiones automatizada."
+    },
+    {
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "summary": "Overview de las innovaciones presentadas en Google I/O que mejoran la productividad con Gemini.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "código",
+        "IA",
+        "Gemini",
+        "conferencia"
+      ],
+      "what_changed": "Se introdujeron mejoras en la funcionalidad de Gemini.",
+      "why_it_matters": "Ofrece herramientas más efectivas para desarrolladores y usuarios.",
+      "sector_impact": "Impulsa la eficiencia en el entorno laboral moderno."
+    },
+    {
+      "title": "AI agents ecosystem unveiled at I/O 2026",
+      "summary": "Presentación de un ecosistema de agentes de IA que permite a los consumidores interactuar de manera innovadora con la web.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA",
         "agentes",
-        "investigación"
+        "ecosistema"
       ],
-      "what_changed": "Introducción de Code Researcher como un nuevo agente de investigación.",
-      "why_it_matters": "Mejora significante en la resolución de fallos de sistemas, superando modelos previamente efectivos.",
-      "sector_impact": "Transforma significativamente la forma en que se maneja el código de sistemas al mejorar la eficiencia."
+      "what_changed": "Introducción de un nuevo modelo de interacción con internet.",
+      "why_it_matters": "Revoluciona la forma en que los usuarios se relacionan con la tecnología.",
+      "sector_impact": "Crea nuevas oportunidades en el mercado de tecnología del consumidor."
     },
     {
-      "title": "GenAI-Driven Threat Detection with Microsoft Security Copilot",
-      "summary": "Sistema de detección de amenazas impulsado por IA que mejora la identificación de amenazas ocultas en Microsoft Defender.",
+      "title": "New features in Google Workspace",
+      "summary": "Nuevas capacidades de voz y herramientas en Google Workspace para una mejor colaboración y productividad.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.20896",
-      "relevance_score": 8,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "detección",
-        "Microsoft"
-      ],
-      "what_changed": "Implementación del agente DTDA en Microsoft Security Copilot.",
-      "why_it_matters": "Able to identify and recover hidden threats effectively, enhancing overall security capabilities.",
-      "sector_impact": "Significativa mejora en la ciberseguridad en organizaciones que utilizan Microsoft Defender."
-    },
-    {
-      "title": "MCP-Atlas: Tool-Use Competency Evaluation Framework",
-      "summary": "Un nuevo marco para medir la competencia en el uso de herramientas con agentes de LLM en servidores reales.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.00933",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "evaluación",
+        "Google Workspace",
         "herramientas",
-        "agentes"
-      ],
-      "what_changed": "Introducción de MCP-Atlas como un marco de evaluación.",
-      "why_it_matters": "Permite un análisis detallado y preciso de la competencia de los agentes en escenarios del mundo real.",
-      "sector_impact": "Contribuye a la mejora en la efectividad de los agentes de IA en entornos complejos."
-    },
-    {
-      "title": "DrugRAG: Enhancing Pharmacy LLM Performance",
-      "summary": "Método innovador para mejorar el rendimiento de LLM en tareas de farmacología mediante un pipeline de RAG.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2512.14896",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "farmacia",
-        "RAG",
-        "mejora"
-      ],
-      "what_changed": "Desarrollo de DrugRAG como un nuevo pipeline de generación-augmented.",
-      "why_it_matters": "Mejora la precisão en tareas de farmacología, ampliando la viabilidad de LLM en este sector.",
-      "sector_impact": "Optimiza la capacitación de modelos de IA centrándose en la farmacología y situaciones relacionadas."
-    },
-    {
-      "title": "SVFSearch: Benchmark for Short-Video Frame Search",
-      "summary": "El primer benchmark para la búsqueda de marcos de cortometrajes en la industria de los videojuegos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.17946",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "video",
-        "gaming"
-      ],
-      "what_changed": "Introducción de SVFSearch para evaluación en contexto de video corto.",
-      "why_it_matters": "Permite una evaluación justa y reproducible para la búsqueda en juegos, un área en rápida evolución.",
-      "sector_impact": "Facilita la integración de modelos de IA en aplicaciones de videojuegos y multimedia."
-    },
-    {
-      "title": "Heartbeat-Bound Hierarchical Credentials",
-      "summary": "Protocolo criptográfico para revocación de credenciales en agentes de IA autónomos, mejorando la seguridad.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.20704",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "cripto",
-        "agentes"
-      ],
-      "what_changed": "Desarrollo de un nuevo protocolo de credenciales para agentes de IA.",
-      "why_it_matters": "Minimiza el riesgo de operación de agentes 'zombis', mejorando la seguridad en los sistemas autónomos.",
-      "sector_impact": "Aumenta la fiabilidad y seguridad en aplicaciones de IA que dependen de credenciales jerárquicas."
-    },
-    {
-      "title": "Tool-Augmented Agent for Closed-loop Optimization",
-      "summary": "Marco que permite a los LLM ejecutar optimizaciones de diseño industrial mediante aprendizaje reforzado.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.20190",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "optimización",
-        "diseño",
         "IA"
       ],
-      "what_changed": "Propuesta del COSMO-Agent para optimizar procesos CAD-CAE.",
-      "why_it_matters": "Resuelve el problema de semántica CAD-CAE, agilizando el proceso de diseño y simulación.",
-      "sector_impact": "Impulsa la innovación en el diseño industrial al integrar tecnología de IA en procesos de modelado."
+      "what_changed": "Mejoras significativas en la funcionalidad de Workspace.",
+      "why_it_matters": "Facilita la colaboración y aumenta la eficiencia en entornos remotos.",
+      "sector_impact": "Fomenta la adopción de herramientas digitales en empresas."
+    },
+    {
+      "title": "Google AI subscriptions update",
+      "summary": "Presentación de un nuevo plan $100 para suscripciones de Google AI, además de nuevas funcionalidades.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "suscripción",
+        "Google AI"
+      ],
+      "what_changed": "Ampliación de la oferta de suscripciones con beneficios nuevos.",
+      "why_it_matters": "Mejora el acceso a herramientas avanzadas de inteligencia artificial.",
+      "sector_impact": "Impulsa el uso empresarial de soluciones de IA."
+    },
+    {
+      "title": "Prototype Google AI glasses demo",
+      "summary": "Demonstraión de unas gafas de IA que superponen información relevante utilizando tecnología Gemini.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "gafas",
+        "IA",
+        "Google"
+      ],
+      "what_changed": "Introducción de tecnología de visualización en el campo de visión.",
+      "why_it_matters": "Innovador enfoque para la interacción con el entorno.",
+      "sector_impact": "Abre nuevas vías en dispositivos portátiles y aplicaciones de IA."
+    },
+    {
+      "title": "Hark's multimodal AI models announcement",
+      "summary": "Hark anuncia el lanzamiento previsto de modelos multimodales que trabajarán con productos existentes.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Hark",
+        "modelos multimodales"
+      ],
+      "what_changed": "Expectativas de lanzamiento para este verano.",
+      "why_it_matters": "Promete mejorar la interacción con interfaces de IA.",
+      "sector_impact": "Puede revolucionar la forma en que interactuamos con la tecnología."
+    },
+    {
+      "title": "Spotify launches new podcast app",
+      "summary": "Spotify desvela una nueva aplicación de escritorio para crear podcasts personales, como respuesta a la competencia.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Spotify",
+        "podcasts",
+        "app"
+      ],
+      "what_changed": "Lanzamiento de una nueva plataforma enfocada en personalización.",
+      "why_it_matters": "Fortalece la posición de Spotify en el mercado de contenido auditivo.",
+      "sector_impact": "Crea un nuevo ecosistema para creadores de contenido."
     }
   ]
 }
