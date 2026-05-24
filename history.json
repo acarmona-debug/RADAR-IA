@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-05-24",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "100 cosas que anunciamos en I/O 2026",
+          "summary": "Presentamos Gemini Omni, Google Antigravity, Universal Cart y más.",
+          "category": "sector",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "lanzamientos",
+            "nuevas herramientas"
+          ],
+          "what_changed": "Anuncio de múltiples herramientas y tecnologías.",
+          "why_it_matters": "Estas innovaciones pueden redefinir cómo interactuamos con la tecnología.",
+          "sector_impact": "Impacto significativo en la industria de IA y tecnología."
+        },
+        {
+          "title": "Nvidia encuentra un nuevo mercado de $200B para CPUs de agentes de IA",
+          "summary": "Jensen Huang predice un auge en la demanda de CPUs dedicadas a IA.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "hardware",
+            "IA"
+          ],
+          "what_changed": "Expansión hacia CPU específicos para inteligencia artificial.",
+          "why_it_matters": "Podría revolucionar el hardware utilizado en IA.",
+          "sector_impact": "Genera nuevas oportunidades en el mercado tecnológico."
+        },
+        {
+          "title": "Nuevo experimento mejora reuniones grupales en Google Beam",
+          "summary": "Innovaciones que prometen hacer las reuniones híbridas más inclusivas.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "meeting tech",
+            "innovación"
+          ],
+          "what_changed": "Mejoras en la calidad de interacción en reuniones híbridas.",
+          "why_it_matters": "Facilita una mayor conexión y comunicación entre equipos.",
+          "sector_impact": "Transforma el entorno laboral."
+        },
+        {
+          "title": "Spotify lanza herramienta de creación de audiolibros con ElevenLabs",
+          "summary": "Generación de audiolibros impulsada por IA sin contratos exclusivos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "audiolibros",
+            "IA"
+          ],
+          "what_changed": "Facilita la producción de audiolibros a través de IA.",
+          "why_it_matters": "Proporciona más opciones y flexibilidad a los autores.",
+          "sector_impact": "Revoluciona la industria editorial y de audiolibros."
+        },
+        {
+          "title": "Modelo de IA altamente seguro para terapia psicológica",
+          "summary": "El Path logra un excelente puntaje en medidas de seguridad de IA para salud mental.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "salud mental",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un modelo de terapia IA más seguro.",
+          "why_it_matters": "Aumenta la confianza en el uso de IA en salud mental.",
+          "sector_impact": "Potencia el bienestar y soporte emocional."
+        },
+        {
+          "title": "Hacia una generación de texto a velocidad de luz con Nemotron-Labs",
+          "summary": "Desarrollo de modelos de lenguaje de difusión que prometen velocidad y eficiencia.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelos de lenguaje",
+            "innovación"
+          ],
+          "what_changed": "Avances en la generación de texto con alta velocidad.",
+          "why_it_matters": "Puede mejorar la productividad en textos y contenido.",
+          "sector_impact": "Amplía las capacidades de procesamiento de lenguaje natural."
+        },
+        {
+          "title": "Agentes de IA y el futuro de la automatización",
+          "summary": "El crecimiento de la IA predictiva y sus aplicaciones en diversos sectores.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "IA"
+          ],
+          "what_changed": "Progreso significativo en la implementación de agentes IA.",
+          "why_it_matters": "Transforma la manera en que interactuamos con tecnología y servicios.",
+          "sector_impact": "Mejora la eficiencia operativa en múltiples industrias."
+        }
+      ]
+    },
+    {
       "date": "2026-05-23",
       "executive_title": "Radar Diario de IA - Resumen de Innovaciones Recientes",
       "items": [
@@ -717,80 +835,6 @@
           "what_changed": "Optimización de procesos en dispositivos locales.",
           "why_it_matters": "Reduce el consumo energético de los modelos AI en dispositivos de consumo.",
           "sector_impact": "Fomenta un enfoque más sostenible en el uso de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-17",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI lanza ChatGPT para finanzas personales",
-          "summary": "Los usuarios podrán conectar sus cuentas bancarias y visualizar el rendimiento de su cartera, gastos y pagos próximos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "finanzas",
-            "automatización"
-          ],
-          "what_changed": "Lanzamiento de una nueva funcionalidad de ChatGPT.",
-          "why_it_matters": "Facilita la gestión financiera personal mediante IA.",
-          "sector_impact": "Mejora la accesibilidad de herramientas financieras para usuarios."
-        },
-        {
-          "title": "Osaurus combina modelos de IA locales y en la nube para Mac",
-          "summary": "Una aplicación que mantiene los recursos del usuario en su propio hardware, combinando lo local y lo en la nube.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [
-            "Osaurus",
-            "modelo local",
-            "modelo en la nube"
-          ],
-          "what_changed": "Lanzamiento de una nueva aplicación de IA para Mac.",
-          "why_it_matters": "Proporciona flexibilidad al usuario sobre su información y herramientas.",
-          "sector_impact": "Impulsa la adopción de IA en entornos personales y profesionales."
-        },
-        {
-          "title": "Clawdmeter transforma estadísticas de Claude Code en un panel de escritorio",
-          "summary": "Un gadget de código abierto que facilita a los usuarios de Claude Code visualizar estadísticas de uso.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "dashboard",
-            "código"
-          ],
-          "what_changed": "Introducción de un nuevo gadget para facilitar el análisis de datos.",
-          "why_it_matters": "Mejora la experiencia de usuario para desarrolladores de IA.",
-          "sector_impact": "Fomenta el uso eficiente de herramientas de programación."
-        },
-        {
-          "title": "OpenAI cofundador toma las riendas de la estrategia de producto",
-          "summary": "Greg Brockman liderará la integración de ChatGPT y Codex.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-          "relevance_score": 14,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "ChatGPT",
-            "Codex"
-          ],
-          "what_changed": "Reestructuración de liderazgo en OpenAI.",
-          "why_it_matters": "Impulsa la innovación en productos de IA.",
-          "sector_impact": "Impacto significativo en la oferta de productos IA de OpenAI."
         }
       ]
     }
