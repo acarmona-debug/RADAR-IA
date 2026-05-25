@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-05-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+          "summary": "SkillOpt optimiza habilidades de agentes mediante un enfoque sistemático y controlado, mejorando notablemente su rendimiento en tareas complejas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.23904",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "agentes",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Introducción de un optimizador de habilidades que mejora el rendimiento de agentes en diversas tareas.",
+          "why_it_matters": "Permite a los agentes adaptarse y mejorar continuamente, aumentando su utilidad en aplicaciones prácticas.",
+          "sector_impact": "Eleva la eficacia de los agentes en múltiples sectores, desde atención al cliente hasta desarrollo de software."
+        },
+        {
+          "title": "SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety",
+          "summary": "SafeHarbor introduce un marco innovador para mejorar la seguridad de los LLM, equilibrando efectivamente utilidad y seguridad.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.05704",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes",
+            "modelos"
+          ],
+          "what_changed": "Desarrollo de un sistema de memoria jerárquica que mejora la toma de decisiones de los agentes.",
+          "why_it_matters": "Reducir riesgos de comportamiento dañino de AI en entornos reales es crítico para su implementación segura.",
+          "sector_impact": "Aumenta la adopción de LLM en industrias donde la seguridad es primordial, como salud y finanzas."
+        },
+        {
+          "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+          "summary": "AutoResearch busca automatizar flujos de trabajo de investigación científica, facilitando desde la generación de hipótesis hasta la validación y comunicación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.23204",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "investigación",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Se identifican cinco condiciones de flujo de trabajo para promover la automatización de la investigación.",
+          "why_it_matters": "Optimizar la investigación científica permite descubrimientos más rápidos y eficientes.",
+          "sector_impact": "Impacto significativo en sectores académicos y comerciales, mejorando procesos y reduciendo tiempos de entrega."
+        },
+        {
+          "title": "Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems",
+          "summary": "IDS permite a los agentes AI generar sistemas verificados formalmente, acelerando la producción de software seguro.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.23109",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "sistemas",
+            "verificación",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Presentación de una metodología efectiva para síntesis de implementación y prueba en un sistema LLM.",
+          "why_it_matters": "Mejora la confianza en sistemas críticos al garantizar que cumplan con especificaciones formales.",
+          "sector_impact": "Especialmente relevante en desarrollo de software, donde la seguridad y la confiabilidad son esenciales."
+        },
+        {
+          "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+          "summary": "EvalVerse establece un estándar para la evaluación automatizada de generación de video cinematográfico, alineando la calidad estética con métricas científicas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.23271",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "generación de video",
+            "evaluación",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Introducción de un marco de evaluación experto y ajustado para generación de video.",
+          "why_it_matters": "Mejora la calidad de los modelos generativos aplicados a cine y video profesional.",
+          "sector_impact": "Apto para la producción cinematográfica y contenido multimedia de alta calidad."
+        },
+        {
+          "title": "GENSTRAT: Toward a Science of Strategic Reasoning in Large Language Models",
+          "summary": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.23238",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "razonamiento estratégico",
+            "modelos",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Introducción de un marco para evaluar modelos en juegos estratégicos generados proceduralmente.",
+          "why_it_matters": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
+          "sector_impact": "Impacta en el diseño de sistemas de AI para juegos, subastas y mercados."
+        }
+      ]
+    },
+    {
       "date": "2026-05-24",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -710,131 +818,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-18",
-      "executive_title": "Radar Diario de IA - Novedades y Avances Cruciales",
-      "items": [
-        {
-          "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
-          "summary": "Un nuevo marco que mejora la orquestación de múltiples agentes al tratar la ejecución como una máquina de estados restringida, logrando un 86.5% de finalización de tareas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15204",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "multi-agente",
-            "orquestación",
-            "eficiencia"
-          ],
-          "what_changed": "Introducción de una nueva forma de gestionar la ejecución de múltiples agentes.",
-          "why_it_matters": "Optimiza el control y la precisión en la ejecución de tareas complejas.",
-          "sector_impact": "Mejora la eficiencia en sistematizaciones empresariales."
-        },
-        {
-          "title": "VideoSeeker: Incentivizing Instance-level Video Understanding via Native Agentic Tool Invocation",
-          "summary": "Un paradigma nuevo para la comprensión de video que combina razonamiento y tacto, superando modelos anteriores en un 13.7%.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.16079",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "video",
-            "comprensión",
-            "agente"
-          ],
-          "what_changed": "Mejoras significativas en la capacidad para comprender y manipular video a nivel de instancias.",
-          "why_it_matters": "Potencia las aplicaciones de IA en videos, mejorando la interacción del usuario.",
-          "sector_impact": "Transforma el análisis de datos visuales en tiempo real."
-        },
-        {
-          "title": "A3D: Agentic AI flow for autonomous Accelerator Design",
-          "summary": "Un flujo de trabajo automatizado para el diseño de aceleradores de hardware que mejora significativamente la eficiencia del sistema.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15237",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aceleradores",
-            "diseño",
-            "automatización"
-          ],
-          "what_changed": "Integración de flujos automatizados para el análisis y diseño.",
-          "why_it_matters": "Reduce el tiempo de desarrollo y mejora la eficiencia energética.",
-          "sector_impact": "Optimización en la industria de diseño de hardware."
-        },
-        {
-          "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?",
-          "summary": "Benchmark que evalúa agentes en ciclos de trabajo complejos utilizando sistemas SaaS en entornos de trabajo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15777",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "SaaS",
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de un benchmarking para evaluar capacidades en entornos profesionales.",
-          "why_it_matters": "Identifica limitaciones de los agentes y oportunidades de mejora.",
-          "sector_impact": "Impacto directo en eficiencia operativa y colaboración."
-        },
-        {
-          "title": "Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution",
-          "summary": "Framework innovador que permite aprendizaje continuo sin necesidad de actualización de pesos en LLMs, mejorando significativamente la precisión.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15301",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "programación",
-            "agente",
-            "aprendizaje"
-          ],
-          "what_changed": "Evolución del modelo a través de un sistema cerrado.",
-          "why_it_matters": "Presenta un nuevo estándar para la generación de código en concursos.",
-          "sector_impact": "Impulsa la competitividad en el desarrollo de software."
-        },
-        {
-          "title": "Hybrid LLM-based Intelligent Framework for Robot Task Scheduling",
-          "summary": "Marco inteligente que utiliza LLMs para optimizar la programación de tareas en robots de construcción, mejorando la comunicación y la eficiencia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15486",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "robótica",
-            "programación",
-            "inteligente"
-          ],
-          "what_changed": "Implementación de LLMs en la programación robótica.",
-          "why_it_matters": "Facilita la adaptación a condiciones cambiantes en el lugar de trabajo.",
-          "sector_impact": "Mejora la eficiencia en la industria de la construcción."
-        },
-        {
-          "title": "AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer Devices",
-          "summary": "Una supervisión efímera que predice y termina procesos de LLM al local para ahorrar energía sin afectar el rendimiento.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.15206",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "eficiencia",
-            "energía",
-            "local"
-          ],
-          "what_changed": "Optimización de procesos en dispositivos locales.",
-          "why_it_matters": "Reduce el consumo energético de los modelos AI en dispositivos de consumo.",
-          "sector_impact": "Fomenta un enfoque más sostenible en el uso de IA."
         }
       ]
     }

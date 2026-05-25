@@ -1,120 +1,110 @@
 {
-  "date": "2026-05-24",
+  "date": "2026-05-25",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas novedades en IA.",
-  "opening_message": "Descubre las herramientas, modelos y características más relevantes que están cambiando el panorama de la inteligencia artificial.",
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas y modelos de inteligencia artificial.",
+  "opening_message": "Hoy, destacamos herramientas y avances que están revolucionando el universo de la inteligencia artificial, con un enfoque en automatización y modelos avanzados.",
   "items": [
     {
-      "title": "100 cosas que anunciamos en I/O 2026",
-      "summary": "Presentamos Gemini Omni, Google Antigravity, Universal Cart y más.",
-      "category": "sector",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "lanzamientos",
-        "nuevas herramientas"
-      ],
-      "what_changed": "Anuncio de múltiples herramientas y tecnologías.",
-      "why_it_matters": "Estas innovaciones pueden redefinir cómo interactuamos con la tecnología.",
-      "sector_impact": "Impacto significativo en la industria de IA y tecnología."
-    },
-    {
-      "title": "Nvidia encuentra un nuevo mercado de $200B para CPUs de agentes de IA",
-      "summary": "Jensen Huang predice un auge en la demanda de CPUs dedicadas a IA.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "hardware",
-        "IA"
-      ],
-      "what_changed": "Expansión hacia CPU específicos para inteligencia artificial.",
-      "why_it_matters": "Podría revolucionar el hardware utilizado en IA.",
-      "sector_impact": "Genera nuevas oportunidades en el mercado tecnológico."
-    },
-    {
-      "title": "Nuevo experimento mejora reuniones grupales en Google Beam",
-      "summary": "Innovaciones que prometen hacer las reuniones híbridas más inclusivas.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "meeting tech",
-        "innovación"
-      ],
-      "what_changed": "Mejoras en la calidad de interacción en reuniones híbridas.",
-      "why_it_matters": "Facilita una mayor conexión y comunicación entre equipos.",
-      "sector_impact": "Transforma el entorno laboral."
-    },
-    {
-      "title": "Spotify lanza herramienta de creación de audiolibros con ElevenLabs",
-      "summary": "Generación de audiolibros impulsada por IA sin contratos exclusivos.",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "summary": "SkillOpt optimiza habilidades de agentes mediante un enfoque sistemático y controlado, mejorando notablemente su rendimiento en tareas complejas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "audiolibros",
-        "IA"
-      ],
-      "what_changed": "Facilita la producción de audiolibros a través de IA.",
-      "why_it_matters": "Proporciona más opciones y flexibilidad a los autores.",
-      "sector_impact": "Revoluciona la industria editorial y de audiolibros."
-    },
-    {
-      "title": "Modelo de IA altamente seguro para terapia psicológica",
-      "summary": "El Path logra un excelente puntaje en medidas de seguridad de IA para salud mental.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "salud mental",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de un modelo de terapia IA más seguro.",
-      "why_it_matters": "Aumenta la confianza en el uso de IA en salud mental.",
-      "sector_impact": "Potencia el bienestar y soporte emocional."
-    },
-    {
-      "title": "Hacia una generación de texto a velocidad de luz con Nemotron-Labs",
-      "summary": "Desarrollo de modelos de lenguaje de difusión que prometen velocidad y eficiencia.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "modelos de lenguaje",
-        "innovación"
-      ],
-      "what_changed": "Avances en la generación de texto con alta velocidad.",
-      "why_it_matters": "Puede mejorar la productividad en textos y contenido.",
-      "sector_impact": "Amplía las capacidades de procesamiento de lenguaje natural."
-    },
-    {
-      "title": "Agentes de IA y el futuro de la automatización",
-      "summary": "El crecimiento de la IA predictiva y sus aplicaciones en diversos sectores.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.23904",
       "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "optimización",
+        "agentes",
+        "inteligencia artificial"
+      ],
+      "what_changed": "Introducción de un optimizador de habilidades que mejora el rendimiento de agentes en diversas tareas.",
+      "why_it_matters": "Permite a los agentes adaptarse y mejorar continuamente, aumentando su utilidad en aplicaciones prácticas.",
+      "sector_impact": "Eleva la eficacia de los agentes en múltiples sectores, desde atención al cliente hasta desarrollo de software."
+    },
+    {
+      "title": "SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety",
+      "summary": "SafeHarbor introduce un marco innovador para mejorar la seguridad de los LLM, equilibrando efectivamente utilidad y seguridad.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.05704",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "agentes",
+        "modelos"
+      ],
+      "what_changed": "Desarrollo de un sistema de memoria jerárquica que mejora la toma de decisiones de los agentes.",
+      "why_it_matters": "Reducir riesgos de comportamiento dañino de AI en entornos reales es crítico para su implementación segura.",
+      "sector_impact": "Aumenta la adopción de LLM en industrias donde la seguridad es primordial, como salud y finanzas."
+    },
+    {
+      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+      "summary": "AutoResearch busca automatizar flujos de trabajo de investigación científica, facilitando desde la generación de hipótesis hasta la validación y comunicación.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.23204",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
         "automatización",
-        "IA"
+        "investigación",
+        "inteligencia artificial"
       ],
-      "what_changed": "Progreso significativo en la implementación de agentes IA.",
-      "why_it_matters": "Transforma la manera en que interactuamos con tecnología y servicios.",
-      "sector_impact": "Mejora la eficiencia operativa en múltiples industrias."
+      "what_changed": "Se identifican cinco condiciones de flujo de trabajo para promover la automatización de la investigación.",
+      "why_it_matters": "Optimizar la investigación científica permite descubrimientos más rápidos y eficientes.",
+      "sector_impact": "Impacto significativo en sectores académicos y comerciales, mejorando procesos y reduciendo tiempos de entrega."
+    },
+    {
+      "title": "Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems",
+      "summary": "IDS permite a los agentes AI generar sistemas verificados formalmente, acelerando la producción de software seguro.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.23109",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "sistemas",
+        "verificación",
+        "inteligencia artificial"
+      ],
+      "what_changed": "Presentación de una metodología efectiva para síntesis de implementación y prueba en un sistema LLM.",
+      "why_it_matters": "Mejora la confianza en sistemas críticos al garantizar que cumplan con especificaciones formales.",
+      "sector_impact": "Especialmente relevante en desarrollo de software, donde la seguridad y la confiabilidad son esenciales."
+    },
+    {
+      "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
+      "summary": "EvalVerse establece un estándar para la evaluación automatizada de generación de video cinematográfico, alineando la calidad estética con métricas científicas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.23271",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "generación de video",
+        "evaluación",
+        "inteligencia artificial"
+      ],
+      "what_changed": "Introducción de un marco de evaluación experto y ajustado para generación de video.",
+      "why_it_matters": "Mejora la calidad de los modelos generativos aplicados a cine y video profesional.",
+      "sector_impact": "Apto para la producción cinematográfica y contenido multimedia de alta calidad."
+    },
+    {
+      "title": "GENSTRAT: Toward a Science of Strategic Reasoning in Large Language Models",
+      "summary": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.23238",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "razonamiento estratégico",
+        "modelos",
+        "inteligencia artificial"
+      ],
+      "what_changed": "Introducción de un marco para evaluar modelos en juegos estratégicos generados proceduralmente.",
+      "why_it_matters": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
+      "sector_impact": "Impacta en el diseño de sistemas de AI para juegos, subastas y mercados."
     }
   ]
 }
