@@ -1,110 +1,93 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas y modelos de inteligencia artificial.",
-  "opening_message": "Hoy, destacamos herramientas y avances que están revolucionando el universo de la inteligencia artificial, con un enfoque en automatización y modelos avanzados.",
+  "intro_message": "Resumen de los desarrollos más recientes y relevantes en el campo de la inteligencia artificial.",
+  "opening_message": "Enfocándonos en herramientas, modelos y características nuevas, aquí están los últimos avances que no te puedes perder.",
   "items": [
     {
-      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-      "summary": "SkillOpt optimiza habilidades de agentes mediante un enfoque sistemático y controlado, mejorando notablemente su rendimiento en tareas complejas.",
+      "title": "MDIA: Una Nueva Pipeline de Inteligencia Diagnóstica Multi-Agente",
+      "summary": "MDIA demuestra mejoras significativas en benchmarks clínicos a través de un diseño arquitectónico innovador en un modelo no ajustado.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.23904",
+      "source_url": "https://arxiv.org/abs/2605.24699",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "optimización",
-        "agentes",
-        "inteligencia artificial"
+        "multi-agente",
+        "salud",
+        "arquitectura"
       ],
-      "what_changed": "Introducción de un optimizador de habilidades que mejora el rendimiento de agentes en diversas tareas.",
-      "why_it_matters": "Permite a los agentes adaptarse y mejorar continuamente, aumentando su utilidad en aplicaciones prácticas.",
-      "sector_impact": "Eleva la eficacia de los agentes en múltiples sectores, desde atención al cliente hasta desarrollo de software."
+      "what_changed": "Implementación de un gráfico de razonamiento clínico especializado que mejora el rendimiento.",
+      "why_it_matters": "Ofrece un enfoque alternativo y eficaz para evaluar LLMs en entornos clínicos.",
+      "sector_impact": "Impacto significativo en el sector salud, mejorando la toma de decisiones clínica."
     },
     {
-      "title": "SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety",
-      "summary": "SafeHarbor introduce un marco innovador para mejorar la seguridad de los LLM, equilibrando efectivamente utilidad y seguridad.",
+      "title": "UniToolCall: Unificación del Uso de Herramientas para Agentes LLM",
+      "summary": "Un marco unificado que estandariza el uso de herramientas y la evaluación en agentes LLMs.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.05704",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2604.11557",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "herramientas",
+        "agentes",
+        "evaluación"
+      ],
+      "what_changed": "Unificación del pipeline desde la construcción de herramientas hasta la evaluación.",
+      "why_it_matters": "Facilita el desarrollo y mejora la eficiencia en el uso de herramientas por parte de los LLMs.",
+      "sector_impact": "Aumenta la eficacia de los agentes LLM en diversas aplicaciones."
+    },
+    {
+      "title": "PennySynth: Generación de Código Cuántico Automatizada",
+      "summary": "Un marco que mejora la calidad de generación de código cuántico mediante la recuperación y generación aumentada.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.25572",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "cuántico",
+        "generación de código",
+        "herramienta"
+      ],
+      "what_changed": "Introducción de una estrategia de embedding consciente del código.",
+      "why_it_matters": "Mejora significativamente la calidad del código generado, alineándolo con las prácticas cuánticas.",
+      "sector_impact": "Transforma la forma en que se desarrolla el software cuántico."
+    },
+    {
+      "title": "MA-CoT: Mejora de la Fiabilidad en la Generación de Código Seguro",
+      "summary": "Presenta un marco que incorpora directrices de mitigación de vulnerabilidades en LLMs para reducir riesgos de seguridad.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.24300",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
         "seguridad",
-        "agentes",
-        "modelos"
+        "código",
+        "framework"
       ],
-      "what_changed": "Desarrollo de un sistema de memoria jerárquica que mejora la toma de decisiones de los agentes.",
-      "why_it_matters": "Reducir riesgos de comportamiento dañino de AI en entornos reales es crítico para su implementación segura.",
-      "sector_impact": "Aumenta la adopción de LLM en industrias donde la seguridad es primordial, como salud y finanzas."
+      "what_changed": "Incorporación de guías específicas para mitigar vulnerabilidades, mejorando la fiabilidad del código.",
+      "why_it_matters": "Reduce significativamente el número de hallazgos de seguridad en el código generado.",
+      "sector_impact": "Proporciona un enfoque más seguro para el desarrollo de software."
     },
     {
-      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
-      "summary": "AutoResearch busca automatizar flujos de trabajo de investigación científica, facilitando desde la generación de hipótesis hasta la validación y comunicación.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.23204",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "automatización",
-        "investigación",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Se identifican cinco condiciones de flujo de trabajo para promover la automatización de la investigación.",
-      "why_it_matters": "Optimizar la investigación científica permite descubrimientos más rápidos y eficientes.",
-      "sector_impact": "Impacto significativo en sectores académicos y comerciales, mejorando procesos y reduciendo tiempos de entrega."
-    },
-    {
-      "title": "Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems",
-      "summary": "IDS permite a los agentes AI generar sistemas verificados formalmente, acelerando la producción de software seguro.",
+      "title": "UtilityMax Prompting: Un Marco Formal para Tareas de Modelos de Lenguaje",
+      "summary": "Introduce un enfoque formal para la especificación de tareas en LLMs que maximiza la utilidad esperada.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.23109",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2603.11583",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "sistemas",
-        "verificación",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Presentación de una metodología efectiva para síntesis de implementación y prueba en un sistema LLM.",
-      "why_it_matters": "Mejora la confianza en sistemas críticos al garantizar que cumplan con especificaciones formales.",
-      "sector_impact": "Especialmente relevante en desarrollo de software, donde la seguridad y la confiabilidad son esenciales."
-    },
-    {
-      "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
-      "summary": "EvalVerse establece un estándar para la evaluación automatizada de generación de video cinematográfico, alineando la calidad estética con métricas científicas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.23271",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "generación de video",
-        "evaluación",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Introducción de un marco de evaluación experto y ajustado para generación de video.",
-      "why_it_matters": "Mejora la calidad de los modelos generativos aplicados a cine y video profesional.",
-      "sector_impact": "Apto para la producción cinematográfica y contenido multimedia de alta calidad."
-    },
-    {
-      "title": "GENSTRAT: Toward a Science of Strategic Reasoning in Large Language Models",
-      "summary": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.23238",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "razonamiento estratégico",
         "modelos",
-        "inteligencia artificial"
+        "optimización",
+        "tareas"
       ],
-      "what_changed": "Introducción de un marco para evaluar modelos en juegos estratégicos generados proceduralmente.",
-      "why_it_matters": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
-      "sector_impact": "Impacta en el diseño de sistemas de AI para juegos, subastas y mercados."
+      "what_changed": "Reconstrucción de tareas como diagramas de influencia para optimización precisa.",
+      "why_it_matters": "Mejora la eficacia y precisión en la resolución de tareas complejas de múltiples objetivos.",
+      "sector_impact": "Proporciona un marco más eficaz para la utilización de LLMs en contextos complejos."
     }
   ]
 }

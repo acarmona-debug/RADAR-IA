@@ -1,6 +1,97 @@
 {
   "days": [
     {
+      "date": "2026-05-26",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "MDIA: Una Nueva Pipeline de Inteligencia Diagnóstica Multi-Agente",
+          "summary": "MDIA demuestra mejoras significativas en benchmarks clínicos a través de un diseño arquitectónico innovador en un modelo no ajustado.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.24699",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multi-agente",
+            "salud",
+            "arquitectura"
+          ],
+          "what_changed": "Implementación de un gráfico de razonamiento clínico especializado que mejora el rendimiento.",
+          "why_it_matters": "Ofrece un enfoque alternativo y eficaz para evaluar LLMs en entornos clínicos.",
+          "sector_impact": "Impacto significativo en el sector salud, mejorando la toma de decisiones clínica."
+        },
+        {
+          "title": "UniToolCall: Unificación del Uso de Herramientas para Agentes LLM",
+          "summary": "Un marco unificado que estandariza el uso de herramientas y la evaluación en agentes LLMs.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.11557",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Unificación del pipeline desde la construcción de herramientas hasta la evaluación.",
+          "why_it_matters": "Facilita el desarrollo y mejora la eficiencia en el uso de herramientas por parte de los LLMs.",
+          "sector_impact": "Aumenta la eficacia de los agentes LLM en diversas aplicaciones."
+        },
+        {
+          "title": "PennySynth: Generación de Código Cuántico Automatizada",
+          "summary": "Un marco que mejora la calidad de generación de código cuántico mediante la recuperación y generación aumentada.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.25572",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "cuántico",
+            "generación de código",
+            "herramienta"
+          ],
+          "what_changed": "Introducción de una estrategia de embedding consciente del código.",
+          "why_it_matters": "Mejora significativamente la calidad del código generado, alineándolo con las prácticas cuánticas.",
+          "sector_impact": "Transforma la forma en que se desarrolla el software cuántico."
+        },
+        {
+          "title": "MA-CoT: Mejora de la Fiabilidad en la Generación de Código Seguro",
+          "summary": "Presenta un marco que incorpora directrices de mitigación de vulnerabilidades en LLMs para reducir riesgos de seguridad.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.24300",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "código",
+            "framework"
+          ],
+          "what_changed": "Incorporación de guías específicas para mitigar vulnerabilidades, mejorando la fiabilidad del código.",
+          "why_it_matters": "Reduce significativamente el número de hallazgos de seguridad en el código generado.",
+          "sector_impact": "Proporciona un enfoque más seguro para el desarrollo de software."
+        },
+        {
+          "title": "UtilityMax Prompting: Un Marco Formal para Tareas de Modelos de Lenguaje",
+          "summary": "Introduce un enfoque formal para la especificación de tareas en LLMs que maximiza la utilidad esperada.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.11583",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "optimización",
+            "tareas"
+          ],
+          "what_changed": "Reconstrucción de tareas como diagramas de influencia para optimización precisa.",
+          "why_it_matters": "Mejora la eficacia y precisión en la resolución de tareas complejas de múltiples objetivos.",
+          "sector_impact": "Proporciona un marco más eficaz para la utilización de LLMs en contextos complejos."
+        }
+      ]
+    },
+    {
       "date": "2026-05-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -703,116 +794,6 @@
           "source_name": "ArXiv AI",
           "source_url": "https://arxiv.org/abs/2605.19743",
           "relevance_score": 28,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-19",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "A-ProS: Towards Reliable Autonomous Programming Through Multi-Model Feedback",
-          "summary": "arXiv:2605.18073v1 Announce Type: cross Abstract: Large Language Models (LLMs) demonstrate strong potential for automated code generation, yet their ability to iteratively refine solutions using execution feedback remains underexplored. Competitive programming offers an ideal testbed for this investigation, as it demands end-to-end algorithmic reasoning, precise implementation under strict computational constraints, and complete functional correctness with rigorous evaluation. In this paper, we present A-ProS, an autonomous AI agent that solves competitive programming problems through a hybrid multi-model feedback framework separating solution generation from specialized debugging. A-ProS combines ChatGPT-based generators (GPT-4 and GPT-5) with three debugging critics: Codestral-2508, Llama-3.3-70B, and DeepSeek-R1, under a 2 x 3 factorial design. We evaluate six workflows on 367 problems from ICPC World Finals (2011-2024) and Codeforces (rated 1200-1800). The results show that GPT-5 workflows improve from 39 initial accepted solutions to 85-90 after three refinement rounds, while GPT-4 improves from 15 to 31-38. A controlled ablation on 47 problems shows that stateful refinement outperforms stateless approaches by 8.5-10.6 percentage points and reduces repeated failures by up to 3.5x. Compared to baseline agent loops, A-ProS achieves over 2x greater gains, highlighting the importance of persistent context and multi-model feedback for reliable autonomous program synthesis.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.18073",
-          "relevance_score": 38,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?",
-          "summary": "arXiv:2605.17789v1 Announce Type: cross Abstract: Memory systems for AI assistants were built for single-user dialogue and fail characteristically when applied to multi-party social group settings. This gap matters for the social assistants being built today: group-acting agents embedded in chat platforms, and proactive personal-assistant agents whose holistic model of a user must include their social context. Existing memory benchmarks evaluate dyadic or workplace dialogue; none targets multi-party social groups, where memory must anchor facts in shared history rather than professional roles, separate group norms from individual exceptions, and correctly attribute even after member departure. We introduce SocialMemBench, a benchmark of human-verified synthetic social group networks across five archetypes (close friends, family, recreational, interest community, acquaintance network) and three group-size tiers (4-30 members), with 430 personas and 7,355 conversation turns, yielding 1,031 QA pairs across nine question categories. Each category isolates an architectural capability, and the five failure modes (single-stream conflation, temporal-state overwrite, entity merging at scale, missing cross-persona knowledge, norm-individual conflation) are testable hypotheses; our two research probes Subject-Mem and SMG provide evidence on two, three remain open. A full-context Gemini 2.5 Flash reference reaches only 0.721 against a blind-critic reasoning-model mean of 0.98 on small networks, indicating the benchmark is genuinely difficult even with complete access to the conversation. Across all 43 networks, the four open-source memory frameworks evaluated (Mem0, LangMem, Graphiti, Cognee) cluster in the 0.12-0.18 question-weighted range with overlapping 95% CIs, well below an uncompressed retrieval reference of 0.345 and a matched-answerer full-context reference of 0.369 (GPT-4o-mini). Current memory systems show a measurable gap.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.17789",
-          "relevance_score": 37,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Multilingual jailbreaking of LLMs using low-resource languages",
-          "summary": "arXiv:2605.18239v1 Announce Type: cross Abstract: Large Language Models (LLMs) remain vulnerable to jailbreak attempts that circumvent safety guardrails. We investigate whether multi-turn conversations using low-resource African languages (Afrikaans, Kiswahili, isiXhosa, and isiZulu) can bypass safety mechanisms across commercial LLMs. We translated prompts from existing datasets and evaluated ChatGPT, Claude, DeepSeek, Gemini, and Grok through automated testing and human red-teaming with native speakers. Single-turn translation attacks proved ineffective, while multi-turn conversations achieved English harmful response rates from 52.7% (Claude 3.5 Haiku) to 83.6% (GPT-4o-mini), Afrikaans from 60.0% (Claude 3.5 Haiku) to 78.2% (GPT-4o-mini), and Kiswahili from 41.8% (Claude 3.5 Haiku) to 70.9% (DeepSeek). Human red-teaming increased jailbreak rates compared to automated methods. Over all evaluated languages, the average jailbreak rate increased from 59.8% to 75.8%, with improvements of +20.0% (Afrikaans), +12.7% (isiZulu), +12.3% (isiXhosa), and +1% (Kiswahili), demonstrating that poor translation quality limits jailbreak success. These findings suggest that vulnerabilities in LLMs persist in multilingual contexts and that translation quality is the critical factor determining jailbreak success in low-resource languages.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.18239",
-          "relevance_score": 37,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Benchmarking Mythos-Linked Bug Rediscovery",
-          "summary": "arXiv:2605.17416v1 Announce Type: cross Abstract: Anthropic's April 2026 Mythos materials combine benchmark claims with concrete bug-finding stories across OpenBSD, FreeBSD, Linux, FFmpeg, and browsers. This paper reports a controlled target-file rediscovery experiment on six public or high-confidence Mythos-linked systems tasks. Each model receives the same target file or files, read-only source tools, three repeats per task, and one manual target-matching rubric; prompts omit CVE identifiers, patch hashes, advisory text, author names, disclosure dates, and answer key root cause language. The experiment contains 54 counted model-task attempts: three models, six tasks, and three repeats, giving 18 attempts per model. GPT-5.5 xhigh achieves 5/18 target rediscoveries, covering 2/6 tasks; counting one wrong-target mpegts.c finding separately gives 3/6 distinct core bugs. Claude Opus 4.7 achieves 1/18 target rediscoveries, covering 1/6 tasks. Kimi K2 records 0/18 target rediscoveries. The dominant failure mode is early commitment to plausible alternate candidates within the assigned file: models often submit source-grounded hypotheses while missing the specific invariant corrected by public Mythos patch evidence. These results do not refute Anthropic's undisclosed workflow, but show that under this favorable target-file scaffold, systems-specific prompting yields only six target matches across 54 counted attempts.",
-          "category": "labs",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.17416",
-          "relevance_score": 36,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injectio",
-          "summary": "arXiv:2605.17986v1 Announce Type: cross Abstract: AI agents such as OpenClaw are increasingly deployed in local workflows with access to external tools. This creates indirect prompt-injection (IPI) risk: an agent may execute harmful instructions embedded in untrusted inputs such as email, downloaded files, webpages, repositories, or group-chat messages. Existing evaluations are often small, purely simulated, or focused on a narrow set of channels. We introduce LivePI (Live Prompt Injection), a structured benchmark for IPI risk in a production-like but test-controlled environment. LivePI covers seven input surfaces, twelve attack/rendering families, and five malicious goals, including protected-information exfiltration, unauthorized security-control changes, unsafe code retrieval or execution, inbox-summary exfiltration, and cryptocurrency transfer. We run LivePI on a real virtual machine with live but test-controlled email, chat, web, local-file, repository, and wallet interfaces. Across GPT-5.3-Codex, Claude Opus 4.6, Gemini 3.1 Pro, Kimi K2.5, and GLM-5, total attack success rates range from 10.7% to 29.6%. Group-chat injection is uniformly successful across the evaluated backbones in our deployment, and repository-link attacks produce high-severity failures despite a small denominator. We also evaluate a two-layer defense consisting of prompt-level filtering and pre-execution tool-call authorization. In the GPT-5.3-Codex setting, the defense intercepts all tested malicious-goal completions in LivePI before execution while preserving benign utility on PinchBench-derived workloads.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.17986",
-          "relevance_score": 36,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "MANTA: Multi-turn Assessment for Nonhuman Thinking & Alignment",
-          "summary": "arXiv:2605.16301v1 Announce Type: cross Abstract: Single-turn benchmarks such as AnimalHarmBench (AHB) have established important baselines for measuring animal welfare alignment in large language models (LLMs), but they miss a critical failure mode: models that respond appropriately when unpressured may capitulate when follow-up conversational turns introduce economic, social, or authority-based arguments. We introduce MANTA (Multi-turn Assessment for Nonhuman Thinking and Alignment), a dynamic multi-turn evaluation framework built on the Inspect AI platform that stress-tests frontier LLMs across realistic professional and everyday scenarios using adversarially generated follow-up questions. Unlike static benchmarks, MANTA generates pressure turns dynamically from each model's actual responses, producing targeted and realistic adversarial pressure. The framework evaluates models across up to 13 AHB-derived scoring dimensions on a continuous 0-1 scale. We present preliminary results from evaluations of claude-sonnet-4-20250514 and openai/gpt-4o, revealing consistent patterns: Turn 1 welfare framing is reliable but Turn 2 introduces substantial variance; evidence-based capacity attribution is the weakest dimension across all models and runs; and AI governance scenarios elicit significantly stronger welfare reasoning (mean score 0.91) than first-order practical scenarios. We additionally present STYLEJUDGE, a controlled four-judge study demonstrating systematic format bias in LLM-as-judge evaluation, with directly actionable implications for MANTA's scorer design. Code, dataset, and evaluation logs are available at https://github.com/Mycelium-tools/manta.",
-          "category": "labs",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.16301",
-          "relevance_score": 35,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "LEGO: An LLM Skill-Based Front-End Design Generation Platform",
-          "summary": "arXiv:2604.23355v2 Announce Type: replace Abstract: Existing LLM-based EDA agents are often isolated task-specific systems. This leads to repeated engineering effort and limited reuse of successful design and debugging strategies. We present LEGO, a unified skill-based platform for front-end design generation. It decomposes the digital front-end flow into six independent steps and represents every agent capability as a standardized composable circuit skill within a plug-and-play architecture. To build this skill library, we survey more than 100 papers, select 11 representative open-source projects, and extract 42 executable circuit skills within a six-step finite state machine formulation. Circuit Skill Builder automates skill extraction with linear scalability. Agent Skill RAG achieves submillisecond retrieval without relying on embedding models. Empirical evaluation on a hard subset of 41 VerilogEval v2 problems that gpt-5.2-codex fails to solve under extra-high reasoning effort shows that individual circuit skills constructed within LEGO raise Pass@1 from 0.000 to 0.805. This is an 80.5% gain over the baseline. Cross-project skill compositions also reach 0.805 Pass@1. They outperform hierarchy-verilog by 14.6% and VerilogCoder by 2.5%. They also match MAGE. These results show that modular skill composition supports both effective and flexible RTL design automation. The LEGO platform and all circuit skills are publicly available at GitHub: https://github.com/loujc/LEGO-An-LLM-Skill-Based-Front-End-Design-Generation-Platform",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.23355",
-          "relevance_score": 34,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Causely: A Causal Intelligence Layer for Enterprise AI A Benchmark Study on SRE and Reliability Workflows",
-          "summary": "arXiv:2605.18327v1 Announce Type: new Abstract: AI agents deployed into SRE workflows currently derive their understanding of environment state from raw observability telemetry at query time, paying a semantic-interpretation tax in tokens, latency, and inferential reliability. We propose Causely, a causal intelligence layer that maintains a structured representation of environment topology, attribute dependencies, and causal relationships that are anchroed to a ontological representation of the managed environment. Causely transforms raw telemetry into a live, queryable model providing the semantic and causal foundation AI agents require to diagnose, evaluate impact, and act safely in production. We evaluate this value proposition through a benchmark study conducted in a controlled setting with injected faults in a 24-microservice OpenTelemetry demo application. Our experiments compare four agent configurations (Claude Code, OpenAI Codex, HolmesGPT with Sonnet and Gemini backends). Experiments are run with and without access to Causely under two scenarios: an active incident and a healthy baseline. On the active-fault scenario, causal grounding reduces mean time-to-diagnosis by 63\\%, mean token consumption by 60\\%, and mean tool-call count by 78\\%, compressing the investigation footprint by 4.8$\\times$ and lowering direct API cost per run by 57\\%; root-cause-diagnosis accuracy rises from 75\\% to 100\\%.",
-          "category": "labs",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.18327",
-          "relevance_score": 33,
           "status": "new",
           "tags": [],
           "what_changed": "Nueva señal detectada.",
