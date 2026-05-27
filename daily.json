@@ -1,93 +1,127 @@
 {
-  "date": "2026-05-26",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de los desarrollos más recientes y relevantes en el campo de la inteligencia artificial.",
-  "opening_message": "Enfocándonos en herramientas, modelos y características nuevas, aquí están los últimos avances que no te puedes perder.",
+  "date": "2026-05-27",
+  "executive_title": "Radar Diario de IA - Innovaciones Clave",
+  "intro_message": "Explora las últimas herramientas, modelos y características en el mundo de la Inteligencia Artificial que están revolucionando varios sectores.",
+  "opening_message": "En este radar diario, destacamos las innovaciones más relevantes, priorizando herramientas, modelos y nuevas funcionalidades que impactan desarrolladores y expertos en IA.",
   "items": [
     {
-      "title": "MDIA: Una Nueva Pipeline de Inteligencia Diagnóstica Multi-Agente",
-      "summary": "MDIA demuestra mejoras significativas en benchmarks clínicos a través de un diseño arquitectónico innovador en un modelo no ajustado.",
+      "title": "Maat: Asistente Legal Agente para Protección de Competencia",
+      "summary": "Maat es un asistente legal diseñado para mejorar la investigación en derecho de competencia, utilizando un agente de reacción para abordar tareas específicas.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.24699",
+      "source_url": "https://arxiv.org/abs/2605.27331",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "multi-agente",
-        "salud",
-        "arquitectura"
+        "legal",
+        "research",
+        "AI agent"
       ],
-      "what_changed": "Implementación de un gráfico de razonamiento clínico especializado que mejora el rendimiento.",
-      "why_it_matters": "Ofrece un enfoque alternativo y eficaz para evaluar LLMs en entornos clínicos.",
-      "sector_impact": "Impacto significativo en el sector salud, mejorando la toma de decisiones clínica."
+      "what_changed": "Presentación de un asistente especializado en derecho de competencia.",
+      "why_it_matters": "Mejora la precisión y fiabilidad en análisis de casos legales.",
+      "sector_impact": "Transformación del sector legal mediante una búsqueda más eficiente."
     },
     {
-      "title": "UniToolCall: Unificación del Uso de Herramientas para Agentes LLM",
-      "summary": "Un marco unificado que estandariza el uso de herramientas y la evaluación en agentes LLMs.",
+      "title": "AutoDFT: Marco Multi-Agente para Cálculos DFT Autónomos",
+      "summary": "AutoDFT cierra el bucle entre la planificación y ejecución en cálculos de teoría funcional de densidad, facilitando resultados fiables sin experiencia computacional profunda.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.11557",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.26179",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "herramientas",
-        "agentes",
-        "evaluación"
+        "DFT",
+        "autonomous",
+        "AI framework"
       ],
-      "what_changed": "Unificación del pipeline desde la construcción de herramientas hasta la evaluación.",
-      "why_it_matters": "Facilita el desarrollo y mejora la eficiencia en el uso de herramientas por parte de los LLMs.",
-      "sector_impact": "Aumenta la eficacia de los agentes LLM en diversas aplicaciones."
+      "what_changed": "Introducción de un marco de agentes que une planificación y monitorización.",
+      "why_it_matters": "Permite descubrir propiedades materiales de manera más eficiente.",
+      "sector_impact": "Optimiza la investigación en ciencias de materiales y química."
     },
     {
-      "title": "PennySynth: Generación de Código Cuántico Automatizada",
-      "summary": "Un marco que mejora la calidad de generación de código cuántico mediante la recuperación y generación aumentada.",
+      "title": "Helicase: Construcción de Grafos de Conocimiento en Cadenas de Suministro",
+      "summary": "Helicase es un sistema de varios agentes autónomos que construye grafos de conocimiento guiados por la incertidumbre para resolver problemas complejos en cadenas de suministro.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.25572",
+      "source_url": "https://arxiv.org/abs/2605.26835",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "supply chain",
+        "knowledge graph",
+        "AI agent"
+      ],
+      "what_changed": "Implementación de un marco que aborda preguntas complejas con agentes autónomos.",
+      "why_it_matters": "Permite la síntesis precisa de información a partir de múltiples fuentes.",
+      "sector_impact": "Aumenta la eficiencia y la precisión en la gestión de cadenas de suministro."
+    },
+    {
+      "title": "PolyFusionAgent: Modelo Fundacional Multimodal para Predicción de Propiedades de Polímeros",
+      "summary": "PolyFusionAgent conecta un modelo de polímeros multimodal con un agente de diseño basado en evidencia, mejorando la predicción de propiedades y diseño inverso.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.26543",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "polymers",
+        "property prediction",
+        "multimodal"
+      ],
+      "what_changed": "Introducción de un modelo que cierra el ciclo entre predicción y diseño.",
+      "why_it_matters": "Facilita el descubrimiento interactivo de polímeros.",
+      "sector_impact": "Impulsa innovación en almacenamiento de energía y biomedicina."
+    },
+    {
+      "title": "E3: Asistente Automatizado para Crítica de Investigación",
+      "summary": "E3 ayuda a identificar problemas técnicos en documentos de investigación, mejorando la calidad del proceso de revisión.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.27072",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "cuántico",
-        "generación de código",
-        "herramienta"
+        "research",
+        "review",
+        "automation"
       ],
-      "what_changed": "Introducción de una estrategia de embedding consciente del código.",
-      "why_it_matters": "Mejora significativamente la calidad del código generado, alineándolo con las prácticas cuánticas.",
-      "sector_impact": "Transforma la forma en que se desarrolla el software cuántico."
+      "what_changed": "Desarrollo de un asistente de revisión automatizado.",
+      "why_it_matters": "Aumenta la eficiencia y precisión en procesos de revisión académica.",
+      "sector_impact": "Transforma la crítica y revisión académica a través de la automatización."
     },
     {
-      "title": "MA-CoT: Mejora de la Fiabilidad en la Generación de Código Seguro",
-      "summary": "Presenta un marco que incorpora directrices de mitigación de vulnerabilidades en LLMs para reducir riesgos de seguridad.",
+      "title": "Knowledge Graphs as the Missing Data Layer for LLM-Based Operations",
+      "summary": "Introduce una capa de grafo de conocimiento para mejorar el rendimiento de agentes LLM en operaciones industriales.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.24300",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2605.26874",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "seguridad",
-        "código",
-        "framework"
+        "LLM",
+        "operations",
+        "knowledge graph"
       ],
-      "what_changed": "Incorporación de guías específicas para mitigar vulnerabilidades, mejorando la fiabilidad del código.",
-      "why_it_matters": "Reduce significativamente el número de hallazgos de seguridad en el código generado.",
-      "sector_impact": "Proporciona un enfoque más seguro para el desarrollo de software."
+      "what_changed": "Incorporación de grafos de conocimiento en operaciones industriales.",
+      "why_it_matters": "Mejora la precisión al razonar sobre datos estructurados.",
+      "sector_impact": "Incrementa la efectividad en operaciones industriales."
     },
     {
-      "title": "UtilityMax Prompting: Un Marco Formal para Tareas de Modelos de Lenguaje",
-      "summary": "Introduce un enfoque formal para la especificación de tareas en LLMs que maximiza la utilidad esperada.",
-      "category": "model",
+      "title": "READER: Detección de Texto Generado por IA Mejorada por Razonamiento",
+      "summary": "READER combina razonamiento y detección para mejorar la identificación de texto generado por IA.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.11583",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2605.25281",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelos",
-        "optimización",
-        "tareas"
+        "text detection",
+        "AI",
+        "reasoning"
       ],
-      "what_changed": "Reconstrucción de tareas como diagramas de influencia para optimización precisa.",
-      "why_it_matters": "Mejora la eficacia y precisión en la resolución de tareas complejas de múltiples objetivos.",
-      "sector_impact": "Proporciona un marco más eficaz para la utilización de LLMs en contextos complejos."
+      "what_changed": "Desarrollo de un detector que justifica sus decisiones.",
+      "why_it_matters": "Aumenta la fiabilidad en la detección de contenido generado por IA.",
+      "sector_impact": "Protege la integridad del contenido escrito mediante IA."
     }
   ]
 }
