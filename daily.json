@@ -1,127 +1,144 @@
 {
-  "date": "2026-05-27",
-  "executive_title": "Radar Diario de IA - Innovaciones Clave",
-  "intro_message": "Explora las últimas herramientas, modelos y características en el mundo de la Inteligencia Artificial que están revolucionando varios sectores.",
-  "opening_message": "En este radar diario, destacamos las innovaciones más relevantes, priorizando herramientas, modelos y nuevas funcionalidades que impactan desarrolladores y expertos en IA.",
+  "date": "2026-05-28",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Este radar presenta las últimas innovaciones en herramientas, modelos y frameworks de inteligencia artificial priorizados para tu atención.",
+  "opening_message": "En este reporte, hemos recopilado los desarrollos más relevantes en el campo de la inteligencia artificial, excluyendo información no operativa.",
   "items": [
     {
-      "title": "Maat: Asistente Legal Agente para Protección de Competencia",
-      "summary": "Maat es un asistente legal diseñado para mejorar la investigación en derecho de competencia, utilizando un agente de reacción para abordar tareas específicas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.27331",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "legal",
-        "research",
-        "AI agent"
-      ],
-      "what_changed": "Presentación de un asistente especializado en derecho de competencia.",
-      "why_it_matters": "Mejora la precisión y fiabilidad en análisis de casos legales.",
-      "sector_impact": "Transformación del sector legal mediante una búsqueda más eficiente."
-    },
-    {
-      "title": "AutoDFT: Marco Multi-Agente para Cálculos DFT Autónomos",
-      "summary": "AutoDFT cierra el bucle entre la planificación y ejecución en cálculos de teoría funcional de densidad, facilitando resultados fiables sin experiencia computacional profunda.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.26179",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "DFT",
-        "autonomous",
-        "AI framework"
-      ],
-      "what_changed": "Introducción de un marco de agentes que une planificación y monitorización.",
-      "why_it_matters": "Permite descubrir propiedades materiales de manera más eficiente.",
-      "sector_impact": "Optimiza la investigación en ciencias de materiales y química."
-    },
-    {
-      "title": "Helicase: Construcción de Grafos de Conocimiento en Cadenas de Suministro",
-      "summary": "Helicase es un sistema de varios agentes autónomos que construye grafos de conocimiento guiados por la incertidumbre para resolver problemas complejos en cadenas de suministro.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.26835",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "supply chain",
-        "knowledge graph",
-        "AI agent"
-      ],
-      "what_changed": "Implementación de un marco que aborda preguntas complejas con agentes autónomos.",
-      "why_it_matters": "Permite la síntesis precisa de información a partir de múltiples fuentes.",
-      "sector_impact": "Aumenta la eficiencia y la precisión en la gestión de cadenas de suministro."
-    },
-    {
-      "title": "PolyFusionAgent: Modelo Fundacional Multimodal para Predicción de Propiedades de Polímeros",
-      "summary": "PolyFusionAgent conecta un modelo de polímeros multimodal con un agente de diseño basado en evidencia, mejorando la predicción de propiedades y diseño inverso.",
+      "title": "MolLingo: Representaciones Nativas de Moléculas para Agentes Científicos Impulsados por LLM",
+      "summary": "MolLingo es un sistema multi-agente que optimiza el diseño molecular utilizando agentes especializados y estructura química.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.26543",
+      "source_url": "https://arxiv.org/abs/2605.27853",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "polymers",
-        "property prediction",
-        "multimodal"
+        "molecular design",
+        "LLM",
+        "agents"
       ],
-      "what_changed": "Introducción de un modelo que cierra el ciclo entre predicción y diseño.",
-      "why_it_matters": "Facilita el descubrimiento interactivo de polímeros.",
-      "sector_impact": "Impulsa innovación en almacenamiento de energía y biomedicina."
+      "what_changed": "Introducción de un sistema coordinar agentes con memoria compartida.",
+      "why_it_matters": "Mejora en la optimización de diseñadores moleculares.",
+      "sector_impact": "Sector farmacéutico y biotecnológico."
     },
     {
-      "title": "E3: Asistente Automatizado para Crítica de Investigación",
-      "summary": "E3 ayuda a identificar problemas técnicos en documentos de investigación, mejorando la calidad del proceso de revisión.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.27072",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "research",
-        "review",
-        "automation"
-      ],
-      "what_changed": "Desarrollo de un asistente de revisión automatizado.",
-      "why_it_matters": "Aumenta la eficiencia y precisión en procesos de revisión académica.",
-      "sector_impact": "Transforma la crítica y revisión académica a través de la automatización."
-    },
-    {
-      "title": "Knowledge Graphs as the Missing Data Layer for LLM-Based Operations",
-      "summary": "Introduce una capa de grafo de conocimiento para mejorar el rendimiento de agentes LLM en operaciones industriales.",
+      "title": "Graph-of-Skills: Recuperación Estructural Dependiente para Habilidades de Agentes Masivos",
+      "summary": "Presenta un enfoque de recuperación estructural que mejora el uso de bibliotecas de habilidades en agentes LLM.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.26874",
+      "source_url": "https://arxiv.org/abs/2604.05333",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "LLM",
-        "operations",
-        "knowledge graph"
+        "skills",
+        "agents",
+        "LLM"
       ],
-      "what_changed": "Incorporación de grafos de conocimiento en operaciones industriales.",
-      "why_it_matters": "Mejora la precisión al razonar sobre datos estructurados.",
-      "sector_impact": "Incrementa la efectividad en operaciones industriales."
+      "what_changed": "Estructura de gráfico de habilidades para reducir costos y mejorar eficiencia.",
+      "why_it_matters": "Aumenta la efectividad en la ejecución de tareas de agentes.",
+      "sector_impact": "Desarrollo de software y automatización."
     },
     {
-      "title": "READER: Detección de Texto Generado por IA Mejorada por Razonamiento",
-      "summary": "READER combina razonamiento y detección para mejorar la identificación de texto generado por IA.",
+      "title": "CiteCheck: Detección de Alucinaciones de Citas en Textos Científicos",
+      "summary": "Un marco híbrido que verifica la autenticidad de las citas en documentos generados por LLM.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.25281",
+      "source_url": "https://arxiv.org/abs/2605.27700",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "text detection",
-        "AI",
-        "reasoning"
+        "citation",
+        "LLM",
+        "verification"
       ],
-      "what_changed": "Desarrollo de un detector que justifica sus decisiones.",
-      "why_it_matters": "Aumenta la fiabilidad en la detección de contenido generado por IA.",
-      "sector_impact": "Protege la integridad del contenido escrito mediante IA."
+      "what_changed": "Introducción de un método que verifica citas en tiempo real.",
+      "why_it_matters": "Aumenta la fiabilidad de la literatura científica generada por modelos.",
+      "sector_impact": "Investigación y publicación académica."
+    },
+    {
+      "title": "DeltaMCP: Regeneración Incremental para Servidores MCP",
+      "summary": "Un nuevo enfoque para actualizar servidores MCP que mejora la consistencia y reduce la sobrecarga del desarrollador.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.28148",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "MCP",
+        "servers",
+        "automation"
+      ],
+      "what_changed": "Herramienta que permite actualizaciones específicas y eficientes.",
+      "why_it_matters": "Facilita la sincronización con APIs en evolución.",
+      "sector_impact": "Empresas de tecnología y desarrollo."
+    },
+    {
+      "title": "EngiAI: Un Marco Multi-Agente para Diseño de Ingeniería Impulsado por LLM",
+      "summary": "Presenta un sistema de agentes coordinados para mejorar el diseño ingenieril mediante LLM.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.19743",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "engineering",
+        "design",
+        "LLM"
+      ],
+      "what_changed": "Implementación de una arquitectura de supervisor para múltiples agentes.",
+      "why_it_matters": "Optimiza el diseño mediante la colaboración de agentes.",
+      "sector_impact": "Ingeniería y manufactura."
+    },
+    {
+      "title": "Hyperparam: Un Motor de Consulta para Agentes",
+      "summary": "Un motor de consulta innovador que permite la analítica de datos no estructurados en tiempo real para aplicaciones de IA.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.27785",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "data analysis",
+        "agents",
+        "integration"
+      ],
+      "what_changed": "Creación de bibliotecas de JavaScript para ejecutar consultas asíncronas.",
+      "why_it_matters": "Facilita la interacción de agentes con datos en aplicaciones modernas.",
+      "sector_impact": "Tecnologías emergentes y análisis de datos."
+    },
+    {
+      "title": "OccuReward: Diseño de Recompensas Centrado en Ocupantes para Equidad Demográfica",
+      "summary": "Investiga cómo el diseño de recompensas mediado por LLM afecta la equidad entre diferentes grupos demográficos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.28168",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "reward system",
+        "demographic equity",
+        "LLM"
+      ],
+      "what_changed": "Introducción de un índice de equidad de confort para mejorar la satisfacción.",
+      "why_it_matters": "Aborda la equidad en el manejo de energía en edificios.",
+      "sector_impact": "Construcción y gestión ambiental."
+    },
+    {
+      "title": "RAMP: Evaluación en Tiempo Real de Modelos Agénicos en Sistemas de Producción",
+      "summary": "Presenta una infraestructura para evaluar agentes de software en entornos de producción complejos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.27492",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "runtime assessment",
+        "agents",
+        "evaluation"
+      ],
+      "what_changed": "Enfoque en evaluaciones de largo plazo en entornos dinámicos.",
+      "why_it_matters": "Mejora la evaluación de la efectividad de modelos en producción.",
+      "sector_impact": "Desarrollo de software y operaciones."
     }
   ]
 }
