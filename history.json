@@ -1,6 +1,138 @@
 {
   "days": [
     {
+      "date": "2026-05-29",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas claves",
+      "items": [
+        {
+          "title": "PokerSkill: LLMs Can Play Expert-Level Poker without Training or Solvers",
+          "summary": "Presenta un marco que permite a los LLMs competir en póker sin necesidad de entrenamientos previos ni solvers, combinando habilidades basadas en reglas con modelos de lenguaje.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30094",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "póker",
+            "LLMs",
+            "framework",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Introducción de un nuevo enfoque para el juego de póker sin necesidad de entrenamiento.",
+          "why_it_matters": "Permite que los LLMs compitan a un nivel experto sin requerir grandes recursos computacionales.",
+          "sector_impact": "Transforma cómo los modelos de IA pueden ser aplicados a juegos de estrategia complejos."
+        },
+        {
+          "title": "GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents",
+          "summary": "GRASP mejora la fiabilidad de los agentes LLM al incorporar un método que garantiza que los nuevos aprendizajes no regresen a comportamientos incorrectos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.29668",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "autonomía",
+            "mejora",
+            "agentes",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Presenta un sistema de propuesta que valida mejoras antes de ser implementadas.",
+          "why_it_matters": "Asegura que los agentes LLM mejoren de manera efectiva manteniendo su comportamiento correcto.",
+          "sector_impact": "Aumenta la confianza en la implementación de IA en entornos críticos."
+        },
+        {
+          "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
+          "summary": "KairosAgent une razonamiento semántico y previsión de series temporales en un marco que mejora la comprensión numérica y de texto.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "predicción",
+            "series temporales",
+            "razonamiento",
+            "IA"
+          ],
+          "what_changed": "Desarrolla un marco que integra diferentes enfoques de modelado para mejorar la exactitud de las previsiones.",
+          "why_it_matters": "Avanza el estado de la IA en previsiones complejas aplicando capacidades multimodales.",
+          "sector_impact": "Potencialmente revolucionario en campos que dependen de la predicción precisa, como finanzas y salud."
+        },
+        {
+          "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs",
+          "summary": "Presenta un nuevo marco para evaluar la generación de hipótesis científicas en modelos LLM bajo divulgación progresiva de información.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30284",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ciencia",
+            "evaluación",
+            "hipótesis",
+            "IA"
+          ],
+          "what_changed": "Introduce una forma sistemática de medir las capacidades de razonamiento de modelos LLM en contextos científicos.",
+          "why_it_matters": "Facilita la comprensión de cómo los LLM pueden contribuir en procesos de descubrimiento científico.",
+          "sector_impact": "Impacta en el desarrollo de sistemas de IA científica para investigaciones avanzadas."
+        },
+        {
+          "title": "Mind Your Tone: Does Tone Alter LLM Performance?",
+          "summary": "Investigación sobre cómo las variaciones en el tono de los prompts influyen en la precisión de los modelos LLM.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.29027",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "rendimiento",
+            "LLM",
+            "técnica",
+            "IA"
+          ],
+          "what_changed": "Proporciona evidencia sobre la dependencia del rendimiento de los LLM en el tono del input.",
+          "why_it_matters": "Permite a los desarrolladores ajustar sus intervenciones para maximizar la precisión.",
+          "sector_impact": "Fundamental para el diseño de interacciones más efectivas entre humanos y máquinas."
+        },
+        {
+          "title": "LogDx-CI: Benchmarking Log Reduction Tools for LLM Root-Cause Diagnosis",
+          "summary": "Benchmark que compara herramientas de reducción de logs para mejorar la capacidad de diagnóstico de LLMs en situaciones de fallas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.28876",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "diagnóstico",
+            "logs",
+            "herramienta",
+            "IA"
+          ],
+          "what_changed": "Establece un nuevo estándar para la reducción de logs utilizando LLMs.",
+          "why_it_matters": "Mejora la eficiencia en la detección de problemas en sistemas complejos.",
+          "sector_impact": "Crítico para mantener la salud y el rendimiento de aplicaciones en producción."
+        },
+        {
+          "title": "The Price Reversal Phenomenon: When Cheaper Reasoning Models Cost More",
+          "summary": "Estudio que revela que los modelos de razonamiento con precios más bajos pueden resultar en costos más altos en la práctica.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.23971",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "costo",
+            "modelos",
+            "razonamiento",
+            "IA"
+          ],
+          "what_changed": "Subraya la discrepancia entre el precio de los modelos y sus costos reales de inferencia.",
+          "why_it_matters": "Informa decisiones sobre la selección de modelos en función de costos reales en lugar de precios listados.",
+          "sector_impact": "Influencia significativa en la economía de desarrollos basados en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-05-28",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -721,131 +853,6 @@
           "what_changed": "Lanzamiento de una nueva plataforma enfocada en personalización.",
           "why_it_matters": "Fortalece la posición de Spotify en el mercado de contenido auditivo.",
           "sector_impact": "Crea un nuevo ecosistema para creadores de contenido."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-22",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Code Researcher: Deep Research Agent for Large Systems Code",
-          "summary": "Un agente de investigación profundo diseñado para generar parches en código de sistemas, mostrando un notable aumento en la tasa de resolución de fallos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2506.11060",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "código",
-            "agentes",
-            "investigación"
-          ],
-          "what_changed": "Introducción de Code Researcher como un nuevo agente de investigación.",
-          "why_it_matters": "Mejora significante en la resolución de fallos de sistemas, superando modelos previamente efectivos.",
-          "sector_impact": "Transforma significativamente la forma en que se maneja el código de sistemas al mejorar la eficiencia."
-        },
-        {
-          "title": "GenAI-Driven Threat Detection with Microsoft Security Copilot",
-          "summary": "Sistema de detección de amenazas impulsado por IA que mejora la identificación de amenazas ocultas en Microsoft Defender.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.20896",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "detección",
-            "Microsoft"
-          ],
-          "what_changed": "Implementación del agente DTDA en Microsoft Security Copilot.",
-          "why_it_matters": "Able to identify and recover hidden threats effectively, enhancing overall security capabilities.",
-          "sector_impact": "Significativa mejora en la ciberseguridad en organizaciones que utilizan Microsoft Defender."
-        },
-        {
-          "title": "MCP-Atlas: Tool-Use Competency Evaluation Framework",
-          "summary": "Un nuevo marco para medir la competencia en el uso de herramientas con agentes de LLM en servidores reales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.00933",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "herramientas",
-            "agentes"
-          ],
-          "what_changed": "Introducción de MCP-Atlas como un marco de evaluación.",
-          "why_it_matters": "Permite un análisis detallado y preciso de la competencia de los agentes en escenarios del mundo real.",
-          "sector_impact": "Contribuye a la mejora en la efectividad de los agentes de IA en entornos complejos."
-        },
-        {
-          "title": "DrugRAG: Enhancing Pharmacy LLM Performance",
-          "summary": "Método innovador para mejorar el rendimiento de LLM en tareas de farmacología mediante un pipeline de RAG.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.14896",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "farmacia",
-            "RAG",
-            "mejora"
-          ],
-          "what_changed": "Desarrollo de DrugRAG como un nuevo pipeline de generación-augmented.",
-          "why_it_matters": "Mejora la precisão en tareas de farmacología, ampliando la viabilidad de LLM en este sector.",
-          "sector_impact": "Optimiza la capacitación de modelos de IA centrándose en la farmacología y situaciones relacionadas."
-        },
-        {
-          "title": "SVFSearch: Benchmark for Short-Video Frame Search",
-          "summary": "El primer benchmark para la búsqueda de marcos de cortometrajes en la industria de los videojuegos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.17946",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "video",
-            "gaming"
-          ],
-          "what_changed": "Introducción de SVFSearch para evaluación en contexto de video corto.",
-          "why_it_matters": "Permite una evaluación justa y reproducible para la búsqueda en juegos, un área en rápida evolución.",
-          "sector_impact": "Facilita la integración de modelos de IA en aplicaciones de videojuegos y multimedia."
-        },
-        {
-          "title": "Heartbeat-Bound Hierarchical Credentials",
-          "summary": "Protocolo criptográfico para revocación de credenciales en agentes de IA autónomos, mejorando la seguridad.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.20704",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "cripto",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un nuevo protocolo de credenciales para agentes de IA.",
-          "why_it_matters": "Minimiza el riesgo de operación de agentes 'zombis', mejorando la seguridad en los sistemas autónomos.",
-          "sector_impact": "Aumenta la fiabilidad y seguridad en aplicaciones de IA que dependen de credenciales jerárquicas."
-        },
-        {
-          "title": "Tool-Augmented Agent for Closed-loop Optimization",
-          "summary": "Marco que permite a los LLM ejecutar optimizaciones de diseño industrial mediante aprendizaje reforzado.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.20190",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "diseño",
-            "IA"
-          ],
-          "what_changed": "Propuesta del COSMO-Agent para optimizar procesos CAD-CAE.",
-          "why_it_matters": "Resuelve el problema de semántica CAD-CAE, agilizando el proceso de diseño y simulación.",
-          "sector_impact": "Impulsa la innovación en el diseño industrial al integrar tecnología de IA en procesos de modelado."
         }
       ]
     }

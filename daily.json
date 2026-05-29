@@ -1,144 +1,134 @@
 {
-  "date": "2026-05-28",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar presenta las últimas innovaciones en herramientas, modelos y frameworks de inteligencia artificial priorizados para tu atención.",
-  "opening_message": "En este reporte, hemos recopilado los desarrollos más relevantes en el campo de la inteligencia artificial, excluyendo información no operativa.",
+  "date": "2026-05-29",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas claves",
+  "intro_message": "En este radar diario, destacamos las últimas innovaciones y herramientas en el espacio de la inteligencia artificial, priorizando integraciones, frameworks y nuevas características que afectan directamente a los desarrolladores y al ecosistema.",
+  "opening_message": "Este informe presenta un análisis de los desarrollos más relevantes en inteligencia artificial, enfocándose en herramientas y modelos que mejoran la automatización y facilitan la integración en aplicaciones prácticas.",
   "items": [
     {
-      "title": "MolLingo: Representaciones Nativas de Moléculas para Agentes Científicos Impulsados por LLM",
-      "summary": "MolLingo es un sistema multi-agente que optimiza el diseño molecular utilizando agentes especializados y estructura química.",
-      "category": "model",
+      "title": "PokerSkill: LLMs Can Play Expert-Level Poker without Training or Solvers",
+      "summary": "Presenta un marco que permite a los LLMs competir en póker sin necesidad de entrenamientos previos ni solvers, combinando habilidades basadas en reglas con modelos de lenguaje.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.27853",
+      "source_url": "https://arxiv.org/abs/2605.30094",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "molecular design",
-        "LLM",
-        "agents"
+        "póker",
+        "LLMs",
+        "framework",
+        "inteligencia artificial"
       ],
-      "what_changed": "Introducción de un sistema coordinar agentes con memoria compartida.",
-      "why_it_matters": "Mejora en la optimización de diseñadores moleculares.",
-      "sector_impact": "Sector farmacéutico y biotecnológico."
+      "what_changed": "Introducción de un nuevo enfoque para el juego de póker sin necesidad de entrenamiento.",
+      "why_it_matters": "Permite que los LLMs compitan a un nivel experto sin requerir grandes recursos computacionales.",
+      "sector_impact": "Transforma cómo los modelos de IA pueden ser aplicados a juegos de estrategia complejos."
     },
     {
-      "title": "Graph-of-Skills: Recuperación Estructural Dependiente para Habilidades de Agentes Masivos",
-      "summary": "Presenta un enfoque de recuperación estructural que mejora el uso de bibliotecas de habilidades en agentes LLM.",
+      "title": "GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents",
+      "summary": "GRASP mejora la fiabilidad de los agentes LLM al incorporar un método que garantiza que los nuevos aprendizajes no regresen a comportamientos incorrectos.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.05333",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "skills",
-        "agents",
-        "LLM"
-      ],
-      "what_changed": "Estructura de gráfico de habilidades para reducir costos y mejorar eficiencia.",
-      "why_it_matters": "Aumenta la efectividad en la ejecución de tareas de agentes.",
-      "sector_impact": "Desarrollo de software y automatización."
-    },
-    {
-      "title": "CiteCheck: Detección de Alucinaciones de Citas en Textos Científicos",
-      "summary": "Un marco híbrido que verifica la autenticidad de las citas en documentos generados por LLM.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.27700",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "citation",
-        "LLM",
-        "verification"
-      ],
-      "what_changed": "Introducción de un método que verifica citas en tiempo real.",
-      "why_it_matters": "Aumenta la fiabilidad de la literatura científica generada por modelos.",
-      "sector_impact": "Investigación y publicación académica."
-    },
-    {
-      "title": "DeltaMCP: Regeneración Incremental para Servidores MCP",
-      "summary": "Un nuevo enfoque para actualizar servidores MCP que mejora la consistencia y reduce la sobrecarga del desarrollador.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.28148",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "MCP",
-        "servers",
-        "automation"
-      ],
-      "what_changed": "Herramienta que permite actualizaciones específicas y eficientes.",
-      "why_it_matters": "Facilita la sincronización con APIs en evolución.",
-      "sector_impact": "Empresas de tecnología y desarrollo."
-    },
-    {
-      "title": "EngiAI: Un Marco Multi-Agente para Diseño de Ingeniería Impulsado por LLM",
-      "summary": "Presenta un sistema de agentes coordinados para mejorar el diseño ingenieril mediante LLM.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.19743",
+      "source_url": "https://arxiv.org/abs/2605.29668",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "engineering",
-        "design",
-        "LLM"
+        "autonomía",
+        "mejora",
+        "agentes",
+        "inteligencia artificial"
       ],
-      "what_changed": "Implementación de una arquitectura de supervisor para múltiples agentes.",
-      "why_it_matters": "Optimiza el diseño mediante la colaboración de agentes.",
-      "sector_impact": "Ingeniería y manufactura."
+      "what_changed": "Presenta un sistema de propuesta que valida mejoras antes de ser implementadas.",
+      "why_it_matters": "Asegura que los agentes LLM mejoren de manera efectiva manteniendo su comportamiento correcto.",
+      "sector_impact": "Aumenta la confianza en la implementación de IA en entornos críticos."
     },
     {
-      "title": "Hyperparam: Un Motor de Consulta para Agentes",
-      "summary": "Un motor de consulta innovador que permite la analítica de datos no estructurados en tiempo real para aplicaciones de IA.",
+      "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
+      "summary": "KairosAgent une razonamiento semántico y previsión de series temporales en un marco que mejora la comprensión numérica y de texto.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.30002",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "predicción",
+        "series temporales",
+        "razonamiento",
+        "IA"
+      ],
+      "what_changed": "Desarrolla un marco que integra diferentes enfoques de modelado para mejorar la exactitud de las previsiones.",
+      "why_it_matters": "Avanza el estado de la IA en previsiones complejas aplicando capacidades multimodales.",
+      "sector_impact": "Potencialmente revolucionario en campos que dependen de la predicción precisa, como finanzas y salud."
+    },
+    {
+      "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs",
+      "summary": "Presenta un nuevo marco para evaluar la generación de hipótesis científicas en modelos LLM bajo divulgación progresiva de información.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.30284",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "ciencia",
+        "evaluación",
+        "hipótesis",
+        "IA"
+      ],
+      "what_changed": "Introduce una forma sistemática de medir las capacidades de razonamiento de modelos LLM en contextos científicos.",
+      "why_it_matters": "Facilita la comprensión de cómo los LLM pueden contribuir en procesos de descubrimiento científico.",
+      "sector_impact": "Impacta en el desarrollo de sistemas de IA científica para investigaciones avanzadas."
+    },
+    {
+      "title": "Mind Your Tone: Does Tone Alter LLM Performance?",
+      "summary": "Investigación sobre cómo las variaciones en el tono de los prompts influyen en la precisión de los modelos LLM.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.29027",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "rendimiento",
+        "LLM",
+        "técnica",
+        "IA"
+      ],
+      "what_changed": "Proporciona evidencia sobre la dependencia del rendimiento de los LLM en el tono del input.",
+      "why_it_matters": "Permite a los desarrolladores ajustar sus intervenciones para maximizar la precisión.",
+      "sector_impact": "Fundamental para el diseño de interacciones más efectivas entre humanos y máquinas."
+    },
+    {
+      "title": "LogDx-CI: Benchmarking Log Reduction Tools for LLM Root-Cause Diagnosis",
+      "summary": "Benchmark que compara herramientas de reducción de logs para mejorar la capacidad de diagnóstico de LLMs en situaciones de fallas.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.27785",
+      "source_url": "https://arxiv.org/abs/2605.28876",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "data analysis",
-        "agents",
-        "integration"
+        "diagnóstico",
+        "logs",
+        "herramienta",
+        "IA"
       ],
-      "what_changed": "Creación de bibliotecas de JavaScript para ejecutar consultas asíncronas.",
-      "why_it_matters": "Facilita la interacción de agentes con datos en aplicaciones modernas.",
-      "sector_impact": "Tecnologías emergentes y análisis de datos."
+      "what_changed": "Establece un nuevo estándar para la reducción de logs utilizando LLMs.",
+      "why_it_matters": "Mejora la eficiencia en la detección de problemas en sistemas complejos.",
+      "sector_impact": "Crítico para mantener la salud y el rendimiento de aplicaciones en producción."
     },
     {
-      "title": "OccuReward: Diseño de Recompensas Centrado en Ocupantes para Equidad Demográfica",
-      "summary": "Investiga cómo el diseño de recompensas mediado por LLM afecta la equidad entre diferentes grupos demográficos.",
-      "category": "framework",
+      "title": "The Price Reversal Phenomenon: When Cheaper Reasoning Models Cost More",
+      "summary": "Estudio que revela que los modelos de razonamiento con precios más bajos pueden resultar en costos más altos en la práctica.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.28168",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "reward system",
-        "demographic equity",
-        "LLM"
-      ],
-      "what_changed": "Introducción de un índice de equidad de confort para mejorar la satisfacción.",
-      "why_it_matters": "Aborda la equidad en el manejo de energía en edificios.",
-      "sector_impact": "Construcción y gestión ambiental."
-    },
-    {
-      "title": "RAMP: Evaluación en Tiempo Real de Modelos Agénicos en Sistemas de Producción",
-      "summary": "Presenta una infraestructura para evaluar agentes de software en entornos de producción complejos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.27492",
+      "source_url": "https://arxiv.org/abs/2603.23971",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "runtime assessment",
-        "agents",
-        "evaluation"
+        "costo",
+        "modelos",
+        "razonamiento",
+        "IA"
       ],
-      "what_changed": "Enfoque en evaluaciones de largo plazo en entornos dinámicos.",
-      "why_it_matters": "Mejora la evaluación de la efectividad de modelos en producción.",
-      "sector_impact": "Desarrollo de software y operaciones."
+      "what_changed": "Subraya la discrepancia entre el precio de los modelos y sus costos reales de inferencia.",
+      "why_it_matters": "Informa decisiones sobre la selección de modelos en función de costos reales en lugar de precios listados.",
+      "sector_impact": "Influencia significativa en la economía de desarrollos basados en IA."
     }
   ]
 }
