@@ -1,134 +1,137 @@
 {
-  "date": "2026-05-29",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas claves",
-  "intro_message": "En este radar diario, destacamos las últimas innovaciones y herramientas en el espacio de la inteligencia artificial, priorizando integraciones, frameworks y nuevas características que afectan directamente a los desarrolladores y al ecosistema.",
-  "opening_message": "Este informe presenta un análisis de los desarrollos más relevantes en inteligencia artificial, enfocándose en herramientas y modelos que mejoran la automatización y facilitan la integración en aplicaciones prácticas.",
+  "date": "2026-05-30",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas actualizaciones en herramientas, modelos y características de IA que están cambiando el panorama tecnológico.",
+  "opening_message": "Explora las innovaciones más relevantes del día en la AI, desde nuevos modelos hasta integraciones estratégicas.",
   "items": [
     {
-      "title": "PokerSkill: LLMs Can Play Expert-Level Poker without Training or Solvers",
-      "summary": "Presenta un marco que permite a los LLMs competir en póker sin necesidad de entrenamientos previos ni solvers, combinando habilidades basadas en reglas con modelos de lenguaje.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.30094",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "póker",
-        "LLMs",
-        "framework",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Introducción de un nuevo enfoque para el juego de póker sin necesidad de entrenamiento.",
-      "why_it_matters": "Permite que los LLMs compitan a un nivel experto sin requerir grandes recursos computacionales.",
-      "sector_impact": "Transforma cómo los modelos de IA pueden ser aplicados a juegos de estrategia complejos."
-    },
-    {
-      "title": "GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents",
-      "summary": "GRASP mejora la fiabilidad de los agentes LLM al incorporar un método que garantiza que los nuevos aprendizajes no regresen a comportamientos incorrectos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.29668",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "autonomía",
-        "mejora",
-        "agentes",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Presenta un sistema de propuesta que valida mejoras antes de ser implementadas.",
-      "why_it_matters": "Asegura que los agentes LLM mejoren de manera efectiva manteniendo su comportamiento correcto.",
-      "sector_impact": "Aumenta la confianza en la implementación de IA en entornos críticos."
-    },
-    {
-      "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
-      "summary": "KairosAgent une razonamiento semántico y previsión de series temporales en un marco que mejora la comprensión numérica y de texto.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.30002",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "predicción",
-        "series temporales",
-        "razonamiento",
-        "IA"
-      ],
-      "what_changed": "Desarrolla un marco que integra diferentes enfoques de modelado para mejorar la exactitud de las previsiones.",
-      "why_it_matters": "Avanza el estado de la IA en previsiones complejas aplicando capacidades multimodales.",
-      "sector_impact": "Potencialmente revolucionario en campos que dependen de la predicción precisa, como finanzas y salud."
-    },
-    {
-      "title": "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs",
-      "summary": "Presenta un nuevo marco para evaluar la generación de hipótesis científicas en modelos LLM bajo divulgación progresiva de información.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.30284",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "ciencia",
-        "evaluación",
-        "hipótesis",
-        "IA"
-      ],
-      "what_changed": "Introduce una forma sistemática de medir las capacidades de razonamiento de modelos LLM en contextos científicos.",
-      "why_it_matters": "Facilita la comprensión de cómo los LLM pueden contribuir en procesos de descubrimiento científico.",
-      "sector_impact": "Impacta en el desarrollo de sistemas de IA científica para investigaciones avanzadas."
-    },
-    {
-      "title": "Mind Your Tone: Does Tone Alter LLM Performance?",
-      "summary": "Investigación sobre cómo las variaciones en el tono de los prompts influyen en la precisión de los modelos LLM.",
+      "title": "Anthropic lanza Opus 4.8 con una nueva herramienta de flujo de trabajo dinámico",
+      "summary": "El nuevo modelo Opus incluye una herramienta llamada Flujos de Trabajo Dinámicos, diseñada para coordinar enjambres de subagentes.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.29027",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "rendimiento",
-        "LLM",
-        "técnica",
-        "IA"
-      ],
-      "what_changed": "Proporciona evidencia sobre la dependencia del rendimiento de los LLM en el tono del input.",
-      "why_it_matters": "Permite a los desarrolladores ajustar sus intervenciones para maximizar la precisión.",
-      "sector_impact": "Fundamental para el diseño de interacciones más efectivas entre humanos y máquinas."
-    },
-    {
-      "title": "LogDx-CI: Benchmarking Log Reduction Tools for LLM Root-Cause Diagnosis",
-      "summary": "Benchmark que compara herramientas de reducción de logs para mejorar la capacidad de diagnóstico de LLMs en situaciones de fallas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.28876",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "diagnóstico",
-        "logs",
-        "herramienta",
-        "IA"
-      ],
-      "what_changed": "Establece un nuevo estándar para la reducción de logs utilizando LLMs.",
-      "why_it_matters": "Mejora la eficiencia en la detección de problemas en sistemas complejos.",
-      "sector_impact": "Crítico para mantener la salud y el rendimiento de aplicaciones en producción."
-    },
-    {
-      "title": "The Price Reversal Phenomenon: When Cheaper Reasoning Models Cost More",
-      "summary": "Estudio que revela que los modelos de razonamiento con precios más bajos pueden resultar en costos más altos en la práctica.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.23971",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "costo",
+        "herramientas",
         "modelos",
-        "razonamiento",
-        "IA"
+        "agentes"
       ],
-      "what_changed": "Subraya la discrepancia entre el precio de los modelos y sus costos reales de inferencia.",
-      "why_it_matters": "Informa decisiones sobre la selección de modelos en función de costos reales en lugar de precios listados.",
-      "sector_impact": "Influencia significativa en la economía de desarrollos basados en IA."
+      "what_changed": "Introducción de Flujos de Trabajo Dinámicos en el modelo Opus 4.8.",
+      "why_it_matters": "Permite una mejor coordinación de tareas en entornos complejos de IA.",
+      "sector_impact": "Mejora la eficiencia en la implementación de sistemas de IA."
+    },
+    {
+      "title": "Asana adquiere StackAI, un constructor de agentes sin código",
+      "summary": "Asana incorporará StackAI en su suite de herramientas de flujo de trabajo de IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "integraciones",
+        "automatización"
+      ],
+      "what_changed": "Adquisición estratégica de StackAI por parte de Asana.",
+      "why_it_matters": "Facilita la creación de agentes de IA sin necesidad de programación.",
+      "sector_impact": "Impulsa la automatización en tareas de gestión de proyectos."
+    },
+    {
+      "title": "9 demostraciones de Gemini Omni y Gemini 3.5 en acción",
+      "summary": "Observa 9 videos que muestran las capacidades de Gemini Omni y Gemini 3.5 presentados en Google I/O 2026.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "modelos",
+        "lanzamientos"
+      ],
+      "what_changed": "Demostraciones públicas de las nuevas capacidades de los modelos Gemini.",
+      "why_it_matters": "Muestra la evolución y aplicabilidad de los modelos de IA avanzados.",
+      "sector_impact": "Impacto significativo en el desarrollo de soluciones de IA más eficientes."
+    },
+    {
+      "title": "Sesame lanza su app para iOS con agentes de IA conversacional",
+      "summary": "La nueva app de iOS de Sesame presenta agentes de IA diseñados para interacciones más naturales.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "features nuevas",
+        "agentes"
+      ],
+      "what_changed": "Lanzamiento de la app que mejora la interacción usuario-agente.",
+      "why_it_matters": "Facilita interacciones más humanas a través de la IA conversacional.",
+      "sector_impact": "Revoluciona la manera en que interactuamos con tecnología a través de chatbots."
+    },
+    {
+      "title": "Glean supera sus ingresos a $300M gracias a la reducción de costos de IA",
+      "summary": "La startup de búsqueda empresarial Glean ha triplicado sus ingresos anuales.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "integraciones"
+      ],
+      "what_changed": "Rápido aumento en los ingresos impulsado por la adopción de soluciones de IA.",
+      "why_it_matters": "Demuestra la viabilidad comercial de la automatización basada en IA.",
+      "sector_impact": "Refuerza la importancia de la IA en el ámbito empresarial."
+    },
+    {
+      "title": "Cognition y su agente de codificación Devin no sustituirán a humanos",
+      "summary": "El fundador de Cognition, Scott Wu, aclara que su agente de codificación no tiene como objetivo reemplazar a programadores humanos.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "automatización"
+      ],
+      "what_changed": "Aclaración de la intención detrás de su agente de codificación.",
+      "why_it_matters": "Pone en perspectiva el papel de la IA en la programación y el trabajo humano.",
+      "sector_impact": "Resalta la colaboración entre humanos y IA en el desarrollo de software."
+    },
+    {
+      "title": "Nuevas funciones de IA en Siri competirán con ChatGPT",
+      "summary": "Las nuevas características de la app Siri rediseñada buscan competir con servicios como ChatGPT.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "features nuevas",
+        "integraciones"
+      ],
+      "what_changed": "Planificación de un rediseño significativo de la experiencia Siri.",
+      "why_it_matters": "Refleja la competencia creciente entre asistentes de IA.",
+      "sector_impact": "Impulsa la innovación en asistentes virtuales."
+    },
+    {
+      "title": "Google presenta prototipos de IA en el Futures Lab",
+      "summary": "Estudiantes de la Universidad de Waterloo desarrollan prototipos de IA como tutores de lengua de señas.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "laboratorios",
+        "modelos"
+      ],
+      "what_changed": "Desarrollo de prototipos innovadores por parte de estudiantes.",
+      "why_it_matters": "Contribuye a la evolución de la educación y el trabajo mediante IA.",
+      "sector_impact": "Promueve nuevos métodos de enseñanza y colaboración."
     }
   ]
 }

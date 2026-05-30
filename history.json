@@ -1,6 +1,141 @@
 {
   "days": [
     {
+      "date": "2026-05-30",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Anthropic lanza Opus 4.8 con una nueva herramienta de flujo de trabajo dinámico",
+          "summary": "El nuevo modelo Opus incluye una herramienta llamada Flujos de Trabajo Dinámicos, diseñada para coordinar enjambres de subagentes.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "modelos",
+            "agentes"
+          ],
+          "what_changed": "Introducción de Flujos de Trabajo Dinámicos en el modelo Opus 4.8.",
+          "why_it_matters": "Permite una mejor coordinación de tareas en entornos complejos de IA.",
+          "sector_impact": "Mejora la eficiencia en la implementación de sistemas de IA."
+        },
+        {
+          "title": "Asana adquiere StackAI, un constructor de agentes sin código",
+          "summary": "Asana incorporará StackAI en su suite de herramientas de flujo de trabajo de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "integraciones",
+            "automatización"
+          ],
+          "what_changed": "Adquisición estratégica de StackAI por parte de Asana.",
+          "why_it_matters": "Facilita la creación de agentes de IA sin necesidad de programación.",
+          "sector_impact": "Impulsa la automatización en tareas de gestión de proyectos."
+        },
+        {
+          "title": "9 demostraciones de Gemini Omni y Gemini 3.5 en acción",
+          "summary": "Observa 9 videos que muestran las capacidades de Gemini Omni y Gemini 3.5 presentados en Google I/O 2026.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "lanzamientos"
+          ],
+          "what_changed": "Demostraciones públicas de las nuevas capacidades de los modelos Gemini.",
+          "why_it_matters": "Muestra la evolución y aplicabilidad de los modelos de IA avanzados.",
+          "sector_impact": "Impacto significativo en el desarrollo de soluciones de IA más eficientes."
+        },
+        {
+          "title": "Sesame lanza su app para iOS con agentes de IA conversacional",
+          "summary": "La nueva app de iOS de Sesame presenta agentes de IA diseñados para interacciones más naturales.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "features nuevas",
+            "agentes"
+          ],
+          "what_changed": "Lanzamiento de la app que mejora la interacción usuario-agente.",
+          "why_it_matters": "Facilita interacciones más humanas a través de la IA conversacional.",
+          "sector_impact": "Revoluciona la manera en que interactuamos con tecnología a través de chatbots."
+        },
+        {
+          "title": "Glean supera sus ingresos a $300M gracias a la reducción de costos de IA",
+          "summary": "La startup de búsqueda empresarial Glean ha triplicado sus ingresos anuales.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "integraciones"
+          ],
+          "what_changed": "Rápido aumento en los ingresos impulsado por la adopción de soluciones de IA.",
+          "why_it_matters": "Demuestra la viabilidad comercial de la automatización basada en IA.",
+          "sector_impact": "Refuerza la importancia de la IA en el ámbito empresarial."
+        },
+        {
+          "title": "Cognition y su agente de codificación Devin no sustituirán a humanos",
+          "summary": "El fundador de Cognition, Scott Wu, aclara que su agente de codificación no tiene como objetivo reemplazar a programadores humanos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "automatización"
+          ],
+          "what_changed": "Aclaración de la intención detrás de su agente de codificación.",
+          "why_it_matters": "Pone en perspectiva el papel de la IA en la programación y el trabajo humano.",
+          "sector_impact": "Resalta la colaboración entre humanos y IA en el desarrollo de software."
+        },
+        {
+          "title": "Nuevas funciones de IA en Siri competirán con ChatGPT",
+          "summary": "Las nuevas características de la app Siri rediseñada buscan competir con servicios como ChatGPT.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "features nuevas",
+            "integraciones"
+          ],
+          "what_changed": "Planificación de un rediseño significativo de la experiencia Siri.",
+          "why_it_matters": "Refleja la competencia creciente entre asistentes de IA.",
+          "sector_impact": "Impulsa la innovación en asistentes virtuales."
+        },
+        {
+          "title": "Google presenta prototipos de IA en el Futures Lab",
+          "summary": "Estudiantes de la Universidad de Waterloo desarrollan prototipos de IA como tutores de lengua de señas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "laboratorios",
+            "modelos"
+          ],
+          "what_changed": "Desarrollo de prototipos innovadores por parte de estudiantes.",
+          "why_it_matters": "Contribuye a la evolución de la educación y el trabajo mediante IA.",
+          "sector_impact": "Promueve nuevos métodos de enseñanza y colaboración."
+        }
+      ]
+    },
+    {
       "date": "2026-05-29",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas claves",
       "items": [
@@ -713,146 +848,6 @@
           "what_changed": "Progreso significativo en la implementación de agentes IA.",
           "why_it_matters": "Transforma la manera en que interactuamos con tecnología y servicios.",
           "sector_impact": "Mejora la eficiencia operativa en múltiples industrias."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-23",
-      "executive_title": "Radar Diario de IA - Resumen de Innovaciones Recientes",
-      "items": [
-        {
-          "title": "Gemini 3.5: frontier intelligence with action",
-          "summary": "Lanzamiento de Gemini 3.5, una serie de modelos de IA que combinan inteligencia en frontera con acciones efectivas.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "IA",
-            "modelo",
-            "Gemini"
-          ],
-          "what_changed": "Actualización en la serie de modelos Gemini.",
-          "why_it_matters": "Aporta nuevas capacidades y mejora la eficacia en diversas aplicaciones.",
-          "sector_impact": "Transforma el sector de la inteligencia artificial al mejorar la toma de decisiones automatizada."
-        },
-        {
-          "title": "I/O 2026: Welcome to the agentic Gemini era",
-          "summary": "Overview de las innovaciones presentadas en Google I/O que mejoran la productividad con Gemini.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "Gemini",
-            "conferencia"
-          ],
-          "what_changed": "Se introdujeron mejoras en la funcionalidad de Gemini.",
-          "why_it_matters": "Ofrece herramientas más efectivas para desarrolladores y usuarios.",
-          "sector_impact": "Impulsa la eficiencia en el entorno laboral moderno."
-        },
-        {
-          "title": "AI agents ecosystem unveiled at I/O 2026",
-          "summary": "Presentación de un ecosistema de agentes de IA que permite a los consumidores interactuar de manera innovadora con la web.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "agentes",
-            "ecosistema"
-          ],
-          "what_changed": "Introducción de un nuevo modelo de interacción con internet.",
-          "why_it_matters": "Revoluciona la forma en que los usuarios se relacionan con la tecnología.",
-          "sector_impact": "Crea nuevas oportunidades en el mercado de tecnología del consumidor."
-        },
-        {
-          "title": "New features in Google Workspace",
-          "summary": "Nuevas capacidades de voz y herramientas en Google Workspace para una mejor colaboración y productividad.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google Workspace",
-            "herramientas",
-            "IA"
-          ],
-          "what_changed": "Mejoras significativas en la funcionalidad de Workspace.",
-          "why_it_matters": "Facilita la colaboración y aumenta la eficiencia en entornos remotos.",
-          "sector_impact": "Fomenta la adopción de herramientas digitales en empresas."
-        },
-        {
-          "title": "Google AI subscriptions update",
-          "summary": "Presentación de un nuevo plan $100 para suscripciones de Google AI, además de nuevas funcionalidades.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "suscripción",
-            "Google AI"
-          ],
-          "what_changed": "Ampliación de la oferta de suscripciones con beneficios nuevos.",
-          "why_it_matters": "Mejora el acceso a herramientas avanzadas de inteligencia artificial.",
-          "sector_impact": "Impulsa el uso empresarial de soluciones de IA."
-        },
-        {
-          "title": "Prototype Google AI glasses demo",
-          "summary": "Demonstraión de unas gafas de IA que superponen información relevante utilizando tecnología Gemini.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "gafas",
-            "IA",
-            "Google"
-          ],
-          "what_changed": "Introducción de tecnología de visualización en el campo de visión.",
-          "why_it_matters": "Innovador enfoque para la interacción con el entorno.",
-          "sector_impact": "Abre nuevas vías en dispositivos portátiles y aplicaciones de IA."
-        },
-        {
-          "title": "Hark's multimodal AI models announcement",
-          "summary": "Hark anuncia el lanzamiento previsto de modelos multimodales que trabajarán con productos existentes.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Hark",
-            "modelos multimodales"
-          ],
-          "what_changed": "Expectativas de lanzamiento para este verano.",
-          "why_it_matters": "Promete mejorar la interacción con interfaces de IA.",
-          "sector_impact": "Puede revolucionar la forma en que interactuamos con la tecnología."
-        },
-        {
-          "title": "Spotify launches new podcast app",
-          "summary": "Spotify desvela una nueva aplicación de escritorio para crear podcasts personales, como respuesta a la competencia.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Spotify",
-            "podcasts",
-            "app"
-          ],
-          "what_changed": "Lanzamiento de una nueva plataforma enfocada en personalización.",
-          "why_it_matters": "Fortalece la posición de Spotify en el mercado de contenido auditivo.",
-          "sector_impact": "Crea un nuevo ecosistema para creadores de contenido."
         }
       ]
     }
