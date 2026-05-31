@@ -1,6 +1,140 @@
 {
   "days": [
     {
+      "date": "2026-05-31",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Gemini Spark: Asistente de IA 24/7",
+          "summary": "Gemini Spark ayuda a automatizar tareas cotidianas como resúmenes de correos y planificación de eventos locales.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "automación"
+          ],
+          "what_changed": "Introducción de Gemini Spark como asistente autónomo.",
+          "why_it_matters": "Facilita la automatización de tareas, optimizando el tiempo de los usuarios.",
+          "sector_impact": "Mejora la productividad individual y empresarial."
+        },
+        {
+          "title": "Lanzamientos clave de Google I/O 2026",
+          "summary": "Resumen de 12 momentos destacados de Google I/O 2026, incluyendo el Gemini Omni y Gemini 3.5 Flash.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [
+            "lanzamientos",
+            "Google"
+          ],
+          "what_changed": "Presentaciones significativas de nuevas tecnologías de IA.",
+          "why_it_matters": "Establece tendencias y direcciones futuras en IA.",
+          "sector_impact": "Influencia en el desarrollo de herramientas de IA en el mercado."
+        },
+        {
+          "title": "Groq: Startup de chip de IA en fase de recaudación",
+          "summary": "Groq busca recaudar $650 millones enfocándose más en la inferencia de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "hardware",
+            "AI"
+          ],
+          "what_changed": "Cambio de enfoque de hardware a optimización de IA.",
+          "why_it_matters": "Aumenta la capacidad de respuesta de los modelos de IA.",
+          "sector_impact": "Mejoramiento en el rendimiento de soluciones basadas en IA."
+        },
+        {
+          "title": "Nuevos desarrollos en el modelo de IA de Anthropic",
+          "summary": "Anthropic ha recaudado $65 mil millones y se aproxima a una valoración de $1T antes de su IPO.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "financiación",
+            "modelos"
+          ],
+          "what_changed": "Cierre de una ronda de financiamiento significativa.",
+          "why_it_matters": "Indica confianza en el mercado de modelos de IA avanzados.",
+          "sector_impact": "Impulsa la competencia en IA y modelos generativos."
+        },
+        {
+          "title": "Transformación de la infraestructura de internet para IA",
+          "summary": "Empresas como AWS y Cloudflare están rediseñando la infraestructura de la nube para un tráfico dominado por máquinas.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "infraestructura",
+            "cloud"
+          ],
+          "what_changed": "Enfoque en tráfico de internet dirigido por IA.",
+          "why_it_matters": "Prepara la infraestructura para un futuro en el que las máquinas dominarán.",
+          "sector_impact": "Revoluciona cómo se interactúa y se accede a servicios digitales."
+        },
+        {
+          "title": "Nuevas capacidades en Google AI Studio",
+          "summary": "Google utiliza AI Studio para crear un cuestionario sobre los anuncios destacados del I/O 2026.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google",
+            "AI Studio"
+          ],
+          "what_changed": "Desarrollo de herramientas interactivas con AI Studio.",
+          "why_it_matters": "Mejora la accesibilidad y el engagement a través de herramientas AI.",
+          "sector_impact": "Impacto en el aprendizaje y la interacción del usuario."
+        },
+        {
+          "title": "Benchmark de modelos de IA para tareas IT",
+          "summary": "ITBench-AA muestra que los modelos de frontera puntúan por debajo del 50% en la primera evaluación para tareas de IT empresarial.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "modelos"
+          ],
+          "what_changed": "Establecimiento de las primeras métricas para evaluar modelos en el ámbito IT.",
+          "why_it_matters": "Proporciona una referencia para mejorar futuros desarrollos de modelos.",
+          "sector_impact": "Influye en la adopción y desarrollo de modelos específicos para enterprise."
+        },
+        {
+          "title": "Reacción negativa al nuevo modelo de pago de GitHub Copilot",
+          "summary": "La nueva facturación de tokens de GitHub Copilot provoca descontento entre los desarrolladores.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "GitHub",
+            "Copilot"
+          ],
+          "what_changed": "Implementación de un sistema de pago basado en tokens.",
+          "why_it_matters": "Impacta la percepción y uso del Copilot entre los desarrolladores.",
+          "sector_impact": "Puede afectar la adopción de la herramienta en el mercado."
+        }
+      ]
+    },
+    {
       "date": "2026-05-30",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -730,124 +864,6 @@
           "what_changed": "Introducción de un marco para evaluar modelos en juegos estratégicos generados proceduralmente.",
           "why_it_matters": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
           "sector_impact": "Impacta en el diseño de sistemas de AI para juegos, subastas y mercados."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-24",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "100 cosas que anunciamos en I/O 2026",
-          "summary": "Presentamos Gemini Omni, Google Antigravity, Universal Cart y más.",
-          "category": "sector",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "lanzamientos",
-            "nuevas herramientas"
-          ],
-          "what_changed": "Anuncio de múltiples herramientas y tecnologías.",
-          "why_it_matters": "Estas innovaciones pueden redefinir cómo interactuamos con la tecnología.",
-          "sector_impact": "Impacto significativo en la industria de IA y tecnología."
-        },
-        {
-          "title": "Nvidia encuentra un nuevo mercado de $200B para CPUs de agentes de IA",
-          "summary": "Jensen Huang predice un auge en la demanda de CPUs dedicadas a IA.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "hardware",
-            "IA"
-          ],
-          "what_changed": "Expansión hacia CPU específicos para inteligencia artificial.",
-          "why_it_matters": "Podría revolucionar el hardware utilizado en IA.",
-          "sector_impact": "Genera nuevas oportunidades en el mercado tecnológico."
-        },
-        {
-          "title": "Nuevo experimento mejora reuniones grupales en Google Beam",
-          "summary": "Innovaciones que prometen hacer las reuniones híbridas más inclusivas.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "meeting tech",
-            "innovación"
-          ],
-          "what_changed": "Mejoras en la calidad de interacción en reuniones híbridas.",
-          "why_it_matters": "Facilita una mayor conexión y comunicación entre equipos.",
-          "sector_impact": "Transforma el entorno laboral."
-        },
-        {
-          "title": "Spotify lanza herramienta de creación de audiolibros con ElevenLabs",
-          "summary": "Generación de audiolibros impulsada por IA sin contratos exclusivos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "audiolibros",
-            "IA"
-          ],
-          "what_changed": "Facilita la producción de audiolibros a través de IA.",
-          "why_it_matters": "Proporciona más opciones y flexibilidad a los autores.",
-          "sector_impact": "Revoluciona la industria editorial y de audiolibros."
-        },
-        {
-          "title": "Modelo de IA altamente seguro para terapia psicológica",
-          "summary": "El Path logra un excelente puntaje en medidas de seguridad de IA para salud mental.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "salud mental",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un modelo de terapia IA más seguro.",
-          "why_it_matters": "Aumenta la confianza en el uso de IA en salud mental.",
-          "sector_impact": "Potencia el bienestar y soporte emocional."
-        },
-        {
-          "title": "Hacia una generación de texto a velocidad de luz con Nemotron-Labs",
-          "summary": "Desarrollo de modelos de lenguaje de difusión que prometen velocidad y eficiencia.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "modelos de lenguaje",
-            "innovación"
-          ],
-          "what_changed": "Avances en la generación de texto con alta velocidad.",
-          "why_it_matters": "Puede mejorar la productividad en textos y contenido.",
-          "sector_impact": "Amplía las capacidades de procesamiento de lenguaje natural."
-        },
-        {
-          "title": "Agentes de IA y el futuro de la automatización",
-          "summary": "El crecimiento de la IA predictiva y sus aplicaciones en diversos sectores.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "IA"
-          ],
-          "what_changed": "Progreso significativo en la implementación de agentes IA.",
-          "why_it_matters": "Transforma la manera en que interactuamos con tecnología y servicios.",
-          "sector_impact": "Mejora la eficiencia operativa en múltiples industrias."
         }
       ]
     }
