@@ -1,136 +1,144 @@
 {
-  "date": "2026-05-31",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas innovaciones y herramientas en IA.",
-  "opening_message": "Aquí están las actualizaciones más relevantes en el mundo de la inteligencia artificial, centradas en herramientas, modelos y automatización.",
+  "date": "2026-06-01",
+  "executive_title": "Radar Diario de IA - Herramientas y Modelos",
+  "intro_message": "Resumen diario de las innovaciones más relevantes en herramientas de IA y sus aplicaciones.",
+  "opening_message": "Este radar recopila las novedades en herramientas, modelos y características relacionadas con la inteligencia artificial que podrían impactar significativamente en el desarrollo y la automatización.",
   "items": [
     {
-      "title": "Gemini Spark: Asistente de IA 24/7",
-      "summary": "Gemini Spark ayuda a automatizar tareas cotidianas como resúmenes de correos y planificación de eventos locales.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-      "relevance_score": 11,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "automación"
-      ],
-      "what_changed": "Introducción de Gemini Spark como asistente autónomo.",
-      "why_it_matters": "Facilita la automatización de tareas, optimizando el tiempo de los usuarios.",
-      "sector_impact": "Mejora la productividad individual y empresarial."
-    },
-    {
-      "title": "Lanzamientos clave de Google I/O 2026",
-      "summary": "Resumen de 12 momentos destacados de Google I/O 2026, incluyendo el Gemini Omni y Gemini 3.5 Flash.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [
-        "lanzamientos",
-        "Google"
-      ],
-      "what_changed": "Presentaciones significativas de nuevas tecnologías de IA.",
-      "why_it_matters": "Establece tendencias y direcciones futuras en IA.",
-      "sector_impact": "Influencia en el desarrollo de herramientas de IA en el mercado."
-    },
-    {
-      "title": "Groq: Startup de chip de IA en fase de recaudación",
-      "summary": "Groq busca recaudar $650 millones enfocándose más en la inferencia de IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "title": "ClimAgent: LLM como Agentes para Análisis Climático Autónomo",
+      "summary": "ClimAgent es un marco autónomo diseñado para ejecutar diversas tareas de investigación en campos climáticos, utilizando modelos de lenguaje para mejorar la modelización y el análisis.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.16922",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "hardware",
-        "AI"
+        "ClimAgent",
+        "IA",
+        "análisis climático"
       ],
-      "what_changed": "Cambio de enfoque de hardware a optimización de IA.",
-      "why_it_matters": "Aumenta la capacidad de respuesta de los modelos de IA.",
-      "sector_impact": "Mejoramiento en el rendimiento de soluciones basadas en IA."
+      "what_changed": "Introducción de un marco autónomo para análisis climático.",
+      "why_it_matters": "Permite una evaluación sistemática y mejora en la modelización de datos climáticos.",
+      "sector_impact": "Clima, medio ambiente, investigación científica."
     },
     {
-      "title": "Nuevos desarrollos en el modelo de IA de Anthropic",
-      "summary": "Anthropic ha recaudado $65 mil millones y se aproxima a una valoración de $1T antes de su IPO.",
+      "title": "COLLEAGUE.SKILL: Generación Automática de Habilidades IA",
+      "summary": "Un sistema automatizado que destila el conocimiento experto en habilidades usables por agentes LLM, facilitando su implementación y adaptación.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.31264",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "habilidades IA",
+        "automoción",
+        "formación"
+      ],
+      "what_changed": "Desarrollo de un sistema de destilación para generar habilidades basadas en conocimientos de expertos.",
+      "why_it_matters": "Agiliza la creación de agentes más efectivos y personalizables.",
+      "sector_impact": "Tecnología, educación, desarrollo de software."
+    },
+    {
+      "title": "Design and Evaluation of Multi-Agent AI Oracle Systems",
+      "summary": "Evaluación de sistemas oráculos de IA de múltiples agentes para mejorar la precisión en la resolución de mercados predictivos.",
       "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.30802",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "financiación",
-        "modelos"
+        "sistemas oráculos",
+        "IA",
+        "mercados predictivos"
       ],
-      "what_changed": "Cierre de una ronda de financiamiento significativa.",
-      "why_it_matters": "Indica confianza en el mercado de modelos de IA avanzados.",
-      "sector_impact": "Impulsa la competencia en IA y modelos generativos."
+      "what_changed": "Introducción de arquitecturas multi-agente para mejorar la resolución de resultados.",
+      "why_it_matters": "Mejora la fiabilidad y precisión en la predicción de eventos.",
+      "sector_impact": "Finanzas, análisis de datos, inteligencia artificial."
     },
     {
-      "title": "Transformación de la infraestructura de internet para IA",
-      "summary": "Empresas como AWS y Cloudflare están rediseñando la infraestructura de la nube para un tráfico dominado por máquinas.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "title": "SAGE: Puerta de Novedad para Memoria en Agentes LLM",
+      "summary": "SAGE es un mecanismo de control que gestiona la evolución de la memoria en agentes de IA, mejorando la eficiencia del sistema.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.30711",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "memoria IA",
+        "eficiencia",
+        "agentes"
+      ],
+      "what_changed": "Desarrollo de control de novedad para la evolución de la memoria.",
+      "why_it_matters": "Aumenta la calidad de la memoria y la eficiencia del sistema en general.",
+      "sector_impact": "IA, desarrollo de software, robótica."
+    },
+    {
+      "title": "LLM como Agentes de Toma de Decisiones Mejoradas",
+      "summary": "Presentamos Iterative Regret-Minimization Fine-Tuning, un procedimiento post-entrenamiento que mejora la capacidad de los LLM en la toma de decisiones.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.04393",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "toma de decisiones",
+        "IA",
+        "modelos"
+      ],
+      "what_changed": "Introducción de un nuevo enfoque para la mejora de decisiones en LLM.",
+      "why_it_matters": "Optimiza la capacidad de los LLM al adaptarse a entornos dinámicos.",
+      "sector_impact": "Tecnología, finanzas, desarrollo de productos."
+    },
+    {
+      "title": "Depth-Dependent Indirect Prompt Injection in ReAct Agents",
+      "summary": "Investigación sobre la vulnerabilidad de los agentes ReAct a la inyección indirecta de prompts, estableciendo nuevas dimensiones de riesgo.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.30686",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "infraestructura",
-        "cloud"
+        "seguridad",
+        "IA",
+        "modelos"
       ],
-      "what_changed": "Enfoque en tráfico de internet dirigido por IA.",
-      "why_it_matters": "Prepara la infraestructura para un futuro en el que las máquinas dominarán.",
-      "sector_impact": "Revoluciona cómo se interactúa y se accede a servicios digitales."
+      "what_changed": "Exploración de nuevas dimensiones de riesgo en la inyección de prompts.",
+      "why_it_matters": "Mejora nuestra comprensión de las vulnerabilidades en LLM.",
+      "sector_impact": "Ciberseguridad, IA, tecnología."
     },
     {
-      "title": "Nuevas capacidades en Google AI Studio",
-      "summary": "Google utiliza AI Studio para crear un cuestionario sobre los anuncios destacados del I/O 2026.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "relevance_score": 7,
+      "title": "Post-Training LLMs as Better Decision-Making Agents",
+      "summary": "Aborda la mejora del rendimiento de LLM en la toma de decisiones a través de un enfoque de minimización de desgastes.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.04393",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Google",
-        "AI Studio"
+        "toma de decisiones",
+        "IA",
+        "mejora de modelos"
       ],
-      "what_changed": "Desarrollo de herramientas interactivas con AI Studio.",
-      "why_it_matters": "Mejora la accesibilidad y el engagement a través de herramientas AI.",
-      "sector_impact": "Impacto en el aprendizaje y la interacción del usuario."
+      "what_changed": "Desarrollo de un nuevo enfoque para LLM en la toma de decisiones.",
+      "why_it_matters": "Facilita la implementación efectiva en entornos de toma de decisiones.",
+      "sector_impact": "Finanzas, tecnología, análisis de datos."
     },
     {
-      "title": "Benchmark de modelos de IA para tareas IT",
-      "summary": "ITBench-AA muestra que los modelos de frontera puntúan por debajo del 50% en la primera evaluación para tareas de IT empresarial.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "relevance_score": 8,
+      "title": "FEM-Bench: Benchmark Estructurado para Evaluar LLMs Generadores de Código",
+      "summary": "FEM-Bench establece un fundamento estructurado para evaluar la capacidad de LLMs en la generación de código científico correcto.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2512.20732",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
         "benchmark",
-        "modelos"
+        "evaluación",
+        "código"
       ],
-      "what_changed": "Establecimiento de las primeras métricas para evaluar modelos en el ámbito IT.",
-      "why_it_matters": "Proporciona una referencia para mejorar futuros desarrollos de modelos.",
-      "sector_impact": "Influye en la adopción y desarrollo de modelos específicos para enterprise."
-    },
-    {
-      "title": "Reacción negativa al nuevo modelo de pago de GitHub Copilot",
-      "summary": "La nueva facturación de tokens de GitHub Copilot provoca descontento entre los desarrolladores.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "GitHub",
-        "Copilot"
-      ],
-      "what_changed": "Implementación de un sistema de pago basado en tokens.",
-      "why_it_matters": "Impacta la percepción y uso del Copilot entre los desarrolladores.",
-      "sector_impact": "Puede afectar la adopción de la herramienta en el mercado."
+      "what_changed": "Introducción de un nuevo benchmark para modelos generadores de código.",
+      "why_it_matters": "Facilita la evaluación objetiva del rendimiento de LLMs en situaciones del mundo real.",
+      "sector_impact": "Investigación, desarrollo de software, educación."
     }
   ]
 }

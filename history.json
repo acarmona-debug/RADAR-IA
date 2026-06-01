@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-06-01",
+      "executive_title": "Radar Diario de IA - Herramientas y Modelos",
+      "items": [
+        {
+          "title": "ClimAgent: LLM como Agentes para Análisis Climático Autónomo",
+          "summary": "ClimAgent es un marco autónomo diseñado para ejecutar diversas tareas de investigación en campos climáticos, utilizando modelos de lenguaje para mejorar la modelización y el análisis.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.16922",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ClimAgent",
+            "IA",
+            "análisis climático"
+          ],
+          "what_changed": "Introducción de un marco autónomo para análisis climático.",
+          "why_it_matters": "Permite una evaluación sistemática y mejora en la modelización de datos climáticos.",
+          "sector_impact": "Clima, medio ambiente, investigación científica."
+        },
+        {
+          "title": "COLLEAGUE.SKILL: Generación Automática de Habilidades IA",
+          "summary": "Un sistema automatizado que destila el conocimiento experto en habilidades usables por agentes LLM, facilitando su implementación y adaptación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.31264",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "habilidades IA",
+            "automoción",
+            "formación"
+          ],
+          "what_changed": "Desarrollo de un sistema de destilación para generar habilidades basadas en conocimientos de expertos.",
+          "why_it_matters": "Agiliza la creación de agentes más efectivos y personalizables.",
+          "sector_impact": "Tecnología, educación, desarrollo de software."
+        },
+        {
+          "title": "Design and Evaluation of Multi-Agent AI Oracle Systems",
+          "summary": "Evaluación de sistemas oráculos de IA de múltiples agentes para mejorar la precisión en la resolución de mercados predictivos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30802",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "sistemas oráculos",
+            "IA",
+            "mercados predictivos"
+          ],
+          "what_changed": "Introducción de arquitecturas multi-agente para mejorar la resolución de resultados.",
+          "why_it_matters": "Mejora la fiabilidad y precisión en la predicción de eventos.",
+          "sector_impact": "Finanzas, análisis de datos, inteligencia artificial."
+        },
+        {
+          "title": "SAGE: Puerta de Novedad para Memoria en Agentes LLM",
+          "summary": "SAGE es un mecanismo de control que gestiona la evolución de la memoria en agentes de IA, mejorando la eficiencia del sistema.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30711",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria IA",
+            "eficiencia",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de control de novedad para la evolución de la memoria.",
+          "why_it_matters": "Aumenta la calidad de la memoria y la eficiencia del sistema en general.",
+          "sector_impact": "IA, desarrollo de software, robótica."
+        },
+        {
+          "title": "LLM como Agentes de Toma de Decisiones Mejoradas",
+          "summary": "Presentamos Iterative Regret-Minimization Fine-Tuning, un procedimiento post-entrenamiento que mejora la capacidad de los LLM en la toma de decisiones.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.04393",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "toma de decisiones",
+            "IA",
+            "modelos"
+          ],
+          "what_changed": "Introducción de un nuevo enfoque para la mejora de decisiones en LLM.",
+          "why_it_matters": "Optimiza la capacidad de los LLM al adaptarse a entornos dinámicos.",
+          "sector_impact": "Tecnología, finanzas, desarrollo de productos."
+        },
+        {
+          "title": "Depth-Dependent Indirect Prompt Injection in ReAct Agents",
+          "summary": "Investigación sobre la vulnerabilidad de los agentes ReAct a la inyección indirecta de prompts, estableciendo nuevas dimensiones de riesgo.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30686",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "IA",
+            "modelos"
+          ],
+          "what_changed": "Exploración de nuevas dimensiones de riesgo en la inyección de prompts.",
+          "why_it_matters": "Mejora nuestra comprensión de las vulnerabilidades en LLM.",
+          "sector_impact": "Ciberseguridad, IA, tecnología."
+        },
+        {
+          "title": "Post-Training LLMs as Better Decision-Making Agents",
+          "summary": "Aborda la mejora del rendimiento de LLM en la toma de decisiones a través de un enfoque de minimización de desgastes.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.04393",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "toma de decisiones",
+            "IA",
+            "mejora de modelos"
+          ],
+          "what_changed": "Desarrollo de un nuevo enfoque para LLM en la toma de decisiones.",
+          "why_it_matters": "Facilita la implementación efectiva en entornos de toma de decisiones.",
+          "sector_impact": "Finanzas, tecnología, análisis de datos."
+        },
+        {
+          "title": "FEM-Bench: Benchmark Estructurado para Evaluar LLMs Generadores de Código",
+          "summary": "FEM-Bench establece un fundamento estructurado para evaluar la capacidad de LLMs en la generación de código científico correcto.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.20732",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "evaluación",
+            "código"
+          ],
+          "what_changed": "Introducción de un nuevo benchmark para modelos generadores de código.",
+          "why_it_matters": "Facilita la evaluación objetiva del rendimiento de LLMs en situaciones del mundo real.",
+          "sector_impact": "Investigación, desarrollo de software, educación."
+        }
+      ]
+    },
+    {
       "date": "2026-05-31",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -756,114 +898,6 @@
           "what_changed": "Reconstrucción de tareas como diagramas de influencia para optimización precisa.",
           "why_it_matters": "Mejora la eficacia y precisión en la resolución de tareas complejas de múltiples objetivos.",
           "sector_impact": "Proporciona un marco más eficaz para la utilización de LLMs en contextos complejos."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-          "summary": "SkillOpt optimiza habilidades de agentes mediante un enfoque sistemático y controlado, mejorando notablemente su rendimiento en tareas complejas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.23904",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "agentes",
-            "inteligencia artificial"
-          ],
-          "what_changed": "Introducción de un optimizador de habilidades que mejora el rendimiento de agentes en diversas tareas.",
-          "why_it_matters": "Permite a los agentes adaptarse y mejorar continuamente, aumentando su utilidad en aplicaciones prácticas.",
-          "sector_impact": "Eleva la eficacia de los agentes en múltiples sectores, desde atención al cliente hasta desarrollo de software."
-        },
-        {
-          "title": "SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety",
-          "summary": "SafeHarbor introduce un marco innovador para mejorar la seguridad de los LLM, equilibrando efectivamente utilidad y seguridad.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.05704",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agentes",
-            "modelos"
-          ],
-          "what_changed": "Desarrollo de un sistema de memoria jerárquica que mejora la toma de decisiones de los agentes.",
-          "why_it_matters": "Reducir riesgos de comportamiento dañino de AI en entornos reales es crítico para su implementación segura.",
-          "sector_impact": "Aumenta la adopción de LLM en industrias donde la seguridad es primordial, como salud y finanzas."
-        },
-        {
-          "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
-          "summary": "AutoResearch busca automatizar flujos de trabajo de investigación científica, facilitando desde la generación de hipótesis hasta la validación y comunicación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.23204",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "investigación",
-            "inteligencia artificial"
-          ],
-          "what_changed": "Se identifican cinco condiciones de flujo de trabajo para promover la automatización de la investigación.",
-          "why_it_matters": "Optimizar la investigación científica permite descubrimientos más rápidos y eficientes.",
-          "sector_impact": "Impacto significativo en sectores académicos y comerciales, mejorando procesos y reduciendo tiempos de entrega."
-        },
-        {
-          "title": "Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems",
-          "summary": "IDS permite a los agentes AI generar sistemas verificados formalmente, acelerando la producción de software seguro.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.23109",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "sistemas",
-            "verificación",
-            "inteligencia artificial"
-          ],
-          "what_changed": "Presentación de una metodología efectiva para síntesis de implementación y prueba en un sistema LLM.",
-          "why_it_matters": "Mejora la confianza en sistemas críticos al garantizar que cumplan con especificaciones formales.",
-          "sector_impact": "Especialmente relevante en desarrollo de software, donde la seguridad y la confiabilidad son esenciales."
-        },
-        {
-          "title": "EvalVerse: Pipeline-Aware and Expert-Calibrated Benchmarking for Professional Cinematic Video Generation",
-          "summary": "EvalVerse establece un estándar para la evaluación automatizada de generación de video cinematográfico, alineando la calidad estética con métricas científicas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.23271",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "generación de video",
-            "evaluación",
-            "inteligencia artificial"
-          ],
-          "what_changed": "Introducción de un marco de evaluación experto y ajustado para generación de video.",
-          "why_it_matters": "Mejora la calidad de los modelos generativos aplicados a cine y video profesional.",
-          "sector_impact": "Apto para la producción cinematográfica y contenido multimedia de alta calidad."
-        },
-        {
-          "title": "GENSTRAT: Toward a Science of Strategic Reasoning in Large Language Models",
-          "summary": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.23238",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "razonamiento estratégico",
-            "modelos",
-            "inteligencia artificial"
-          ],
-          "what_changed": "Introducción de un marco para evaluar modelos en juegos estratégicos generados proceduralmente.",
-          "why_it_matters": "GENSTRAT evalúa modelos LLM en entornos estratégicos generados procesalmente, mejorando la comprensión de sus comportamientos en situaciones competitivas.",
-          "sector_impact": "Impacta en el diseño de sistemas de AI para juegos, subastas y mercados."
         }
       ]
     }
