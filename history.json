@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-06-02",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "MAAD: Multi-Agent Architecture Design",
+          "summary": "Un marco para transformar especificaciones de requisitos en arquitecturas arquitectónicas completas mediante agentes especializados.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.01385",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "arquitectura",
+            "automatización"
+          ],
+          "what_changed": "Introducción de un marco que coordina múltiples agentes para la arquitectura de software.",
+          "why_it_matters": "Mejora la eficiencia en el diseño arquitectónico al reducir el tiempo y esfuerzo requeridos.",
+          "sector_impact": "Promueve prácticas más rigurosas en ingeniería de software."
+        },
+        {
+          "title": "AGENTREDBENCH: Evaluación de agentes LLM sobre SaaS",
+          "summary": "Benchmark dinámico que evalúa la seguridad de agentes LLM en integraciones con SaaS.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.02240",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Desarrollo de un benchmark dinámico para red-teaming de agentes LLM.",
+          "why_it_matters": "Aumenta la seguridad en entornos de integración de terceros.",
+          "sector_impact": "Fortalece la seguridad en aplicaciones comerciales que utilizan integraciones LLM."
+        },
+        {
+          "title": "SkillAdaptor: Adaptación de habilidades para agentes LLM",
+          "summary": "Marco para la adaptación de habilidades de agentes LLM en base a pasos fallidos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.01311",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "adaptación",
+            "interacción"
+          ],
+          "what_changed": "Introducción de un marco de adaptación de habilidades paso a paso con atribución de fallas.",
+          "why_it_matters": "Proporciona un enfoque más auditable y estable para el mantenimiento de habilidades.",
+          "sector_impact": "Permite un mejor rendimiento de agentes en tareas interactivas de largo plazo."
+        },
+        {
+          "title": "Ryze: Síntesis de datos enriquecidos desde artículos biomédicos",
+          "summary": "Sistema automatizado que convierte artículos biomédicos en conjuntos de entrenamiento enriquecidos con evidencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.00902",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "biomedicina",
+            "datos",
+            "sintetización"
+          ],
+          "what_changed": "Desarrollo de un sistema que mejora la síntesis de QA a partir de literatura científica.",
+          "why_it_matters": "Aumenta la precisión en tareas de investigación biomédica aprovechando la estructura de datos complejos.",
+          "sector_impact": "Fortalece la capacidad de investigación en el sector de la salud mediante modelos de IA."
+        },
+        {
+          "title": "StreamingVLM: Comprensión en tiempo real para videos infinitos",
+          "summary": "Modelo diseñado para la comprensión estable en tiempo real de series de video infinitas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.09608",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "video",
+            "VLM",
+            "tiempo real"
+          ],
+          "what_changed": "Introducción de un marco unificado para la formación y la inferencia en streaming.",
+          "why_it_matters": "Mejora el procesamiento y comprensión de videos en entornos de baja latencia.",
+          "sector_impact": "Apoya la evolución de asistentes autónomos que pueden analizar contenido audiovisual en tiempo real."
+        },
+        {
+          "title": "Med-V1: Modelos pequeños para atribución de evidencia biomédica",
+          "summary": "Modelo de lenguaje pequeño que mejora la atribución de evidencia en tareas biomédicas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.05308",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "biomedicina",
+            "modelos",
+            "atribución"
+          ],
+          "what_changed": "Desarrollo de un conjunto de modelos pequeños para tareas de alta complejidad en el campo biomédico.",
+          "why_it_matters": "Modelo de lenguaje pequeño que mejora la atribución de evidencia en tareas biomédicas.",
+          "sector_impact": "Facilita la verificación y detección de alucinaciones en respuestas de modelos biomédicos."
+        },
+        {
+          "title": "Claudini: Descubrimiento de algoritmos adversariales por auto-investigación",
+          "summary": "Agentes AI capaces de descubrir nuevos algoritmos para ataques adversariales contra LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.24511",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "adversarial",
+            "algoritmos",
+            "auto-research"
+          ],
+          "what_changed": "Introducción de un sistema de auto-investigación para mejorar la defensa contra ataques adversariales.",
+          "why_it_matters": "Agentes AI capaces de descubrir nuevos algoritmos para ataques adversariales contra LLMs.",
+          "sector_impact": "Refuerza la seguridad general de los sistemas basados en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-06-01",
       "executive_title": "Radar Diario de IA - Herramientas y Modelos",
       "items": [
@@ -807,97 +932,6 @@
           "what_changed": "Desarrollo de un detector que justifica sus decisiones.",
           "why_it_matters": "Aumenta la fiabilidad en la detección de contenido generado por IA.",
           "sector_impact": "Protege la integridad del contenido escrito mediante IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "MDIA: Una Nueva Pipeline de Inteligencia Diagnóstica Multi-Agente",
-          "summary": "MDIA demuestra mejoras significativas en benchmarks clínicos a través de un diseño arquitectónico innovador en un modelo no ajustado.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.24699",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "multi-agente",
-            "salud",
-            "arquitectura"
-          ],
-          "what_changed": "Implementación de un gráfico de razonamiento clínico especializado que mejora el rendimiento.",
-          "why_it_matters": "Ofrece un enfoque alternativo y eficaz para evaluar LLMs en entornos clínicos.",
-          "sector_impact": "Impacto significativo en el sector salud, mejorando la toma de decisiones clínica."
-        },
-        {
-          "title": "UniToolCall: Unificación del Uso de Herramientas para Agentes LLM",
-          "summary": "Un marco unificado que estandariza el uso de herramientas y la evaluación en agentes LLMs.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.11557",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Unificación del pipeline desde la construcción de herramientas hasta la evaluación.",
-          "why_it_matters": "Facilita el desarrollo y mejora la eficiencia en el uso de herramientas por parte de los LLMs.",
-          "sector_impact": "Aumenta la eficacia de los agentes LLM en diversas aplicaciones."
-        },
-        {
-          "title": "PennySynth: Generación de Código Cuántico Automatizada",
-          "summary": "Un marco que mejora la calidad de generación de código cuántico mediante la recuperación y generación aumentada.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.25572",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "cuántico",
-            "generación de código",
-            "herramienta"
-          ],
-          "what_changed": "Introducción de una estrategia de embedding consciente del código.",
-          "why_it_matters": "Mejora significativamente la calidad del código generado, alineándolo con las prácticas cuánticas.",
-          "sector_impact": "Transforma la forma en que se desarrolla el software cuántico."
-        },
-        {
-          "title": "MA-CoT: Mejora de la Fiabilidad en la Generación de Código Seguro",
-          "summary": "Presenta un marco que incorpora directrices de mitigación de vulnerabilidades en LLMs para reducir riesgos de seguridad.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.24300",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "código",
-            "framework"
-          ],
-          "what_changed": "Incorporación de guías específicas para mitigar vulnerabilidades, mejorando la fiabilidad del código.",
-          "why_it_matters": "Reduce significativamente el número de hallazgos de seguridad en el código generado.",
-          "sector_impact": "Proporciona un enfoque más seguro para el desarrollo de software."
-        },
-        {
-          "title": "UtilityMax Prompting: Un Marco Formal para Tareas de Modelos de Lenguaje",
-          "summary": "Introduce un enfoque formal para la especificación de tareas en LLMs que maximiza la utilidad esperada.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11583",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "optimización",
-            "tareas"
-          ],
-          "what_changed": "Reconstrucción de tareas como diagramas de influencia para optimización precisa.",
-          "why_it_matters": "Mejora la eficacia y precisión en la resolución de tareas complejas de múltiples objetivos.",
-          "sector_impact": "Proporciona un marco más eficaz para la utilización de LLMs en contextos complejos."
         }
       ]
     }
