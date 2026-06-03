@@ -1,127 +1,112 @@
 {
-  "date": "2026-06-02",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave en herramientas y modelos de IA de la semana.",
-  "opening_message": "Mantente al tanto de los últimos desarrollos en IA que pueden impactar tu trabajo y negocio.",
+  "date": "2026-06-03",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "MAAD: Multi-Agent Architecture Design",
-      "summary": "Un marco para transformar especificaciones de requisitos en arquitecturas arquitectónicas completas mediante agentes especializados.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.01385",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "arquitectura",
-        "automatización"
-      ],
-      "what_changed": "Introducción de un marco que coordina múltiples agentes para la arquitectura de software.",
-      "why_it_matters": "Mejora la eficiencia en el diseño arquitectónico al reducir el tiempo y esfuerzo requeridos.",
-      "sector_impact": "Promueve prácticas más rigurosas en ingeniería de software."
-    },
-    {
-      "title": "AGENTREDBENCH: Evaluación de agentes LLM sobre SaaS",
-      "summary": "Benchmark dinámico que evalúa la seguridad de agentes LLM en integraciones con SaaS.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.02240",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "agentes",
-        "evaluación"
-      ],
-      "what_changed": "Desarrollo de un benchmark dinámico para red-teaming de agentes LLM.",
-      "why_it_matters": "Aumenta la seguridad en entornos de integración de terceros.",
-      "sector_impact": "Fortalece la seguridad en aplicaciones comerciales que utilizan integraciones LLM."
-    },
-    {
-      "title": "SkillAdaptor: Adaptación de habilidades para agentes LLM",
-      "summary": "Marco para la adaptación de habilidades de agentes LLM en base a pasos fallidos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.01311",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "adaptación",
-        "interacción"
-      ],
-      "what_changed": "Introducción de un marco de adaptación de habilidades paso a paso con atribución de fallas.",
-      "why_it_matters": "Proporciona un enfoque más auditable y estable para el mantenimiento de habilidades.",
-      "sector_impact": "Permite un mejor rendimiento de agentes en tareas interactivas de largo plazo."
-    },
-    {
-      "title": "Ryze: Síntesis de datos enriquecidos desde artículos biomédicos",
-      "summary": "Sistema automatizado que convierte artículos biomédicos en conjuntos de entrenamiento enriquecidos con evidencia.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.00902",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "biomedicina",
-        "datos",
-        "sintetización"
-      ],
-      "what_changed": "Desarrollo de un sistema que mejora la síntesis de QA a partir de literatura científica.",
-      "why_it_matters": "Aumenta la precisión en tareas de investigación biomédica aprovechando la estructura de datos complejos.",
-      "sector_impact": "Fortalece la capacidad de investigación en el sector de la salud mediante modelos de IA."
-    },
-    {
-      "title": "StreamingVLM: Comprensión en tiempo real para videos infinitos",
-      "summary": "Modelo diseñado para la comprensión estable en tiempo real de series de video infinitas.",
+      "title": "GTBench: A Curriculum-Grounded Benchmark for Evaluating LLMs as Mathematical Research Assistants in Graph Theory",
+      "summary": "arXiv:2606.03144v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as self-study assistants in technical disciplines, yet their reliability as mathematical reasoning assistants remains poorly understood. We introduce GTBench, a curriculum-grounded benchmark for evaluating LLMs as mathematical research assistants in graph theory, comprising 63 problems organized into three groups of increasing difficulty: undergraduate definitions and basic properties (Group 1), algorithm tracing and structural reasoning (Group 2), and graduate-level proof construction (Group 3). Problems are sourced from verified academic materials including Diestel's Graph Theory. We evaluate five frontier models -- GPT-5, Claude Sonnet 4.6, Gemini 2.5 Flash-Lite, Llama 3.3 70B, and Mistral Large 3 -- under zero-shot and chain-of-thought prompting, using exact-match and LLM-as-judge evaluation for Groups 1 and 2, and a hybrid human expert and LLM-as-judge protocol for Group 3. Our results reveal a pronounced performance hierarchy: GPT-5 approaches ceiling on Group 1 (95.8% zero-shot) and maintains meaningful accuracy on graduate proofs (82%), while all other models degrade substantially with difficulty, with Llama achieving 0% under human evaluation on Group 3 zero-shot. Failure mode analysis shows that correct algorithm, wrong execution errors dominate Groups 1 and 2, while Group 3 additionally surfaces incomplete reasoning failures and reveals systematic disagreement between human evaluators and the automated judge, particularly on verbose or near-complete proofs (kappa = 0.48-0.83 across human pairs). GTBench provides the first curriculum-grounded evaluation framework for graph-theoretic reasoning in LLMs, with direct implications for the governance of AI tools in mathematical education and scientific research.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.09608",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2606.03144",
+      "relevance_score": 44,
       "status": "new",
-      "tags": [
-        "video",
-        "VLM",
-        "tiempo real"
-      ],
-      "what_changed": "Introducción de un marco unificado para la formación y la inferencia en streaming.",
-      "why_it_matters": "Mejora el procesamiento y comprensión de videos en entornos de baja latencia.",
-      "sector_impact": "Apoya la evolución de asistentes autónomos que pueden analizar contenido audiovisual en tiempo real."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Med-V1: Modelos pequeños para atribución de evidencia biomédica",
-      "summary": "Modelo de lenguaje pequeño que mejora la atribución de evidencia en tareas biomédicas.",
+      "title": "Identifying Quantum Structure in AI Language: Evidence for Evolutionary Convergence of Human and Artificial Cognition",
+      "summary": "arXiv:2511.21731v2 Announce Type: replace-cross Abstract: We present the results of cognitive tests on conceptual combinations, performed using specific Large Language Models (LLMs) as test subjects. In the first test, performed with ChatGPT and Gemini, we show that Bell's inequalities are significantly violated, which indicates the presence of a 'non-classical probability model' with probabilities that do not satisfy Kolmogorov's axioms. In the second test, also performed using ChatGPT and Gemini, we identify the presence of 'Bose-Einstein statistics', rather than the intuitively expected 'Maxwell-Boltzmann statistics', in the distribution of the words contained in large-size texts. Interestingly, these findings mirror the results previously obtained in both cognitive tests with human participants and information retrieval tests on large corpora. Taken together, they point to the 'systematic emergence of non-classical quantum-like structures in conceptual-linguistic domains', regardless of whether the cognitive agent is human or artificial. Although LLMs are classified as neural networks for historical reasons, we believe that a more essential form of knowledge organization takes place in the distributive semantic structure of vector spaces built on top of the neural network. It is this meaning-bearing structure that lends itself to a phenomenon of evolutionary convergence between human cognition and language, slowly established through biological evolution, and LLM cognition and language, emerging much more rapidly as a result of self-learning and training. We analyze various aspects and examples that contain evidence supporting the above hypothesis. We also advance a unifying framework that explains the pervasive quantum organization of meaning that we identify.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.05308",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2511.21731",
+      "relevance_score": 33,
       "status": "new",
-      "tags": [
-        "biomedicina",
-        "modelos",
-        "atribución"
-      ],
-      "what_changed": "Desarrollo de un conjunto de modelos pequeños para tareas de alta complejidad en el campo biomédico.",
-      "why_it_matters": "Modelo de lenguaje pequeño que mejora la atribución de evidencia en tareas biomédicas.",
-      "sector_impact": "Facilita la verificación y detección de alucinaciones en respuestas de modelos biomédicos."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Claudini: Descubrimiento de algoritmos adversariales por auto-investigación",
-      "summary": "Agentes AI capaces de descubrir nuevos algoritmos para ataques adversariales contra LLMs.",
-      "category": "tool",
+      "title": "AUDITFLOW: Executable Symbolic Environments for Structured Financial Reporting Verification",
+      "summary": "arXiv:2606.03031v1 Announce Type: new Abstract: Structured financial audit verification is difficult for language-model agents because correctness depends on structured evidence rather than text alone. A model must link reported facts to taxonomy concepts, traverse calculation or dimensional relations, and recompute expected values before applying an audit rule. We propose AuditFlow, a graph-grounded multi-agent framework that separates adaptive search from deterministic verification. AuditFlow builds a symbolic environment from a static US-GAAP taxonomy graph and a dynamic XBRL filing graph, and exposes it through typed tools for fact retrieval, taxonomy traversal, numerical checking, and rule evaluation. Two junior auditors inspect each case from regulatory and evidentiary views, while a senior auditor resolves disagreements and can request further investigation. The final reports are fused through evidential aggregation to produce an audit verdict, expected value, evidence trail, and trustworthiness score. On a FinAuditing-derived FinMR sample, AuditFlow reaches 82.09% joint audit accuracy under GPT-5.5, outperforming the strongest baseline by 14.93 points. Removing deterministic checks drops accuracy to 17.91%, showing that the symbolic environment performs the verification step that the model cannot reliably replace.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.24511",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2606.03031",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "adversarial",
-        "algoritmos",
-        "auto-research"
-      ],
-      "what_changed": "Introducción de un sistema de auto-investigación para mejorar la defensa contra ataques adversariales.",
-      "why_it_matters": "Agentes AI capaces de descubrir nuevos algoritmos para ataques adversariales contra LLMs.",
-      "sector_impact": "Refuerza la seguridad general de los sistemas basados en IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Generating the Modal Worker: A Cross-Model Audit of Race and Gender in LLM-Generated Personas Across 41 Occupations",
+      "summary": "arXiv:2510.21011v3 Announce Type: replace-cross Abstract: As generative AI tools are increasingly used to portray people in professional roles, understanding their racial and gender representational biases is critical. We audit over 1.5 million occupational personas generated by four major large language models (GPT-4, Gemini 2.5, DeepSeek V3.1, and Mistral-medium) across 41 U.S. occupations. Comparing these personas against U.S. Bureau of Labor Statistics (BLS) data, we find that models generate demographics with less variation than real-world data, functionally compressing each occupation toward a dominant demographic profile rather than representing population-level variation. A shift/exaggeration decomposition reveals the structure of these distortions: White (-31 percentage points) and Black (-9 pp) workers are consistently underrepresented, while Hispanic (+17 pp) and Asian (+12 pp) workers are overrepresented, with stereotype exaggeration amplifying existing occupational segregation. These distortions are often extreme, including near-total portrayals of housekeepers as Hispanic and the near-erasure of Black workers from many occupations. Because these patterns recur across models with different institutional and cultural origins, they suggest shared structural sources of bias rather than model-specific artifacts. We argue that auditing generative AI requires evaluation frameworks that examine how synthetic populations systematically reshape demographic visibility across social roles.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.21011",
+      "relevance_score": 29,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale",
+      "summary": "arXiv:2606.03056v1 Announce Type: new Abstract: As LLM agents adopt large skill libraries, selecting the right subset becomes a structural problem rather than a similarity-matching one: skills depend on, conflict with, specialize, or duplicate one another, a structure invisible to both full enumeration and embedding similarity. We present SkillDAG, which models inter-skill relationships as a typed directed graph and exposes it to an LLM agent as an inference-time, agent-callable structural retrieval interface, queried and evolved during execution rather than baked into a fixed retrieval pipeline: each search returns vector matches, typed-edge neighbors, and conflict signals, and a propose-then-commit protocol lets the agent register execution-backed edges so the graph accumulates structure across episodes. On ALFWorld and SkillsBench with MiniMax-M2.7, SkillDAG reaches 67.1% success and 27.3% reward, exceeding the strongest reported Graph-of-Skills baseline by +12.8 and +8.6 points; the advantage ports to gpt-5.2-codex, and intrinsic SkillsBench Ret@K rises from 65.5 to 78.2 under matched queries. These gains trace to isolable mechanisms: candidate ranking that stays robust as the pool grows 10x where a fixed seeding-diffusion pipeline degrades, and set-monotone online edits that enlarge ground-truth recall without evicting prior hits.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.03056",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Fully Automated Identification of Lexical Alignment and Preference-Stage Shifts in Large Language Models",
+      "summary": "arXiv:2606.03165v1 Announce Type: cross Abstract: The language used by digital chat assistants such as ChatGPT can diverge from human expectations (misalignment). Research, mostly on Scientific English, has described both what divergences occur and, to some extent, why, linking them to the training stage of human preference learning. Yet, existing approaches rely on manual curation. This paper introduces two curation-free, assumption-light evaluation metrics: the Lexical Alignment Score, which identifies lexical overuse, and the Triangulated Preference Shift, which quantifies how much of such shifts can be attributed to human preference learning. Using PubMed abstracts, continuations were generated and measured using windowed document prevalence across six model families (Falcon, Gemma, Llama, Mistral, OLMo, Yi). The procedure identifies, without manual intervention, overused items such as 'suggest', 'additionally', and 'strategy', and estimates their link to preference learning. Our findings replicate prior work and remain stable across parameter settings, random seeds, and evaluation on further data. The approach scales readily and enables systematic study of lexical (mis)alignment beyond Scientific English and across languages, and as such, the metrics have the potential to contribute to improved alignment for future models and understanding of its origins.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.03165",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Assessing and Mitigating Miscalibration in LLM-Based Social Science Measurement",
+      "summary": "arXiv:2605.11954v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly used in social science as scalable measurement tools for converting unstructured text into variables that can enter standard empirical designs. Measurement validity demands more than high average accuracy, which requires well calibrated confidence that faithfully reflects the empirical probability of each measurement being correct. This paper studies the model miscalibration in LLM-based social science measurement. We begin with a case study on FOMC and show that confidence based filtering can change downstream regression estimates when LLM confidence is miscalibrated. We then audit calibration across 14 social science constructs covering both proprietary models, including GPT-5-mini, DeepSeek-V3.2, and open source models. Across tasks and model families, reported confidence is poorly aligned with tolerance-based correctness. As a simple mitigation, we propose a soft label distillation pipeline for calibrating Bert with LLM. The method converts an LLM score and its verbalized confidence into a soft target distribution, then trains a smaller discriminative classifier on encoder models for these targets. Averaged across datasets, this approach reduces ECE by 43.2\\% and Brier by 34.0\\%. These results suggest that LLM-based social science pipelines should treat calibration as part of measurement validity, rather than as an optional post-processing concern.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.11954",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "UR$^2$: Unify RAG and Reasoning through Reinforcement Learning",
+      "summary": "arXiv:2508.06165v5 Announce Type: replace-cross Abstract: Large Language Models (LLMs) have shown strong capabilities through two complementary paradigms: Retrieval-Augmented Generation (RAG) for knowledge grounding and Reinforcement Learning from Verifiable Rewards (RLVR) for complex reasoning. However, existing attempts to unify these paradigms remain narrow in scope, typically limited to open-domain QA with fixed retrieval settings, which constrains generalization to broader domains. To address this limitation, we propose UR$^2$ (Unified RAG and Reasoning)), a general reinforcement learning framework that dynamically coordinates retrieval and reasoning. UR$^2$ introduces two key designs: a difficulty-aware curriculum that selectively invokes retrieval only for challenging instances, and a hybrid knowledge access strategy that combines domain-specific offline corpora with on-the-fly LLM-generated summaries. Together, these components mitigate the imbalance between retrieval and reasoning and improve robustness to noisy information. Experiments on open-domain QA, MMLU-Pro, medical, and mathematical reasoning tasks show that UR$^2$, built on Qwen-2.5-3/7B and LLaMA-3.1-8B, consistently outperforms existing RAG and RL baselines, and achieves performance comparable to GPT-4o-mini and GPT-4.1-mini on several benchmarks. Our code is available at https://github.com/Tsinghua-dhy/UR2.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2508.06165",
+      "relevance_score": 28,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
