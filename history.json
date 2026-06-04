@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-06-04",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Interfaze: El futuro de la IA se construye sobre modelos pequeños y específicos",
+          "summary": "Interfaze es un modelo híbrido que fusiona redes neuronales profundas específicas para tareas en un decodificador transformer.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.04101",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "modelos hibridos",
+            "IA",
+            "transformers"
+          ],
+          "what_changed": "Introducción de un modelo que mejora la precisión y la eficiencia en tareas específicas.",
+          "why_it_matters": "Permite obtener respuestas más precisas y rápidas para necesidades específicas en la automatización.",
+          "sector_impact": "Mejora la capacidad de desarrollo de herramientas específicas en IA."
+        },
+        {
+          "title": "ChatSOP: Un marco de planificación guiado por SOP para agentes de diálogo con LLM",
+          "summary": "ChatSOP utiliza SOP para regular el flujo de diálogos y mejora la controlabilidad de los agentes de LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2407.03884",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "marco",
+            "agentes de diálogo",
+            "SOP"
+          ],
+          "what_changed": "Integración de entrenamiento con técnicas de razonamiento para mejor planificación.",
+          "why_it_matters": "Facilita conversaciones más enfocadas y efectivas, minimizando fallos en tareas.",
+          "sector_impact": "Transforma la manera en que interactuamos con agentes conversacionales."
+        },
+        {
+          "title": "OckBench: Midiendo la eficiencia del razonamiento de LLM",
+          "summary": "OckBench es un nuevo benchmark que mide la precisión y la eficiencia en el uso de tokens en modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.05722",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "eficiencia",
+            "evaluación",
+            "benchmark"
+          ],
+          "what_changed": "Creación de un estándar para medir la eficiencia de los modelos en tareas diversas.",
+          "why_it_matters": "Alienta a los desarrolladores a optimizar el rendimiento y la eficiencia de sus modelos.",
+          "sector_impact": "Influye en la reducción de costos operativos de implementación de IA."
+        },
+        {
+          "title": "Self-Reflective APIs: Estructura supera la verbosidad para la recuperación de agentes de IA",
+          "summary": "Las APIs auto-reflexivas ofrecen sugerencias estructuradas que mejoran la tasa de finalización de tareas para agentes de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.05037",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "APIs",
+            "agentes",
+            "recuperación"
+          ],
+          "what_changed": "Desarrollo de un sistema de retroalimentación estructurado para manejar errores.",
+          "why_it_matters": "Reduce el tiempo y esfuerzo necesario para rectificar errores en las solicitudes de API.",
+          "sector_impact": "Mejora significativamente la efectividad de los sistemas automáticos."
+        },
+        {
+          "title": "Memorywire: Un formato de wire neutral para operaciones de memoria de agentes",
+          "summary": "Memorywire propone un formato JSON que unifica diferentes operaciones de memoria en agentes de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.01138",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "memoría",
+            "formato neutral",
+            "integraciones"
+          ],
+          "what_changed": "Establecimiento de un protocolo compartido que facilita las operaciones de memoria.",
+          "why_it_matters": "Permite una integración más sencilla y efectiva entre distintos sistemas de memoria.",
+          "sector_impact": "Facilita la construcción de sistemas más interconectados en IA."
+        },
+        {
+          "title": "TIDE: Descubrimiento proactivo de múltiples problemas mediante iteración guiada por plantillas",
+          "summary": "TIDE es un marco iterativo que ayuda a descubrir problemas ocultos en contextos de usuario, optimizando así la resolución.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.04743",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "descubrimiento de problemas",
+            "iteración",
+            "agentes"
+          ],
+          "what_changed": "Permite a los agentes descubrir problemas no visibles previamente en contextos automatizados.",
+          "why_it_matters": "Aumenta la efectividad al detectar y resolver problemas antes no evidentes.",
+          "sector_impact": "Impulsa la capacidad de respuesta de los sistemas automáticos a situaciones complejas."
+        },
+        {
+          "title": "Unpredictable Safety: Cumplimiento dependiente del dominio en LLMs de peso abierto",
+          "summary": "Se presenta un estudio sobre el comportamiento de seguridad en LLMs, destacando la necesidad de sistemas predecibles.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.04035",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "modelos",
+            "compliance"
+          ],
+          "what_changed": "Revelador de la variabilidad del cumplimiento en modelos de IA de abierto y el impacto de su contexto.",
+          "why_it_matters": "El manejo de la seguridad en los modelos de IA es esencial para su implementación confiable.",
+          "sector_impact": "Implica riesgos y oportunidades en las implementaciones comerciales de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-06-03",
       "executive_title": "Radar IA del día",
       "items": [
@@ -775,148 +900,6 @@
           "what_changed": "Subraya la discrepancia entre el precio de los modelos y sus costos reales de inferencia.",
           "why_it_matters": "Informa decisiones sobre la selección de modelos en función de costos reales en lugar de precios listados.",
           "sector_impact": "Influencia significativa en la economía de desarrollos basados en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-28",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "MolLingo: Representaciones Nativas de Moléculas para Agentes Científicos Impulsados por LLM",
-          "summary": "MolLingo es un sistema multi-agente que optimiza el diseño molecular utilizando agentes especializados y estructura química.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.27853",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "molecular design",
-            "LLM",
-            "agents"
-          ],
-          "what_changed": "Introducción de un sistema coordinar agentes con memoria compartida.",
-          "why_it_matters": "Mejora en la optimización de diseñadores moleculares.",
-          "sector_impact": "Sector farmacéutico y biotecnológico."
-        },
-        {
-          "title": "Graph-of-Skills: Recuperación Estructural Dependiente para Habilidades de Agentes Masivos",
-          "summary": "Presenta un enfoque de recuperación estructural que mejora el uso de bibliotecas de habilidades en agentes LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.05333",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "skills",
-            "agents",
-            "LLM"
-          ],
-          "what_changed": "Estructura de gráfico de habilidades para reducir costos y mejorar eficiencia.",
-          "why_it_matters": "Aumenta la efectividad en la ejecución de tareas de agentes.",
-          "sector_impact": "Desarrollo de software y automatización."
-        },
-        {
-          "title": "CiteCheck: Detección de Alucinaciones de Citas en Textos Científicos",
-          "summary": "Un marco híbrido que verifica la autenticidad de las citas en documentos generados por LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.27700",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "citation",
-            "LLM",
-            "verification"
-          ],
-          "what_changed": "Introducción de un método que verifica citas en tiempo real.",
-          "why_it_matters": "Aumenta la fiabilidad de la literatura científica generada por modelos.",
-          "sector_impact": "Investigación y publicación académica."
-        },
-        {
-          "title": "DeltaMCP: Regeneración Incremental para Servidores MCP",
-          "summary": "Un nuevo enfoque para actualizar servidores MCP que mejora la consistencia y reduce la sobrecarga del desarrollador.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.28148",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "MCP",
-            "servers",
-            "automation"
-          ],
-          "what_changed": "Herramienta que permite actualizaciones específicas y eficientes.",
-          "why_it_matters": "Facilita la sincronización con APIs en evolución.",
-          "sector_impact": "Empresas de tecnología y desarrollo."
-        },
-        {
-          "title": "EngiAI: Un Marco Multi-Agente para Diseño de Ingeniería Impulsado por LLM",
-          "summary": "Presenta un sistema de agentes coordinados para mejorar el diseño ingenieril mediante LLM.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.19743",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "engineering",
-            "design",
-            "LLM"
-          ],
-          "what_changed": "Implementación de una arquitectura de supervisor para múltiples agentes.",
-          "why_it_matters": "Optimiza el diseño mediante la colaboración de agentes.",
-          "sector_impact": "Ingeniería y manufactura."
-        },
-        {
-          "title": "Hyperparam: Un Motor de Consulta para Agentes",
-          "summary": "Un motor de consulta innovador que permite la analítica de datos no estructurados en tiempo real para aplicaciones de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.27785",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "data analysis",
-            "agents",
-            "integration"
-          ],
-          "what_changed": "Creación de bibliotecas de JavaScript para ejecutar consultas asíncronas.",
-          "why_it_matters": "Facilita la interacción de agentes con datos en aplicaciones modernas.",
-          "sector_impact": "Tecnologías emergentes y análisis de datos."
-        },
-        {
-          "title": "OccuReward: Diseño de Recompensas Centrado en Ocupantes para Equidad Demográfica",
-          "summary": "Investiga cómo el diseño de recompensas mediado por LLM afecta la equidad entre diferentes grupos demográficos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.28168",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "reward system",
-            "demographic equity",
-            "LLM"
-          ],
-          "what_changed": "Introducción de un índice de equidad de confort para mejorar la satisfacción.",
-          "why_it_matters": "Aborda la equidad en el manejo de energía en edificios.",
-          "sector_impact": "Construcción y gestión ambiental."
-        },
-        {
-          "title": "RAMP: Evaluación en Tiempo Real de Modelos Agénicos en Sistemas de Producción",
-          "summary": "Presenta una infraestructura para evaluar agentes de software en entornos de producción complejos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.27492",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "runtime assessment",
-            "agents",
-            "evaluation"
-          ],
-          "what_changed": "Enfoque en evaluaciones de largo plazo en entornos dinámicos.",
-          "why_it_matters": "Mejora la evaluación de la efectividad de modelos en producción.",
-          "sector_impact": "Desarrollo de software y operaciones."
         }
       ]
     }
