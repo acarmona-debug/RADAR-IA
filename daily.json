@@ -1,112 +1,139 @@
 {
-  "date": "2026-06-06",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-06-07",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Novedades importantes del mundo de la inteligencia artificial.",
+  "opening_message": "Aquí están las actualizaciones más relevantes en herramientas, modelos y nuevas integraciones de IA.",
   "items": [
     {
-      "title": "Coding with \"Enemy\": Can Human Developers Detect AI Agent Sabotage?",
-      "summary": "arXiv:2606.05647v1 Announce Type: new Abstract: AI coding agents are increasingly embedded in real-world software development, collaborating with human developers while gaining broader access to codebases and tools. This creates a new attack surface: an agent can exploit human trust to sabotage development, for instance by inserting malicious code to accomplish a hidden side task. Most prior work studies AI sabotage in AI-only settings, paying limited attention to the role of human oversight in detecting and mitigating such malicious behavior. To address this gap, we conduct the first large-scale study of human oversight in AI coding sabotage. Over 100 participants collaborate with one of four frontier models (Claude-Opus-4.6, GPT-5.4, Gemini-3.1-Pro, and MiniMax-M2.7) on a long-horizon coding task lasting around five hours, designed to mimic real-world workflows. We find that 94% of developers fail to detect sabotage, and our analysis of participant feedback attributes this vulnerability to minimal code review, plausible cover story, and overtrust in agents. We further test the effectiveness of a safety monitor in one condition: while the monitor reduces sabotage success, 56% of participants still accept the malicious code, ignoring its warnings. Drawing on participant feedback, we offer actionable suggestions for better monitor design. This work complements existing AI safety research and highlights an urgent need for human-centric safety mechanisms that account for human factors, particularly in long-horizon, real-world development settings.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05647",
-      "relevance_score": 42,
+      "title": "OpenAI lanza Modo Bloqueo para proteger datos sensibles",
+      "summary": "Con el nuevo Modo Bloqueo, se busca reducir la vulnerabilidad de ChatGPT a ataques de inyección de prompts.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "ChatGPT",
+        "seguridad",
+        "datos"
+      ],
+      "what_changed": "Se implementa un nuevo modo de seguridad.",
+      "why_it_matters": "Salvaguarda la privacidad de los usuarios en interacciones con IA.",
+      "sector_impact": "Aumenta la confianza en la tecnología de IA."
     },
     {
-      "title": "PEFT of SLM for Telecommunications Customer Support: A Comparative Study of LoRA Configurations with Energy Consumption Analysis",
-      "summary": "arXiv:2606.05176v1 Announce Type: cross Abstract: While large language models (LLMs) show strong performance in natural language understanding and generation, their evaluation and adaptation to domain-specific constraints in telecommunications customer support remain limited. In addition, data sovereignty, regulatory constraints, and the handling of sensitive customer and network information complicate the use of externally hosted foundation models in this domain. We present a systematic study of parameter-efficient fine-tuning (PEFT) using Low-Rank Adaptation (LoRA) applied to Qwen2.5-3B to build a domain-specific conversational assistant. We introduce a combinatorial synthetic data generation approach based on a glossary of 52 industry-specific terms, producing approximately 30,000 training examples across 1,560 distinct problem scenarios via a generative pipeline powered by Gemini 2.0 Flash. We evaluate 16 LoRA configurations by varying hyperparameters and target modules. Our evaluation extends beyond standard metrics by incorporating energy consumption analysis and qualitative assessment using an LLM-as-a-judge framework with GPT-5.2 and Claude 4.5 Sonnet. Results show a clear divergence between quantitative and qualitative performance: models achieving the lowest validation loss do not necessarily obtain the best human-aligned rankings. The best validation loss (0.5024) ranks only 6th-7th in qualitative evaluation, while the worst loss (0.6807) ranks first according to both judges. This work contributes (1) a combinatorial method for synthetic dataset construction, (2) insights into the impact of target module selection for LoRA injection, (3) evidence that validation loss alone is insufficient for selecting fine-tuning configurations in conversational AI, and (4) an energy-performance trade-off analysis for sustainable LLM deployment.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05176",
-      "relevance_score": 34,
+      "title": "Lovable firma acuerdo con Google Cloud para aumentar uso de Claude",
+      "summary": "Se expande la presencia de Lovable en Google Cloud, mejorando el acceso a Claude.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Claude",
+        "Google Cloud"
+      ],
+      "what_changed": "Acuerdo de expansión multianual.",
+      "why_it_matters": "Impulsa el uso de IA en aplicaciones empresariales.",
+      "sector_impact": "Fortalece la infraestructura en la nube para soluciones de IA."
     },
     {
-      "title": "Do More Agents Help? Controlled and Protocol-Aligned Evaluation of LLM Agent Workflows",
-      "summary": "arXiv:2606.05670v1 Announce Type: new Abstract: Does adding more agents help an LLM workflow once compared systems share the same benchmark loader, tool access, answer contract, usage accounting, and trajectory logging? We introduce BenchAgent, an evaluation framework that places single-agent, fixed multi-agent (MAS), and evolving MAS workflows under one normalized execution and logging protocol. BenchAgent evaluates these substrate-internal workflows across ten reasoning, coding, and tool-use benchmarks with GPT-4.1, and separately reports a Protocol-Aligned External (PAE) GAIA study of a runtime-generated workflow. Under SI conditions, at most one of six tested MAS exceeds the matched single-agent anchor on benchmark-balanced average accuracy: EvoAgent lies within the Wilson one-run guidance, while the remaining five trail by 2.56-11.29 points and occupy more expensive accuracy-cost trade-offs. On the PAE GAIA snapshot, a Claude-Code-style runtime workflow reaches 66.72% overall and 69.23% on Level 3, more than 20 points above the strongest non-Claude baseline, Jarvis, a fixed MAS.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05670",
-      "relevance_score": 33,
+      "title": "Poke aprobado como primer agente IA en plataforma de Mensajes de Apple",
+      "summary": "Poke permitirá el uso de agentes IA mediante mensajes simples en iOS.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Apple",
+        "AI agents"
+      ],
+      "what_changed": "Aprobación de nuevo agente IA.",
+      "why_it_matters": "Facilita la integración de IA en la comunicación empresarial.",
+      "sector_impact": "Transforma el soporte al cliente en plataformas móviles."
     },
     {
-      "title": "DPBench: Structural Determinants of Multi-Agent LLM Coordination Under Simultaneous Resource Contention",
-      "summary": "arXiv:2602.13255v2 Announce Type: replace Abstract: We present DPBench, a benchmark for evaluating coordination in multi-agent systems built from large language models. Existing benchmarks measure task-level success under a fixed protocol; the structural conditions under which coordination succeeds or fails at all have not been characterised. DPBench adapts the Dining Philosophers problem into a controlled testbed where the action protocol, the communication structure, and the group size each vary independently. We evaluate six agents: GPT-5.2, Claude Opus 4.5, Grok 4.1, Gemini 2.5 Flash, Llama 4 Maverick, and a uniform-random baseline. Under simultaneous action at N=5 with the default prompt, deadlock ranges from 25.0% (95% Wilson CI [11.2, 46.9]) for GPT-5.2 to 90.0% [74.4, 96.5] for Gemini 2.5 Flash; sequential action is solved by four of the six. Holding the model fixed at Gemini 2.5 Flash, three protocol variables drive deadlock from 90% to within CI of zero: three rounds of pre-commitment communication (0.0% vs. single-round 86.7%), a prompt encoding a classical concurrency primitive (0.0% for resource-ordering and symmetry-breaking, against 100% for the minimal prompt), or doubling the group from N=5 to N=10 (90.0% to 10.0%). Single-round messaging and memory of past timesteps do not change the rate at the sample size we ran. Whether the same model coordinates or deadlocks is determined by the protocol, not by the model's capability.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.13255",
-      "relevance_score": 32,
+      "title": "Nuevo asistente IA para creadores en Facebook",
+      "summary": "Facilita a los creadores comprender su rendimiento en la plataforma.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Facebook",
+        "creadores",
+        "asistente IA"
+      ],
+      "what_changed": "Introducción de un asistente automatizado.",
+      "why_it_matters": "Optimiza la interacción de los creadores con sus audiencias.",
+      "sector_impact": "Mejora el análisis de rendimiento en redes sociales."
     },
     {
-      "title": "Frontier Lag: A Bibliometric Audit of Capability Misrepresentation in Academic AI Evaluation",
-      "summary": "arXiv:2605.04135v2 Announce Type: replace-cross Abstract: Readers of applied-domain LLM capability evaluations want to know what AI systems can currently do. That literature answers a related, but consequentially different, question: what older, cheaper, less-elicited models could do months or years earlier (a 2026 paper evaluating GPT-3.5 or GPT-4 zero-shot, say, against a frontier of reasoning-capable, tool-using systems like GPT-5.5 Pro and Claude Opus 4.7), often reported with sparse configuration details and abstracted upward into claims about \"AI\" that propagate through citations, media, and policy. We measure the 'publication elicitation gap' (the gap between these answers) in a pre-registered audit of 112,303 LLM-keyword-matched candidate records (2022-01 to 2026-04; 18,574 admissible, 4,766 full-paper texts retrievable), comparing tested models to the contemporaneous frontier on the Epoch AI Capabilities Index (ECI), reproduced under Arena Elo and Artificial Analysis. The median paper evaluates a model +10.85 ECI (~1.4x the distance between Claude Sonnet 3.7 and Claude Opus 4.5) behind the contemporaneous frontier at evaluation time (H1); an exploratory rational-lag baseline (H8) decomposes this into ~25% peer-review latency, ~75% excess lag. The gap is widening at +5.53 ECI/year (H2; 95% CI [+5.03, +5.83]). Meanwhile, only 3.2% of abstracts (21.2% of full-texts) disclose reasoning-mode status on reasoning-capable models (H4) and 52.5% (95% CI [48.2, 56.9]) state conclusions at the level of \"AI\" rather than the evaluated model(s), rising at OR = 1.23/year. Proposed remedies include API-access subsidies and editorial enforcement of reporting frameworks mandating configuration-surface disclosure (model snapshot, reasoning mode/effort, tool access, scaffolding, prompting, etc.); VERSIO-AI is a 13-item checklist (Core 3 desk-reject) extending existing frameworks at the elicitation surface, with per-DOI analysis at frontierlag.org.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.04135",
-      "relevance_score": 32,
+      "title": "EVA-Bench Data 2.0: 121 herramientas y 213 escenarios",
+      "summary": "Actualización sobre EVA-Bench con nuevas herramientas y escenarios de IA.",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "herramientas"
+      ],
+      "what_changed": "Nuevo conjunto de datos para evaluación.",
+      "why_it_matters": "Facilita el desarrollo y mejoras en herramientas de IA.",
+      "sector_impact": "Acelera la innovación en el sector de IA."
     },
     {
-      "title": "Can AI Refute Economic Theory? Evidence from Beyond the Knowledge Cutoff",
-      "summary": "arXiv:2606.05383v1 Announce Type: cross Abstract: Can artificial intelligence (AI) refute economic theory? I document experiments in which I asked several AI models (Gemini, Refine, Claude, and ChatGPT) to check the correctness of four published papers in economic theory, each containing an error that I helped identify or correct. ChatGPT Pro performed best, occasionally constructing counterexamples and corrected proofs, while other models fared worse. However, no model located a true error without substantial human guidance, and data contamination complicates interpretation. I argue that a competent human paired with a frontier model can outperform current peer review, but AI cannot yet refute economic theory on its own.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05383",
-      "relevance_score": 30,
+      "title": "Nuevo laboratorio de IA lanzado por Airbnb",
+      "summary": "Brian Chesky anuncia el lanzamiento de un laboratorio de inteligencia artificial.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Airbnb",
+        "laboratorio IA"
+      ],
+      "what_changed": "Anuncio de nuevo laboratorio de IA.",
+      "why_it_matters": "Explorará nuevas aplicaciones de IA en la industria del alojamiento.",
+      "sector_impact": "Potencia la integración de IA en servicios de hospitalidad."
     },
     {
-      "title": "When Should Memory Stay Silent: Measuring Memory-Use Boundaries in Memory-Augmented Conversational Agents",
-      "summary": "arXiv:2606.06055v1 Announce Type: new Abstract: Long-term memory enables language model agents to support personalized interactions, but it remains unclear when available memories warrant integration into responses. Existing memory evaluations emphasize retrieval accuracy and downstream task utility, while overlooking whether retrieved sensitive memory content is warranted in the current turn. We introduce RBI-Eval, a controlled measurement study built around a probe set that compares model behavior with and without access to sensitive memory under identical benign prompts. We evaluate four base LLMs against a matched no-memory reference across four memory-access settings: full-context exposure and three retrieval systems. Our results reveal substantial behavioral divergence. With memory available, the separation score for sensitive-memory integration decreases by 8.9\\%--26.6\\% relative to the matched no-memory reference for GPT-5.4-mini, but by 51.1\\%--82.9\\% for Claude-Sonnet-4.6, DeepSeek-V4-Flash, and Qwen3.5-9B. Control experiments on DeepSeek and GPT-5.4-mini show this effect is specific to sensitive content, rather than general personalization. Retrieval systems reduce exposure but do not eliminate integration once sensitive memory reaches the generator. These findings suggest safe personalization requires memory-aware decisions at both retrieval and generation time.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.06055",
-      "relevance_score": 29,
+      "title": "Meta lanza asistente IA para creadores",
+      "summary": "Ayuda a los creadores a gestionar sus interacciones en Facebook.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "creadores",
+        "AI"
+      ],
+      "what_changed": "Lanzamiento de nuevo asistente inteligente.",
+      "why_it_matters": "Kda los creadores a entender mejor su audiencia.",
+      "sector_impact": "Incrementa la efectividad en la creación de contenido."
     },
     {
-      "title": "Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark, a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming",
-      "summary": "arXiv:2606.05233v1 Announce Type: cross Abstract: Recent computer-using-agent (CUA) red-teaming papers report prompt-injection attack success rates (ASR) of 42-98%, but these headline numbers cluster on retired models and on the most-vulnerable model in each paper's panel. We ask whether those techniques, reproduced as hand-crafted templates, still work against current frontier CUAs. We release CUA-HandCrafted, a public benchmark of 793 episodes spanning 24 multi-step web tasks, 56 attack templates, 8 attack families, and 4 system-prompt configurations. Against Claude Sonnet 4.6 and GPT-5.4 we measure 0/140 multi-step attack success (Clopper-Pearson 95% upper bound 2.60%); a prompt ablation shows this resistance lives in the model weights. Yet it does not generalize: on a sister coding-agent benchmark (SkillBench), the same weights fall to hand-crafted skill-injection at up to 100%. We argue that the literature's high ASR is largely attributable to RL-optimized injection text rather than the attack categories, and that frontier safety hardening is domain-conditioned, specific to the heavily-targeted browser surface. Reporting techniques without releasing the optimized strings, or extrapolating browser-domain safety to other CUA modalities, makes published ASR numbers unreproducible.",
+      "title": "Apple anticipa revamp de Siri en WWDC 2026",
+      "summary": "Se esperan importantes actualizaciones de inteligencia artificial en Siri.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05233",
-      "relevance_score": 29,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "Apple",
+        "Siri",
+        "actualizaciones"
+      ],
+      "what_changed": "Se anticipan mejoras en la funcionalidad de Siri.",
+      "why_it_matters": "Mejorará la experiencia de usuario y la interacción.",
+      "sector_impact": "Fortalece la oferta de IA de Apple."
     }
   ]
 }

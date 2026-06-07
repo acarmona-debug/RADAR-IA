@@ -1,6 +1,143 @@
 {
   "days": [
     {
+      "date": "2026-06-07",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenAI lanza Modo Bloqueo para proteger datos sensibles",
+          "summary": "Con el nuevo Modo Bloqueo, se busca reducir la vulnerabilidad de ChatGPT a ataques de inyección de prompts.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "seguridad",
+            "datos"
+          ],
+          "what_changed": "Se implementa un nuevo modo de seguridad.",
+          "why_it_matters": "Salvaguarda la privacidad de los usuarios en interacciones con IA.",
+          "sector_impact": "Aumenta la confianza en la tecnología de IA."
+        },
+        {
+          "title": "Lovable firma acuerdo con Google Cloud para aumentar uso de Claude",
+          "summary": "Se expande la presencia de Lovable en Google Cloud, mejorando el acceso a Claude.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "Google Cloud"
+          ],
+          "what_changed": "Acuerdo de expansión multianual.",
+          "why_it_matters": "Impulsa el uso de IA en aplicaciones empresariales.",
+          "sector_impact": "Fortalece la infraestructura en la nube para soluciones de IA."
+        },
+        {
+          "title": "Poke aprobado como primer agente IA en plataforma de Mensajes de Apple",
+          "summary": "Poke permitirá el uso de agentes IA mediante mensajes simples en iOS.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Apple",
+            "AI agents"
+          ],
+          "what_changed": "Aprobación de nuevo agente IA.",
+          "why_it_matters": "Facilita la integración de IA en la comunicación empresarial.",
+          "sector_impact": "Transforma el soporte al cliente en plataformas móviles."
+        },
+        {
+          "title": "Nuevo asistente IA para creadores en Facebook",
+          "summary": "Facilita a los creadores comprender su rendimiento en la plataforma.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Facebook",
+            "creadores",
+            "asistente IA"
+          ],
+          "what_changed": "Introducción de un asistente automatizado.",
+          "why_it_matters": "Optimiza la interacción de los creadores con sus audiencias.",
+          "sector_impact": "Mejora el análisis de rendimiento en redes sociales."
+        },
+        {
+          "title": "EVA-Bench Data 2.0: 121 herramientas y 213 escenarios",
+          "summary": "Actualización sobre EVA-Bench con nuevas herramientas y escenarios de IA.",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "herramientas"
+          ],
+          "what_changed": "Nuevo conjunto de datos para evaluación.",
+          "why_it_matters": "Facilita el desarrollo y mejoras en herramientas de IA.",
+          "sector_impact": "Acelera la innovación en el sector de IA."
+        },
+        {
+          "title": "Nuevo laboratorio de IA lanzado por Airbnb",
+          "summary": "Brian Chesky anuncia el lanzamiento de un laboratorio de inteligencia artificial.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Airbnb",
+            "laboratorio IA"
+          ],
+          "what_changed": "Anuncio de nuevo laboratorio de IA.",
+          "why_it_matters": "Explorará nuevas aplicaciones de IA en la industria del alojamiento.",
+          "sector_impact": "Potencia la integración de IA en servicios de hospitalidad."
+        },
+        {
+          "title": "Meta lanza asistente IA para creadores",
+          "summary": "Ayuda a los creadores a gestionar sus interacciones en Facebook.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "creadores",
+            "AI"
+          ],
+          "what_changed": "Lanzamiento de nuevo asistente inteligente.",
+          "why_it_matters": "Kda los creadores a entender mejor su audiencia.",
+          "sector_impact": "Incrementa la efectividad en la creación de contenido."
+        },
+        {
+          "title": "Apple anticipa revamp de Siri en WWDC 2026",
+          "summary": "Se esperan importantes actualizaciones de inteligencia artificial en Siri.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Apple",
+            "Siri",
+            "actualizaciones"
+          ],
+          "what_changed": "Se anticipan mejoras en la funcionalidad de Siri.",
+          "why_it_matters": "Mejorará la experiencia de usuario y la interacción.",
+          "sector_impact": "Fortalece la oferta de IA de Apple."
+        }
+      ]
+    },
+    {
       "date": "2026-06-06",
       "executive_title": "Radar IA del día",
       "items": [
@@ -719,140 +856,6 @@
           "what_changed": "Introducción de un nuevo benchmark para modelos generadores de código.",
           "why_it_matters": "Facilita la evaluación objetiva del rendimiento de LLMs en situaciones del mundo real.",
           "sector_impact": "Investigación, desarrollo de software, educación."
-        }
-      ]
-    },
-    {
-      "date": "2026-05-31",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Gemini Spark: Asistente de IA 24/7",
-          "summary": "Gemini Spark ayuda a automatizar tareas cotidianas como resúmenes de correos y planificación de eventos locales.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [
-            "Gemini",
-            "automación"
-          ],
-          "what_changed": "Introducción de Gemini Spark como asistente autónomo.",
-          "why_it_matters": "Facilita la automatización de tareas, optimizando el tiempo de los usuarios.",
-          "sector_impact": "Mejora la productividad individual y empresarial."
-        },
-        {
-          "title": "Lanzamientos clave de Google I/O 2026",
-          "summary": "Resumen de 12 momentos destacados de Google I/O 2026, incluyendo el Gemini Omni y Gemini 3.5 Flash.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [
-            "lanzamientos",
-            "Google"
-          ],
-          "what_changed": "Presentaciones significativas de nuevas tecnologías de IA.",
-          "why_it_matters": "Establece tendencias y direcciones futuras en IA.",
-          "sector_impact": "Influencia en el desarrollo de herramientas de IA en el mercado."
-        },
-        {
-          "title": "Groq: Startup de chip de IA en fase de recaudación",
-          "summary": "Groq busca recaudar $650 millones enfocándose más en la inferencia de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "hardware",
-            "AI"
-          ],
-          "what_changed": "Cambio de enfoque de hardware a optimización de IA.",
-          "why_it_matters": "Aumenta la capacidad de respuesta de los modelos de IA.",
-          "sector_impact": "Mejoramiento en el rendimiento de soluciones basadas en IA."
-        },
-        {
-          "title": "Nuevos desarrollos en el modelo de IA de Anthropic",
-          "summary": "Anthropic ha recaudado $65 mil millones y se aproxima a una valoración de $1T antes de su IPO.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "financiación",
-            "modelos"
-          ],
-          "what_changed": "Cierre de una ronda de financiamiento significativa.",
-          "why_it_matters": "Indica confianza en el mercado de modelos de IA avanzados.",
-          "sector_impact": "Impulsa la competencia en IA y modelos generativos."
-        },
-        {
-          "title": "Transformación de la infraestructura de internet para IA",
-          "summary": "Empresas como AWS y Cloudflare están rediseñando la infraestructura de la nube para un tráfico dominado por máquinas.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "infraestructura",
-            "cloud"
-          ],
-          "what_changed": "Enfoque en tráfico de internet dirigido por IA.",
-          "why_it_matters": "Prepara la infraestructura para un futuro en el que las máquinas dominarán.",
-          "sector_impact": "Revoluciona cómo se interactúa y se accede a servicios digitales."
-        },
-        {
-          "title": "Nuevas capacidades en Google AI Studio",
-          "summary": "Google utiliza AI Studio para crear un cuestionario sobre los anuncios destacados del I/O 2026.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "AI Studio"
-          ],
-          "what_changed": "Desarrollo de herramientas interactivas con AI Studio.",
-          "why_it_matters": "Mejora la accesibilidad y el engagement a través de herramientas AI.",
-          "sector_impact": "Impacto en el aprendizaje y la interacción del usuario."
-        },
-        {
-          "title": "Benchmark de modelos de IA para tareas IT",
-          "summary": "ITBench-AA muestra que los modelos de frontera puntúan por debajo del 50% en la primera evaluación para tareas de IT empresarial.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "modelos"
-          ],
-          "what_changed": "Establecimiento de las primeras métricas para evaluar modelos en el ámbito IT.",
-          "why_it_matters": "Proporciona una referencia para mejorar futuros desarrollos de modelos.",
-          "sector_impact": "Influye en la adopción y desarrollo de modelos específicos para enterprise."
-        },
-        {
-          "title": "Reacción negativa al nuevo modelo de pago de GitHub Copilot",
-          "summary": "La nueva facturación de tokens de GitHub Copilot provoca descontento entre los desarrolladores.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "GitHub",
-            "Copilot"
-          ],
-          "what_changed": "Implementación de un sistema de pago basado en tokens.",
-          "why_it_matters": "Impacta la percepción y uso del Copilot entre los desarrolladores.",
-          "sector_impact": "Puede afectar la adopción de la herramienta en el mercado."
         }
       ]
     }
