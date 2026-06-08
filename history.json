@@ -1,6 +1,127 @@
 {
   "days": [
     {
+      "date": "2026-06-08",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "RAVEN: Retrieval-Augmented Vulnerability Exploration Network",
+          "summary": "Un marco basado en LLMs para generar análisis de vulnerabilidades automatizados y generación de informes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.17948",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "vulnerabilidades",
+            "automatización",
+            "reportes"
+          ],
+          "what_changed": "Introducción de un marco que utiliza agentes LLM y generación aumentada por recuperación para análisis de vulnerabilidades.",
+          "why_it_matters": "Ofrece automatización en la documentación de vulnerabilidades, un área crucial en ciberseguridad.",
+          "sector_impact": "Ciberseguridad"
+        },
+        {
+          "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
+          "summary": "Un marco que permite la auto-evolución de agentes LLM en entornos abiertos sin supervisión directa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.06741",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "auto-evolución",
+            "aprendizaje en entornos abiertos"
+          ],
+          "what_changed": "Desarrollo de un framework que permite a los agentes construir sus propias habilidades y señales de verificación.",
+          "why_it_matters": "Facilita la adaptación de agentes LLM en entornos dinámicos sin dependencia de supervisión externa.",
+          "sector_impact": "IA general"
+        },
+        {
+          "title": "Measuring Agents in Production",
+          "summary": "Un estudio sobre cómo los agentes LLM se despliegan en producción y las mejores prácticas asociadas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.04123",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "producción",
+            "mejores prácticas"
+          ],
+          "what_changed": "Primera investigación sistemática que documenta los métodos técnicos que hacen exitosos los despliegues de agentes.",
+          "why_it_matters": "Brinda un entendimiento de los desafíos y soluciones en la implementación de agentes en diversas industrias.",
+          "sector_impact": "Tecnologías de la información"
+        },
+        {
+          "title": "SlimSearcher: Training Efficiency-Aware Web Agents",
+          "summary": "Un framework que optimiza la eficiencia de los agentes web en tareas complejas de búsqueda de información.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.07074",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "eficiencia",
+            "búsqueda de información"
+          ],
+          "what_changed": "Introducción de un enfoque que mejora la precisión mientras reduce los costos computacionales.",
+          "why_it_matters": "Aborda el problema de los costos altos en el uso de agentes de búsqueda, lo que es crucial en entornos comerciales.",
+          "sector_impact": "Tecnologías de la información"
+        },
+        {
+          "title": "Lean4Agent: Formal Modeling and Verification for Agent Workflow",
+          "summary": "Un marco para modelar y verificar flujos de trabajo de agentes utilizando un lenguaje formal.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.06523",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelado",
+            "verificación",
+            "agentes"
+          ],
+          "what_changed": "Uso de un lenguaje de tipos dependientes para modelar y verificar comportamientos de agentes.",
+          "why_it_matters": "Proporciona una base para asegurar la confiabilidad de los flujos de trabajo de los agentes IA.",
+          "sector_impact": "IA general"
+        },
+        {
+          "title": "Queen-Bee Agents: A BeeSpec-Centered Architecture",
+          "summary": "Una arquitectura multi-agente gobernada que integra modelos de lenguaje con herramientas privadas y protocolos internos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.06545",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "arquitectura",
+            "multi-agente"
+          ],
+          "what_changed": "Desarrollo de una arquitectura que permite la orquestación de múltiples agentes dentro de límites operacionales explícitos.",
+          "why_it_matters": "Mejora la eficacia y la gobernanza en la ejecución de tareas en entornos empresariales.",
+          "sector_impact": "Tecnologías de la información"
+        },
+        {
+          "title": "AdMem: Advanced Memory for Task-solving Agents",
+          "summary": "Un marco que integra memoria semántica, episódica y procedimental para mejorar la resolución de tareas de los agentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.06787",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un framework unificado y automático para la gestión de memoria en agentes LLM.",
+          "why_it_matters": "Ofrece soluciones a limitaciones existentes en la reutilización de conocimiento en tareas prolongadas.",
+          "sector_impact": "IA general"
+        }
+      ]
+    },
+    {
       "date": "2026-06-07",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -714,148 +835,6 @@
           "what_changed": "Introducción de un sistema de auto-investigación para mejorar la defensa contra ataques adversariales.",
           "why_it_matters": "Agentes AI capaces de descubrir nuevos algoritmos para ataques adversariales contra LLMs.",
           "sector_impact": "Refuerza la seguridad general de los sistemas basados en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-01",
-      "executive_title": "Radar Diario de IA - Herramientas y Modelos",
-      "items": [
-        {
-          "title": "ClimAgent: LLM como Agentes para Análisis Climático Autónomo",
-          "summary": "ClimAgent es un marco autónomo diseñado para ejecutar diversas tareas de investigación en campos climáticos, utilizando modelos de lenguaje para mejorar la modelización y el análisis.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16922",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ClimAgent",
-            "IA",
-            "análisis climático"
-          ],
-          "what_changed": "Introducción de un marco autónomo para análisis climático.",
-          "why_it_matters": "Permite una evaluación sistemática y mejora en la modelización de datos climáticos.",
-          "sector_impact": "Clima, medio ambiente, investigación científica."
-        },
-        {
-          "title": "COLLEAGUE.SKILL: Generación Automática de Habilidades IA",
-          "summary": "Un sistema automatizado que destila el conocimiento experto en habilidades usables por agentes LLM, facilitando su implementación y adaptación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.31264",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "habilidades IA",
-            "automoción",
-            "formación"
-          ],
-          "what_changed": "Desarrollo de un sistema de destilación para generar habilidades basadas en conocimientos de expertos.",
-          "why_it_matters": "Agiliza la creación de agentes más efectivos y personalizables.",
-          "sector_impact": "Tecnología, educación, desarrollo de software."
-        },
-        {
-          "title": "Design and Evaluation of Multi-Agent AI Oracle Systems",
-          "summary": "Evaluación de sistemas oráculos de IA de múltiples agentes para mejorar la precisión en la resolución de mercados predictivos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.30802",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "sistemas oráculos",
-            "IA",
-            "mercados predictivos"
-          ],
-          "what_changed": "Introducción de arquitecturas multi-agente para mejorar la resolución de resultados.",
-          "why_it_matters": "Mejora la fiabilidad y precisión en la predicción de eventos.",
-          "sector_impact": "Finanzas, análisis de datos, inteligencia artificial."
-        },
-        {
-          "title": "SAGE: Puerta de Novedad para Memoria en Agentes LLM",
-          "summary": "SAGE es un mecanismo de control que gestiona la evolución de la memoria en agentes de IA, mejorando la eficiencia del sistema.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.30711",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria IA",
-            "eficiencia",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de control de novedad para la evolución de la memoria.",
-          "why_it_matters": "Aumenta la calidad de la memoria y la eficiencia del sistema en general.",
-          "sector_impact": "IA, desarrollo de software, robótica."
-        },
-        {
-          "title": "LLM como Agentes de Toma de Decisiones Mejoradas",
-          "summary": "Presentamos Iterative Regret-Minimization Fine-Tuning, un procedimiento post-entrenamiento que mejora la capacidad de los LLM en la toma de decisiones.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.04393",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "toma de decisiones",
-            "IA",
-            "modelos"
-          ],
-          "what_changed": "Introducción de un nuevo enfoque para la mejora de decisiones en LLM.",
-          "why_it_matters": "Optimiza la capacidad de los LLM al adaptarse a entornos dinámicos.",
-          "sector_impact": "Tecnología, finanzas, desarrollo de productos."
-        },
-        {
-          "title": "Depth-Dependent Indirect Prompt Injection in ReAct Agents",
-          "summary": "Investigación sobre la vulnerabilidad de los agentes ReAct a la inyección indirecta de prompts, estableciendo nuevas dimensiones de riesgo.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.30686",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "IA",
-            "modelos"
-          ],
-          "what_changed": "Exploración de nuevas dimensiones de riesgo en la inyección de prompts.",
-          "why_it_matters": "Mejora nuestra comprensión de las vulnerabilidades en LLM.",
-          "sector_impact": "Ciberseguridad, IA, tecnología."
-        },
-        {
-          "title": "Post-Training LLMs as Better Decision-Making Agents",
-          "summary": "Aborda la mejora del rendimiento de LLM en la toma de decisiones a través de un enfoque de minimización de desgastes.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.04393",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "toma de decisiones",
-            "IA",
-            "mejora de modelos"
-          ],
-          "what_changed": "Desarrollo de un nuevo enfoque para LLM en la toma de decisiones.",
-          "why_it_matters": "Facilita la implementación efectiva en entornos de toma de decisiones.",
-          "sector_impact": "Finanzas, tecnología, análisis de datos."
-        },
-        {
-          "title": "FEM-Bench: Benchmark Estructurado para Evaluar LLMs Generadores de Código",
-          "summary": "FEM-Bench establece un fundamento estructurado para evaluar la capacidad de LLMs en la generación de código científico correcto.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.20732",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "evaluación",
-            "código"
-          ],
-          "what_changed": "Introducción de un nuevo benchmark para modelos generadores de código.",
-          "why_it_matters": "Facilita la evaluación objetiva del rendimiento de LLMs en situaciones del mundo real.",
-          "sector_impact": "Investigación, desarrollo de software, educación."
         }
       ]
     }
