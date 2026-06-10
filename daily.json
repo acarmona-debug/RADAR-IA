@@ -1,126 +1,127 @@
 {
-  "date": "2026-06-09",
-  "executive_title": "Radar de IA Diario",
-  "intro_message": "Bienvenido al radar diario de IA, donde destacamos herramientas, modelos y frameworks innovadores en el ámbito de la inteligencia artificial.",
-  "opening_message": "Explora los últimos desarrollos y lanzamientos que están transformando el ecosistema de IA.",
+  "date": "2026-06-10",
+  "executive_title": "Radar Diario de IA - Innovaciones Relevantes",
+  "intro_message": "Bienvenido al radar diario de IA, donde destacamos las innovaciones más relevantes en el ámbito de herramientas, modelos y frameworks. Aquí encontrarás novedades que pueden impulsar tu trabajo.",
+  "opening_message": "A continuación, te presentamos las últimas actualizaciones en inteligencia artificial, incluyendo lanzamientos y mejoras prácticas para desarrolladores.",
   "items": [
     {
-      "title": "Emergence World: Una plataforma para la evaluación de autonomía multi-agente a largo plazo",
-      "summary": "Emergence World es una simulación continua que permite evaluar dinámicas de comportamiento de agentes LLM a lo largo de semanas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.08367",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "multi-agente",
-        "simulación",
-        "autonomía"
-      ],
-      "what_changed": "Una plataforma de simulación multi-agente con datos en tiempo real y herramientas especializadas.",
-      "why_it_matters": "Facilita la evaluación de sistemas autónomos en condiciones realistas.",
-      "sector_impact": "Aplicaciones en robótica y sistemas autónomos."
-    },
-    {
-      "title": "NutriMLLM: Modelos de lenguaje multimodal para análisis de micronutrientes dietéticos",
-      "summary": "NutriMLLM es la primera familia de modelos de visión-lenguaje especializados en la estimación de micronutrientes a partir de imágenes de alimentos.",
+      "title": "Menos Contexto, Mejores Agentes: Ingeniería de Contexto Eficiente",
+      "summary": "Estudio sobre cómo la retención selectiva de interacciones recientes y la resumación compacta pueden mejorar tanto la fiabilidad como la eficiencia en flujos de trabajo de herramientas automatizadas.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.08948",
+      "source_url": "https://arxiv.org/abs/2606.10209",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "multimodal",
-        "nutrición",
-        "salud"
+        "agentes",
+        "modelo",
+        "eficiencia"
       ],
-      "what_changed": "Desarrollo de un corpus sintético de imágenes de alimentos con etiquetas de nutrientes completas.",
-      "why_it_matters": "Mejora el cuidado nutricional clínico mediante la evaluación precisa de micronutrientes.",
-      "sector_impact": "Salud pública y nutrición."
+      "what_changed": "Introducción de técnicas de ingeniería de contexto para optimizar el uso de modelos de lenguaje.",
+      "why_it_matters": "Mejora la eficiencia y la fiabilidad de los agentes de IA en aplicaciones empresariales.",
+      "sector_impact": "Alto, especialmente en procesos de negocio automatizados."
     },
     {
-      "title": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
-      "summary": "Se introduce $alem$, un benchmark para la coordinación multi-agente en entornos dinámicos a largo plazo.",
+      "title": "Agentes de Codificación de Frontera Usan Metaprogramación",
+      "summary": "Evaluación de agentes de codificación LLM en lenguajes de programación poco comunes en un entorno que resalta su capacidad adaptativa.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.08340",
+      "source_url": "https://arxiv.org/abs/2606.10933",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "coordinación",
-        "multi-agente",
-        "evaluación"
+        "agentes",
+        "metaprogramación",
+        "programación"
       ],
-      "what_changed": "Creación de un entorno de pruebas para evaluar la coordinación entre agentes.",
-      "why_it_matters": "Identifica cuellos de botella en la coordinación de agentes LLM.",
-      "sector_impact": "Desarrollo de aplicaciones de agentes en juegos y simulaciones."
+      "what_changed": "Demostración de la capacidad de los agentes para adaptarse a lenguajes desconocidos usando metaprogramación.",
+      "why_it_matters": "Indica la flexibilidad y potencial de los LLM en entornos de codificación diversos.",
+      "sector_impact": "Alto para desarrollo de software en diversos lenguajes."
     },
     {
-      "title": "VATS: Análisis de vulnerabilidades en flujos de herramientas a través de mutación sistemática",
-      "summary": "VATS investiga el manejo de errores en herramientas autónomas y su potencial de explotación en modelos de IA.",
+      "title": "RAG sobre Trazas de Pensamiento Mejora Tareas de Razonamiento",
+      "summary": "Propuesta de un nuevo enfoque para tareas de razonamiento intensivo que utiliza trazas de pensamiento como corpus de recuperación.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.03344",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "RAG",
+        "razonamiento",
+        "mejora"
+      ],
+      "what_changed": "Uso de trazas de pensamiento en lugar de documentos estándar para mejorar el rendimiento.",
+      "why_it_matters": "Amplía las capacidades de los modelos para resolver problemas complejos.",
+      "sector_impact": "Significativo en aplicaciones de inteligencia artificial y análisis de datos."
+    },
+    {
+      "title": "$\\tau$-Rec: Un Benchmark Verificable para Sistemas de Recomendación Agénticos",
+      "summary": "Presentación de un nuevo estándar para evaluar sistemas de recomendación con métricas de recompensa verificables.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.10156",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "recomendación",
+        "benchmark",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un nuevo marco de evaluación que reduce la subjetividad en las recomendaciones.",
+      "why_it_matters": "Proporciona un método más objetivo para evaluar la efectividad de los sistemas de recomendación.",
+      "sector_impact": "Impacto considerable en plataformas e-commerce y servicios digitales."
+    },
+    {
+      "title": "Moonshine: Un Agente Matemático Autónomo para Generación de Conjeturas",
+      "summary": "Desarrollo de un agente que genera conjeturas matemáticas y avanza en la resolución de problemas abiertos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.07992",
+      "source_url": "https://arxiv.org/abs/2606.10806",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "matemáticas",
+        "conjeturas"
+      ],
+      "what_changed": "Implementación de un agente capaz de generar y probar conjeturas matemáticas.",
+      "why_it_matters": "Podría revolucionar la forma en que abordamos problemas en matemáticas avanzadas.",
+      "sector_impact": "Alto, especialmente en campos de investigación matemática."
+    },
+    {
+      "title": "GitInject: Evaluando Vulnerabilidades de Inyección en CI/CD",
+      "summary": "Desarrollo de un marco para evaluar vulnerabilidades de inyección en entornos de integración y entrega continua.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.09935",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "seguridad",
-        "vulnerabilidad",
-        "IA"
+        "CI/CD",
+        "inclusión"
       ],
-      "what_changed": "Desarrollo de un marco para la inyección de errores que mejora las tasas de explotación.",
-      "why_it_matters": "Resalta riesgos sistemáticos en flujos de trabajo autónomos.",
-      "sector_impact": "Seguridad en sistemas de IA y automatización."
+      "what_changed": "Marco de evaluación creado para estudiar ataques de inyección en flujos de trabajo de GitHub.",
+      "why_it_matters": "Ayuda a identificar y mitigar riesgos en CI/CD modernos.",
+      "sector_impact": "Crítico para la seguridad en desarrollo de software."
     },
     {
-      "title": "Bidirectional Semantic Complementary Tool Retrieval for Remote Sensing Agents",
-      "summary": "Un método de recuperación de herramientas que mejora la precisión en tareas complejas de teledetección.",
+      "title": "LakeQA: Un Benchmark de QA sobre un Lago de Datos a Gran Escala",
+      "summary": "Introducción de un benchmark que combina búsqueda y razonamiento en grandes volúmenes de datos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.07538",
+      "source_url": "https://arxiv.org/abs/2606.10460",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "teledetección",
-        "recuperación de herramientas"
+        "QA",
+        "benchmark",
+        "datos"
       ],
-      "what_changed": "Método que combina la mejora de consultas y contextos semánticos para una mejor recuperación.",
-      "why_it_matters": "Aumenta la efectividad en tareas de teledetección complejas.",
-      "sector_impact": "Aplicaciones en geoinformática y análisis ambiental."
-    },
-    {
-      "title": "Decision-Aware Memory Cards: Selección consciente de contexto para agentes LLM que utilizan herramientas",
-      "summary": "CICL permite la selección de evidencia decisiva para mejorar el rendimiento de los agentes LLM.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.08151",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "memoria",
-        "decisiones",
-        "agentes"
-      ],
-      "what_changed": "Introducción de una capa de contexto que mejora la calidad de las decisiones en agentes.",
-      "why_it_matters": "Optimiza el uso de información relevante en entornos de decisión complejos.",
-      "sector_impact": "Mejora en aplicaciones críticas de toma de decisiones."
-    },
-    {
-      "title": "Scaffold Effects on GAIA: Una comparación controlada",
-      "summary": "Estudio sobre cómo la elección de 'scaffold' afecta la precisión de los agentes LLM en tareas específicas.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.08529",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "precisión",
-        "modelos",
-        "evaluación"
-      ],
-      "what_changed": "Investigación sobre la variación de scaffolds y su impacto en la precisión del modelo.",
-      "why_it_matters": "Identifica formas de mejorar el rendimiento en tareas complejas.",
-      "sector_impact": "Desarrollo de modelos de IA más precisos."
+      "what_changed": "Propuesta de un marco de referencia que requiere búsqueda y razonamiento en un entorno de lago de datos.",
+      "why_it_matters": "Proporciona una plataforma para el desarrollo de agentes LLM que pueden manejar grandes volúmenes de información.",
+      "sector_impact": "Altamente relevante para bases de datos y paradigmas de ciencia de datos."
     }
   ]
 }
