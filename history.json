@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-06-11",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "FitText: Evolving Agent Tool Ecologies via Memetic Retrieval",
+          "summary": "Un marco de entrenamiento que mejora la recuperación de herramientas mediante retroalimentación dinámica, optimizando el rendimiento de agentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.02411",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "recuperación",
+            "IA"
+          ],
+          "what_changed": "Introducción de un nuevo enfoque para hacer la recuperación de herramientas dinámica.",
+          "why_it_matters": "Puede mejorar significativamente la capacidad de los agentes para seleccionar herramientas adecuadas en tiempo real.",
+          "sector_impact": "Transforma la interacción de los agentes con herramientas en entornos complejos."
+        },
+        {
+          "title": "A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design",
+          "summary": "Un marco agente para el diseño automatizado de barreras de concreto que mejora la precisión del diseño al 98% utilizando LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12040",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "ingeniería",
+            "agentes",
+            "automatización"
+          ],
+          "what_changed": "Desarrollo de un marco que combina múltiples agentes para optimizar el diseño estructural.",
+          "why_it_matters": "Puede reducir significativamente los costos computacionales en el diseño estructural.",
+          "sector_impact": "Transforma la manera en que se aborda la ingeniería civil con IA."
+        },
+        {
+          "title": "ISE: An Execution-Grounded Recipe for Multi-Turn OS-Agent Trajectories",
+          "summary": "Propuesta de un paradigma de síntesis en tres etapas para entrenar agentes de OS que mejora la interacción multi-turno.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.11520",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "interacción",
+            "sistemas"
+          ],
+          "what_changed": "Introducción de una nueva forma de capturar interacciones en sistemas operativos.",
+          "why_it_matters": "Mejora drásticamente el rendimiento de los agentes en tareas complejas de usuario.",
+          "sector_impact": "Facilita un mayor avance en la capacidad operativa de los agentes de IA."
+        },
+        {
+          "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
+          "summary": "Sistema que mejora la conversión de texto a SQL mediante optimización automática de pistas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12387",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "base de datos",
+            "optimización",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un sistema que optimiza el uso de datos en Text-to-SQL.",
+          "why_it_matters": "Reduce los errores en la generación de consultas SQL y mejora la eficiencia operativa.",
+          "sector_impact": "Impulsa el desarrollo de aplicaciones de IA más efectivas en la gestión de bases de datos."
+        },
+        {
+          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
+          "summary": "Capa de memoria y juicio para agentes de IA que evita la repetición de fallos anteriores en desarrollo de software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12329",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "programación",
+            "memoria",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un sistema de memoria para mejorar el flujo de trabajo de los agentes.",
+          "why_it_matters": "Reduce el costo computacional y mejora la eficiencia en el desarrollo de software.",
+          "sector_impact": "Revoluciona la manera en que los asistentes de codificación interactúan con proyectos."
+        },
+        {
+          "title": "Mind the Perspective: Let's Reason Recursively for Theory of Mind",
+          "summary": "Un marco que mejora el razonamiento en la teoría de la mente a través de la construcción recursiva de perspectivas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.11724",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "razonamiento",
+            "teoría de la mente",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un nuevo enfoque para el razonamiento en IA que permite entender creencias complejas.",
+          "why_it_matters": "Permite a los modelos de IA razonar de manera más efectiva sobre las creencias de los agentes.",
+          "sector_impact": "Aumenta la aplicabilidad de la IA en escenarios sociales y comunicativos."
+        },
+        {
+          "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+          "summary": "Un marco general para la investigación autónoma que optimiza la exploración y el aprendizaje de AI.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.11926",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "investigación",
+            "autonomía",
+            "IA"
+          ],
+          "what_changed": "Introducción de un sistema que conecta investigación a través de un árbol de hipótesis.",
+          "why_it_matters": "Aumenta la capacidad de los agentes para realizar investigaciones significativas e iterativas.",
+          "sector_impact": "Impulsa el desarrollo de agentes de IA con capacidad de investigación compleja."
+        }
+      ]
+    },
+    {
       "date": "2026-06-10",
       "executive_title": "Radar Diario de IA - Innovaciones Relevantes",
       "items": [
@@ -724,131 +849,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-04",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Interfaze: El futuro de la IA se construye sobre modelos pequeños y específicos",
-          "summary": "Interfaze es un modelo híbrido que fusiona redes neuronales profundas específicas para tareas en un decodificador transformer.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.04101",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "modelos hibridos",
-            "IA",
-            "transformers"
-          ],
-          "what_changed": "Introducción de un modelo que mejora la precisión y la eficiencia en tareas específicas.",
-          "why_it_matters": "Permite obtener respuestas más precisas y rápidas para necesidades específicas en la automatización.",
-          "sector_impact": "Mejora la capacidad de desarrollo de herramientas específicas en IA."
-        },
-        {
-          "title": "ChatSOP: Un marco de planificación guiado por SOP para agentes de diálogo con LLM",
-          "summary": "ChatSOP utiliza SOP para regular el flujo de diálogos y mejora la controlabilidad de los agentes de LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2407.03884",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "marco",
-            "agentes de diálogo",
-            "SOP"
-          ],
-          "what_changed": "Integración de entrenamiento con técnicas de razonamiento para mejor planificación.",
-          "why_it_matters": "Facilita conversaciones más enfocadas y efectivas, minimizando fallos en tareas.",
-          "sector_impact": "Transforma la manera en que interactuamos con agentes conversacionales."
-        },
-        {
-          "title": "OckBench: Midiendo la eficiencia del razonamiento de LLM",
-          "summary": "OckBench es un nuevo benchmark que mide la precisión y la eficiencia en el uso de tokens en modelos de lenguaje.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.05722",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "eficiencia",
-            "evaluación",
-            "benchmark"
-          ],
-          "what_changed": "Creación de un estándar para medir la eficiencia de los modelos en tareas diversas.",
-          "why_it_matters": "Alienta a los desarrolladores a optimizar el rendimiento y la eficiencia de sus modelos.",
-          "sector_impact": "Influye en la reducción de costos operativos de implementación de IA."
-        },
-        {
-          "title": "Self-Reflective APIs: Estructura supera la verbosidad para la recuperación de agentes de IA",
-          "summary": "Las APIs auto-reflexivas ofrecen sugerencias estructuradas que mejoran la tasa de finalización de tareas para agentes de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.05037",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "APIs",
-            "agentes",
-            "recuperación"
-          ],
-          "what_changed": "Desarrollo de un sistema de retroalimentación estructurado para manejar errores.",
-          "why_it_matters": "Reduce el tiempo y esfuerzo necesario para rectificar errores en las solicitudes de API.",
-          "sector_impact": "Mejora significativamente la efectividad de los sistemas automáticos."
-        },
-        {
-          "title": "Memorywire: Un formato de wire neutral para operaciones de memoria de agentes",
-          "summary": "Memorywire propone un formato JSON que unifica diferentes operaciones de memoria en agentes de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.01138",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "memoría",
-            "formato neutral",
-            "integraciones"
-          ],
-          "what_changed": "Establecimiento de un protocolo compartido que facilita las operaciones de memoria.",
-          "why_it_matters": "Permite una integración más sencilla y efectiva entre distintos sistemas de memoria.",
-          "sector_impact": "Facilita la construcción de sistemas más interconectados en IA."
-        },
-        {
-          "title": "TIDE: Descubrimiento proactivo de múltiples problemas mediante iteración guiada por plantillas",
-          "summary": "TIDE es un marco iterativo que ayuda a descubrir problemas ocultos en contextos de usuario, optimizando así la resolución.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04743",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "descubrimiento de problemas",
-            "iteración",
-            "agentes"
-          ],
-          "what_changed": "Permite a los agentes descubrir problemas no visibles previamente en contextos automatizados.",
-          "why_it_matters": "Aumenta la efectividad al detectar y resolver problemas antes no evidentes.",
-          "sector_impact": "Impulsa la capacidad de respuesta de los sistemas automáticos a situaciones complejas."
-        },
-        {
-          "title": "Unpredictable Safety: Cumplimiento dependiente del dominio en LLMs de peso abierto",
-          "summary": "Se presenta un estudio sobre el comportamiento de seguridad en LLMs, destacando la necesidad de sistemas predecibles.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04035",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "modelos",
-            "compliance"
-          ],
-          "what_changed": "Revelador de la variabilidad del cumplimiento en modelos de IA de abierto y el impacto de su contexto.",
-          "why_it_matters": "El manejo de la seguridad en los modelos de IA es esencial para su implementación confiable.",
-          "sector_impact": "Implica riesgos y oportunidades en las implementaciones comerciales de IA."
         }
       ]
     }
