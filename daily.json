@@ -1,127 +1,144 @@
 {
-  "date": "2026-06-11",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Bienvenido al Radar Diario de IA, donde encontráis las últimas innovaciones y avances en herramientas y tecnologías de inteligencia artificial.",
-  "opening_message": "Hoy hemos recopilado las novedades más relevantes en el mundo de la IA, priorizando herramientas, modelos y características nuevas que pueden tener un impacto significativo.",
+  "date": "2026-06-12",
+  "executive_title": "Radar Diario de Innovaciones en IA",
+  "intro_message": "Últimos desarrollos y herramientas en inteligencia artificial que marcan la pauta en el sector.",
+  "opening_message": "A continuación se presentan los avances más destacados en herramientas, modelos y frameworks de IA, junto con sus implicaciones en diversos sectores.",
   "items": [
     {
-      "title": "FitText: Evolving Agent Tool Ecologies via Memetic Retrieval",
-      "summary": "Un marco de entrenamiento que mejora la recuperación de herramientas mediante retroalimentación dinámica, optimizando el rendimiento de agentes.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.02411",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "recuperación",
-        "IA"
-      ],
-      "what_changed": "Introducción de un nuevo enfoque para hacer la recuperación de herramientas dinámica.",
-      "why_it_matters": "Puede mejorar significativamente la capacidad de los agentes para seleccionar herramientas adecuadas en tiempo real.",
-      "sector_impact": "Transforma la interacción de los agentes con herramientas en entornos complejos."
-    },
-    {
-      "title": "A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design",
-      "summary": "Un marco agente para el diseño automatizado de barreras de concreto que mejora la precisión del diseño al 98% utilizando LLMs.",
+      "title": "GeoNatureAgent Benchmark para Análisis Geoespacial",
+      "summary": "Benchmark para evaluar agentes de análisis ambiental mediante llamadas estructuradas a APIs geoespaciales, comparando múltiples modelos LLM.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12040",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "ingeniería",
-        "agentes",
-        "automatización"
-      ],
-      "what_changed": "Desarrollo de un marco que combina múltiples agentes para optimizar el diseño estructural.",
-      "why_it_matters": "Puede reducir significativamente los costos computacionales en el diseño estructural.",
-      "sector_impact": "Transforma la manera en que se aborda la ingeniería civil con IA."
-    },
-    {
-      "title": "ISE: An Execution-Grounded Recipe for Multi-Turn OS-Agent Trajectories",
-      "summary": "Propuesta de un paradigma de síntesis en tres etapas para entrenar agentes de OS que mejora la interacción multi-turno.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.11520",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "interacción",
-        "sistemas"
-      ],
-      "what_changed": "Introducción de una nueva forma de capturar interacciones en sistemas operativos.",
-      "why_it_matters": "Mejora drásticamente el rendimiento de los agentes en tareas complejas de usuario.",
-      "sector_impact": "Facilita un mayor avance en la capacidad operativa de los agentes de IA."
-    },
-    {
-      "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
-      "summary": "Sistema que mejora la conversión de texto a SQL mediante optimización automática de pistas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12387",
+      "source_url": "https://arxiv.org/abs/2606.12821",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "base de datos",
-        "optimización",
-        "IA"
+        "benchmark",
+        "geoespacial",
+        "LLM"
       ],
-      "what_changed": "Desarrollo de un sistema que optimiza el uso de datos en Text-to-SQL.",
-      "why_it_matters": "Reduce los errores en la generación de consultas SQL y mejora la eficiencia operativa.",
-      "sector_impact": "Impulsa el desarrollo de aplicaciones de IA más efectivas en la gestión de bases de datos."
+      "what_changed": "Introducción del primer benchmark para agentes de análisis ambiental.",
+      "why_it_matters": "Permite validar el rendimiento y coste de distintos modelos en tareas de análisis geoespacial.",
+      "sector_impact": "Mejora en la automatización de flujos de trabajo en ciencias ambientales."
     },
     {
-      "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
-      "summary": "Capa de memoria y juicio para agentes de IA que evita la repetición de fallos anteriores en desarrollo de software.",
+      "title": "DSAEval: Evaluando Agentes de Ciencia de Datos",
+      "summary": "Benchmark que abarca problemas de ciencia de datos en el mundo real, evaluando 13 modelos LLM recientes en tareas diversas.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12329",
+      "source_url": "https://arxiv.org/abs/2601.13591",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "programación",
-        "memoria",
-        "agentes"
+        "benchmark",
+        "ciencia de datos",
+        "LLM"
       ],
-      "what_changed": "Introducción de un sistema de memoria para mejorar el flujo de trabajo de los agentes.",
-      "why_it_matters": "Reduce el costo computacional y mejora la eficiencia en el desarrollo de software.",
-      "sector_impact": "Revoluciona la manera en que los asistentes de codificación interactúan con proyectos."
+      "what_changed": "Introducción del benchmark DSAEval para evaluar agentes en ciencia de datos.",
+      "why_it_matters": "Proporciona un marco para medir el rendimiento de modelos LLM en tareas no estructuradas.",
+      "sector_impact": "Optimización de tareas de análisis de datos y aprendizaje automático."
     },
     {
-      "title": "Mind the Perspective: Let's Reason Recursively for Theory of Mind",
-      "summary": "Un marco que mejora el razonamiento en la teoría de la mente a través de la construcción recursiva de perspectivas.",
-      "category": "model",
+      "title": "PI-Hunter: Auditoría Automatizada para Inyecciones de Prompts",
+      "summary": "Marco para la detección proactiva de vulnerabilidades en modelos LLM ante ataques de inyección de prompts.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.11724",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2606.12737",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "razonamiento",
-        "teoría de la mente",
-        "IA"
+        "seguridad",
+        "auditoría",
+        "LLM"
       ],
-      "what_changed": "Desarrollo de un nuevo enfoque para el razonamiento en IA que permite entender creencias complejas.",
-      "why_it_matters": "Permite a los modelos de IA razonar de manera más efectiva sobre las creencias de los agentes.",
-      "sector_impact": "Aumenta la aplicabilidad de la IA en escenarios sociales y comunicativos."
+      "what_changed": "Desarrollo de un marco automatizado para exponer y localizar inyecciones de prompts.",
+      "why_it_matters": "Incrementa la seguridad en sistemas basados en LLM al mejorar la visibilidad del ataque.",
+      "sector_impact": "Aumenta la confianza en aplicaciones de IA que interactúan con entornos externos."
     },
     {
-      "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
-      "summary": "Un marco general para la investigación autónoma que optimiza la exploración y el aprendizaje de AI.",
+      "title": "Cursor: Análisis de Eficiencia de Fixes Generados por Agentes de IA",
+      "summary": "Análisis de la eficiencia y tasa de rechazo de arreglos generados por agentes de código en proyectos de software.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.13468",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "análisis",
+        "código",
+        "LLM"
+      ],
+      "what_changed": "Estudio que revela altos porcentajes de rechazos en fixes de IA.",
+      "why_it_matters": "Identifica áreas de mejora para la integración de agentes de IA en el desarrollo de software.",
+      "sector_impact": "Optimiza recursos y mejora procesos de revisión en desarrollo de software."
+    },
+    {
+      "title": "ToolSense: Marco de Diagnóstico para Conocimiento de Herramientas",
+      "summary": "Framework que genera benchmarks para evaluar el conocimiento paramétrico de herramientas en modelos LLM.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.12451",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "diagnóstico",
+        "herramientas",
+        "LLM"
+      ],
+      "what_changed": "Introducción de un marco para auditoría del conocimiento de herramientas.",
+      "why_it_matters": "Facilita la evaluación del rendimiento en la recuperación de herramientas por parte de modelos LLM.",
+      "sector_impact": "Mejora en la efectividad de herramientas en entornos basados en IA."
+    },
+    {
+      "title": "Iteración hacia una Mejor Búsqueda en E-Commerce",
+      "summary": "Un marco de simulación de dos agentes para evaluar arquitecturas de búsqueda conversacional en e-commerce.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.11926",
+      "source_url": "https://arxiv.org/abs/2606.12924",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "investigación",
-        "autonomía",
-        "IA"
+        "e-commerce",
+        "agentes",
+        "simulación"
       ],
-      "what_changed": "Introducción de un sistema que conecta investigación a través de un árbol de hipótesis.",
-      "why_it_matters": "Aumenta la capacidad de los agentes para realizar investigaciones significativas e iterativas.",
-      "sector_impact": "Impulsa el desarrollo de agentes de IA con capacidad de investigación compleja."
+      "what_changed": "Desarrollo de un marco modular para evaluar arquitecturas de búsqueda en e-commerce.",
+      "why_it_matters": "Optimiza el proceso de búsqueda mejorando la calidad de las interacciones del comprador.",
+      "sector_impact": "Aumenta la eficiencia y satisfacción en plataformas de e-commerce."
+    },
+    {
+      "title": "TerraBench: Razonamiento sobre Datos Heterogéneos en Ciencias de la Tierra",
+      "summary": "Benchmark que permite razonamiento sobre datos diversos en el contexto científico ambiental.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.13148",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ciencia de la tierra",
+        "benchmark",
+        "LLM"
+      ],
+      "what_changed": "Se lanza un benchmark que interconecta razonamiento, llamadas a herramientas y observaciones.",
+      "why_it_matters": "Facilita un análisis más integral de datos en ciencias ambientales.",
+      "sector_impact": "Mejora la toma de decisiones en el análisis ambiental."
+    },
+    {
+      "title": "Framework para Preparación de Manuscritos Clínicos",
+      "summary": "Arquitectura para revisar la calidad de manuscritos generados por modelos LLM en el campo biomédico.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.09500",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "biomedicina",
+        "auditoría",
+        "LLM"
+      ],
+      "what_changed": "Desarrollo de un marco que combina generación y verificación de manuscritos clínicos.",
+      "why_it_matters": "Proporciona un enfoque auditable y reproducible para la producción de manuscritos científicos.",
+      "sector_impact": "Aumenta la confianza en investigaciones biomédicas sustentadas por IA."
     }
   ]
 }

@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-06-12",
+      "executive_title": "Radar Diario de Innovaciones en IA",
+      "items": [
+        {
+          "title": "GeoNatureAgent Benchmark para Análisis Geoespacial",
+          "summary": "Benchmark para evaluar agentes de análisis ambiental mediante llamadas estructuradas a APIs geoespaciales, comparando múltiples modelos LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12821",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "geoespacial",
+            "LLM"
+          ],
+          "what_changed": "Introducción del primer benchmark para agentes de análisis ambiental.",
+          "why_it_matters": "Permite validar el rendimiento y coste de distintos modelos en tareas de análisis geoespacial.",
+          "sector_impact": "Mejora en la automatización de flujos de trabajo en ciencias ambientales."
+        },
+        {
+          "title": "DSAEval: Evaluando Agentes de Ciencia de Datos",
+          "summary": "Benchmark que abarca problemas de ciencia de datos en el mundo real, evaluando 13 modelos LLM recientes en tareas diversas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.13591",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "ciencia de datos",
+            "LLM"
+          ],
+          "what_changed": "Introducción del benchmark DSAEval para evaluar agentes en ciencia de datos.",
+          "why_it_matters": "Proporciona un marco para medir el rendimiento de modelos LLM en tareas no estructuradas.",
+          "sector_impact": "Optimización de tareas de análisis de datos y aprendizaje automático."
+        },
+        {
+          "title": "PI-Hunter: Auditoría Automatizada para Inyecciones de Prompts",
+          "summary": "Marco para la detección proactiva de vulnerabilidades en modelos LLM ante ataques de inyección de prompts.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12737",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "auditoría",
+            "LLM"
+          ],
+          "what_changed": "Desarrollo de un marco automatizado para exponer y localizar inyecciones de prompts.",
+          "why_it_matters": "Incrementa la seguridad en sistemas basados en LLM al mejorar la visibilidad del ataque.",
+          "sector_impact": "Aumenta la confianza en aplicaciones de IA que interactúan con entornos externos."
+        },
+        {
+          "title": "Cursor: Análisis de Eficiencia de Fixes Generados por Agentes de IA",
+          "summary": "Análisis de la eficiencia y tasa de rechazo de arreglos generados por agentes de código en proyectos de software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.13468",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "análisis",
+            "código",
+            "LLM"
+          ],
+          "what_changed": "Estudio que revela altos porcentajes de rechazos en fixes de IA.",
+          "why_it_matters": "Identifica áreas de mejora para la integración de agentes de IA en el desarrollo de software.",
+          "sector_impact": "Optimiza recursos y mejora procesos de revisión en desarrollo de software."
+        },
+        {
+          "title": "ToolSense: Marco de Diagnóstico para Conocimiento de Herramientas",
+          "summary": "Framework que genera benchmarks para evaluar el conocimiento paramétrico de herramientas en modelos LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12451",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "diagnóstico",
+            "herramientas",
+            "LLM"
+          ],
+          "what_changed": "Introducción de un marco para auditoría del conocimiento de herramientas.",
+          "why_it_matters": "Facilita la evaluación del rendimiento en la recuperación de herramientas por parte de modelos LLM.",
+          "sector_impact": "Mejora en la efectividad de herramientas en entornos basados en IA."
+        },
+        {
+          "title": "Iteración hacia una Mejor Búsqueda en E-Commerce",
+          "summary": "Un marco de simulación de dos agentes para evaluar arquitecturas de búsqueda conversacional en e-commerce.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12924",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "e-commerce",
+            "agentes",
+            "simulación"
+          ],
+          "what_changed": "Desarrollo de un marco modular para evaluar arquitecturas de búsqueda en e-commerce.",
+          "why_it_matters": "Optimiza el proceso de búsqueda mejorando la calidad de las interacciones del comprador.",
+          "sector_impact": "Aumenta la eficiencia y satisfacción en plataformas de e-commerce."
+        },
+        {
+          "title": "TerraBench: Razonamiento sobre Datos Heterogéneos en Ciencias de la Tierra",
+          "summary": "Benchmark que permite razonamiento sobre datos diversos en el contexto científico ambiental.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.13148",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ciencia de la tierra",
+            "benchmark",
+            "LLM"
+          ],
+          "what_changed": "Se lanza un benchmark que interconecta razonamiento, llamadas a herramientas y observaciones.",
+          "why_it_matters": "Facilita un análisis más integral de datos en ciencias ambientales.",
+          "sector_impact": "Mejora la toma de decisiones en el análisis ambiental."
+        },
+        {
+          "title": "Framework para Preparación de Manuscritos Clínicos",
+          "summary": "Arquitectura para revisar la calidad de manuscritos generados por modelos LLM en el campo biomédico.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.09500",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "biomedicina",
+            "auditoría",
+            "LLM"
+          ],
+          "what_changed": "Desarrollo de un marco que combina generación y verificación de manuscritos clínicos.",
+          "why_it_matters": "Proporciona un enfoque auditable y reproducible para la producción de manuscritos científicos.",
+          "sector_impact": "Aumenta la confianza en investigaciones biomédicas sustentadas por IA."
+        }
+      ]
+    },
+    {
       "date": "2026-06-11",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -734,116 +876,6 @@
           "source_name": "ArXiv AI",
           "source_url": "https://arxiv.org/abs/2606.05233",
           "relevance_score": 29,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Knowledge Index of Noah's Ark",
-          "summary": "arXiv:2606.05104v2 Announce Type: new Abstract: Knowledge benchmarks for LLMs face three issues: scaling-driven designs that do not operationalize disciplinary representativeness; flat-payment annotation that permits lazy consensus; and unaudited ranking instability under bounded test budgets. We introduce KINA, an 899-item benchmark across 261 fine-grained disciplines, with two formal results. First, we cast representativeness as a coverage-style objective over expert-elicited anchors and operationalize disciplinary representativeness through a proxy, yielding a (1-1/e) greedy approximation (Proposition 1); the guarantee applies to the proxy, not to population representativeness. Second, we prove a bonus-on-bar tournament weakly FOSD-dominates flat payment in released-review quality, with incentive-compatibility threshold B > Delta C / Delta p_min (Theorem 1). Evaluating 42 models from 13 labs, the top model, Gemini-3.1-Pro-Preview, reaches 53.17%, followed by Claude-Opus-4.6 at 49.92% and GPT-5.4 at 48.55%, leaving substantial headroom below saturation. The full leaderboard shows a tiered structure rather than a smooth total order: a small frontier tier lies above 48%, a dense strong-model tier spans roughly 38-45%, and low-performing models remain only modestly above the 10% chance baseline. Tool augmentation adds up to 5.17 points across the five tool-use evaluations, with gains varying substantially across models. We report bootstrap ranking-stability statistics to make bounded-budget variance explicit and to discourage over-interpretation of adjacent ranks.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.05104",
-          "relevance_score": 38,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Do LLMs Hold Their Values? MANTA: A Multi-Turn Adversarial Benchmark for Animal Welfare Reasoning",
-          "summary": "arXiv:2605.16301v2 Announce Type: replace-cross Abstract: Evaluating animal welfare reasoning in LLMs remains an open challenge despite rapid deployment in consumer and professional contexts where welfare considerations appear implicitly in everyday queries. Existing benchmarks such as AnimalHarmBench evaluate this through single-turn, explicitly framed questions, measuring whether models avoid harmful content when directly asked. This approach overlooks two failure modes: alignment degradation under sustained adversarial pressure, and moral sensitivity (whether a model spontaneously surfaces welfare stakes in everyday queries). To fill this gap, we construct MANTA, a benchmark of 1,088 five-turn conversations progressing from an implicit Turn-1 scenario through an explicit welfare prompt to three adversarial pressure rounds drawn from a five-type taxonomy: Social, Cultural, Economic, Pragmatic, and Epistemic. We score conversations on two dimensions: Animal Welfare Value Stability (AWVS, primary) and Animal Welfare Moral Sensitivity (AWMS, diagnostic). We evaluate seven frontier models: Claude Opus 4.7, GPT-5.5, DeepSeek V4, Llama 3.3 70B, Mistral Small, Grok 4.3, and Gemini 3.1 Flash Lite. Multi-turn evaluation captures behavior single-turn benchmarks miss: 4 of 7 models change rank relative to Turn 1 scores, including Gemini Flash Lite, which drops from fifth on AWMS to last on AWVS. AWMS and AWVS are positively but imperfectly correlated, suggesting moral-recognition tests capture a stable but incomplete component of model behavior under pressure. MANTA also enables a species-by-pressure interaction matrix unavailable to prior benchmarks, showing welfare robustness depends jointly on the animal and pressure applied; companion animals score above wild animals, which score above farmed animals and invertebrates. We release the dataset, scripted pressure plans, judge prompts, and analysis code.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.16301",
-          "relevance_score": 34,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Label Over Logic? How Source Cues Bias Human Fallacy Judgments More Than LLMs",
-          "summary": "arXiv:2605.29928v2 Announce Type: replace-cross Abstract: As AI-generated and AI-assisted content floods online spaces, source labels attached to such content can distort human reasoning judgments, with downstream consequences for moderation, evaluation, and decision-making. Whether LLMs share this vulnerability, or offer more source-agnostic evaluation, remains an open question with direct implications for human-AI collaboration. We examine this issue using logical fallacies as a controlled setting to isolate source-label effects on reasoning quality, independent of domain knowledge. We conduct an online study (N=505) where participants are assigned to a source condition (human, AI, human with AI assistance, AI with human assistance, or no disclosure) and evaluate comments containing logical fallacies, comparing their judgments with those of LLMs (GPT-5.2, Gemini 2.5 Flash, Claude Sonnet 4.5), who were evaluated across the same source conditions. Human evaluators were significantly more susceptible to fallacies labeled as written by human or human with AI assistance and assigned higher trust and evaluation ratings in these conditions. LLM evaluations remained comparatively stable across source labels, though performance varied across models. Confidence levels were similarly high across conditions for both humans and LLMs, regardless of fallacy presence. Our findings indicate that source-label bias in reasoning evaluation is primarily a human vulnerability and highlight the potential of human-LLM collaboration in increasingly AI-mediated environments.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.29928",
-          "relevance_score": 30,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
-          "summary": "arXiv:2606.04296v1 Announce Type: new Abstract: As autonomous AI agents move from conversational systems to long-horizon software execution, runtime safety layers that decide when to interrupt an agent have become essential. We study this timing problem using a continuous 18-dimensional affective-dynamics engine (HEART) as a diagnostic probe, evaluating four intervention trigger families - absolute state thresholds, composite state-action patterns, regex reasoning-feature extraction, and zero-shot LLM-as-judge - against human-annotated intervention points on SWE-bench-Verified debugging traces. We report three findings. First, a State Saturation Trap: agents show no recovery signal under sustained difficulty, so modeled frustration quickly crosses the threshold and stays at its maximum, converting threshold-on-state triggers from moment detectors into near-constant indicators that fire on 39-83% of actions across five trajectories. Second, a capability-and-context floor for LLM judges: a small model (gpt-5.4-mini) never fires, while frontier and cross-vendor models escape the zero-firing floor only with full-trajectory context, and even then reach only F1 0.17-0.40 at up to 90x the cost. Third, and most importantly, the supervised target is not reproducible among humans: three trained annotators using one rubric on a 56-action trajectory agree on where to intervene only slightly above chance (location Krippendorff's alpha = +0.047; best pairwise Cohen's kappa = +0.349) and not at all on intervention type (pause degenerate; clarify below chance; reflect only alpha = +0.226). We conclude that intervention timing is a low-reliability construct, making single-annotator F1 an unsuitable optimization target. Our contribution is the joint mapping of this problem across human inter-rater reliability, four detector architectures, a cross-model LLM-judge sweep, and a reproduced saturation effect, rather than any single detector's accuracy.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04296",
-          "relevance_score": 26,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
-          "summary": "arXiv:2606.04391v1 Announce Type: new Abstract: Language agents increasingly rely on reusable skills to improve multi-step web automation across related tasks. A growing line of work studies online skill learning, where agents continually induce skills from previous task trajectories and reuse them in future tasks on the fly. However, existing methods mainly reuse skills at the task-level: a fixed set of skills is retrieved based on the initial task instruction and then held fixed throughout execution. This static strategy is misaligned with web execution, where the appropriate next action depends not only on the task goal but also on the current webpage state, which often transitions into situations that the initial skills fail to cover. To address this gap, we propose State-Grounded Dynamic Retrieval (SGDR), an online skill learning method that enables stepwise skill reuse for web agents. SGDR consists of three components: a sliding-window extraction process that turns completed trajectories into reusable sub-procedures invokable at intermediate execution states, a dual text-code representation that connects skill retrieval with executable action, and a state-grounded dynamic retrieval mechanism that matches skills to both the task goal and the current webpage state. Experiments on WebArena across five domains show that SGDR consistently outperforms strong baselines, achieving average success rates of 37.5% with GPT-4.1 and 24.3% with Qwen3-4B, corresponding to relative gains of 10.6% and 10.0% over the strongest baseline, respectively. The code is available at https://github.com/plusnli/skill-dynamic-retrieval.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04391",
-          "relevance_score": 26,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Revisiting Vul-RAG: Reproducibility and Replicability of RAG-based Vulnerability Detection with Open-Weight Models",
-          "summary": "arXiv:2606.04739v1 Announce Type: cross Abstract: Large language models (LLMs) have shown strong potential for automated software vulnerability detection, particularly in retrieval-augmented generation (RAG) settings. However, for approaches relying on proprietary models and APIs, reproducibility and replicability remain largely unexplored, raising the question of whether reported results generalize or depend primarily on specific model choices. In this work, we present a reproducibility study of Vul-RAG, a RAG-based framework for source code vulnerability detection that enhances LLMs with high-level vulnerability knowledge. We first replicate the results in a fully local and open-weights setting using the reported open-weight baseline models. We then extend the evaluation to a diverse set of recent open-weight LLMs, including code-specialized, general-purpose, and reasoning models of varying parameter sizes. The results confirm that the findings of Vul-RAG are reproducible under local deployment, but with minor deviations. Across all evaluated models, we observe a performance plateau at approximately 0.30 pairwise accuracy (code pairs for which both the vulnerable and the patched function are correctly classified). Notably, this plateau persists even for more recent and advanced models, indicating that improvements in model capacity alone do not substantially enhance performance. Finally, we discuss practical implications and trade-offs between detection effectiveness, model capabilities, and model scale. Implementation and evaluation artifacts are publicly available at https://github.com/hs-esslingen-it-security/revisiting-Vul-RAG.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04739",
-          "relevance_score": 26,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "From Prompt to Process: a Process Taxonomy and Comparative Assessment of Frameworks Supporting AI Software Development Agents",
-          "summary": "arXiv:2606.04967v1 Announce Type: cross Abstract: AI tools for programming are no longer just autocomplete or chat assistants: they organize themselves as development frameworks, with process, roles, artifacts and verification. Recent surveys map agents and LLMs for software engineering, but a study centered on the operational frameworks that turn these capabilities into process is missing. We ran a directed search of primary sources, with a functional inclusion criterion and traction measurement, and selected six frameworks: GitHub Spec Kit, OpenSpec, BMAD Method, Get Shit Done (GSD), Spec Kitty and Reversa. Each attacks AI development through a different path: spec-driven development in full and lightweight variants, agent-driven agile planning, context engineering over the agent, worktree isolation and review, and recovery of operational specifications from legacy systems. Our central contribution is a six-dimension process taxonomy: specification, context, roles, execution, validation and portability, with a scoring rubric that turns it into a replicable instrument. We apply it to the six frameworks and an out-of-sample case, Spec-Flow. Two results stand out. Among frameworks that already adopt some process there is convergence: the isolated prompt loses centrality, and persistent artifacts, work contracts, traceability and human review become mechanisms that reduce ambiguity and coordinate agents. And no framework strongly covers all six dimensions, exposing a structural trade-off between process depth and portability across agents. We also found recurring risks: drift between specification and code, excessive trust in generated artifacts, fragility of community extensions, platform dependence and a lack of benchmarks for the complete process. We close with a research agenda for empirical evaluation, focused on intermediate-quality metrics, context governance, installation security and reproducibility.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04967",
-          "relevance_score": 26,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "AlgoVeri: An Aligned Benchmark for Verified Code Generation on Classical Algorithms",
-          "summary": "arXiv:2602.09464v2 Announce Type: replace-cross Abstract: Vericoding refers to the generation of formally verified code from rigorous specifications. Recent AI models show promise in vericoding, but a unified methodology for cross-paradigm evaluation is lacking. Existing benchmarks test only individual languages/tools (e.g., Dafny, Verus, and Lean) and each covers very different tasks, so the performance numbers are not directly comparable. We address this gap with AlgoVeri, a benchmark that evaluates vericoding of $77$ classical algorithms in Dafny, Verus, and Lean. By enforcing identical functional contracts, AlgoVeri reveals critical capability gaps in verification systems. While frontier models achieve tractable success in Dafny ($40.3$% for Gemini-3 Flash), where high-level abstractions and SMT automation simplify the workflow, performance collapses under the systems-level memory constraints of Verus ($24.7$%) and the explicit proof construction required by Lean (7.8%). Beyond aggregate metrics, we uncover a sharp divergence in test-time compute dynamics: Gemini-3 effectively utilizes iterative repair to boost performance (e.g., tripling pass rates in Dafny), whereas GPT-OSS saturates early. Finally, our error analysis shows that language design affects the refinement trajectory: while Dafny allows models to focus on logical correctness, Verus and Lean trap models in persistent syntactic and semantic barriers. All data and evaluation code can be found at https://github.com/haoyuzhao123/algoveri.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.09464",
-          "relevance_score": 26,
           "status": "new",
           "tags": [],
           "what_changed": "Nueva señal detectada.",
