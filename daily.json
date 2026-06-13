@@ -1,144 +1,112 @@
 {
-  "date": "2026-06-12",
-  "executive_title": "Radar Diario de Innovaciones en IA",
-  "intro_message": "Últimos desarrollos y herramientas en inteligencia artificial que marcan la pauta en el sector.",
-  "opening_message": "A continuación se presentan los avances más destacados en herramientas, modelos y frameworks de IA, junto con sus implicaciones en diversos sectores.",
+  "date": "2026-06-13",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "GeoNatureAgent Benchmark para Análisis Geoespacial",
-      "summary": "Benchmark para evaluar agentes de análisis ambiental mediante llamadas estructuradas a APIs geoespaciales, comparando múltiples modelos LLM.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12821",
-      "relevance_score": 7,
+      "title": "Anthropic’s Dario Amodei has just one direct report",
+      "summary": "If founders and other business leaders weren't already envious of Dario Amodei, who sits atop one of the world's fastest-growing AI companies, they're going to be seriously envious now.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+      "relevance_score": 9,
       "status": "new",
-      "tags": [
-        "benchmark",
-        "geoespacial",
-        "LLM"
-      ],
-      "what_changed": "Introducción del primer benchmark para agentes de análisis ambiental.",
-      "why_it_matters": "Permite validar el rendimiento y coste de distintos modelos en tareas de análisis geoespacial.",
-      "sector_impact": "Mejora en la automatización de flujos de trabajo en ciencias ambientales."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "DSAEval: Evaluando Agentes de Ciencia de Datos",
-      "summary": "Benchmark que abarca problemas de ciencia de datos en el mundo real, evaluando 13 modelos LLM recientes en tareas diversas.",
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.13591",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [
-        "benchmark",
-        "ciencia de datos",
-        "LLM"
-      ],
-      "what_changed": "Introducción del benchmark DSAEval para evaluar agentes en ciencia de datos.",
-      "why_it_matters": "Proporciona un marco para medir el rendimiento de modelos LLM en tareas no estructuradas.",
-      "sector_impact": "Optimización de tareas de análisis de datos y aprendizaje automático."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "PI-Hunter: Auditoría Automatizada para Inyecciones de Prompts",
-      "summary": "Marco para la detección proactiva de vulnerabilidades en modelos LLM ante ataques de inyección de prompts.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12737",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "category": "labs",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
       "relevance_score": 7,
       "status": "new",
-      "tags": [
-        "seguridad",
-        "auditoría",
-        "LLM"
-      ],
-      "what_changed": "Desarrollo de un marco automatizado para exponer y localizar inyecciones de prompts.",
-      "why_it_matters": "Incrementa la seguridad en sistemas basados en LLM al mejorar la visibilidad del ataque.",
-      "sector_impact": "Aumenta la confianza en aplicaciones de IA que interactúan con entornos externos."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Cursor: Análisis de Eficiencia de Fixes Generados por Agentes de IA",
-      "summary": "Análisis de la eficiencia y tasa de rechazo de arreglos generados por agentes de código en proyectos de software.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.13468",
+      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "summary": "The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it’s a stress test for investors, for valuations, and for […]",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
       "relevance_score": 7,
       "status": "new",
-      "tags": [
-        "análisis",
-        "código",
-        "LLM"
-      ],
-      "what_changed": "Estudio que revela altos porcentajes de rechazos en fixes de IA.",
-      "why_it_matters": "Identifica áreas de mejora para la integración de agentes de IA en el desarrollo de software.",
-      "sector_impact": "Optimiza recursos y mejora procesos de revisión en desarrollo de software."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ToolSense: Marco de Diagnóstico para Conocimiento de Herramientas",
-      "summary": "Framework que genera benchmarks para evaluar el conocimiento paramétrico de herramientas en modelos LLM.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12451",
+      "title": "It’s hot IPO summer, and the MANGOS are ripe",
+      "summary": "The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it’s a stress test for investors, for valuations, and for […]",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
       "relevance_score": 7,
       "status": "new",
-      "tags": [
-        "diagnóstico",
-        "herramientas",
-        "LLM"
-      ],
-      "what_changed": "Introducción de un marco para auditoría del conocimiento de herramientas.",
-      "why_it_matters": "Facilita la evaluación del rendimiento en la recuperación de herramientas por parte de modelos LLM.",
-      "sector_impact": "Mejora en la efectividad de herramientas en entornos basados en IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Iteración hacia una Mejor Búsqueda en E-Commerce",
-      "summary": "Un marco de simulación de dos agentes para evaluar arquitecturas de búsqueda conversacional en e-commerce.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.12924",
-      "relevance_score": 7,
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "summary": "",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [
-        "e-commerce",
-        "agentes",
-        "simulación"
-      ],
-      "what_changed": "Desarrollo de un marco modular para evaluar arquitecturas de búsqueda en e-commerce.",
-      "why_it_matters": "Optimiza el proceso de búsqueda mejorando la calidad de las interacciones del comprador.",
-      "sector_impact": "Aumenta la eficiencia y satisfacción en plataformas de e-commerce."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "TerraBench: Razonamiento sobre Datos Heterogéneos en Ciencias de la Tierra",
-      "summary": "Benchmark que permite razonamiento sobre datos diversos en el contexto científico ambiental.",
+      "title": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
+      "summary": "Deezer introduced a tool that scans playlists from Spotify, Apple Music, and other platforms to identify AI music.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.13148",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [
-        "ciencia de la tierra",
-        "benchmark",
-        "LLM"
-      ],
-      "what_changed": "Se lanza un benchmark que interconecta razonamiento, llamadas a herramientas y observaciones.",
-      "why_it_matters": "Facilita un análisis más integral de datos en ciencias ambientales.",
-      "sector_impact": "Mejora la toma de decisiones en el análisis ambiental."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Framework para Preparación de Manuscritos Clínicos",
-      "summary": "Arquitectura para revisar la calidad de manuscritos generados por modelos LLM en el campo biomédico.",
+      "title": "DoorDash’s new AI chatbot lets you order with prompts and photos",
+      "summary": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.09500",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [
-        "biomedicina",
-        "auditoría",
-        "LLM"
-      ],
-      "what_changed": "Desarrollo de un marco que combina generación y verificación de manuscritos clínicos.",
-      "why_it_matters": "Proporciona un enfoque auditable y reproducible para la producción de manuscritos científicos.",
-      "sector_impact": "Aumenta la confianza en investigaciones biomédicas sustentadas por IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
