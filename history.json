@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-06-14",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "As Anthropic suspends access to new models, India debates its AI future",
+          "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+          "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+          "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+          "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+          "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+          "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+          "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
+          "summary": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-06-13",
       "executive_title": "Radar IA del día",
       "items": [
@@ -744,143 +854,6 @@
           "what_changed": "Introducción de un framework unificado y automático para la gestión de memoria en agentes LLM.",
           "why_it_matters": "Ofrece soluciones a limitaciones existentes en la reutilización de conocimiento en tareas prolongadas.",
           "sector_impact": "IA general"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-07",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI lanza Modo Bloqueo para proteger datos sensibles",
-          "summary": "Con el nuevo Modo Bloqueo, se busca reducir la vulnerabilidad de ChatGPT a ataques de inyección de prompts.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "seguridad",
-            "datos"
-          ],
-          "what_changed": "Se implementa un nuevo modo de seguridad.",
-          "why_it_matters": "Salvaguarda la privacidad de los usuarios en interacciones con IA.",
-          "sector_impact": "Aumenta la confianza en la tecnología de IA."
-        },
-        {
-          "title": "Lovable firma acuerdo con Google Cloud para aumentar uso de Claude",
-          "summary": "Se expande la presencia de Lovable en Google Cloud, mejorando el acceso a Claude.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "Google Cloud"
-          ],
-          "what_changed": "Acuerdo de expansión multianual.",
-          "why_it_matters": "Impulsa el uso de IA en aplicaciones empresariales.",
-          "sector_impact": "Fortalece la infraestructura en la nube para soluciones de IA."
-        },
-        {
-          "title": "Poke aprobado como primer agente IA en plataforma de Mensajes de Apple",
-          "summary": "Poke permitirá el uso de agentes IA mediante mensajes simples en iOS.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Apple",
-            "AI agents"
-          ],
-          "what_changed": "Aprobación de nuevo agente IA.",
-          "why_it_matters": "Facilita la integración de IA en la comunicación empresarial.",
-          "sector_impact": "Transforma el soporte al cliente en plataformas móviles."
-        },
-        {
-          "title": "Nuevo asistente IA para creadores en Facebook",
-          "summary": "Facilita a los creadores comprender su rendimiento en la plataforma.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Facebook",
-            "creadores",
-            "asistente IA"
-          ],
-          "what_changed": "Introducción de un asistente automatizado.",
-          "why_it_matters": "Optimiza la interacción de los creadores con sus audiencias.",
-          "sector_impact": "Mejora el análisis de rendimiento en redes sociales."
-        },
-        {
-          "title": "EVA-Bench Data 2.0: 121 herramientas y 213 escenarios",
-          "summary": "Actualización sobre EVA-Bench con nuevas herramientas y escenarios de IA.",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "herramientas"
-          ],
-          "what_changed": "Nuevo conjunto de datos para evaluación.",
-          "why_it_matters": "Facilita el desarrollo y mejoras en herramientas de IA.",
-          "sector_impact": "Acelera la innovación en el sector de IA."
-        },
-        {
-          "title": "Nuevo laboratorio de IA lanzado por Airbnb",
-          "summary": "Brian Chesky anuncia el lanzamiento de un laboratorio de inteligencia artificial.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Airbnb",
-            "laboratorio IA"
-          ],
-          "what_changed": "Anuncio de nuevo laboratorio de IA.",
-          "why_it_matters": "Explorará nuevas aplicaciones de IA en la industria del alojamiento.",
-          "sector_impact": "Potencia la integración de IA en servicios de hospitalidad."
-        },
-        {
-          "title": "Meta lanza asistente IA para creadores",
-          "summary": "Ayuda a los creadores a gestionar sus interacciones en Facebook.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "creadores",
-            "AI"
-          ],
-          "what_changed": "Lanzamiento de nuevo asistente inteligente.",
-          "why_it_matters": "Kda los creadores a entender mejor su audiencia.",
-          "sector_impact": "Incrementa la efectividad en la creación de contenido."
-        },
-        {
-          "title": "Apple anticipa revamp de Siri en WWDC 2026",
-          "summary": "Se esperan importantes actualizaciones de inteligencia artificial en Siri.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Apple",
-            "Siri",
-            "actualizaciones"
-          ],
-          "what_changed": "Se anticipan mejoras en la funcionalidad de Siri.",
-          "why_it_matters": "Mejorará la experiencia de usuario y la interacción.",
-          "sector_impact": "Fortalece la oferta de IA de Apple."
         }
       ]
     }
