@@ -1,112 +1,110 @@
 {
-  "date": "2026-06-14",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-06-15",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en el ámbito de la inteligencia artificial.",
+  "opening_message": "En este informe, destacamos las herramientas, modelos, y características más relevantes que están emergiendo en el ecosistema de IA.",
   "items": [
     {
-      "title": "As Anthropic suspends access to new models, India debates its AI future",
-      "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-      "relevance_score": 11,
+      "title": "tap: Un Protocolo Basado en Archivos para la Colaboración de Agentes LLM",
+      "summary": "Un protocolo que permite la colaboración entre agentes LLM de diferentes proveedores sin necesidad de un entorno de ejecución común.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.14445",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "colaboración",
+        "LLM",
+        "protocolos"
+      ],
+      "what_changed": "Introducción de un diseño primero en archivos que permite interacciones sin un servidor central.",
+      "why_it_matters": "Facilita la colaboración efectiva entre diferentes modelos de IA en un solo repositorio de código.",
+      "sector_impact": "Promueve la integración de agentes diversos en entornos de desarrollo."
     },
     {
-      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "title": "MA-ProofBench: Un Benchmark de Teoremas para LLMs",
+      "summary": "Presenta un benchmark formal para evaluar la capacidad de los LLMs en la demostración de teoremas de análisis matemático.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.13782",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "teoremas",
+        "matemáticas"
+      ],
+      "what_changed": "Se introdujeron 200 teoremas formalizados en diversas subcategorías de matemáticas.",
+      "why_it_matters": "Ofrece una referencia confiable para evaluar el razonamiento formal en áreas avanzadas.",
+      "sector_impact": "Impulsa el desarrollo de modelos más competentes en matemáticas complejas."
+    },
+    {
+      "title": "AgentCyberRange: Evaluación de Sistemas de IA Frontera en Ciberseguridad",
+      "summary": "Establece una infraestructura abierta para medir la capacidad de ataque cibernético de sistemas de IA autónomos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.14295",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "ciberseguridad",
+        "IA",
+        "evaluación"
+      ],
+      "what_changed": "Desarrollo de un entorno multi-host para evaluar ataques cibernéticos de modelos de IA.",
+      "why_it_matters": "Permite una evaluación efectiva de capacidades ofensivas en condiciones realistas.",
+      "sector_impact": "Aumenta la seguridad informática a través del entendimiento de capacidades emergentes."
+    },
+    {
+      "title": "Hybrid Open-Ended Tri-Evolution Mejora el Investigador Profundo",
+      "summary": "Propone un marco para la evolución colaborativa de agentes utilizando aprendizaje por refuerzo híbrido.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.13710",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "aprendizaje",
+        "evolución",
+        "agentes"
+      ],
+      "what_changed": "Integración de aprendizaje por refuerzo híbrido para la evolución autónoma de agentes.",
+      "why_it_matters": "Permite a los agentes interactuar y evolucionar en entornos abiertos de manera efectiva.",
+      "sector_impact": "Fomenta la investigación autónoma en entornos complejos."
+    },
+    {
+      "title": "Cuando los Errores se Convierten en Narrativas: Taxonomía de Fallos en Agentes LLM",
+      "summary": "Un estudio sobre fallos silenciosos en agentes LLM en producción continua y sus críticos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.14589",
       "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "fallos",
+        "agentes",
+        "evaluación"
+      ],
+      "what_changed": "Establecimiento de una taxonomía basada en incidentes observados en sistemas de agentes LLM.",
+      "why_it_matters": "Proporciona un marco para entender y mitigar fallos en sistemas autónomos.",
+      "sector_impact": "Mejora la confiabilidad y la gobernanza de agentes IA en producción."
     },
     {
-      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-      "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+      "title": "YeasierAgent: Creación de Aplicaciones Nativas de Agentes Simbióticos",
+      "summary": "Un paradigma para construir aplicaciones nativas de agentes basadas en interacción y narrativas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.13722",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
-      "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-      "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
-      "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-      "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
-      "summary": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "aplicaciones",
+        "interacción",
+        "agentes"
+      ],
+      "what_changed": "Redefinición de aplicaciones como espacios colaborativos entre usuarios y agentes.",
+      "why_it_matters": "Facilita la creación de entornos computacionales sociales más integrados.",
+      "sector_impact": "Transforma la interacción del usuario con herramientas automatizadas."
     }
   ]
 }
