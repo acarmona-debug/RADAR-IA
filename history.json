@@ -1,6 +1,109 @@
 {
   "days": [
     {
+      "date": "2026-06-17",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "Sistema Multi-Agente Potenciado por LLM para Gestión Automatizada de Portafolios de Criptomonedas",
+          "summary": "Propuesta de un sistema multi-agente para la gestión de portafolios de criptomonedas, superando variantes de agentes únicos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2501.00826",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multi-agentes",
+            "criptomonedas",
+            "automatización"
+          ],
+          "what_changed": "Introducción de un sistema de agentes especializados para manejar decisiones complejas de inversión.",
+          "why_it_matters": "Mejora la toma de decisiones en mercados altamente volátiles con transparencia en la lógica del agente.",
+          "sector_impact": "Finanzas, criptoactivos."
+        },
+        {
+          "title": "PromptMN: Lenguaje de Pseudo-Prompting",
+          "summary": "Nuevo lenguaje de pseudo-prompting que mejora la interacción entre humanos y modelos generativos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.17164",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "interacción",
+            "desarrollo de software"
+          ],
+          "what_changed": "Permite una escritura más estructurada y menos ambigua en las interacciones con IA.",
+          "why_it_matters": "Reduce ciclos de reparación y mejora la alineación entre usuarios y herramientas de IA.",
+          "sector_impact": "Desarrollo de software."
+        },
+        {
+          "title": "Evaluación de LLMs para Ciberseguridad",
+          "summary": "Análisis sobre la efectividad de los modelos LLM para la detección de vulnerabilidades cibernéticas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.23243",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "modelos LLM"
+          ],
+          "what_changed": "Estudio que revela que los modelos de frontera presentan tasas de falsos positivos en detección de vulnerabilidades.",
+          "why_it_matters": "Contribuye a repensar el empleo de modelos LLM en el ámbito de la seguridad cibernética.",
+          "sector_impact": "Ciberseguridad."
+        },
+        {
+          "title": "Sistema ALeRCE: Consulta Astronómica Usando LLM",
+          "summary": "Desarrollo de un sistema text-to-SQL para consultas en bases de datos astronómicas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.18108",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "astronomía",
+            "SQL"
+          ],
+          "what_changed": "Implementación de un sistema que traduce consultas en lenguaje natural a SQL.",
+          "why_it_matters": "Facilita el acceso y análisis de grandes bases de datos astronómicas por investigadores.",
+          "sector_impact": "Astronomía, investigación."
+        },
+        {
+          "title": "CMIP-Forge: Sistema Agente que Autonomiza Análisis Climático",
+          "summary": "Sistema que combina generación y análisis autónomo en la ciencia climática utilizando literatura científica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.17076",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "clima",
+            "análisis autónomo"
+          ],
+          "what_changed": "Integra literatura y datos de clima para un análisis más eficiente.",
+          "why_it_matters": "Ofrece soluciones automatizadas para estudios complejos en ciencia del clima.",
+          "sector_impact": "Ciencia climática."
+        },
+        {
+          "title": "Ramificación y Exploración: Web Eficiente con Razonamiento Controlado",
+          "summary": "Presentación de un marco de agente web que optimiza la exploración de información.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.19838",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "agentes web",
+            "razonamiento"
+          ],
+          "what_changed": "Desarrolla un sistema más efectivo y controlado de exploración web.",
+          "why_it_matters": "Permite a agentes autónomos realizar tareas más complejas con mayor eficiencia.",
+          "sector_impact": "Tecnología web."
+        }
+      ]
+    },
+    {
       "date": "2026-06-16",
       "executive_title": "Radar IA del día",
       "items": [
@@ -702,131 +805,6 @@
           "what_changed": "Introducción de un sistema que conecta investigación a través de un árbol de hipótesis.",
           "why_it_matters": "Aumenta la capacidad de los agentes para realizar investigaciones significativas e iterativas.",
           "sector_impact": "Impulsa el desarrollo de agentes de IA con capacidad de investigación compleja."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-10",
-      "executive_title": "Radar Diario de IA - Innovaciones Relevantes",
-      "items": [
-        {
-          "title": "Menos Contexto, Mejores Agentes: Ingeniería de Contexto Eficiente",
-          "summary": "Estudio sobre cómo la retención selectiva de interacciones recientes y la resumación compacta pueden mejorar tanto la fiabilidad como la eficiencia en flujos de trabajo de herramientas automatizadas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.10209",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "modelo",
-            "eficiencia"
-          ],
-          "what_changed": "Introducción de técnicas de ingeniería de contexto para optimizar el uso de modelos de lenguaje.",
-          "why_it_matters": "Mejora la eficiencia y la fiabilidad de los agentes de IA en aplicaciones empresariales.",
-          "sector_impact": "Alto, especialmente en procesos de negocio automatizados."
-        },
-        {
-          "title": "Agentes de Codificación de Frontera Usan Metaprogramación",
-          "summary": "Evaluación de agentes de codificación LLM en lenguajes de programación poco comunes en un entorno que resalta su capacidad adaptativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.10933",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "metaprogramación",
-            "programación"
-          ],
-          "what_changed": "Demostración de la capacidad de los agentes para adaptarse a lenguajes desconocidos usando metaprogramación.",
-          "why_it_matters": "Indica la flexibilidad y potencial de los LLM en entornos de codificación diversos.",
-          "sector_impact": "Alto para desarrollo de software en diversos lenguajes."
-        },
-        {
-          "title": "RAG sobre Trazas de Pensamiento Mejora Tareas de Razonamiento",
-          "summary": "Propuesta de un nuevo enfoque para tareas de razonamiento intensivo que utiliza trazas de pensamiento como corpus de recuperación.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.03344",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "RAG",
-            "razonamiento",
-            "mejora"
-          ],
-          "what_changed": "Uso de trazas de pensamiento en lugar de documentos estándar para mejorar el rendimiento.",
-          "why_it_matters": "Amplía las capacidades de los modelos para resolver problemas complejos.",
-          "sector_impact": "Significativo en aplicaciones de inteligencia artificial y análisis de datos."
-        },
-        {
-          "title": "$\\tau$-Rec: Un Benchmark Verificable para Sistemas de Recomendación Agénticos",
-          "summary": "Presentación de un nuevo estándar para evaluar sistemas de recomendación con métricas de recompensa verificables.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.10156",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "recomendación",
-            "benchmark",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un nuevo marco de evaluación que reduce la subjetividad en las recomendaciones.",
-          "why_it_matters": "Proporciona un método más objetivo para evaluar la efectividad de los sistemas de recomendación.",
-          "sector_impact": "Impacto considerable en plataformas e-commerce y servicios digitales."
-        },
-        {
-          "title": "Moonshine: Un Agente Matemático Autónomo para Generación de Conjeturas",
-          "summary": "Desarrollo de un agente que genera conjeturas matemáticas y avanza en la resolución de problemas abiertos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.10806",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "matemáticas",
-            "conjeturas"
-          ],
-          "what_changed": "Implementación de un agente capaz de generar y probar conjeturas matemáticas.",
-          "why_it_matters": "Podría revolucionar la forma en que abordamos problemas en matemáticas avanzadas.",
-          "sector_impact": "Alto, especialmente en campos de investigación matemática."
-        },
-        {
-          "title": "GitInject: Evaluando Vulnerabilidades de Inyección en CI/CD",
-          "summary": "Desarrollo de un marco para evaluar vulnerabilidades de inyección en entornos de integración y entrega continua.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.09935",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "CI/CD",
-            "inclusión"
-          ],
-          "what_changed": "Marco de evaluación creado para estudiar ataques de inyección en flujos de trabajo de GitHub.",
-          "why_it_matters": "Ayuda a identificar y mitigar riesgos en CI/CD modernos.",
-          "sector_impact": "Crítico para la seguridad en desarrollo de software."
-        },
-        {
-          "title": "LakeQA: Un Benchmark de QA sobre un Lago de Datos a Gran Escala",
-          "summary": "Introducción de un benchmark que combina búsqueda y razonamiento en grandes volúmenes de datos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.10460",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "QA",
-            "benchmark",
-            "datos"
-          ],
-          "what_changed": "Propuesta de un marco de referencia que requiere búsqueda y razonamiento en un entorno de lago de datos.",
-          "why_it_matters": "Proporciona una plataforma para el desarrollo de agentes LLM que pueden manejar grandes volúmenes de información.",
-          "sector_impact": "Altamente relevante para bases de datos y paradigmas de ciencia de datos."
         }
       ]
     }
