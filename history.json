@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-06-18",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "LivePI: Benchmarking Realista de Agentes contra Inyección de Prompt Indirecta",
+          "summary": "Presentamos LivePI, un benchmark estructurado para evaluar riesgos de inyección de prompt en entornos controlados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.17986",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "agentes",
+            "securidad"
+          ],
+          "what_changed": "Introducción de un entorno de evaluación realista para inyecciones de prompt.",
+          "why_it_matters": "Aumenta la seguridad en la implementación de agentes IA en flujos de trabajo.",
+          "sector_impact": "Mejora en la evaluación de riesgos en sistemas IA."
+        },
+        {
+          "title": "CAPRA: Escalando Retroalimentación en Entregables de Arquitectura de Software",
+          "summary": "CAPRA es un sistema multi-agente que ofrece retroalimentación automatizada y personalizada en entregables de arquitectura.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.18976",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "educación",
+            "retroalimentación"
+          ],
+          "what_changed": "Implementación de agentes especializados para la retroalimentación de arquitectura.",
+          "why_it_matters": "Optimiza el proceso educativo en ingeniería de software.",
+          "sector_impact": "Aumenta la calidad del aprendizaje en software."
+        },
+        {
+          "title": "TxBench-PP: Analizando el Rendimiento de Agentes en Farmacología Preclínica",
+          "summary": "TxBench-PP proporciona un benchmark verificable para evaluar decisiones farmacológicas preclínicas con agentes IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19245",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "farmacología",
+            "benchmark"
+          ],
+          "what_changed": "Enfoque en decisiones precisas a partir de datos reales.",
+          "why_it_matters": "Permite la mejora de procesos en descubrimiento de fármacos.",
+          "sector_impact": "Impacto positivo en la industria farmacéutica."
+        },
+        {
+          "title": "CEO-Bench: ¿Pueden los Agentes Jugar a Largo Plazo?",
+          "summary": "CEO-Bench evalúa la capacidad de los agentes para operar startups a largo plazo y enfrentar múltiples desafíos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.18543",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "benchmark",
+            "startup"
+          ],
+          "what_changed": "Introduce la evaluación de capacidades de largo plazo para agentes.",
+          "why_it_matters": "Evalúa la adaptabilidad y inteligencia de los agentes en entornos complejos.",
+          "sector_impact": "Acelera la investigación en IA aplicada a negocios."
+        },
+        {
+          "title": "Generating Natural and Expressive Robot Gestures",
+          "summary": "Se presenta un sistema que utiliza RLHF para mejorar la generación de gestos en robots sociales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.18747",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "robot",
+            "gestos",
+            "interacción"
+          ],
+          "what_changed": "Mejoras en la fluidez y expresividad de los gestos generados.",
+          "why_it_matters": "Mejora la interacción humano-robot, aumentando su aceptación social.",
+          "sector_impact": "Innovaciones en robótica y HRI."
+        },
+        {
+          "title": "AdsMind: Sistema Multi-Agente para Configuración de Adsorción",
+          "summary": "AdsMind es un sistema que mejora la identificación de configuraciones de adsorción en catálisis utilizando IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19152",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "ciencia",
+            "catálisis"
+          ],
+          "what_changed": "Introducción de un marco de retroalimentación de corrección de errores.",
+          "why_it_matters": "Optimiza el proceso de descubrimiento en química.",
+          "sector_impact": "Acelera la investigación en catálisis y materiales."
+        }
+      ]
+    },
+    {
       "date": "2026-06-17",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
       "items": [
@@ -680,131 +788,6 @@
           "what_changed": "Desarrollo de un marco que combina generación y verificación de manuscritos clínicos.",
           "why_it_matters": "Proporciona un enfoque auditable y reproducible para la producción de manuscritos científicos.",
           "sector_impact": "Aumenta la confianza en investigaciones biomédicas sustentadas por IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "FitText: Evolving Agent Tool Ecologies via Memetic Retrieval",
-          "summary": "Un marco de entrenamiento que mejora la recuperación de herramientas mediante retroalimentación dinámica, optimizando el rendimiento de agentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.02411",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "recuperación",
-            "IA"
-          ],
-          "what_changed": "Introducción de un nuevo enfoque para hacer la recuperación de herramientas dinámica.",
-          "why_it_matters": "Puede mejorar significativamente la capacidad de los agentes para seleccionar herramientas adecuadas en tiempo real.",
-          "sector_impact": "Transforma la interacción de los agentes con herramientas en entornos complejos."
-        },
-        {
-          "title": "A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design",
-          "summary": "Un marco agente para el diseño automatizado de barreras de concreto que mejora la precisión del diseño al 98% utilizando LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12040",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "ingeniería",
-            "agentes",
-            "automatización"
-          ],
-          "what_changed": "Desarrollo de un marco que combina múltiples agentes para optimizar el diseño estructural.",
-          "why_it_matters": "Puede reducir significativamente los costos computacionales en el diseño estructural.",
-          "sector_impact": "Transforma la manera en que se aborda la ingeniería civil con IA."
-        },
-        {
-          "title": "ISE: An Execution-Grounded Recipe for Multi-Turn OS-Agent Trajectories",
-          "summary": "Propuesta de un paradigma de síntesis en tres etapas para entrenar agentes de OS que mejora la interacción multi-turno.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.11520",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "interacción",
-            "sistemas"
-          ],
-          "what_changed": "Introducción de una nueva forma de capturar interacciones en sistemas operativos.",
-          "why_it_matters": "Mejora drásticamente el rendimiento de los agentes en tareas complejas de usuario.",
-          "sector_impact": "Facilita un mayor avance en la capacidad operativa de los agentes de IA."
-        },
-        {
-          "title": "TAHOE: Text-to-SQL with Automated Hint Optimization from Experience",
-          "summary": "Sistema que mejora la conversión de texto a SQL mediante optimización automática de pistas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12387",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "base de datos",
-            "optimización",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un sistema que optimiza el uso de datos en Text-to-SQL.",
-          "why_it_matters": "Reduce los errores en la generación de consultas SQL y mejora la eficiencia operativa.",
-          "sector_impact": "Impulsa el desarrollo de aplicaciones de IA más efectivas en la gestión de bases de datos."
-        },
-        {
-          "title": "PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents",
-          "summary": "Capa de memoria y juicio para agentes de IA que evita la repetición de fallos anteriores en desarrollo de software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12329",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "programación",
-            "memoria",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un sistema de memoria para mejorar el flujo de trabajo de los agentes.",
-          "why_it_matters": "Reduce el costo computacional y mejora la eficiencia en el desarrollo de software.",
-          "sector_impact": "Revoluciona la manera en que los asistentes de codificación interactúan con proyectos."
-        },
-        {
-          "title": "Mind the Perspective: Let's Reason Recursively for Theory of Mind",
-          "summary": "Un marco que mejora el razonamiento en la teoría de la mente a través de la construcción recursiva de perspectivas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.11724",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "teoría de la mente",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un nuevo enfoque para el razonamiento en IA que permite entender creencias complejas.",
-          "why_it_matters": "Permite a los modelos de IA razonar de manera más efectiva sobre las creencias de los agentes.",
-          "sector_impact": "Aumenta la aplicabilidad de la IA en escenarios sociales y comunicativos."
-        },
-        {
-          "title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
-          "summary": "Un marco general para la investigación autónoma que optimiza la exploración y el aprendizaje de AI.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.11926",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "investigación",
-            "autonomía",
-            "IA"
-          ],
-          "what_changed": "Introducción de un sistema que conecta investigación a través de un árbol de hipótesis.",
-          "why_it_matters": "Aumenta la capacidad de los agentes para realizar investigaciones significativas e iterativas.",
-          "sector_impact": "Impulsa el desarrollo de agentes de IA con capacidad de investigación compleja."
         }
       ]
     }

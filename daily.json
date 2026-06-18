@@ -1,105 +1,110 @@
 {
-  "date": "2026-06-17",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-  "intro_message": "El siguiente radar diario presenta las innovaciones más relevantes en el ámbito de la inteligencia artificial, enfocándose en herramientas, modelos y frameworks útiles.",
-  "opening_message": "A continuación, encontrará una recopilación de los últimos avances que prometen transformar el uso de la IA en diversos sectores, destacando nuevas integraciones y características.",
+  "date": "2026-06-18",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimas novedades destacadas en herramientas, modelos y frameworks de inteligencia artificial.",
+  "opening_message": "A continuación se presentan los elementos más relevantes en el ámbito de la IA, priorizando herramientas, modelos y nuevas características.",
   "items": [
     {
-      "title": "Sistema Multi-Agente Potenciado por LLM para Gestión Automatizada de Portafolios de Criptomonedas",
-      "summary": "Propuesta de un sistema multi-agente para la gestión de portafolios de criptomonedas, superando variantes de agentes únicos.",
-      "category": "model",
+      "title": "LivePI: Benchmarking Realista de Agentes contra Inyección de Prompt Indirecta",
+      "summary": "Presentamos LivePI, un benchmark estructurado para evaluar riesgos de inyección de prompt en entornos controlados.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2501.00826",
+      "source_url": "https://arxiv.org/abs/2605.17986",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "multi-agentes",
-        "criptomonedas",
-        "automatización"
+        "IA",
+        "agentes",
+        "securidad"
       ],
-      "what_changed": "Introducción de un sistema de agentes especializados para manejar decisiones complejas de inversión.",
-      "why_it_matters": "Mejora la toma de decisiones en mercados altamente volátiles con transparencia en la lógica del agente.",
-      "sector_impact": "Finanzas, criptoactivos."
+      "what_changed": "Introducción de un entorno de evaluación realista para inyecciones de prompt.",
+      "why_it_matters": "Aumenta la seguridad en la implementación de agentes IA en flujos de trabajo.",
+      "sector_impact": "Mejora en la evaluación de riesgos en sistemas IA."
     },
     {
-      "title": "PromptMN: Lenguaje de Pseudo-Prompting",
-      "summary": "Nuevo lenguaje de pseudo-prompting que mejora la interacción entre humanos y modelos generativos.",
+      "title": "CAPRA: Escalando Retroalimentación en Entregables de Arquitectura de Software",
+      "summary": "CAPRA es un sistema multi-agente que ofrece retroalimentación automatizada y personalizada en entregables de arquitectura.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.17164",
+      "source_url": "https://arxiv.org/abs/2606.18976",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "interacción",
-        "desarrollo de software"
+        "IA",
+        "educación",
+        "retroalimentación"
       ],
-      "what_changed": "Permite una escritura más estructurada y menos ambigua en las interacciones con IA.",
-      "why_it_matters": "Reduce ciclos de reparación y mejora la alineación entre usuarios y herramientas de IA.",
-      "sector_impact": "Desarrollo de software."
+      "what_changed": "Implementación de agentes especializados para la retroalimentación de arquitectura.",
+      "why_it_matters": "Optimiza el proceso educativo en ingeniería de software.",
+      "sector_impact": "Aumenta la calidad del aprendizaje en software."
     },
     {
-      "title": "Evaluación de LLMs para Ciberseguridad",
-      "summary": "Análisis sobre la efectividad de los modelos LLM para la detección de vulnerabilidades cibernéticas.",
-      "category": "model",
+      "title": "TxBench-PP: Analizando el Rendimiento de Agentes en Farmacología Preclínica",
+      "summary": "TxBench-PP proporciona un benchmark verificable para evaluar decisiones farmacológicas preclínicas con agentes IA.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.23243",
+      "source_url": "https://arxiv.org/abs/2606.19245",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "IA",
+        "farmacología",
+        "benchmark"
+      ],
+      "what_changed": "Enfoque en decisiones precisas a partir de datos reales.",
+      "why_it_matters": "Permite la mejora de procesos en descubrimiento de fármacos.",
+      "sector_impact": "Impacto positivo en la industria farmacéutica."
+    },
+    {
+      "title": "CEO-Bench: ¿Pueden los Agentes Jugar a Largo Plazo?",
+      "summary": "CEO-Bench evalúa la capacidad de los agentes para operar startups a largo plazo y enfrentar múltiples desafíos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.18543",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "modelos LLM"
+        "IA",
+        "benchmark",
+        "startup"
       ],
-      "what_changed": "Estudio que revela que los modelos de frontera presentan tasas de falsos positivos en detección de vulnerabilidades.",
-      "why_it_matters": "Contribuye a repensar el empleo de modelos LLM en el ámbito de la seguridad cibernética.",
-      "sector_impact": "Ciberseguridad."
+      "what_changed": "Introduce la evaluación de capacidades de largo plazo para agentes.",
+      "why_it_matters": "Evalúa la adaptabilidad y inteligencia de los agentes en entornos complejos.",
+      "sector_impact": "Acelera la investigación en IA aplicada a negocios."
     },
     {
-      "title": "Sistema ALeRCE: Consulta Astronómica Usando LLM",
-      "summary": "Desarrollo de un sistema text-to-SQL para consultas en bases de datos astronómicas.",
+      "title": "Generating Natural and Expressive Robot Gestures",
+      "summary": "Se presenta un sistema que utiliza RLHF para mejorar la generación de gestos en robots sociales.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.18108",
+      "source_url": "https://arxiv.org/abs/2606.18747",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "astronomía",
-        "SQL"
+        "robot",
+        "gestos",
+        "interacción"
       ],
-      "what_changed": "Implementación de un sistema que traduce consultas en lenguaje natural a SQL.",
-      "why_it_matters": "Facilita el acceso y análisis de grandes bases de datos astronómicas por investigadores.",
-      "sector_impact": "Astronomía, investigación."
+      "what_changed": "Mejoras en la fluidez y expresividad de los gestos generados.",
+      "why_it_matters": "Mejora la interacción humano-robot, aumentando su aceptación social.",
+      "sector_impact": "Innovaciones en robótica y HRI."
     },
     {
-      "title": "CMIP-Forge: Sistema Agente que Autonomiza Análisis Climático",
-      "summary": "Sistema que combina generación y análisis autónomo en la ciencia climática utilizando literatura científica.",
+      "title": "AdsMind: Sistema Multi-Agente para Configuración de Adsorción",
+      "summary": "AdsMind es un sistema que mejora la identificación de configuraciones de adsorción en catálisis utilizando IA.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.17076",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2606.19152",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "clima",
-        "análisis autónomo"
+        "IA",
+        "ciencia",
+        "catálisis"
       ],
-      "what_changed": "Integra literatura y datos de clima para un análisis más eficiente.",
-      "why_it_matters": "Ofrece soluciones automatizadas para estudios complejos en ciencia del clima.",
-      "sector_impact": "Ciencia climática."
-    },
-    {
-      "title": "Ramificación y Exploración: Web Eficiente con Razonamiento Controlado",
-      "summary": "Presentación de un marco de agente web que optimiza la exploración de información.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.19838",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "agentes web",
-        "razonamiento"
-      ],
-      "what_changed": "Desarrolla un sistema más efectivo y controlado de exploración web.",
-      "why_it_matters": "Permite a agentes autónomos realizar tareas más complejas con mayor eficiencia.",
-      "sector_impact": "Tecnología web."
+      "what_changed": "Introducción de un marco de retroalimentación de corrección de errores.",
+      "why_it_matters": "Optimiza el proceso de descubrimiento en química.",
+      "sector_impact": "Acelera la investigación en catálisis y materiales."
     }
   ]
 }
