@@ -1,110 +1,127 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades destacadas en herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "A continuación se presentan los elementos más relevantes en el ámbito de la IA, priorizando herramientas, modelos y nuevas características.",
+  "intro_message": "Bienvenido al Radar Diario de IA, donde resaltamos las últimas herramientas y desarrollos importantes en inteligencia artificial.",
+  "opening_message": "Hoy exploramos innovaciones significativas en herramientas, modelos y frameworks que están impactando el mundo de la IA.",
   "items": [
     {
-      "title": "LivePI: Benchmarking Realista de Agentes contra Inyección de Prompt Indirecta",
-      "summary": "Presentamos LivePI, un benchmark estructurado para evaluar riesgos de inyección de prompt en entornos controlados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.17986",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "IA",
-        "agentes",
-        "securidad"
-      ],
-      "what_changed": "Introducción de un entorno de evaluación realista para inyecciones de prompt.",
-      "why_it_matters": "Aumenta la seguridad en la implementación de agentes IA en flujos de trabajo.",
-      "sector_impact": "Mejora en la evaluación de riesgos en sistemas IA."
-    },
-    {
-      "title": "CAPRA: Escalando Retroalimentación en Entregables de Arquitectura de Software",
-      "summary": "CAPRA es un sistema multi-agente que ofrece retroalimentación automatizada y personalizada en entregables de arquitectura.",
+      "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines",
+      "summary": "FAPO optimiza la cadena de LLM identificando cuellos de botella y validando variantes para mejorar el rendimiento, superando a su predecesor GEPA.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.18976",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "IA",
-        "educación",
-        "retroalimentación"
-      ],
-      "what_changed": "Implementación de agentes especializados para la retroalimentación de arquitectura.",
-      "why_it_matters": "Optimiza el proceso educativo en ingeniería de software.",
-      "sector_impact": "Aumenta la calidad del aprendizaje en software."
-    },
-    {
-      "title": "TxBench-PP: Analizando el Rendimiento de Agentes en Farmacología Preclínica",
-      "summary": "TxBench-PP proporciona un benchmark verificable para evaluar decisiones farmacológicas preclínicas con agentes IA.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19245",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "IA",
-        "farmacología",
-        "benchmark"
-      ],
-      "what_changed": "Enfoque en decisiones precisas a partir de datos reales.",
-      "why_it_matters": "Permite la mejora de procesos en descubrimiento de fármacos.",
-      "sector_impact": "Impacto positivo en la industria farmacéutica."
-    },
-    {
-      "title": "CEO-Bench: ¿Pueden los Agentes Jugar a Largo Plazo?",
-      "summary": "CEO-Bench evalúa la capacidad de los agentes para operar startups a largo plazo y enfrentar múltiples desafíos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.18543",
+      "source_url": "https://arxiv.org/abs/2606.19605",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "IA",
-        "benchmark",
-        "startup"
+        "optimización",
+        "LLM",
+        "rendimiento"
       ],
-      "what_changed": "Introduce la evaluación de capacidades de largo plazo para agentes.",
-      "why_it_matters": "Evalúa la adaptabilidad y inteligencia de los agentes en entornos complejos.",
-      "sector_impact": "Acelera la investigación en IA aplicada a negocios."
+      "what_changed": "Mejora en la optimización de cadenas LLM.",
+      "why_it_matters": "Aumenta la eficiencia en aplicaciones de IA especializadas de seguridad y generales.",
+      "sector_impact": "Transforma la implementación de LLM para rendimiento en tareas críticas."
     },
     {
-      "title": "Generating Natural and Expressive Robot Gestures",
-      "summary": "Se presenta un sistema que utiliza RLHF para mejorar la generación de gestos en robots sociales.",
-      "category": "tool",
+      "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "summary": "Propuesta de un método para la búsqueda de aclaraciones en modelos de lenguaje, mejorando la interacción de agentes LLM ante especificaciones ambiguas.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.18747",
+      "source_url": "https://arxiv.org/abs/2606.19559",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "robot",
-        "gestos",
-        "interacción"
+        "agentes",
+        "LLM",
+        "clarificación"
       ],
-      "what_changed": "Mejoras en la fluidez y expresividad de los gestos generados.",
-      "why_it_matters": "Mejora la interacción humano-robot, aumentando su aceptación social.",
-      "sector_impact": "Innovaciones en robótica y HRI."
+      "what_changed": "Introducción de un enfoque basado en descomposición de incertidumbres.",
+      "why_it_matters": "Mejora la capacidad de los modelos para interactuar proactivamente.",
+      "sector_impact": "Impulsa la eficiencia de los sistemas de IA en tareas interactivas."
     },
     {
-      "title": "AdsMind: Sistema Multi-Agente para Configuración de Adsorción",
-      "summary": "AdsMind es un sistema que mejora la identificación de configuraciones de adsorción en catálisis utilizando IA.",
+      "title": "DynAMO: Dynamic Asset Management Orchestration via Topological Multi-Agent Scheduling",
+      "summary": "DynAMO optimiza la orquestación de activos mediante un enfoque de ejecución topológica en entornos industriales, mejorando la eficiencia y reduciendo latencias.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19152",
+      "source_url": "https://arxiv.org/abs/2606.19382",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "IA",
-        "ciencia",
-        "catálisis"
+        "orquestación",
+        "automación",
+        "eficiencia"
       ],
-      "what_changed": "Introducción de un marco de retroalimentación de corrección de errores.",
-      "why_it_matters": "Optimiza el proceso de descubrimiento en química.",
-      "sector_impact": "Acelera la investigación en catálisis y materiales."
+      "what_changed": "Desarrollo de un motor de orquestación para mejorar la gestión de activos.",
+      "why_it_matters": "Impulsa la adopción de IA en procesos industriales críticos.",
+      "sector_impact": "Transforma la automatización en la Industria 4.0."
+    },
+    {
+      "title": "Multi-Agent Transactive Memory",
+      "summary": "Propuesta de un sistema de memoria transaccional para compartir experiencias entre agentes LLM, mejorando la ejecución de tareas a través del conocimiento compartido.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.19911",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "memoria",
+        "agentes",
+        "conocimiento compartido"
+      ],
+      "what_changed": "Creación de un sistema para almacenar y recuperar trayectorias generadas por agentes.",
+      "why_it_matters": "Facilita el aprendizaje colaborativo entre agentes LLM.",
+      "sector_impact": "Mejora la reusabilidad y la eficiencia en entornos interactivos."
+    },
+    {
+      "title": "SIGMA: Search-Augmented On-Demand Knowledge Integration for Agentic Mathematical Reasoning",
+      "summary": "SIGMA mejora el razonamiento matemático automatizando la integración de conocimientos a través de agentes especializados, obteniendo altos niveles de rendimiento.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2510.27568",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "razonamiento",
+        "matemáticas",
+        "integración de conocimiento"
+      ],
+      "what_changed": "Introducción de un marco de agentes especializados para la resolución de problemas matemáticos.",
+      "why_it_matters": "Incrementa la precisión y eficiencia en tareas complejas de razonamiento.",
+      "sector_impact": "Optimiza los procesos de aprendizaje y resolución en matemáticas."
+    },
+    {
+      "title": "Secure Coding Drift in LLM-Assisted Post-Quantum Cryptography Development: A Gamified Fix",
+      "summary": "Desarrollo de un marco de codificación seguro que incorpora LLMs como co-pilotos activos en la implementación de criptografía post-cuantica.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.19474",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ciberseguridad",
+        "criptografía",
+        "gamificación"
+      ],
+      "what_changed": "Integración de un modelo de vulnerabilidad que aborda la codificación segura.",
+      "why_it_matters": "Desarrollo de un marco de codificación seguro que incorpora LLMs como co-pilotos activos en la implementación de criptografía post-cuantica.",
+      "sector_impact": "Refuerza prácticas de desarrollo seguro en entornos de alta seguridad."
+    },
+    {
+      "title": "Analyze Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+      "summary": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.20470",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "defensa",
+        "ataques",
+        "sistemas de IA"
+      ],
+      "what_changed": "Primer análisis de la defensa mediante misdirección de interacciones maliciosas.",
+      "why_it_matters": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
+      "sector_impact": "Aumenta la resiliencia de sistemas críticos de IA."
     }
   ]
 }

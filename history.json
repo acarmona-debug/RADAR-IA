@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-06-19",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines",
+          "summary": "FAPO optimiza la cadena de LLM identificando cuellos de botella y validando variantes para mejorar el rendimiento, superando a su predecesor GEPA.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19605",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "LLM",
+            "rendimiento"
+          ],
+          "what_changed": "Mejora en la optimización de cadenas LLM.",
+          "why_it_matters": "Aumenta la eficiencia en aplicaciones de IA especializadas de seguridad y generales.",
+          "sector_impact": "Transforma la implementación de LLM para rendimiento en tareas críticas."
+        },
+        {
+          "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+          "summary": "Propuesta de un método para la búsqueda de aclaraciones en modelos de lenguaje, mejorando la interacción de agentes LLM ante especificaciones ambiguas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19559",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "LLM",
+            "clarificación"
+          ],
+          "what_changed": "Introducción de un enfoque basado en descomposición de incertidumbres.",
+          "why_it_matters": "Mejora la capacidad de los modelos para interactuar proactivamente.",
+          "sector_impact": "Impulsa la eficiencia de los sistemas de IA en tareas interactivas."
+        },
+        {
+          "title": "DynAMO: Dynamic Asset Management Orchestration via Topological Multi-Agent Scheduling",
+          "summary": "DynAMO optimiza la orquestación de activos mediante un enfoque de ejecución topológica en entornos industriales, mejorando la eficiencia y reduciendo latencias.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19382",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "orquestación",
+            "automación",
+            "eficiencia"
+          ],
+          "what_changed": "Desarrollo de un motor de orquestación para mejorar la gestión de activos.",
+          "why_it_matters": "Impulsa la adopción de IA en procesos industriales críticos.",
+          "sector_impact": "Transforma la automatización en la Industria 4.0."
+        },
+        {
+          "title": "Multi-Agent Transactive Memory",
+          "summary": "Propuesta de un sistema de memoria transaccional para compartir experiencias entre agentes LLM, mejorando la ejecución de tareas a través del conocimiento compartido.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19911",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "agentes",
+            "conocimiento compartido"
+          ],
+          "what_changed": "Creación de un sistema para almacenar y recuperar trayectorias generadas por agentes.",
+          "why_it_matters": "Facilita el aprendizaje colaborativo entre agentes LLM.",
+          "sector_impact": "Mejora la reusabilidad y la eficiencia en entornos interactivos."
+        },
+        {
+          "title": "SIGMA: Search-Augmented On-Demand Knowledge Integration for Agentic Mathematical Reasoning",
+          "summary": "SIGMA mejora el razonamiento matemático automatizando la integración de conocimientos a través de agentes especializados, obteniendo altos niveles de rendimiento.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.27568",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "razonamiento",
+            "matemáticas",
+            "integración de conocimiento"
+          ],
+          "what_changed": "Introducción de un marco de agentes especializados para la resolución de problemas matemáticos.",
+          "why_it_matters": "Incrementa la precisión y eficiencia en tareas complejas de razonamiento.",
+          "sector_impact": "Optimiza los procesos de aprendizaje y resolución en matemáticas."
+        },
+        {
+          "title": "Secure Coding Drift in LLM-Assisted Post-Quantum Cryptography Development: A Gamified Fix",
+          "summary": "Desarrollo de un marco de codificación seguro que incorpora LLMs como co-pilotos activos en la implementación de criptografía post-cuantica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.19474",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "criptografía",
+            "gamificación"
+          ],
+          "what_changed": "Integración de un modelo de vulnerabilidad que aborda la codificación segura.",
+          "why_it_matters": "Desarrollo de un marco de codificación seguro que incorpora LLMs como co-pilotos activos en la implementación de criptografía post-cuantica.",
+          "sector_impact": "Refuerza prácticas de desarrollo seguro en entornos de alta seguridad."
+        },
+        {
+          "title": "Analyze Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
+          "summary": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.20470",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "defensa",
+            "ataques",
+            "sistemas de IA"
+          ],
+          "what_changed": "Primer análisis de la defensa mediante misdirección de interacciones maliciosas.",
+          "why_it_matters": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
+          "sector_impact": "Aumenta la resiliencia de sistemas críticos de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-06-18",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -646,148 +771,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "executive_title": "Radar Diario de Innovaciones en IA",
-      "items": [
-        {
-          "title": "GeoNatureAgent Benchmark para Análisis Geoespacial",
-          "summary": "Benchmark para evaluar agentes de análisis ambiental mediante llamadas estructuradas a APIs geoespaciales, comparando múltiples modelos LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12821",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "geoespacial",
-            "LLM"
-          ],
-          "what_changed": "Introducción del primer benchmark para agentes de análisis ambiental.",
-          "why_it_matters": "Permite validar el rendimiento y coste de distintos modelos en tareas de análisis geoespacial.",
-          "sector_impact": "Mejora en la automatización de flujos de trabajo en ciencias ambientales."
-        },
-        {
-          "title": "DSAEval: Evaluando Agentes de Ciencia de Datos",
-          "summary": "Benchmark que abarca problemas de ciencia de datos en el mundo real, evaluando 13 modelos LLM recientes en tareas diversas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.13591",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "ciencia de datos",
-            "LLM"
-          ],
-          "what_changed": "Introducción del benchmark DSAEval para evaluar agentes en ciencia de datos.",
-          "why_it_matters": "Proporciona un marco para medir el rendimiento de modelos LLM en tareas no estructuradas.",
-          "sector_impact": "Optimización de tareas de análisis de datos y aprendizaje automático."
-        },
-        {
-          "title": "PI-Hunter: Auditoría Automatizada para Inyecciones de Prompts",
-          "summary": "Marco para la detección proactiva de vulnerabilidades en modelos LLM ante ataques de inyección de prompts.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12737",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "auditoría",
-            "LLM"
-          ],
-          "what_changed": "Desarrollo de un marco automatizado para exponer y localizar inyecciones de prompts.",
-          "why_it_matters": "Incrementa la seguridad en sistemas basados en LLM al mejorar la visibilidad del ataque.",
-          "sector_impact": "Aumenta la confianza en aplicaciones de IA que interactúan con entornos externos."
-        },
-        {
-          "title": "Cursor: Análisis de Eficiencia de Fixes Generados por Agentes de IA",
-          "summary": "Análisis de la eficiencia y tasa de rechazo de arreglos generados por agentes de código en proyectos de software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.13468",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "análisis",
-            "código",
-            "LLM"
-          ],
-          "what_changed": "Estudio que revela altos porcentajes de rechazos en fixes de IA.",
-          "why_it_matters": "Identifica áreas de mejora para la integración de agentes de IA en el desarrollo de software.",
-          "sector_impact": "Optimiza recursos y mejora procesos de revisión en desarrollo de software."
-        },
-        {
-          "title": "ToolSense: Marco de Diagnóstico para Conocimiento de Herramientas",
-          "summary": "Framework que genera benchmarks para evaluar el conocimiento paramétrico de herramientas en modelos LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12451",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "diagnóstico",
-            "herramientas",
-            "LLM"
-          ],
-          "what_changed": "Introducción de un marco para auditoría del conocimiento de herramientas.",
-          "why_it_matters": "Facilita la evaluación del rendimiento en la recuperación de herramientas por parte de modelos LLM.",
-          "sector_impact": "Mejora en la efectividad de herramientas en entornos basados en IA."
-        },
-        {
-          "title": "Iteración hacia una Mejor Búsqueda en E-Commerce",
-          "summary": "Un marco de simulación de dos agentes para evaluar arquitecturas de búsqueda conversacional en e-commerce.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12924",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "e-commerce",
-            "agentes",
-            "simulación"
-          ],
-          "what_changed": "Desarrollo de un marco modular para evaluar arquitecturas de búsqueda en e-commerce.",
-          "why_it_matters": "Optimiza el proceso de búsqueda mejorando la calidad de las interacciones del comprador.",
-          "sector_impact": "Aumenta la eficiencia y satisfacción en plataformas de e-commerce."
-        },
-        {
-          "title": "TerraBench: Razonamiento sobre Datos Heterogéneos en Ciencias de la Tierra",
-          "summary": "Benchmark que permite razonamiento sobre datos diversos en el contexto científico ambiental.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.13148",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciencia de la tierra",
-            "benchmark",
-            "LLM"
-          ],
-          "what_changed": "Se lanza un benchmark que interconecta razonamiento, llamadas a herramientas y observaciones.",
-          "why_it_matters": "Facilita un análisis más integral de datos en ciencias ambientales.",
-          "sector_impact": "Mejora la toma de decisiones en el análisis ambiental."
-        },
-        {
-          "title": "Framework para Preparación de Manuscritos Clínicos",
-          "summary": "Arquitectura para revisar la calidad de manuscritos generados por modelos LLM en el campo biomédico.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.09500",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "biomedicina",
-            "auditoría",
-            "LLM"
-          ],
-          "what_changed": "Desarrollo de un marco que combina generación y verificación de manuscritos clínicos.",
-          "why_it_matters": "Proporciona un enfoque auditable y reproducible para la producción de manuscritos científicos.",
-          "sector_impact": "Aumenta la confianza en investigaciones biomédicas sustentadas por IA."
         }
       ]
     }
