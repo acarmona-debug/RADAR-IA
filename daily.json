@@ -1,144 +1,75 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Novedades más relevantes en herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "A continuación, las actualizaciones más importantes del día en el ámbito de la IA.",
+  "intro_message": "Actualizaciones clave sobre herramientas, modelos y características en el ecosistema de IA.",
+  "opening_message": "Aquí tienes lo más relevante del día en inteligencia artificial, enfocado en novedades operativas y lanzamientos para developers.",
   "items": [
     {
-      "title": "Benchmarking Agentic Review Systems",
-      "summary": "Evaluación de sistemas de revisión automatizada que utilizan modelos avanzados de IA.",
+      "title": "AMIE: AI Médico para Gestión de Enfermedades",
+      "summary": "Nuevo sistema de IA conversacional que iguala la capacidad de médicos de atención primaria en gestión de enfermedades complejas.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19749",
-      "relevance_score": 7,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "relevance_score": 9,
       "status": "new",
       "tags": [
-        "agentes",
-        "evaluación",
-        "IA"
+        "IA médica",
+        "gestión de salud"
       ],
-      "what_changed": "Presentación de métodos de revisión IA con rendimiento superior.",
-      "why_it_matters": "Mejora la calidad de revisiones en investigaciones científicas.",
-      "sector_impact": "Investigación académica"
-    },
-    {
-      "title": "Navigating Unreliable Parametric and Contextual Knowledge",
-      "summary": "Propuesta de un nuevo framework para resolver conflictos de conocimiento en LLMs.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.20245",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "LLMs",
-        "conocimiento",
-        "IA"
-      ],
-      "what_changed": "Introducción de un mecanismo de resolución de conflictos.",
-      "why_it_matters": "Mejora la fiabilidad de las respuestas generadas por LLMs.",
-      "sector_impact": "Desarrollo de IA"
-    },
-    {
-      "title": "Ensembles of Large Language Models for Identifying EQ-5D Studies",
-      "summary": "Uso de modelos de lenguaje para automatizar la detección de resultados en publicaciones de salud.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19345",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "biomedicina",
-        "automatización",
-        "modelos"
-      ],
-      "what_changed": "Implementación de un enfoque de ensamble para mejorar la detección.",
-      "why_it_matters": "Facilita revisiones sistemáticas y mejora la eficiencia.",
+      "what_changed": "Investigación reciente muestra la efectividad de AMIE.",
+      "why_it_matters": "Podría revolucionar la atención médica y la gestión de enfermedades.",
       "sector_impact": "Salud"
     },
     {
-      "title": "Agentic Electronic Design Automation",
-      "summary": "Introducción de agentes LLM en la automatización del diseño electrónico.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19795",
-      "relevance_score": 7,
+      "title": "Benchmarking de Modelos Abiertos",
+      "summary": "Estudio sobre la capacidad 'agente' de modelos abiertos en herramientas personalizadas.",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "electrónica",
-        "agentes",
-        "automación"
+        "modelos abiertos",
+        "framework",
+        "IA"
       ],
-      "what_changed": "Uso de agentes para la transferencia de artefactos de diseño.",
-      "why_it_matters": "Optimiza flujos de trabajo en la industria de diseño electrónico.",
-      "sector_impact": "Electrónica"
+      "what_changed": "Evaluación de la efectividad de herramientas existentes.",
+      "why_it_matters": "Facilita mejorar el rendimiento de modelos y herramientas IA.",
+      "sector_impact": "Tecnología"
     },
     {
-      "title": "ScaleWoB: Guiding GUI Agents with Coding Agents",
-      "summary": "Framework para evaluar agentes de interfaz gráfica en entornos interactivos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.25160",
-      "relevance_score": 7,
+      "title": "Adquisición de Deductive AI por Elastic",
+      "summary": "Elastic acuerda comprar Deductive AI, enfocada en resolver errores en software utilizando IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "relevance_score": 2,
       "status": "new",
       "tags": [
-        "GUI",
-        "entrenamiento",
-        "evaluación"
+        "integración",
+        "IA",
+        "resolución de errores"
       ],
-      "what_changed": "Desarrollo de entornos sintéticos para pruebas de agentes.",
-      "why_it_matters": "Proporciona un enfoque escalable para la evaluación de agentes.",
+      "what_changed": "Acuerdo confirmado para adquirir tecnología clave.",
+      "why_it_matters": "Mejora la calidad del software a través de IA.",
       "sector_impact": "Desarrollo de software"
     },
     {
-      "title": "Human-on-the-Loop Orchestration for AI-Assisted Legal Discovery",
-      "summary": "Propuesta de un sistema de verificación en la revisión legal automatizada.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19812",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "legal",
-        "IA",
-        "orquestación"
-      ],
-      "what_changed": "Nuevo enfoque para evitar errores en la revisión legal.",
-      "why_it_matters": "Reduce el riesgo de malprácticas legales en procesos automatizados.",
-      "sector_impact": "Legal"
-    },
-    {
-      "title": "MetaResearcher: Scaling Deep Research via Self-Reflective Reinforcement Learning",
-      "summary": "Nuevo marco para la formación de agentes de investigación profunda en ambientes virtuales.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19893",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "investigación",
-        "aprendizaje",
-        "refuerzo"
-      ],
-      "what_changed": "Incorporación de dinámicas temporales y desinformación en la formación.",
-      "why_it_matters": "Mejora las capacidades de investigación autónoma de los agentes.",
-      "sector_impact": "Investigación"
-    },
-    {
-      "title": "AgentFinVQA: A Deployable Multi-Agent Pipeline for Auditable Financial Chart QA",
-      "summary": "Pipeline de agentes para preguntas sobre gráficos financieros auditables.",
+      "title": "Lanzamiento de Kē, App de Bienestar con IA",
+      "summary": "Karamo Brown lanza una aplicación que utiliza un clon digital de IA para guiar en el bienestar personal.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.19782",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
-        "finanzas",
-        "QA",
-        "auditoría"
+        "bienestar",
+        "IA",
+        "app"
       ],
-      "what_changed": "Desarrollo de un sistema trazable y auditable para QA financiero.",
-      "why_it_matters": "Asegura confianza y precisión en la gestión de datos financieros.",
-      "sector_impact": "Finanzas"
+      "what_changed": "Introducción de un clon digital en el ámbito del bienestar.",
+      "why_it_matters": "Promueve el uso de IA para apoyo personal y bienestar.",
+      "sector_impact": "Salud mental"
     }
   ]
 }

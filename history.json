@@ -1,6 +1,79 @@
 {
   "days": [
     {
+      "date": "2026-06-21",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "AMIE: AI Médico para Gestión de Enfermedades",
+          "summary": "Nuevo sistema de IA conversacional que iguala la capacidad de médicos de atención primaria en gestión de enfermedades complejas.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "IA médica",
+            "gestión de salud"
+          ],
+          "what_changed": "Investigación reciente muestra la efectividad de AMIE.",
+          "why_it_matters": "Podría revolucionar la atención médica y la gestión de enfermedades.",
+          "sector_impact": "Salud"
+        },
+        {
+          "title": "Benchmarking de Modelos Abiertos",
+          "summary": "Estudio sobre la capacidad 'agente' de modelos abiertos en herramientas personalizadas.",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/is-it-agentic-enough",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "modelos abiertos",
+            "framework",
+            "IA"
+          ],
+          "what_changed": "Evaluación de la efectividad de herramientas existentes.",
+          "why_it_matters": "Facilita mejorar el rendimiento de modelos y herramientas IA.",
+          "sector_impact": "Tecnología"
+        },
+        {
+          "title": "Adquisición de Deductive AI por Elastic",
+          "summary": "Elastic acuerda comprar Deductive AI, enfocada en resolver errores en software utilizando IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [
+            "integración",
+            "IA",
+            "resolución de errores"
+          ],
+          "what_changed": "Acuerdo confirmado para adquirir tecnología clave.",
+          "why_it_matters": "Mejora la calidad del software a través de IA.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "Lanzamiento de Kē, App de Bienestar con IA",
+          "summary": "Karamo Brown lanza una aplicación que utiliza un clon digital de IA para guiar en el bienestar personal.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "bienestar",
+            "IA",
+            "app"
+          ],
+          "what_changed": "Introducción de un clon digital en el ámbito del bienestar.",
+          "why_it_matters": "Promueve el uso de IA para apoyo personal y bienestar.",
+          "sector_impact": "Salud mental"
+        }
+      ]
+    },
+    {
       "date": "2026-06-20",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -693,116 +766,6 @@
           "what_changed": "Redefinición de aplicaciones como espacios colaborativos entre usuarios y agentes.",
           "why_it_matters": "Facilita la creación de entornos computacionales sociales más integrados.",
           "sector_impact": "Transforma la interacción del usuario con herramientas automatizadas."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-14",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "As Anthropic suspends access to new models, India debates its AI future",
-          "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-          "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
-          "summary": "Once again, AI proves to be an unreliable source of information about AI.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
-          "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-          "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
-          "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-          "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
-          "summary": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }
