@@ -1,6 +1,80 @@
 {
   "days": [
     {
+      "date": "2026-06-22",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+          "summary": "Apple introduce nuevas y útiles características de IA en iOS 27, alejándose del enfoque tradicional de Siri.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "iOS",
+            "AI",
+            "features"
+          ],
+          "what_changed": "Nuevas características de IA han sido integradas en iOS 27.",
+          "why_it_matters": "Estas características mejoran la funcionalidad y la experiencia del usuario en dispositivos de Apple.",
+          "sector_impact": "Impacto significativo en la adopción de IA en dispositivos móviles."
+        },
+        {
+          "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+          "summary": "AWS planea vender sus chips de IA a otros centros de datos, buscando desafiar a Nvidia.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "AWS",
+            "AI",
+            "chips"
+          ],
+          "what_changed": "Amazon está expandiendo su oferta de hardware de IA.",
+          "why_it_matters": "Ofrecer chips de IA representa una gran oportunidad de mercado para Amazon.",
+          "sector_impact": "Esto podría alterar la competitividad en el espacio de chips de IA."
+        },
+        {
+          "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+          "summary": "La startup Baseten está cerca de cerrar una ronda de financiamiento de $1.5 mil millones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "startup",
+            "funding",
+            "AI"
+          ],
+          "what_changed": "Baseten ha atraído una gran inversión para expandir sus operaciones.",
+          "why_it_matters": "Esta ronda de financiamiento subraya el interés y la inversión en empresas de inferencia de IA.",
+          "sector_impact": "Impacto en el crecimiento de la industria de startups de IA."
+        },
+        {
+          "title": "MosaicLeaks: Can your research agent keep a secret?",
+          "summary": "Un análisis sobre cómo los agentes de investigación manejan la información sensible.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "research",
+            "agents",
+            "AI"
+          ],
+          "what_changed": "Presentación de un nuevo marco sobre la privacidad en IA.",
+          "why_it_matters": "La seguridad de los datos es crucial para la confianza en los sistemas de IA.",
+          "sector_impact": "Podría cambiar cómo los investigadores abordan la seguridad de la información en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-06-21",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -658,114 +732,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-15",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "tap: Un Protocolo Basado en Archivos para la Colaboración de Agentes LLM",
-          "summary": "Un protocolo que permite la colaboración entre agentes LLM de diferentes proveedores sin necesidad de un entorno de ejecución común.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.14445",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "colaboración",
-            "LLM",
-            "protocolos"
-          ],
-          "what_changed": "Introducción de un diseño primero en archivos que permite interacciones sin un servidor central.",
-          "why_it_matters": "Facilita la colaboración efectiva entre diferentes modelos de IA en un solo repositorio de código.",
-          "sector_impact": "Promueve la integración de agentes diversos en entornos de desarrollo."
-        },
-        {
-          "title": "MA-ProofBench: Un Benchmark de Teoremas para LLMs",
-          "summary": "Presenta un benchmark formal para evaluar la capacidad de los LLMs en la demostración de teoremas de análisis matemático.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.13782",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "teoremas",
-            "matemáticas"
-          ],
-          "what_changed": "Se introdujeron 200 teoremas formalizados en diversas subcategorías de matemáticas.",
-          "why_it_matters": "Ofrece una referencia confiable para evaluar el razonamiento formal en áreas avanzadas.",
-          "sector_impact": "Impulsa el desarrollo de modelos más competentes en matemáticas complejas."
-        },
-        {
-          "title": "AgentCyberRange: Evaluación de Sistemas de IA Frontera en Ciberseguridad",
-          "summary": "Establece una infraestructura abierta para medir la capacidad de ataque cibernético de sistemas de IA autónomos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.14295",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "IA",
-            "evaluación"
-          ],
-          "what_changed": "Desarrollo de un entorno multi-host para evaluar ataques cibernéticos de modelos de IA.",
-          "why_it_matters": "Permite una evaluación efectiva de capacidades ofensivas en condiciones realistas.",
-          "sector_impact": "Aumenta la seguridad informática a través del entendimiento de capacidades emergentes."
-        },
-        {
-          "title": "Hybrid Open-Ended Tri-Evolution Mejora el Investigador Profundo",
-          "summary": "Propone un marco para la evolución colaborativa de agentes utilizando aprendizaje por refuerzo híbrido.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.13710",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "evolución",
-            "agentes"
-          ],
-          "what_changed": "Integración de aprendizaje por refuerzo híbrido para la evolución autónoma de agentes.",
-          "why_it_matters": "Permite a los agentes interactuar y evolucionar en entornos abiertos de manera efectiva.",
-          "sector_impact": "Fomenta la investigación autónoma en entornos complejos."
-        },
-        {
-          "title": "Cuando los Errores se Convierten en Narrativas: Taxonomía de Fallos en Agentes LLM",
-          "summary": "Un estudio sobre fallos silenciosos en agentes LLM en producción continua y sus críticos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.14589",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "fallos",
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Establecimiento de una taxonomía basada en incidentes observados en sistemas de agentes LLM.",
-          "why_it_matters": "Proporciona un marco para entender y mitigar fallos en sistemas autónomos.",
-          "sector_impact": "Mejora la confiabilidad y la gobernanza de agentes IA en producción."
-        },
-        {
-          "title": "YeasierAgent: Creación de Aplicaciones Nativas de Agentes Simbióticos",
-          "summary": "Un paradigma para construir aplicaciones nativas de agentes basadas en interacción y narrativas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.13722",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aplicaciones",
-            "interacción",
-            "agentes"
-          ],
-          "what_changed": "Redefinición de aplicaciones como espacios colaborativos entre usuarios y agentes.",
-          "why_it_matters": "Facilita la creación de entornos computacionales sociales más integrados.",
-          "sector_impact": "Transforma la interacción del usuario con herramientas automatizadas."
         }
       ]
     }

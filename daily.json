@@ -1,75 +1,76 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre herramientas, modelos y características en el ecosistema de IA.",
-  "opening_message": "Aquí tienes lo más relevante del día en inteligencia artificial, enfocado en novedades operativas y lanzamientos para developers.",
+  "intro_message": "Mantente al día con los últimos avances y herramientas en el mundo de la inteligencia artificial.",
+  "opening_message": "Aquí tienes un resumen de las novedades más relevantes en IA, priorizando herramientas, modelos, y características innovadoras.",
   "items": [
     {
-      "title": "AMIE: AI Médico para Gestión de Enfermedades",
-      "summary": "Nuevo sistema de IA conversacional que iguala la capacidad de médicos de atención primaria en gestión de enfermedades complejas.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "relevance_score": 9,
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "summary": "Apple introduce nuevas y útiles características de IA en iOS 27, alejándose del enfoque tradicional de Siri.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "IA médica",
-        "gestión de salud"
+        "iOS",
+        "AI",
+        "features"
       ],
-      "what_changed": "Investigación reciente muestra la efectividad de AMIE.",
-      "why_it_matters": "Podría revolucionar la atención médica y la gestión de enfermedades.",
-      "sector_impact": "Salud"
+      "what_changed": "Nuevas características de IA han sido integradas en iOS 27.",
+      "why_it_matters": "Estas características mejoran la funcionalidad y la experiencia del usuario en dispositivos de Apple.",
+      "sector_impact": "Impacto significativo en la adopción de IA en dispositivos móviles."
     },
     {
-      "title": "Benchmarking de Modelos Abiertos",
-      "summary": "Estudio sobre la capacidad 'agente' de modelos abiertos en herramientas personalizadas.",
-      "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+      "summary": "AWS planea vender sus chips de IA a otros centros de datos, buscando desafiar a Nvidia.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "modelos abiertos",
-        "framework",
-        "IA"
+        "AWS",
+        "AI",
+        "chips"
       ],
-      "what_changed": "Evaluación de la efectividad de herramientas existentes.",
-      "why_it_matters": "Facilita mejorar el rendimiento de modelos y herramientas IA.",
-      "sector_impact": "Tecnología"
+      "what_changed": "Amazon está expandiendo su oferta de hardware de IA.",
+      "why_it_matters": "Ofrecer chips de IA representa una gran oportunidad de mercado para Amazon.",
+      "sector_impact": "Esto podría alterar la competitividad en el espacio de chips de IA."
     },
     {
-      "title": "Adquisición de Deductive AI por Elastic",
-      "summary": "Elastic acuerda comprar Deductive AI, enfocada en resolver errores en software utilizando IA.",
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "summary": "La startup Baseten está cerca de cerrar una ronda de financiamiento de $1.5 mil millones.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-      "relevance_score": 2,
+      "source_url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "integración",
-        "IA",
-        "resolución de errores"
+        "startup",
+        "funding",
+        "AI"
       ],
-      "what_changed": "Acuerdo confirmado para adquirir tecnología clave.",
-      "why_it_matters": "Mejora la calidad del software a través de IA.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Baseten ha atraído una gran inversión para expandir sus operaciones.",
+      "why_it_matters": "Esta ronda de financiamiento subraya el interés y la inversión en empresas de inferencia de IA.",
+      "sector_impact": "Impacto en el crecimiento de la industria de startups de IA."
     },
     {
-      "title": "Lanzamiento de Kē, App de Bienestar con IA",
-      "summary": "Karamo Brown lanza una aplicación que utiliza un clon digital de IA para guiar en el bienestar personal.",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "summary": "Un análisis sobre cómo los agentes de investigación manejan la información sensible.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
-      "relevance_score": 4,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "bienestar",
-        "IA",
-        "app"
+        "research",
+        "agents",
+        "AI"
       ],
-      "what_changed": "Introducción de un clon digital en el ámbito del bienestar.",
-      "why_it_matters": "Promueve el uso de IA para apoyo personal y bienestar.",
-      "sector_impact": "Salud mental"
+      "what_changed": "Presentación de un nuevo marco sobre la privacidad en IA.",
+      "why_it_matters": "La seguridad de los datos es crucial para la confianza en los sistemas de IA.",
+      "sector_impact": "Podría cambiar cómo los investigadores abordan la seguridad de la información en IA."
     }
   ]
 }
