@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-06-23",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+          "summary": "Jumper isn't the only big name leaving Google DeepMind.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+          "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+          "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+          "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+          "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+          "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+          "summary": "",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+          "summary": "",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-06-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -622,116 +732,6 @@
           "what_changed": "Desarrolla un sistema más efectivo y controlado de exploración web.",
           "why_it_matters": "Permite a agentes autónomos realizar tareas más complejas con mayor eficiencia.",
           "sector_impact": "Tecnología web."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Evolutionary Dynamics of Cooperation in Next-Generation LLM Agent Systems: A Cross-Provider Empirical Extension",
-          "summary": "arXiv:2605.29874v2 Announce Type: replace-cross Abstract: Do next-generation LLM agents inherit the cooperative biases documented in their predecessors, or does scale and provider diversity reshape equilibrium behaviour in competitive multi-agent settings? Willis et al. established a benchmark for this question using evolutionary game theory and the Iterated Prisoner's Dilemma (IPD), finding consistent cooperative biases in ChatGPT-4o and Claude 3.5 Sonnet. We extend this benchmark to four frontier models released in 2025-2026 - Claude Sonnet 4.6, Gemini 2.5 Flash, Gemini 3.1 Pro, and GPT-5.4 Mini - applying the identical protocol across three prompting styles (Default, Prose, Self-Refine) and four population compositions (balanced and biased, with and without noise). Cooperative bias persists across providers (H1): ten of twelve model-prompt combinations favour cooperative equilibria in balanced noiseless conditions. Cross-provider divergence is substantial (H3): Gemini 2.5 Flash reaches up to 77% aggressive equilibria under biased conditions, while GPT-5.4 Mini reaches 70% cooperative equilibria under Self-Refine. Support for aggressive capability parity is partial (H2): Self-Refine raises ICD in all models and Gemini 3.1 Pro Refine achieves the highest ICD in the dataset (0.925), but Default and Prose prompts show no systematic narrowing. Evidence on noise robustness is directionally positive but not robustly confirmed (H4): with n=500 Moran iterations per condition, average noise sensitivity is about 6 percentage points for Claude Sonnet 4.6 versus 13 pp for Claude 3.5 Sonnet, but this cross-study gap is not statistically significant once the predecessor's unreported sampling error is propagated. Provider identity, rather than model generation, is the strongest correlate of equilibrium outcomes; noise remains a universal challenge regardless of model size or vintage.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.29874",
-          "relevance_score": 50,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "EffGen: Enabling Small Language Models as Capable Autonomous Agents",
-          "summary": "arXiv:2602.00887v2 Announce Type: replace-cross Abstract: Most existing language model agentic systems today are built and optimized for large language models (e.g., GPT, Claude, Gemini) via API calls; while powerful, this approach faces several limitations including high token costs and privacy concerns for sensitive applications. We introduce EffGen, an open-source agentic framework optimized for small language models (SLMs) that enables effective, efficient, and secure local deployment. EffGen makes four major contributions: (1) Enhanced tool-calling with prompt optimization that compresses input prompts by up to 70-80% (and 57% on average across our benchmarks) while preserving task semantics, (2) Intelligent task decomposition that breaks complex queries into parallel or sequential subtasks based on dependencies, (3) Complexity-based routing using five factors to make smart pre-execution decisions, and (4) Unified memory system combining short-term, long-term, and vector-based storage. Additionally, EffGen unifies multiple agent protocols (MCP, A2A, ACP) for cross-protocol communication. Results on 13 benchmarks show EffGen outperforms LangChain, AutoGen, and Smolagents with higher success rates, faster execution, and lower memory. Our results reveal that prompt optimization and complexity routing have complementary scaling behavior: optimization benefits SLMs more (11.2% gain at 1.5B vs 2.4% at 32B), while routing benefits large models more (3.6% at 1.5B vs 7.9% at 32B), providing consistent gains across all scales when combined. EffGen is released under the Apache 2.0 License, ensuring broad accessibility for research and commercial use, with the code available at https://github.com/ctrl-gaurav/effGen, the Python package at https://pypi.org/project/effgen/ (pip install effgen), and the project website and documentation at https://effgen.org/ and https://docs.effgen.org/.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.00887",
-          "relevance_score": 41,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "LLM-Assisted Stance Detection in Scientific Discourse: A Test Case in Bayesian Cognitive Science",
-          "summary": "arXiv:2606.15566v1 Announce Type: cross Abstract: Qualitative coding is central to social science, but expert annotation is difficult to scale. LLMs offer a possible extension, yet require careful validation when the target construct is interpretive, theoretically loaded, and only indirectly expressed. We study this problem in a difficult case: detecting whether authors treat Bayesian models as descriptions of mental and neural mechanisms (realism) or as useful mathematical tools (instrumentalism). Our method combines a theory-driven codebook, expert-coded reference annotations, a diagnostic-gated prompt-optimization search yielding a shared zero-shot prompt for three frontier LLMs (GPT-5.1, Claude Sonnet 4.6, Gemini 3 Pro Preview), and multi-rater reliability analysis. The final prompt achieved a held-out combined reliability score of 0.76 (harmonic mean of ICC = 0.79 and $\\alpha$ = 0.74), with all diagnostics satisfied. Deployed on 6,858 quotes from 210 articles, the three LLMs reached substantial quote-level agreement (ICC = 0.80; $\\alpha$ = 0.76; combined = 0.78) and near-perfect article-level rank stability ($r$ = 0.96-0.97 across rater pairs). The corpus was predominantly weakly realist, but article-level stances were rarely uniform: only 1.4% of articles used a single band, while 59.5% spanned four or more. Low-level perception/motor articles scored 8.8 Realism points higher than high-level cognition articles ($p < .001$, $d = 0.60$), quantifying a long-held qualitative intuition. We present this as an expert-led case study; the framework is intended to generalize to similar theoretically demanding tasks, not to all qualitative analysis.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.15566",
-          "relevance_score": 36,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Closing the Auto-Research Loop: An AI Co-Scientist for Production Search Ranking",
-          "summary": "arXiv:2603.22376v2 Announce Type: replace-cross Abstract: We present an AI Co-Scientist framework that closes the research loop for the production search-ranking system of a large online travel platform -- pairing LLM agents with direct cloud-compute access so that idea generation, code implementation, GPU experimentation, and result analysis iterate end-to-end with a human scientist in the loop. The framework uses a hybrid agent architecture: single-LLM agents handle routine work, while multi-LLM consensus (GPT-5.2, Gemini Pro 3, Claude Opus 4.5) is invoked for higher-stakes decisions. On the production ranking task, a human-designed transformer baseline (V2) yielded $+0.118\\%$ over a pre-transformer baseline (V1); the AI Co-Scientist's automated loop on top of V2 contributed an additional $+0.083\\%$, for a combined $+0.201\\%$ offline gain delivered in roughly one extra week of wall-clock time (single-run numbers; statistical limits discussed in the paper). The most useful AI proposals -- unified long-sequence layouts, slot-type embeddings, and multi-phase learning-rate schedules -- are standard practice in NLP and Vision but were absent from our production stack, suggesting that LLM agents can serve as cross-disciplinary connectors for ranking teams. We also report deployment context, negative results, and lessons learned.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.22376",
-          "relevance_score": 36,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
-          "summary": "arXiv:2606.14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly. Symbolic delegation offers a complementary route: a language model translates the problem, while a solver performs the inference. However, current autoformalization pipelines for logic programming are typically bespoke integrations tied to particular tasks or agents. We introduce PrologMCP, a task-agnostic, open-source server that exposes Prolog as a stateful tool through the Model Context Protocol (MCP). Its compact tool interface, structured error reporting, and per-session isolation make the translate-run-inspect-repair loop a reusable primitive for MCP-capable agents. We evaluate a formalizer agent enhanced with PrologMCP against standard and reasoning LLMs (Claude Sonnet 4.6, GPT-4.1, and o4-mini) on two subsets of PARARULE-Plus: a general-purpose sample and a more challenging one targeting a specific failure mode of natural-language reasoning. On the general sample, the formalizer matches or exceeds reasoning LLMs (accuracy 1.00 vs.\\ 1.00 / 0.998), with the largest gains over standard models (0.762 for GPT-4.1). On the challenging subset, the formalizer remains near-perfect (1.00 / 0.99) while reasoning LLMs drop to 0.95 / 0.94. These results suggest that delegating inference to Prolog via MCP is a robust and inspectable alternative to extended natural-language reasoning.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.14935",
-          "relevance_score": 35,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "ACCORD: Action-Conditioned Contextual Grounding for Language Agents",
-          "summary": "arXiv:2606.16432v1 Announce Type: cross Abstract: User instructions are often underspecified because humans rely on implicit assumptions about the surrounding environment. For large language model (LLM) agents operating in information-rich digital and physical environments, these assumptions cannot be inferred from the instruction alone; they must be recovered from the current state of tools, data, interfaces, and observations. Effective execution therefore requires agents to identify missing context, ground it in observed evidence, and carry it forward into subsequent actions. We show that current agents often fail to do so. They act from assumed rather than observed specifics, overlook information they could have gathered, and fail to incorporate evidence that has already been returned. Building on this insight, we propose ACCORD (Action-Conditioned Contextual Grounding), a simple and effective agent framework for adaptive grounding. Before each action, ACCORD actively probes the environment for missing information and integrates relevant context from the agent's trajectory that would otherwise be overlooked. Requiring no additional training or task-success signals, ACCORD improves task-goal completion on AppWorld by up to +20.6 points with GPT-5-mini, from 42.0% to 62.6%, compared to strong baselines. These gains persist with a substantially stronger base model (+10.8 with Claude-4.5-sonnet), an open-weight model (+10.1 with Qwen3.5-27B-FP8), and on the embodied AlfWorld benchmark (+7.4 success rate with GPT-5-mini).",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.16432",
-          "relevance_score": 33,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
-          "summary": "arXiv:2606.14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative survival game, checking a teammate's work consumes resources, while trusting a wrong answer can be fatal. Relative to a memoryless version of the same model, reduced verification provides an observable measure of trust. Using this framework, we study trust formation, breakage, and recovery across six frontier model snapshots. When paired with a consistently reliable teammate, four snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, and Gemini 3.1 Pro) reduce verification by roughly 60-85%, whereas two smaller snapshots show little or no such adjustment. Failures reverse this discount, but models differ in how they respond. Some concentrate renewed scrutiny on the culprit, while others become more cautious toward the entire team. Recovery is slower than formation, and clustered failures sustain suspicion far longer than the same number of failures spread apart. These differences have practical consequences. Models that form trust verify less, decide more quickly, and achieve higher payoffs in our environment. By contrast, persistent over-verification is associated with indecision rather than safety. Our results show that trust dispositions can be measured before deployment and suggest that calibration, rather than maximal suspicion, should be the central concern in the governance of multi-agent AI systems.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.14923",
-          "relevance_score": 32,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "LLM-WikiRace Benchmark: How Far Can LLMs Plan over Real-World Knowledge Graphs?",
-          "summary": "arXiv:2602.16902v5 Announce Type: replace Abstract: We introduce LLM-Wikirace, a benchmark for evaluating planning, reasoning, and world knowledge in large language models (LLMs). In LLM-Wikirace, models must efficiently navigate Wikipedia hyperlinks step by step to reach a target page from a given source, requiring look-ahead planning and the ability to reason about how concepts are connected in the real world. We evaluate a broad set of open- and closed-source models, including Gemini-3, GPT-5, and Claude Opus 4.5, which achieve the strongest results on the easy level of the task and demonstrate superhuman performance. Despite this, performance drops sharply on hard difficulty: the best-performing model, Gemini-3, succeeds in only 23\\% of hard games, highlighting substantial remaining challenges for frontier models. Our analysis shows that world knowledge is a necessary ingredient for success, but only up to a point, beyond this threshold, planning and long-horizon reasoning capabilities become the dominant factors. Trajectory-level analysis further reveals that even the strongest models struggle to replan after failure, frequently entering loops rather than recovering. LLM-Wikirace is a simple benchmark that reveals clear limitations in current reasoning systems, offering an open arena where planning-capable LLMs still have much to prove. Our code and leaderboard available at https:/llmwikirace.github.io.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.16902",
-          "relevance_score": 32,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }
