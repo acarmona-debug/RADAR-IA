@@ -1,112 +1,127 @@
 {
-  "date": "2026-06-23",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-06-24",
+  "executive_title": "Radar Diario de IA - Actualizaciones Relevantes",
+  "intro_message": "Bienvenidos al radar diario donde destacamos las últimas innovaciones en herramientas y frameworks de IA.",
+  "opening_message": "Aquí están los desarrollos más recientes en inteligencia artificial que podrían impactar en sus operaciones.",
   "items": [
     {
-      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
-      "summary": "Jumper isn't the only big name leaving Google DeepMind.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-      "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-      "relevance_score": 11,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
-      "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
-      "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
-      "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
-      "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "summary": "",
+      "title": "IPO Finance Agent: Evaluación de Agentes Financieros LLM",
+      "summary": "Un nuevo marco que evalúa modelos de lenguaje en tareas de due diligence para OPIs, utilizando un enfoque de recuperación contextual para manejar documentos largos.",
       "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.23032",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "finanzas",
+        "IA"
+      ],
+      "what_changed": "Introducción de un nuevo enfoque para evaluar modelos LLM en tareas financieras específicas.",
+      "why_it_matters": "Mejora la precisión en el análisis de documentación compleja asociada con las OPI.",
+      "sector_impact": "Financiero"
     },
     {
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "summary": "",
-      "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "relevance_score": 6,
+      "title": "LemonHarness: Marco de Ejecución para Agentes de Largo Plazo",
+      "summary": "LemonHarness establece límites de ejecución claros para agentes LLM, optimizando el seguimiento de cambios de estado en operaciones de múltiples rondas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.24311",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "agentes",
+        "automation",
+        "framework"
+      ],
+      "what_changed": "Mejora en el manejo de operaciones de estado en entornos de ejecución de agentes.",
+      "why_it_matters": "Aumenta la estabilidad y eficiencia en la ejecución de tareas complejas.",
+      "sector_impact": "Tecnología"
+    },
+    {
+      "title": "VeriPilot: Marco de Depuración de Verilog Basado en LLM",
+      "summary": "VeriPilot mejora la localización y reparación de errores en diseños de Verilog utilizando modelos de referencia dorados.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.23759",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "depuración",
+        "Verilog",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de un marco centrado en la localización de errores en código complejo.",
+      "why_it_matters": "Aumenta significativamente la tasa de éxito en la reparación de errores.",
+      "sector_impact": "Ingeniería"
+    },
+    {
+      "title": "AutoSpec: Evolución de Reglas de Seguridad para Agentes LLM",
+      "summary": "AutoSpec permite la evolución automática de reglas de seguridad basadas en anotaciones de usuario, mejorando la seguridad de operaciones complejas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.24245",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "IA",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un enfoque automatizado para la evolución de reglas de seguridad.",
+      "why_it_matters": "Reduce significativamente los falsos positivos y negativos en operaciones críticas.",
+      "sector_impact": "Seguridad"
+    },
+    {
+      "title": "RASC+: Adjudicación de Valor Clínico Basada en LLM",
+      "summary": "RASC+ combina recuperación optimizada y adjudicación por LLM para mejorar la autoría de conjuntos de valores clínicos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.23992",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "salud",
+        "IA",
+        "adjudicación"
+      ],
+      "what_changed": "Mejora en la selección de candidatos para la creación de conjuntos de valores clínicos.",
+      "why_it_matters": "Aumenta la precisión y la seguridad en la generación de terminologías clínicas.",
+      "sector_impact": "Salud"
+    },
+    {
+      "title": "Privacy-Preserving RAG: Reescritura Semántica Mult_agent",
+      "summary": "Propuesta de un marco de varios agentes que garantiza la protección de la privacidad mediante reescritura semántica.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.24623",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "privacidad",
+        "RAG",
+        "IA"
+      ],
+      "what_changed": "Introducción de un enfoque de reescritura para preservar la privacidad.",
+      "why_it_matters": "Reduce significativamente el riesgo de filtraciones de datos sensibles.",
+      "sector_impact": "Privacidad"
+    },
+    {
+      "title": "VISTA: Benchmark de Codificación de Aplicaciones Web",
+      "summary": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.26144",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "IA",
+        "aplicaciones"
+      ],
+      "what_changed": "Definición de criterios para evaluar la creación de aplicaciones basadas en UI.",
+      "why_it_matters": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
+      "sector_impact": "Desarrollo de software"
     }
   ]
 }

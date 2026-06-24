@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-06-24",
+      "executive_title": "Radar Diario de IA - Actualizaciones Relevantes",
+      "items": [
+        {
+          "title": "IPO Finance Agent: Evaluación de Agentes Financieros LLM",
+          "summary": "Un nuevo marco que evalúa modelos de lenguaje en tareas de due diligence para OPIs, utilizando un enfoque de recuperación contextual para manejar documentos largos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.23032",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "finanzas",
+            "IA"
+          ],
+          "what_changed": "Introducción de un nuevo enfoque para evaluar modelos LLM en tareas financieras específicas.",
+          "why_it_matters": "Mejora la precisión en el análisis de documentación compleja asociada con las OPI.",
+          "sector_impact": "Financiero"
+        },
+        {
+          "title": "LemonHarness: Marco de Ejecución para Agentes de Largo Plazo",
+          "summary": "LemonHarness establece límites de ejecución claros para agentes LLM, optimizando el seguimiento de cambios de estado en operaciones de múltiples rondas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.24311",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "automation",
+            "framework"
+          ],
+          "what_changed": "Mejora en el manejo de operaciones de estado en entornos de ejecución de agentes.",
+          "why_it_matters": "Aumenta la estabilidad y eficiencia en la ejecución de tareas complejas.",
+          "sector_impact": "Tecnología"
+        },
+        {
+          "title": "VeriPilot: Marco de Depuración de Verilog Basado en LLM",
+          "summary": "VeriPilot mejora la localización y reparación de errores en diseños de Verilog utilizando modelos de referencia dorados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.23759",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "depuración",
+            "Verilog",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un marco centrado en la localización de errores en código complejo.",
+          "why_it_matters": "Aumenta significativamente la tasa de éxito en la reparación de errores.",
+          "sector_impact": "Ingeniería"
+        },
+        {
+          "title": "AutoSpec: Evolución de Reglas de Seguridad para Agentes LLM",
+          "summary": "AutoSpec permite la evolución automática de reglas de seguridad basadas en anotaciones de usuario, mejorando la seguridad de operaciones complejas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.24245",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "IA",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un enfoque automatizado para la evolución de reglas de seguridad.",
+          "why_it_matters": "Reduce significativamente los falsos positivos y negativos en operaciones críticas.",
+          "sector_impact": "Seguridad"
+        },
+        {
+          "title": "RASC+: Adjudicación de Valor Clínico Basada en LLM",
+          "summary": "RASC+ combina recuperación optimizada y adjudicación por LLM para mejorar la autoría de conjuntos de valores clínicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.23992",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "salud",
+            "IA",
+            "adjudicación"
+          ],
+          "what_changed": "Mejora en la selección de candidatos para la creación de conjuntos de valores clínicos.",
+          "why_it_matters": "Aumenta la precisión y la seguridad en la generación de terminologías clínicas.",
+          "sector_impact": "Salud"
+        },
+        {
+          "title": "Privacy-Preserving RAG: Reescritura Semántica Mult_agent",
+          "summary": "Propuesta de un marco de varios agentes que garantiza la protección de la privacidad mediante reescritura semántica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.24623",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "privacidad",
+            "RAG",
+            "IA"
+          ],
+          "what_changed": "Introducción de un enfoque de reescritura para preservar la privacidad.",
+          "why_it_matters": "Reduce significativamente el riesgo de filtraciones de datos sensibles.",
+          "sector_impact": "Privacidad"
+        },
+        {
+          "title": "VISTA: Benchmark de Codificación de Aplicaciones Web",
+          "summary": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.26144",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "IA",
+            "aplicaciones"
+          ],
+          "what_changed": "Definición de criterios para evaluar la creación de aplicaciones basadas en UI.",
+          "why_it_matters": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
+          "sector_impact": "Desarrollo de software"
+        }
+      ]
+    },
+    {
       "date": "2026-06-23",
       "executive_title": "Radar IA del día",
       "items": [
@@ -629,109 +754,6 @@
           "what_changed": "Introducción de un marco de retroalimentación de corrección de errores.",
           "why_it_matters": "Optimiza el proceso de descubrimiento en química.",
           "sector_impact": "Acelera la investigación en catálisis y materiales."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "Sistema Multi-Agente Potenciado por LLM para Gestión Automatizada de Portafolios de Criptomonedas",
-          "summary": "Propuesta de un sistema multi-agente para la gestión de portafolios de criptomonedas, superando variantes de agentes únicos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2501.00826",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "multi-agentes",
-            "criptomonedas",
-            "automatización"
-          ],
-          "what_changed": "Introducción de un sistema de agentes especializados para manejar decisiones complejas de inversión.",
-          "why_it_matters": "Mejora la toma de decisiones en mercados altamente volátiles con transparencia en la lógica del agente.",
-          "sector_impact": "Finanzas, criptoactivos."
-        },
-        {
-          "title": "PromptMN: Lenguaje de Pseudo-Prompting",
-          "summary": "Nuevo lenguaje de pseudo-prompting que mejora la interacción entre humanos y modelos generativos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.17164",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "interacción",
-            "desarrollo de software"
-          ],
-          "what_changed": "Permite una escritura más estructurada y menos ambigua en las interacciones con IA.",
-          "why_it_matters": "Reduce ciclos de reparación y mejora la alineación entre usuarios y herramientas de IA.",
-          "sector_impact": "Desarrollo de software."
-        },
-        {
-          "title": "Evaluación de LLMs para Ciberseguridad",
-          "summary": "Análisis sobre la efectividad de los modelos LLM para la detección de vulnerabilidades cibernéticas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.23243",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "modelos LLM"
-          ],
-          "what_changed": "Estudio que revela que los modelos de frontera presentan tasas de falsos positivos en detección de vulnerabilidades.",
-          "why_it_matters": "Contribuye a repensar el empleo de modelos LLM en el ámbito de la seguridad cibernética.",
-          "sector_impact": "Ciberseguridad."
-        },
-        {
-          "title": "Sistema ALeRCE: Consulta Astronómica Usando LLM",
-          "summary": "Desarrollo de un sistema text-to-SQL para consultas en bases de datos astronómicas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.18108",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "astronomía",
-            "SQL"
-          ],
-          "what_changed": "Implementación de un sistema que traduce consultas en lenguaje natural a SQL.",
-          "why_it_matters": "Facilita el acceso y análisis de grandes bases de datos astronómicas por investigadores.",
-          "sector_impact": "Astronomía, investigación."
-        },
-        {
-          "title": "CMIP-Forge: Sistema Agente que Autonomiza Análisis Climático",
-          "summary": "Sistema que combina generación y análisis autónomo en la ciencia climática utilizando literatura científica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.17076",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "clima",
-            "análisis autónomo"
-          ],
-          "what_changed": "Integra literatura y datos de clima para un análisis más eficiente.",
-          "why_it_matters": "Ofrece soluciones automatizadas para estudios complejos en ciencia del clima.",
-          "sector_impact": "Ciencia climática."
-        },
-        {
-          "title": "Ramificación y Exploración: Web Eficiente con Razonamiento Controlado",
-          "summary": "Presentación de un marco de agente web que optimiza la exploración de información.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.19838",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "agentes web",
-            "razonamiento"
-          ],
-          "what_changed": "Desarrolla un sistema más efectivo y controlado de exploración web.",
-          "why_it_matters": "Permite a agentes autónomos realizar tareas más complejas con mayor eficiencia.",
-          "sector_impact": "Tecnología web."
         }
       ]
     }
