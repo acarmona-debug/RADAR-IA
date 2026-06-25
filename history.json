@@ -1,6 +1,140 @@
 {
   "days": [
     {
+      "date": "2026-06-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Detecting AI Coding Agents in Open Source",
+          "summary": "Estudio sobre la prevalencia de agentes de codificación de IA en 180 millones de repositorios open-source, utilizando un marco de detección múltiple.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.24429",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "open-source"
+          ],
+          "what_changed": "Introducción de un framework de detección que integra múltiples métodos de análisis.",
+          "why_it_matters": "La comprensión de la prevalencia de los agentes de IA es crucial para asegurar la calidad del código open-source.",
+          "sector_impact": "Impacto significativo en la seguridad y calidad del software en la comunidad open-source."
+        },
+        {
+          "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+          "summary": "Marco de evaluación para sistemas de IA autónomos utilizando representación gráfica, permitiendo una comparación unificada entre arquitecturas diversas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.23927",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "sistemas IA"
+          ],
+          "what_changed": "Método dinámico para la evaluación de sistemas de IA que adapta ataques adversariales.",
+          "why_it_matters": "Asegura la robustez y seguridad de los sistemas de IA en múltiples dominios.",
+          "sector_impact": "Mejora la fiabilidad y seguridad en aplicaciones de IA actuales."
+        },
+        {
+          "title": "T2D-Bench: Evidence-Gated Evaluation of LLM Outputs for Type 2 Diabetes",
+          "summary": "Marco de evaluación diseñado para validar las salidas de LLM en relación con evidencias clínicas sobre diabetes tipo 2.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.24145",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "salud"
+          ],
+          "what_changed": "Introducción de restricciones computables de evidencia para mejorar la precisión de LLMs.",
+          "why_it_matters": "Facilita la confianza en recomendaciones clínicas generadas por LLMs.",
+          "sector_impact": "Transforma la forma en que se evalúan las recomendaciones de salud digital."
+        },
+        {
+          "title": "2.5-D Decomposition for LLM-Based Spatial Construction",
+          "summary": "Pipeline neuro-simbólico que mejora la precisión de modelos de lenguaje en construcción espacial a través de una descomposición 2.5-D.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.07066",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "construcción",
+            "neuro-simbólico"
+          ],
+          "what_changed": "Elimina errores sistemáticos en la colocación tridimensional de bloques.",
+          "why_it_matters": "Aumenta la eficiencia en sistemas autónomos de construcción mediante interacciones de IA.",
+          "sector_impact": "Optimiza el desarrollo de estructuras a través de IA en la construcción."
+        },
+        {
+          "title": "Large-Language-Model Discovery of Quantum LDPC Codes",
+          "summary": "Uso de modelos de lenguaje para descubrir códigos que corrigen errores en computación cuántica, facilitando su construcción.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.24808",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "cuántico",
+            "modelos"
+          ],
+          "what_changed": "Desarrollo de un marco de evolución de conceptos estructurados para el descubrimiento de códigos.",
+          "why_it_matters": "Avanza en la corrección de errores en computadoras cuánticas, crucial para el desarrollo de tecnología cuántica.",
+          "sector_impact": "Impulsa la investigación en computación cuántica y sus aplicaciones."
+        },
+        {
+          "title": "A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization",
+          "summary": "Framework que combina LLMs y gráficos de conocimiento para resumir múltiples documentos sin entrenamiento específico.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.03867",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "resumen",
+            "multidocumento"
+          ],
+          "what_changed": "Descomposición de tareas de resumen en agentes especializados para mejorar la eficacia.",
+          "why_it_matters": "Facilita la distilación de información crítica a partir de conjuntos de datos grandes.",
+          "sector_impact": "Mejora la eficiencia en el procesamiento de información y la toma de decisiones."
+        },
+        {
+          "title": "Self-Recognition Finetuning can Prevent and Reverse Emergent Misalignment",
+          "summary": "Investigación sobre técnicas de afinamiento de auto-reconocimiento que abordan la desalineación emergente en modelos de lenguaje.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.23700",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "alineación",
+            "modelos"
+          ],
+          "what_changed": "Metodología nueva para la intervención dirigida a prevenir la desalineación emergente en LLMs.",
+          "why_it_matters": "Mejora la robustez y predictibilidad de los modelos de IA en prácticas operativas.",
+          "sector_impact": "Incrementa la confianza y seguridad en la implementación de modelos de IA."
+        },
+        {
+          "title": "Rule2Text: A Framework for Generating Natural Language Explanations of Knowledge Graph Rules",
+          "summary": "Marco para la generación de explicaciones de lenguaje natural de reglas en gráficos de conocimiento, mejorando su accesibilidad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2508.10971",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "explicaciones",
+            "gráficos de conocimiento"
+          ],
+          "what_changed": "Aplicación de LLMs para traducir reglas complejas en explicaciones comprensibles.",
+          "why_it_matters": "Aumenta la usabilidad y la interpretación de datos complejos en escenarios de IA.",
+          "sector_impact": "Facilita la adopción de gráficos de conocimiento en aplicaciones prácticas."
+        }
+      ]
+    },
+    {
       "date": "2026-06-24",
       "executive_title": "Radar Diario de IA - Actualizaciones Relevantes",
       "items": [
@@ -646,114 +780,6 @@
           "what_changed": "Primer análisis de la defensa mediante misdirección de interacciones maliciosas.",
           "why_it_matters": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
           "sector_impact": "Aumenta la resiliencia de sistemas críticos de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-18",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "LivePI: Benchmarking Realista de Agentes contra Inyección de Prompt Indirecta",
-          "summary": "Presentamos LivePI, un benchmark estructurado para evaluar riesgos de inyección de prompt en entornos controlados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.17986",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "agentes",
-            "securidad"
-          ],
-          "what_changed": "Introducción de un entorno de evaluación realista para inyecciones de prompt.",
-          "why_it_matters": "Aumenta la seguridad en la implementación de agentes IA en flujos de trabajo.",
-          "sector_impact": "Mejora en la evaluación de riesgos en sistemas IA."
-        },
-        {
-          "title": "CAPRA: Escalando Retroalimentación en Entregables de Arquitectura de Software",
-          "summary": "CAPRA es un sistema multi-agente que ofrece retroalimentación automatizada y personalizada en entregables de arquitectura.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.18976",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "educación",
-            "retroalimentación"
-          ],
-          "what_changed": "Implementación de agentes especializados para la retroalimentación de arquitectura.",
-          "why_it_matters": "Optimiza el proceso educativo en ingeniería de software.",
-          "sector_impact": "Aumenta la calidad del aprendizaje en software."
-        },
-        {
-          "title": "TxBench-PP: Analizando el Rendimiento de Agentes en Farmacología Preclínica",
-          "summary": "TxBench-PP proporciona un benchmark verificable para evaluar decisiones farmacológicas preclínicas con agentes IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19245",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "farmacología",
-            "benchmark"
-          ],
-          "what_changed": "Enfoque en decisiones precisas a partir de datos reales.",
-          "why_it_matters": "Permite la mejora de procesos en descubrimiento de fármacos.",
-          "sector_impact": "Impacto positivo en la industria farmacéutica."
-        },
-        {
-          "title": "CEO-Bench: ¿Pueden los Agentes Jugar a Largo Plazo?",
-          "summary": "CEO-Bench evalúa la capacidad de los agentes para operar startups a largo plazo y enfrentar múltiples desafíos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.18543",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "benchmark",
-            "startup"
-          ],
-          "what_changed": "Introduce la evaluación de capacidades de largo plazo para agentes.",
-          "why_it_matters": "Evalúa la adaptabilidad y inteligencia de los agentes en entornos complejos.",
-          "sector_impact": "Acelera la investigación en IA aplicada a negocios."
-        },
-        {
-          "title": "Generating Natural and Expressive Robot Gestures",
-          "summary": "Se presenta un sistema que utiliza RLHF para mejorar la generación de gestos en robots sociales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.18747",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "robot",
-            "gestos",
-            "interacción"
-          ],
-          "what_changed": "Mejoras en la fluidez y expresividad de los gestos generados.",
-          "why_it_matters": "Mejora la interacción humano-robot, aumentando su aceptación social.",
-          "sector_impact": "Innovaciones en robótica y HRI."
-        },
-        {
-          "title": "AdsMind: Sistema Multi-Agente para Configuración de Adsorción",
-          "summary": "AdsMind es un sistema que mejora la identificación de configuraciones de adsorción en catálisis utilizando IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19152",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "ciencia",
-            "catálisis"
-          ],
-          "what_changed": "Introducción de un marco de retroalimentación de corrección de errores.",
-          "why_it_matters": "Optimiza el proceso de descubrimiento en química.",
-          "sector_impact": "Acelera la investigación en catálisis y materiales."
         }
       ]
     }

@@ -1,127 +1,136 @@
 {
-  "date": "2026-06-24",
-  "executive_title": "Radar Diario de IA - Actualizaciones Relevantes",
-  "intro_message": "Bienvenidos al radar diario donde destacamos las últimas innovaciones en herramientas y frameworks de IA.",
-  "opening_message": "Aquí están los desarrollos más recientes en inteligencia artificial que podrían impactar en sus operaciones.",
+  "date": "2026-06-25",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Actualizaciones diarias sobre herramientas, modelos y frameworks de IA.",
+  "opening_message": "Aquí están las últimas novedades en el ámbito de la inteligencia artificial, con un enfoque en las innovaciones que impactan en la productividad y desarrollo.",
   "items": [
     {
-      "title": "IPO Finance Agent: Evaluación de Agentes Financieros LLM",
-      "summary": "Un nuevo marco que evalúa modelos de lenguaje en tareas de due diligence para OPIs, utilizando un enfoque de recuperación contextual para manejar documentos largos.",
+      "title": "Detecting AI Coding Agents in Open Source",
+      "summary": "Estudio sobre la prevalencia de agentes de codificación de IA en 180 millones de repositorios open-source, utilizando un marco de detección múltiple.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.23032",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "finanzas",
-        "IA"
-      ],
-      "what_changed": "Introducción de un nuevo enfoque para evaluar modelos LLM en tareas financieras específicas.",
-      "why_it_matters": "Mejora la precisión en el análisis de documentación compleja asociada con las OPI.",
-      "sector_impact": "Financiero"
-    },
-    {
-      "title": "LemonHarness: Marco de Ejecución para Agentes de Largo Plazo",
-      "summary": "LemonHarness establece límites de ejecución claros para agentes LLM, optimizando el seguimiento de cambios de estado en operaciones de múltiples rondas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.24311",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2606.24429",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
         "agentes",
-        "automation",
-        "framework"
+        "open-source"
       ],
-      "what_changed": "Mejora en el manejo de operaciones de estado en entornos de ejecución de agentes.",
-      "why_it_matters": "Aumenta la estabilidad y eficiencia en la ejecución de tareas complejas.",
-      "sector_impact": "Tecnología"
+      "what_changed": "Introducción de un framework de detección que integra múltiples métodos de análisis.",
+      "why_it_matters": "La comprensión de la prevalencia de los agentes de IA es crucial para asegurar la calidad del código open-source.",
+      "sector_impact": "Impacto significativo en la seguridad y calidad del software en la comunidad open-source."
     },
     {
-      "title": "VeriPilot: Marco de Depuración de Verilog Basado en LLM",
-      "summary": "VeriPilot mejora la localización y reparación de errores en diseños de Verilog utilizando modelos de referencia dorados.",
-      "category": "tool",
+      "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "summary": "Marco de evaluación para sistemas de IA autónomos utilizando representación gráfica, permitiendo una comparación unificada entre arquitecturas diversas.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.23759",
+      "source_url": "https://arxiv.org/abs/2606.23927",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "depuración",
-        "Verilog",
-        "IA"
+        "evaluación",
+        "sistemas IA"
       ],
-      "what_changed": "Desarrollo de un marco centrado en la localización de errores en código complejo.",
-      "why_it_matters": "Aumenta significativamente la tasa de éxito en la reparación de errores.",
-      "sector_impact": "Ingeniería"
+      "what_changed": "Método dinámico para la evaluación de sistemas de IA que adapta ataques adversariales.",
+      "why_it_matters": "Asegura la robustez y seguridad de los sistemas de IA en múltiples dominios.",
+      "sector_impact": "Mejora la fiabilidad y seguridad en aplicaciones de IA actuales."
     },
     {
-      "title": "AutoSpec: Evolución de Reglas de Seguridad para Agentes LLM",
-      "summary": "AutoSpec permite la evolución automática de reglas de seguridad basadas en anotaciones de usuario, mejorando la seguridad de operaciones complejas.",
+      "title": "T2D-Bench: Evidence-Gated Evaluation of LLM Outputs for Type 2 Diabetes",
+      "summary": "Marco de evaluación diseñado para validar las salidas de LLM en relación con evidencias clínicas sobre diabetes tipo 2.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.24245",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "IA",
-        "agentes"
-      ],
-      "what_changed": "Introducción de un enfoque automatizado para la evolución de reglas de seguridad.",
-      "why_it_matters": "Reduce significativamente los falsos positivos y negativos en operaciones críticas.",
-      "sector_impact": "Seguridad"
-    },
-    {
-      "title": "RASC+: Adjudicación de Valor Clínico Basada en LLM",
-      "summary": "RASC+ combina recuperación optimizada y adjudicación por LLM para mejorar la autoría de conjuntos de valores clínicos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.23992",
+      "source_url": "https://arxiv.org/abs/2606.24145",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "salud",
-        "IA",
-        "adjudicación"
+        "evaluación",
+        "salud"
       ],
-      "what_changed": "Mejora en la selección de candidatos para la creación de conjuntos de valores clínicos.",
-      "why_it_matters": "Aumenta la precisión y la seguridad en la generación de terminologías clínicas.",
-      "sector_impact": "Salud"
+      "what_changed": "Introducción de restricciones computables de evidencia para mejorar la precisión de LLMs.",
+      "why_it_matters": "Facilita la confianza en recomendaciones clínicas generadas por LLMs.",
+      "sector_impact": "Transforma la forma en que se evalúan las recomendaciones de salud digital."
     },
     {
-      "title": "Privacy-Preserving RAG: Reescritura Semántica Mult_agent",
-      "summary": "Propuesta de un marco de varios agentes que garantiza la protección de la privacidad mediante reescritura semántica.",
-      "category": "tool",
+      "title": "2.5-D Decomposition for LLM-Based Spatial Construction",
+      "summary": "Pipeline neuro-simbólico que mejora la precisión de modelos de lenguaje en construcción espacial a través de una descomposición 2.5-D.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.24623",
+      "source_url": "https://arxiv.org/abs/2605.07066",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "privacidad",
-        "RAG",
-        "IA"
+        "construcción",
+        "neuro-simbólico"
       ],
-      "what_changed": "Introducción de un enfoque de reescritura para preservar la privacidad.",
-      "why_it_matters": "Reduce significativamente el riesgo de filtraciones de datos sensibles.",
-      "sector_impact": "Privacidad"
+      "what_changed": "Elimina errores sistemáticos en la colocación tridimensional de bloques.",
+      "why_it_matters": "Aumenta la eficiencia en sistemas autónomos de construcción mediante interacciones de IA.",
+      "sector_impact": "Optimiza el desarrollo de estructuras a través de IA en la construcción."
     },
     {
-      "title": "VISTA: Benchmark de Codificación de Aplicaciones Web",
-      "summary": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
-      "category": "tool",
+      "title": "Large-Language-Model Discovery of Quantum LDPC Codes",
+      "summary": "Uso de modelos de lenguaje para descubrir códigos que corrigen errores en computación cuántica, facilitando su construcción.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.26144",
+      "source_url": "https://arxiv.org/abs/2606.24808",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "benchmark",
-        "IA",
-        "aplicaciones"
+        "cuántico",
+        "modelos"
       ],
-      "what_changed": "Definición de criterios para evaluar la creación de aplicaciones basadas en UI.",
-      "why_it_matters": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Desarrollo de un marco de evolución de conceptos estructurados para el descubrimiento de códigos.",
+      "why_it_matters": "Avanza en la corrección de errores en computadoras cuánticas, crucial para el desarrollo de tecnología cuántica.",
+      "sector_impact": "Impulsa la investigación en computación cuántica y sus aplicaciones."
+    },
+    {
+      "title": "A Training-Free Mixture-of-Agents Framework for Multi-Document Summarization",
+      "summary": "Framework que combina LLMs y gráficos de conocimiento para resumir múltiples documentos sin entrenamiento específico.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.03867",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "resumen",
+        "multidocumento"
+      ],
+      "what_changed": "Descomposición de tareas de resumen en agentes especializados para mejorar la eficacia.",
+      "why_it_matters": "Facilita la distilación de información crítica a partir de conjuntos de datos grandes.",
+      "sector_impact": "Mejora la eficiencia en el procesamiento de información y la toma de decisiones."
+    },
+    {
+      "title": "Self-Recognition Finetuning can Prevent and Reverse Emergent Misalignment",
+      "summary": "Investigación sobre técnicas de afinamiento de auto-reconocimiento que abordan la desalineación emergente en modelos de lenguaje.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.23700",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "alineación",
+        "modelos"
+      ],
+      "what_changed": "Metodología nueva para la intervención dirigida a prevenir la desalineación emergente en LLMs.",
+      "why_it_matters": "Mejora la robustez y predictibilidad de los modelos de IA en prácticas operativas.",
+      "sector_impact": "Incrementa la confianza y seguridad en la implementación de modelos de IA."
+    },
+    {
+      "title": "Rule2Text: A Framework for Generating Natural Language Explanations of Knowledge Graph Rules",
+      "summary": "Marco para la generación de explicaciones de lenguaje natural de reglas en gráficos de conocimiento, mejorando su accesibilidad.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2508.10971",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "explicaciones",
+        "gráficos de conocimiento"
+      ],
+      "what_changed": "Aplicación de LLMs para traducir reglas complejas en explicaciones comprensibles.",
+      "why_it_matters": "Aumenta la usabilidad y la interpretación de datos complejos en escenarios de IA.",
+      "sector_impact": "Facilita la adopción de gráficos de conocimiento en aplicaciones prácticas."
     }
   ]
 }
