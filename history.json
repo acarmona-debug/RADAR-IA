@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-06-26",
+      "executive_title": "Radar Diario de IA - Innovaciones y Modelos",
+      "items": [
+        {
+          "title": "Evaluación de Agentes de Investigación Profunda en Consultoría",
+          "summary": "Se introduce un nuevo benchmark para evaluar la efectividad de agentes de investigación profunda en consultorías, midiendo su rendimiento y confiabilidad a través de distintos indicadores.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.17554",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agents",
+            "consulting",
+            "benchmark"
+          ],
+          "what_changed": "Se publican métricas y métodos de evaluación para agentes de investigación en escenarios de consultoría.",
+          "why_it_matters": "Mejorar la efectividad de los agentes en escenarios empresariales es crucial para la toma de decisiones y la eficiencia operativa.",
+          "sector_impact": "Positivo, al optimizar procesos de consultoría mediante el uso de IA."
+        },
+        {
+          "title": "CyberChainBench: Agentes de IA y Seguridad en Contratos Inteligentes",
+          "summary": "Se presenta CyberChainBench, un benchmark para evaluar agentes basados en LLM en la detección de vulnerabilidades en contratos inteligentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.26216",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "smart contracts",
+            "security",
+            "LLM"
+          ],
+          "what_changed": "Desarrollo de un entorno de evaluación para agentes centrados en la seguridad de contratos inteligentes.",
+          "why_it_matters": "La seguridad en blockchain es crítica para prevenir fraudes y violaciones de datos.",
+          "sector_impact": "Aumenta la confianza en aplicaciones descentralizadas."
+        },
+        {
+          "title": "ForeAgent: Marco de Forense para Detección de Imágenes Generadas por IA",
+          "summary": "Se desarrolla un nuevo marco para la detección de imágenes deepfake utilizando un enfoque de auto-refinamiento iterativo.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.26552",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "forensics",
+            "deepfakes",
+            "AI"
+          ],
+          "what_changed": "Implementación de un sistema de auto-mejora para mejorar la precisión en la detección de imágenes generadas por IA.",
+          "why_it_matters": "A medida que se generan imágenes más realistas, se vuelve esencial contar con sistemas robustos de detección.",
+          "sector_impact": "Fomenta la integridad visual en medios digitales."
+        },
+        {
+          "title": "NeuraDock: Tutorial Abierto para Análisis en Tiempo Real de EEG",
+          "summary": "Presenta un marco de trabajo para analizar en tiempo real la carga cognitiva visual usando datos EEG.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.26518",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "EEG",
+            "cognitive load",
+            "real-time"
+          ],
+          "what_changed": "Se simplifica el proceso para implementar un sistema de análisis en tiempo real basado en EEG.",
+          "why_it_matters": "Facilita el uso de herramientas de EEG en aplicaciones prácticas y mejora el entendimiento de la carga cognitiva.",
+          "sector_impact": "Aumenta la efectividad en estudios de neurociencia aplicada."
+        },
+        {
+          "title": "LCAi: Evaluación de Ciclo de Vida Asistida por IA",
+          "summary": "Un nuevo marco para la interpretación de resultados en Evaluación de Ciclo de Vida utilizando fusión de datos y generación asistida por IA.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.26857",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LCA",
+            "sustainability",
+            "AI"
+          ],
+          "what_changed": "Introducción de una arquitectura para mejorar la interpretación de los resultados en LCA.",
+          "why_it_matters": "Ayuda a las empresas a tomar decisiones más informadas sobre sostenibilidad.",
+          "sector_impact": "Promueve prácticas más sostenibles en la industria."
+        },
+        {
+          "title": "Configuración de Control Determinista para Agentes de Codificación",
+          "summary": "Un control riguroso para la configuración de agentes de LLM que permite una gestión más efectiva de permisos y auditorías.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.26924",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "control",
+            "security"
+          ],
+          "what_changed": "Se introduce un sistema de control que gestiona la configuración de agentes de manera más efectiva.",
+          "why_it_matters": "Mejora la seguridad y el manejo de permisos en entornos de desarrollo de IA.",
+          "sector_impact": "Aumenta la protección contra vulnerabilidades en el desarrollo de software."
+        },
+        {
+          "title": "Orquestación de Herramientas Cognitivas para Comprensión Vídeo",
+          "summary": "Desarrollo de un marco que integra confianza en las herramientas utilizadas para la comprensión de vídeo.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.26904",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "video analysis",
+            "AI",
+            "tool orchestration"
+          ],
+          "what_changed": "Integración de la fiabilidad de herramientas en el proceso de análisis de vídeo.",
+          "why_it_matters": "Aumenta la precisión en la interpretación de datos visuales.",
+          "sector_impact": "Mejora aplicaciones de visión por computadora en diversos sectores."
+        }
+      ]
+    },
+    {
       "date": "2026-06-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -655,131 +780,6 @@
           "what_changed": "Desarrollo de un sistema trazable y auditable para QA financiero.",
           "why_it_matters": "Asegura confianza y precisión en la gestión de datos financieros.",
           "sector_impact": "Finanzas"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines",
-          "summary": "FAPO optimiza la cadena de LLM identificando cuellos de botella y validando variantes para mejorar el rendimiento, superando a su predecesor GEPA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19605",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "LLM",
-            "rendimiento"
-          ],
-          "what_changed": "Mejora en la optimización de cadenas LLM.",
-          "why_it_matters": "Aumenta la eficiencia en aplicaciones de IA especializadas de seguridad y generales.",
-          "sector_impact": "Transforma la implementación de LLM para rendimiento en tareas críticas."
-        },
-        {
-          "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-          "summary": "Propuesta de un método para la búsqueda de aclaraciones en modelos de lenguaje, mejorando la interacción de agentes LLM ante especificaciones ambiguas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19559",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "LLM",
-            "clarificación"
-          ],
-          "what_changed": "Introducción de un enfoque basado en descomposición de incertidumbres.",
-          "why_it_matters": "Mejora la capacidad de los modelos para interactuar proactivamente.",
-          "sector_impact": "Impulsa la eficiencia de los sistemas de IA en tareas interactivas."
-        },
-        {
-          "title": "DynAMO: Dynamic Asset Management Orchestration via Topological Multi-Agent Scheduling",
-          "summary": "DynAMO optimiza la orquestación de activos mediante un enfoque de ejecución topológica en entornos industriales, mejorando la eficiencia y reduciendo latencias.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19382",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "orquestación",
-            "automación",
-            "eficiencia"
-          ],
-          "what_changed": "Desarrollo de un motor de orquestación para mejorar la gestión de activos.",
-          "why_it_matters": "Impulsa la adopción de IA en procesos industriales críticos.",
-          "sector_impact": "Transforma la automatización en la Industria 4.0."
-        },
-        {
-          "title": "Multi-Agent Transactive Memory",
-          "summary": "Propuesta de un sistema de memoria transaccional para compartir experiencias entre agentes LLM, mejorando la ejecución de tareas a través del conocimiento compartido.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19911",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "agentes",
-            "conocimiento compartido"
-          ],
-          "what_changed": "Creación de un sistema para almacenar y recuperar trayectorias generadas por agentes.",
-          "why_it_matters": "Facilita el aprendizaje colaborativo entre agentes LLM.",
-          "sector_impact": "Mejora la reusabilidad y la eficiencia en entornos interactivos."
-        },
-        {
-          "title": "SIGMA: Search-Augmented On-Demand Knowledge Integration for Agentic Mathematical Reasoning",
-          "summary": "SIGMA mejora el razonamiento matemático automatizando la integración de conocimientos a través de agentes especializados, obteniendo altos niveles de rendimiento.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.27568",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "matemáticas",
-            "integración de conocimiento"
-          ],
-          "what_changed": "Introducción de un marco de agentes especializados para la resolución de problemas matemáticos.",
-          "why_it_matters": "Incrementa la precisión y eficiencia en tareas complejas de razonamiento.",
-          "sector_impact": "Optimiza los procesos de aprendizaje y resolución en matemáticas."
-        },
-        {
-          "title": "Secure Coding Drift in LLM-Assisted Post-Quantum Cryptography Development: A Gamified Fix",
-          "summary": "Desarrollo de un marco de codificación seguro que incorpora LLMs como co-pilotos activos en la implementación de criptografía post-cuantica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.19474",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "criptografía",
-            "gamificación"
-          ],
-          "what_changed": "Integración de un modelo de vulnerabilidad que aborda la codificación segura.",
-          "why_it_matters": "Desarrollo de un marco de codificación seguro que incorpora LLMs como co-pilotos activos en la implementación de criptografía post-cuantica.",
-          "sector_impact": "Refuerza prácticas de desarrollo seguro en entornos de alta seguridad."
-        },
-        {
-          "title": "Analyze Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems",
-          "summary": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.20470",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "defensa",
-            "ataques",
-            "sistemas de IA"
-          ],
-          "what_changed": "Primer análisis de la defensa mediante misdirección de interacciones maliciosas.",
-          "why_it_matters": "Evaluación de estrategias de defensa contra ataques automatizados en sistemas de IA usando un modelo probabilístico para misdirección.",
-          "sector_impact": "Aumenta la resiliencia de sistemas críticos de IA."
         }
       ]
     }
