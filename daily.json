@@ -1,93 +1,112 @@
 {
-  "date": "2026-06-27",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones y desarrollos en el campo de la inteligencia artificial, enfocados en herramientas, modelos y integraciones.",
-  "opening_message": "En este radar, destacamos los avances más relevantes en IA que impactan el desarrollo, la automatización y la creación de nuevas características.",
+  "date": "2026-06-28",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "Claude de Anthropic gana terreno frente a ChatGPT",
-      "summary": "A pesar del dominio de ChatGPT, los usuarios pagos están optando cada vez más por Claude de Anthropic.",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "summary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "relevance_score": 16,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
+      "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "relevance_score": 13,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "It’s not about Anthropic vs. OpenAI anymore",
+      "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "relevance_score": 11,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
+      "category": "labs",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
+      "summary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "source_url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
       "relevance_score": 7,
       "status": "new",
-      "tags": [
-        "AI",
-        "Claude",
-        "ChatGPT"
-      ],
-      "what_changed": "Claude ha aumentado su cuota de mercado entre usuarios pagos.",
-      "why_it_matters": "Esto indica una competencia creciente en el mercado de modelos de IA.",
-      "sector_impact": "Impulsa la innovación y la diversidad en opciones para consumidores."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Adobe adquiere Topaz Labs para mejorar sus herramientas",
-      "summary": "Adobe integrará las herramientas de mejora de imagen y video de Topaz Labs en sus aplicaciones.",
-      "category": "tool",
+      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
+      "category": "labs",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Adobe",
-        "Topaz Labs",
-        "herramientas"
-      ],
-      "what_changed": "Adobe refuerza su suite de herramientas creativas.",
-      "why_it_matters": "Esto permitirá a los usuarios crear contenido de calidad superior.",
-      "sector_impact": "Mejora la competitividad en el sector de herramientas creativas."
-    },
-    {
-      "title": "Patronus AI recibe $50M para testear agentes de IA",
-      "summary": "La startup Patronus AI está desarrollando mundos digitales para evaluar agentes de IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Patronus AI",
-        "agentes",
-        "financiación"
-      ],
-      "what_changed": "La收到 de financiamiento permitirá una expansión significativa de sus capacidades.",
-      "why_it_matters": "Contribuye a la investigación y validación de agentes de IA en entornos complejos.",
-      "sector_impact": "Impulsa la capacidad de prueba y rendimiento de agentes en aplicaciones prácticas."
-    },
-    {
-      "title": "General Intuition invierte $2.3B en entrenamiento de IA",
-      "summary": "La compañía está utilizando datos de juegos para entrenar AI y mejorar su 'intuición' en el mundo real.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "source_url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
       "relevance_score": 6,
       "status": "new",
-      "tags": [
-        "General Intuition",
-        "entrenamiento",
-        "IA"
-      ],
-      "what_changed": "Se han recaudado fondos significativos para impulsar su investigación.",
-      "why_it_matters": "Muestra el potencial de los videojuegos como herramienta de entrenamiento en IA.",
-      "sector_impact": "Aumenta la comprensión del comportamiento de la IA en situaciones de la vida real."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "OpenAI presenta su chip personalizado Jalapeño",
-      "summary": "OpenAI está desarrollando su chip de inferencia personalizado, buscando independencia de Nvidia.",
-      "category": "tool",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "category": "labs",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-      "relevance_score": 7,
+      "source_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [
-        "OpenAI",
-        "Jalapeño",
-        "chips"
-      ],
-      "what_changed": "Introducción de un chip diseñado para optimizar el rendimiento de IA.",
-      "why_it_matters": "Reduce la dependencia de recursos limitados para el desarrollo de IA.",
-      "sector_impact": "Impulsa la capacidad de personalización en hardware para soluciones de IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending. OpenAI just shared its plans to spice things up with Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal is less of a […]",
+      "category": "labs",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }

@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-06-28",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+          "summary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+          "relevance_score": 16,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
+          "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "It’s not about Anthropic vs. OpenAI anymore",
+          "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Our latest Google Finance upgrades, including a new app",
+          "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
+          "category": "labs",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
+          "summary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+          "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+          "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+          "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending. OpenAI just shared its plans to spice things up with Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal is less of a […]",
+          "category": "labs",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-06-27",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -656,79 +766,6 @@
           "what_changed": "Presentación de un nuevo marco sobre la privacidad en IA.",
           "why_it_matters": "La seguridad de los datos es crucial para la confianza en los sistemas de IA.",
           "sector_impact": "Podría cambiar cómo los investigadores abordan la seguridad de la información en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-21",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "AMIE: AI Médico para Gestión de Enfermedades",
-          "summary": "Nuevo sistema de IA conversacional que iguala la capacidad de médicos de atención primaria en gestión de enfermedades complejas.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "IA médica",
-            "gestión de salud"
-          ],
-          "what_changed": "Investigación reciente muestra la efectividad de AMIE.",
-          "why_it_matters": "Podría revolucionar la atención médica y la gestión de enfermedades.",
-          "sector_impact": "Salud"
-        },
-        {
-          "title": "Benchmarking de Modelos Abiertos",
-          "summary": "Estudio sobre la capacidad 'agente' de modelos abiertos en herramientas personalizadas.",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/is-it-agentic-enough",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "modelos abiertos",
-            "framework",
-            "IA"
-          ],
-          "what_changed": "Evaluación de la efectividad de herramientas existentes.",
-          "why_it_matters": "Facilita mejorar el rendimiento de modelos y herramientas IA.",
-          "sector_impact": "Tecnología"
-        },
-        {
-          "title": "Adquisición de Deductive AI por Elastic",
-          "summary": "Elastic acuerda comprar Deductive AI, enfocada en resolver errores en software utilizando IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [
-            "integración",
-            "IA",
-            "resolución de errores"
-          ],
-          "what_changed": "Acuerdo confirmado para adquirir tecnología clave.",
-          "why_it_matters": "Mejora la calidad del software a través de IA.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "Lanzamiento de Kē, App de Bienestar con IA",
-          "summary": "Karamo Brown lanza una aplicación que utiliza un clon digital de IA para guiar en el bienestar personal.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "bienestar",
-            "IA",
-            "app"
-          ],
-          "what_changed": "Introducción de un clon digital en el ámbito del bienestar.",
-          "why_it_matters": "Promueve el uso de IA para apoyo personal y bienestar.",
-          "sector_impact": "Salud mental"
         }
       ]
     }
