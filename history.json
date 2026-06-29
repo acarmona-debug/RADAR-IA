@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-06-29",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
+          "summary": "Se introduce un nuevo benchmark que evalúa la capacidad de los modelos para adherirse a normas sociales implícitas en la planificación de acciones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.27826",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "normas sociales"
+          ],
+          "what_changed": "Se propuso un marco para evaluar la adherencia a normas sociales en la planificación.",
+          "why_it_matters": "Es crucial para desarrollar agentes que interactúen de manera socialmente aceptable.",
+          "sector_impact": "Desarrollo de agentes con mejores capacidades sociales."
+        },
+        {
+          "title": "TAC: An Agentic Benchmark for Implicit Animal Welfare",
+          "summary": "Un nuevo benchmark para evaluar si los agentes de IA evitan opciones que implican explotación animal al actuar en nombre de los usuarios.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.18142",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "bienestar animal"
+          ],
+          "what_changed": "Se creó un benchmark que mide las decisiones de los agentes sobre el bienestar animal.",
+          "why_it_matters": "Promueve la conciencia y responsabilidad en la toma de decisiones de IA.",
+          "sector_impact": "Mejora la ética en la implementación de IA en decisiones comerciales."
+        },
+        {
+          "title": "$\\tau$-Rec: A Verifiable Benchmark for Agentic Recommender Systems",
+          "summary": "Se presenta un nuevo benchmark que mide la consistencia en sistemas de recomendación agentes mediante recompensas verificables.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.10156",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "sistemas de recomendación"
+          ],
+          "what_changed": "Desarrollo de un método de evaluación más objetivo para sistemas de recomendación.",
+          "why_it_matters": "Contribuye a mejorar la fiabilidad de las recomendaciones de IA.",
+          "sector_impact": "Impulsa la confianza en aplicaciones críticas que dependen de recomendaciones de IA."
+        },
+        {
+          "title": "Health-ORSC-Bench: A Benchmark for Measuring Over-Refusal in Health",
+          "summary": "Un nuevo benchmark que mide la capacidad de los modelos de IA para manejar preguntas benignas en contextos de salud sin caer en sobre-refusals.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.17642",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "salud"
+          ],
+          "what_changed": "Se introdujo un marco para evaluar la eficiencia de las respuestas en salud.",
+          "why_it_matters": "Mejora la seguridad y la utilidad de los asistentes de IA en salud.",
+          "sector_impact": "Fortalece la aplicación de IA en contextos médicos."
+        },
+        {
+          "title": "Grounded Iterative Language Planning: Reducing Hallucination Propagation",
+          "summary": "Se introduce un método novedoso que combina modelos paramétricos con agentes para reducir los errores de planificación en IA.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.27806",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "marco",
+            "planificación"
+          ],
+          "what_changed": "Ofrece nuevas métricas operativas y unidad entre el razonamiento y la planificación de acciones.",
+          "why_it_matters": "Aumenta la eficacia de los modelos de lenguaje al reducir las alucinaciones.",
+          "sector_impact": "Mejora el rendimiento de agentes en tareas complejas."
+        },
+        {
+          "title": "Hybrid Fact-Checking Using LLMs and Knowledge Graphs",
+          "summary": "Nuevo enfoque para la verificación de hechos que integra LLMs, gráficos de conocimiento y agentes de búsqueda.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.03217",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "verificación de hechos"
+          ],
+          "what_changed": "Mejora la precisión en la verificación de información.",
+          "why_it_matters": "Aumenta la fiabilidad de la información generada por IA.",
+          "sector_impact": "Promueve la confianza y transparencia en el uso de IA."
+        },
+        {
+          "title": "LiveClawBench: Benchmarking LLM Agents on Real-World Tasks",
+          "summary": "Nuevo benchmark diseñado para evaluar agentes de LLM en tareas de asistente en entornos reales y complejos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.13072",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "agente LLM"
+          ],
+          "what_changed": "Introducción de una evaluación más fiel a tareas reales.",
+          "why_it_matters": "Evaluaciones más precisas de la eficacia de asistentes de IA.",
+          "sector_impact": "Aumenta la eficiencia y usabilidad de asistentes automatizados."
+        }
+      ]
+    },
+    {
       "date": "2026-06-28",
       "executive_title": "Radar IA del día",
       "items": [
@@ -692,80 +810,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-          "summary": "Apple introduce nuevas y útiles características de IA en iOS 27, alejándose del enfoque tradicional de Siri.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "iOS",
-            "AI",
-            "features"
-          ],
-          "what_changed": "Nuevas características de IA han sido integradas en iOS 27.",
-          "why_it_matters": "Estas características mejoran la funcionalidad y la experiencia del usuario en dispositivos de Apple.",
-          "sector_impact": "Impacto significativo en la adopción de IA en dispositivos móviles."
-        },
-        {
-          "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
-          "summary": "AWS planea vender sus chips de IA a otros centros de datos, buscando desafiar a Nvidia.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "AWS",
-            "AI",
-            "chips"
-          ],
-          "what_changed": "Amazon está expandiendo su oferta de hardware de IA.",
-          "why_it_matters": "Ofrecer chips de IA representa una gran oportunidad de mercado para Amazon.",
-          "sector_impact": "Esto podría alterar la competitividad en el espacio de chips de IA."
-        },
-        {
-          "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
-          "summary": "La startup Baseten está cerca de cerrar una ronda de financiamiento de $1.5 mil millones.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "startup",
-            "funding",
-            "AI"
-          ],
-          "what_changed": "Baseten ha atraído una gran inversión para expandir sus operaciones.",
-          "why_it_matters": "Esta ronda de financiamiento subraya el interés y la inversión en empresas de inferencia de IA.",
-          "sector_impact": "Impacto en el crecimiento de la industria de startups de IA."
-        },
-        {
-          "title": "MosaicLeaks: Can your research agent keep a secret?",
-          "summary": "Un análisis sobre cómo los agentes de investigación manejan la información sensible.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "research",
-            "agents",
-            "AI"
-          ],
-          "what_changed": "Presentación de un nuevo marco sobre la privacidad en IA.",
-          "why_it_matters": "La seguridad de los datos es crucial para la confianza en los sistemas de IA.",
-          "sector_impact": "Podría cambiar cómo los investigadores abordan la seguridad de la información en IA."
         }
       ]
     }

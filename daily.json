@@ -1,112 +1,120 @@
 {
-  "date": "2026-06-28",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-06-29",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Bienvenidos al radar diario de IA, donde destacamos las últimas herramientas, modelos y frameworks que están moldeando el futuro de la inteligencia artificial.",
+  "opening_message": "A continuación, se presentan las novedades más relevantes en el mundo de la IA, priorizando integraciones, automatización y nuevas características.",
   "items": [
     {
-      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-      "summary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-      "relevance_score": 16,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
-      "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "relevance_score": 13,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "It’s not about Anthropic vs. OpenAI anymore",
-      "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
-      "relevance_score": 11,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Our latest Google Finance upgrades, including a new app",
-      "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
-      "category": "labs",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
-      "summary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
+      "summary": "Se introduce un nuevo benchmark que evalúa la capacidad de los modelos para adherirse a normas sociales implícitas en la planificación de acciones.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.27826",
       "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmark",
+        "normas sociales"
+      ],
+      "what_changed": "Se propuso un marco para evaluar la adherencia a normas sociales en la planificación.",
+      "why_it_matters": "Es crucial para desarrollar agentes que interactúen de manera socialmente aceptable.",
+      "sector_impact": "Desarrollo de agentes con mejores capacidades sociales."
     },
     {
-      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-      "relevance_score": 6,
+      "title": "TAC: An Agentic Benchmark for Implicit Animal Welfare",
+      "summary": "Un nuevo benchmark para evaluar si los agentes de IA evitan opciones que implican explotación animal al actuar en nombre de los usuarios.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.18142",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmark",
+        "bienestar animal"
+      ],
+      "what_changed": "Se creó un benchmark que mide las decisiones de los agentes sobre el bienestar animal.",
+      "why_it_matters": "Promueve la conciencia y responsabilidad en la toma de decisiones de IA.",
+      "sector_impact": "Mejora la ética en la implementación de IA en decisiones comerciales."
     },
     {
-      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "relevance_score": 5,
+      "title": "$\\tau$-Rec: A Verifiable Benchmark for Agentic Recommender Systems",
+      "summary": "Se presenta un nuevo benchmark que mide la consistencia en sistemas de recomendación agentes mediante recompensas verificables.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.10156",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmark",
+        "sistemas de recomendación"
+      ],
+      "what_changed": "Desarrollo de un método de evaluación más objetivo para sistemas de recomendación.",
+      "why_it_matters": "Contribuye a mejorar la fiabilidad de las recomendaciones de IA.",
+      "sector_impact": "Impulsa la confianza en aplicaciones críticas que dependen de recomendaciones de IA."
     },
     {
-      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-      "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending. OpenAI just shared its plans to spice things up with Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal is less of a […]",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
-      "relevance_score": 4,
+      "title": "Health-ORSC-Bench: A Benchmark for Measuring Over-Refusal in Health",
+      "summary": "Un nuevo benchmark que mide la capacidad de los modelos de IA para manejar preguntas benignas en contextos de salud sin caer en sobre-refusals.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2601.17642",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmark",
+        "salud"
+      ],
+      "what_changed": "Se introdujo un marco para evaluar la eficiencia de las respuestas en salud.",
+      "why_it_matters": "Mejora la seguridad y la utilidad de los asistentes de IA en salud.",
+      "sector_impact": "Fortalece la aplicación de IA en contextos médicos."
+    },
+    {
+      "title": "Grounded Iterative Language Planning: Reducing Hallucination Propagation",
+      "summary": "Se introduce un método novedoso que combina modelos paramétricos con agentes para reducir los errores de planificación en IA.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.27806",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "marco",
+        "planificación"
+      ],
+      "what_changed": "Ofrece nuevas métricas operativas y unidad entre el razonamiento y la planificación de acciones.",
+      "why_it_matters": "Aumenta la eficacia de los modelos de lenguaje al reducir las alucinaciones.",
+      "sector_impact": "Mejora el rendimiento de agentes en tareas complejas."
+    },
+    {
+      "title": "Hybrid Fact-Checking Using LLMs and Knowledge Graphs",
+      "summary": "Nuevo enfoque para la verificación de hechos que integra LLMs, gráficos de conocimiento y agentes de búsqueda.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.03217",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "herramientas",
+        "verificación de hechos"
+      ],
+      "what_changed": "Mejora la precisión en la verificación de información.",
+      "why_it_matters": "Aumenta la fiabilidad de la información generada por IA.",
+      "sector_impact": "Promueve la confianza y transparencia en el uso de IA."
+    },
+    {
+      "title": "LiveClawBench: Benchmarking LLM Agents on Real-World Tasks",
+      "summary": "Nuevo benchmark diseñado para evaluar agentes de LLM en tareas de asistente en entornos reales y complejos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.13072",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "agente LLM"
+      ],
+      "what_changed": "Introducción de una evaluación más fiel a tareas reales.",
+      "why_it_matters": "Evaluaciones más precisas de la eficacia de asistentes de IA.",
+      "sector_impact": "Aumenta la eficiencia y usabilidad de asistentes automatizados."
     }
   ]
 }
