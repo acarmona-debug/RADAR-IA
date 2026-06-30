@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-06-30",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "meta-pipe: Una tubería de agente LLM para revisiones sistemáticas automatizadas",
+          "summary": "Presenta una arquitectura de pipeline que integra la revisión sistemática y el análisis meta con supervisión humana en puntos críticos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.28363",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "LLM",
+            "meta-análisis"
+          ],
+          "what_changed": "Desarrollo de un pipeline modular open-source.",
+          "why_it_matters": "Facilita la síntesis de evidencias asistida por IA.",
+          "sector_impact": "Mejora en la producción de reportes de investigación."
+        },
+        {
+          "title": "PolicyGuard: Un verificador de sub-agentes para el cumplimiento de políticas en agentes LLM",
+          "summary": "Introduce un verificador que razona sobre políticas en el contexto de diálogos, proporcionando retroalimentación específica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.29225",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "verificación",
+            "diálogo",
+            "LLM"
+          ],
+          "what_changed": "Mejora en la adherencia a políticas en flujos de trabajo de agentes.",
+          "why_it_matters": "Aumenta la responsabilidad y transparencia en interacciones automatizadas.",
+          "sector_impact": "Aplicaciones en entidades que requieren cumplimiento normativo."
+        },
+        {
+          "title": "AutoB2G: Simulación y aprendizaje reforzado para control interactivo de edificios",
+          "summary": "Un marco de trabajo para la co-simulación de edificios que integra control de la demanda y aprendizaje en tiempo real.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.26005",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "simulación",
+            "aprendizaje reforzado",
+            "control energético"
+          ],
+          "what_changed": "Facilita la construcción de pipelines para simulaciones complejas.",
+          "why_it_matters": "Mejora la flexibilidad en sistemas modernos de energía.",
+          "sector_impact": "Impacto en la sostenibilidad y eficiencia energética."
+        },
+        {
+          "title": "Insidious by Design: Sesgos algorítmicos en LLM para el Sur Global",
+          "summary": "Estudia cómo los sesgos en LLMs afectan las narrativas y estructuras en el Sur Global.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.28333",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "sesgo",
+            "IA",
+            "narrativas"
+          ],
+          "what_changed": "Análisis crítico de la producción de contenido en LLMs.",
+          "why_it_matters": "Estudia cómo los sesgos en LLMs afectan las narrativas y estructuras en el Sur Global.",
+          "sector_impact": "Relevancia en desarrollo de tecnologías inclusivas."
+        },
+        {
+          "title": "MCP: Patrones arquitectónicos para aplicaciones integradas de LLM",
+          "summary": "Descripción de patrones arquitectónicos observados en servidores MCP para conectar LLMs con herramientas externas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.30317",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "arquitectura",
+            "MCP",
+            "servicios"
+          ],
+          "what_changed": "Identificación de patrones recurrentes en el ecosistema MCP.",
+          "why_it_matters": "Optimiza la implementación de soluciones basadas en LLM.",
+          "sector_impact": "Facilita la integración de IA en diversas aplicaciones."
+        },
+        {
+          "title": "Hierarchical Experimentalist Agents: Aprendizaje por experimentación activa",
+          "summary": "Proporciona un marco de mejora mediante experimentación activa en agentes LLM.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.29315",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "experimentos",
+            "aprendizaje automático"
+          ],
+          "what_changed": "Desarrollo de un enfoque de auto-mejora en agentes.",
+          "why_it_matters": "Proporciona un marco de mejora mediante experimentación activa en agentes LLM.",
+          "sector_impact": "Aplicaciones en robótica y sistemas dinámicos."
+        },
+        {
+          "title": "Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries",
+          "summary": "Evalúa herramientas de IA clínica en consultas reales, destacando la eficacia de herramientas especializadas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.28960",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "IA",
+            "salud"
+          ],
+          "what_changed": "Comparación entre modelos LLM y herramientas clínicas especializadas.",
+          "why_it_matters": "Evalúa herramientas de IA clínica en consultas reales, destacando la eficacia de herramientas especializadas.",
+          "sector_impact": "Impulsa la adopción de IA en el sector salud."
+        },
+        {
+          "title": "Characterizing Large Language Model Agentic Workflows: Un estudio sobre el ecosistema N8n",
+          "summary": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.29116",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "LLM",
+            "n8n"
+          ],
+          "what_changed": "Estudio empírico sobre flujos de trabajo en automatización sin código.",
+          "why_it_matters": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
+          "sector_impact": "Desarrollo de soluciones más efectivas en entornos de automatización."
+        }
+      ]
+    },
+    {
       "date": "2026-06-29",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -700,116 +842,6 @@
           "what_changed": "Definición de criterios para evaluar la creación de aplicaciones basadas en UI.",
           "why_it_matters": "VISTA evalúa las capacidades de generación de aplicaciones web de agentes basados en LLM a partir de especificaciones visuales.",
           "sector_impact": "Desarrollo de software"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
-          "summary": "Jumper isn't the only big name leaving Google DeepMind.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-          "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
-          "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "When the Trump administration cracks down on Anthropic, who benefits?",
-          "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
-          "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
-          "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5’s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is […]",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-          "summary": "",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-          "summary": "",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }
