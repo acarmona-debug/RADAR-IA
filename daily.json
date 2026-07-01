@@ -1,144 +1,127 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones sobre herramientas, modelos y automatización en IA.",
-  "opening_message": "Estas son las novedades más relevantes en el ámbito de la inteligencia artificial.",
+  "intro_message": "Esta es una recopilación de las últimas innovaciones y tendencias en el ámbito de la inteligencia artificial.",
+  "opening_message": "A continuación, los desarrollos más relevantes en herramientas, modelos y agentes de IA que no te puedes perder.",
   "items": [
     {
-      "title": "meta-pipe: Una tubería de agente LLM para revisiones sistemáticas automatizadas",
-      "summary": "Presenta una arquitectura de pipeline que integra la revisión sistemática y el análisis meta con supervisión humana en puntos críticos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.28363",
+      "title": "Anthropic lanza Claude Sonnet 5 como una alternativa más económica para agentes",
+      "summary": "Claude Sonnet 5 ofrece capacidades de agente más robustas y una mejor seguridad a un precio inferior, posicionándolo como una alternativa viable frente a Opus, GPT-5.5 y Gemini Pro.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "automación",
-        "LLM",
-        "meta-análisis"
+        "Claude Sonnet 5",
+        "agentes",
+        "IA económica"
       ],
-      "what_changed": "Desarrollo de un pipeline modular open-source.",
-      "why_it_matters": "Facilita la síntesis de evidencias asistida por IA.",
-      "sector_impact": "Mejora en la producción de reportes de investigación."
+      "what_changed": "Lanzamiento de un nuevo modelo con mejor relación costo-beneficio.",
+      "why_it_matters": "Facilita el acceso a tecnologías avanzadas de IA para desarrolladores y empresas.",
+      "sector_impact": "Incrementa la competitividad en soluciones de IA basadas en agentes."
     },
     {
-      "title": "PolicyGuard: Un verificador de sub-agentes para el cumplimiento de políticas en agentes LLM",
-      "summary": "Introduce un verificador que razona sobre políticas en el contexto de diálogos, proporcionando retroalimentación específica.",
-      "category": "tool",
+      "title": "ShopX: Un Modelo Fundamental para el Cumplimiento de Intenciones en Compras Agénciales",
+      "summary": "ShopX busca unificar la comprensión de intenciones y la planificación de ejecuciones en experiencias de compra mediadas por agentes de IA.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.29225",
+      "source_url": "https://arxiv.org/abs/2606.31693",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "compras",
+        "modelo de IA",
+        "experiencia de usuario"
+      ],
+      "what_changed": "Desarrollo de un modelo que integra cumplimiento y comprensión de intenciones.",
+      "why_it_matters": "Mejora la interacción entre usuarios y sistemas de recomendación mediante una mayor precisión y flexibilidad.",
+      "sector_impact": "Transforma la forma en que se realizan las compras en línea."
+    },
+    {
+      "title": "HealthAgentBench: Suite de Benchmark para Agentes de Salud",
+      "summary": "HealthAgentBench introduce 54 tareas de salud agenciales para evaluar el progreso de los agentes de IA en entornos clínicos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.31179",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "verificación",
-        "diálogo",
+        "salud",
+        "benchmark",
+        "IA"
+      ],
+      "what_changed": "Nuevas tareas diseñadas para evaluar el rendimiento de agentes de IA en clínicas.",
+      "why_it_matters": "Establece un estándar para medir el avance de la IA en aplicaciones de salud.",
+      "sector_impact": "Aumenta la confianza en el uso de IA para la atención médica."
+    },
+    {
+      "title": "Knowledge Graphs como Capa de Datos para Operaciones Industriales Basadas en LLM",
+      "summary": "Se demuestra la eficacia de los grafos de conocimiento para mejorar la precisión de los agentes de IA en operaciones de mantenimiento industrial.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.26874",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "grafías de conocimiento",
+        "operaciones industriales",
         "LLM"
       ],
-      "what_changed": "Mejora en la adherencia a políticas en flujos de trabajo de agentes.",
-      "why_it_matters": "Aumenta la responsabilidad y transparencia en interacciones automatizadas.",
-      "sector_impact": "Aplicaciones en entidades que requieren cumplimiento normativo."
+      "what_changed": "Uso de grafos de conocimiento para mejorar la precisión de respuestas de los agentes.",
+      "why_it_matters": "Permite un razonamiento más efectivo en contextos industriales complejos.",
+      "sector_impact": "Optimiza el mantenimiento industrial y reduce costos."
     },
     {
-      "title": "AutoB2G: Simulación y aprendizaje reforzado para control interactivo de edificios",
-      "summary": "Un marco de trabajo para la co-simulación de edificios que integra control de la demanda y aprendizaje en tiempo real.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.26005",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "simulación",
-        "aprendizaje reforzado",
-        "control energético"
-      ],
-      "what_changed": "Facilita la construcción de pipelines para simulaciones complejas.",
-      "why_it_matters": "Mejora la flexibilidad en sistemas modernos de energía.",
-      "sector_impact": "Impacto en la sostenibilidad y eficiencia energética."
-    },
-    {
-      "title": "Insidious by Design: Sesgos algorítmicos en LLM para el Sur Global",
-      "summary": "Estudia cómo los sesgos en LLMs afectan las narrativas y estructuras en el Sur Global.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.28333",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "sesgo",
-        "IA",
-        "narrativas"
-      ],
-      "what_changed": "Análisis crítico de la producción de contenido en LLMs.",
-      "why_it_matters": "Estudia cómo los sesgos en LLMs afectan las narrativas y estructuras en el Sur Global.",
-      "sector_impact": "Relevancia en desarrollo de tecnologías inclusivas."
-    },
-    {
-      "title": "MCP: Patrones arquitectónicos para aplicaciones integradas de LLM",
-      "summary": "Descripción de patrones arquitectónicos observados en servidores MCP para conectar LLMs con herramientas externas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.30317",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "arquitectura",
-        "MCP",
-        "servicios"
-      ],
-      "what_changed": "Identificación de patrones recurrentes en el ecosistema MCP.",
-      "why_it_matters": "Optimiza la implementación de soluciones basadas en LLM.",
-      "sector_impact": "Facilita la integración de IA en diversas aplicaciones."
-    },
-    {
-      "title": "Hierarchical Experimentalist Agents: Aprendizaje por experimentación activa",
-      "summary": "Proporciona un marco de mejora mediante experimentación activa en agentes LLM.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.29315",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "experimentos",
-        "aprendizaje automático"
-      ],
-      "what_changed": "Desarrollo de un enfoque de auto-mejora en agentes.",
-      "why_it_matters": "Proporciona un marco de mejora mediante experimentación activa en agentes LLM.",
-      "sector_impact": "Aplicaciones en robótica y sistemas dinámicos."
-    },
-    {
-      "title": "Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries",
-      "summary": "Evalúa herramientas de IA clínica en consultas reales, destacando la eficacia de herramientas especializadas.",
+      "title": "AgRefactor: Flujo de Trabajo Agencial Auto-Evolutivo para Compatibilidad HLS",
+      "summary": "AgRefactor es un flujo de trabajo LLM que proporciona flexibilidad y eficiencias en la refactorización de software a código HLS.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.28960",
+      "source_url": "https://arxiv.org/abs/2606.30949",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "evaluación",
-        "IA",
-        "salud"
+        "refactorización",
+        "HLS",
+        "IA"
       ],
-      "what_changed": "Comparación entre modelos LLM y herramientas clínicas especializadas.",
-      "why_it_matters": "Evalúa herramientas de IA clínica en consultas reales, destacando la eficacia de herramientas especializadas.",
-      "sector_impact": "Impulsa la adopción de IA en el sector salud."
+      "what_changed": "Desarrollo de una herramienta automatizada que mejora el proceso de refactorización.",
+      "why_it_matters": "Aumenta la escalabilidad y eficiencia en la programación de software.",
+      "sector_impact": "Facilita la integración de software en hardware, optimizando el desarrollo."
     },
     {
-      "title": "Characterizing Large Language Model Agentic Workflows: Un estudio sobre el ecosistema N8n",
-      "summary": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
-      "category": "model",
+      "title": "A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities",
+      "summary": "Un estudio integral sobre las vulnerabilidades de los LLM en diferentes etapas de su ciclo de vida.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.29116",
+      "source_url": "https://arxiv.org/abs/2606.31639",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automatización",
-        "LLM",
-        "n8n"
+        "vulnerabilidades",
+        "ciclo de vida",
+        "IA"
       ],
-      "what_changed": "Estudio empírico sobre flujos de trabajo en automatización sin código.",
-      "why_it_matters": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
-      "sector_impact": "Desarrollo de soluciones más efectivas en entornos de automatización."
+      "what_changed": "Clasificación de vulnerabilidades en LLMs a través de su ciclo de vida.",
+      "why_it_matters": "Un estudio integral sobre las vulnerabilidades de los LLM en diferentes etapas de su ciclo de vida.",
+      "sector_impact": "Aumenta la comprensión y mitigación de riesgos asociados a modelos de IA."
+    },
+    {
+      "title": "ReplicatorBench: Benchmarking para Agentes LLM en Ciencias Sociales y Comportamiento",
+      "summary": "Se presenta ReplicatorBench, un benchmark para evaluar la capacidad de los agentes de IA en replicar investigaciones científicas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.11354",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "ciencias sociales",
+        "replicación"
+      ],
+      "what_changed": "Introducción de un benchmark que recopila tareas de replicación y evaluación.",
+      "why_it_matters": "Se presenta ReplicatorBench, un benchmark para evaluar la capacidad de los agentes de IA en replicar investigaciones científicas.",
+      "sector_impact": "Mejora la integridad de la investigación en ciencias sociales."
     }
   ]
 }
