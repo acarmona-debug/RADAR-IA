@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-07-03",
+      "executive_title": "Radar Diario de AI - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "MMIR-TCM: Framework para TCM",
+          "summary": "Un nuevo framework que integra inteligencia artificial multimodal para apoyar decisiones clínicas en medicina tradicional china, mostrando un fuerte rendimiento en diagnóstico.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.01814",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "diagnóstico",
+            "TCM"
+          ],
+          "what_changed": "Integra modelos de lenguaje en un proceso de diagnóstico estructurado.",
+          "why_it_matters": "Mejora la precisión en el diagnóstico clínico al reducir la subjetividad.",
+          "sector_impact": "Aporta claridad y eficacia en la medicina tradicional en el contexto de IA."
+        },
+        {
+          "title": "Vera: Framework de Pruebas de Seguridad para LLM Agents",
+          "summary": "Una nueva solución automatizada para la evaluación de seguridad de agentes LLM, que permite descubrir riesgos emergentes y verificar su seguridad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.01793",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "LLM",
+            "pruebas"
+          ],
+          "what_changed": "Introduce un enfoque modular y autónomo para pruebas de seguridad.",
+          "why_it_matters": "Esencial para abordar los riesgos de seguridad en agentes LLM en evolución.",
+          "sector_impact": "Refuerza la confianza en el uso de IA en diversos sectores."
+        },
+        {
+          "title": "Cursor y Claude: Impacto en la Programación",
+          "summary": "Un estudio que analiza la adopción y el impacto de herramientas de codificación AI en la programación de línea de comandos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.01418",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "programación",
+            "herramientas",
+            "CLI"
+          ],
+          "what_changed": "Muestra un aumento en la eficiencia de los desarrolladores que utilizan estas herramientas.",
+          "why_it_matters": "Implica que la adopción de asistentes AI puede aumentar la productividad sin desplazar a nuevos desarrolladores.",
+          "sector_impact": "Impacta positivamente en la dinámica de trabajo en equipos de desarrollo."
+        },
+        {
+          "title": "SkillDAG: Gráficos de Habilidades para Selectividad en LLM",
+          "summary": "Presenta un sistema que modela relaciones de habilidades como un gráfico dirigido, mejorando la selección de habilidades en agentes LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.03056",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "habilidades",
+            "agentes",
+            "modelos"
+          ],
+          "what_changed": "Permite que agentes LLM seleccionen habilidades de manera más efectiva.",
+          "why_it_matters": "Facilita la evolución y adaptabilidad de agentes de IA en múltiples contextos.",
+          "sector_impact": "Mejora la flexibilidad en la implementación de tecnologías AI."
+        },
+        {
+          "title": "Automated Grading de Exámenes de Linux/Bash usando LLMs",
+          "summary": "Evaluación de modelos LLM para calificar respuestas en exámenes de Linux, mostrando promesas en la consistencia de calificación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.02432",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "educación",
+            "calificación",
+            "Linux"
+          ],
+          "what_changed": "Demuestra eficiencia en la evaluación con modelos LLM.",
+          "why_it_matters": "Implica una solución viable para escalabilidad en la educación computacional.",
+          "sector_impact": "Transforma el modo en que se aborda la evaluación en educación técnica."
+        },
+        {
+          "title": "Optimización de ReRankers de RAG con Feedback de LLM",
+          "summary": "Un marco de aprendizaje por refuerzo que alinea el reranking con la calidad de generación de LLMs, mejorando la utilidad de resultados.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.02091",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "re-ranking",
+            "optimización",
+            "RAG"
+          ],
+          "what_changed": "Integra feedback de LLM en el proceso de reranking.",
+          "why_it_matters": "Optimiza resultados en generación aumentada al asegurar calidad contextual.",
+          "sector_impact": "Potencia la efectividad de sistemas de preguntas y respuestas."
+        },
+        {
+          "title": "Mastermind: Aprendizaje Estratégico para Vulnerabilidades",
+          "summary": "Presenta un marco para la reproducción de vulnerabilidades en repositorios, mejorando las estrategias de reparación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.01764",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "vulnerabilidades",
+            "sistemas"
+          ],
+          "what_changed": "Separa el aprendizaje de estrategias del proceso en sí, haciéndolo más efectivo.",
+          "why_it_matters": "Transforma cómo los agentes manejan y responden a la seguridad del software.",
+          "sector_impact": "Erige una nueva norma en la auditoría y corrección de software."
+        }
+      ]
+    },
+    {
       "date": "2026-07-02",
       "executive_title": "Radar IA del día",
       "items": [
@@ -693,131 +818,6 @@
           "what_changed": "Introducción de un chip diseñado para optimizar el rendimiento de IA.",
           "why_it_matters": "Reduce la dependencia de recursos limitados para el desarrollo de IA.",
           "sector_impact": "Impulsa la capacidad de personalización en hardware para soluciones de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "executive_title": "Radar Diario de IA - Innovaciones y Modelos",
-      "items": [
-        {
-          "title": "Evaluación de Agentes de Investigación Profunda en Consultoría",
-          "summary": "Se introduce un nuevo benchmark para evaluar la efectividad de agentes de investigación profunda en consultorías, midiendo su rendimiento y confiabilidad a través de distintos indicadores.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.17554",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agents",
-            "consulting",
-            "benchmark"
-          ],
-          "what_changed": "Se publican métricas y métodos de evaluación para agentes de investigación en escenarios de consultoría.",
-          "why_it_matters": "Mejorar la efectividad de los agentes en escenarios empresariales es crucial para la toma de decisiones y la eficiencia operativa.",
-          "sector_impact": "Positivo, al optimizar procesos de consultoría mediante el uso de IA."
-        },
-        {
-          "title": "CyberChainBench: Agentes de IA y Seguridad en Contratos Inteligentes",
-          "summary": "Se presenta CyberChainBench, un benchmark para evaluar agentes basados en LLM en la detección de vulnerabilidades en contratos inteligentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.26216",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "smart contracts",
-            "security",
-            "LLM"
-          ],
-          "what_changed": "Desarrollo de un entorno de evaluación para agentes centrados en la seguridad de contratos inteligentes.",
-          "why_it_matters": "La seguridad en blockchain es crítica para prevenir fraudes y violaciones de datos.",
-          "sector_impact": "Aumenta la confianza en aplicaciones descentralizadas."
-        },
-        {
-          "title": "ForeAgent: Marco de Forense para Detección de Imágenes Generadas por IA",
-          "summary": "Se desarrolla un nuevo marco para la detección de imágenes deepfake utilizando un enfoque de auto-refinamiento iterativo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.26552",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "forensics",
-            "deepfakes",
-            "AI"
-          ],
-          "what_changed": "Implementación de un sistema de auto-mejora para mejorar la precisión en la detección de imágenes generadas por IA.",
-          "why_it_matters": "A medida que se generan imágenes más realistas, se vuelve esencial contar con sistemas robustos de detección.",
-          "sector_impact": "Fomenta la integridad visual en medios digitales."
-        },
-        {
-          "title": "NeuraDock: Tutorial Abierto para Análisis en Tiempo Real de EEG",
-          "summary": "Presenta un marco de trabajo para analizar en tiempo real la carga cognitiva visual usando datos EEG.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.26518",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "EEG",
-            "cognitive load",
-            "real-time"
-          ],
-          "what_changed": "Se simplifica el proceso para implementar un sistema de análisis en tiempo real basado en EEG.",
-          "why_it_matters": "Facilita el uso de herramientas de EEG en aplicaciones prácticas y mejora el entendimiento de la carga cognitiva.",
-          "sector_impact": "Aumenta la efectividad en estudios de neurociencia aplicada."
-        },
-        {
-          "title": "LCAi: Evaluación de Ciclo de Vida Asistida por IA",
-          "summary": "Un nuevo marco para la interpretación de resultados en Evaluación de Ciclo de Vida utilizando fusión de datos y generación asistida por IA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.26857",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "LCA",
-            "sustainability",
-            "AI"
-          ],
-          "what_changed": "Introducción de una arquitectura para mejorar la interpretación de los resultados en LCA.",
-          "why_it_matters": "Ayuda a las empresas a tomar decisiones más informadas sobre sostenibilidad.",
-          "sector_impact": "Promueve prácticas más sostenibles en la industria."
-        },
-        {
-          "title": "Configuración de Control Determinista para Agentes de Codificación",
-          "summary": "Un control riguroso para la configuración de agentes de LLM que permite una gestión más efectiva de permisos y auditorías.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.26924",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "control",
-            "security"
-          ],
-          "what_changed": "Se introduce un sistema de control que gestiona la configuración de agentes de manera más efectiva.",
-          "why_it_matters": "Mejora la seguridad y el manejo de permisos en entornos de desarrollo de IA.",
-          "sector_impact": "Aumenta la protección contra vulnerabilidades en el desarrollo de software."
-        },
-        {
-          "title": "Orquestación de Herramientas Cognitivas para Comprensión Vídeo",
-          "summary": "Desarrollo de un marco que integra confianza en las herramientas utilizadas para la comprensión de vídeo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.26904",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "video analysis",
-            "AI",
-            "tool orchestration"
-          ],
-          "what_changed": "Integración de la fiabilidad de herramientas en el proceso de análisis de vídeo.",
-          "why_it_matters": "Aumenta la precisión en la interpretación de datos visuales.",
-          "sector_impact": "Mejora aplicaciones de visión por computadora en diversos sectores."
         }
       ]
     }

@@ -1,112 +1,127 @@
 {
-  "date": "2026-07-02",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-07-03",
+  "executive_title": "Radar Diario de AI - Innovaciones y Herramientas",
+  "intro_message": "Bienvenido al Radar Diario de IA, donde exploramos las herramientas y modelos más relevantes en el campo de la inteligencia artificial.",
+  "opening_message": "Este informe presenta las últimas novedades relacionadas con modelos, frameworks, integraciones y automatización en AI. Con enfoque en nuevas herramientas y características que impactan el sector.",
   "items": [
     {
-      "title": "Testing Frontier Large Language Models' Physics Literacy in Parallel Physical Worlds",
-      "summary": "arXiv:2607.00276v1 Announce Type: cross Abstract: Current large-language-model (LLM) physics benchmarks are usually scored by answer accuracy, which cannot distinguish genuine reasoning from recall of familiar problem patterns and reveals little about where a model's reasoning breaks down. We introduce an auditable four-stage diagnostic that evaluates whether an LLM can reason inside an unfamiliar physics framework through induction, formulation, prediction, and review. The diagnostic combines locked pre-registrations, fresh sessions between stages, dual-LLM judging, and a human-audit pathway, and we apply it to three parallel physics worlds: a single-equation counterfactual world ($F=mv$), a historical framework (Aristotelian mechanics), and a four-domain counterfactual world (Decay World). Across Claude Opus 4.7, GPT-5.5, and Gemini 3.1 Pro, the three worlds yield composite PASS rates are 6/15, 6/15, and 0/15 respectively (content $\\land$ structural for $F=mv$ and Aristotelian, content axis only for Decay World where the structural axis is out of scope). The most pointed empirical pattern is a qualitative-versus-quantitative asymmetry: in Decay World, models almost never predict the wrong direction of change, but frequently compute the wrong ratio by slipping back to standard-physics relations. The protocol also surfaces two methodology findings: LLM-judge reliability does not transfer across frameworks, and Stage 4 self-review is weak in every framework, with the model's own review wrongly reporting no earlier error in at least two-thirds of the trials that actually contained one. We release the full prompts, responses, verdicts, and audit records.",
-      "category": "model",
+      "title": "MMIR-TCM: Framework para TCM",
+      "summary": "Un nuevo framework que integra inteligencia artificial multimodal para apoyar decisiones clínicas en medicina tradicional china, mostrando un fuerte rendimiento en diagnóstico.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.00276",
-      "relevance_score": 34,
+      "source_url": "https://arxiv.org/abs/2607.01814",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "multimodal",
+        "diagnóstico",
+        "TCM"
+      ],
+      "what_changed": "Integra modelos de lenguaje en un proceso de diagnóstico estructurado.",
+      "why_it_matters": "Mejora la precisión en el diagnóstico clínico al reducir la subjetividad.",
+      "sector_impact": "Aporta claridad y eficacia en la medicina tradicional en el contexto de IA."
     },
     {
-      "title": "Comparing Large Language Models on Scrum Certification-Style Questions: Accuracy, Stability, and Error Patterns",
-      "summary": "arXiv:2607.00048v1 Announce Type: cross Abstract: Large Language Models (LLMs) are increasingly used in exam- and certification-style question answering tasks, where their ability to retrieve, interpret, and apply domain-specific knowledge can be systematically assessed. In Software Engineering, such settings are particularly relevant when questions depend on strict adherence to normative definitions, roles, artifacts, and rules. This paper evaluates the performance of three contemporary LLMs, \\textit{GPT-5 mini}, \\textit{Gemini 3 Flash}, and \\textit{DeepSeek Chat 3.2}, in answering 993 Scrum certification-style questions aligned with the Professional Scrum Master I (PSM I) assessment format. We evaluated the models under three prompting strategies (\\textit{zero-shot}, \\textit{chain-of-thought}, and \\textit{source-grounded}), with repeated executions to assess intra-model stability. We also analyzed performance across Scrum topics and question formats, complemented by a qualitative analysis of recurring error patterns in incorrect answers. Results revealed clear differences among models, with Gemini 3 Flash achieving the highest accuracy, followed by GPT-5 mini and DeepSeek Chat 3.2, while intra-model variability remained low across all conditions. By question format, the models achieved the highest accuracy on single-answer multiple-choice items, whereas multi-select and True/False questions were more error-prone. By topic, performance was more consistent in normatively explicit areas such as Artifacts, Empiricism, and Product Value, but more fragile in Scrum Values, Self-Managing Teams, and Stakeholders \\& Customers. The qualitative analysis showed that errors were systematic rather than random, involving overgeneralization, restrictive wording, compound distractors, and conflicts between common market interpretations and strict Scrum definitions.",
-      "category": "model",
+      "title": "Vera: Framework de Pruebas de Seguridad para LLM Agents",
+      "summary": "Una nueva solución automatizada para la evaluación de seguridad de agentes LLM, que permite descubrir riesgos emergentes y verificar su seguridad.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.00048",
-      "relevance_score": 29,
+      "source_url": "https://arxiv.org/abs/2607.01793",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "seguridad",
+        "LLM",
+        "pruebas"
+      ],
+      "what_changed": "Introduce un enfoque modular y autónomo para pruebas de seguridad.",
+      "why_it_matters": "Esencial para abordar los riesgos de seguridad en agentes LLM en evolución.",
+      "sector_impact": "Refuerza la confianza en el uso de IA en diversos sectores."
     },
     {
-      "title": "Toward Cybersecurity-Expert Small Language Models",
-      "summary": "arXiv:2510.14113v2 Announce Type: replace-cross Abstract: Large language models (LLMs) are transforming everyday applications, yet deployment in cybersecurity lags due to a lack of high-quality, domain-specific models and training datasets. To address this gap, we present CyberPal 2.0, a family of cybersecurity-expert small language models (SLMs) ranging from 4B-20B parameters. To train CyberPal 2.0, we generate an enriched chain-of-thought cybersecurity instruction dataset built with our data enrichment and formatting pipeline, SecKnowledge 2.0, which integrates expert-in-the-loop steering of reasoning formats alongside LLM-driven multi-step grounding, yielding higher-fidelity, task-grounded reasoning traces for security tasks. Across diverse cybersecurity benchmarks, CyberPal 2.0 consistently outperforms its baselines and matches or surpasses various open and closed-source frontier models, while remaining a fraction of their size. On core cyber threat intelligence knowledge tasks, our models outperform almost all tested frontier models, ranking second only to Sec-Gemini v1. On core threat-investigation tasks, such as correlating vulnerabilities and bug tickets with weaknesses, our best 20B-parameter model outperforms GPT-4o, o1, o3-mini, and Sec-Gemini v1, ranking first, while our smallest 4B-parameter model ranks second.",
-      "category": "model",
+      "title": "Cursor y Claude: Impacto en la Programación",
+      "summary": "Un estudio que analiza la adopción y el impacto de herramientas de codificación AI en la programación de línea de comandos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.14113",
-      "relevance_score": 27,
+      "source_url": "https://arxiv.org/abs/2607.01418",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "programación",
+        "herramientas",
+        "CLI"
+      ],
+      "what_changed": "Muestra un aumento en la eficiencia de los desarrolladores que utilizan estas herramientas.",
+      "why_it_matters": "Implica que la adopción de asistentes AI puede aumentar la productividad sin desplazar a nuevos desarrolladores.",
+      "sector_impact": "Impacta positivamente en la dinámica de trabajo en equipos de desarrollo."
     },
     {
-      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
-      "summary": "arXiv:2607.01224v1 Announce Type: new Abstract: Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class memory actions alongside task actions, letting the model itself decide how to manage its memory. This memory skill improves along two axes: the structure that supports it (prompts, file schemas, action vocabulary), and the proficiency of the model exercising it. Both axes resist manual optimization: episodes in long-horizon tasks run for thousands of steps, and a single memory mistake can hide long before it surfaces, making human review of full trajectories impractical. We introduce AutoMem, a framework that automates both axes. In the first loop, a strong LLM reviews complete agent trajectories and iteratively revises the memory structure that shapes how the agent interacts with its memory files. In the second loop, the agent's own good memory decisions are identified from many episodes and used as training signal to sharpen the model's memory proficiency directly. Across three procedurally generated long-horizon games (Crafter, MiniHack, and NetHack), optimizing memory alone--without modifying the model's task-action behavior--improved the base agent's performance ~2x-4x, bringing a 32B open-weight model competitive with frontier systems such as Claude Opus 4.5 and Gemini 3.1 Pro Thinking. Our results show that memory management is an independently learnable skill, and a high-leverage objective yielding large gains on long-horizon tasks.",
-      "category": "labs",
+      "title": "SkillDAG: Gráficos de Habilidades para Selectividad en LLM",
+      "summary": "Presenta un sistema que modela relaciones de habilidades como un gráfico dirigido, mejorando la selección de habilidades en agentes LLM.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.01224",
-      "relevance_score": 26,
+      "source_url": "https://arxiv.org/abs/2606.03056",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "habilidades",
+        "agentes",
+        "modelos"
+      ],
+      "what_changed": "Permite que agentes LLM seleccionen habilidades de manera más efectiva.",
+      "why_it_matters": "Facilita la evolución y adaptabilidad de agentes de IA en múltiples contextos.",
+      "sector_impact": "Mejora la flexibilidad en la implementación de tecnologías AI."
     },
     {
-      "title": "Prompting GPT-5 on Scrum Certification Questions: An Empirical Accuracy Study",
-      "summary": "arXiv:2607.00049v1 Announce Type: cross Abstract: Large Language Models (LLMs) are increasingly used in Agile Software Development for documentation, coaching, and training. As practitioners adopt these tools to prepare for certifications such as Professional Scrum Master (PSM), a key question is whether LLMs can reliably reason about Scrum, a framework with normative, well-defined rules described in the Scrum Guide (2020). This paper examines how different prompt techniques affect the factual accuracy of LLM responses to Scrum certification-style questions. A dataset of 993 validated PSM-aligned questions was answered by GPT-5 using three techniques: zero-shot, chain-of-thought, and with-source citation. All prompts achieved certification-level accuracy above 85\\%, with the citation-based variant performing best (89.1\\%) and yielding the lowest error rate. Correct answers concentrated in well-defined topics, such as \\emph{Definition of Done}, Events, and Product Backlog Management, and in single-answer multiple-choice items, while multi-select questions and more interpretive areas, such as Scrum Team and Product Value, were less stable. Among questions where at least one prompt failed (16.2\\%), errors clustered into misalignment with the Scrum Guide (28\\%), content outside its scope (34\\%), and outdated or biased interpretations (38\\%). Overall, prompt techniques produced modest but consistent improvements, particularly in reducing misinterpretation and version drift, supporting more reliable use of LLMs in Agile learning and certification preparation.",
-      "category": "model",
+      "title": "Automated Grading de Exámenes de Linux/Bash usando LLMs",
+      "summary": "Evaluación de modelos LLM para calificar respuestas en exámenes de Linux, mostrando promesas en la consistencia de calificación.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.00049",
-      "relevance_score": 26,
+      "source_url": "https://arxiv.org/abs/2607.02432",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "educación",
+        "calificación",
+        "Linux"
+      ],
+      "what_changed": "Demuestra eficiencia en la evaluación con modelos LLM.",
+      "why_it_matters": "Implica una solución viable para escalabilidad en la educación computacional.",
+      "sector_impact": "Transforma el modo en que se aborda la evaluación en educación técnica."
     },
     {
-      "title": "Skills Are Not Islands: Measuring Dependency and Risk in Agent Skill Supply Chains",
-      "summary": "arXiv:2607.01136v1 Announce Type: cross Abstract: Agent skills package reusable operational knowledge for Large Language Model (LLM) agents, yet as they grow in scope, they become dependency-bearing artifacts whose identities, versions, and provenance remain implicit. This opacity already causes duplicated dependencies and inconsistent installations, exposing a gap that dependency management has yet to close. We introduce Agent Skill Supply Chains (ASSCs) to characterize mixed skill-package-service dependency graphs and help close this gap. Borrowing from Software Bill of Materials (SBOMs), we design SkillDepAnalyzer to capture natural-language dependency evidence and model skills as dependency-bearing artifacts. On the SKILL-DEP benchmark, SkillDepAnalyzer recovers skill metadata and dependency graphs accurately and comprehensively, substantially outperforming an LLM-based baseline and package-centric SBOM tools. Applying SkillDepAnalyzer to over 1.43 million skills, we obtain ASSCs and explore their structural diversity and security signals. We find four structural patterns: skill metadata is activation-ready but governance-poor; dependency graphs span skill, package, and service dependencies with concentrated reuse; recursive skill reuse expands dependency graphs and creates hidden package inventory; and skill dependency clusters form around related workflows. We also find that inspecting a skill alone misses security-relevant signals hiding in its dependencies. By analyzing ASSCs, we identify and report known malicious skills persisting in ASSCs to their developers. Based on these findings, we recommend typed dependency manifests, first-class dependency-cluster management, risk-warning audit commands for skill infrastructure maintainers, and lockfile-like records for skill developers.",
-      "category": "labs",
+      "title": "Optimización de ReRankers de RAG con Feedback de LLM",
+      "summary": "Un marco de aprendizaje por refuerzo que alinea el reranking con la calidad de generación de LLMs, mejorando la utilidad de resultados.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.01136",
-      "relevance_score": 26,
+      "source_url": "https://arxiv.org/abs/2604.02091",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "re-ranking",
+        "optimización",
+        "RAG"
+      ],
+      "what_changed": "Integra feedback de LLM en el proceso de reranking.",
+      "why_it_matters": "Optimiza resultados en generación aumentada al asegurar calidad contextual.",
+      "sector_impact": "Potencia la efectividad de sistemas de preguntas y respuestas."
     },
     {
-      "title": "TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data?",
-      "summary": "arXiv:2606.13148v2 Announce Type: replace Abstract: Climate and environmental decision-making increasingly requires reasoning across heterogeneous inputs, including gridded physical data, satellite imagery, geospatial context, and simulator outputs. Weather and climate foundation models can forecast well, but do not reason interactively in language, while large language models (LLMs) reason in language but cannot operate directly on high-dimensional Earth-system data. As a result, real scientific workflows in Earth-science remain underserved. We introduce TerraBench, a benchmark for grounded Earth-science reasoning, built on TerraAgent, a ReAct-style executable framework that interleaves reasoning, tool calls, and observations to couple LLM planning with scientific tools for environmental retrieval, geospatial processing, simulation, and artifact-backed computation. TerraBench unifies analysis of Earth observation imagery, gridded data, GIS reasoning and simulation in a single executable interface, whereas prior benchmarks isolate these capabilities into narrow individual tasks. It is also the first in this space to pair process-level tool-use metrics with tolerance-aware numeric scoring. The benchmark comprises 403 extensive agentic tasks across three tracks (Fundamentals, Simulator-Grounded, and Document-Grounded Verification) and eight application domains with 24,500 verified execution steps. These results indicate that reliable Earth-science agents must go beyond tool access to coordinate heterogeneous workflows, parameterize tools precisely, and preserve artifact provenance.",
-      "category": "model",
+      "title": "Mastermind: Aprendizaje Estratégico para Vulnerabilidades",
+      "summary": "Presenta un marco para la reproducción de vulnerabilidades en repositorios, mejorando las estrategias de reparación.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.13148",
-      "relevance_score": 26,
+      "source_url": "https://arxiv.org/abs/2607.01764",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "WorkBench Revisited: Workplace Agents Two Years On",
-      "summary": "arXiv:2606.13715v2 Announce Type: replace Abstract: The best agent on WorkBench in March 2024, GPT-4, completed just 43% of tasks. We revisit the benchmark in June 2026 and find that the best agent to date, Claude Fable 5, now completes 98%. Beyond this considerable progress in frontier agent performance, three things stand out. First, unintended harmful actions, such as emailing the wrong person, fell from 26% of tasks for GPT-4 to 1.9% for Claude Fable 5; capability and safety go together on WorkBench rather than trade off, so the models that finish the most tasks also do the least unintended damage. Second, the rise of open-weight models has drastically lowered costs for a performance level that was only accessible to proprietary models, while frontier costs have stayed stable. Third, while several classes of error have been eliminated, frontier models still make some basic mistakes that occasionally result in irreversible harm. We release an updated version of the benchmark with data and code quality improvements, new model scores, and analysis of agent progress on WorkBench since 2024.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.13715",
-      "relevance_score": 25,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "seguridad",
+        "vulnerabilidades",
+        "sistemas"
+      ],
+      "what_changed": "Separa el aprendizaje de estrategias del proceso en sí, haciéndolo más efectivo.",
+      "why_it_matters": "Transforma cómo los agentes manejan y responden a la seguridad del software.",
+      "sector_impact": "Erige una nueva norma en la auditoría y corrección de software."
     }
   ]
 }
