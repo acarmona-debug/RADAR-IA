@@ -1,127 +1,137 @@
 {
-  "date": "2026-07-03",
-  "executive_title": "Radar Diario de AI - Innovaciones y Herramientas",
-  "intro_message": "Bienvenido al Radar Diario de IA, donde exploramos las herramientas y modelos más relevantes en el campo de la inteligencia artificial.",
-  "opening_message": "Este informe presenta las últimas novedades relacionadas con modelos, frameworks, integraciones y automatización en AI. Con enfoque en nuevas herramientas y características que impactan el sector.",
+  "date": "2026-07-04",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Bienvenido al Radar Diario de IA, donde recopilamos las últimas innovaciones y desarrollos en inteligencia artificial que importan para los desarrolladores y empresas.",
+  "opening_message": "A continuación, encontrará las herramientas, modelos, frameworks y características más relevantes del momento.",
   "items": [
     {
-      "title": "MMIR-TCM: Framework para TCM",
-      "summary": "Un nuevo framework que integra inteligencia artificial multimodal para apoyar decisiones clínicas en medicina tradicional china, mostrando un fuerte rendimiento en diagnóstico.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.01814",
+      "title": "Gemini Spark, el asistente agentivo de Google, ya está disponible en Mac",
+      "summary": "El asistente agentivo Gemini Spark de Google llega a Mac, con mejoras como seguimiento en tiempo real y soporte para más aplicaciones.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [
+        "Gemini",
+        "asistente"
+      ],
+      "what_changed": "Lanzamiento en Mac con nuevas funcionalidades.",
+      "why_it_matters": "Amplía el acceso y la funcionalidad de los asistentes de IA en plataformas populares.",
+      "sector_impact": "Transformación en cómo los usuarios interactúan con la tecnología diariamente."
+    },
+    {
+      "title": "Yep, estamos usando OpenClaw para citas ahora",
+      "summary": "Ben Guez ha automatizado su vida amorosa con OpenClaw y Claude, para interactuar en Instagram.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "multimodal",
-        "diagnóstico",
-        "TCM"
+        "automación",
+        "OpenClaw"
       ],
-      "what_changed": "Integra modelos de lenguaje en un proceso de diagnóstico estructurado.",
-      "why_it_matters": "Mejora la precisión en el diagnóstico clínico al reducir la subjetividad.",
-      "sector_impact": "Aporta claridad y eficacia en la medicina tradicional en el contexto de IA."
+      "what_changed": "Utilización de herramientas de IA para mejorar la interacción social.",
+      "why_it_matters": "Muestra el potencial de IA en aspectos creativos de la vida personal.",
+      "sector_impact": "Innovación en el ámbito de las relaciones y conexiones humanas."
     },
     {
-      "title": "Vera: Framework de Pruebas de Seguridad para LLM Agents",
-      "summary": "Una nueva solución automatizada para la evaluación de seguridad de agentes LLM, que permite descubrir riesgos emergentes y verificar su seguridad.",
+      "title": "Microsoft lanza su propia compañía de implementación de IA con un compromiso de $2.5 mil millones",
+      "summary": "Microsoft se une a Amazon, OpenAI y Anthropic con su nuevo grupo de implementación de IA.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.01793",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "seguridad",
-        "LLM",
-        "pruebas"
+        "Microsoft",
+        "implementación de IA"
       ],
-      "what_changed": "Introduce un enfoque modular y autónomo para pruebas de seguridad.",
-      "why_it_matters": "Esencial para abordar los riesgos de seguridad en agentes LLM en evolución.",
-      "sector_impact": "Refuerza la confianza en el uso de IA en diversos sectores."
+      "what_changed": "Establecimiento de un nuevo grupo dedicado a la implementación de IA.",
+      "why_it_matters": "Refuerza la competencia en el sector de la IA y las soluciones empresariales.",
+      "sector_impact": "Impulsa la innovación y las soluciones escalables en el mercado."
     },
     {
-      "title": "Cursor y Claude: Impacto en la Programación",
-      "summary": "Un estudio que analiza la adopción y el impacto de herramientas de codificación AI en la programación de línea de comandos.",
+      "title": "Anthropic discute un nuevo chip personalizado con Samsung",
+      "summary": "Colaboración entre Anthropic y Samsung para el desarrollo de hardware especializado en IA.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.01418",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "programación",
-        "herramientas",
-        "CLI"
+        "hardware",
+        "IA"
       ],
-      "what_changed": "Muestra un aumento en la eficiencia de los desarrolladores que utilizan estas herramientas.",
-      "why_it_matters": "Implica que la adopción de asistentes AI puede aumentar la productividad sin desplazar a nuevos desarrolladores.",
-      "sector_impact": "Impacta positivamente en la dinámica de trabajo en equipos de desarrollo."
+      "what_changed": "Desarrollo de un chip personalizado para modelos de IA.",
+      "why_it_matters": "Aumenta la eficiencia y capacidad de los modelos de IA en diversas aplicaciones.",
+      "sector_impact": "Revoluciona el hardware tecnológico en el sector de la inteligencia artificial."
     },
     {
-      "title": "SkillDAG: Gráficos de Habilidades para Selectividad en LLM",
-      "summary": "Presenta un sistema que modela relaciones de habilidades como un gráfico dirigido, mejorando la selección de habilidades en agentes LLM.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.03056",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "habilidades",
-        "agentes",
-        "modelos"
-      ],
-      "what_changed": "Permite que agentes LLM seleccionen habilidades de manera más efectiva.",
-      "why_it_matters": "Facilita la evolución y adaptabilidad de agentes de IA en múltiples contextos.",
-      "sector_impact": "Mejora la flexibilidad en la implementación de tecnologías AI."
-    },
-    {
-      "title": "Automated Grading de Exámenes de Linux/Bash usando LLMs",
-      "summary": "Evaluación de modelos LLM para calificar respuestas en exámenes de Linux, mostrando promesas en la consistencia de calificación.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.02432",
+      "title": "Los líderes educativos de NYC y Google se unen para dar forma al futuro de la IA en las aulas",
+      "summary": "Cumbre de líderes en IA en Google para definir el impacto educativo de la tecnología.",
+      "category": "sector",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "educación",
-        "calificación",
-        "Linux"
+        "AI"
       ],
-      "what_changed": "Demuestra eficiencia en la evaluación con modelos LLM.",
-      "why_it_matters": "Implica una solución viable para escalabilidad en la educación computacional.",
-      "sector_impact": "Transforma el modo en que se aborda la evaluación en educación técnica."
+      "what_changed": "Reunión de líderes para discutir la integración de IA en la educación.",
+      "why_it_matters": "Abre caminos para un mejor aprendizaje a través de la tecnología.",
+      "sector_impact": "Transformación educativa y mejora de la enseñanza a través de IA."
     },
     {
-      "title": "Optimización de ReRankers de RAG con Feedback de LLM",
-      "summary": "Un marco de aprendizaje por refuerzo que alinea el reranking con la calidad de generación de LLMs, mejorando la utilidad de resultados.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.02091",
+      "title": "Alternativas a Microsoft Office impulsadas por IA",
+      "summary": "Bhavin Turakhia invierte $30M para desarrollar una alternativa alimentada por IA a Microsoft Office.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "re-ranking",
-        "optimización",
-        "RAG"
+        "alternativa",
+        "software"
       ],
-      "what_changed": "Integra feedback de LLM en el proceso de reranking.",
-      "why_it_matters": "Optimiza resultados en generación aumentada al asegurar calidad contextual.",
-      "sector_impact": "Potencia la efectividad de sistemas de preguntas y respuestas."
+      "what_changed": "Inversión significativa en un nuevo proyecto de software de oficina.",
+      "why_it_matters": "Ofrece competencia en un mercado dominado por grandes nombres.",
+      "sector_impact": "Evolución de las herramientas de productividad usando IA."
     },
     {
-      "title": "Mastermind: Aprendizaje Estratégico para Vulnerabilidades",
-      "summary": "Presenta un marco para la reproducción de vulnerabilidades en repositorios, mejorando las estrategias de reparación.",
+      "title": "Actualizaciones de IA de Google en junio de 2026",
+      "summary": "Novedades y características que Google lanzó en el mes de junio.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.01764",
-      "relevance_score": 7,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "seguridad",
-        "vulnerabilidades",
-        "sistemas"
+        "actualizaciones",
+        "Google AI"
       ],
-      "what_changed": "Separa el aprendizaje de estrategias del proceso en sí, haciéndolo más efectivo.",
-      "why_it_matters": "Transforma cómo los agentes manejan y responden a la seguridad del software.",
-      "sector_impact": "Erige una nueva norma en la auditoría y corrección de software."
+      "what_changed": "Resumen de las innovaciones anunciadas recientemente.",
+      "why_it_matters": "Mantiene a los desarrolladores actualizados sobre las herramientas de Google.",
+      "sector_impact": "Afecta la adopción y uso de tecnologías de IA en diferentes sectores."
+    },
+    {
+      "title": "Meta lanza Pocket, una aplicación de juegos generados por IA",
+      "summary": "Una nueva aplicación experimental que permite generar mini juegos interactivos a partir de textos.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Meta",
+        "juegos",
+        "IA"
+      ],
+      "what_changed": "Lanzamiento de una nueva aplicación enfocada en juegos interactivas.",
+      "why_it_matters": "Explora un nuevo uso de la IA en entretenimiento interactivo.",
+      "sector_impact": "Reinvención de la experiencia de juego mediante IA."
     }
   ]
 }

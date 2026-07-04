@@ -1,6 +1,141 @@
 {
   "days": [
     {
+      "date": "2026-07-04",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Gemini Spark, el asistente agentivo de Google, ya está disponible en Mac",
+          "summary": "El asistente agentivo Gemini Spark de Google llega a Mac, con mejoras como seguimiento en tiempo real y soporte para más aplicaciones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "asistente"
+          ],
+          "what_changed": "Lanzamiento en Mac con nuevas funcionalidades.",
+          "why_it_matters": "Amplía el acceso y la funcionalidad de los asistentes de IA en plataformas populares.",
+          "sector_impact": "Transformación en cómo los usuarios interactúan con la tecnología diariamente."
+        },
+        {
+          "title": "Yep, estamos usando OpenClaw para citas ahora",
+          "summary": "Ben Guez ha automatizado su vida amorosa con OpenClaw y Claude, para interactuar en Instagram.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "OpenClaw"
+          ],
+          "what_changed": "Utilización de herramientas de IA para mejorar la interacción social.",
+          "why_it_matters": "Muestra el potencial de IA en aspectos creativos de la vida personal.",
+          "sector_impact": "Innovación en el ámbito de las relaciones y conexiones humanas."
+        },
+        {
+          "title": "Microsoft lanza su propia compañía de implementación de IA con un compromiso de $2.5 mil millones",
+          "summary": "Microsoft se une a Amazon, OpenAI y Anthropic con su nuevo grupo de implementación de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Microsoft",
+            "implementación de IA"
+          ],
+          "what_changed": "Establecimiento de un nuevo grupo dedicado a la implementación de IA.",
+          "why_it_matters": "Refuerza la competencia en el sector de la IA y las soluciones empresariales.",
+          "sector_impact": "Impulsa la innovación y las soluciones escalables en el mercado."
+        },
+        {
+          "title": "Anthropic discute un nuevo chip personalizado con Samsung",
+          "summary": "Colaboración entre Anthropic y Samsung para el desarrollo de hardware especializado en IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "hardware",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un chip personalizado para modelos de IA.",
+          "why_it_matters": "Aumenta la eficiencia y capacidad de los modelos de IA en diversas aplicaciones.",
+          "sector_impact": "Revoluciona el hardware tecnológico en el sector de la inteligencia artificial."
+        },
+        {
+          "title": "Los líderes educativos de NYC y Google se unen para dar forma al futuro de la IA en las aulas",
+          "summary": "Cumbre de líderes en IA en Google para definir el impacto educativo de la tecnología.",
+          "category": "sector",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "educación",
+            "AI"
+          ],
+          "what_changed": "Reunión de líderes para discutir la integración de IA en la educación.",
+          "why_it_matters": "Abre caminos para un mejor aprendizaje a través de la tecnología.",
+          "sector_impact": "Transformación educativa y mejora de la enseñanza a través de IA."
+        },
+        {
+          "title": "Alternativas a Microsoft Office impulsadas por IA",
+          "summary": "Bhavin Turakhia invierte $30M para desarrollar una alternativa alimentada por IA a Microsoft Office.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "alternativa",
+            "software"
+          ],
+          "what_changed": "Inversión significativa en un nuevo proyecto de software de oficina.",
+          "why_it_matters": "Ofrece competencia en un mercado dominado por grandes nombres.",
+          "sector_impact": "Evolución de las herramientas de productividad usando IA."
+        },
+        {
+          "title": "Actualizaciones de IA de Google en junio de 2026",
+          "summary": "Novedades y características que Google lanzó en el mes de junio.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "actualizaciones",
+            "Google AI"
+          ],
+          "what_changed": "Resumen de las innovaciones anunciadas recientemente.",
+          "why_it_matters": "Mantiene a los desarrolladores actualizados sobre las herramientas de Google.",
+          "sector_impact": "Afecta la adopción y uso de tecnologías de IA en diferentes sectores."
+        },
+        {
+          "title": "Meta lanza Pocket, una aplicación de juegos generados por IA",
+          "summary": "Una nueva aplicación experimental que permite generar mini juegos interactivos a partir de textos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "juegos",
+            "IA"
+          ],
+          "what_changed": "Lanzamiento de una nueva aplicación enfocada en juegos interactivas.",
+          "why_it_matters": "Explora un nuevo uso de la IA en entretenimiento interactivo.",
+          "sector_impact": "Reinvención de la experiencia de juego mediante IA."
+        }
+      ]
+    },
+    {
       "date": "2026-07-03",
       "executive_title": "Radar Diario de AI - Innovaciones y Herramientas",
       "items": [
@@ -727,97 +862,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-27",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Claude de Anthropic gana terreno frente a ChatGPT",
-          "summary": "A pesar del dominio de ChatGPT, los usuarios pagos están optando cada vez más por Claude de Anthropic.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "AI",
-            "Claude",
-            "ChatGPT"
-          ],
-          "what_changed": "Claude ha aumentado su cuota de mercado entre usuarios pagos.",
-          "why_it_matters": "Esto indica una competencia creciente en el mercado de modelos de IA.",
-          "sector_impact": "Impulsa la innovación y la diversidad en opciones para consumidores."
-        },
-        {
-          "title": "Adobe adquiere Topaz Labs para mejorar sus herramientas",
-          "summary": "Adobe integrará las herramientas de mejora de imagen y video de Topaz Labs en sus aplicaciones.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Adobe",
-            "Topaz Labs",
-            "herramientas"
-          ],
-          "what_changed": "Adobe refuerza su suite de herramientas creativas.",
-          "why_it_matters": "Esto permitirá a los usuarios crear contenido de calidad superior.",
-          "sector_impact": "Mejora la competitividad en el sector de herramientas creativas."
-        },
-        {
-          "title": "Patronus AI recibe $50M para testear agentes de IA",
-          "summary": "La startup Patronus AI está desarrollando mundos digitales para evaluar agentes de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Patronus AI",
-            "agentes",
-            "financiación"
-          ],
-          "what_changed": "La收到 de financiamiento permitirá una expansión significativa de sus capacidades.",
-          "why_it_matters": "Contribuye a la investigación y validación de agentes de IA en entornos complejos.",
-          "sector_impact": "Impulsa la capacidad de prueba y rendimiento de agentes en aplicaciones prácticas."
-        },
-        {
-          "title": "General Intuition invierte $2.3B en entrenamiento de IA",
-          "summary": "La compañía está utilizando datos de juegos para entrenar AI y mejorar su 'intuición' en el mundo real.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "General Intuition",
-            "entrenamiento",
-            "IA"
-          ],
-          "what_changed": "Se han recaudado fondos significativos para impulsar su investigación.",
-          "why_it_matters": "Muestra el potencial de los videojuegos como herramienta de entrenamiento en IA.",
-          "sector_impact": "Aumenta la comprensión del comportamiento de la IA en situaciones de la vida real."
-        },
-        {
-          "title": "OpenAI presenta su chip personalizado Jalapeño",
-          "summary": "OpenAI está desarrollando su chip de inferencia personalizado, buscando independencia de Nvidia.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "Jalapeño",
-            "chips"
-          ],
-          "what_changed": "Introducción de un chip diseñado para optimizar el rendimiento de IA.",
-          "why_it_matters": "Reduce la dependencia de recursos limitados para el desarrollo de IA.",
-          "sector_impact": "Impulsa la capacidad de personalización en hardware para soluciones de IA."
         }
       ]
     }
