@@ -1,6 +1,64 @@
 {
   "days": [
     {
+      "date": "2026-07-06",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+          "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Amazon will stop accepting new customers for Mechanical Turk",
+          "summary": "These may be the last days of Amazon’s Mechanical Turk.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+          "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "The only AI glossary you’ll need this year",
+          "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+          "relevance_score": 2,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-07-05",
       "executive_title": "Radar IA del día",
       "items": [
@@ -744,124 +802,6 @@
           "what_changed": "Estudio empírico sobre flujos de trabajo en automatización sin código.",
           "why_it_matters": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
           "sector_impact": "Desarrollo de soluciones más efectivas en entornos de automatización."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "NormAct: A Benchmark for Hidden Social Norm Compliance in Embodied Planning",
-          "summary": "Se introduce un nuevo benchmark que evalúa la capacidad de los modelos para adherirse a normas sociales implícitas en la planificación de acciones.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.27826",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "normas sociales"
-          ],
-          "what_changed": "Se propuso un marco para evaluar la adherencia a normas sociales en la planificación.",
-          "why_it_matters": "Es crucial para desarrollar agentes que interactúen de manera socialmente aceptable.",
-          "sector_impact": "Desarrollo de agentes con mejores capacidades sociales."
-        },
-        {
-          "title": "TAC: An Agentic Benchmark for Implicit Animal Welfare",
-          "summary": "Un nuevo benchmark para evaluar si los agentes de IA evitan opciones que implican explotación animal al actuar en nombre de los usuarios.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.18142",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "bienestar animal"
-          ],
-          "what_changed": "Se creó un benchmark que mide las decisiones de los agentes sobre el bienestar animal.",
-          "why_it_matters": "Promueve la conciencia y responsabilidad en la toma de decisiones de IA.",
-          "sector_impact": "Mejora la ética en la implementación de IA en decisiones comerciales."
-        },
-        {
-          "title": "$\\tau$-Rec: A Verifiable Benchmark for Agentic Recommender Systems",
-          "summary": "Se presenta un nuevo benchmark que mide la consistencia en sistemas de recomendación agentes mediante recompensas verificables.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.10156",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "sistemas de recomendación"
-          ],
-          "what_changed": "Desarrollo de un método de evaluación más objetivo para sistemas de recomendación.",
-          "why_it_matters": "Contribuye a mejorar la fiabilidad de las recomendaciones de IA.",
-          "sector_impact": "Impulsa la confianza en aplicaciones críticas que dependen de recomendaciones de IA."
-        },
-        {
-          "title": "Health-ORSC-Bench: A Benchmark for Measuring Over-Refusal in Health",
-          "summary": "Un nuevo benchmark que mide la capacidad de los modelos de IA para manejar preguntas benignas en contextos de salud sin caer en sobre-refusals.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.17642",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "salud"
-          ],
-          "what_changed": "Se introdujo un marco para evaluar la eficiencia de las respuestas en salud.",
-          "why_it_matters": "Mejora la seguridad y la utilidad de los asistentes de IA en salud.",
-          "sector_impact": "Fortalece la aplicación de IA en contextos médicos."
-        },
-        {
-          "title": "Grounded Iterative Language Planning: Reducing Hallucination Propagation",
-          "summary": "Se introduce un método novedoso que combina modelos paramétricos con agentes para reducir los errores de planificación en IA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.27806",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "marco",
-            "planificación"
-          ],
-          "what_changed": "Ofrece nuevas métricas operativas y unidad entre el razonamiento y la planificación de acciones.",
-          "why_it_matters": "Aumenta la eficacia de los modelos de lenguaje al reducir las alucinaciones.",
-          "sector_impact": "Mejora el rendimiento de agentes en tareas complejas."
-        },
-        {
-          "title": "Hybrid Fact-Checking Using LLMs and Knowledge Graphs",
-          "summary": "Nuevo enfoque para la verificación de hechos que integra LLMs, gráficos de conocimiento y agentes de búsqueda.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.03217",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "verificación de hechos"
-          ],
-          "what_changed": "Mejora la precisión en la verificación de información.",
-          "why_it_matters": "Aumenta la fiabilidad de la información generada por IA.",
-          "sector_impact": "Promueve la confianza y transparencia en el uso de IA."
-        },
-        {
-          "title": "LiveClawBench: Benchmarking LLM Agents on Real-World Tasks",
-          "summary": "Nuevo benchmark diseñado para evaluar agentes de LLM en tareas de asistente en entornos reales y complejos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.13072",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "agente LLM"
-          ],
-          "what_changed": "Introducción de una evaluación más fiel a tareas reales.",
-          "why_it_matters": "Evaluaciones más precisas de la eficacia de asistentes de IA.",
-          "sector_impact": "Aumenta la eficiencia y usabilidad de asistentes automatizados."
         }
       ]
     }
