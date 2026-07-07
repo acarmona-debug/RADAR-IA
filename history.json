@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-07-07",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "AgentGym2: Benchmarking Large Language Model Agents",
+          "summary": "Presenta un nuevo marco de evaluación que mide la capacidad de los agentes de lenguaje para operar en entornos del mundo real, poniendo a prueba su habilidad para explorar y descubrir herramientas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.05174",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un nuevo marco de evaluación para LLMs.",
+          "why_it_matters": "Permite evaluar la eficacia de modelos en situaciones prácticas, mejorando su adaptabilidad.",
+          "sector_impact": "Transforma la manera en que se evalúan los modelos de IA en entornos reales."
+        },
+        {
+          "title": "NLT: Validación de la Eficacia de Herramientas de Lenguaje Natural",
+          "summary": "Un estudio que confirma que el uso de herramientas de lenguaje natural mejora la precisión de llamadas a herramientas en sistemas de agentes de LLM.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.03953",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "exactitud",
+            "modelos"
+          ],
+          "what_changed": "Resultados mejorados en la precisión de llamadas a herramientas de 14 modelos evaluados.",
+          "why_it_matters": "Aumenta significativamente la efectividad operativa de los agentes en sistemas de producción.",
+          "sector_impact": "Optimiza el uso de herramientas en la IA, especialmente en aplicaciones empresariales."
+        },
+        {
+          "title": "SkillOpt-Lite: Optimización de Habilidades para Agentes",
+          "summary": "Proporciona un enfoque simplificado para la optimización de habilidades de agentes autónomos, mejorando la eficacia y convergencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.03451",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un nuevo marco que acelera la evolución de habilidades de agentes.",
+          "why_it_matters": "Facilita la evolución de las capacidades de los agentes, haciendo el proceso más accesible.",
+          "sector_impact": "Aumenta la capacidad adaptativa de agentes en entornos de trabajo complejos."
+        },
+        {
+          "title": "CoC-Seduce: Evaluación de Adherencia a Reglas en Ambientes Textuales",
+          "summary": "Benchmark que evalúa la adherencia a reglas en modelos LLM al ser utilizados como adjudicadores en entornos textuales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.02802",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un nuevo marco para la evaluación de la robustez en agentes.",
+          "why_it_matters": "Aborda vulnerabilidades en modelos que actúan como adjudicadores, aumento de seguridad.",
+          "sector_impact": "Mejora la fiabilidad de los sistemas autónomos en entornos abiertos."
+        },
+        {
+          "title": "quantum-api-drift: Evaluación de la Generación de Código Cuántico",
+          "summary": "Benchmark que mide la fidelidad de las versiones en la generación de códigos cuánticos usando LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.04072",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "API",
+            "cuántico"
+          ],
+          "what_changed": "Establecimiento de un nuevo estándar para evaluar la generación de código cuántico.",
+          "why_it_matters": "Ayuda a asegurar la interoperabilidad y precisión del código generado.",
+          "sector_impact": "Transforma las prácticas de desarrollo de software en el ámbito cuántico."
+        },
+        {
+          "title": "VERITAS: Herramienta de Replicación para Investigación Científica",
+          "summary": "Framework de replicación destinado a automatizar partes del proceso de verificación de la investigación publicada.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.02931",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "replicación",
+            "investigación"
+          ],
+          "what_changed": "Introducción de un sistema que mejora la efectividad de la replicación de estudios científicos.",
+          "why_it_matters": "Proporciona un método eficiente para validar la investigación, aumentando su credibilidad.",
+          "sector_impact": "Fortalece la integridad de la investigación científica en múltiples disciplinas."
+        },
+        {
+          "title": "SPORK: Forking Especulativo para Acelerar Inferencias de LLM",
+          "summary": "Un controlador que permite la ejecución anticipada de llamadas a herramientas, mejorando el rendimiento en la inferencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.03333",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "rendimiento",
+            "optimización"
+          ],
+          "what_changed": "Creación de un mecanismo que mejora la eficiencia operativa sin necesidad de reentrenar modelos.",
+          "why_it_matters": "Minimiza el tiempo de espera en la ejecución de herramientas, mejorando la fluidez del proceso.",
+          "sector_impact": "Optimiza el uso de LLMs en contextos de alta demanda operativa."
+        }
+      ]
+    },
+    {
       "date": "2026-07-06",
       "executive_title": "Radar IA del día",
       "items": [
@@ -660,148 +778,6 @@
           "what_changed": "Introducción de un benchmark que recopila tareas de replicación y evaluación.",
           "why_it_matters": "Se presenta ReplicatorBench, un benchmark para evaluar la capacidad de los agentes de IA en replicar investigaciones científicas.",
           "sector_impact": "Mejora la integridad de la investigación en ciencias sociales."
-        }
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "meta-pipe: Una tubería de agente LLM para revisiones sistemáticas automatizadas",
-          "summary": "Presenta una arquitectura de pipeline que integra la revisión sistemática y el análisis meta con supervisión humana en puntos críticos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.28363",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automación",
-            "LLM",
-            "meta-análisis"
-          ],
-          "what_changed": "Desarrollo de un pipeline modular open-source.",
-          "why_it_matters": "Facilita la síntesis de evidencias asistida por IA.",
-          "sector_impact": "Mejora en la producción de reportes de investigación."
-        },
-        {
-          "title": "PolicyGuard: Un verificador de sub-agentes para el cumplimiento de políticas en agentes LLM",
-          "summary": "Introduce un verificador que razona sobre políticas en el contexto de diálogos, proporcionando retroalimentación específica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.29225",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "verificación",
-            "diálogo",
-            "LLM"
-          ],
-          "what_changed": "Mejora en la adherencia a políticas en flujos de trabajo de agentes.",
-          "why_it_matters": "Aumenta la responsabilidad y transparencia en interacciones automatizadas.",
-          "sector_impact": "Aplicaciones en entidades que requieren cumplimiento normativo."
-        },
-        {
-          "title": "AutoB2G: Simulación y aprendizaje reforzado para control interactivo de edificios",
-          "summary": "Un marco de trabajo para la co-simulación de edificios que integra control de la demanda y aprendizaje en tiempo real.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.26005",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "aprendizaje reforzado",
-            "control energético"
-          ],
-          "what_changed": "Facilita la construcción de pipelines para simulaciones complejas.",
-          "why_it_matters": "Mejora la flexibilidad en sistemas modernos de energía.",
-          "sector_impact": "Impacto en la sostenibilidad y eficiencia energética."
-        },
-        {
-          "title": "Insidious by Design: Sesgos algorítmicos en LLM para el Sur Global",
-          "summary": "Estudia cómo los sesgos en LLMs afectan las narrativas y estructuras en el Sur Global.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.28333",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "sesgo",
-            "IA",
-            "narrativas"
-          ],
-          "what_changed": "Análisis crítico de la producción de contenido en LLMs.",
-          "why_it_matters": "Estudia cómo los sesgos en LLMs afectan las narrativas y estructuras en el Sur Global.",
-          "sector_impact": "Relevancia en desarrollo de tecnologías inclusivas."
-        },
-        {
-          "title": "MCP: Patrones arquitectónicos para aplicaciones integradas de LLM",
-          "summary": "Descripción de patrones arquitectónicos observados en servidores MCP para conectar LLMs con herramientas externas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.30317",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "arquitectura",
-            "MCP",
-            "servicios"
-          ],
-          "what_changed": "Identificación de patrones recurrentes en el ecosistema MCP.",
-          "why_it_matters": "Optimiza la implementación de soluciones basadas en LLM.",
-          "sector_impact": "Facilita la integración de IA en diversas aplicaciones."
-        },
-        {
-          "title": "Hierarchical Experimentalist Agents: Aprendizaje por experimentación activa",
-          "summary": "Proporciona un marco de mejora mediante experimentación activa en agentes LLM.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.29315",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "experimentos",
-            "aprendizaje automático"
-          ],
-          "what_changed": "Desarrollo de un enfoque de auto-mejora en agentes.",
-          "why_it_matters": "Proporciona un marco de mejora mediante experimentación activa en agentes LLM.",
-          "sector_impact": "Aplicaciones en robótica y sistemas dinámicos."
-        },
-        {
-          "title": "Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries",
-          "summary": "Evalúa herramientas de IA clínica en consultas reales, destacando la eficacia de herramientas especializadas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.28960",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "IA",
-            "salud"
-          ],
-          "what_changed": "Comparación entre modelos LLM y herramientas clínicas especializadas.",
-          "why_it_matters": "Evalúa herramientas de IA clínica en consultas reales, destacando la eficacia de herramientas especializadas.",
-          "sector_impact": "Impulsa la adopción de IA en el sector salud."
-        },
-        {
-          "title": "Characterizing Large Language Model Agentic Workflows: Un estudio sobre el ecosistema N8n",
-          "summary": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.29116",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "LLM",
-            "n8n"
-          ],
-          "what_changed": "Estudio empírico sobre flujos de trabajo en automatización sin código.",
-          "why_it_matters": "Analiza la adopción de LLM en plataformas de automatización sin código, destacando patrones y fiabilidad.",
-          "sector_impact": "Desarrollo de soluciones más efectivas en entornos de automatización."
         }
       ]
     }

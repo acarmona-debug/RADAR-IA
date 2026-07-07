@@ -1,60 +1,120 @@
 {
-  "date": "2026-07-06",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-07-07",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Este radar diario destaca herramientas, modelos y frameworks emergentes en el campo de la inteligencia artificial que son cruciales para desarrolladores e integraciones.",
+  "opening_message": "A continuación, se presentan los últimos avances y lanzamientos que pueden ser de gran utilidad operativa en el ecosistema de IA.",
   "items": [
     {
-      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
-      "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
-      "relevance_score": 2,
+      "title": "AgentGym2: Benchmarking Large Language Model Agents",
+      "summary": "Presenta un nuevo marco de evaluación que mide la capacidad de los agentes de lenguaje para operar en entornos del mundo real, poniendo a prueba su habilidad para explorar y descubrir herramientas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.05174",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un nuevo marco de evaluación para LLMs.",
+      "why_it_matters": "Permite evaluar la eficacia de modelos en situaciones prácticas, mejorando su adaptabilidad.",
+      "sector_impact": "Transforma la manera en que se evalúan los modelos de IA en entornos reales."
     },
     {
-      "title": "Amazon will stop accepting new customers for Mechanical Turk",
-      "summary": "These may be the last days of Amazon’s Mechanical Turk.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
-      "relevance_score": 2,
+      "title": "NLT: Validación de la Eficacia de Herramientas de Lenguaje Natural",
+      "summary": "Un estudio que confirma que el uso de herramientas de lenguaje natural mejora la precisión de llamadas a herramientas en sistemas de agentes de LLM.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.03953",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "exactitud",
+        "modelos"
+      ],
+      "what_changed": "Resultados mejorados en la precisión de llamadas a herramientas de 14 modelos evaluados.",
+      "why_it_matters": "Aumenta significativamente la efectividad operativa de los agentes en sistemas de producción.",
+      "sector_impact": "Optimiza el uso de herramientas en la IA, especialmente en aplicaciones empresariales."
     },
     {
-      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-      "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "relevance_score": 2,
+      "title": "SkillOpt-Lite: Optimización de Habilidades para Agentes",
+      "summary": "Proporciona un enfoque simplificado para la optimización de habilidades de agentes autónomos, mejorando la eficacia y convergencia.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.03451",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "optimización",
+        "agentes"
+      ],
+      "what_changed": "Desarrollo de un nuevo marco que acelera la evolución de habilidades de agentes.",
+      "why_it_matters": "Facilita la evolución de las capacidades de los agentes, haciendo el proceso más accesible.",
+      "sector_impact": "Aumenta la capacidad adaptativa de agentes en entornos de trabajo complejos."
     },
     {
-      "title": "The only AI glossary you’ll need this year",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "relevance_score": 2,
+      "title": "CoC-Seduce: Evaluación de Adherencia a Reglas en Ambientes Textuales",
+      "summary": "Benchmark que evalúa la adherencia a reglas en modelos LLM al ser utilizados como adjudicadores en entornos textuales.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.02802",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "evaluación",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un nuevo marco para la evaluación de la robustez en agentes.",
+      "why_it_matters": "Aborda vulnerabilidades en modelos que actúan como adjudicadores, aumento de seguridad.",
+      "sector_impact": "Mejora la fiabilidad de los sistemas autónomos en entornos abiertos."
+    },
+    {
+      "title": "quantum-api-drift: Evaluación de la Generación de Código Cuántico",
+      "summary": "Benchmark que mide la fidelidad de las versiones en la generación de códigos cuánticos usando LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.04072",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "API",
+        "cuántico"
+      ],
+      "what_changed": "Establecimiento de un nuevo estándar para evaluar la generación de código cuántico.",
+      "why_it_matters": "Ayuda a asegurar la interoperabilidad y precisión del código generado.",
+      "sector_impact": "Transforma las prácticas de desarrollo de software en el ámbito cuántico."
+    },
+    {
+      "title": "VERITAS: Herramienta de Replicación para Investigación Científica",
+      "summary": "Framework de replicación destinado a automatizar partes del proceso de verificación de la investigación publicada.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.02931",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "replicación",
+        "investigación"
+      ],
+      "what_changed": "Introducción de un sistema que mejora la efectividad de la replicación de estudios científicos.",
+      "why_it_matters": "Proporciona un método eficiente para validar la investigación, aumentando su credibilidad.",
+      "sector_impact": "Fortalece la integridad de la investigación científica en múltiples disciplinas."
+    },
+    {
+      "title": "SPORK: Forking Especulativo para Acelerar Inferencias de LLM",
+      "summary": "Un controlador que permite la ejecución anticipada de llamadas a herramientas, mejorando el rendimiento en la inferencia.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.03333",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "rendimiento",
+        "optimización"
+      ],
+      "what_changed": "Creación de un mecanismo que mejora la eficiencia operativa sin necesidad de reentrenar modelos.",
+      "why_it_matters": "Minimiza el tiempo de espera en la ejecución de herramientas, mejorando la fluidez del proceso.",
+      "sector_impact": "Optimiza el uso de LLMs en contextos de alta demanda operativa."
     }
   ]
 }
