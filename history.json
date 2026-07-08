@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-07-08",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Expanding Managed Agents in Gemini API",
+          "summary": "Anuncio de nuevas capacidades en Managed Agents dentro de Gemini API, permitiendo a los desarrolladores construir agentes confiables y listos para producción.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "API",
+            "agentes"
+          ],
+          "what_changed": "Se han añadido nuevas funciones para mejorar la creación de agentes.",
+          "why_it_matters": "Facilita el desarrollo de aplicaciones más robustas y adaptativas.",
+          "sector_impact": "Mejora la accesibilidad en el desarrollo de IA."
+        },
+        {
+          "title": "SecureCode: Multi-Turn Dataset for Security-Aware Code Generation",
+          "summary": "Introducción de SecureCode, un dataset de entrenamiento para modelos de generación de código enfocados en la seguridad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.18542",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "dataset",
+            "código"
+          ],
+          "what_changed": "Dataset incluye ejemplos de seguridad web y de AI/ML mejorando el entrenamiento de modelos.",
+          "why_it_matters": "Ayuda a mitigar vulnerabilidades en el código generado automáticamente.",
+          "sector_impact": "Aumenta la seguridad en aplicaciones desarrolladas con IA."
+        },
+        {
+          "title": "PORTS: Preference-Optimized Retrievers for Tool Selection",
+          "summary": "Presentación de PORTS, un método para optimizar la selección de herramientas con LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.05441",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "herramientas",
+            "optimización"
+          ],
+          "what_changed": "Método permite pre-seleccionar herramientas de manera más precisa.",
+          "why_it_matters": "Mejora la eficiencia y precisión en la selección de herramientas para tareas automáticas.",
+          "sector_impact": "Aumenta la efectividad de sistemas automáticos que utilizan múltiples herramientas."
+        },
+        {
+          "title": "Detoxify: Framework for Abusive Text Transformation",
+          "summary": "Detoxify, marco de trabajo para transformar texto abusivo en versiones no abusivas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2507.10177",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "NLP",
+            "transformación",
+            "texto"
+          ],
+          "what_changed": "Desarrolla un marco que mantiene la intención original del mensaje.",
+          "why_it_matters": "Ayuda a moderar contenido en plataformas digitales sin perder el contexto.",
+          "sector_impact": "Mejora la interacción en entornos digitales, reduciendo el discurso de odio."
+        },
+        {
+          "title": "PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents",
+          "summary": "Introducción de PolyWorkBench, un marco para evaluar agentes LLM en escenarios de trabajo multilingües.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.06008",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "multilingüe",
+            "evaluación"
+          ],
+          "what_changed": "Se centra en la ejecución de tareas multilingües en contextos laborales.",
+          "why_it_matters": "Aborda la falta de herramientas para evaluar eficazmente la multimodalidad en LLM.",
+          "sector_impact": "Facilita la integración de habilidades lingüísticas en aplicaciones IA."
+        },
+        {
+          "title": "VASP Agent: Framework for Autonomous First-principles Calculations",
+          "summary": "VASP Agent, un sistema que permite cálculos autónomos de principios fundamentales en investigación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.19458",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "autonomía",
+            "investigación",
+            "cálculo"
+          ],
+          "what_changed": "Integra herramientas de dominio en un marco de trabajo de agente.",
+          "why_it_matters": "Mejora la autonomía y la eficiencia en cálculos científicos complejos.",
+          "sector_impact": "Incrementa el avance en materiales a través de la investigación autónoma."
+        }
+      ]
+    },
+    {
       "date": "2026-07-07",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -653,131 +761,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Anthropic lanza Claude Sonnet 5 como una alternativa más económica para agentes",
-          "summary": "Claude Sonnet 5 ofrece capacidades de agente más robustas y una mejor seguridad a un precio inferior, posicionándolo como una alternativa viable frente a Opus, GPT-5.5 y Gemini Pro.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Claude Sonnet 5",
-            "agentes",
-            "IA económica"
-          ],
-          "what_changed": "Lanzamiento de un nuevo modelo con mejor relación costo-beneficio.",
-          "why_it_matters": "Facilita el acceso a tecnologías avanzadas de IA para desarrolladores y empresas.",
-          "sector_impact": "Incrementa la competitividad en soluciones de IA basadas en agentes."
-        },
-        {
-          "title": "ShopX: Un Modelo Fundamental para el Cumplimiento de Intenciones en Compras Agénciales",
-          "summary": "ShopX busca unificar la comprensión de intenciones y la planificación de ejecuciones en experiencias de compra mediadas por agentes de IA.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.31693",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "compras",
-            "modelo de IA",
-            "experiencia de usuario"
-          ],
-          "what_changed": "Desarrollo de un modelo que integra cumplimiento y comprensión de intenciones.",
-          "why_it_matters": "Mejora la interacción entre usuarios y sistemas de recomendación mediante una mayor precisión y flexibilidad.",
-          "sector_impact": "Transforma la forma en que se realizan las compras en línea."
-        },
-        {
-          "title": "HealthAgentBench: Suite de Benchmark para Agentes de Salud",
-          "summary": "HealthAgentBench introduce 54 tareas de salud agenciales para evaluar el progreso de los agentes de IA en entornos clínicos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.31179",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "salud",
-            "benchmark",
-            "IA"
-          ],
-          "what_changed": "Nuevas tareas diseñadas para evaluar el rendimiento de agentes de IA en clínicas.",
-          "why_it_matters": "Establece un estándar para medir el avance de la IA en aplicaciones de salud.",
-          "sector_impact": "Aumenta la confianza en el uso de IA para la atención médica."
-        },
-        {
-          "title": "Knowledge Graphs como Capa de Datos para Operaciones Industriales Basadas en LLM",
-          "summary": "Se demuestra la eficacia de los grafos de conocimiento para mejorar la precisión de los agentes de IA en operaciones de mantenimiento industrial.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.26874",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "grafías de conocimiento",
-            "operaciones industriales",
-            "LLM"
-          ],
-          "what_changed": "Uso de grafos de conocimiento para mejorar la precisión de respuestas de los agentes.",
-          "why_it_matters": "Permite un razonamiento más efectivo en contextos industriales complejos.",
-          "sector_impact": "Optimiza el mantenimiento industrial y reduce costos."
-        },
-        {
-          "title": "AgRefactor: Flujo de Trabajo Agencial Auto-Evolutivo para Compatibilidad HLS",
-          "summary": "AgRefactor es un flujo de trabajo LLM que proporciona flexibilidad y eficiencias en la refactorización de software a código HLS.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.30949",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "refactorización",
-            "HLS",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de una herramienta automatizada que mejora el proceso de refactorización.",
-          "why_it_matters": "Aumenta la escalabilidad y eficiencia en la programación de software.",
-          "sector_impact": "Facilita la integración de software en hardware, optimizando el desarrollo."
-        },
-        {
-          "title": "A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities",
-          "summary": "Un estudio integral sobre las vulnerabilidades de los LLM en diferentes etapas de su ciclo de vida.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.31639",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "vulnerabilidades",
-            "ciclo de vida",
-            "IA"
-          ],
-          "what_changed": "Clasificación de vulnerabilidades en LLMs a través de su ciclo de vida.",
-          "why_it_matters": "Un estudio integral sobre las vulnerabilidades de los LLM en diferentes etapas de su ciclo de vida.",
-          "sector_impact": "Aumenta la comprensión y mitigación de riesgos asociados a modelos de IA."
-        },
-        {
-          "title": "ReplicatorBench: Benchmarking para Agentes LLM en Ciencias Sociales y Comportamiento",
-          "summary": "Se presenta ReplicatorBench, un benchmark para evaluar la capacidad de los agentes de IA en replicar investigaciones científicas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.11354",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "ciencias sociales",
-            "replicación"
-          ],
-          "what_changed": "Introducción de un benchmark que recopila tareas de replicación y evaluación.",
-          "why_it_matters": "Se presenta ReplicatorBench, un benchmark para evaluar la capacidad de los agentes de IA en replicar investigaciones científicas.",
-          "sector_impact": "Mejora la integridad de la investigación en ciencias sociales."
         }
       ]
     }
