@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-07-10",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "Context Graphs for Proactive Enterprise Agents",
+          "summary": "arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents: systems that surface relevant, actionable information to workers before they ask. We propose the Context Graph, a live relational data structure that models enterprise entities, their relationships, and state transitions over time. Built on this graph, we define a Delta Detection Engine that continuously monitors state changes, a Proactivity Scorer that ranks candidate insights by urgency, relevance, and persona-fit, and a Surfacing Layer powered by an LLM that delivers ranked notifications with grounded explanations. We formalize each component, derive a unified Proactivity Score function, and provide a complete end-to-end Python implementation using NetworkX and the Anthropic Claude API. Evaluation across three generic enterprise case studies (contract lifecycle management, engineering incident response, and sales pipeline hygiene) demonstrates that context-graph-driven proactivity achieves Precision@5 of 0.83, a false positive rate of 0.11, and reduces mean time to surface from 47 minutes (reactive baseline) to under 30 second.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.07721",
+          "relevance_score": 34,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Distributed Attacks in Persistent-State AI Control",
+          "summary": "arXiv:2607.02514v2 Announce Type: replace Abstract: As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterative VibeCoding, a coding agent builds software over a sequence of PRs in a persistent codebase while pursuing a covert side task. Our benchmark includes two task families: CLI tools and Flask web services, across 20 total task variations. We use Claude Sonnet 4.5 as the attack agent and GPT-4o as the monitor. We compare gradual attacks, which distribute the side task across PRs, against non-gradual attacks concentrated in a single PR. No single monitor is robust to both: which strategy evades best (success while evading the monitor) depends on the monitor type, so a defender cannot close off both gradual and non-gradual attacks with any one monitor. High evasion (>= 65%) generalizes across model attack agent backends (Sonnet 4.5, Gemini 3.1 Pro, Kimi K2.5), confirming this is a property of the persistent-state attack surface rather than a single model's capability. Evasion also remains high across state-of-the-art monitor models and the gap between gradual and non-gradual evasion widens for more capable models. We introduce a stateful link-tracker monitor that tracks suspicious buildup across PRs. On both task families, it detects gradual attacks substantially better than diff monitors that merely see more accumulated history. Combining this stronger monitor with trajectory monitors in a four-monitor ensemble reduces gradual-attack evasion from 93% under the weakest standard diff monitor to 47%.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.02514",
+          "relevance_score": 34,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation",
+          "summary": "arXiv:2607.08255v1 Announce Type: new Abstract: Large language models increasingly serve as teachers generating training data for smaller students. Prior multi-teacher knowledge distillation methods merge outputs without determining which frontier model teaches best, often relying on an LLM judge biased toward its own outputs. We introduce a compete-then-collaborate framework where four frontier AI teachers (Claude, Codex-GPT, Grok, Gemini) are ranked head-to-head by an execution-based judge (unit tests and stdin-stdout checks) with fairness controls, and then collaborate to build a verifiable curriculum for a student (Qwen2.5-Coder). We report three findings. (1) Under execution verification, all teachers solve standard problems near-perfectly after self-correction (99-100%) due to a saturation effect, but harder competition problems separate them (Gemini 77% > Claude 69% = Codex 69% > Grok 50%); however, the robust student-side results do not depend on teacher ranking. (2) Imitation (SFT) on verified solutions does not improve, and can degrade, an already-competent student at 7B and 32B (e.g., from 76.7% to 72.7% on MBPP-test, and 5.9% to 2.9% on competition problems). (3) Using the same collaborative curriculum as a reinforcement learning with verifiable rewards (RLVR) environment improves the student (from 5.9% to 8.8% peak on competition problems, a +49% relative gain), reversing SFT's direction. The value of AI-teacher collaboration lies not in pooling answers to imitate, but in jointly constructing a verifiable environment where the student learns by doing. We release a reproducible on-prem pipeline (NVIDIA GB10) with framework patches for running GRPO on a bleeding-edge stack.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.08255",
+          "relevance_score": 29,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+          "summary": "arXiv:2607.07858v1 Announce Type: new Abstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision workflows. Actuaries now face a design space that ranges from traditional rule-based automation to large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent ``agentic'' systems that plan, retrieve, call tools, and reflect. This paper examines how these emerging architectures can support actuarial priorities such as transparency, auditability, and human-in-the-loop governance, with a focus on straight-through decision processes. To make these ideas concrete, we develop and analyze an agentic AI framework for straight-through underwriting of small commercial Business Owner Policies (BOPs). We construct a synthetic but realistic experimental environment and compare three underwriting pipelines: (i) a single-LLM baseline, (ii) a naive RAG system, and (iii) a multi-agent ``Agentic RAG'' pipeline that combines targeted retrieval, third-party data checks, and explicit multi-step rule evaluation. The agentic system performs best overall, with the largest gains in multi-step and missing-information scenarios, where structured retrieval and reflection help the model avoid unsupported straight-through decisions.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.07858",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "A Vision Toward Energy-Efficient Domain-Specific Artificial Intelligence Models and Agents",
+          "summary": "arXiv:2510.22052v2 Announce Type: replace Abstract: The field of artificial intelligence (AI) has taken a tight hold on broad aspects of society, industry, business, and governance in ways that dictate the prosperity and might of the world's economies. The AI market size is projected to grow from {\\$}189 billion in 2023 to {\\$}4.8 trillion by 2033. Currently, AI is dominated by large language models (LLMs) that exhibit linguistic and visual intelligence. However, training these models requires a massive amount of data scraped from the web as well as large amounts of energy (50-60 GWh to train GPT-4). Despite these costs, these models often hallucinate, a characteristic that prevents them from being deployed in critical application domains. In contrast, the human brain consumes only 20W of power. What is needed is the next level of AI evolution in which lightweight domain-specific multimodal models, especially compact models with 10--20B parameters for bounded domains, with higher levels of intelligence can reason, plan, and make decisions in dynamic environments with real-time data and prior knowledge, while learning continuously and evolving in ways that enhance future decision-making capability. This will define the next wave of AI, progressing from today's large models, trained with vast amounts of data, to nimble energy-efficient domain-specific agents that can reason and think in a world full of uncertainty. To support such agents, hardware will need to be reimagined to allow system-level energy efficiencies $\\geq {1000X}$ over the state of the art for targeted domain tasks, subject to accuracy, latency, and coverage constraints. Such a vision of future AI systems is developed in this work.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.22052",
+          "relevance_score": 28,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models",
+          "summary": "arXiv:2607.08282v1 Announce Type: cross Abstract: While Large Language Models (LLMs) have become essential productivity tools, their integration into workflows without adequate safeguards creates significant risks. This paper proposes an open-source, privacy-focused, user-facing firewall designed to secure both web-based and programmatic LLM interactions. The architecture combines a browser extension and a proxy for total traffic interception across both HTTP(S) and WebSocket communications. At its core, a flexible multi-agent pipeline delivers data leakage prevention through a hybrid approach combining deterministic detectors with LLM-driven semantic analysis, proprietary code leakage prevention, and extensible components designed for future security enhancements such as prompt injection evasion. The framework's layered architecture enables deployment across heterogeneous environments, allowing organizations to balance computational cost, detection depth and latency. Evaluation results demonstrate it achieves F1 scores of up to 94.93% on optimal configurations.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.08282",
+          "relevance_score": 26,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Conversational AI for Rapid Scientific Prototyping: A Case Study on ESA's ELOPE Competition",
+          "summary": "arXiv:2601.04920v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly used as coding partners, yet their role in accelerating scientific discovery remains underexplored. This paper presents a case study of using ChatGPT for rapid prototyping in ESA's ELOPE (Event-based Lunar OPtical flow Egomotion estimation) competition. The competition required participants to process event camera data to estimate lunar lander trajectories. Despite joining late, we achieved second place with a score of 0.01282, highlighting the potential of human-AI collaboration in competitive scientific settings. ChatGPT contributed not only executable code but also algorithmic reasoning, data handling routines, and methodological suggestions, such as using fixed number of events instead of fixed time spans for windowing. At the same time, we observed limitations: the model often introduced unnecessary structural changes, gets confused by intermediate discussions about alternative ideas, occasionally produced critical errors and forgets important aspects in longer scientific discussions. By analyzing these strengths and shortcomings, we show how conversational AI can both accelerate development and support conceptual insight in scientific research. We argue that structured integration of LLMs into the scientific workflow can enhance rapid prototyping by proposing best practices for AI-assisted scientific work.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.04920",
+          "relevance_score": 26,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Persuasion Attacks Can Decrease Effectiveness of CoT Monitoring",
+          "summary": "arXiv:2607.08066v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising safety mechanism for AI agents, based on the premise that visible reasoning traces can surface misaligned or deceptive behavior. While effective in standard scenarios, recent work highlights that LLMs remain vulnerable to persuasion-based jailbreaks, where natural-language arguments override model constraints. We stress-test whether this vulnerability extends to monitoring LLMs: can an adversarial agent persuade its CoT monitor to approve proposed actions that violate the monitor's policy? We design an evaluation framework with 40 tasks and analyze thousands of agent-monitor interactions, where agents are instructed to argue for policy-violating proposals. We find that in such adversarial settings, monitor access to the agent's CoT reasoning increases rather than decreases approval of harmful actions on average by 9.5%, as the scratchpad provides an additional persuasion channel. To address this, we introduce a fact-checking monitoring framework. We find that a fact-checker and monitor pairing from different model families, for example a Claude 3.7 Sonnet monitor paired with a GPT-4.1 fact-checker, reduces approval of policy-violating actions by up to 45%, compared to only 6%, when using the same model for both fact-checking and monitoring roles. Our results demonstrate that CoT monitoring alone may be insufficient against adversarial persuasion, and that model-diverse fact-checking provides a robust mitigation.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.08066",
+          "relevance_score": 25,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-07-09",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Clave",
       "items": [
@@ -669,131 +779,6 @@
           "what_changed": "Lanzamiento de una nueva aplicación enfocada en juegos interactivas.",
           "why_it_matters": "Explora un nuevo uso de la IA en entretenimiento interactivo.",
           "sector_impact": "Reinvención de la experiencia de juego mediante IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "executive_title": "Radar Diario de AI - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "MMIR-TCM: Framework para TCM",
-          "summary": "Un nuevo framework que integra inteligencia artificial multimodal para apoyar decisiones clínicas en medicina tradicional china, mostrando un fuerte rendimiento en diagnóstico.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.01814",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "diagnóstico",
-            "TCM"
-          ],
-          "what_changed": "Integra modelos de lenguaje en un proceso de diagnóstico estructurado.",
-          "why_it_matters": "Mejora la precisión en el diagnóstico clínico al reducir la subjetividad.",
-          "sector_impact": "Aporta claridad y eficacia en la medicina tradicional en el contexto de IA."
-        },
-        {
-          "title": "Vera: Framework de Pruebas de Seguridad para LLM Agents",
-          "summary": "Una nueva solución automatizada para la evaluación de seguridad de agentes LLM, que permite descubrir riesgos emergentes y verificar su seguridad.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.01793",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "LLM",
-            "pruebas"
-          ],
-          "what_changed": "Introduce un enfoque modular y autónomo para pruebas de seguridad.",
-          "why_it_matters": "Esencial para abordar los riesgos de seguridad en agentes LLM en evolución.",
-          "sector_impact": "Refuerza la confianza en el uso de IA en diversos sectores."
-        },
-        {
-          "title": "Cursor y Claude: Impacto en la Programación",
-          "summary": "Un estudio que analiza la adopción y el impacto de herramientas de codificación AI en la programación de línea de comandos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.01418",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "programación",
-            "herramientas",
-            "CLI"
-          ],
-          "what_changed": "Muestra un aumento en la eficiencia de los desarrolladores que utilizan estas herramientas.",
-          "why_it_matters": "Implica que la adopción de asistentes AI puede aumentar la productividad sin desplazar a nuevos desarrolladores.",
-          "sector_impact": "Impacta positivamente en la dinámica de trabajo en equipos de desarrollo."
-        },
-        {
-          "title": "SkillDAG: Gráficos de Habilidades para Selectividad en LLM",
-          "summary": "Presenta un sistema que modela relaciones de habilidades como un gráfico dirigido, mejorando la selección de habilidades en agentes LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.03056",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "habilidades",
-            "agentes",
-            "modelos"
-          ],
-          "what_changed": "Permite que agentes LLM seleccionen habilidades de manera más efectiva.",
-          "why_it_matters": "Facilita la evolución y adaptabilidad de agentes de IA en múltiples contextos.",
-          "sector_impact": "Mejora la flexibilidad en la implementación de tecnologías AI."
-        },
-        {
-          "title": "Automated Grading de Exámenes de Linux/Bash usando LLMs",
-          "summary": "Evaluación de modelos LLM para calificar respuestas en exámenes de Linux, mostrando promesas en la consistencia de calificación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.02432",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "educación",
-            "calificación",
-            "Linux"
-          ],
-          "what_changed": "Demuestra eficiencia en la evaluación con modelos LLM.",
-          "why_it_matters": "Implica una solución viable para escalabilidad en la educación computacional.",
-          "sector_impact": "Transforma el modo en que se aborda la evaluación en educación técnica."
-        },
-        {
-          "title": "Optimización de ReRankers de RAG con Feedback de LLM",
-          "summary": "Un marco de aprendizaje por refuerzo que alinea el reranking con la calidad de generación de LLMs, mejorando la utilidad de resultados.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.02091",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "re-ranking",
-            "optimización",
-            "RAG"
-          ],
-          "what_changed": "Integra feedback de LLM en el proceso de reranking.",
-          "why_it_matters": "Optimiza resultados en generación aumentada al asegurar calidad contextual.",
-          "sector_impact": "Potencia la efectividad de sistemas de preguntas y respuestas."
-        },
-        {
-          "title": "Mastermind: Aprendizaje Estratégico para Vulnerabilidades",
-          "summary": "Presenta un marco para la reproducción de vulnerabilidades en repositorios, mejorando las estrategias de reparación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.01764",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "vulnerabilidades",
-            "sistemas"
-          ],
-          "what_changed": "Separa el aprendizaje de estrategias del proceso en sí, haciéndolo más efectivo.",
-          "why_it_matters": "Transforma cómo los agentes manejan y responden a la seguridad del software.",
-          "sector_impact": "Erige una nueva norma en la auditoría y corrección de software."
         }
       ]
     }
