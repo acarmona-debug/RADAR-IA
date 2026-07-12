@@ -1,127 +1,74 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas actualizaciones sobre herramientas, modelos y características innovadoras en el mundo de la inteligencia artificial.",
-  "opening_message": "Aquí están los desarrollos más relevantes del día en el ámbito de la IA.",
+  "intro_message": "Las últimas actualizaciones del ecosistema de inteligencia artificial.",
+  "opening_message": "Este informe destaca las herramientas, modelos y características nuevas que están moldeando el futuro de la IA.",
   "items": [
     {
-      "title": "OpenAI lanza su nueva familia de modelos con GPT-5.6",
-      "summary": "OpenAI presenta GPT-5.6, mejorando áreas como ciberseguridad.",
-      "category": "model",
+      "title": "Meta entra en la batalla de codificación con Muse Spark 1.1",
+      "summary": "Muse Spark 1.1 de Meta se enfoca en manejar cargas de trabajo grandes, arreglar errores y ayudar en migraciones de código.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "GPT-5.6",
-        "modelos"
+        "automatización",
+        "herramientas",
+        "codificación"
       ],
-      "what_changed": "Presentación de nuevos modelos.",
-      "why_it_matters": "Mejora significativa en ciberseguridad y aplicaciones empresariales.",
-      "sector_impact": "Alto, potencial de transformación en productividad empresarial."
+      "what_changed": "Lanzamiento de Muse Spark 1.1.",
+      "why_it_matters": "Proporciona soluciones avanzadas para empresas en la programación desde la IA.",
+      "sector_impact": "Transformación en la forma en que se desarrolla software."
     },
     {
-      "title": "OpenAI dice que GPT-5.6 es el ‘modelo preferido’ para Microsoft Copilot 365",
-      "summary": "El nuevo modelo de OpenAI impulsará las aplicaciones de productividad de Microsoft.",
+      "title": "Hugging Face revela su crecimiento en software de IA",
+      "summary": "El CEO de Hugging Face destaca que las empresas están dejando de rentar su IA y adoptando modelos de código abierto.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "source_url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "modelos",
+        "código abierto"
+      ],
+      "what_changed": "Crecimiento del uso de modelos de código abierto.",
+      "why_it_matters": "Impulsa un cambio hacia la independencia entre empresas y proveedores de IA.",
+      "sector_impact": "Modifica la dinámica del mercado de IA."
+    },
+    {
+      "title": "OpenAI apuesta por experiencias familiares con ChatGPT",
+      "summary": "OpenAI está buscando un gerente de producto para construir experiencias orientadas a familias y cuidadores.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Microsoft",
-        "Copilot",
-        "GPT-5.6"
+        "ChatGPT",
+        "experiencias",
+        "familias"
       ],
-      "what_changed": "Asociación entre Microsoft y OpenAI fortalecida.",
-      "why_it_matters": "Integral para la evolución de herramientas de productividad.",
-      "sector_impact": "Alto, mejorando la colaboración y la eficiencia."
+      "what_changed": "Iniciativa para crear experiencias específicas para el hogar.",
+      "why_it_matters": "Facilita la integración de AI en el día a día de las familias.",
+      "sector_impact": "Crecimiento en la adopción de tecnología de IA en entornos domésticos."
     },
     {
-      "title": "Lyzr utiliza su agente de IA para recaudar $100 millones",
-      "summary": "Startup que crea agentes de IA demuestra su eficacia al permitir que su propio agente gestione una recaudación de fondos.",
+      "title": "Data for Agents",
+      "summary": "Nueva publicación sobre datos útiles para agentes de IA por parte de Hugging Face.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-      "relevance_score": 8,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
-        "IA",
-        "startups",
-        "fundraising"
+        "agentes",
+        "datos"
       ],
-      "what_changed": "Uso de agentes de IA en financiación.",
-      "why_it_matters": "Prueba de la eficacia de la tecnología en aplicaciones prácticas.",
-      "sector_impact": "Moderado, valida el uso de IA en inversiones."
-    },
-    {
-      "title": "Meta lanza Muse Spark 1.1 para codificación con IA",
-      "summary": "Nuevo framework de codificación que facilita la corrección de errores y gestión de grandes cargas de trabajo.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowd-ai-coding-battle-with-muse-spark-1-1/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Meta",
-        "codificación",
-        "IA"
-      ],
-      "what_changed": "Introducción de nuevas funcionalidades automatizadas.",
-      "why_it_matters": "Ayuda a las empresas a optimizar sus flujos de trabajo.",
-      "sector_impact": "Alto, marca un cambio en la forma de desarrollar software."
-    },
-    {
-      "title": "OpenAI cierra Atlas, pero sigue con la IA de navegación",
-      "summary": "A pesar de cerrar Atlas, OpenAI integra características de navegación en su aplicación de escritorio.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "OpenAI",
-        "navegación",
-        "IA"
-      ],
-      "what_changed": "Cambio en la estrategia de desarrollo de herramientas de navegación.",
-      "why_it_matters": "Continúa el enfoque en la IA para mejorar la experiencia del usuario.",
-      "sector_impact": "Moderado, influencia en las herramientas de productividad."
-    },
-    {
-      "title": "Nuevos chips de IA de Meta comenzarán producción en septiembre",
-      "summary": "Meta adoptará un enfoque modular para el diseño de nuevos chips de IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Meta",
-        "chips",
-        "IA"
-      ],
-      "what_changed": "Inicio de producción de nueva tecnología.",
-      "why_it_matters": "Responderá a las necesidades cambiantes de la IA.",
-      "sector_impact": "Moderado, afectará el desarrollo tecnológico."
-    },
-    {
-      "title": "Hugging Face destaca el auge del IA de código abierto",
-      "summary": "Clem Delangue, CEO de Hugging Face, habla sobre la importancia creciente del IA abierto.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Hugging Face",
-        "código abierto",
-        "IA"
-      ],
-      "what_changed": "Énfasis en el crecimiento de la comunidad de IA abierta.",
-      "why_it_matters": "Fomenta la colaboración y la innovación en el sector.",
-      "sector_impact": "Alto, transformación en el uso de herramientas de IA."
+      "what_changed": "Contenido nuevo relacionado con la disponibilidad de datos.",
+      "why_it_matters": "Mejora la capacidad de los agentes de IA al utilizar datos específicos.",
+      "sector_impact": "Optimización del rendimiento de aplicaciones de agentes."
     }
   ]
 }

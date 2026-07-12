@@ -1,6 +1,78 @@
 {
   "days": [
     {
+      "date": "2026-07-12",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Meta entra en la batalla de codificación con Muse Spark 1.1",
+          "summary": "Muse Spark 1.1 de Meta se enfoca en manejar cargas de trabajo grandes, arreglar errores y ayudar en migraciones de código.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "herramientas",
+            "codificación"
+          ],
+          "what_changed": "Lanzamiento de Muse Spark 1.1.",
+          "why_it_matters": "Proporciona soluciones avanzadas para empresas en la programación desde la IA.",
+          "sector_impact": "Transformación en la forma en que se desarrolla software."
+        },
+        {
+          "title": "Hugging Face revela su crecimiento en software de IA",
+          "summary": "El CEO de Hugging Face destaca que las empresas están dejando de rentar su IA y adoptando modelos de código abierto.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "código abierto"
+          ],
+          "what_changed": "Crecimiento del uso de modelos de código abierto.",
+          "why_it_matters": "Impulsa un cambio hacia la independencia entre empresas y proveedores de IA.",
+          "sector_impact": "Modifica la dinámica del mercado de IA."
+        },
+        {
+          "title": "OpenAI apuesta por experiencias familiares con ChatGPT",
+          "summary": "OpenAI está buscando un gerente de producto para construir experiencias orientadas a familias y cuidadores.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "experiencias",
+            "familias"
+          ],
+          "what_changed": "Iniciativa para crear experiencias específicas para el hogar.",
+          "why_it_matters": "Facilita la integración de AI en el día a día de las familias.",
+          "sector_impact": "Crecimiento en la adopción de tecnología de IA en entornos domésticos."
+        },
+        {
+          "title": "Data for Agents",
+          "summary": "Nueva publicación sobre datos útiles para agentes de IA por parte de Hugging Face.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "datos"
+          ],
+          "what_changed": "Contenido nuevo relacionado con la disponibilidad de datos.",
+          "why_it_matters": "Mejora la capacidad de los agentes de IA al utilizar datos específicos.",
+          "sector_impact": "Optimización del rendimiento de aplicaciones de agentes."
+        }
+      ]
+    },
+    {
       "date": "2026-07-11",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -654,116 +726,6 @@
           "source_name": "TechCrunch AI",
           "source_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
           "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-05",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Alibaba reportedly bans employees from using Claude Code",
-          "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
-          "summary": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
-          "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
-          "summary": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
-          "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
-          "summary": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
-          "category": "labs",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
-          "summary": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-          "relevance_score": 4,
           "status": "new",
           "tags": [],
           "what_changed": "Nueva señal detectada.",
