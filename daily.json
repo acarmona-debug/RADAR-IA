@@ -1,74 +1,120 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas actualizaciones del ecosistema de inteligencia artificial.",
-  "opening_message": "Este informe destaca las herramientas, modelos y características nuevas que están moldeando el futuro de la IA.",
+  "intro_message": "Actualizaciones clave sobre nuevas herramientas, modelos y frameworks de IA que impactan en el sector.",
+  "opening_message": "Aquí están las últimas innovaciones y lanzamientos en el mundo de la inteligencia artificial.",
   "items": [
     {
-      "title": "Meta entra en la batalla de codificación con Muse Spark 1.1",
-      "summary": "Muse Spark 1.1 de Meta se enfoca en manejar cargas de trabajo grandes, arreglar errores y ayudar en migraciones de código.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "automatización",
-        "herramientas",
-        "codificación"
-      ],
-      "what_changed": "Lanzamiento de Muse Spark 1.1.",
-      "why_it_matters": "Proporciona soluciones avanzadas para empresas en la programación desde la IA.",
-      "sector_impact": "Transformación en la forma en que se desarrolla software."
-    },
-    {
-      "title": "Hugging Face revela su crecimiento en software de IA",
-      "summary": "El CEO de Hugging Face destaca que las empresas están dejando de rentar su IA y adoptando modelos de código abierto.",
+      "title": "Sistema de análisis fundamental mejorado con LLMs",
+      "summary": "Un sistema RAG que utiliza modelos de lenguaje para generar informes de inversores basados en análisis fundamental.",
       "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [
-        "modelos",
-        "código abierto"
-      ],
-      "what_changed": "Crecimiento del uso de modelos de código abierto.",
-      "why_it_matters": "Impulsa un cambio hacia la independencia entre empresas y proveedores de IA.",
-      "sector_impact": "Modifica la dinámica del mercado de IA."
-    },
-    {
-      "title": "OpenAI apuesta por experiencias familiares con ChatGPT",
-      "summary": "OpenAI está buscando un gerente de producto para construir experiencias orientadas a familias y cuidadores.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.09121",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ChatGPT",
-        "experiencias",
-        "familias"
+        "análisis financiero",
+        "LLMs"
       ],
-      "what_changed": "Iniciativa para crear experiencias específicas para el hogar.",
-      "why_it_matters": "Facilita la integración de AI en el día a día de las familias.",
-      "sector_impact": "Crecimiento en la adopción de tecnología de IA en entornos domésticos."
+      "what_changed": "Se incorpora un modelo LLM en la generación de informes de inversión.",
+      "why_it_matters": "Mejora la eficiencia del análisis de información financiera.",
+      "sector_impact": "Sector financiero"
     },
     {
-      "title": "Data for Agents",
-      "summary": "Nueva publicación sobre datos útiles para agentes de IA por parte de Hugging Face.",
+      "title": "Sistema Multi-Agent para resolución automática en telecomunicaciones",
+      "summary": "Un marco que integra modelos de lenguaje para automatizar el diagnóstico en redes de telecomunicaciones.",
       "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "relevance_score": 4,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.00651",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "telecomunicaciones",
+        "automated troubleshooting"
+      ],
+      "what_changed": "Introducción de un sistema multi-agente para la resolución de problemas.",
+      "why_it_matters": "Reduce la dependencia de expertos humanos en la resolución de fallos.",
+      "sector_impact": "Telecomunicaciones"
+    },
+    {
+      "title": "QAgent: Sistema multi-agente para programación autónoma",
+      "summary": "Un marco que genera código OpenQASM para optimización en dispositivos cuánticos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2508.20134",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "cuántico",
+        "programación"
+      ],
+      "what_changed": "Mejora en la generación autónoma de código cuántico.",
+      "why_it_matters": "Aumenta la eficiencia de la programación en computación cuántica.",
+      "sector_impact": "Tecnología cuántica"
+    },
+    {
+      "title": "BREW: Mejora de agentes de lenguaje mediante conocimiento ambiental",
+      "summary": "Un marco que mejora el aprendizaje experiencial para agentes de lenguaje.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.20297",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
         "agentes",
-        "datos"
+        "aprendizaje"
       ],
-      "what_changed": "Contenido nuevo relacionado con la disponibilidad de datos.",
-      "why_it_matters": "Mejora la capacidad de los agentes de IA al utilizar datos específicos.",
-      "sector_impact": "Optimización del rendimiento de aplicaciones de agentes."
+      "what_changed": "Implementación de memoria estructurada en agentes de LLM.",
+      "why_it_matters": "Permite que los agentes aprendan de experiencias pasadas.",
+      "sector_impact": "Inteligencia artificial general"
+    },
+    {
+      "title": "Git-Assistant: Soporte para la actualización de repositorios Git",
+      "summary": "Un asistente AI que ayuda a realizar operaciones complejas en Git de manera más eficiente.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.09224",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "desarrollo",
+        "Git"
+      ],
+      "what_changed": "Integración de modelos de lenguaje con capacidades de planificación.",
+      "why_it_matters": "Mejora la gestión de versiones en el desarrollo colaborativo.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "VEXAIoT: Explotación autónoma de vulnerabilidades IoT",
+      "summary": "Un marco que utiliza agentes AI para descubrir y explotar vulnerabilidades en sistemas IoT.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.09653",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "IoT"
+      ],
+      "what_changed": "Introducción de un marco autónomo de explotación en entornos IoT.",
+      "why_it_matters": "Aumenta la seguridad de dispositivos IoT en un entorno controlado.",
+      "sector_impact": "Seguridad informática"
+    },
+    {
+      "title": "AutoWorldBuilder: Sistema autónomo para construcción de mundos ficticios",
+      "summary": "Un sistema colaborativo para la generación automatizada de mundos en diseño de juegos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.09403",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "juegos",
+        "creación"
+      ],
+      "what_changed": "Mejora en la generación de contenido para desarrollo de mundos.",
+      "why_it_matters": "Facilita la creación de mundos complejos y coherentes.",
+      "sector_impact": "Entretenimiento digital"
     }
   ]
 }

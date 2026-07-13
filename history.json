@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-07-13",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Sistema de análisis fundamental mejorado con LLMs",
+          "summary": "Un sistema RAG que utiliza modelos de lenguaje para generar informes de inversores basados en análisis fundamental.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.09121",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "análisis financiero",
+            "LLMs"
+          ],
+          "what_changed": "Se incorpora un modelo LLM en la generación de informes de inversión.",
+          "why_it_matters": "Mejora la eficiencia del análisis de información financiera.",
+          "sector_impact": "Sector financiero"
+        },
+        {
+          "title": "Sistema Multi-Agent para resolución automática en telecomunicaciones",
+          "summary": "Un marco que integra modelos de lenguaje para automatizar el diagnóstico en redes de telecomunicaciones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.00651",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "telecomunicaciones",
+            "automated troubleshooting"
+          ],
+          "what_changed": "Introducción de un sistema multi-agente para la resolución de problemas.",
+          "why_it_matters": "Reduce la dependencia de expertos humanos en la resolución de fallos.",
+          "sector_impact": "Telecomunicaciones"
+        },
+        {
+          "title": "QAgent: Sistema multi-agente para programación autónoma",
+          "summary": "Un marco que genera código OpenQASM para optimización en dispositivos cuánticos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2508.20134",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "cuántico",
+            "programación"
+          ],
+          "what_changed": "Mejora en la generación autónoma de código cuántico.",
+          "why_it_matters": "Aumenta la eficiencia de la programación en computación cuántica.",
+          "sector_impact": "Tecnología cuántica"
+        },
+        {
+          "title": "BREW: Mejora de agentes de lenguaje mediante conocimiento ambiental",
+          "summary": "Un marco que mejora el aprendizaje experiencial para agentes de lenguaje.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.20297",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "aprendizaje"
+          ],
+          "what_changed": "Implementación de memoria estructurada en agentes de LLM.",
+          "why_it_matters": "Permite que los agentes aprendan de experiencias pasadas.",
+          "sector_impact": "Inteligencia artificial general"
+        },
+        {
+          "title": "Git-Assistant: Soporte para la actualización de repositorios Git",
+          "summary": "Un asistente AI que ayuda a realizar operaciones complejas en Git de manera más eficiente.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.09224",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "desarrollo",
+            "Git"
+          ],
+          "what_changed": "Integración de modelos de lenguaje con capacidades de planificación.",
+          "why_it_matters": "Mejora la gestión de versiones en el desarrollo colaborativo.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "VEXAIoT: Explotación autónoma de vulnerabilidades IoT",
+          "summary": "Un marco que utiliza agentes AI para descubrir y explotar vulnerabilidades en sistemas IoT.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.09653",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "IoT"
+          ],
+          "what_changed": "Introducción de un marco autónomo de explotación en entornos IoT.",
+          "why_it_matters": "Aumenta la seguridad de dispositivos IoT en un entorno controlado.",
+          "sector_impact": "Seguridad informática"
+        },
+        {
+          "title": "AutoWorldBuilder: Sistema autónomo para construcción de mundos ficticios",
+          "summary": "Un sistema colaborativo para la generación automatizada de mundos en diseño de juegos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.09403",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "juegos",
+            "creación"
+          ],
+          "what_changed": "Mejora en la generación de contenido para desarrollo de mundos.",
+          "why_it_matters": "Facilita la creación de mundos complejos y coherentes.",
+          "sector_impact": "Entretenimiento digital"
+        }
+      ]
+    },
+    {
       "date": "2026-07-12",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -673,64 +791,6 @@
           "what_changed": "Creación de un mecanismo que mejora la eficiencia operativa sin necesidad de reentrenar modelos.",
           "why_it_matters": "Minimiza el tiempo de espera en la ejecución de herramientas, mejorando la fluidez del proceso.",
           "sector_impact": "Optimiza el uso de LLMs en contextos de alta demanda operativa."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "executive_title": "Radar IA del día",
-      "items": [
-        {
-          "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
-          "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Amazon will stop accepting new customers for Mechanical Turk",
-          "summary": "These may be the last days of Amazon’s Mechanical Turk.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-          "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        },
-        {
-          "title": "The only AI glossary you’ll need this year",
-          "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-          "relevance_score": 2,
-          "status": "new",
-          "tags": [],
-          "what_changed": "Nueva señal detectada.",
-          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-          "sector_impact": "Relevante para el ecosistema de IA aplicada."
         }
       ]
     }
