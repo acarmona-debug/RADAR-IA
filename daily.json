@@ -1,120 +1,104 @@
 {
-  "date": "2026-07-13",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre nuevas herramientas, modelos y frameworks de IA que impactan en el sector.",
-  "opening_message": "Aquí están las últimas innovaciones y lanzamientos en el mundo de la inteligencia artificial.",
+  "date": "2026-07-14",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Emergentes",
+  "intro_message": "Presentamos las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial que están transformando el desarrollo y la automatización.",
+  "opening_message": "Este radar destaca lanzamientos recientes, modelos, frameworks y características que son clave para desarrolladores y entusiastas de la IA.",
   "items": [
     {
-      "title": "Sistema de análisis fundamental mejorado con LLMs",
-      "summary": "Un sistema RAG que utiliza modelos de lenguaje para generar informes de inversores basados en análisis fundamental.",
+      "title": "NormAct: Benchmark para Cumplimiento de Normas Sociales en Planificación Embodida",
+      "summary": "Evaluaciones que combinan el logro de objetivos con el cumplimiento de normas sociales ocultas, introduciendo el benchmark NormAct.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.09121",
+      "source_url": "https://arxiv.org/abs/2606.27826",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "análisis financiero",
-        "LLMs"
+        "Normas Sociales",
+        "Planificación Embodida"
       ],
-      "what_changed": "Se incorpora un modelo LLM en la generación de informes de inversión.",
-      "why_it_matters": "Mejora la eficiencia del análisis de información financiera.",
-      "sector_impact": "Sector financiero"
+      "what_changed": "Introducción de NormAct como un nuevo benchmark.",
+      "why_it_matters": "Permite evaluar modelos en contextos sociales, mejorando su aplicabilidad.",
+      "sector_impact": "Mejora en la interacción humano-agente y en la planificación social."
     },
     {
-      "title": "Sistema Multi-Agent para resolución automática en telecomunicaciones",
-      "summary": "Un marco que integra modelos de lenguaje para automatizar el diagnóstico en redes de telecomunicaciones.",
-      "category": "tool",
+      "title": "TENET: Desarrollo de Código Generado por Pruebas para Repositorios",
+      "summary": "Una nueva arquitectura para generación de código a nivel de repositorio que se centra en el desarrollo guiado por pruebas.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2511.00651",
+      "source_url": "https://arxiv.org/abs/2509.24148",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "telecomunicaciones",
-        "automated troubleshooting"
+        "Desarrollo de Software",
+        "Generación de Código"
       ],
-      "what_changed": "Introducción de un sistema multi-agente para la resolución de problemas.",
-      "why_it_matters": "Reduce la dependencia de expertos humanos en la resolución de fallos.",
-      "sector_impact": "Telecomunicaciones"
+      "what_changed": "Presentación del marco TENET para desarrollo de código.",
+      "why_it_matters": "Facilita la producción de código confiable mediante métodos automatizados.",
+      "sector_impact": "Optimización en procesos de desarrollo y pruebas de software."
     },
     {
-      "title": "QAgent: Sistema multi-agente para programación autónoma",
-      "summary": "Un marco que genera código OpenQASM para optimización en dispositivos cuánticos.",
+      "title": "MM-ToolSandBox: Evaluación de Agentes de Herramientas Visuales",
+      "summary": "Un marco para evaluar agentes que utilizan herramientas visuales en múltiples dominios de aplicación.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2508.20134",
+      "source_url": "https://arxiv.org/abs/2607.11818",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "cuántico",
-        "programación"
+        "Herramientas Visuales",
+        "Evaluación de Agentes"
       ],
-      "what_changed": "Mejora en la generación autónoma de código cuántico.",
-      "why_it_matters": "Aumenta la eficiencia de la programación en computación cuántica.",
-      "sector_impact": "Tecnología cuántica"
+      "what_changed": "Introducción de un marco de evaluación para agentes que llaman herramientas visuales.",
+      "why_it_matters": "Aborda la falta de robustez en la capacidad de estos modelos.",
+      "sector_impact": "Mejora del rendimiento de modelos de IA en tareas interactivas."
     },
     {
-      "title": "BREW: Mejora de agentes de lenguaje mediante conocimiento ambiental",
-      "summary": "Un marco que mejora el aprendizaje experiencial para agentes de lenguaje.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2511.20297",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "aprendizaje"
-      ],
-      "what_changed": "Implementación de memoria estructurada en agentes de LLM.",
-      "why_it_matters": "Permite que los agentes aprendan de experiencias pasadas.",
-      "sector_impact": "Inteligencia artificial general"
-    },
-    {
-      "title": "Git-Assistant: Soporte para la actualización de repositorios Git",
-      "summary": "Un asistente AI que ayuda a realizar operaciones complejas en Git de manera más eficiente.",
+      "title": "VIA: Agente de Interfaz Visual para el Control de Robots",
+      "summary": "Propuesta de un nuevo marco para controlar robots a través de una interfaz web 3D utilizando modelos de lenguaje.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.09224",
+      "source_url": "https://arxiv.org/abs/2607.11119",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "desarrollo",
-        "Git"
+        "Control de Robots",
+        "Interfaz Visual"
       ],
-      "what_changed": "Integración de modelos de lenguaje con capacidades de planificación.",
-      "why_it_matters": "Mejora la gestión de versiones en el desarrollo colaborativo.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Desarrollo de VIA como un nuevo método de control robótico.",
+      "why_it_matters": "Permite un control más accesible y efectivo de robots.",
+      "sector_impact": "Facilita la adopción de robots en diversas aplicaciones."
     },
     {
-      "title": "VEXAIoT: Explotación autónoma de vulnerabilidades IoT",
-      "summary": "Un marco que utiliza agentes AI para descubrir y explotar vulnerabilidades en sistemas IoT.",
+      "title": "Agent Hacks Agent: Autoresearch en Equipos de Producción de LLM",
+      "summary": "Metodología automatizada para identificar vulnerabilidades en agentes LLM en producción.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.09653",
+      "source_url": "https://arxiv.org/abs/2607.11698",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "seguridad",
-        "IoT"
+        "Seguridad de Agentes",
+        "Vulnerabilidades"
       ],
-      "what_changed": "Introducción de un marco autónomo de explotación en entornos IoT.",
-      "why_it_matters": "Aumenta la seguridad de dispositivos IoT en un entorno controlado.",
-      "sector_impact": "Seguridad informática"
+      "what_changed": "Introducción de AHA para la investigación automatizada de vulnerabilidades.",
+      "why_it_matters": "Mejora la seguridad y confianza en el uso de LLM en producción.",
+      "sector_impact": "Fortalece la integridad de los sistemas de IA en entornos críticos."
     },
     {
-      "title": "AutoWorldBuilder: Sistema autónomo para construcción de mundos ficticios",
-      "summary": "Un sistema colaborativo para la generación automatizada de mundos en diseño de juegos.",
+      "title": "AgentAbstain: Evaluación de la Capacidad de Abstención de Agentes LLM",
+      "summary": "Marco de evaluación para la capacidad de abstenerse de actuar en situaciones ambiguas o peligrosas.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.09403",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.10059",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "juegos",
-        "creación"
+        "Capacidad de Abstención",
+        "Evaluación de Agentes"
       ],
-      "what_changed": "Mejora en la generación de contenido para desarrollo de mundos.",
-      "why_it_matters": "Facilita la creación de mundos complejos y coherentes.",
-      "sector_impact": "Entretenimiento digital"
+      "what_changed": "Desarrollo de un nuevo marco para evaluar la abstención en agentes.",
+      "why_it_matters": "Reduce riesgos operacionales asociados a la IA en decisiones críticas.",
+      "sector_impact": "Aumenta la seguridad y confiabilidad de los sistemas de LLM."
     }
   ]
 }
