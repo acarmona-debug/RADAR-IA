@@ -1,76 +1,104 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave en herramientas, modelos y automatización de IA.",
-  "opening_message": "A continuación, se presentan los desarrollos más destacados en el ámbito de la inteligencia artificial, centrados en herramientas, modelos y características innovadoras.",
+  "intro_message": "Este radar diario presenta desarrollos significativos en herramientas, modelos y frameworks de inteligencia artificial, priorizando aquellos que ofrecen nuevas funcionalidades e integraciones. A continuación, se detallan los avances más relevantes.",
+  "opening_message": "Los siguientes elementos son cruciales para la evolución y adopción de IA en diversas aplicaciones. Mantente al tanto de estas innovaciones.",
   "items": [
     {
-      "title": "Orquestación Agente: Problemas de Implementación en IA Empresarial",
-      "summary": "Un estudio sobre cómo las empresas están eligiendo plataformas de modelos para la orquestación de agentes, destacando que Claude de Anthropic lidera la adopción, pero la realidad de los agentes desplegados sigue siendo limitada.",
-      "category": "model",
-      "source_name": "VentureBeat AI",
-      "source_url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "orquestación",
-        "agentes",
-        "Claude"
-      ],
-      "what_changed": "Estudio reciente revela la falta de implementación efectiva de agentes a pesar de la inversión.",
-      "why_it_matters": "Entender cómo las empresas manejan la orquestación de agentes es crítico para la optimización de costos y la eficacia operacional.",
-      "sector_impact": "Impacto significativo en cómo las empresas logran una implementación efectiva de IA."
-    },
-    {
-      "title": "Descubrimiento Automático de Ecuaciones Diferenciales Ordinarias",
-      "summary": "Un nuevo sistema que utiliza modelos de lenguaje para descubrir y ajustar ecuaciones diferenciales en sistemas biológicos, mostrando promesas para la automatización de la investigación.",
+      "title": "MathCoPilot: Un sistema interactivo para la investigación matemática",
+      "summary": "MathCoPilot es un sistema que permite una colaboración simbiotica entre humanos y agentes AI, dirigido a la investigación matemática.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.13608",
+      "source_url": "https://arxiv.org/abs/2607.14582",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "modelos",
-        "automatización",
-        "investigación"
+        "AGI",
+        "mathematics"
       ],
-      "what_changed": "Introducción de un sistema de agente que mejora la recuperación y formulación de modelos en biología.",
-      "why_it_matters": "Impulsa la capacidad de la IA para facilitar descubrimientos científicos y modelado dinámico.",
-      "sector_impact": "Transforma el enfoque de la investigación en biología a través de la automatización."
+      "what_changed": "Introducción de un marco colaborativo para la prueba de teoremas.",
+      "why_it_matters": "Facilita la verificación de teoremas complejos mediante colaboración humano-AI.",
+      "sector_impact": "Mejora la capacidad de investigación en matemáticas formales."
     },
     {
-      "title": "Economía de Inferencias en Agentes de Codificación",
-      "summary": "Estudia la elección entre modelos basados en API y modelos on-premise en la codificación autónoma ofreciendo una nueva perspectiva sobre costos y productividad en el desarrollo de software.",
+      "title": "OmniaBench: Benchmarking agentes AI generales",
+      "summary": "OmniaBench se introduce como un referente para evaluar agentes de IA en múltiples escenarios y características.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.13080",
+      "source_url": "https://arxiv.org/abs/2607.14989",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelos",
-        "codificación",
-        "costo"
+        "benchmark",
+        "agent evaluation"
       ],
-      "what_changed": "Análisis detallado de los costos de implementación y efectividad de diferentes tipos de modelos de IA en codificación.",
-      "why_it_matters": "Informa a las organizaciones sobre la mejor configuración para equilibrar costos y efectividad en desarrollo de software.",
-      "sector_impact": "Afecta decisiones sobre herramientas de desarrollo y modelos IA en empresas."
+      "what_changed": "Establecer un marco de referencia para la evaluación en ambientes diversos.",
+      "why_it_matters": "Permite identificar las capacidades y limitaciones de los modelos AI en diferentes dominios.",
+      "sector_impact": "Proporciona una base para la mejora y optimización de agentes AI."
     },
     {
-      "title": "Intervenciones en Auditorías de Dependencia de Premisas",
-      "summary": "Método innovador que evalúa la dependencia lógica de los razonamientos en modelos de lenguaje, crucial para mejorar la confiabilidad de las inferencias.",
+      "title": "MCPEvol-Bench: Evaluando la adaptabilidad de agentes AI",
+      "summary": "MCPEvol-Bench introduce un nuevo marco para evaluar agentes AI en entornos de herramientas en evolución.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.13069",
+      "source_url": "https://arxiv.org/abs/2607.14642",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "evaluación",
-        "razonamiento",
-        "modelos"
+        "adaptability",
+        "evaluation"
       ],
-      "what_changed": "Nuevas técnicas para auditar la lógica subyacente en modelos de lenguaje.",
-      "why_it_matters": "Asegura que los modelos tomen decisiones basadas en premisas correctas, mejorando su efectividad en aplicaciones reales.",
-      "sector_impact": "Aumenta la confianza en aplicaciones que dependen del razonamiento automatizado."
+      "what_changed": "Incorporación de métodos que simulan la evolución de interfaces de herramientas.",
+      "why_it_matters": "Evalúa la capacidad de adaptación de los agentes en entornos cambiantes.",
+      "sector_impact": "Aporta nuevas metodologías para la evaluación de modelos AI."
+    },
+    {
+      "title": "WrAFT: Sistema automatizado de evaluación de escritura",
+      "summary": "WrAFT ofrece evaluación y retroalimentación automatizada para ensayos argumentativos de forma precisa.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.14524",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "writing",
+        "assessment"
+      ],
+      "what_changed": "Implementación de un diseño modular que mejora la retroalimentación.",
+      "why_it_matters": "Proporciona herramientas avanzadas para mejorar la escritura y la evaluación académica.",
+      "sector_impact": "Transforma cómo se evalúan los ensayos en entornos académicos."
+    },
+    {
+      "title": "ReasFlow: Sistema de descubrimiento científico asistido por IA",
+      "summary": "ReasFlow operacionaliza un paradigma colaborativo para el descubrimiento científico centrado en el razonamiento.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.14178",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "scientific discovery",
+        "multi-agent system"
+      ],
+      "what_changed": "Unificación de tareas de síntesis de literatura y diseño de algoritmos dentro de un solo sistema.",
+      "why_it_matters": "Facilita la investigación teórica al reducir la intervención del experto.",
+      "sector_impact": "Mejora el proceso de investigación en matemáticas y ciencias aplicadas."
+    },
+    {
+      "title": "Agentes de Evaluación de Seguridad en IA",
+      "summary": "Más de la mitad de las empresas han tenido incidentes de seguridad con agentes AI, subrayando la necesidad de mejores controles.",
+      "category": "sector",
+      "source_name": "VentureBeat AI",
+      "source_url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "security",
+        "AI agents"
+      ],
+      "what_changed": "Un análisis del creciente problema de seguridad relacionado con los agentes AI.",
+      "why_it_matters": "Desvela la desconexión entre la autonomía de los agentes y la seguridad en su uso.",
+      "sector_impact": "Necesaría cambios fundamentales en las prácticas de seguridad de AI."
     }
   ]
 }
