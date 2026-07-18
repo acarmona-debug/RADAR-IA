@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-07-18",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "ShopX: Un Modelo Fundamental para la Comprensión de Intenciones en Compras",
+          "summary": "ShopX unifica la comprensión de intenciones y la ejecución en el espacio de ítems, mejorando la interacción con agentes de compra.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.31693",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "compras",
+            "modelo",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Introducción de un enfoque unificado en la experiencia de compra.",
+          "why_it_matters": "Permite experiencias de compra más fluidas y eficientes, mejorando la satisfacción del usuario.",
+          "sector_impact": "Transforma el espacio de compras al permitir interacciones más naturales con IA."
+        },
+        {
+          "title": "NexForge: Escalando Tareas Ejecutables para Agentes",
+          "summary": "NexForge compila requisitos de capacidades en datos de entrenamiento para agentes ejecutables de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.14186",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "entrenamiento",
+            "agentes",
+            "IA"
+          ],
+          "what_changed": "Nuevo enfoque que desvincula la generación de tareas de métodos predefinidos.",
+          "why_it_matters": "Facilita la creación de datos necesarios para entrenamiento de agentes en múltiples dominios.",
+          "sector_impact": "Aumenta la eficiencia en la formación de agentes ejecutables en diversas aplicaciones."
+        },
+        {
+          "title": "MemoHarness: Arneses de Agentes que Aprenden de la Experiencia",
+          "summary": "MemoHarness mejora el diseño de arneses de agentes basados en la experiencia previa.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.14159",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "optimización",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un marco de optimización adaptativa para arneses de agentes.",
+          "why_it_matters": "Proporciona una mayor adaptabilidad en el rendimiento de los agentes ejecutores.",
+          "sector_impact": "Potencia la eficacia de los agentes en diversas aplicaciones operativas."
+        },
+        {
+          "title": "Can LLMs Build a MaxSAT Solver from Papers? The CoreForge Experience",
+          "summary": "CoreForge utiliza LLMs para construir un solucionador de MaxSAT desde papel, asegurando validaciones externas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.14818",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLMs",
+            "solución",
+            "maxSAT"
+          ],
+          "what_changed": "Aplicación práctica de LLMs en la implementación de algorítmica de MaxSAT.",
+          "why_it_matters": "Expande la aplicabilidad de LLMs en resolución de problemas complejos.",
+          "sector_impact": "Aumenta la eficiencia en el desarrollo de soluciones algorítmicas."
+        },
+        {
+          "title": "StructreClaw: Agentes LLM para Ingeniería Estructural",
+          "summary": "StructureClaw evalúa flujos de trabajo de ingeniería estructural asegurando calidad en el proceso.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.14896",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ingeniería",
+            "estructura",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de un marco que verifica artefactos en flujos de trabajo ingenieriles.",
+          "why_it_matters": "Proporciona una evaluación más rigurosa y completa de las respuestas generadas por el agente.",
+          "sector_impact": "Mejora la integridad y precisión en los entornos de ingeniería."
+        },
+        {
+          "title": "Traccia: Plataforma de Gobernanza basada en OpenTelemetry para Sistemas de IA",
+          "summary": "Traccia aborda los desafíos de gobernanza en sistemas de IA mediante evidencias automatizadas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.14309",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "gobernanza",
+            "IA"
+          ],
+          "what_changed": "Nuevo enfoque para asegurar la conformidad en arquitecturas de IA.",
+          "why_it_matters": "Traccia aborda los desafíos de gobernanza en sistemas de IA mediante evidencias automatizadas.",
+          "sector_impact": "Proporciona una base sólida para administrar sistemas de IA autónomos."
+        },
+        {
+          "title": "Harnessing LLMs for Reliable Academic Supervision",
+          "summary": "Evaluación del uso de LLMs en la supervisión académica mostrando mejoras significativas con arneses adaptativos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.14707",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "LLMs",
+            "académico",
+            "supervisión"
+          ],
+          "what_changed": "Uso efectivo de arneses en comparación con modelos más grandes sin supervisión.",
+          "why_it_matters": "Permite una supervisión más confiable y consistente de procesos académicos.",
+          "sector_impact": "Mejora la calidad y efectividad de la supervisión académica."
+        }
+      ]
+    },
+    {
       "date": "2026-07-17",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -575,131 +699,6 @@
           "what_changed": "Contenido nuevo relacionado con la disponibilidad de datos.",
           "why_it_matters": "Mejora la capacidad de los agentes de IA al utilizar datos específicos.",
           "sector_impact": "Optimización del rendimiento de aplicaciones de agentes."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-11",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI lanza su nueva familia de modelos con GPT-5.6",
-          "summary": "OpenAI presenta GPT-5.6, mejorando áreas como ciberseguridad.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "GPT-5.6",
-            "modelos"
-          ],
-          "what_changed": "Presentación de nuevos modelos.",
-          "why_it_matters": "Mejora significativa en ciberseguridad y aplicaciones empresariales.",
-          "sector_impact": "Alto, potencial de transformación en productividad empresarial."
-        },
-        {
-          "title": "OpenAI dice que GPT-5.6 es el ‘modelo preferido’ para Microsoft Copilot 365",
-          "summary": "El nuevo modelo de OpenAI impulsará las aplicaciones de productividad de Microsoft.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Microsoft",
-            "Copilot",
-            "GPT-5.6"
-          ],
-          "what_changed": "Asociación entre Microsoft y OpenAI fortalecida.",
-          "why_it_matters": "Integral para la evolución de herramientas de productividad.",
-          "sector_impact": "Alto, mejorando la colaboración y la eficiencia."
-        },
-        {
-          "title": "Lyzr utiliza su agente de IA para recaudar $100 millones",
-          "summary": "Startup que crea agentes de IA demuestra su eficacia al permitir que su propio agente gestione una recaudación de fondos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "startups",
-            "fundraising"
-          ],
-          "what_changed": "Uso de agentes de IA en financiación.",
-          "why_it_matters": "Prueba de la eficacia de la tecnología en aplicaciones prácticas.",
-          "sector_impact": "Moderado, valida el uso de IA en inversiones."
-        },
-        {
-          "title": "Meta lanza Muse Spark 1.1 para codificación con IA",
-          "summary": "Nuevo framework de codificación que facilita la corrección de errores y gestión de grandes cargas de trabajo.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowd-ai-coding-battle-with-muse-spark-1-1/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "codificación",
-            "IA"
-          ],
-          "what_changed": "Introducción de nuevas funcionalidades automatizadas.",
-          "why_it_matters": "Ayuda a las empresas a optimizar sus flujos de trabajo.",
-          "sector_impact": "Alto, marca un cambio en la forma de desarrollar software."
-        },
-        {
-          "title": "OpenAI cierra Atlas, pero sigue con la IA de navegación",
-          "summary": "A pesar de cerrar Atlas, OpenAI integra características de navegación en su aplicación de escritorio.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "navegación",
-            "IA"
-          ],
-          "what_changed": "Cambio en la estrategia de desarrollo de herramientas de navegación.",
-          "why_it_matters": "Continúa el enfoque en la IA para mejorar la experiencia del usuario.",
-          "sector_impact": "Moderado, influencia en las herramientas de productividad."
-        },
-        {
-          "title": "Nuevos chips de IA de Meta comenzarán producción en septiembre",
-          "summary": "Meta adoptará un enfoque modular para el diseño de nuevos chips de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "chips",
-            "IA"
-          ],
-          "what_changed": "Inicio de producción de nueva tecnología.",
-          "why_it_matters": "Responderá a las necesidades cambiantes de la IA.",
-          "sector_impact": "Moderado, afectará el desarrollo tecnológico."
-        },
-        {
-          "title": "Hugging Face destaca el auge del IA de código abierto",
-          "summary": "Clem Delangue, CEO de Hugging Face, habla sobre la importancia creciente del IA abierto.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "código abierto",
-            "IA"
-          ],
-          "what_changed": "Énfasis en el crecimiento de la comunidad de IA abierta.",
-          "why_it_matters": "Fomenta la colaboración y la innovación en el sector.",
-          "sector_impact": "Alto, transformación en el uso de herramientas de IA."
         }
       ]
     }
