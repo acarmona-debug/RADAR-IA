@@ -1,126 +1,120 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimos desarrollos en herramientas, modelos y frameworks de IA.",
-  "opening_message": "Este radar presenta las innovaciones más relevantes en el ámbito de la inteligencia artificial, optimizando el enfoque hacia herramientas y metodologías prácticas.",
+  "intro_message": "Resumen de los principales desarrollos en inteligencia artificial.",
+  "opening_message": "Aquí están las novedades más relevantes en el campo de la IA que deben ser consideradas para su implementación y desarrollo.",
   "items": [
     {
-      "title": "ShopX: Un Modelo Fundamental para la Comprensión de Intenciones en Compras",
-      "summary": "ShopX unifica la comprensión de intenciones y la ejecución en el espacio de ítems, mejorando la interacción con agentes de compra.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.31693",
+      "title": "DoorDash lanza dd-cli, una herramienta de línea de comandos para pedidos",
+      "summary": "DoorDash introduce una herramienta que permite a los desarrolladores y agentes de IA buscar, construir carritos y hacer pedidos desde la terminal.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "compras",
-        "modelo",
+        "integración",
+        "automatización"
+      ],
+      "what_changed": "Lanzamiento de una herramienta de línea de comandos para mejorar la interacción con la API.",
+      "why_it_matters": "Facilita la integración de AI en flujos de trabajo existentes.",
+      "sector_impact": "Mejora la eficiencia en servicios de entrega automatizados."
+    },
+    {
+      "title": "Actualizaciones en Google Vids para creación de videos",
+      "summary": "Gemini Omni y avatares personales permiten a los usuarios crear y protagonizar videos fácilmente.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "creación de contenido",
         "inteligencia artificial"
       ],
-      "what_changed": "Introducción de un enfoque unificado en la experiencia de compra.",
-      "why_it_matters": "Permite experiencias de compra más fluidas y eficientes, mejorando la satisfacción del usuario.",
-      "sector_impact": "Transforma el espacio de compras al permitir interacciones más naturales con IA."
+      "what_changed": "Implementación de herramientas de IA para personalización en la creación de videos.",
+      "why_it_matters": "Permite a los usuarios interactuar creativamente con IA.",
+      "sector_impact": "Transforma la producción de contenidos digitales."
     },
     {
-      "title": "NexForge: Escalando Tareas Ejecutables para Agentes",
-      "summary": "NexForge compila requisitos de capacidades en datos de entrenamiento para agentes ejecutables de IA.",
+      "title": "Conexión de aplicaciones a la nueva funcionalidad de búsqueda de Google",
+      "summary": "Los usuarios podrán vincular aplicaciones y servicios directamente en Modo IA.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.14186",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "entrenamiento",
-        "agentes",
-        "IA"
-      ],
-      "what_changed": "Nuevo enfoque que desvincula la generación de tareas de métodos predefinidos.",
-      "why_it_matters": "Facilita la creación de datos necesarios para entrenamiento de agentes en múltiples dominios.",
-      "sector_impact": "Aumenta la eficiencia en la formación de agentes ejecutables en diversas aplicaciones."
-    },
-    {
-      "title": "MemoHarness: Arneses de Agentes que Aprenden de la Experiencia",
-      "summary": "MemoHarness mejora el diseño de arneses de agentes basados en la experiencia previa.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.14159",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes",
-        "optimización",
-        "IA"
+        "integración",
+        "mejora de la experiencia de usuario"
       ],
-      "what_changed": "Desarrollo de un marco de optimización adaptativa para arneses de agentes.",
-      "why_it_matters": "Proporciona una mayor adaptabilidad en el rendimiento de los agentes ejecutores.",
-      "sector_impact": "Potencia la eficacia de los agentes en diversas aplicaciones operativas."
+      "what_changed": "Actualización que permite conectar aplicaciones y servicios junto con búsqueda.",
+      "why_it_matters": "Facilita la accesibilidad de múltiples servicios desde una única plataforma.",
+      "sector_impact": "Optimiza la interacción del usuario con diversas aplicaciones."
     },
     {
-      "title": "Can LLMs Build a MaxSAT Solver from Papers? The CoreForge Experience",
-      "summary": "CoreForge utiliza LLMs para construir un solucionador de MaxSAT desde papel, asegurando validaciones externas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.14818",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "LLMs",
-        "solución",
-        "maxSAT"
-      ],
-      "what_changed": "Aplicación práctica de LLMs en la implementación de algorítmica de MaxSAT.",
-      "why_it_matters": "Expande la aplicabilidad de LLMs en resolución de problemas complejos.",
-      "sector_impact": "Aumenta la eficiencia en el desarrollo de soluciones algorítmicas."
-    },
-    {
-      "title": "StructreClaw: Agentes LLM para Ingeniería Estructural",
-      "summary": "StructureClaw evalúa flujos de trabajo de ingeniería estructural asegurando calidad en el proceso.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.14896",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ingeniería",
-        "estructura",
-        "evaluación"
-      ],
-      "what_changed": "Introducción de un marco que verifica artefactos en flujos de trabajo ingenieriles.",
-      "why_it_matters": "Proporciona una evaluación más rigurosa y completa de las respuestas generadas por el agente.",
-      "sector_impact": "Mejora la integridad y precisión en los entornos de ingeniería."
-    },
-    {
-      "title": "Traccia: Plataforma de Gobernanza basada en OpenTelemetry para Sistemas de IA",
-      "summary": "Traccia aborda los desafíos de gobernanza en sistemas de IA mediante evidencias automatizadas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.14309",
+      "title": "Haz seguimiento de los costos de infraestructura AI",
+      "summary": "Las empresas invierten en infraestructura AI sin comprender su costo real.",
+      "category": "sector",
+      "source_name": "VentureBeat AI",
+      "source_url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "gobernanza",
-        "IA"
+        "infraestructura",
+        "economía"
       ],
-      "what_changed": "Nuevo enfoque para asegurar la conformidad en arquitecturas de IA.",
-      "why_it_matters": "Traccia aborda los desafíos de gobernanza en sistemas de IA mediante evidencias automatizadas.",
-      "sector_impact": "Proporciona una base sólida para administrar sistemas de IA autónomos."
+      "what_changed": "Las empresas aceleran su inversión en infraestructura AI.",
+      "why_it_matters": "La falta de visibilidad económica puede llevar a decisiones mal fundamentadas.",
+      "sector_impact": "Afecta la planificación y sostenibilidad financiera en proyectos de AI."
     },
     {
-      "title": "Harnessing LLMs for Reliable Academic Supervision",
-      "summary": "Evaluación del uso de LLMs en la supervisión académica mostrando mejoras significativas con arneses adaptativos.",
+      "title": "Kimi 3 de Moonshot: un modelo AI que cierra la brecha con Opus 4.8",
+      "summary": "Se espera que Kimi 3 sea el mayor modelo de AI abierto de China.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.14707",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "LLMs",
-        "académico",
-        "supervisión"
+        "modelos",
+        "inteligencia artificial"
       ],
-      "what_changed": "Uso efectivo de arneses en comparación con modelos más grandes sin supervisión.",
-      "why_it_matters": "Permite una supervisión más confiable y consistente de procesos académicos.",
-      "sector_impact": "Mejora la calidad y efectividad de la supervisión académica."
+      "what_changed": "Desarrollo de un nuevo modelo con una cantidad masiva de parámetros.",
+      "why_it_matters": "Rivaliza con otros modelos de alto rendimiento como Opus.",
+      "sector_impact": "Impulsa la competencia en el campo de modelos abiertos de AI."
+    },
+    {
+      "title": "Fine-tune video y modelos de imagen a gran escala con NVIDIA NeMo",
+      "summary": "",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "fine-tuning",
+        "modelos"
+      ],
+      "what_changed": "Lanzamiento de herramientas para ajuste fino de modelos multimedia.",
+      "why_it_matters": "Facilita la personalización de modelos de video y imagen.",
+      "sector_impact": "Mejora las capacidades de los modelos en aplicaciones creativas."
+    },
+    {
+      "title": "OpenAI lanza hardware con un nuevo producto",
+      "summary": "Presentación del primer hardware de OpenAI en el mercado.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "hardware",
+        "innovación"
+      ],
+      "what_changed": "Introducción de una nueva línea de productos hardware.",
+      "why_it_matters": "Revitaliza el enfoque de OpenAI en el hardware asociado a AI.",
+      "sector_impact": "Diversifica la oferta de productos en el ecosistema AI."
     }
   ]
 }

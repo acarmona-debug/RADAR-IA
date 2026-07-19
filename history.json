@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-07-19",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "DoorDash lanza dd-cli, una herramienta de línea de comandos para pedidos",
+          "summary": "DoorDash introduce una herramienta que permite a los desarrolladores y agentes de IA buscar, construir carritos y hacer pedidos desde la terminal.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "integración",
+            "automatización"
+          ],
+          "what_changed": "Lanzamiento de una herramienta de línea de comandos para mejorar la interacción con la API.",
+          "why_it_matters": "Facilita la integración de AI en flujos de trabajo existentes.",
+          "sector_impact": "Mejora la eficiencia en servicios de entrega automatizados."
+        },
+        {
+          "title": "Actualizaciones en Google Vids para creación de videos",
+          "summary": "Gemini Omni y avatares personales permiten a los usuarios crear y protagonizar videos fácilmente.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "creación de contenido",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Implementación de herramientas de IA para personalización en la creación de videos.",
+          "why_it_matters": "Permite a los usuarios interactuar creativamente con IA.",
+          "sector_impact": "Transforma la producción de contenidos digitales."
+        },
+        {
+          "title": "Conexión de aplicaciones a la nueva funcionalidad de búsqueda de Google",
+          "summary": "Los usuarios podrán vincular aplicaciones y servicios directamente en Modo IA.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "integración",
+            "mejora de la experiencia de usuario"
+          ],
+          "what_changed": "Actualización que permite conectar aplicaciones y servicios junto con búsqueda.",
+          "why_it_matters": "Facilita la accesibilidad de múltiples servicios desde una única plataforma.",
+          "sector_impact": "Optimiza la interacción del usuario con diversas aplicaciones."
+        },
+        {
+          "title": "Haz seguimiento de los costos de infraestructura AI",
+          "summary": "Las empresas invierten en infraestructura AI sin comprender su costo real.",
+          "category": "sector",
+          "source_name": "VentureBeat AI",
+          "source_url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "infraestructura",
+            "economía"
+          ],
+          "what_changed": "Las empresas aceleran su inversión en infraestructura AI.",
+          "why_it_matters": "La falta de visibilidad económica puede llevar a decisiones mal fundamentadas.",
+          "sector_impact": "Afecta la planificación y sostenibilidad financiera en proyectos de AI."
+        },
+        {
+          "title": "Kimi 3 de Moonshot: un modelo AI que cierra la brecha con Opus 4.8",
+          "summary": "Se espera que Kimi 3 sea el mayor modelo de AI abierto de China.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "inteligencia artificial"
+          ],
+          "what_changed": "Desarrollo de un nuevo modelo con una cantidad masiva de parámetros.",
+          "why_it_matters": "Rivaliza con otros modelos de alto rendimiento como Opus.",
+          "sector_impact": "Impulsa la competencia en el campo de modelos abiertos de AI."
+        },
+        {
+          "title": "Fine-tune video y modelos de imagen a gran escala con NVIDIA NeMo",
+          "summary": "",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "fine-tuning",
+            "modelos"
+          ],
+          "what_changed": "Lanzamiento de herramientas para ajuste fino de modelos multimedia.",
+          "why_it_matters": "Facilita la personalización de modelos de video y imagen.",
+          "sector_impact": "Mejora las capacidades de los modelos en aplicaciones creativas."
+        },
+        {
+          "title": "OpenAI lanza hardware con un nuevo producto",
+          "summary": "Presentación del primer hardware de OpenAI en el mercado.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "hardware",
+            "innovación"
+          ],
+          "what_changed": "Introducción de una nueva línea de productos hardware.",
+          "why_it_matters": "Revitaliza el enfoque de OpenAI en el hardware asociado a AI.",
+          "sector_impact": "Diversifica la oferta de productos en el ecosistema AI."
+        }
+      ]
+    },
+    {
       "date": "2026-07-18",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -627,78 +745,6 @@
           "what_changed": "Mejora en la generación de contenido para desarrollo de mundos.",
           "why_it_matters": "Facilita la creación de mundos complejos y coherentes.",
           "sector_impact": "Entretenimiento digital"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-12",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Meta entra en la batalla de codificación con Muse Spark 1.1",
-          "summary": "Muse Spark 1.1 de Meta se enfoca en manejar cargas de trabajo grandes, arreglar errores y ayudar en migraciones de código.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "herramientas",
-            "codificación"
-          ],
-          "what_changed": "Lanzamiento de Muse Spark 1.1.",
-          "why_it_matters": "Proporciona soluciones avanzadas para empresas en la programación desde la IA.",
-          "sector_impact": "Transformación en la forma en que se desarrolla software."
-        },
-        {
-          "title": "Hugging Face revela su crecimiento en software de IA",
-          "summary": "El CEO de Hugging Face destaca que las empresas están dejando de rentar su IA y adoptando modelos de código abierto.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
-          "relevance_score": 10,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "código abierto"
-          ],
-          "what_changed": "Crecimiento del uso de modelos de código abierto.",
-          "why_it_matters": "Impulsa un cambio hacia la independencia entre empresas y proveedores de IA.",
-          "sector_impact": "Modifica la dinámica del mercado de IA."
-        },
-        {
-          "title": "OpenAI apuesta por experiencias familiares con ChatGPT",
-          "summary": "OpenAI está buscando un gerente de producto para construir experiencias orientadas a familias y cuidadores.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "experiencias",
-            "familias"
-          ],
-          "what_changed": "Iniciativa para crear experiencias específicas para el hogar.",
-          "why_it_matters": "Facilita la integración de AI en el día a día de las familias.",
-          "sector_impact": "Crecimiento en la adopción de tecnología de IA en entornos domésticos."
-        },
-        {
-          "title": "Data for Agents",
-          "summary": "Nueva publicación sobre datos útiles para agentes de IA por parte de Hugging Face.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "datos"
-          ],
-          "what_changed": "Contenido nuevo relacionado con la disponibilidad de datos.",
-          "why_it_matters": "Mejora la capacidad de los agentes de IA al utilizar datos específicos.",
-          "sector_impact": "Optimización del rendimiento de aplicaciones de agentes."
         }
       ]
     }
