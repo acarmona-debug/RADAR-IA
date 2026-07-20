@@ -1,120 +1,129 @@
 {
-  "date": "2026-07-19",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de los principales desarrollos en inteligencia artificial.",
-  "opening_message": "Aquí están las novedades más relevantes en el campo de la IA que deben ser consideradas para su implementación y desarrollo.",
+  "date": "2026-07-20",
+  "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+  "intro_message": "Resumen diario de las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial.",
+  "opening_message": "Descubre los avances más recientes en herramientas, modelos y frameworks que están modelando el futuro de la IA.",
   "items": [
     {
-      "title": "DoorDash lanza dd-cli, una herramienta de línea de comandos para pedidos",
-      "summary": "DoorDash introduce una herramienta que permite a los desarrolladores y agentes de IA buscar, construir carritos y hacer pedidos desde la terminal.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR",
+      "summary": "Un marco AutoML automatizado que emplea modelos de lenguaje para diseñar arquitecturas de redes neuronales para OCR en múltiples idiomas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.15509",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "integración",
-        "automatización"
+        "AutoML",
+        "OCR",
+        "cross-lingual",
+        "GPT-5"
       ],
-      "what_changed": "Lanzamiento de una herramienta de línea de comandos para mejorar la interacción con la API.",
-      "why_it_matters": "Facilita la integración de AI en flujos de trabajo existentes.",
-      "sector_impact": "Mejora la eficiencia en servicios de entrega automatizados."
+      "what_changed": "Presentamos un marco de AutoML completamente automatizado.",
+      "why_it_matters": "Permite una búsqueda de arquitectura eficiente y escalable para el reconocimiento de escritura en varios idiomas.",
+      "sector_impact": "Transforma el reconocimiento óptico de caracteres en contextos multilingües."
     },
     {
-      "title": "Actualizaciones en Google Vids para creación de videos",
-      "summary": "Gemini Omni y avatares personales permiten a los usuarios crear y protagonizar videos fácilmente.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "creación de contenido",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Implementación de herramientas de IA para personalización en la creación de videos.",
-      "why_it_matters": "Permite a los usuarios interactuar creativamente con IA.",
-      "sector_impact": "Transforma la producción de contenidos digitales."
-    },
-    {
-      "title": "Conexión de aplicaciones a la nueva funcionalidad de búsqueda de Google",
-      "summary": "Los usuarios podrán vincular aplicaciones y servicios directamente en Modo IA.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "integración",
-        "mejora de la experiencia de usuario"
-      ],
-      "what_changed": "Actualización que permite conectar aplicaciones y servicios junto con búsqueda.",
-      "why_it_matters": "Facilita la accesibilidad de múltiples servicios desde una única plataforma.",
-      "sector_impact": "Optimiza la interacción del usuario con diversas aplicaciones."
-    },
-    {
-      "title": "Haz seguimiento de los costos de infraestructura AI",
-      "summary": "Las empresas invierten en infraestructura AI sin comprender su costo real.",
-      "category": "sector",
-      "source_name": "VentureBeat AI",
-      "source_url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "infraestructura",
-        "economía"
-      ],
-      "what_changed": "Las empresas aceleran su inversión en infraestructura AI.",
-      "why_it_matters": "La falta de visibilidad económica puede llevar a decisiones mal fundamentadas.",
-      "sector_impact": "Afecta la planificación y sostenibilidad financiera en proyectos de AI."
-    },
-    {
-      "title": "Kimi 3 de Moonshot: un modelo AI que cierra la brecha con Opus 4.8",
-      "summary": "Se espera que Kimi 3 sea el mayor modelo de AI abierto de China.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "modelos",
-        "inteligencia artificial"
-      ],
-      "what_changed": "Desarrollo de un nuevo modelo con una cantidad masiva de parámetros.",
-      "why_it_matters": "Rivaliza con otros modelos de alto rendimiento como Opus.",
-      "sector_impact": "Impulsa la competencia en el campo de modelos abiertos de AI."
-    },
-    {
-      "title": "Fine-tune video y modelos de imagen a gran escala con NVIDIA NeMo",
-      "summary": "",
+      "title": "AgentRedBench: Dynamic Redteaming for LLM Agents",
+      "summary": "Benchmark dinámico para evaluar la seguridad de agentes LLM sobre integraciones SaaS con enfoques de defensa avanzados.",
       "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.02240",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "fine-tuning",
-        "modelos"
+        "seguridad",
+        "LLM",
+        "SaaS",
+        "defensa"
       ],
-      "what_changed": "Lanzamiento de herramientas para ajuste fino de modelos multimedia.",
-      "why_it_matters": "Facilita la personalización de modelos de video y imagen.",
-      "sector_impact": "Mejora las capacidades de los modelos en aplicaciones creativas."
+      "what_changed": "Introducción de un benchmark de redteaming específico para agentes LLM.",
+      "why_it_matters": "Mejora la defensa contra inyecciones indirectas en agentes que utilizan herramientas de terceros.",
+      "sector_impact": "Aumenta la seguridad en la integración de agentes con aplicaciones empresariales."
     },
     {
-      "title": "OpenAI lanza hardware con un nuevo producto",
-      "summary": "Presentación del primer hardware de OpenAI en el mercado.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-      "relevance_score": 5,
+      "title": "AI Trading: Evaluating Large Language Models for Technical Market Analysis",
+      "summary": "Evaluación comparativa de LLMs en análisis técnico del mercado financiero con rendimiento prometedor.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.15414",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "hardware",
-        "innovación"
+        "trading",
+        "finanzas",
+        "análisis técnico",
+        "LLM"
       ],
-      "what_changed": "Introducción de una nueva línea de productos hardware.",
-      "why_it_matters": "Revitaliza el enfoque de OpenAI en el hardware asociado a AI.",
-      "sector_impact": "Diversifica la oferta de productos en el ecosistema AI."
+      "what_changed": "Investigación sobre la capacidad de LLMs para análisis en mercados financieros.",
+      "why_it_matters": "Aporta información valiosa sobre cómo utilizar LLMs en sistemas de trading automatizados.",
+      "sector_impact": "Mejora la toma de decisiones en entornos financieros complejos."
+    },
+    {
+      "title": "Plan, Learn, Adapt (PLA) Framework for Personalized Itinerary Generation",
+      "summary": "Marco que genera itinerarios personalizados en dispositivos móviles de manera eficiente y efectiva.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.15552",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "itinerarios",
+        "personalizados",
+        "mobile"
+      ],
+      "what_changed": "Desarrollo de un marco que combina planificación y aprendizaje para itinerarios.",
+      "why_it_matters": "Aumenta las tasas de finalización de itinerarios significativamente.",
+      "sector_impact": "Revoluciona la planificación de viajes personalizada."
+    },
+    {
+      "title": "S1-Omni: Unified Multimodal Reasoning Model",
+      "summary": "Modelo de razonamiento multimodal que aborda las limitaciones en el modelado científico actual.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.15686",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "multimodal",
+        "razonamiento",
+        "ciencia"
+      ],
+      "what_changed": "Innovación en el modelado unificado de datos científicos y leyes científicas.",
+      "why_it_matters": "Facilita la integración de múltiples fuentes de datos para un razonamiento más robusto.",
+      "sector_impact": "Transforma la investigación científica mediante modelos comprensivos."
+    },
+    {
+      "title": "Jailbreak Foundry: From Papers to Runnable Attacks",
+      "summary": "Sistema que traduce investigaciones sobre técnicas de jailbreak a módulos ejecutables para evaluación inmediata.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.24009",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "jailbreak",
+        "evaluación",
+        "seguridad"
+      ],
+      "what_changed": "Presentación de un sistema de evaluación unificada para ataques de jailbreak.",
+      "why_it_matters": "Facilita la creación de benchmarks actualizados en el paisaje de seguridad de IA.",
+      "sector_impact": "Mejora la seguridad de los modelos LLM frente a ataques."
+    },
+    {
+      "title": "AnovaX: Local Multi-Agent Voice Assistant",
+      "summary": "Asistente de voz que opera de manera local en el escritorio, aprovechando múltiples agentes para expandir sus capacidades.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.15367",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "asistente de voz",
+        "multi-agente"
+      ],
+      "what_changed": "Introducción de un asistente que opera completamente en local y no en la nube.",
+      "why_it_matters": "Proporciona una alternativa más privada y controlada a los asistentes en la nube.",
+      "sector_impact": "Aumenta la privacidad y el control del usuario sobre sus interacciones."
     }
   ]
 }

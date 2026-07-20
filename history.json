@@ -1,6 +1,133 @@
 {
   "days": [
     {
+      "date": "2026-07-20",
+      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+      "items": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR",
+          "summary": "Un marco AutoML automatizado que emplea modelos de lenguaje para diseñar arquitecturas de redes neuronales para OCR en múltiples idiomas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15509",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "AutoML",
+            "OCR",
+            "cross-lingual",
+            "GPT-5"
+          ],
+          "what_changed": "Presentamos un marco de AutoML completamente automatizado.",
+          "why_it_matters": "Permite una búsqueda de arquitectura eficiente y escalable para el reconocimiento de escritura en varios idiomas.",
+          "sector_impact": "Transforma el reconocimiento óptico de caracteres en contextos multilingües."
+        },
+        {
+          "title": "AgentRedBench: Dynamic Redteaming for LLM Agents",
+          "summary": "Benchmark dinámico para evaluar la seguridad de agentes LLM sobre integraciones SaaS con enfoques de defensa avanzados.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.02240",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "LLM",
+            "SaaS",
+            "defensa"
+          ],
+          "what_changed": "Introducción de un benchmark de redteaming específico para agentes LLM.",
+          "why_it_matters": "Mejora la defensa contra inyecciones indirectas en agentes que utilizan herramientas de terceros.",
+          "sector_impact": "Aumenta la seguridad en la integración de agentes con aplicaciones empresariales."
+        },
+        {
+          "title": "AI Trading: Evaluating Large Language Models for Technical Market Analysis",
+          "summary": "Evaluación comparativa de LLMs en análisis técnico del mercado financiero con rendimiento prometedor.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15414",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "trading",
+            "finanzas",
+            "análisis técnico",
+            "LLM"
+          ],
+          "what_changed": "Investigación sobre la capacidad de LLMs para análisis en mercados financieros.",
+          "why_it_matters": "Aporta información valiosa sobre cómo utilizar LLMs en sistemas de trading automatizados.",
+          "sector_impact": "Mejora la toma de decisiones en entornos financieros complejos."
+        },
+        {
+          "title": "Plan, Learn, Adapt (PLA) Framework for Personalized Itinerary Generation",
+          "summary": "Marco que genera itinerarios personalizados en dispositivos móviles de manera eficiente y efectiva.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15552",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "itinerarios",
+            "personalizados",
+            "mobile"
+          ],
+          "what_changed": "Desarrollo de un marco que combina planificación y aprendizaje para itinerarios.",
+          "why_it_matters": "Aumenta las tasas de finalización de itinerarios significativamente.",
+          "sector_impact": "Revoluciona la planificación de viajes personalizada."
+        },
+        {
+          "title": "S1-Omni: Unified Multimodal Reasoning Model",
+          "summary": "Modelo de razonamiento multimodal que aborda las limitaciones en el modelado científico actual.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15686",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "razonamiento",
+            "ciencia"
+          ],
+          "what_changed": "Innovación en el modelado unificado de datos científicos y leyes científicas.",
+          "why_it_matters": "Facilita la integración de múltiples fuentes de datos para un razonamiento más robusto.",
+          "sector_impact": "Transforma la investigación científica mediante modelos comprensivos."
+        },
+        {
+          "title": "Jailbreak Foundry: From Papers to Runnable Attacks",
+          "summary": "Sistema que traduce investigaciones sobre técnicas de jailbreak a módulos ejecutables para evaluación inmediata.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.24009",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "jailbreak",
+            "evaluación",
+            "seguridad"
+          ],
+          "what_changed": "Presentación de un sistema de evaluación unificada para ataques de jailbreak.",
+          "why_it_matters": "Facilita la creación de benchmarks actualizados en el paisaje de seguridad de IA.",
+          "sector_impact": "Mejora la seguridad de los modelos LLM frente a ataques."
+        },
+        {
+          "title": "AnovaX: Local Multi-Agent Voice Assistant",
+          "summary": "Asistente de voz que opera de manera local en el escritorio, aprovechando múltiples agentes para expandir sus capacidades.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15367",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "asistente de voz",
+            "multi-agente"
+          ],
+          "what_changed": "Introducción de un asistente que opera completamente en local y no en la nube.",
+          "why_it_matters": "Proporciona una alternativa más privada y controlada a los asistentes en la nube.",
+          "sector_impact": "Aumenta la privacidad y el control del usuario sobre sus interacciones."
+        }
+      ]
+    },
+    {
       "date": "2026-07-19",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -627,124 +754,6 @@
           "what_changed": "Desarrollo de un nuevo marco para evaluar la abstención en agentes.",
           "why_it_matters": "Reduce riesgos operacionales asociados a la IA en decisiones críticas.",
           "sector_impact": "Aumenta la seguridad y confiabilidad de los sistemas de LLM."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Sistema de análisis fundamental mejorado con LLMs",
-          "summary": "Un sistema RAG que utiliza modelos de lenguaje para generar informes de inversores basados en análisis fundamental.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.09121",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "análisis financiero",
-            "LLMs"
-          ],
-          "what_changed": "Se incorpora un modelo LLM en la generación de informes de inversión.",
-          "why_it_matters": "Mejora la eficiencia del análisis de información financiera.",
-          "sector_impact": "Sector financiero"
-        },
-        {
-          "title": "Sistema Multi-Agent para resolución automática en telecomunicaciones",
-          "summary": "Un marco que integra modelos de lenguaje para automatizar el diagnóstico en redes de telecomunicaciones.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.00651",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "telecomunicaciones",
-            "automated troubleshooting"
-          ],
-          "what_changed": "Introducción de un sistema multi-agente para la resolución de problemas.",
-          "why_it_matters": "Reduce la dependencia de expertos humanos en la resolución de fallos.",
-          "sector_impact": "Telecomunicaciones"
-        },
-        {
-          "title": "QAgent: Sistema multi-agente para programación autónoma",
-          "summary": "Un marco que genera código OpenQASM para optimización en dispositivos cuánticos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2508.20134",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "cuántico",
-            "programación"
-          ],
-          "what_changed": "Mejora en la generación autónoma de código cuántico.",
-          "why_it_matters": "Aumenta la eficiencia de la programación en computación cuántica.",
-          "sector_impact": "Tecnología cuántica"
-        },
-        {
-          "title": "BREW: Mejora de agentes de lenguaje mediante conocimiento ambiental",
-          "summary": "Un marco que mejora el aprendizaje experiencial para agentes de lenguaje.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.20297",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "aprendizaje"
-          ],
-          "what_changed": "Implementación de memoria estructurada en agentes de LLM.",
-          "why_it_matters": "Permite que los agentes aprendan de experiencias pasadas.",
-          "sector_impact": "Inteligencia artificial general"
-        },
-        {
-          "title": "Git-Assistant: Soporte para la actualización de repositorios Git",
-          "summary": "Un asistente AI que ayuda a realizar operaciones complejas en Git de manera más eficiente.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.09224",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "desarrollo",
-            "Git"
-          ],
-          "what_changed": "Integración de modelos de lenguaje con capacidades de planificación.",
-          "why_it_matters": "Mejora la gestión de versiones en el desarrollo colaborativo.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "VEXAIoT: Explotación autónoma de vulnerabilidades IoT",
-          "summary": "Un marco que utiliza agentes AI para descubrir y explotar vulnerabilidades en sistemas IoT.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.09653",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "IoT"
-          ],
-          "what_changed": "Introducción de un marco autónomo de explotación en entornos IoT.",
-          "why_it_matters": "Aumenta la seguridad de dispositivos IoT en un entorno controlado.",
-          "sector_impact": "Seguridad informática"
-        },
-        {
-          "title": "AutoWorldBuilder: Sistema autónomo para construcción de mundos ficticios",
-          "summary": "Un sistema colaborativo para la generación automatizada de mundos en diseño de juegos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.09403",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "juegos",
-            "creación"
-          ],
-          "what_changed": "Mejora en la generación de contenido para desarrollo de mundos.",
-          "why_it_matters": "Facilita la creación de mundos complejos y coherentes.",
-          "sector_impact": "Entretenimiento digital"
         }
       ]
     }
