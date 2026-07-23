@@ -1,6 +1,142 @@
 {
   "days": [
     {
+      "date": "2026-07-23",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "SLAI T-Rex: Post-entrenamiento Completo de Modelos DeepSeek-V4",
+          "summary": "Un marco de optimización integral para entrenar modelos de gran escala en infraestructura Ascend, logrando un notable aumento en la utilización de FLOPs y estabilidad en el entrenamiento.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.20145",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "DeepSeek",
+            "Ascend",
+            "model optimization"
+          ],
+          "what_changed": "Introducción de un marco de optimización jerárquico.",
+          "why_it_matters": "Mejora la eficiencia en el entrenamiento de modelos masivos.",
+          "sector_impact": "Fortalece las aplicaciones en investigación operativa y modelado matemático."
+        },
+        {
+          "title": "ChannelGuard: Sistema de Defensa para Agentes Multi-Agente",
+          "summary": "Un marco de defensa que asegura la seguridad en sistemas multi-agente mediante el uso de puertas de información, previniendo ataques en cada canal entre agentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.19430",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multi-agent",
+            "security",
+            "defense"
+          ],
+          "what_changed": "Desarrollo de un sistema de defensa para canales de comunicación.",
+          "why_it_matters": "Reduce la vulnerabilidad en sistemas multi-agente.",
+          "sector_impact": "Aumenta la fiabilidad de las aplicaciones de IA en entornos críticos."
+        },
+        {
+          "title": "DocOps: Marco de Evaluación para Agentes Autónomos en Operaciones Documentales",
+          "summary": "Introducción de un marco verificable para evaluar agentes en operaciones documentales, abordando las limitaciones en la manipulación de documentos complejos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.19865",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "document operations",
+            "autonomous agents"
+          ],
+          "what_changed": "Establecimiento de un marco estructurado para la evaluación de capacidades.",
+          "why_it_matters": "Mejora la eficacia de los agentes en la manipulación documental.",
+          "sector_impact": "Facilita la automatización de flujos de trabajo en entornos laborales."
+        },
+        {
+          "title": "FORCE-Bench: Marco de Evaluación para IA en Finanzas Empresariales",
+          "summary": "Una nueva benchmark para evaluar sistemas de IA en finanzas operacionales, centrado en la calidad y precisión de las respuestas de los agentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.19409",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "finance AI",
+            "benchmarking"
+          ],
+          "what_changed": "Desarrollo de preguntas y rubricas específicas para finanzas.",
+          "why_it_matters": "Establece estándares de calidad para sistemas autónomos en finanzas.",
+          "sector_impact": "Impulsa la confianza en la automatización de procesos financieros."
+        },
+        {
+          "title": "Fara-1.5: Entornos de Aprendizaje Escalables para Agentes de Uso Informático",
+          "summary": "Presentación de un nuevo pipeline de datos para agentes de uso informático, mejorando la recolección y verificación de demostraciones humanas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.20785",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "data pipeline",
+            "software agents"
+          ],
+          "what_changed": "Implementación de entornos modulares y verificación de tareas.",
+          "why_it_matters": "Facilita el entrenamiento eficiente y robusto de agentes de uso computacional.",
+          "sector_impact": "Mejora en la ejecución de tareas complejas mediante automatización."
+        },
+        {
+          "title": "PerfAgent: Refinamiento Iterativo Guiado por Perfiladores para Optimización de Código",
+          "summary": "Una metodología para la optimización de código a nivel de repositorio, utilizando un enfoque guiado por perfiladores para mejorar la eficiencia del código.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.19653",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "code optimization",
+            "profiling"
+          ],
+          "what_changed": "Incorporación de un ciclo de retroalimentación para identificación de cuellos de botella.",
+          "why_it_matters": "Aumenta la velocidad y la fiabilidad del software optimizado.",
+          "sector_impact": "Optimiza el rendimiento del software en diversas aplicaciones."
+        },
+        {
+          "title": "AgentFlow: Sistema de Marco Agente Optimizable en Tiempo Real",
+          "summary": "Desarrollo de un marco que coordina módulos especializados para optimizar la planificación y el uso de herramientas en un entorno en tiempo real.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.05592",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "reinforcement learning",
+            "agentic systems"
+          ],
+          "what_changed": "Introducción de optimización de políticas en el flujo de trabajo.",
+          "why_it_matters": "Mejora la adaptabilidad y la eficacia en la toma de decisiones de los agentes.",
+          "sector_impact": "Revoluciona el desarrollo de sistemas de agentes en aplicaciones complejas."
+        },
+        {
+          "title": "Small, Free, and Effective: Orchestration of Open-Weight Small Language Models for Malware Analysis",
+          "summary": "Estudio sobre la orquestación de modelos de lenguaje pequeños para superar a los modelos grandes en el análisis de malware, enfocándose en eficiencia y costo.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.20216",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "malware analysis",
+            "open-weight models"
+          ],
+          "what_changed": "Implementación de arquitecturas de orquestación para mejorar la interpretación de análisis.",
+          "why_it_matters": "Fomenta el uso de modelos ligeros y accesibles en la ciberseguridad.",
+          "sector_impact": "Amplía el acceso a herramientas efectivas en el análisis de amenazas cibernéticas."
+        }
+      ]
+    },
+    {
       "date": "2026-07-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -718,80 +854,6 @@
           "what_changed": "Un análisis del creciente problema de seguridad relacionado con los agentes AI.",
           "why_it_matters": "Desvela la desconexión entre la autonomía de los agentes y la seguridad en su uso.",
           "sector_impact": "Necesaría cambios fundamentales en las prácticas de seguridad de AI."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Orquestación Agente: Problemas de Implementación en IA Empresarial",
-          "summary": "Un estudio sobre cómo las empresas están eligiendo plataformas de modelos para la orquestación de agentes, destacando que Claude de Anthropic lidera la adopción, pero la realidad de los agentes desplegados sigue siendo limitada.",
-          "category": "model",
-          "source_name": "VentureBeat AI",
-          "source_url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "orquestación",
-            "agentes",
-            "Claude"
-          ],
-          "what_changed": "Estudio reciente revela la falta de implementación efectiva de agentes a pesar de la inversión.",
-          "why_it_matters": "Entender cómo las empresas manejan la orquestación de agentes es crítico para la optimización de costos y la eficacia operacional.",
-          "sector_impact": "Impacto significativo en cómo las empresas logran una implementación efectiva de IA."
-        },
-        {
-          "title": "Descubrimiento Automático de Ecuaciones Diferenciales Ordinarias",
-          "summary": "Un nuevo sistema que utiliza modelos de lenguaje para descubrir y ajustar ecuaciones diferenciales en sistemas biológicos, mostrando promesas para la automatización de la investigación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.13608",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "automatización",
-            "investigación"
-          ],
-          "what_changed": "Introducción de un sistema de agente que mejora la recuperación y formulación de modelos en biología.",
-          "why_it_matters": "Impulsa la capacidad de la IA para facilitar descubrimientos científicos y modelado dinámico.",
-          "sector_impact": "Transforma el enfoque de la investigación en biología a través de la automatización."
-        },
-        {
-          "title": "Economía de Inferencias en Agentes de Codificación",
-          "summary": "Estudia la elección entre modelos basados en API y modelos on-premise en la codificación autónoma ofreciendo una nueva perspectiva sobre costos y productividad en el desarrollo de software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.13080",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "codificación",
-            "costo"
-          ],
-          "what_changed": "Análisis detallado de los costos de implementación y efectividad de diferentes tipos de modelos de IA en codificación.",
-          "why_it_matters": "Informa a las organizaciones sobre la mejor configuración para equilibrar costos y efectividad en desarrollo de software.",
-          "sector_impact": "Afecta decisiones sobre herramientas de desarrollo y modelos IA en empresas."
-        },
-        {
-          "title": "Intervenciones en Auditorías de Dependencia de Premisas",
-          "summary": "Método innovador que evalúa la dependencia lógica de los razonamientos en modelos de lenguaje, crucial para mejorar la confiabilidad de las inferencias.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.13069",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "razonamiento",
-            "modelos"
-          ],
-          "what_changed": "Nuevas técnicas para auditar la lógica subyacente en modelos de lenguaje.",
-          "why_it_matters": "Asegura que los modelos tomen decisiones basadas en premisas correctas, mejorando su efectividad en aplicaciones reales.",
-          "sector_impact": "Aumenta la confianza en aplicaciones que dependen del razonamiento automatizado."
         }
       ]
     }
