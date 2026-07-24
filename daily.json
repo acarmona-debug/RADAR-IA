@@ -1,138 +1,112 @@
 {
-  "date": "2026-07-23",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas innovaciones y desarrollos en el mundo de la inteligencia artificial.",
-  "opening_message": "Explore las herramientas, modelos y avances más relevantes en inteligencia artificial.",
+  "date": "2026-07-24",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "SLAI T-Rex: Post-entrenamiento Completo de Modelos DeepSeek-V4",
-      "summary": "Un marco de optimización integral para entrenar modelos de gran escala en infraestructura Ascend, logrando un notable aumento en la utilización de FLOPs y estabilidad en el entrenamiento.",
+      "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+      "summary": "arXiv:2607.20759v1 Announce Type: cross Abstract: AI coding agents powered by LLMs are increasingly integrated into real-world software development, where they generate, edit, and execute code with autonomous access to local files and tools. Coding agents inherit security risks from both the LLM backbone, where adversarial prompts, poisoned training data, and backdoor triggers can cause models to emit insecure or attacker-chosen code, and their agentic architecture, where tool-using autonomy enables induced misuse of external APIs, data exfiltration, and persistent compromise of development environments. This paper presents a systematic evaluation of malicious issue requests against state-of-the-art coding agents (Cursor, Claude Code, and Codex Desktop), powered by two major model families (OpenAI GPT-5.3 Codex/GPT-5.4 and Anthropic Sonnet 4.6). Our novel benchmark IssueTrojanBench contains malicious issues that are constructed based on four novel attack categories (i.e., embedded as malicious instructions in issues), six delivery vectors (e.g., PDF, or issue comment), and further augmented by perturbations. Our results reveal critical vulnerabilities in the as-deployed modern coding agents, i.e., 66.5% of the malicious issues from IssueTrojanBench penetrate all the guardrails (agent- and LLM-level) of coding agents. Our further analysis shows that rejection is almost entirely from LLMs rather than the agent frameworks, with GPT models broadly vulnerable and Sonnet 4.6 exhibiting more selective, risk-aware blocking of high-impact actions. Our evaluation also highlights that the current agent-level defense strategy offers limited additional protection for coding agents. Our findings highlight the urgent need for stronger agent- and model-level safety mechanisms to protect AI coding agents.",
+      "category": "labs",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.20759",
+      "relevance_score": 45,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "PennySynth: RAG-Driven Data Synthesis for Automated Quantum Code Generation",
+      "summary": "arXiv:2605.25572v2 Announce Type: replace-cross Abstract: The growing complexity of quantum programming frameworks has exposed a critical limitation in existing large language model (LLM)-based code assistants: general-purpose models hallucinate PennyLane-specific gate names, misplace device configurations, and produce structurally invalid circuits when faced with specialized quantum coding challenges. We present PennySynth, a retrieval-augmented generation framework that addresses this gap by conditioning LLM inference on a curated knowledge base of 13,389 PennyLane instruction-code pairs, built via a three-stage extraction, verification, and deduplication pipeline over official PennyLane repositories, community GitHub sources, and QHack competition archives. PennySynth introduces a code-aware embedding strategy using st-codesearch-distilroberta-base, trained for natural-language-to-code retrieval, increasing average retrieval cosine similarity from 0.45 to 0.726 compared to a general-purpose baseline. Evaluated across 74 challenges spanning three years of the QHack competition (2022, 2023, 2024), PennySynth achieves 64%, 68%, and 52% pass@5 on QHack 2022, 2023, and 2024, respectively, improving over Claude Sonnet 4.6 without retrieval by +28, +25, and +28 percentage points. We further introduce a quantum-adapted CodeBLEU metric that upweights qml.* token patterns and show that structural code similarity and functional correctness capture distinct aspects of quantum code quality. Controlled ablations reveal that code-aware embeddings are the primary driver of retrieval performance, while dataset expansion and source composition provide additional gains when retrieval quality is sufficiently precise.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.20145",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.25572",
+      "relevance_score": 33,
       "status": "new",
-      "tags": [
-        "DeepSeek",
-        "Ascend",
-        "model optimization"
-      ],
-      "what_changed": "Introducción de un marco de optimización jerárquico.",
-      "why_it_matters": "Mejora la eficiencia en el entrenamiento de modelos masivos.",
-      "sector_impact": "Fortalece las aplicaciones en investigación operativa y modelado matemático."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ChannelGuard: Sistema de Defensa para Agentes Multi-Agente",
-      "summary": "Un marco de defensa que asegura la seguridad en sistemas multi-agente mediante el uso de puertas de información, previniendo ataques en cada canal entre agentes.",
-      "category": "tool",
+      "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
+      "summary": "arXiv:2607.20891v1 Announce Type: new Abstract: Deep Research agents extend LLM-based assistants into long-horizon workflows involving planning, retrieval, evidence synthesis, and report generation, yet their reliability in open information environments remains underexplored. A key concern is whether apparently credible but factually misleading knowledge encountered in such environments can propagate through these workflows and be adopted as false conclusions in final reports. To study this failure mode, we introduce MisKnow-Agent, a framework for constructing and validating misleading knowledge for Deep Research tasks. MisKnow-Agent generates misleading instances with controllable authority levels and styles, yielding 5,933 quality-controlled instances built on DeepResearch Benchmark tasks. Extensive experiments across open-source and closed-source Deep Research agents show that even limited exposure to misleading knowledge can induce false-conclusion adoption in final reports, revealing a broad reliability vulnerability in current Deep Research agents. Although search-enabled verifier models consistently identify the retained instances as misleading during focused corpus validation, the same instances can still be adopted during long-horizon research, revealing a disconnect between focused verification and workflow-level evidence use. Finally, we evaluate pre- and post-research defenses, both individually and in combination, finding that all three configurations mitigate but do not fully prevent false-conclusion adoption. Our findings suggest that reliable Deep Research requires evidence verification and correction capabilities at both the model and framework levels, beyond improvements in planning, retrieval, evidence integration, or report-generation abilities.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.19430",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.20891",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "multi-agent",
-        "security",
-        "defense"
-      ],
-      "what_changed": "Desarrollo de un sistema de defensa para canales de comunicación.",
-      "why_it_matters": "Reduce la vulnerabilidad en sistemas multi-agente.",
-      "sector_impact": "Aumenta la fiabilidad de las aplicaciones de IA en entornos críticos."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "DocOps: Marco de Evaluación para Agentes Autónomos en Operaciones Documentales",
-      "summary": "Introducción de un marco verificable para evaluar agentes en operaciones documentales, abordando las limitaciones en la manipulación de documentos complejos.",
-      "category": "framework",
+      "title": "AI Security Policy Should Assess Systems, Not Only Models",
+      "summary": "arXiv:2605.09504v2 Announce Type: replace-cross Abstract: We present swarm-attack, an open-source adversarial testing framework in which multiple lightweight LLM agents coordinate through shared memory, parallel exploration, and evolutionary optimization. Together, our results demonstrate that both safety bypass of frontier models and software vulnerability discovery, i.e., the capability class that motivated restricted release of Anthropic's Mythos Preview, are achievable at effectively zero cost using commodity hardware and openly available models. We report two experiments. In the first, five instances of a 1.2 billion parameter model conducted 225 jailbreak attacks each against GPT-4o and Claude Sonnet~4. Against GPT-4o, the swarm achieved an Effective Harm Rate of 45.8%, producing 49 critical-severity breaches; against Claude Sonnet-4, the Effective Harm Rate was 0% despite a 40% technical success rate. In the second experiment, the same models performed combined source code analysis and binary fuzzing against a vulnerable C application with 9 planted CWEs. With a hand-crafted exploit seed corpus, regex pattern detection, and AddressSanitizer-based crash classification, the pipeline recovers 9 of 9 vulnerabilities (100% recall) in approximately four minutes on a consumer MacBook. With those scaffold components disabled, the same model recovers 0 of 9 by crash verification and 2 of 9 by citation. The capability class that motivated restricted release of Anthropic's Mythos Preview is therefore reproducible at effectively zero cost; the important enabler is the system scaffold itself, which compensates for the limited reasoning capacity of small individual models.",
+      "category": "labs",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.19865",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2605.09504",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "document operations",
-        "autonomous agents"
-      ],
-      "what_changed": "Establecimiento de un marco estructurado para la evaluación de capacidades.",
-      "why_it_matters": "Mejora la eficacia de los agentes en la manipulación documental.",
-      "sector_impact": "Facilita la automatización de flujos de trabajo en entornos laborales."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "FORCE-Bench: Marco de Evaluación para IA en Finanzas Empresariales",
-      "summary": "Una nueva benchmark para evaluar sistemas de IA en finanzas operacionales, centrado en la calidad y precisión de las respuestas de los agentes.",
-      "category": "tool",
+      "title": "NVIDIA-labs OO Agents: Native Python Object-Oriented Agents",
+      "summary": "arXiv:2607.20709v1 Announce Type: new Abstract: Traditional agent development is split across prompt templates, tool schemas, callback code, and workflow graphs. We present NVIDIA Object-Oriented Agents (NOOA), a model-agnostic Python framework for building reliable AI agents. NOOA takes a simpler approach: an agent is a Python object. Its methods are the actions the model can take, fields are its state, docstrings are its prompts, and its type annotations are contracts. A method whose code body consists of \"...\" is completed at runtime by an LLM-driven agent loop, while methods with normal bodies remain standard deterministic Python. This gives developers and agents the same interface, so agent behavior can be tested, traced, refactored, and improved just like other software. This paper makes three contributions. (1) We present the agent-as-a-Python-object programming model and the design principles behind it. Where Python has existing abstractions, we adopt them directly. Agent-specific capabilities--context, events, state rendering, long-term memory, and validated LLM loops--are exposed through simple Pythonic APIs, so both developers and agents share one familiar programming model. (2) We identify six model-facing ideas that NOOA is, to our knowledge, the first to combine on a single surface: typed input/output, pass-by-reference over live objects, code as action, programmable loop engineering, explicit object state, and model-callable harness APIs for context and events. We find the community already converging on several of these ideas--often as experimental or partial features--and present the comparison to encourage further adoption. (3) We demonstrate that current models use this interface effectively, both in targeted capability tests and on agentic and reasoning benchmarks such as SWE-bench Verified and Terminal-Bench 2.0 and ARC-AGI-3.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.19409",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.20709",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "finance AI",
-        "benchmarking"
-      ],
-      "what_changed": "Desarrollo de preguntas y rubricas específicas para finanzas.",
-      "why_it_matters": "Establece estándares de calidad para sistemas autónomos en finanzas.",
-      "sector_impact": "Impulsa la confianza en la automatización de procesos financieros."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Fara-1.5: Entornos de Aprendizaje Escalables para Agentes de Uso Informático",
-      "summary": "Presentación de un nuevo pipeline de datos para agentes de uso informático, mejorando la recolección y verificación de demostraciones humanas.",
-      "category": "tool",
+      "title": "AISE-Bench: A Full-Cycle Curated Benchmark for Information Seeking on Academic Knowledge Graphs",
+      "summary": "arXiv:2607.20498v1 Announce Type: new Abstract: Large language models (LLMs) augmented with tools are emerging as autonomous agents capable of using Web engine, APIs, and code to solve complex, long-horizon tasks. Current tool-using benchmarks for information seeking on academic graphs rely on synthetic templates, simplified solution spaces, or narrow tasks such as paper-centric tasks, leaving key challenges underexplored - realistic user intent, complex multi-step API planning, rich parameter filling for APIs, grounded answers with references, and comprehensive evaluation of both the process and the outcome. We introduce AISE-Bench, a real-world, full-cycle annotated benchmark for information seeking on academic knowledge graphs. AISE-Bench release contains 1,133 QA pairs, including query taxonomies, full API execution trajectories, validated parameters, and source-grounded answers with reference links. To support high-quality annotation, we design a customized agent workflow to enable annotators to plan, execute, and revise complex API workflows efficiently. We develop a comprehensive evaluation protocol measuring answer quality, reference grounding, API-planning correctness, and execution success. Among the 14 evaluated methods, even the strongest model (PLAY2PROMPT with Gemini-3-Pro) achieves only moderate performance and often struggles with API planning and execution. AISE-Bench establishes a challenging new testbed for quantitatively evaluating and improving the stepwise correctness, grounded summarization, and traceable reasoning of multi-step API-using LLM agents. Our code and data are available at https://aise-bench.github.io/.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.20785",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.20498",
+      "relevance_score": 29,
       "status": "new",
-      "tags": [
-        "data pipeline",
-        "software agents"
-      ],
-      "what_changed": "Implementación de entornos modulares y verificación de tareas.",
-      "why_it_matters": "Facilita el entrenamiento eficiente y robusto de agentes de uso computacional.",
-      "sector_impact": "Mejora en la ejecución de tareas complejas mediante automatización."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "PerfAgent: Refinamiento Iterativo Guiado por Perfiladores para Optimización de Código",
-      "summary": "Una metodología para la optimización de código a nivel de repositorio, utilizando un enfoque guiado por perfiladores para mejorar la eficiencia del código.",
-      "category": "tool",
+      "title": "Frontier Financial Judgement: Can agents tell what might move a stock?",
+      "summary": "arXiv:2607.20645v1 Announce Type: cross Abstract: We introduce Frontier Financial Judgement, a challenging new benchmark developed in collaboration with professional equity analysts to assess agents' ability to replicate expert human judgements. Rapidly identifying new information, evaluating its implications and determining its valuation impact is one of the most time-consuming and challenging aspects of real-world equity coverage. This is becoming ever more difficult and important as AI rapidly increases the quantity of new information to process. The strongest agent we evaluate on Frontier Financial Judgement matches all expert labels in only 52.4% of cases. We also find significant divergence in estimated false-positive rates among frontier agents, ranging from ~1% for GPT-5.6 Sol to ~32% for Claude Sonnet 4.6. To construct the benchmark and make it representative of real-world settings, we combine human-designed and labelled synthetic articles with live news articles and historical documents, creating 656 items for assessment. The resulting task requires agents to distinguish genuinely new, valuation-relevant financial information from stale, immaterial or misleading news under realistic conditions. We find substantial trade-offs among agent accuracy, cost, false positives and reliability that continue to hinder the reliable deployment of news-flow filtering in practice.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.19653",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.20645",
+      "relevance_score": 29,
       "status": "new",
-      "tags": [
-        "code optimization",
-        "profiling"
-      ],
-      "what_changed": "Incorporación de un ciclo de retroalimentación para identificación de cuellos de botella.",
-      "why_it_matters": "Aumenta la velocidad y la fiabilidad del software optimizado.",
-      "sector_impact": "Optimiza el rendimiento del software en diversas aplicaciones."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "AgentFlow: Sistema de Marco Agente Optimizable en Tiempo Real",
-      "summary": "Desarrollo de un marco que coordina módulos especializados para optimizar la planificación y el uso de herramientas en un entorno en tiempo real.",
-      "category": "framework",
+      "title": "Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind",
+      "summary": "arXiv:2604.11666v2 Announce Type: replace-cross Abstract: As large language models (LLMs) become the engine behind conversational systems, their ability to reason about the intentions and states of their dialogue partners (i.e., form and use a theory-of-mind, or ToM) becomes increasingly critical for safe interaction with potentially adversarial partners. We propose a novel privacy-themed ToM challenge, ToM for Steering Beliefs (ToM-SB), in which a defender must act as a Double Agent to steer the beliefs of an attacker with partial prior knowledge within a shared universe. To succeed on ToM-SB, the defender must engage with and form a ToM of the attacker, with a goal of fooling the attacker into believing they have succeeded in extracting sensitive information. We find that strong frontier models like Gemini3-Pro and GPT-5.4 struggle on ToM-SB, often failing to fool attackers in hard scenarios with partial attacker prior knowledge, even when prompted to reason about the attacker's beliefs (ToM prompting). To close this gap, we train models on ToM-SB to act as AI Double Agents using reinforcement learning, testing both fooling and ToM rewards. Notably, we find a bidirectionally emergent relationship between ToM and attacker-fooling: rewarding fooling success alone improves ToM, and rewarding ToM alone improves fooling. Across four attackers with different strengths, six defender methods, and both in-distribution and out-of-distribution (OOD) evaluation, we find that gains in ToM and attacker-fooling are well-correlated, highlighting belief modeling as a key driver of success on ToM-SB. AI Double Agents that combine both ToM and fooling rewards yield the strongest fooling and ToM performance, outperforming Gemini3-Pro and GPT-5.4 with ToM prompting on hard scenarios. We also show that ToM-SB and AI Double Agents can be extended to stronger attackers, demonstrating generalization to OOD settings and the upgradability of our task.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.05592",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2604.11666",
+      "relevance_score": 29,
       "status": "new",
-      "tags": [
-        "reinforcement learning",
-        "agentic systems"
-      ],
-      "what_changed": "Introducción de optimización de políticas en el flujo de trabajo.",
-      "why_it_matters": "Mejora la adaptabilidad y la eficacia en la toma de decisiones de los agentes.",
-      "sector_impact": "Revoluciona el desarrollo de sistemas de agentes en aplicaciones complejas."
-    },
-    {
-      "title": "Small, Free, and Effective: Orchestration of Open-Weight Small Language Models for Malware Analysis",
-      "summary": "Estudio sobre la orquestación de modelos de lenguaje pequeños para superar a los modelos grandes en el análisis de malware, enfocándose en eficiencia y costo.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.20216",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "malware analysis",
-        "open-weight models"
-      ],
-      "what_changed": "Implementación de arquitecturas de orquestación para mejorar la interpretación de análisis.",
-      "why_it_matters": "Fomenta el uso de modelos ligeros y accesibles en la ciberseguridad.",
-      "sector_impact": "Amplía el acceso a herramientas efectivas en el análisis de amenazas cibernéticas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
