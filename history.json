@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-07-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+          "summary": "ChatGPT Voice en desktop puede trabajar con ChatGPT Work y Codex para completar tareas y controlar agentes.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "voice",
+            "integración"
+          ],
+          "what_changed": "Introducción del modo de voz en la aplicación de escritorio.",
+          "why_it_matters": "Mejora la funcionalidad de ChatGPT en tareas diarias.",
+          "sector_impact": "Aumenta la eficiencia en el uso de herramientas de IA."
+        },
+        {
+          "title": "Anthropic updates Claude voice mode with more capable models",
+          "summary": "El nuevo modelo de voz de Claude permite reprogramar reuniones o redactar correos.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "modelo",
+            "automatización"
+          ],
+          "what_changed": "Actualización en los modelos de voz de Claude.",
+          "why_it_matters": "Facilita la gestión de tareas administrativas.",
+          "sector_impact": "Potencia la eficiencia en la comunicación y planificación."
+        },
+        {
+          "title": "OpenAI makes ChatGPT Health available to all US users",
+          "summary": "Los usuarios pueden integrar sus datos personales de servicios como Apple Health, Function y MyFitnessPal.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "salud",
+            "integración"
+          ],
+          "what_changed": "Accesibilidad de ChatGPT Health para todos los usuarios en EE. UU.",
+          "why_it_matters": "Permite una personalización mejorada de la experiencia de usuario.",
+          "sector_impact": "Contribuye a la salud digital y el autocuidado."
+        },
+        {
+          "title": "Runway launches AI model router as generative media gets crowded",
+          "summary": "El Media Router es una herramienta que selecciona automáticamente el mejor modelo de generación de imagen, video o audio.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Runway",
+            "modelo",
+            "automatización"
+          ],
+          "what_changed": "Lanzamiento del Media Router para optimización de modelos.",
+          "why_it_matters": "Facilita el proceso de creación de contenido generativo.",
+          "sector_impact": "Aumenta la productividad en la producción de medios."
+        },
+        {
+          "title": "Anthropic launches Opus 5",
+          "summary": "Opus 5 será más barato y menos restrictivo que Fable, lo que lo hará preferible en la mayoría de los casos de uso.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Anthropic",
+            "modelo",
+            "accesibilidad"
+          ],
+          "what_changed": "Lanzamiento de un nuevo modelo más accesible.",
+          "why_it_matters": "Ofrece más opciones para desarrolladores y empresas.",
+          "sector_impact": "Impulsa la adopción de IA en diversas aplicaciones."
+        },
+        {
+          "title": "Google’s Gemini nears billion-user milestone",
+          "summary": "Gemini tuvo más de 750 millones de usuarios mensuales en febrero.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "usuarios",
+            "crecimiento"
+          ],
+          "what_changed": "Crecimiento significativo en la base de usuarios.",
+          "why_it_matters": "Indica una adopción masiva de tecnologías de IA.",
+          "sector_impact": "Refuerza la posición de Google en el mercado de IA."
+        },
+        {
+          "title": "AegisAI lands $36M to stop AI-driven spear phishing",
+          "summary": "AegisAI cofundadores desarrollaron agentes de IA que analizan cada mensaje como lo haría un humano.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "AegisAI",
+            "seguridad",
+            "agentes"
+          ],
+          "what_changed": "Financiamiento significativo para acelerar el desarrollo.",
+          "why_it_matters": "Proporciona una solución a un problema creciente de seguridad.",
+          "sector_impact": "Mejora la protección contra amenazas en línea."
+        },
+        {
+          "title": "Midjourney acquired the astrology app Co-Star",
+          "summary": "Midjourney continúa expandiendo su alcance más allá de la generación de imágenes y videos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Midjourney",
+            "expansión",
+            "herramientas"
+          ],
+          "what_changed": "Adquisición de una nueva aplicación para diversificar su portafolio.",
+          "why_it_matters": "Refuerza el compromiso de Midjourney con la innovación.",
+          "sector_impact": "Promueve la intersección de la IA y la cultura popular."
+        }
+      ]
+    },
+    {
       "date": "2026-07-24",
       "executive_title": "Radar IA del día",
       "items": [
@@ -738,130 +880,6 @@
           "what_changed": "Introducción de una nueva línea de productos hardware.",
           "why_it_matters": "Revitaliza el enfoque de OpenAI en el hardware asociado a AI.",
           "sector_impact": "Diversifica la oferta de productos en el ecosistema AI."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-18",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "ShopX: Un Modelo Fundamental para la Comprensión de Intenciones en Compras",
-          "summary": "ShopX unifica la comprensión de intenciones y la ejecución en el espacio de ítems, mejorando la interacción con agentes de compra.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.31693",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "compras",
-            "modelo",
-            "inteligencia artificial"
-          ],
-          "what_changed": "Introducción de un enfoque unificado en la experiencia de compra.",
-          "why_it_matters": "Permite experiencias de compra más fluidas y eficientes, mejorando la satisfacción del usuario.",
-          "sector_impact": "Transforma el espacio de compras al permitir interacciones más naturales con IA."
-        },
-        {
-          "title": "NexForge: Escalando Tareas Ejecutables para Agentes",
-          "summary": "NexForge compila requisitos de capacidades en datos de entrenamiento para agentes ejecutables de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.14186",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "entrenamiento",
-            "agentes",
-            "IA"
-          ],
-          "what_changed": "Nuevo enfoque que desvincula la generación de tareas de métodos predefinidos.",
-          "why_it_matters": "Facilita la creación de datos necesarios para entrenamiento de agentes en múltiples dominios.",
-          "sector_impact": "Aumenta la eficiencia en la formación de agentes ejecutables en diversas aplicaciones."
-        },
-        {
-          "title": "MemoHarness: Arneses de Agentes que Aprenden de la Experiencia",
-          "summary": "MemoHarness mejora el diseño de arneses de agentes basados en la experiencia previa.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.14159",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "optimización",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un marco de optimización adaptativa para arneses de agentes.",
-          "why_it_matters": "Proporciona una mayor adaptabilidad en el rendimiento de los agentes ejecutores.",
-          "sector_impact": "Potencia la eficacia de los agentes en diversas aplicaciones operativas."
-        },
-        {
-          "title": "Can LLMs Build a MaxSAT Solver from Papers? The CoreForge Experience",
-          "summary": "CoreForge utiliza LLMs para construir un solucionador de MaxSAT desde papel, asegurando validaciones externas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.14818",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "LLMs",
-            "solución",
-            "maxSAT"
-          ],
-          "what_changed": "Aplicación práctica de LLMs en la implementación de algorítmica de MaxSAT.",
-          "why_it_matters": "Expande la aplicabilidad de LLMs en resolución de problemas complejos.",
-          "sector_impact": "Aumenta la eficiencia en el desarrollo de soluciones algorítmicas."
-        },
-        {
-          "title": "StructreClaw: Agentes LLM para Ingeniería Estructural",
-          "summary": "StructureClaw evalúa flujos de trabajo de ingeniería estructural asegurando calidad en el proceso.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.14896",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ingeniería",
-            "estructura",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de un marco que verifica artefactos en flujos de trabajo ingenieriles.",
-          "why_it_matters": "Proporciona una evaluación más rigurosa y completa de las respuestas generadas por el agente.",
-          "sector_impact": "Mejora la integridad y precisión en los entornos de ingeniería."
-        },
-        {
-          "title": "Traccia: Plataforma de Gobernanza basada en OpenTelemetry para Sistemas de IA",
-          "summary": "Traccia aborda los desafíos de gobernanza en sistemas de IA mediante evidencias automatizadas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.14309",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "gobernanza",
-            "IA"
-          ],
-          "what_changed": "Nuevo enfoque para asegurar la conformidad en arquitecturas de IA.",
-          "why_it_matters": "Traccia aborda los desafíos de gobernanza en sistemas de IA mediante evidencias automatizadas.",
-          "sector_impact": "Proporciona una base sólida para administrar sistemas de IA autónomos."
-        },
-        {
-          "title": "Harnessing LLMs for Reliable Academic Supervision",
-          "summary": "Evaluación del uso de LLMs en la supervisión académica mostrando mejoras significativas con arneses adaptativos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.14707",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "LLMs",
-            "académico",
-            "supervisión"
-          ],
-          "what_changed": "Uso efectivo de arneses en comparación con modelos más grandes sin supervisión.",
-          "why_it_matters": "Permite una supervisión más confiable y consistente de procesos académicos.",
-          "sector_impact": "Mejora la calidad y efectividad de la supervisión académica."
         }
       ]
     }
