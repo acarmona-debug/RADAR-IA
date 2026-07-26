@@ -1,144 +1,76 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones esenciales sobre herramientas y modelos de IA.",
-  "opening_message": "Aquí te presentamos las últimas novedades en el mundo de la inteligencia artificial que impactarán tu trabajo y procesos.",
+  "intro_message": "Resumen de las últimas innovaciones y herramientas en el mundo de la inteligencia artificial.",
+  "opening_message": "En este radar, priorizamos las herramientas, frameworks y nuevos modelos que están impactando el sector.",
   "items": [
     {
-      "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
-      "summary": "ChatGPT Voice en desktop puede trabajar con ChatGPT Work y Codex para completar tareas y controlar agentes.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "voice",
-        "integración"
-      ],
-      "what_changed": "Introducción del modo de voz en la aplicación de escritorio.",
-      "why_it_matters": "Mejora la funcionalidad de ChatGPT en tareas diarias.",
-      "sector_impact": "Aumenta la eficiencia en el uso de herramientas de IA."
-    },
-    {
-      "title": "Anthropic updates Claude voice mode with more capable models",
-      "summary": "El nuevo modelo de voz de Claude permite reprogramar reuniones o redactar correos.",
+      "title": "Cognition adquiere Poke: La personalidad de IA se convierte en ventaja competitiva",
+      "summary": "La adquisición integra el estilo conversacional de Poke con el agente de codificación Devin, reflejando la importancia de la interacción en los asistentes de IA.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "source_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+      "relevance_score": 12,
+      "status": "new",
+      "tags": [
+        "adquisición",
+        "IA",
+        "asistentes"
+      ],
+      "what_changed": "Integración de un nuevo modelo de interacción en un agente de IA.",
+      "why_it_matters": "Mejora la experiencia del usuario y la eficacia del agente de codificación.",
+      "sector_impact": "Incrementa la competitividad en el desarrollo de asistentes inteligentes."
+    },
+    {
+      "title": "Bluesky lanza la herramienta de investigación social abierta Attie",
+      "summary": "Attie ahora permite a los usuarios hacer preguntas sobre noticias, tendencias y conversaciones en diversas aplicaciones.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+      "relevance_score": 12,
+      "status": "new",
+      "tags": [
+        "asistente",
+        "investigación",
+        "redes sociales"
+      ],
+      "what_changed": "Expansión de la funcionalidad de Attie para incluir preguntas sobre contenido social.",
+      "why_it_matters": "Ofrece a los usuarios acceso a información en tiempo real de múltiples fuentes.",
+      "sector_impact": "Impulsa el análisis social y la interacción en plataformas digitales."
+    },
+    {
+      "title": "OpenAI presenta su nuevo teclado AI",
+      "summary": "Un teclado innovador diseñado para codificadores, que promete hacer más fácil el trabajo de programación.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Claude",
-        "modelo",
-        "automatización"
+        "hardware",
+        "IA",
+        "programación"
       ],
-      "what_changed": "Actualización en los modelos de voz de Claude.",
-      "why_it_matters": "Facilita la gestión de tareas administrativas.",
-      "sector_impact": "Potencia la eficiencia en la comunicación y planificación."
+      "what_changed": "Introducción de un nuevo dispositivo diseñado específicamente para codificadores.",
+      "why_it_matters": "Puede optimizar la experiencia de codificación y aumentar la productividad.",
+      "sector_impact": "Revoluciona la forma en que los programadores interactúan con las máquinas."
     },
     {
-      "title": "OpenAI makes ChatGPT Health available to all US users",
-      "summary": "Los usuarios pueden integrar sus datos personales de servicios como Apple Health, Function y MyFitnessPal.",
+      "title": "AMD desafía a Nvidia con su sistema de rack AI Helios",
+      "summary": "AMD presenta un nuevo sistema de rack dedicado a IA que comenzará a ser enviado a clientes este año.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "source_url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ChatGPT",
-        "salud",
-        "integración"
+        "hardware",
+        "IA",
+        "competitividad"
       ],
-      "what_changed": "Accesibilidad de ChatGPT Health para todos los usuarios en EE. UU.",
-      "why_it_matters": "Permite una personalización mejorada de la experiencia de usuario.",
-      "sector_impact": "Contribuye a la salud digital y el autocuidado."
-    },
-    {
-      "title": "Runway launches AI model router as generative media gets crowded",
-      "summary": "El Media Router es una herramienta que selecciona automáticamente el mejor modelo de generación de imagen, video o audio.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Runway",
-        "modelo",
-        "automatización"
-      ],
-      "what_changed": "Lanzamiento del Media Router para optimización de modelos.",
-      "why_it_matters": "Facilita el proceso de creación de contenido generativo.",
-      "sector_impact": "Aumenta la productividad en la producción de medios."
-    },
-    {
-      "title": "Anthropic launches Opus 5",
-      "summary": "Opus 5 será más barato y menos restrictivo que Fable, lo que lo hará preferible en la mayoría de los casos de uso.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "modelo",
-        "accesibilidad"
-      ],
-      "what_changed": "Lanzamiento de un nuevo modelo más accesible.",
-      "why_it_matters": "Ofrece más opciones para desarrolladores y empresas.",
-      "sector_impact": "Impulsa la adopción de IA en diversas aplicaciones."
-    },
-    {
-      "title": "Google’s Gemini nears billion-user milestone",
-      "summary": "Gemini tuvo más de 750 millones de usuarios mensuales en febrero.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "usuarios",
-        "crecimiento"
-      ],
-      "what_changed": "Crecimiento significativo en la base de usuarios.",
-      "why_it_matters": "Indica una adopción masiva de tecnologías de IA.",
-      "sector_impact": "Refuerza la posición de Google en el mercado de IA."
-    },
-    {
-      "title": "AegisAI lands $36M to stop AI-driven spear phishing",
-      "summary": "AegisAI cofundadores desarrollaron agentes de IA que analizan cada mensaje como lo haría un humano.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "AegisAI",
-        "seguridad",
-        "agentes"
-      ],
-      "what_changed": "Financiamiento significativo para acelerar el desarrollo.",
-      "why_it_matters": "Proporciona una solución a un problema creciente de seguridad.",
-      "sector_impact": "Mejora la protección contra amenazas en línea."
-    },
-    {
-      "title": "Midjourney acquired the astrology app Co-Star",
-      "summary": "Midjourney continúa expandiendo su alcance más allá de la generación de imágenes y videos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [
-        "Midjourney",
-        "expansión",
-        "herramientas"
-      ],
-      "what_changed": "Adquisición de una nueva aplicación para diversificar su portafolio.",
-      "why_it_matters": "Refuerza el compromiso de Midjourney con la innovación.",
-      "sector_impact": "Promueve la intersección de la IA y la cultura popular."
+      "what_changed": "Lanzamiento de un sistema de rack que compite con los productos de Nvidia.",
+      "why_it_matters": "Aumenta la competencia en el mercado de hardware AI, beneficiando a los consumidores.",
+      "sector_impact": "Impulsa la innovación en tecnologías de procesamiento para AI."
     }
   ]
 }
