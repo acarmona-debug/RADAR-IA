@@ -1,76 +1,56 @@
 {
-  "date": "2026-07-26",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones y herramientas en el mundo de la inteligencia artificial.",
-  "opening_message": "En este radar, priorizamos las herramientas, frameworks y nuevos modelos que están impactando el sector.",
+  "date": "2026-07-27",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+  "intro_message": "Bienvenidos al radar diario de IA, donde recopilamos las últimas innovaciones y herramientas en el ecosistema de IA.",
+  "opening_message": "A continuación, se presentan las actualizaciones más relevantes y prometedoras del día.",
   "items": [
     {
-      "title": "Cognition adquiere Poke: La personalidad de IA se convierte en ventaja competitiva",
-      "summary": "La adquisición integra el estilo conversacional de Poke con el agente de codificación Devin, reflejando la importancia de la interacción en los asistentes de IA.",
+      "title": "Prentis, nuevo laboratorio de IA cofundado por Reid Hoffman y Mark Pincus en conversaciones para recaudar $100M",
+      "summary": "El neolab apuesta a que la automatización de tareas rutinarias superará pronto la programación como el mayor caso de uso de la IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "IA"
+      ],
+      "what_changed": "Lanzamiento de un nuevo laboratorio enfocado en la automatización.",
+      "why_it_matters": "Podría cambiar la forma en que abordamos tareas diarias mediante IA.",
+      "sector_impact": "Alto, especialmente para desarrolladores de software."
+    },
+    {
+      "title": "AI communism, modelos rebeldes, y la razón por la que Kimi K3 asustó a Wall Street",
+      "summary": "El modelo abierto Kimi de Moonshot se volvió viral y ha generado preocupación en la industria de IA de EE. UU.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [
-        "adquisición",
-        "IA",
-        "asistentes"
-      ],
-      "what_changed": "Integración de un nuevo modelo de interacción en un agente de IA.",
-      "why_it_matters": "Mejora la experiencia del usuario y la eficacia del agente de codificación.",
-      "sector_impact": "Incrementa la competitividad en el desarrollo de asistentes inteligentes."
-    },
-    {
-      "title": "Bluesky lanza la herramienta de investigación social abierta Attie",
-      "summary": "Attie ahora permite a los usuarios hacer preguntas sobre noticias, tendencias y conversaciones en diversas aplicaciones.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-      "relevance_score": 12,
-      "status": "new",
-      "tags": [
-        "asistente",
-        "investigación",
-        "redes sociales"
-      ],
-      "what_changed": "Expansión de la funcionalidad de Attie para incluir preguntas sobre contenido social.",
-      "why_it_matters": "Ofrece a los usuarios acceso a información en tiempo real de múltiples fuentes.",
-      "sector_impact": "Impulsa el análisis social y la interacción en plataformas digitales."
-    },
-    {
-      "title": "OpenAI presenta su nuevo teclado AI",
-      "summary": "Un teclado innovador diseñado para codificadores, que promete hacer más fácil el trabajo de programación.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+      "source_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "hardware",
-        "IA",
-        "programación"
+        "modelo",
+        "reacción de mercado"
       ],
-      "what_changed": "Introducción de un nuevo dispositivo diseñado específicamente para codificadores.",
-      "why_it_matters": "Puede optimizar la experiencia de codificación y aumentar la productividad.",
-      "sector_impact": "Revoluciona la forma en que los programadores interactúan con las máquinas."
+      "what_changed": "El modelo Kimi ganó atención mediática significativa.",
+      "why_it_matters": "Refleja las preocupaciones sobre la seguridad en el campo de la IA.",
+      "sector_impact": "Medio, afecta a inversionistas y desarrolladores."
     },
     {
-      "title": "AMD desafía a Nvidia con su sistema de rack AI Helios",
-      "summary": "AMD presenta un nuevo sistema de rack dedicado a IA que comenzará a ser enviado a clientes este año.",
+      "title": "Nuevos guardrails de IA están impidiendo el trabajo de investigadores de ciberseguridad ofensiva",
+      "summary": "Investigadores discuten cómo los guardrails de OpenAI y Anthropic afectan su trabajo en el descubrimiento de vulnerabilidades.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "source_url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "hardware",
-        "IA",
-        "competitividad"
+        "ciberseguridad",
+        "herramientas"
       ],
-      "what_changed": "Lanzamiento de un sistema de rack que compite con los productos de Nvidia.",
-      "why_it_matters": "Aumenta la competencia en el mercado de hardware AI, beneficiando a los consumidores.",
-      "sector_impact": "Impulsa la innovación en tecnologías de procesamiento para AI."
+      "what_changed": "Ajustes en las herramientas utilizadas por los investigadores.",
+      "why_it_matters": "Impacta la capacidad de detectar y prevenir vulnerabilidades de seguridad.",
+      "sector_impact": "Alto, especialmente para el sector de la ciberseguridad."
     }
   ]
 }
