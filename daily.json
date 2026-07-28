@@ -1,56 +1,127 @@
 {
-  "date": "2026-07-27",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-  "intro_message": "Bienvenidos al radar diario de IA, donde recopilamos las últimas innovaciones y herramientas en el ecosistema de IA.",
-  "opening_message": "A continuación, se presentan las actualizaciones más relevantes y prometedoras del día.",
+  "date": "2026-07-28",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Resumen de las últimas herramientas y desarrollos en inteligencia artificial.",
+  "opening_message": "Estas son las novedades más relevantes en el ámbito de IA, con un enfoque en herramientas y modelos innovadores.",
   "items": [
     {
-      "title": "Prentis, nuevo laboratorio de IA cofundado por Reid Hoffman y Mark Pincus en conversaciones para recaudar $100M",
-      "summary": "El neolab apuesta a que la automatización de tareas rutinarias superará pronto la programación como el mayor caso de uso de la IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-      "relevance_score": 8,
+      "title": "ClinFusion: Un Sistema Multimodal Centrado en la Visión para la Comprensión Médica Holística",
+      "summary": "ClinFusion aborda limitaciones en la práctica clínica mediante un modelo multimodal que integra imágenes médicas 2D y 3D.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24743",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automatización",
+        "multimodal",
+        "salud",
         "IA"
       ],
-      "what_changed": "Lanzamiento de un nuevo laboratorio enfocado en la automatización.",
-      "why_it_matters": "Podría cambiar la forma en que abordamos tareas diarias mediante IA.",
-      "sector_impact": "Alto, especialmente para desarrolladores de software."
+      "what_changed": "Introducción de un nuevo marco de evaluación y arquitectura de codificación.",
+      "why_it_matters": "Mejora la capacidad de los modelos para entender imágenes médicas, fundamental para un diagnóstico preciso.",
+      "sector_impact": "Salud y medicina"
     },
     {
-      "title": "AI communism, modelos rebeldes, y la razón por la que Kimi K3 asustó a Wall Street",
-      "summary": "El modelo abierto Kimi de Moonshot se volvió viral y ha generado preocupación en la industria de IA de EE. UU.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "modelo",
-        "reacción de mercado"
-      ],
-      "what_changed": "El modelo Kimi ganó atención mediática significativa.",
-      "why_it_matters": "Refleja las preocupaciones sobre la seguridad en el campo de la IA.",
-      "sector_impact": "Medio, afecta a inversionistas y desarrolladores."
-    },
-    {
-      "title": "Nuevos guardrails de IA están impidiendo el trabajo de investigadores de ciberseguridad ofensiva",
-      "summary": "Investigadores discuten cómo los guardrails de OpenAI y Anthropic afectan su trabajo en el descubrimiento de vulnerabilidades.",
+      "title": "CodexGraph: Integración de Modelos de Lenguaje Grande con Bases de Datos de Código",
+      "summary": "CodexGraph permite a los agentes de IA interactuar de manera más efectiva con grandes repositorios de código mediante bases de datos gráficas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2408.03910",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "herramientas"
+        "código",
+        "IA",
+        "integración"
       ],
-      "what_changed": "Ajustes en las herramientas utilizadas por los investigadores.",
-      "why_it_matters": "Impacta la capacidad de detectar y prevenir vulnerabilidades de seguridad.",
-      "sector_impact": "Alto, especialmente para el sector de la ciberseguridad."
+      "what_changed": "Desarrollo de una interfaz optimizada para bases de datos de gráficos.",
+      "why_it_matters": "Facilita una mejor recuperación y navegación del código, esencial para el desarrollo de software.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "Gubernaut: Controlador para Agentes de LLM Regulados Bajo Afectos",
+      "summary": "Gubernaut es un controlador cognitivo que mitiga fallas en modelos de lenguaje, permitiendo una regulación más efectiva en la interacción.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24339",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "control",
+        "IA"
+      ],
+      "what_changed": "Se introduce un controlador autorregulado que mejora la estabilidad de los comportamientos en los modelos.",
+      "why_it_matters": "Reduce las fallas reactivas en agentes, crucial para aplicaciones críticas.",
+      "sector_impact": "IA y automatización"
+    },
+    {
+      "title": "OpenAIs HealthBench en Acción",
+      "summary": "Evaluación de un asistente médico basado en LLM que supera distintos LLMs de frontera en capacidad de respuesta a consultas clínicas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2509.02594",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "salud",
+        "asistentes",
+        "evaluación"
+      ],
+      "what_changed": "Mejoras significativas en la evaluación de asistentes médicos con una nueva métrica de HealthBench.",
+      "why_it_matters": "Destaca la importancia de la evaluabilidad en IA para la medicina, donde la precisión es crítica.",
+      "sector_impact": "Salud"
+    },
+    {
+      "title": "LLM-SoccerArena: Evaluación Prospectiva de Pronósticos en Eventos Deportivos",
+      "summary": "Una plataforma para evaluar la capacidad predictiva de modelos de lenguaje en eventos deportivos en tiempo real.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24573",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "deportes",
+        "predicciones",
+        "plataformas"
+      ],
+      "what_changed": "Introducción de un mecanismo para registrar pronósticos en tiempo real sobre eventos deportivos.",
+      "why_it_matters": "Una plataforma para evaluar la capacidad predictiva de modelos de lenguaje en eventos deportivos en tiempo real.",
+      "sector_impact": "Deportes y entretenimiento"
+    },
+    {
+      "title": "DeepLens Diagnosis Agent: Flora de Diagnóstico Médico",
+      "summary": "Agente que mejora el razonamiento clínico mediante un enfoque de apalancamiento en múltiples etapas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.22555",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "salud",
+        "diagnóstico",
+        "IA"
+      ],
+      "what_changed": "Optimización en el proceso diagnóstico mediante extracción estructurada y generación de pruebas.",
+      "why_it_matters": "Agente que mejora el razonamiento clínico mediante un enfoque de apalancamiento en múltiples etapas.",
+      "sector_impact": "Salud"
+    },
+    {
+      "title": "$\\tau$-Rec: Marco Verificable para Sistemas Recomendadores Agentes",
+      "summary": "Un nuevo benchmark que reemplaza evaluaciones subjetivas con recompensas verificables para sistemas recomendadores basados en agentes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.10156",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "recomendaciones",
+        "IA",
+        "evaluación"
+      ],
+      "what_changed": "Se introduce un nuevo enfoque de evaluación que mejora la consistencia y la objetividad.",
+      "why_it_matters": "Un nuevo benchmark que reemplaza evaluaciones subjetivas con recompensas verificables para sistemas recomendadores basados en agentes.",
+      "sector_impact": "Marketing y servicios"
     }
   ]
 }
