@@ -1,127 +1,128 @@
 {
-  "date": "2026-07-28",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas herramientas y desarrollos en inteligencia artificial.",
-  "opening_message": "Estas son las novedades más relevantes en el ámbito de IA, con un enfoque en herramientas y modelos innovadores.",
+  "date": "2026-07-29",
+  "executive_title": "Radar Diario de IA - Novedades y Avances",
+  "intro_message": "Presentamos las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial.",
+  "opening_message": "A continuación, destacamos los desarrollos más relevantes y útiles para desarrolladores e investigadores en tecnología de IA.",
   "items": [
     {
-      "title": "ClinFusion: Un Sistema Multimodal Centrado en la Visión para la Comprensión Médica Holística",
-      "summary": "ClinFusion aborda limitaciones en la práctica clínica mediante un modelo multimodal que integra imágenes médicas 2D y 3D.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24743",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "multimodal",
-        "salud",
-        "IA"
-      ],
-      "what_changed": "Introducción de un nuevo marco de evaluación y arquitectura de codificación.",
-      "why_it_matters": "Mejora la capacidad de los modelos para entender imágenes médicas, fundamental para un diagnóstico preciso.",
-      "sector_impact": "Salud y medicina"
-    },
-    {
-      "title": "CodexGraph: Integración de Modelos de Lenguaje Grande con Bases de Datos de Código",
-      "summary": "CodexGraph permite a los agentes de IA interactuar de manera más efectiva con grandes repositorios de código mediante bases de datos gráficas.",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "summary": "Anuncio de nuevas capacidades en Managed Agents en Gemini API para construir agentes confiables listos para producción.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2408.03910",
-      "relevance_score": 7,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "código",
-        "IA",
-        "integración"
+        "Gemini",
+        "API",
+        "desarrolladores",
+        "agentes"
       ],
-      "what_changed": "Desarrollo de una interfaz optimizada para bases de datos de gráficos.",
-      "why_it_matters": "Facilita una mejor recuperación y navegación del código, esencial para el desarrollo de software.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Nuevas funcionalidades para la implementación de agentes.",
+      "why_it_matters": "Facilita la creación de agentes más robustos y eficientes para aplicaciones prácticas.",
+      "sector_impact": "Mejora la automatización en múltiples sectores mediante el uso de IA."
     },
     {
-      "title": "Gubernaut: Controlador para Agentes de LLM Regulados Bajo Afectos",
-      "summary": "Gubernaut es un controlador cognitivo que mitiga fallas en modelos de lenguaje, permitiendo una regulación más efectiva en la interacción.",
+      "title": "OpenCoder: Un marco consciente de la incertidumbre en generación de código",
+      "summary": "OpenCoder mejora la generación de código al modelar la incertidumbre en la evidencia recuperada.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24339",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.24884",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "agentes",
-        "control",
-        "IA"
+        "IA",
+        "generación de código",
+        "uncertainty"
       ],
-      "what_changed": "Se introduce un controlador autorregulado que mejora la estabilidad de los comportamientos en los modelos.",
-      "why_it_matters": "Reduce las fallas reactivas en agentes, crucial para aplicaciones críticas.",
-      "sector_impact": "IA y automatización"
+      "what_changed": "Introducción de un marco que estima la incertidumbre en la generación de código.",
+      "why_it_matters": "Aumenta la precisión en la generación de código al manejar evidencia incierta.",
+      "sector_impact": "Optimiza flujos de trabajo de desarrollo de software."
     },
     {
-      "title": "OpenAIs HealthBench en Acción",
-      "summary": "Evaluación de un asistente médico basado en LLM que supera distintos LLMs de frontera en capacidad de respuesta a consultas clínicas.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2509.02594",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "salud",
-        "asistentes",
-        "evaluación"
-      ],
-      "what_changed": "Mejoras significativas en la evaluación de asistentes médicos con una nueva métrica de HealthBench.",
-      "why_it_matters": "Destaca la importancia de la evaluabilidad en IA para la medicina, donde la precisión es crítica.",
-      "sector_impact": "Salud"
-    },
-    {
-      "title": "LLM-SoccerArena: Evaluación Prospectiva de Pronósticos en Eventos Deportivos",
-      "summary": "Una plataforma para evaluar la capacidad predictiva de modelos de lenguaje en eventos deportivos en tiempo real.",
+      "title": "DebtGPT: Un agente para la cobranza de deudas",
+      "summary": "Desarrollo de DebtGPT, un agente especializado en cobranza que optimiza la recuperación financiera.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24573",
+      "source_url": "https://arxiv.org/abs/2607.25218",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "deportes",
-        "predicciones",
-        "plataformas"
+        "LLM",
+        "cobranza de deudas",
+        "AI"
       ],
-      "what_changed": "Introducción de un mecanismo para registrar pronósticos en tiempo real sobre eventos deportivos.",
-      "why_it_matters": "Una plataforma para evaluar la capacidad predictiva de modelos de lenguaje en eventos deportivos en tiempo real.",
-      "sector_impact": "Deportes y entretenimiento"
+      "what_changed": "Creación de un agente que se adapta a comportamientos en conversaciones de deuda.",
+      "why_it_matters": "Ofrece una solución innovadora para un problema crítico en la industria financiera.",
+      "sector_impact": "Potencialmente mejora la eficiencia en la recuperación de deudas."
     },
     {
-      "title": "DeepLens Diagnosis Agent: Flora de Diagnóstico Médico",
-      "summary": "Agente que mejora el razonamiento clínico mediante un enfoque de apalancamiento en múltiples etapas.",
-      "category": "model",
+      "title": "Kernel Forge: Un arnés para optimización de CUDA",
+      "summary": "Kernel Forge permite a los sistemas de IA generar y optimizar kernels de CUDA eficientemente.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.22555",
+      "source_url": "https://arxiv.org/abs/2607.24762",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "salud",
-        "diagnóstico",
+        "optimización",
+        "CUDA",
         "IA"
       ],
-      "what_changed": "Optimización en el proceso diagnóstico mediante extracción estructurada y generación de pruebas.",
-      "why_it_matters": "Agente que mejora el razonamiento clínico mediante un enfoque de apalancamiento en múltiples etapas.",
-      "sector_impact": "Salud"
+      "what_changed": "Presentación de una herramienta para la optimización automatizada de códigos de CUDA.",
+      "why_it_matters": "Reduce la carga de trabajo para ingenieros al automatizar la optimización de precios.",
+      "sector_impact": "Aumenta la eficiencia en aplicaciones de aprendizaje automático."
     },
     {
-      "title": "$\\tau$-Rec: Marco Verificable para Sistemas Recomendadores Agentes",
-      "summary": "Un nuevo benchmark que reemplaza evaluaciones subjetivas con recompensas verificables para sistemas recomendadores basados en agentes.",
+      "title": "Addressable Recall Compaction (ARC): Control de ventanas de contexto largas",
+      "summary": "ARC mejora la retención de información y la eficiencia en agentes LLM con ventanas de contexto largas.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.10156",
+      "source_url": "https://arxiv.org/abs/2607.25066",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "recomendaciones",
-        "IA",
-        "evaluación"
+        "LLM",
+        "eficiencia",
+        "recuperación"
       ],
-      "what_changed": "Se introduce un nuevo enfoque de evaluación que mejora la consistencia y la objetividad.",
-      "why_it_matters": "Un nuevo benchmark que reemplaza evaluaciones subjetivas con recompensas verificables para sistemas recomendadores basados en agentes.",
-      "sector_impact": "Marketing y servicios"
+      "what_changed": "Implementación de un marco para gestión de contexto en agentes LLM.",
+      "why_it_matters": "Aumenta la precisión y la eficiencia operativa en entornos de IA.",
+      "sector_impact": "Beneficia a múltiples campos, incluyendo atención médica y servicios financieros."
+    },
+    {
+      "title": "Ridge: Marco autónomo para validación en precios de opciones",
+      "summary": "RIDGE valida implementaciones de precios generadas por IA en finanzas cuantitativas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.25199",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "finanzas",
+        "validación",
+        "IA"
+      ],
+      "what_changed": "Introducción de un marco para validación automatizada en la generación de precios de opciones.",
+      "why_it_matters": "Asegura la consistencia y estabilidad de los métodos de precios.",
+      "sector_impact": "Fomenta la confianza en el uso de modelos AI en finanzas."
+    },
+    {
+      "title": "LivingArena: Un marco para evaluación dinámica de LLMs",
+      "summary": "LivingArena permite la evaluación continua y dinámica de modelos de lenguaje a gran escala (LLMs).",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24780",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "LLMs",
+        "dinámica"
+      ],
+      "what_changed": "Presentación de un marco para evaluar LLMs mediante cuestionarios continuos.",
+      "why_it_matters": "Proporciona una forma objetiva de medir el rendimiento de los modelos.",
+      "sector_impact": "Mejora la calidad y confiabilidad de los modelos de IA en diversas aplicaciones."
     }
   ]
 }

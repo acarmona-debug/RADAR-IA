@@ -1,6 +1,132 @@
 {
   "days": [
     {
+      "date": "2026-07-29",
+      "executive_title": "Radar Diario de IA - Novedades y Avances",
+      "items": [
+        {
+          "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+          "summary": "Anuncio de nuevas capacidades en Managed Agents en Gemini API para construir agentes confiables listos para producción.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "API",
+            "desarrolladores",
+            "agentes"
+          ],
+          "what_changed": "Nuevas funcionalidades para la implementación de agentes.",
+          "why_it_matters": "Facilita la creación de agentes más robustos y eficientes para aplicaciones prácticas.",
+          "sector_impact": "Mejora la automatización en múltiples sectores mediante el uso de IA."
+        },
+        {
+          "title": "OpenCoder: Un marco consciente de la incertidumbre en generación de código",
+          "summary": "OpenCoder mejora la generación de código al modelar la incertidumbre en la evidencia recuperada.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24884",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "generación de código",
+            "uncertainty"
+          ],
+          "what_changed": "Introducción de un marco que estima la incertidumbre en la generación de código.",
+          "why_it_matters": "Aumenta la precisión en la generación de código al manejar evidencia incierta.",
+          "sector_impact": "Optimiza flujos de trabajo de desarrollo de software."
+        },
+        {
+          "title": "DebtGPT: Un agente para la cobranza de deudas",
+          "summary": "Desarrollo de DebtGPT, un agente especializado en cobranza que optimiza la recuperación financiera.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.25218",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "cobranza de deudas",
+            "AI"
+          ],
+          "what_changed": "Creación de un agente que se adapta a comportamientos en conversaciones de deuda.",
+          "why_it_matters": "Ofrece una solución innovadora para un problema crítico en la industria financiera.",
+          "sector_impact": "Potencialmente mejora la eficiencia en la recuperación de deudas."
+        },
+        {
+          "title": "Kernel Forge: Un arnés para optimización de CUDA",
+          "summary": "Kernel Forge permite a los sistemas de IA generar y optimizar kernels de CUDA eficientemente.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24762",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "CUDA",
+            "IA"
+          ],
+          "what_changed": "Presentación de una herramienta para la optimización automatizada de códigos de CUDA.",
+          "why_it_matters": "Reduce la carga de trabajo para ingenieros al automatizar la optimización de precios.",
+          "sector_impact": "Aumenta la eficiencia en aplicaciones de aprendizaje automático."
+        },
+        {
+          "title": "Addressable Recall Compaction (ARC): Control de ventanas de contexto largas",
+          "summary": "ARC mejora la retención de información y la eficiencia en agentes LLM con ventanas de contexto largas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.25066",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "eficiencia",
+            "recuperación"
+          ],
+          "what_changed": "Implementación de un marco para gestión de contexto en agentes LLM.",
+          "why_it_matters": "Aumenta la precisión y la eficiencia operativa en entornos de IA.",
+          "sector_impact": "Beneficia a múltiples campos, incluyendo atención médica y servicios financieros."
+        },
+        {
+          "title": "Ridge: Marco autónomo para validación en precios de opciones",
+          "summary": "RIDGE valida implementaciones de precios generadas por IA en finanzas cuantitativas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.25199",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "finanzas",
+            "validación",
+            "IA"
+          ],
+          "what_changed": "Introducción de un marco para validación automatizada en la generación de precios de opciones.",
+          "why_it_matters": "Asegura la consistencia y estabilidad de los métodos de precios.",
+          "sector_impact": "Fomenta la confianza en el uso de modelos AI en finanzas."
+        },
+        {
+          "title": "LivingArena: Un marco para evaluación dinámica de LLMs",
+          "summary": "LivingArena permite la evaluación continua y dinámica de modelos de lenguaje a gran escala (LLMs).",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24780",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "LLMs",
+            "dinámica"
+          ],
+          "what_changed": "Presentación de un marco para evaluar LLMs mediante cuestionarios continuos.",
+          "why_it_matters": "Proporciona una forma objetiva de medir el rendimiento de los modelos.",
+          "sector_impact": "Mejora la calidad y confiabilidad de los modelos de IA en diversas aplicaciones."
+        }
+      ]
+    },
+    {
       "date": "2026-07-28",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -638,131 +764,6 @@
           "what_changed": "Implementación de arquitecturas de orquestación para mejorar la interpretación de análisis.",
           "why_it_matters": "Fomenta el uso de modelos ligeros y accesibles en la ciberseguridad.",
           "sector_impact": "Amplía el acceso a herramientas efectivas en el análisis de amenazas cibernéticas."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-          "summary": "BatchDAG optimiza la ejecución de consultas a través de LLMs, permitiendo un análisis más rápido y menos costoso.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.18241",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "BatchDAG",
-            "optimización",
-            "LLM"
-          ],
-          "what_changed": "Introducción de un grafo acíclico dirigido para ejecutar operaciones.",
-          "why_it_matters": "Permite analizar grandes volúmenes de datos de manera más eficiente.",
-          "sector_impact": "Transformación en cómo las empresas manejan datos y consultas."
-        },
-        {
-          "title": "Relay-Bench: Evaluating LLMs on Multi-Domain Reasoning Chains",
-          "summary": "Un nuevo benchmark para evaluar la habilidad de los LLMs en razonamientos multi-dominios.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.18438",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "multi-dominio",
-            "razonamiento"
-          ],
-          "what_changed": "Evaluación holística de tareas de distintos dominios en un solo prompt.",
-          "why_it_matters": "Establece un nuevo estándar para medir el razonamiento en LLMs.",
-          "sector_impact": "Mejora la capacidad de los modelos en aplicaciones prácticas."
-        },
-        {
-          "title": "FinRAG-12B: A Production-Validated Recipe for Grounded Question Answering in Banking",
-          "summary": "Un modelo específicamente diseñado para mejorar las respuestas fundamentadas en el sector bancario.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.05482",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "banca",
-            "respuestas fundamentadas",
-            "modelo"
-          ],
-          "what_changed": "Implementación de una metodología para optimizar la calidad de respuestas.",
-          "why_it_matters": "Reduce la tasa de respuestas inadecuadas en operaciones bancarias.",
-          "sector_impact": "Aumenta la confianza en la IA dentro de la industria financiera."
-        },
-        {
-          "title": "Artificial Intelligence for Mathematical Reasoning: An Integrated Survey of Language Models, Neuro-symbolic Systems, and Verified Discovery",
-          "summary": "Un estudio sobre la evolución de la IA en razonamiento matemático y su futuro.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.08728",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "razonamiento matemático",
-            "modelos de IA",
-            "teoremas"
-          ],
-          "what_changed": "Un enfoque integrado sobre modelos de razonamiento y descubrimiento.",
-          "why_it_matters": "Proporciona una visión comprensiva para futuras investigaciones.",
-          "sector_impact": "Avanza en la integración de IA y matemáticas."
-        },
-        {
-          "title": "Don't Blame the Large Language Model: How Agent Harness Evolution Shapes Coding Agent Quality",
-          "summary": "Un análisis de cómo la evolución de los harnesses de agentes afecta la calidad del código generado.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.03691",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "calidad de código",
-            "LLM"
-          ],
-          "what_changed": "Estudio longitudinal sobre el impacto de los harnesses en la calidad de agentes de codificación.",
-          "why_it_matters": "Identifica factores que afectan el desempeño de los agentes en tareas de programación.",
-          "sector_impact": "Mejora el desarrollo de software y la automatización en la codificación."
-        },
-        {
-          "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
-          "summary": "Un enfoque innovador para la evaluación de ensayos utilizando LLMs con aprendizaje por refuerzo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.19219",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "ensayos",
-            "aprendizaje por refuerzo"
-          ],
-          "what_changed": "Introducción de un marco que optimiza la puntuación y retroalimentación.",
-          "why_it_matters": "Mejora la precisión y aplicabilidad de las evaluaciones automatizadas.",
-          "sector_impact": "Transforma la educación y la retroalimentación en ensayos."
-        },
-        {
-          "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
-          "summary": "Un marco para mejorar la precisión en la verificación de hechos mediante el uso de LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.18240",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "verificación",
-            "hechos",
-            "LLM"
-          ],
-          "what_changed": "Implementación de una evaluación selectiva en la verificación de hechos.",
-          "why_it_matters": "Aumenta la confianza en los sistemas de verificación automatizada.",
-          "sector_impact": "Proporciona una herramienta más efectiva en la lucha contra la desinformación."
         }
       ]
     }
