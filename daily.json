@@ -1,128 +1,127 @@
 {
-  "date": "2026-07-29",
-  "executive_title": "Radar Diario de IA - Novedades y Avances",
-  "intro_message": "Presentamos las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial.",
-  "opening_message": "A continuación, destacamos los desarrollos más relevantes y útiles para desarrolladores e investigadores en tecnología de IA.",
+  "date": "2026-07-30",
+  "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos",
+  "intro_message": "Resumen de las novedades más relevantes en el mundo de la inteligencia artificial.",
+  "opening_message": "Hoy destacamos herramientas, modelos y frameworks emergentes que prometen transformar la manera en que interactuamos y aprovechamos la IA.",
   "items": [
     {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "summary": "Anuncio de nuevas capacidades en Managed Agents en Gemini API para construir agentes confiables listos para producción.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "relevance_score": 8,
+      "title": "Evaluación de LLMs para Traducción Especializada",
+      "summary": "Un estudio sobre el uso de modelos de lenguaje para la traducción de terminología especializada, destacando a Claude Sonnet como el mejor modelo.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24784",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Gemini",
-        "API",
-        "desarrolladores",
+        "terminología",
+        "traducción",
+        "LLMs"
+      ],
+      "what_changed": "Se evalúan cuatro modelos de lenguaje especializados.",
+      "why_it_matters": "Facilita la traducción en campos técnicos donde los recursos son escasos.",
+      "sector_impact": "Científicos e ingenieros se beneficiarán al acceder a traducciones más precisas."
+    },
+    {
+      "title": "ChatGPT y Análisis de Imágenes Satelitales para Predicción de Pobreza",
+      "summary": "Investigación sobre cómo ChatGPT puede clasificar imágenes satelitales según niveles de pobreza, mostrando una precisión comparable a expertos en el área.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2501.14546",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ChatGPT",
+        "imágenes satelitales",
+        "pobreza"
+      ],
+      "what_changed": "Se demuestra la aplicabilidad de LLMs en el análisis de datos sociales.",
+      "why_it_matters": "Ofrece un nuevo enfoque para usar datos satelitales en evaluación socioeconómica.",
+      "sector_impact": "Beneficios potenciales en políticas públicas y estudios sociales."
+    },
+    {
+      "title": "Habilidades de Agentes en IA: Un Enfoque de Ingeniería de Software",
+      "summary": "Propuesta de un enfoque estructurado para desarrollar habilidades reutilizables en agentes de IA siguiendo principios de ingeniería de software.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.25032",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "habilidades",
+        "ingeniería de software"
+      ],
+      "what_changed": "Presenta un nuevo marco para la creación de habilidades en agentes.",
+      "why_it_matters": "Mejora la construcción y reutilización de funcionalidades en agentes de IA.",
+      "sector_impact": "Desarrolladores podrán crear agentes más robustos y eficientes."
+    },
+    {
+      "title": "Progreso en Generación Aumentada por Recuperación (RAG) para Cumplimiento Normativo",
+      "summary": "Resumen de la evolución de un sistema RAG en Ontario Power Generation, mostrando la transición a un enfoque multi-agente.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24791",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "RAG",
+        "cumplimiento normativo",
+        "sistemas multi-agente"
+      ],
+      "what_changed": "Implementaciones de RAG han escalado en complejidad y efectividad.",
+      "why_it_matters": "Proporciona un marco práctico para abordar la recuperación efectiva de documentos.",
+      "sector_impact": "Mejora la eficiencia en la gestión documental en corporaciones grandes."
+    },
+    {
+      "title": "RSMeM: Evolución del Conocimiento para Agentes de Teledetección",
+      "summary": "Introducción de un mecanismo que mejora el rendimiento de agentes de teledetección mediante la integración de conocimiento y experiencia.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.24772",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "teledetección",
+        "conocimiento",
         "agentes"
       ],
-      "what_changed": "Nuevas funcionalidades para la implementación de agentes.",
-      "why_it_matters": "Facilita la creación de agentes más robustos y eficientes para aplicaciones prácticas.",
-      "sector_impact": "Mejora la automatización en múltiples sectores mediante el uso de IA."
+      "what_changed": "Se plantea cómo los agentes pueden evolucionar aprendiendo de sus experiencias.",
+      "why_it_matters": "Ofrece un enfoque proactivo para mejorar análisis geoespaciales.",
+      "sector_impact": "Beneficios en la investigación medioambiental y análisis de datos."
     },
     {
-      "title": "OpenCoder: Un marco consciente de la incertidumbre en generación de código",
-      "summary": "OpenCoder mejora la generación de código al modelar la incertidumbre en la evidencia recuperada.",
+      "title": "VLD-RAG: Generación Aumentada por Recuperación para Documentos Visualmente Ricos",
+      "summary": "Desarrollo de un marco RAG multimodal que mejora la respuesta a preguntas sobre documentos complejos y visuales.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24884",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "IA",
-        "generación de código",
-        "uncertainty"
-      ],
-      "what_changed": "Introducción de un marco que estima la incertidumbre en la generación de código.",
-      "why_it_matters": "Aumenta la precisión en la generación de código al manejar evidencia incierta.",
-      "sector_impact": "Optimiza flujos de trabajo de desarrollo de software."
-    },
-    {
-      "title": "DebtGPT: Un agente para la cobranza de deudas",
-      "summary": "Desarrollo de DebtGPT, un agente especializado en cobranza que optimiza la recuperación financiera.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.25218",
+      "source_url": "https://arxiv.org/abs/2607.24748",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "LLM",
-        "cobranza de deudas",
-        "AI"
+        "RAG",
+        "multimodal",
+        "documentos"
       ],
-      "what_changed": "Creación de un agente que se adapta a comportamientos en conversaciones de deuda.",
-      "why_it_matters": "Ofrece una solución innovadora para un problema crítico en la industria financiera.",
-      "sector_impact": "Potencialmente mejora la eficiencia en la recuperación de deudas."
+      "what_changed": "Un nuevo enfoque en la recuperación y generación de conocimiento en documentos largos.",
+      "why_it_matters": "Permite capturar contexto extendido, mejorando las respuestas a preguntas complejas.",
+      "sector_impact": "Aumenta la comprensión en campos como la investigación académica y empresarial."
     },
     {
-      "title": "Kernel Forge: Un arnés para optimización de CUDA",
-      "summary": "Kernel Forge permite a los sistemas de IA generar y optimizar kernels de CUDA eficientemente.",
+      "title": "ScalableRAG: RAG de Alta Calidad sin Costos de Ingesta",
+      "summary": "Innovaciones en RAG que logran alto rendimiento sin altos costos de ingestión de datos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24762",
+      "source_url": "https://arxiv.org/abs/2607.25135",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "optimización",
-        "CUDA",
-        "IA"
+        "RAG",
+        "herramientas",
+        "optimización"
       ],
-      "what_changed": "Presentación de una herramienta para la optimización automatizada de códigos de CUDA.",
-      "why_it_matters": "Reduce la carga de trabajo para ingenieros al automatizar la optimización de precios.",
-      "sector_impact": "Aumenta la eficiencia en aplicaciones de aprendizaje automático."
-    },
-    {
-      "title": "Addressable Recall Compaction (ARC): Control de ventanas de contexto largas",
-      "summary": "ARC mejora la retención de información y la eficiencia en agentes LLM con ventanas de contexto largas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.25066",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "LLM",
-        "eficiencia",
-        "recuperación"
-      ],
-      "what_changed": "Implementación de un marco para gestión de contexto en agentes LLM.",
-      "why_it_matters": "Aumenta la precisión y la eficiencia operativa en entornos de IA.",
-      "sector_impact": "Beneficia a múltiples campos, incluyendo atención médica y servicios financieros."
-    },
-    {
-      "title": "Ridge: Marco autónomo para validación en precios de opciones",
-      "summary": "RIDGE valida implementaciones de precios generadas por IA en finanzas cuantitativas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.25199",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "finanzas",
-        "validación",
-        "IA"
-      ],
-      "what_changed": "Introducción de un marco para validación automatizada en la generación de precios de opciones.",
-      "why_it_matters": "Asegura la consistencia y estabilidad de los métodos de precios.",
-      "sector_impact": "Fomenta la confianza en el uso de modelos AI en finanzas."
-    },
-    {
-      "title": "LivingArena: Un marco para evaluación dinámica de LLMs",
-      "summary": "LivingArena permite la evaluación continua y dinámica de modelos de lenguaje a gran escala (LLMs).",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24780",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "LLMs",
-        "dinámica"
-      ],
-      "what_changed": "Presentación de un marco para evaluar LLMs mediante cuestionarios continuos.",
-      "why_it_matters": "Proporciona una forma objetiva de medir el rendimiento de los modelos.",
-      "sector_impact": "Mejora la calidad y confiabilidad de los modelos de IA en diversas aplicaciones."
+      "what_changed": "Presenta un método eficiente de RAG que no requiere bases de datos complejas.",
+      "why_it_matters": "Optimiza el acceso y procesamiento de datos sin cargar procesos existentes.",
+      "sector_impact": "Facilita el acceso a información crítica en sectores de alta demanda de datos."
     }
   ]
 }

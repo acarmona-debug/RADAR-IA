@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-07-30",
+      "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos",
+      "items": [
+        {
+          "title": "Evaluación de LLMs para Traducción Especializada",
+          "summary": "Un estudio sobre el uso de modelos de lenguaje para la traducción de terminología especializada, destacando a Claude Sonnet como el mejor modelo.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24784",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "terminología",
+            "traducción",
+            "LLMs"
+          ],
+          "what_changed": "Se evalúan cuatro modelos de lenguaje especializados.",
+          "why_it_matters": "Facilita la traducción en campos técnicos donde los recursos son escasos.",
+          "sector_impact": "Científicos e ingenieros se beneficiarán al acceder a traducciones más precisas."
+        },
+        {
+          "title": "ChatGPT y Análisis de Imágenes Satelitales para Predicción de Pobreza",
+          "summary": "Investigación sobre cómo ChatGPT puede clasificar imágenes satelitales según niveles de pobreza, mostrando una precisión comparable a expertos en el área.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2501.14546",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "imágenes satelitales",
+            "pobreza"
+          ],
+          "what_changed": "Se demuestra la aplicabilidad de LLMs en el análisis de datos sociales.",
+          "why_it_matters": "Ofrece un nuevo enfoque para usar datos satelitales en evaluación socioeconómica.",
+          "sector_impact": "Beneficios potenciales en políticas públicas y estudios sociales."
+        },
+        {
+          "title": "Habilidades de Agentes en IA: Un Enfoque de Ingeniería de Software",
+          "summary": "Propuesta de un enfoque estructurado para desarrollar habilidades reutilizables en agentes de IA siguiendo principios de ingeniería de software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.25032",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "habilidades",
+            "ingeniería de software"
+          ],
+          "what_changed": "Presenta un nuevo marco para la creación de habilidades en agentes.",
+          "why_it_matters": "Mejora la construcción y reutilización de funcionalidades en agentes de IA.",
+          "sector_impact": "Desarrolladores podrán crear agentes más robustos y eficientes."
+        },
+        {
+          "title": "Progreso en Generación Aumentada por Recuperación (RAG) para Cumplimiento Normativo",
+          "summary": "Resumen de la evolución de un sistema RAG en Ontario Power Generation, mostrando la transición a un enfoque multi-agente.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24791",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "RAG",
+            "cumplimiento normativo",
+            "sistemas multi-agente"
+          ],
+          "what_changed": "Implementaciones de RAG han escalado en complejidad y efectividad.",
+          "why_it_matters": "Proporciona un marco práctico para abordar la recuperación efectiva de documentos.",
+          "sector_impact": "Mejora la eficiencia en la gestión documental en corporaciones grandes."
+        },
+        {
+          "title": "RSMeM: Evolución del Conocimiento para Agentes de Teledetección",
+          "summary": "Introducción de un mecanismo que mejora el rendimiento de agentes de teledetección mediante la integración de conocimiento y experiencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24772",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "teledetección",
+            "conocimiento",
+            "agentes"
+          ],
+          "what_changed": "Se plantea cómo los agentes pueden evolucionar aprendiendo de sus experiencias.",
+          "why_it_matters": "Ofrece un enfoque proactivo para mejorar análisis geoespaciales.",
+          "sector_impact": "Beneficios en la investigación medioambiental y análisis de datos."
+        },
+        {
+          "title": "VLD-RAG: Generación Aumentada por Recuperación para Documentos Visualmente Ricos",
+          "summary": "Desarrollo de un marco RAG multimodal que mejora la respuesta a preguntas sobre documentos complejos y visuales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.24748",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "RAG",
+            "multimodal",
+            "documentos"
+          ],
+          "what_changed": "Un nuevo enfoque en la recuperación y generación de conocimiento en documentos largos.",
+          "why_it_matters": "Permite capturar contexto extendido, mejorando las respuestas a preguntas complejas.",
+          "sector_impact": "Aumenta la comprensión en campos como la investigación académica y empresarial."
+        },
+        {
+          "title": "ScalableRAG: RAG de Alta Calidad sin Costos de Ingesta",
+          "summary": "Innovaciones en RAG que logran alto rendimiento sin altos costos de ingestión de datos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.25135",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "RAG",
+            "herramientas",
+            "optimización"
+          ],
+          "what_changed": "Presenta un método eficiente de RAG que no requiere bases de datos complejas.",
+          "why_it_matters": "Optimiza el acceso y procesamiento de datos sin cargar procesos existentes.",
+          "sector_impact": "Facilita el acceso a información crítica en sectores de alta demanda de datos."
+        }
+      ]
+    },
+    {
       "date": "2026-07-29",
       "executive_title": "Radar Diario de IA - Novedades y Avances",
       "items": [
@@ -628,142 +753,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "SLAI T-Rex: Post-entrenamiento Completo de Modelos DeepSeek-V4",
-          "summary": "Un marco de optimización integral para entrenar modelos de gran escala en infraestructura Ascend, logrando un notable aumento en la utilización de FLOPs y estabilidad en el entrenamiento.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.20145",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "DeepSeek",
-            "Ascend",
-            "model optimization"
-          ],
-          "what_changed": "Introducción de un marco de optimización jerárquico.",
-          "why_it_matters": "Mejora la eficiencia en el entrenamiento de modelos masivos.",
-          "sector_impact": "Fortalece las aplicaciones en investigación operativa y modelado matemático."
-        },
-        {
-          "title": "ChannelGuard: Sistema de Defensa para Agentes Multi-Agente",
-          "summary": "Un marco de defensa que asegura la seguridad en sistemas multi-agente mediante el uso de puertas de información, previniendo ataques en cada canal entre agentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.19430",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "multi-agent",
-            "security",
-            "defense"
-          ],
-          "what_changed": "Desarrollo de un sistema de defensa para canales de comunicación.",
-          "why_it_matters": "Reduce la vulnerabilidad en sistemas multi-agente.",
-          "sector_impact": "Aumenta la fiabilidad de las aplicaciones de IA en entornos críticos."
-        },
-        {
-          "title": "DocOps: Marco de Evaluación para Agentes Autónomos en Operaciones Documentales",
-          "summary": "Introducción de un marco verificable para evaluar agentes en operaciones documentales, abordando las limitaciones en la manipulación de documentos complejos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.19865",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "document operations",
-            "autonomous agents"
-          ],
-          "what_changed": "Establecimiento de un marco estructurado para la evaluación de capacidades.",
-          "why_it_matters": "Mejora la eficacia de los agentes en la manipulación documental.",
-          "sector_impact": "Facilita la automatización de flujos de trabajo en entornos laborales."
-        },
-        {
-          "title": "FORCE-Bench: Marco de Evaluación para IA en Finanzas Empresariales",
-          "summary": "Una nueva benchmark para evaluar sistemas de IA en finanzas operacionales, centrado en la calidad y precisión de las respuestas de los agentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.19409",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "finance AI",
-            "benchmarking"
-          ],
-          "what_changed": "Desarrollo de preguntas y rubricas específicas para finanzas.",
-          "why_it_matters": "Establece estándares de calidad para sistemas autónomos en finanzas.",
-          "sector_impact": "Impulsa la confianza en la automatización de procesos financieros."
-        },
-        {
-          "title": "Fara-1.5: Entornos de Aprendizaje Escalables para Agentes de Uso Informático",
-          "summary": "Presentación de un nuevo pipeline de datos para agentes de uso informático, mejorando la recolección y verificación de demostraciones humanas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.20785",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "data pipeline",
-            "software agents"
-          ],
-          "what_changed": "Implementación de entornos modulares y verificación de tareas.",
-          "why_it_matters": "Facilita el entrenamiento eficiente y robusto de agentes de uso computacional.",
-          "sector_impact": "Mejora en la ejecución de tareas complejas mediante automatización."
-        },
-        {
-          "title": "PerfAgent: Refinamiento Iterativo Guiado por Perfiladores para Optimización de Código",
-          "summary": "Una metodología para la optimización de código a nivel de repositorio, utilizando un enfoque guiado por perfiladores para mejorar la eficiencia del código.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.19653",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "code optimization",
-            "profiling"
-          ],
-          "what_changed": "Incorporación de un ciclo de retroalimentación para identificación de cuellos de botella.",
-          "why_it_matters": "Aumenta la velocidad y la fiabilidad del software optimizado.",
-          "sector_impact": "Optimiza el rendimiento del software en diversas aplicaciones."
-        },
-        {
-          "title": "AgentFlow: Sistema de Marco Agente Optimizable en Tiempo Real",
-          "summary": "Desarrollo de un marco que coordina módulos especializados para optimizar la planificación y el uso de herramientas en un entorno en tiempo real.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.05592",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "reinforcement learning",
-            "agentic systems"
-          ],
-          "what_changed": "Introducción de optimización de políticas en el flujo de trabajo.",
-          "why_it_matters": "Mejora la adaptabilidad y la eficacia en la toma de decisiones de los agentes.",
-          "sector_impact": "Revoluciona el desarrollo de sistemas de agentes en aplicaciones complejas."
-        },
-        {
-          "title": "Small, Free, and Effective: Orchestration of Open-Weight Small Language Models for Malware Analysis",
-          "summary": "Estudio sobre la orquestación de modelos de lenguaje pequeños para superar a los modelos grandes en el análisis de malware, enfocándose en eficiencia y costo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.20216",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "malware analysis",
-            "open-weight models"
-          ],
-          "what_changed": "Implementación de arquitecturas de orquestación para mejorar la interpretación de análisis.",
-          "why_it_matters": "Fomenta el uso de modelos ligeros y accesibles en la ciberseguridad.",
-          "sector_impact": "Amplía el acceso a herramientas efectivas en el análisis de amenazas cibernéticas."
         }
       ]
     }
