@@ -1,127 +1,127 @@
 {
-  "date": "2026-07-30",
-  "executive_title": "Radar Diario de IA - Innovaciones y Desarrollos",
-  "intro_message": "Resumen de las novedades más relevantes en el mundo de la inteligencia artificial.",
-  "opening_message": "Hoy destacamos herramientas, modelos y frameworks emergentes que prometen transformar la manera en que interactuamos y aprovechamos la IA.",
+  "date": "2026-07-31",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+  "intro_message": "Este radar presenta las últimas innovaciones en herramientas y modelos de inteligencia artificial, priorizando desarrollos relevantes para la automatización y la integración en frameworks existentes.",
+  "opening_message": "A medida que el campo de la inteligencia artificial avanza, es crucial mantenerse actualizado sobre las herramientas y modelos que pueden transformar la manera en que trabajamos. Este radar destaca los lanzamientos más significativos para desarrolladores y nuevas características en el ecosistema de IA.",
   "items": [
     {
-      "title": "Evaluación de LLMs para Traducción Especializada",
-      "summary": "Un estudio sobre el uso de modelos de lenguaje para la traducción de terminología especializada, destacando a Claude Sonnet como el mejor modelo.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24784",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "terminología",
-        "traducción",
-        "LLMs"
-      ],
-      "what_changed": "Se evalúan cuatro modelos de lenguaje especializados.",
-      "why_it_matters": "Facilita la traducción en campos técnicos donde los recursos son escasos.",
-      "sector_impact": "Científicos e ingenieros se beneficiarán al acceder a traducciones más precisas."
-    },
-    {
-      "title": "ChatGPT y Análisis de Imágenes Satelitales para Predicción de Pobreza",
-      "summary": "Investigación sobre cómo ChatGPT puede clasificar imágenes satelitales según niveles de pobreza, mostrando una precisión comparable a expertos en el área.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2501.14546",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "imágenes satelitales",
-        "pobreza"
-      ],
-      "what_changed": "Se demuestra la aplicabilidad de LLMs en el análisis de datos sociales.",
-      "why_it_matters": "Ofrece un nuevo enfoque para usar datos satelitales en evaluación socioeconómica.",
-      "sector_impact": "Beneficios potenciales en políticas públicas y estudios sociales."
-    },
-    {
-      "title": "Habilidades de Agentes en IA: Un Enfoque de Ingeniería de Software",
-      "summary": "Propuesta de un enfoque estructurado para desarrollar habilidades reutilizables en agentes de IA siguiendo principios de ingeniería de software.",
+      "title": "GPT-Red: Red Teaming Automatizado",
+      "summary": "Introducción de GPT-Red, un agente que descubre ataques de inyección de prompts en modelos de lenguaje grandes, mejorando la robustez de los sistemas de producción.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.25032",
+      "source_url": "https://arxiv.org/abs/2607.26115",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "IA",
+        "robustez"
+      ],
+      "what_changed": "Se desarrolla un nuevo agente autodidacta para el red teaming.",
+      "why_it_matters": "Aumenta la seguridad de modelos de IA frente a ataques, mejorando su confiabilidad.",
+      "sector_impact": "Mejora la seguridad en el uso de IA en múltiples sectores."
+    },
+    {
+      "title": "MathNet: Un Nuevo Benchmark Multimodal",
+      "summary": "Introducción de MathNet, un dataset multimodal que evalúa el razonamiento matemático en modelos de lenguaje y sistemas de recuperación matemática.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.18584",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes",
-        "habilidades",
-        "ingeniería de software"
+        "matemáticas",
+        "benchmark",
+        "IA"
       ],
-      "what_changed": "Presenta un nuevo marco para la creación de habilidades en agentes.",
-      "why_it_matters": "Mejora la construcción y reutilización de funcionalidades en agentes de IA.",
-      "sector_impact": "Desarrolladores podrán crear agentes más robustos y eficientes."
+      "what_changed": "Se amplía la evaluación del razonamiento matemático con un nuevo benchmark.",
+      "why_it_matters": "Facilita la medición del rendimiento de modelos de IA en tareas matemáticas complejas.",
+      "sector_impact": "Impacto significativo en educación y análisis numérico."
     },
     {
-      "title": "Progreso en Generación Aumentada por Recuperación (RAG) para Cumplimiento Normativo",
-      "summary": "Resumen de la evolución de un sistema RAG en Ontario Power Generation, mostrando la transición a un enfoque multi-agente.",
+      "title": "SCIQ: Evaluación de Calidad de Figuras Científicas",
+      "summary": "Presentación de SciFigQual-Bench, un benchmark para la evaluación de imágenes científicas en diversos contextos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.27084",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ciencia",
+        "evaluación",
+        "IA"
+      ],
+      "what_changed": "Se establece un nuevo estándar para la evaluación de figuras científicas.",
+      "why_it_matters": "Ayuda a garantizar la claridad y precisión en la comunicación científica.",
+      "sector_impact": "Beneficia la publicación de investigaciones en varios campos científicos."
+    },
+    {
+      "title": "Living-Harness: Evolución de Agentes Interactivos",
+      "summary": "Desarrollo de Living-Harness, un sistema que permite la evolución de agentes de IA a través de la retroalimentación continua.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.26598",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA",
+        "interactividad",
+        "evolución"
+      ],
+      "what_changed": "Se introduce un marco para la evolución de interacciones de agentes de IA.",
+      "why_it_matters": "Maximiza el aprendizaje continuo y la adaptabilidad de agentes de IA.",
+      "sector_impact": "Mejoras en la eficiencia en tareas interactivas en múltiples industrias."
+    },
+    {
+      "title": "TraceCoder: Generación de Código Explicable",
+      "summary": "Presentación de TraceCoder, un sistema que permite la generación de código con trazabilidad y explicaciones claras.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.26307",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "programación",
+        "explicabilidad",
+        "IA"
+      ],
+      "what_changed": "Se mejora la audibilidad en la generación de código por modelos de IA.",
+      "why_it_matters": "Incrementa la confianza y la comprensión en la implementación de soluciones automatizadas.",
+      "sector_impact": "Revoluciona la forma en que se aborda la programación y los estándares de calidad del código."
+    },
+    {
+      "title": "SkillSight: Calibración de Sesgos en Recuperación de Habilidades",
+      "summary": "Introducción de SkillSight, un marco de calibración para mejorar la recuperación de habilidades utilizando modelos de IA.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.18785",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "recuperación",
+        "IA",
+        "habilidades"
+      ],
+      "what_changed": "Se establece un nuevo enfoque para la recuperación de habilidades más precisa.",
+      "why_it_matters": "Permite una selección más efectiva en la automatización de tareas.",
+      "sector_impact": "Impacto positivo en la automatización y mejora de procesos de trabajo."
+    },
+    {
+      "title": "GoGoTB: Verificación RTL Automatizada",
+      "summary": "Presentación de GoGoTB, un marco que automatiza el proceso de verificación en circuitos integrados.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24791",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2607.26181",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "RAG",
-        "cumplimiento normativo",
-        "sistemas multi-agente"
+        "verificación",
+        "circuitos",
+        "IA"
       ],
-      "what_changed": "Implementaciones de RAG han escalado en complejidad y efectividad.",
-      "why_it_matters": "Proporciona un marco práctico para abordar la recuperación efectiva de documentos.",
-      "sector_impact": "Mejora la eficiencia en la gestión documental en corporaciones grandes."
-    },
-    {
-      "title": "RSMeM: Evolución del Conocimiento para Agentes de Teledetección",
-      "summary": "Introducción de un mecanismo que mejora el rendimiento de agentes de teledetección mediante la integración de conocimiento y experiencia.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24772",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "teledetección",
-        "conocimiento",
-        "agentes"
-      ],
-      "what_changed": "Se plantea cómo los agentes pueden evolucionar aprendiendo de sus experiencias.",
-      "why_it_matters": "Ofrece un enfoque proactivo para mejorar análisis geoespaciales.",
-      "sector_impact": "Beneficios en la investigación medioambiental y análisis de datos."
-    },
-    {
-      "title": "VLD-RAG: Generación Aumentada por Recuperación para Documentos Visualmente Ricos",
-      "summary": "Desarrollo de un marco RAG multimodal que mejora la respuesta a preguntas sobre documentos complejos y visuales.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.24748",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "RAG",
-        "multimodal",
-        "documentos"
-      ],
-      "what_changed": "Un nuevo enfoque en la recuperación y generación de conocimiento en documentos largos.",
-      "why_it_matters": "Permite capturar contexto extendido, mejorando las respuestas a preguntas complejas.",
-      "sector_impact": "Aumenta la comprensión en campos como la investigación académica y empresarial."
-    },
-    {
-      "title": "ScalableRAG: RAG de Alta Calidad sin Costos de Ingesta",
-      "summary": "Innovaciones en RAG que logran alto rendimiento sin altos costos de ingestión de datos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.25135",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "RAG",
-        "herramientas",
-        "optimización"
-      ],
-      "what_changed": "Presenta un método eficiente de RAG que no requiere bases de datos complejas.",
-      "why_it_matters": "Optimiza el acceso y procesamiento de datos sin cargar procesos existentes.",
-      "sector_impact": "Facilita el acceso a información crítica en sectores de alta demanda de datos."
+      "what_changed": "Se mejora significativamente la verificación de circuitos integrados.",
+      "why_it_matters": "Reduce el riesgo de fallos en el diseño de circuitos, mejorando la calidad del producto final.",
+      "sector_impact": "Beneficia a la industria de semiconductores y electrónica."
     }
   ]
 }
