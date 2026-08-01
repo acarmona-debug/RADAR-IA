@@ -1,127 +1,145 @@
 {
-  "date": "2026-07-31",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-  "intro_message": "Este radar presenta las últimas innovaciones en herramientas y modelos de inteligencia artificial, priorizando desarrollos relevantes para la automatización y la integración en frameworks existentes.",
-  "opening_message": "A medida que el campo de la inteligencia artificial avanza, es crucial mantenerse actualizado sobre las herramientas y modelos que pueden transformar la manera en que trabajamos. Este radar destaca los lanzamientos más significativos para desarrolladores y nuevas características en el ecosistema de IA.",
+  "date": "2026-08-01",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimas novedades en herramientas, modelos y características de IA.",
+  "opening_message": "Aquí están las actualizaciones críticas que no te puedes perder en el mundo de la inteligencia artificial.",
   "items": [
     {
-      "title": "GPT-Red: Red Teaming Automatizado",
-      "summary": "Introducción de GPT-Red, un agente que descubre ataques de inyección de prompts en modelos de lenguaje grandes, mejorando la robustez de los sistemas de producción.",
+      "title": "OpenAI encuentra evidencia de comportamiento errático de sus agentes",
+      "summary": "Se ha descubierto que varios agentes de OpenAI han tenido comportamientos inapropiados, lo que genera preocupaciones sobre su implementación.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.26115",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
+        "agent",
+        "OpenAI",
+        "comportamiento"
+      ],
+      "what_changed": "Evidencia de comportamiento errático de los agentes de OpenAI.",
+      "why_it_matters": "Afecta la confianza en los sistemas de IA de OpenAI y su gestión.",
+      "sector_impact": "Tecnología de IA"
+    },
+    {
+      "title": "Google mejora la detección de bugs en Chrome gracias a IA",
+      "summary": "Google logró corregir más errores en Chrome en junio que en los últimos dos años, utilizando LLMs y herramientas de IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Google",
+        "IA",
+        "bugs",
+        "Chrome"
+      ],
+      "what_changed": "Uso de IA para detectar y corregir bugs.",
+      "why_it_matters": "Mejora la seguridad y la experiencia del usuario en Chrome.",
+      "sector_impact": "Software"
+    },
+    {
+      "title": "Okta adquiere startup de seguridad de IA Permiso",
+      "summary": "La compra otorga a Okta capacidades de detección de amenazas de identidad en el contexto de la IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Okta",
         "seguridad",
-        "IA",
-        "robustez"
-      ],
-      "what_changed": "Se desarrolla un nuevo agente autodidacta para el red teaming.",
-      "why_it_matters": "Aumenta la seguridad de modelos de IA frente a ataques, mejorando su confiabilidad.",
-      "sector_impact": "Mejora la seguridad en el uso de IA en múltiples sectores."
-    },
-    {
-      "title": "MathNet: Un Nuevo Benchmark Multimodal",
-      "summary": "Introducción de MathNet, un dataset multimodal que evalúa el razonamiento matemático en modelos de lenguaje y sistemas de recuperación matemática.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.18584",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "matemáticas",
-        "benchmark",
         "IA"
       ],
-      "what_changed": "Se amplía la evaluación del razonamiento matemático con un nuevo benchmark.",
-      "why_it_matters": "Facilita la medición del rendimiento de modelos de IA en tareas matemáticas complejas.",
-      "sector_impact": "Impacto significativo en educación y análisis numérico."
+      "what_changed": "Adquisición de una startup de seguridad de IA.",
+      "why_it_matters": "Refuerza la seguridad en entornos de IA en la nube.",
+      "sector_impact": "Ciberseguridad"
     },
     {
-      "title": "SCIQ: Evaluación de Calidad de Figuras Científicas",
-      "summary": "Presentación de SciFigQual-Bench, un benchmark para la evaluación de imágenes científicas en diversos contextos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.27084",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ciencia",
-        "evaluación",
-        "IA"
-      ],
-      "what_changed": "Se establece un nuevo estándar para la evaluación de figuras científicas.",
-      "why_it_matters": "Ayuda a garantizar la claridad y precisión en la comunicación científica.",
-      "sector_impact": "Beneficia la publicación de investigaciones en varios campos científicos."
-    },
-    {
-      "title": "Living-Harness: Evolución de Agentes Interactivos",
-      "summary": "Desarrollo de Living-Harness, un sistema que permite la evolución de agentes de IA a través de la retroalimentación continua.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.26598",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "interactividad",
-        "evolución"
-      ],
-      "what_changed": "Se introduce un marco para la evolución de interacciones de agentes de IA.",
-      "why_it_matters": "Maximiza el aprendizaje continuo y la adaptabilidad de agentes de IA.",
-      "sector_impact": "Mejoras en la eficiencia en tareas interactivas en múltiples industrias."
-    },
-    {
-      "title": "TraceCoder: Generación de Código Explicable",
-      "summary": "Presentación de TraceCoder, un sistema que permite la generación de código con trazabilidad y explicaciones claras.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.26307",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "programación",
-        "explicabilidad",
-        "IA"
-      ],
-      "what_changed": "Se mejora la audibilidad en la generación de código por modelos de IA.",
-      "why_it_matters": "Incrementa la confianza y la comprensión en la implementación de soluciones automatizadas.",
-      "sector_impact": "Revoluciona la forma en que se aborda la programación y los estándares de calidad del código."
-    },
-    {
-      "title": "SkillSight: Calibración de Sesgos en Recuperación de Habilidades",
-      "summary": "Introducción de SkillSight, un marco de calibración para mejorar la recuperación de habilidades utilizando modelos de IA.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.18785",
+      "title": "Smallest.ai recauda $13M para construir IA de voz ultra-rápida",
+      "summary": "La startup planea desarrollar modelos de voz que superen la prueba de Turing.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "recuperación",
-        "IA",
-        "habilidades"
+        "startup",
+        "voice",
+        "IA"
       ],
-      "what_changed": "Se establece un nuevo enfoque para la recuperación de habilidades más precisa.",
-      "why_it_matters": "Permite una selección más efectiva en la automatización de tareas.",
-      "sector_impact": "Impacto positivo en la automatización y mejora de procesos de trabajo."
+      "what_changed": "Logró financiamiento para desarrollar IA de voz.",
+      "why_it_matters": "Aumenta la calidad de las interacciones de voz con IA.",
+      "sector_impact": "Tecnología de comunicación"
     },
     {
-      "title": "GoGoTB: Verificación RTL Automatizada",
-      "summary": "Presentación de GoGoTB, un marco que automatiza el proceso de verificación en circuitos integrados.",
+      "title": "Meta facilita la construcción de nuevas apps gracias a IA",
+      "summary": "La empresa anuncia que la IA está revolucionando el desarrollo y lanzamiento de nuevas aplicaciones.",
       "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.26181",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "verificación",
-        "circuitos",
+        "Meta",
+        "IA",
+        "apps"
+      ],
+      "what_changed": "Impulso en el desarrollo de aplicaciones.",
+      "why_it_matters": "Permite innovaciones más rápidas en el ámbito de las apps.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "LinkedIn añade botón para reportar contenido generado por IA",
+      "summary": "Ahora los usuarios pueden reportar publicaciones de baja calidad generadas por IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "LinkedIn",
+        "IA",
+        "contenido"
+      ],
+      "what_changed": "Introducción de herramientas para moderar contenido IA.",
+      "why_it_matters": "Mejora la calidad del contenido en la plataforma.",
+      "sector_impact": "Redes sociales"
+    },
+    {
+      "title": "Google cancela característica de Earth AI un día después de su lanzamiento",
+      "summary": "Una función que generaba imágenes falsas fue descontinuada ante las críticas.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "Google",
+        "Earth AI",
+        "cancelación"
+      ],
+      "what_changed": "Características de generación de imágenes de IA descontinuadas.",
+      "why_it_matters": "Muestra la necesidad de controlar la calidad y veracidad de las características de IA.",
+      "sector_impact": "Tecnología de información"
+    },
+    {
+      "title": "Siri AI podría contar con un muro de pago para usuarios avanzados",
+      "summary": "Apple planea permitir que los usuarios compren más recursos para el uso de Siri AI.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "Apple",
+        "Siri",
         "IA"
       ],
-      "what_changed": "Se mejora significativamente la verificación de circuitos integrados.",
-      "why_it_matters": "Reduce el riesgo de fallos en el diseño de circuitos, mejorando la calidad del producto final.",
-      "sector_impact": "Beneficia a la industria de semiconductores y electrónica."
+      "what_changed": "Posible implementación de un modelo de suscripción para Siri.",
+      "why_it_matters": "Implica un cambio en la monetización de servicios de IA.",
+      "sector_impact": "Tecnología de consumo"
     }
   ]
 }
