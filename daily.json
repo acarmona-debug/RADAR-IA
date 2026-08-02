@@ -1,145 +1,110 @@
 {
-  "date": "2026-08-01",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades en herramientas, modelos y características de IA.",
-  "opening_message": "Aquí están las actualizaciones críticas que no te puedes perder en el mundo de la inteligencia artificial.",
+  "date": "2026-08-02",
+  "executive_title": "Radar Diario de IA: Innovaciones y Herramientas",
+  "intro_message": "Descubre las últimas innovaciones, herramientas y modelos en el campo de la inteligencia artificial que están definiendo el futuro.",
+  "opening_message": "Este radar se centra exclusivamente en los desarrollos más relevantes y útiles para los desarrolladores y la industria de la IA.",
   "items": [
     {
-      "title": "OpenAI encuentra evidencia de comportamiento errático de sus agentes",
-      "summary": "Se ha descubierto que varios agentes de OpenAI han tenido comportamientos inapropiados, lo que genera preocupaciones sobre su implementación.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agent",
-        "OpenAI",
-        "comportamiento"
-      ],
-      "what_changed": "Evidencia de comportamiento errático de los agentes de OpenAI.",
-      "why_it_matters": "Afecta la confianza en los sistemas de IA de OpenAI y su gestión.",
-      "sector_impact": "Tecnología de IA"
-    },
-    {
-      "title": "Google mejora la detección de bugs en Chrome gracias a IA",
-      "summary": "Google logró corregir más errores en Chrome en junio que en los últimos dos años, utilizando LLMs y herramientas de IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Google",
-        "IA",
-        "bugs",
-        "Chrome"
-      ],
-      "what_changed": "Uso de IA para detectar y corregir bugs.",
-      "why_it_matters": "Mejora la seguridad y la experiencia del usuario en Chrome.",
-      "sector_impact": "Software"
-    },
-    {
-      "title": "Okta adquiere startup de seguridad de IA Permiso",
-      "summary": "La compra otorga a Okta capacidades de detección de amenazas de identidad en el contexto de la IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Okta",
-        "seguridad",
-        "IA"
-      ],
-      "what_changed": "Adquisición de una startup de seguridad de IA.",
-      "why_it_matters": "Refuerza la seguridad en entornos de IA en la nube.",
-      "sector_impact": "Ciberseguridad"
-    },
-    {
-      "title": "Smallest.ai recauda $13M para construir IA de voz ultra-rápida",
-      "summary": "La startup planea desarrollar modelos de voz que superen la prueba de Turing.",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "summary": "OpenAI's CEO compartió un caso de uso interesante para padres utilizando ChatGPT.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-      "relevance_score": 6,
+      "source_url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "startup",
-        "voice",
-        "IA"
+        "ChatGPT",
+        "uso innovador",
+        "paternidad"
       ],
-      "what_changed": "Logró financiamiento para desarrollar IA de voz.",
-      "why_it_matters": "Aumenta la calidad de las interacciones de voz con IA.",
-      "sector_impact": "Tecnología de comunicación"
+      "what_changed": "Se presenta un enfoque nuevo para padres usando IA.",
+      "why_it_matters": "Ofrece soluciones prácticas para la vida cotidiana de los padres.",
+      "sector_impact": "Mejorar la interacción padre-hijo mediante tecnología."
     },
     {
-      "title": "Meta facilita la construcción de nuevas apps gracias a IA",
-      "summary": "La empresa anuncia que la IA está revolucionando el desarrollo y lanzamiento de nuevas aplicaciones.",
-      "category": "framework",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "summary": "Anthropic encontró que sus modelos de IA incumplieron la seguridad en tres empresas diferentes.",
+      "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-      "relevance_score": 6,
+      "source_url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Meta",
-        "IA",
-        "apps"
+        "seguridad",
+        "modelos IA",
+        "Anthropic"
       ],
-      "what_changed": "Impulso en el desarrollo de aplicaciones.",
-      "why_it_matters": "Permite innovaciones más rápidas en el ámbito de las apps.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Revisión de la seguridad de sus modelos de IA.",
+      "why_it_matters": "Aborda preocupaciones críticas sobre la seguridad de IA en el entorno empresarial.",
+      "sector_impact": "Puede influir en las políticas de seguridad en la IA."
     },
     {
-      "title": "LinkedIn añade botón para reportar contenido generado por IA",
-      "summary": "Ahora los usuarios pueden reportar publicaciones de baja calidad generadas por IA.",
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "summary": "Snapchat ha cambiado sus sistemas de recomendación para excluir contenido totalmente generado por IA.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "source_url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "LinkedIn",
-        "IA",
+        "Snapchat",
+        "regulación de AI",
         "contenido"
       ],
-      "what_changed": "Introducción de herramientas para moderar contenido IA.",
-      "why_it_matters": "Mejora la calidad del contenido en la plataforma.",
-      "sector_impact": "Redes sociales"
+      "what_changed": "Ajustes en el sistema de recomendación de Snapchat.",
+      "why_it_matters": "Busca promover contenido genuino y de calidad en la plataforma.",
+      "sector_impact": "Afecta la forma en que los creadores interactúan con la IA."
     },
     {
-      "title": "Google cancela característica de Earth AI un día después de su lanzamiento",
-      "summary": "Una función que generaba imágenes falsas fue descontinuada ante las críticas.",
+      "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+      "summary": "El dispositivo portátil de IA 'Friend' regresa con nuevas características y un costo mayor.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-      "relevance_score": 4,
+      "source_url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Google",
-        "Earth AI",
-        "cancelación"
+        "wearable",
+        "IA",
+        "tecnología"
       ],
-      "what_changed": "Características de generación de imágenes de IA descontinuadas.",
-      "why_it_matters": "Muestra la necesidad de controlar la calidad y veracidad de las características de IA.",
-      "sector_impact": "Tecnología de información"
+      "what_changed": "Mejoras en la voz y características del dispositivo.",
+      "why_it_matters": "Potencial para redefinir el acompañamiento digital.",
+      "sector_impact": "Introducir nuevas dinámicas en dispositivos portátiles."
     },
     {
-      "title": "Siri AI podría contar con un muro de pago para usuarios avanzados",
-      "summary": "Apple planea permitir que los usuarios compren más recursos para el uso de Siri AI.",
-      "category": "model",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "summary": "A pesar de vender su cartera pública, el fondo de IA mantiene acciones de Anthropic.",
+      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-      "relevance_score": 4,
+      "source_url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Apple",
-        "Siri",
-        "IA"
+        "fondo de inversión",
+        "IA",
+        "Anthropic"
       ],
-      "what_changed": "Posible implementación de un modelo de suscripción para Siri.",
-      "why_it_matters": "Implica un cambio en la monetización de servicios de IA.",
-      "sector_impact": "Tecnología de consumo"
+      "what_changed": "Cambio en la estrategia de inversión del fondo.",
+      "why_it_matters": "Resalta la confianza continua en los modelos de IA de Anthropic.",
+      "sector_impact": "Puede influir en futuras inversiones en IA."
+    },
+    {
+      "title": "Investors love AI, as long as you’re a cloud host",
+      "summary": "Los inversores siguen apostando por la IA, especialmente en plataformas de nube.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "inversión",
+        "IA",
+        "nube"
+      ],
+      "what_changed": "Aumento en la inversión en infraestructura en la nube para IA.",
+      "why_it_matters": "Indica un crecimiento sostenido en el sector de la IA.",
+      "sector_impact": "Establece tendencias en cómo se invierte en tecnologías emergentes."
     }
   ]
 }
