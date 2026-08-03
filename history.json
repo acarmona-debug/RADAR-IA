@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-08-03",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "DragonCrawl: Un Framework Generativo para Pruebas Móviles",
+          "summary": "DragonCrawl logra un alto porcentaje de éxito en pruebas automáticas de UI en aplicaciones móviles, mejorando la estabilidad y calidad de las pruebas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.28750",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "testing",
+            "mobile",
+            "automation"
+          ],
+          "what_changed": "Implementación de un sistema de pruebas basado en razonamiento generativo.",
+          "why_it_matters": "Reduce el tiempo de integración de pruebas y mejora la calidad del software móvil.",
+          "sector_impact": "Mejora significativa en el desarrollo de software y la calidad de la experiencia del usuario."
+        },
+        {
+          "title": "WILC: Integrando Inteligencia Colectiva de LLMs",
+          "summary": "WILC define un nuevo enfoque para coordinar múltiples LLMs, mejorando su rendimiento en tareas complejas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.29087",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "coordination",
+            "multimodal",
+            "AI"
+          ],
+          "what_changed": "Nuevo marco de trabajo para la selección dinámica de modelos.",
+          "why_it_matters": "Maximiza la inteligencia colectiva de diversos modelos para resolver problemas complejos.",
+          "sector_impact": "Aumenta la eficiencia en la resolución de problemas utilizando IA."
+        },
+        {
+          "title": "SciToolAgent-Evo: Agente Autonómico para Adquisición de Herramientas Científicas",
+          "summary": "SciToolAgent-Evo se adapta dinámicamente a flujos de trabajo científicos abiertos, mejorando la adquisición de herramientas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.28692",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "AI",
+            "science",
+            "agent"
+          ],
+          "what_changed": "Introducción de un agente evolutivo consciente de la ontología.",
+          "why_it_matters": "Facilita la integración de herramientas científicas en entornos cambiantes.",
+          "sector_impact": "Impulsa la eficiencia y capacidad reactiva en la investigación científica."
+        },
+        {
+          "title": "AMTFV: Verificación de Flujos Matemáticos para LLMs",
+          "summary": "AMTFV mejora la verificación de respuestas matemáticas en LLMs apoyándose en un método de verificación específica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.29549",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "mathematics",
+            "verification",
+            "AI"
+          ],
+          "what_changed": "Desacoplamiento de la verificación de la ejecución concreta.",
+          "why_it_matters": "Mejora la precisión en la resolución de problemas matemáticos.",
+          "sector_impact": "Aumenta la fiabilidad de aplicaciones que dependen de cálculos exactos."
+        },
+        {
+          "title": "SafeKeep: Mitigación de Riesgos de Seguridad en Agentes de IA",
+          "summary": "SafeKeep introduce un salvaguarda en el tiempo de inferencia para mejorar la seguridad de los agentes de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.29254",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "safety",
+            "AI",
+            "security"
+          ],
+          "what_changed": "Separación del juicio de seguridad de la ejecución de la herramienta.",
+          "why_it_matters": "Aumenta la tasa de rechazo a solicitudes dañinas significativamente.",
+          "sector_impact": "Mejora la seguridad en aplicaciones de inteligencia artificial aplicadas."
+        },
+        {
+          "title": "ModeloEquivBench: Evaluación Multi-Relacional de Modelos Generados por LLM",
+          "summary": "ModeloEquivBench proporciona un sistema de evaluación para modelos de optimización generados automáticamente, introduciendo perfiles semánticos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.29431",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluation",
+            "optimization",
+            "AI"
+          ],
+          "what_changed": "Nuevas formas de evaluación multi-relacional con perfiles semánticos.",
+          "why_it_matters": "Permite evaluaciones más precisas y confiables de modelos generados.",
+          "sector_impact": "Fortalece la confianza en el uso de LLMs en aplicaciones críticas."
+        },
+        {
+          "title": "Optimización en Diseño de Motores Mediante Enfoque Híbrido FEA-AI",
+          "summary": "Este estudio presenta un marco de multi-agentes para la optimización de motores que mejora los flujos de trabajo convencionales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.09037",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "design",
+            "optimization",
+            "AI"
+          ],
+          "what_changed": "Implementación de agentes especializados para abordar problemas de diseño.",
+          "why_it_matters": "Aumenta la eficiencia y precisión en el diseño de motores.",
+          "sector_impact": "Revoluciona el proceso de diseño en la industria automotriz."
+        }
+      ]
+    },
+    {
       "date": "2026-08-02",
       "executive_title": "Radar Diario de IA: Innovaciones y Herramientas",
       "items": [
@@ -749,60 +874,6 @@
           "what_changed": "Se introduce un nuevo enfoque de evaluación que mejora la consistencia y la objetividad.",
           "why_it_matters": "Un nuevo benchmark que reemplaza evaluaciones subjetivas con recompensas verificables para sistemas recomendadores basados en agentes.",
           "sector_impact": "Marketing y servicios"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "Prentis, nuevo laboratorio de IA cofundado por Reid Hoffman y Mark Pincus en conversaciones para recaudar $100M",
-          "summary": "El neolab apuesta a que la automatización de tareas rutinarias superará pronto la programación como el mayor caso de uso de la IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de un nuevo laboratorio enfocado en la automatización.",
-          "why_it_matters": "Podría cambiar la forma en que abordamos tareas diarias mediante IA.",
-          "sector_impact": "Alto, especialmente para desarrolladores de software."
-        },
-        {
-          "title": "AI communism, modelos rebeldes, y la razón por la que Kimi K3 asustó a Wall Street",
-          "summary": "El modelo abierto Kimi de Moonshot se volvió viral y ha generado preocupación en la industria de IA de EE. UU.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelo",
-            "reacción de mercado"
-          ],
-          "what_changed": "El modelo Kimi ganó atención mediática significativa.",
-          "why_it_matters": "Refleja las preocupaciones sobre la seguridad en el campo de la IA.",
-          "sector_impact": "Medio, afecta a inversionistas y desarrolladores."
-        },
-        {
-          "title": "Nuevos guardrails de IA están impidiendo el trabajo de investigadores de ciberseguridad ofensiva",
-          "summary": "Investigadores discuten cómo los guardrails de OpenAI y Anthropic afectan su trabajo en el descubrimiento de vulnerabilidades.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "herramientas"
-          ],
-          "what_changed": "Ajustes en las herramientas utilizadas por los investigadores.",
-          "why_it_matters": "Impacta la capacidad de detectar y prevenir vulnerabilidades de seguridad.",
-          "sector_impact": "Alto, especialmente para el sector de la ciberseguridad."
         }
       ]
     }
