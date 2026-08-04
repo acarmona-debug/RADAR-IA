@@ -1,127 +1,125 @@
 {
-  "date": "2026-08-03",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de los desarrollos más recientes en herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "A continuación, se presentan los elementos destacados que impactan el desarrollo y la automatización en IA.",
+  "date": "2026-08-04",
+  "executive_title": "Radar Diario de IA: Innovaciones y Herramientas Clave",
+  "intro_message": "Bienvenido al radar diario donde destacamos las herramientas y modelos más relevantes en el ámbito de la inteligencia artificial.",
+  "opening_message": "A continuación, presentamos un resumen de las últimas innovaciones que están transformando el panorama de la IA. Priorizamos herramientas, modelos y frameworks que impactan directamente en la automatización y desarrollo de agentes.",
   "items": [
     {
-      "title": "DragonCrawl: Un Framework Generativo para Pruebas Móviles",
-      "summary": "DragonCrawl logra un alto porcentaje de éxito en pruebas automáticas de UI en aplicaciones móviles, mejorando la estabilidad y calidad de las pruebas.",
+      "title": "PEFT of SLM for Telecommunications Customer Support",
+      "summary": "Estudio sobre la adaptación de modelos de lenguaje para proporcionar soporte conversacional específico en telecomunicaciones.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.28750",
+      "source_url": "https://arxiv.org/abs/2606.05176",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "testing",
-        "mobile",
-        "automation"
+        "telecom",
+        "customer support",
+        "adaptive models"
       ],
-      "what_changed": "Implementación de un sistema de pruebas basado en razonamiento generativo.",
-      "why_it_matters": "Reduce el tiempo de integración de pruebas y mejora la calidad del software móvil.",
-      "sector_impact": "Mejora significativa en el desarrollo de software y la calidad de la experiencia del usuario."
+      "what_changed": "Se presenta un enfoque de fine-tuning específico para el dominio.",
+      "why_it_matters": "Mejora la capacidad de los LLMs en entornos específicos y reduce la dependencia de modelos externos.",
+      "sector_impact": "Telecomunicaciones"
     },
     {
-      "title": "WILC: Integrando Inteligencia Colectiva de LLMs",
-      "summary": "WILC define un nuevo enfoque para coordinar múltiples LLMs, mejorando su rendimiento en tareas complejas.",
+      "title": "OpenClaw and Ollama in Agentic AI",
+      "summary": "Arquitectura unificada para sistemas de IA agentes que integra memoria persistente y toma de decisiones adaptativa.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.29087",
+      "source_url": "https://arxiv.org/abs/2607.28629",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "agentic AI",
+        "architectures"
+      ],
+      "what_changed": "Se propone un nuevo enfoque que diferencia las capas de inferencia y orquestación.",
+      "why_it_matters": "Establece un fundamento arquitectónico para implementar IA agentes autónomos.",
+      "sector_impact": "IA Agente"
+    },
+    {
+      "title": "AgenticHarness for Real-World Compilers",
+      "summary": "Introducción de un arnés especializado para ayudar a los agentes de IA en la reparación de errores en compiladores.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.20075",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "coordination",
-        "multimodal",
-        "AI"
+        "compilers",
+        "bug repair",
+        "automation"
       ],
-      "what_changed": "Nuevo marco de trabajo para la selección dinámica de modelos.",
-      "why_it_matters": "Maximiza la inteligencia colectiva de diversos modelos para resolver problemas complejos.",
-      "sector_impact": "Aumenta la eficiencia en la resolución de problemas utilizando IA."
+      "what_changed": "Desarrollo de herramientas específicas para errores del compilador.",
+      "why_it_matters": "Mejora la eficacia de la IA en tareas de ingeniería de compiladores.",
+      "sector_impact": "Informática"
     },
     {
-      "title": "SciToolAgent-Evo: Agente Autonómico para Adquisición de Herramientas Científicas",
-      "summary": "SciToolAgent-Evo se adapta dinámicamente a flujos de trabajo científicos abiertos, mejorando la adquisición de herramientas.",
-      "category": "tool",
+      "title": "Validation Evidence in LLM Repair Agents",
+      "summary": "Estudio sobre la efectividad de los agentes de reparación en la validación de errores.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.28692",
+      "source_url": "https://arxiv.org/abs/2607.28871",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "AI",
-        "science",
-        "agent"
+        "repair agents",
+        "validation",
+        "evidence"
       ],
-      "what_changed": "Introducción de un agente evolutivo consciente de la ontología.",
-      "why_it_matters": "Facilita la integración de herramientas científicas en entornos cambiantes.",
-      "sector_impact": "Impulsa la eficiencia y capacidad reactiva en la investigación científica."
+      "what_changed": "Evaluación de la validez de pruebas realizadas por agentes de reparación.",
+      "why_it_matters": "Proporciona métricas útiles para mejorar la eficacia de la reparación automatizada.",
+      "sector_impact": "Desarrollo de software"
     },
     {
-      "title": "AMTFV: Verificación de Flujos Matemáticos para LLMs",
-      "summary": "AMTFV mejora la verificación de respuestas matemáticas en LLMs apoyándose en un método de verificación específica.",
+      "title": "ExtractBench: Benchmark for Schema-Guided Enterprise Document Extraction",
+      "summary": "Creación de un benchmark para la extracción guiada por esquemas en documentos empresariales.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.29549",
+      "source_url": "https://arxiv.org/abs/2607.29677",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "mathematics",
-        "verification",
-        "AI"
+        "document extraction",
+        "automation",
+        "enterprise"
       ],
-      "what_changed": "Desacoplamiento de la verificación de la ejecución concreta.",
-      "why_it_matters": "Mejora la precisión en la resolución de problemas matemáticos.",
-      "sector_impact": "Aumenta la fiabilidad de aplicaciones que dependen de cálculos exactos."
+      "what_changed": "Propuesta de un nuevo sistema de evaluación para la extracción de datos.",
+      "why_it_matters": "Mejora la precisión en la recuperación de información clave en documentos empresariales.",
+      "sector_impact": "Empresarial"
     },
     {
-      "title": "SafeKeep: Mitigación de Riesgos de Seguridad en Agentes de IA",
-      "summary": "SafeKeep introduce un salvaguarda en el tiempo de inferencia para mejorar la seguridad de los agentes de IA.",
+      "title": "M3MAD-Bench: Multi-Dimensional Evaluation of Multi-Agent Debate",
+      "summary": "Benchmark para evaluar métodos de debate multi-agente en distintas tareas y modalidades.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.29254",
+      "source_url": "https://arxiv.org/abs/2601.02854",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "safety",
-        "AI",
-        "security"
+        "multi-agent systems",
+        "benchmarking"
       ],
-      "what_changed": "Separación del juicio de seguridad de la ejecución de la herramienta.",
-      "why_it_matters": "Aumenta la tasa de rechazo a solicitudes dañinas significativamente.",
-      "sector_impact": "Mejora la seguridad en aplicaciones de inteligencia artificial aplicadas."
+      "what_changed": "Establecimiento de protocolos estándar para la evaluación de debate multi-agente.",
+      "why_it_matters": "Facilita la comparación de métodos y estrategias en evaluaciones de IA.",
+      "sector_impact": "IA Colaborativa"
     },
     {
-      "title": "ModeloEquivBench: Evaluación Multi-Relacional de Modelos Generados por LLM",
-      "summary": "ModeloEquivBench proporciona un sistema de evaluación para modelos de optimización generados automáticamente, introduciendo perfiles semánticos.",
+      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+      "summary": "Desarrollo de un sistema de recuperación calibrado por presupuesto para agentes de codificación.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.29431",
+      "source_url": "https://arxiv.org/abs/2607.19338",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "evaluation",
-        "optimization",
-        "AI"
+        "coding agents",
+        "recovery",
+        "budget control"
       ],
-      "what_changed": "Nuevas formas de evaluación multi-relacional con perfiles semánticos.",
-      "why_it_matters": "Permite evaluaciones más precisas y confiables de modelos generados.",
-      "sector_impact": "Fortalece la confianza en el uso de LLMs en aplicaciones críticas."
-    },
-    {
-      "title": "Optimización en Diseño de Motores Mediante Enfoque Híbrido FEA-AI",
-      "summary": "Este estudio presenta un marco de multi-agentes para la optimización de motores que mejora los flujos de trabajo convencionales.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.09037",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "design",
-        "optimization",
-        "AI"
-      ],
-      "what_changed": "Implementación de agentes especializados para abordar problemas de diseño.",
-      "why_it_matters": "Aumenta la eficiencia y precisión en el diseño de motores.",
-      "sector_impact": "Revoluciona el proceso de diseño en la industria automotriz."
+      "what_changed": "Propuesta de una nueva estrategia hacia la recuperación de errores en codificación.",
+      "why_it_matters": "Optimiza el uso de recursos durante el proceso de recuperación en programación.",
+      "sector_impact": "Desarrollo de software"
     }
   ]
 }
