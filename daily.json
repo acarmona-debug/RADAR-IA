@@ -1,125 +1,110 @@
 {
-  "date": "2026-08-04",
-  "executive_title": "Radar Diario de IA: Innovaciones y Herramientas Clave",
-  "intro_message": "Bienvenido al radar diario donde destacamos las herramientas y modelos más relevantes en el ámbito de la inteligencia artificial.",
-  "opening_message": "A continuación, presentamos un resumen de las últimas innovaciones que están transformando el panorama de la IA. Priorizamos herramientas, modelos y frameworks que impactan directamente en la automatización y desarrollo de agentes.",
+  "date": "2026-08-05",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas actualizaciones en herramientas y modelos de inteligencia artificial.",
+  "opening_message": "Aquí están los desarrollos más relevantes en IA, priorizados para tu atención:",
   "items": [
     {
-      "title": "PEFT of SLM for Telecommunications Customer Support",
-      "summary": "Estudio sobre la adaptación de modelos de lenguaje para proporcionar soporte conversacional específico en telecomunicaciones.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05176",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "telecom",
-        "customer support",
-        "adaptive models"
-      ],
-      "what_changed": "Se presenta un enfoque de fine-tuning específico para el dominio.",
-      "why_it_matters": "Mejora la capacidad de los LLMs en entornos específicos y reduce la dependencia de modelos externos.",
-      "sector_impact": "Telecomunicaciones"
-    },
-    {
-      "title": "OpenClaw and Ollama in Agentic AI",
-      "summary": "Arquitectura unificada para sistemas de IA agentes que integra memoria persistente y toma de decisiones adaptativa.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.28629",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentic AI",
-        "architectures"
-      ],
-      "what_changed": "Se propone un nuevo enfoque que diferencia las capas de inferencia y orquestación.",
-      "why_it_matters": "Establece un fundamento arquitectónico para implementar IA agentes autónomos.",
-      "sector_impact": "IA Agente"
-    },
-    {
-      "title": "AgenticHarness for Real-World Compilers",
-      "summary": "Introducción de un arnés especializado para ayudar a los agentes de IA en la reparación de errores en compiladores.",
+      "title": "UrbanAgent: Un agente para tareas urbanas interconectadas",
+      "summary": "Un nuevo marco para agentes que gestionan tareas urbanas, mejorando la interoperabilidad y la ejecución de flujos de trabajo complejos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.20075",
+      "source_url": "https://arxiv.org/abs/2608.03018",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "compilers",
-        "bug repair",
-        "automation"
+        "agent",
+        "urban",
+        "interoperabilidad"
       ],
-      "what_changed": "Desarrollo de herramientas específicas para errores del compilador.",
-      "why_it_matters": "Mejora la eficacia de la IA en tareas de ingeniería de compiladores.",
-      "sector_impact": "Informática"
+      "what_changed": "Introducción de un agente que utiliza herramientas para tareas urbanas",
+      "why_it_matters": "Aborda la fragmentación en los servicios digitales urbanos, facilitando la vida de los ciudadanos.",
+      "sector_impact": "Mejora la eficiencia operativa en ciudades tecnológicamente avanzadas."
     },
     {
-      "title": "Validation Evidence in LLM Repair Agents",
-      "summary": "Estudio sobre la efectividad de los agentes de reparación en la validación de errores.",
+      "title": "Video-DeepResearch: Agente multimodal para videos",
+      "summary": "Extiende los agentes multimodales a flujos de video continuos, enfrentando sesgos de modalidad y problemas de uso de memoria.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.03979",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "multimodal",
+        "video",
+        "agente"
+      ],
+      "what_changed": "Mejora en la solución de tareas complejas de video usando un nuevo marco de entrenamiento.",
+      "why_it_matters": "Proporciona estructuras más efectivas para la exploración y el uso de herramientas en video.",
+      "sector_impact": "Impulsa avances en análisis y comprensión de contenido de video."
+    },
+    {
+      "title": "MDArena: Evaluación de agentes de codificación en dinámicas moleculares",
+      "summary": "Un nuevo benchmark para evaluar la efectividad de agentes en simulaciones biomoleculares.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.02642",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "biomolecular",
+        "simulaciones"
+      ],
+      "what_changed": "Introducción de un marco evaluativo para dinamismo en tareas moleculares.",
+      "why_it_matters": "Ayuda a cerrar la brecha entre la promesa y la ejecución de tecnologías asistidas por IA en biociencias.",
+      "sector_impact": "Impacto significativo en la investigación y desarrollo de biotecnologías."
+    },
+    {
+      "title": "AI Security Leaderboard: Estándar de seguridad",
+      "summary": "Desarrollos en la seguridad de modelos de IA, presentando un estándar mínimo de salvaguardias.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.28871",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "repair agents",
-        "validation",
-        "evidence"
-      ],
-      "what_changed": "Evaluación de la validez de pruebas realizadas por agentes de reparación.",
-      "why_it_matters": "Proporciona métricas útiles para mejorar la eficacia de la reparación automatizada.",
-      "sector_impact": "Desarrollo de software"
-    },
-    {
-      "title": "ExtractBench: Benchmark for Schema-Guided Enterprise Document Extraction",
-      "summary": "Creación de un benchmark para la extracción guiada por esquemas en documentos empresariales.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.29677",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "document extraction",
-        "automation",
-        "enterprise"
-      ],
-      "what_changed": "Propuesta de un nuevo sistema de evaluación para la extracción de datos.",
-      "why_it_matters": "Mejora la precisión en la recuperación de información clave en documentos empresariales.",
-      "sector_impact": "Empresarial"
-    },
-    {
-      "title": "M3MAD-Bench: Multi-Dimensional Evaluation of Multi-Agent Debate",
-      "summary": "Benchmark para evaluar métodos de debate multi-agente en distintas tareas y modalidades.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.02854",
+      "source_url": "https://arxiv.org/abs/2608.03070",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "multi-agent systems",
-        "benchmarking"
+        "seguridad",
+        "benchmark",
+        "modelos"
       ],
-      "what_changed": "Establecimiento de protocolos estándar para la evaluación de debate multi-agente.",
-      "why_it_matters": "Facilita la comparación de métodos y estrategias en evaluaciones de IA.",
-      "sector_impact": "IA Colaborativa"
+      "what_changed": "Presentación de un nuevo estándar para evaluar modelos de IA frente a ataques.",
+      "why_it_matters": "Permite una mejor comprensión de la efectividad de las medidas de seguridad en IA.",
+      "sector_impact": "Aumenta la confiabilidad de los modelos de IA en aplicaciones críticas."
     },
     {
-      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
-      "summary": "Desarrollo de un sistema de recuperación calibrado por presupuesto para agentes de codificación.",
+      "title": "Adversarial Stress Testing: Evaluación de Agentes de Lenguaje",
+      "summary": "Una plataforma para evaluar el comportamiento de agentes de lenguaje bajo presión adversarial.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.19338",
+      "source_url": "https://arxiv.org/abs/2608.03166",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "coding agents",
-        "recovery",
-        "budget control"
+        "evaluación",
+        "estrés",
+        "agentes"
       ],
-      "what_changed": "Propuesta de una nueva estrategia hacia la recuperación de errores en codificación.",
-      "why_it_matters": "Optimiza el uso de recursos durante el proceso de recuperación en programación.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Desarrollo de un sistema modular para pruebas dinámicas en múltiples turnos.",
+      "why_it_matters": "Proporciona una evaluación más completa del comportamiento en situaciones desafiantes.",
+      "sector_impact": "Mejora la robustez de sistemas de IA en aplicaciones críticas."
+    },
+    {
+      "title": "OliveGemma: Modelo de lenguaje visual para la dieta mediterránea",
+      "summary": "Un modelo de lenguaje visual creado para reconocer y razonar sobre la cocina mediterránea y europea.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.03428",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "visual",
+        "cocina"
+      ],
+      "what_changed": "Capacidades de reconocimiento de alimentos mejoradas a través de entrenamiento específico.",
+      "why_it_matters": "Facilita la evaluación dietética de forma más precisa y accesible.",
+      "sector_impact": "Beneficios en la salud pública y en la promoción de dietas saludables."
     }
   ]
 }
