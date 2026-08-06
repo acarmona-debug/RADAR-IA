@@ -1,110 +1,127 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas actualizaciones en herramientas y modelos de inteligencia artificial.",
-  "opening_message": "Aquí están los desarrollos más relevantes en IA, priorizados para tu atención:",
+  "intro_message": "Este radar diario destaca las más recientes innovaciones y frameworks en el ámbito de la inteligencia artificial, priorizando herramientas, modelos y nuevas integraciones que están revolucionando el sector.",
+  "opening_message": "A continuación, se presentan las novedades más relevantes en inteligencia artificial, centradas en herramientas y frameworks que posibilitan la automatización y la integración de nuevas funcionalidades.",
   "items": [
     {
-      "title": "UrbanAgent: Un agente para tareas urbanas interconectadas",
-      "summary": "Un nuevo marco para agentes que gestionan tareas urbanas, mejorando la interoperabilidad y la ejecución de flujos de trabajo complejos.",
-      "category": "tool",
+      "title": "PICopilot: Un marco agente basado en LLM para el diseño de circuitos integrados fotónicos",
+      "summary": "PICopilot asiste en la generación de scripts de diseño desde instrucciones en lenguaje natural, mejorando la productividad en la creación de circuitos integrados.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.03018",
+      "source_url": "https://arxiv.org/abs/2608.01791",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "LLM",
+        "automación",
+        "diseño"
+      ],
+      "what_changed": "Introducción de un marco basado en LLM para la automatización del diseño.",
+      "why_it_matters": "Facilita la creación de circuitos complejos, reduciendo la necesidad de habilidades de programación avanzadas.",
+      "sector_impact": "Transforma el campo del diseño de circuitos, aumentando la eficiencia."
+    },
+    {
+      "title": "EDATracer: Un marco para el análisis de artefactos EDA a gran escala",
+      "summary": "EDATracer organiza artefactos de diseño en un grafo de conocimiento, mejorando la recuperación de evidencia y el análisis de artefactos EDA.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.04032",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agent",
-        "urban",
-        "interoperabilidad"
+        "EDA",
+        "análisis",
+        "evidencia"
       ],
-      "what_changed": "Introducción de un agente que utiliza herramientas para tareas urbanas",
-      "why_it_matters": "Aborda la fragmentación en los servicios digitales urbanos, facilitando la vida de los ciudadanos.",
-      "sector_impact": "Mejora la eficiencia operativa en ciudades tecnológicamente avanzadas."
+      "what_changed": "Desarrollo de un marco para análisis cruzado de artefactos EDA.",
+      "why_it_matters": "Facilita la depuración y optimización en el diseño de chips, aumentando precisión y eficiencia.",
+      "sector_impact": "Revoluciona el campo de diseño de chips, promoviendo una y mejora en la eficiencia."
     },
     {
-      "title": "Video-DeepResearch: Agente multimodal para videos",
-      "summary": "Extiende los agentes multimodales a flujos de video continuos, enfrentando sesgos de modalidad y problemas de uso de memoria.",
+      "title": "Canary Tools: Diagnóstico en la selección de herramientas para agentes LLM",
+      "summary": "Introducción de herramientas canarias para identificar debilidades en la selección de herramientas en agentes LLM.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.03979",
+      "source_url": "https://arxiv.org/abs/2608.04719",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "multimodal",
-        "video",
-        "agente"
+        "diagnóstico",
+        "LLM",
+        "selección de herramientas"
       ],
-      "what_changed": "Mejora en la solución de tareas complejas de video usando un nuevo marco de entrenamiento.",
-      "why_it_matters": "Proporciona estructuras más efectivas para la exploración y el uso de herramientas en video.",
-      "sector_impact": "Impulsa avances en análisis y comprensión de contenido de video."
+      "what_changed": "Implementación de un sistema que evalúa el razonamiento del modelo en la selección de herramientas.",
+      "why_it_matters": "Mejora la eficiencia de agentes LLM, ayudando a identificar sus puntos débiles.",
+      "sector_impact": "Optimiza el rendimiento de los modelos en entornos de desarrollo."
     },
     {
-      "title": "MDArena: Evaluación de agentes de codificación en dinámicas moleculares",
-      "summary": "Un nuevo benchmark para evaluar la efectividad de agentes en simulaciones biomoleculares.",
-      "category": "tool",
+      "title": "AutoProteinEngine: Un marco agentivo impulsado por LLM para AutoML en ingeniería de proteínas",
+      "summary": "AutoProteinEngine facilita la interacción entre biólogos y modelos de aprendizaje profundo usando lenguaje natural.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.02642",
+      "source_url": "https://arxiv.org/abs/2411.04440",
       "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "AutoML",
+        "proteínas",
+        "interacción"
+      ],
+      "what_changed": "Baja la barrera de entrada en ingeniería de proteínas mediante modelos LLM.",
+      "why_it_matters": "Permite a investigadores sin experiencia en DL aprovechar el aprendizaje profundo fácilmente.",
+      "sector_impact": "Aumenta la accesibilidad en la investigación biomédica."
+    },
+    {
+      "title": "ORCA-bench: Cómo de preparados están los agentes de modelos de lenguaje para el soporte técnico",
+      "summary": "ORCA-bench introduce un entorno de banco de pruebas para evaluar agentes en análisis de causa raíz en producción.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.28545",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
         "benchmark",
-        "biomolecular",
-        "simulaciones"
+        "RCA",
+        "on-call"
       ],
-      "what_changed": "Introducción de un marco evaluativo para dinamismo en tareas moleculares.",
-      "why_it_matters": "Ayuda a cerrar la brecha entre la promesa y la ejecución de tecnologías asistidas por IA en biociencias.",
-      "sector_impact": "Impacto significativo en la investigación y desarrollo de biotecnologías."
+      "what_changed": "Desarrollo de un conjunto de pruebas para evaluar la capacidad de agentes en entornos de soporte técnico.",
+      "why_it_matters": "Proporciona una evaluación objetiva de la capacidad de los modelos en situaciones reales.",
+      "sector_impact": "Mejora la fiabilidad y eficacia de los agentes en el soporte técnico."
     },
     {
-      "title": "AI Security Leaderboard: Estándar de seguridad",
-      "summary": "Desarrollos en la seguridad de modelos de IA, presentando un estándar mínimo de salvaguardias.",
-      "category": "model",
+      "title": "Hallucinations on the Board: Evaluación de comentarios de ajedrez potenciados por herramientas",
+      "summary": "ACT-Eval descompone comentarios de ajedrez en afirmaciones atómicas para evaluar la corrección fáctica y la calidad del movimiento.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.03070",
+      "source_url": "https://arxiv.org/abs/2608.04240",
       "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "ajedrez",
+        "evaluación",
+        "hallucinations"
+      ],
+      "what_changed": "Introducción de un marco para evaluar la corrección fáctica en comentarios de ajedrez.",
+      "why_it_matters": "Reduce los errores en el análisis de partidas, mejorando la comprensión en ajedrez.",
+      "sector_impact": "Aumenta la calidad de las herramientas de análisis en ajedrez."
+    },
+    {
+      "title": "Combatiendo la corrupción del conocimiento en sistemas de agentes",
+      "summary": "SecureCollaRAG se presenta como un marco colaborativo tolerante a fallos para validar el conocimiento en sistemas RAG.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.04366",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
         "seguridad",
-        "benchmark",
-        "modelos"
+        "RAg",
+        "colaboración"
       ],
-      "what_changed": "Presentación de un nuevo estándar para evaluar modelos de IA frente a ataques.",
-      "why_it_matters": "Permite una mejor comprensión de la efectividad de las medidas de seguridad en IA.",
-      "sector_impact": "Aumenta la confiabilidad de los modelos de IA en aplicaciones críticas."
-    },
-    {
-      "title": "Adversarial Stress Testing: Evaluación de Agentes de Lenguaje",
-      "summary": "Una plataforma para evaluar el comportamiento de agentes de lenguaje bajo presión adversarial.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.03166",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "estrés",
-        "agentes"
-      ],
-      "what_changed": "Desarrollo de un sistema modular para pruebas dinámicas en múltiples turnos.",
-      "why_it_matters": "Proporciona una evaluación más completa del comportamiento en situaciones desafiantes.",
-      "sector_impact": "Mejora la robustez de sistemas de IA en aplicaciones críticas."
-    },
-    {
-      "title": "OliveGemma: Modelo de lenguaje visual para la dieta mediterránea",
-      "summary": "Un modelo de lenguaje visual creado para reconocer y razonar sobre la cocina mediterránea y europea.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.03428",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "modelo",
-        "visual",
-        "cocina"
-      ],
-      "what_changed": "Capacidades de reconocimiento de alimentos mejoradas a través de entrenamiento específico.",
-      "why_it_matters": "Facilita la evaluación dietética de forma más precisa y accesible.",
-      "sector_impact": "Beneficios en la salud pública y en la promoción de dietas saludables."
+      "what_changed": "Desarrollo de un marco seguro para validar el conocimiento en sistemas RAG.",
+      "why_it_matters": "Previene ataques de corrupción de conocimiento, manteniendo la integridad del conocimiento.",
+      "sector_impact": "Fortalece la confianza y robustez en sistemas de generación de conocimiento."
     }
   ]
 }
