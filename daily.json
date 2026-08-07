@@ -1,127 +1,124 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar diario destaca las más recientes innovaciones y frameworks en el ámbito de la inteligencia artificial, priorizando herramientas, modelos y nuevas integraciones que están revolucionando el sector.",
-  "opening_message": "A continuación, se presentan las novedades más relevantes en inteligencia artificial, centradas en herramientas y frameworks que posibilitan la automatización y la integración de nuevas funcionalidades.",
+  "intro_message": "Actualizaciones y lanzamientos recientes en el ámbito de la Inteligencia Artificial.",
+  "opening_message": "Hoy destacamos avances significativos en herramientas, modelos y agentes de IA que impactan varios sectores.",
   "items": [
     {
-      "title": "PICopilot: Un marco agente basado en LLM para el diseño de circuitos integrados fotónicos",
-      "summary": "PICopilot asiste en la generación de scripts de diseño desde instrucciones en lenguaje natural, mejorando la productividad en la creación de circuitos integrados.",
-      "category": "framework",
+      "title": "EcoAgent-Bench: Evaluando Toma de Decisiones Económicas en Agentes LLM Limitados por Presupuesto",
+      "summary": "Un nuevo benchmark que evalúa decisiones económicas de agentes LLM en un contexto de presupuestos limitados.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.01791",
+      "source_url": "https://arxiv.org/abs/2608.05519",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "LLM",
-        "automación",
-        "diseño"
+        "agentes",
+        "decisiones económicas",
+        "benchmarking"
       ],
-      "what_changed": "Introducción de un marco basado en LLM para la automatización del diseño.",
-      "why_it_matters": "Facilita la creación de circuitos complejos, reduciendo la necesidad de habilidades de programación avanzadas.",
-      "sector_impact": "Transforma el campo del diseño de circuitos, aumentando la eficiencia."
+      "what_changed": "Introdujo un benchmark para evaluar decisiones económicas bajo presupuestos limitados.",
+      "why_it_matters": "Ayuda a entender cómo los agentes manejan recursos en tareas complejas.",
+      "sector_impact": "Mejora la capacidad de modelos en contextos limitados de recursos."
     },
     {
-      "title": "EDATracer: Un marco para el análisis de artefactos EDA a gran escala",
-      "summary": "EDATracer organiza artefactos de diseño en un grafo de conocimiento, mejorando la recuperación de evidencia y el análisis de artefactos EDA.",
+      "title": "SkillHEX: Mejorando Habilidades de Agentes a través de Exploración y Explotación Autónoma",
+      "summary": "Marco que optimiza la evolución de habilidades de agentes de IA en tiempo real.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.04032",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.05628",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "EDA",
-        "análisis",
-        "evidencia"
+        "agentes",
+        "optimización",
+        "aprendizaje autónomo"
       ],
-      "what_changed": "Desarrollo de un marco para análisis cruzado de artefactos EDA.",
-      "why_it_matters": "Facilita la depuración y optimización en el diseño de chips, aumentando precisión y eficiencia.",
-      "sector_impact": "Revoluciona el campo de diseño de chips, promoviendo una y mejora en la eficiencia."
+      "what_changed": "Introdujo un sistema de verificación y búsqueda guiada para la evolución de habilidades.",
+      "why_it_matters": "Facilita la mejora continua de los modelos en entornos cambiantes.",
+      "sector_impact": "Aumenta la eficiencia y efectividad de los agentes en tareas dinámicas."
     },
     {
-      "title": "Canary Tools: Diagnóstico en la selección de herramientas para agentes LLM",
-      "summary": "Introducción de herramientas canarias para identificar debilidades en la selección de herramientas en agentes LLM.",
+      "title": "SearchAuditBench: Auditoría y Atribución de Fallos en Agentes de Búsqueda a Largo Plazo",
+      "summary": "Un benchmarking para evaluar la habilidad de los LLM para auditar y reparar fallos en búsquedas complejas.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.04719",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.05212",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "diagnóstico",
-        "LLM",
-        "selección de herramientas"
+        "agentes de búsqueda",
+        "auditoría"
       ],
-      "what_changed": "Implementación de un sistema que evalúa el razonamiento del modelo en la selección de herramientas.",
-      "why_it_matters": "Mejora la eficiencia de agentes LLM, ayudando a identificar sus puntos débiles.",
-      "sector_impact": "Optimiza el rendimiento de los modelos en entornos de desarrollo."
+      "what_changed": "Introdujo un framework que audita y repara fallos en agentes de búsqueda a largo plazo.",
+      "why_it_matters": "Reduce la carga humana al diagnosticar fallos en interacciones de búsqueda.",
+      "sector_impact": "Mejora la robustez y confiabilidad de los sistemas de búsqueda."
     },
     {
-      "title": "AutoProteinEngine: Un marco agentivo impulsado por LLM para AutoML en ingeniería de proteínas",
-      "summary": "AutoProteinEngine facilita la interacción entre biólogos y modelos de aprendizaje profundo usando lenguaje natural.",
+      "title": "CodeGrep: Un Agente de Recuperación Entrenado por RL para Agentes de Programación LLM",
+      "summary": "Un agente de recuperación que mejora la eficiencia de la resolución de problemas por parte de agentes de codificación.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.05886",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "código",
+        "optimización",
+        "agentes"
+      ],
+      "what_changed": "Mejoró la eficiencia en la resolución de problemas de código con menos llamadas y tokens.",
+      "why_it_matters": "Maximiza el uso del presupuesto de tokens en interacciones con el modelo.",
+      "sector_impact": "Incrementa la productividad en entornos de desarrollo de software."
+    },
+    {
+      "title": "Agentic Nesting: Nueva Metodología para la Integración de Aplicaciones Empresariales Existentes",
+      "summary": "Un marco que encapsula aplicaciones empresariales como agentes autónomos para mejorar la integración.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2411.04440",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "AutoML",
-        "proteínas",
-        "interacción"
-      ],
-      "what_changed": "Baja la barrera de entrada en ingeniería de proteínas mediante modelos LLM.",
-      "why_it_matters": "Permite a investigadores sin experiencia en DL aprovechar el aprendizaje profundo fácilmente.",
-      "sector_impact": "Aumenta la accesibilidad en la investigación biomédica."
-    },
-    {
-      "title": "ORCA-bench: Cómo de preparados están los agentes de modelos de lenguaje para el soporte técnico",
-      "summary": "ORCA-bench introduce un entorno de banco de pruebas para evaluar agentes en análisis de causa raíz en producción.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.28545",
+      "source_url": "https://arxiv.org/abs/2608.05159",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "benchmark",
-        "RCA",
-        "on-call"
+        "integración",
+        "agentes",
+        "empresa"
       ],
-      "what_changed": "Desarrollo de un conjunto de pruebas para evaluar la capacidad de agentes en entornos de soporte técnico.",
-      "why_it_matters": "Proporciona una evaluación objetiva de la capacidad de los modelos en situaciones reales.",
-      "sector_impact": "Mejora la fiabilidad y eficacia de los agentes en el soporte técnico."
+      "what_changed": "Propuesta de un paradigma de integración basado en agentes para sistemas empresariales.",
+      "why_it_matters": "Facilita la interacción y manipulación de aplicaciones empresariales dispersas.",
+      "sector_impact": "Optimiza la orquestación de procesos en empresas."
     },
     {
-      "title": "Hallucinations on the Board: Evaluación de comentarios de ajedrez potenciados por herramientas",
-      "summary": "ACT-Eval descompone comentarios de ajedrez en afirmaciones atómicas para evaluar la corrección fáctica y la calidad del movimiento.",
-      "category": "tool",
+      "title": "Stochastic Parrots or Singing in Harmony? Evaluando LLMs en Decisiones de Negocios",
+      "summary": "Un análisis del rendimiento de LLMs en la toma de decisiones estratégicas en simulaciones empresariales.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.04240",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "ajedrez",
-        "evaluación",
-        "hallucinations"
-      ],
-      "what_changed": "Introducción de un marco para evaluar la corrección fáctica en comentarios de ajedrez.",
-      "why_it_matters": "Reduce los errores en el análisis de partidas, mejorando la comprensión en ajedrez.",
-      "sector_impact": "Aumenta la calidad de las herramientas de análisis en ajedrez."
-    },
-    {
-      "title": "Combatiendo la corrupción del conocimiento en sistemas de agentes",
-      "summary": "SecureCollaRAG se presenta como un marco colaborativo tolerante a fallos para validar el conocimiento en sistemas RAG.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.04366",
+      "source_url": "https://arxiv.org/abs/2509.26331",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "seguridad",
-        "RAg",
-        "colaboración"
+        "modelos",
+        "negocios"
       ],
-      "what_changed": "Desarrollo de un marco seguro para validar el conocimiento en sistemas RAG.",
-      "why_it_matters": "Previene ataques de corrupción de conocimiento, manteniendo la integridad del conocimiento.",
-      "sector_impact": "Fortalece la confianza y robustez en sistemas de generación de conocimiento."
+      "what_changed": "Estableció un nuevo marco para evaluar decisiones empresariales de LLMs.",
+      "why_it_matters": "Informa sobre la capacidad de los LLMs en contextos de decisión a largo plazo.",
+      "sector_impact": "Impacta en cómo se utilizan los LLMs en la toma de decisiones estratégicas."
+    },
+    {
+      "title": "OrchestraBench: Evaluando Modos Fallidos y Recuperación en Orquestación Multi-Agente",
+      "summary": "Un benchmark que diagnostica fallos en la orquestación de múltiples agentes en flujos de trabajo empresariales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.05263",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "orquestación",
+        "agentes"
+      ],
+      "what_changed": "Introdujo un marco controlado para evaluar la recuperación en sistemas multi-agente.",
+      "why_it_matters": "Permite la identificación de fallos y mejora en procesos orquestados.",
+      "sector_impact": "Mejora la eficacia de flujos de trabajo en entornos de múltiples agentes."
     }
   ]
 }
