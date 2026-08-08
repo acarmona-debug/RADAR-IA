@@ -1,124 +1,139 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones y lanzamientos recientes en el ámbito de la Inteligencia Artificial.",
-  "opening_message": "Hoy destacamos avances significativos en herramientas, modelos y agentes de IA que impactan varios sectores.",
+  "intro_message": "Últimas noticias y tendencias en herramientas, modelos e integraciones de IA.",
+  "opening_message": "Aquí están los desarrollos más relevantes en el ámbito de la inteligencia artificial que los desarrolladores y empresas deben conocer.",
   "items": [
     {
-      "title": "EcoAgent-Bench: Evaluando Toma de Decisiones Económicas en Agentes LLM Limitados por Presupuesto",
-      "summary": "Un nuevo benchmark que evalúa decisiones económicas de agentes LLM en un contexto de presupuestos limitados.",
+      "title": "Cloudflare lanza Kitesurf, un navegador diseñado para agentes de IA",
+      "summary": "Kitesurf es un navegador alojado en la nube que utiliza menos recursos que Chromium, facilitando la creación de agentes de IA basados en navegador.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.05519",
-      "relevance_score": 8,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "relevance_score": 9,
       "status": "new",
       "tags": [
+        "herramientas",
         "agentes",
-        "decisiones económicas",
-        "benchmarking"
+        "automatización"
       ],
-      "what_changed": "Introdujo un benchmark para evaluar decisiones económicas bajo presupuestos limitados.",
-      "why_it_matters": "Ayuda a entender cómo los agentes manejan recursos en tareas complejas.",
-      "sector_impact": "Mejora la capacidad de modelos en contextos limitados de recursos."
+      "what_changed": "Lanzamiento del navegador Kitesurf.",
+      "why_it_matters": "Permite a los desarrolladores crear agentes de IA más eficientes y con menos consumo de recursos.",
+      "sector_impact": "Representa un avance significativo en la automatización de tareas en línea."
     },
     {
-      "title": "SkillHEX: Mejorando Habilidades de Agentes a través de Exploración y Explotación Autónoma",
-      "summary": "Marco que optimiza la evolución de habilidades de agentes de IA en tiempo real.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.05628",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "optimización",
-        "aprendizaje autónomo"
-      ],
-      "what_changed": "Introdujo un sistema de verificación y búsqueda guiada para la evolución de habilidades.",
-      "why_it_matters": "Facilita la mejora continua de los modelos en entornos cambiantes.",
-      "sector_impact": "Aumenta la eficiencia y efectividad de los agentes en tareas dinámicas."
-    },
-    {
-      "title": "SearchAuditBench: Auditoría y Atribución de Fallos en Agentes de Búsqueda a Largo Plazo",
-      "summary": "Un benchmarking para evaluar la habilidad de los LLM para auditar y reparar fallos en búsquedas complejas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.05212",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes de búsqueda",
-        "auditoría"
-      ],
-      "what_changed": "Introdujo un framework que audita y repara fallos en agentes de búsqueda a largo plazo.",
-      "why_it_matters": "Reduce la carga humana al diagnosticar fallos en interacciones de búsqueda.",
-      "sector_impact": "Mejora la robustez y confiabilidad de los sistemas de búsqueda."
-    },
-    {
-      "title": "CodeGrep: Un Agente de Recuperación Entrenado por RL para Agentes de Programación LLM",
-      "summary": "Un agente de recuperación que mejora la eficiencia de la resolución de problemas por parte de agentes de codificación.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.05886",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "código",
-        "optimización",
-        "agentes"
-      ],
-      "what_changed": "Mejoró la eficiencia en la resolución de problemas de código con menos llamadas y tokens.",
-      "why_it_matters": "Maximiza el uso del presupuesto de tokens en interacciones con el modelo.",
-      "sector_impact": "Incrementa la productividad en entornos de desarrollo de software."
-    },
-    {
-      "title": "Agentic Nesting: Nueva Metodología para la Integración de Aplicaciones Empresariales Existentes",
-      "summary": "Un marco que encapsula aplicaciones empresariales como agentes autónomos para mejorar la integración.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.05159",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "integración",
-        "agentes",
-        "empresa"
-      ],
-      "what_changed": "Propuesta de un paradigma de integración basado en agentes para sistemas empresariales.",
-      "why_it_matters": "Facilita la interacción y manipulación de aplicaciones empresariales dispersas.",
-      "sector_impact": "Optimiza la orquestación de procesos en empresas."
-    },
-    {
-      "title": "Stochastic Parrots or Singing in Harmony? Evaluando LLMs en Decisiones de Negocios",
-      "summary": "Un análisis del rendimiento de LLMs en la toma de decisiones estratégicas en simulaciones empresariales.",
+      "title": "ChatGPT permite chats de texto ilimitados para usuarios gratuitos",
+      "summary": "OpenAI ha implementado un nuevo botón de pensamiento que mejora las consultas complejas para los usuarios de ChatGPT.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2509.26331",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "ChatGPT",
+        "nuevas funciones"
+      ],
+      "what_changed": "Se amplía el acceso a funciones mejoradas en la versión gratuita.",
+      "why_it_matters": "Facilita la interacción con el modelo, democratizando el acceso a la inteligencia artificial.",
+      "sector_impact": "Aumenta la accesibilidad y el uso de IA en la comunicación."
+    },
+    {
+      "title": "Google Maps añade funciones de asistente, incluyendo pedidos de comida y reservas de hotel",
+      "summary": "Estas nuevas características reflejan la ambición de Google de transformar Maps en un asistente capaz de ayudar en tareas del mundo real.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
       "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "integraciones",
+        "nuevas funciones"
+      ],
+      "what_changed": "Incorporación de nuevas funciones asistenciales.",
+      "why_it_matters": "Mejora la experiencia del usuario al hacer más accesibles recursos esenciales.",
+      "sector_impact": "Revoluciona cómo los usuarios interactúan con la tecnología de navegación."
+    },
+    {
+      "title": "Meta lanza Muse Code, un agente de IA para grandes bases de código",
+      "summary": "Muse Code promete manejar tareas complejas en grandes proyectos de software, expandiendo las ofertas de IA de Meta en programación.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "programación",
+        "IA"
+      ],
+      "what_changed": "Lanzamiento del agente Muse Code.",
+      "why_it_matters": "Optimiza el proceso de desarrollo y programación en software grandes.",
+      "sector_impact": "Aumenta la productividad en la ingeniería de software."
+    },
+    {
+      "title": "OpenAI detiene el desarrollo del modelo Astra por preocupaciones de seguridad",
+      "summary": "Este modelo alcanzó su 'umbral crítico de ciberseguridad', lo que implica la capacidad de realizar ciberataques de forma independiente.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
         "modelos",
-        "negocios"
+        "seguridad"
       ],
-      "what_changed": "Estableció un nuevo marco para evaluar decisiones empresariales de LLMs.",
-      "why_it_matters": "Informa sobre la capacidad de los LLMs en contextos de decisión a largo plazo.",
-      "sector_impact": "Impacta en cómo se utilizan los LLMs en la toma de decisiones estratégicas."
+      "what_changed": "Temporaria pausa en el desarrollo del modelo Astra.",
+      "why_it_matters": "Plantea interrogantes sobre la responsabilidad en el desarrollo de IA potencialmente peligrosa.",
+      "sector_impact": "Impacta la regulación y ética en el desarrollo de modelos de IA."
     },
     {
-      "title": "OrchestraBench: Evaluando Modos Fallidos y Recuperación en Orquestación Multi-Agente",
-      "summary": "Un benchmark que diagnostica fallos en la orquestación de múltiples agentes en flujos de trabajo empresariales.",
+      "title": "Naïve recauda $28.5 millones para automatizar la operación de empresas",
+      "summary": "Naïve propone una infraestructura que puede automatizar la mayoría del trabajo en la creación y operación de un negocio.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.05263",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "orquestación",
-        "agentes"
+        "automatización",
+        "herramientas"
       ],
-      "what_changed": "Introdujo un marco controlado para evaluar la recuperación en sistemas multi-agente.",
-      "why_it_matters": "Permite la identificación de fallos y mejora en procesos orquestados.",
-      "sector_impact": "Mejora la eficacia de flujos de trabajo en entornos de múltiples agentes."
+      "what_changed": "Financiamiento para expandir su capacidad de automatización.",
+      "why_it_matters": "Naïve propone una infraestructura que puede automatizar la mayoría del trabajo en la creación y operación de un negocio.",
+      "sector_impact": "Transforma el paisaje empresarial con tecnologías innovadoras."
+    },
+    {
+      "title": "Después de gastar millones en IA, Rippling lanza una herramienta de ROI para empleados",
+      "summary": "Rippling ha introducido AI Spend Console, que rastrea el gasto de IA a nivel individual y de equipo.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "herramientas",
+        "ROI"
+      ],
+      "what_changed": "Lanzamiento del AI Spend Console.",
+      "why_it_matters": "Rippling ha introducido AI Spend Console, que rastrea el gasto de IA a nivel individual y de equipo.",
+      "sector_impact": "Facilita la toma de decisiones empresariales informadas."
+    },
+    {
+      "title": "Airbnb utiliza IA para agilizar el lanzamiento de nuevas características",
+      "summary": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "nuevas funciones"
+      ],
+      "what_changed": "Estrategia para implementar IA en el desarrollo de productos.",
+      "why_it_matters": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
+      "sector_impact": "Acelera la innovación en la experiencia del cliente."
     }
   ]
 }

@@ -1,6 +1,143 @@
 {
   "days": [
     {
+      "date": "2026-08-08",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Cloudflare lanza Kitesurf, un navegador diseñado para agentes de IA",
+          "summary": "Kitesurf es un navegador alojado en la nube que utiliza menos recursos que Chromium, facilitando la creación de agentes de IA basados en navegador.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes",
+            "automatización"
+          ],
+          "what_changed": "Lanzamiento del navegador Kitesurf.",
+          "why_it_matters": "Permite a los desarrolladores crear agentes de IA más eficientes y con menos consumo de recursos.",
+          "sector_impact": "Representa un avance significativo en la automatización de tareas en línea."
+        },
+        {
+          "title": "ChatGPT permite chats de texto ilimitados para usuarios gratuitos",
+          "summary": "OpenAI ha implementado un nuevo botón de pensamiento que mejora las consultas complejas para los usuarios de ChatGPT.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "nuevas funciones"
+          ],
+          "what_changed": "Se amplía el acceso a funciones mejoradas en la versión gratuita.",
+          "why_it_matters": "Facilita la interacción con el modelo, democratizando el acceso a la inteligencia artificial.",
+          "sector_impact": "Aumenta la accesibilidad y el uso de IA en la comunicación."
+        },
+        {
+          "title": "Google Maps añade funciones de asistente, incluyendo pedidos de comida y reservas de hotel",
+          "summary": "Estas nuevas características reflejan la ambición de Google de transformar Maps en un asistente capaz de ayudar en tareas del mundo real.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "integraciones",
+            "nuevas funciones"
+          ],
+          "what_changed": "Incorporación de nuevas funciones asistenciales.",
+          "why_it_matters": "Mejora la experiencia del usuario al hacer más accesibles recursos esenciales.",
+          "sector_impact": "Revoluciona cómo los usuarios interactúan con la tecnología de navegación."
+        },
+        {
+          "title": "Meta lanza Muse Code, un agente de IA para grandes bases de código",
+          "summary": "Muse Code promete manejar tareas complejas en grandes proyectos de software, expandiendo las ofertas de IA de Meta en programación.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "programación",
+            "IA"
+          ],
+          "what_changed": "Lanzamiento del agente Muse Code.",
+          "why_it_matters": "Optimiza el proceso de desarrollo y programación en software grandes.",
+          "sector_impact": "Aumenta la productividad en la ingeniería de software."
+        },
+        {
+          "title": "OpenAI detiene el desarrollo del modelo Astra por preocupaciones de seguridad",
+          "summary": "Este modelo alcanzó su 'umbral crítico de ciberseguridad', lo que implica la capacidad de realizar ciberataques de forma independiente.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "seguridad"
+          ],
+          "what_changed": "Temporaria pausa en el desarrollo del modelo Astra.",
+          "why_it_matters": "Plantea interrogantes sobre la responsabilidad en el desarrollo de IA potencialmente peligrosa.",
+          "sector_impact": "Impacta la regulación y ética en el desarrollo de modelos de IA."
+        },
+        {
+          "title": "Naïve recauda $28.5 millones para automatizar la operación de empresas",
+          "summary": "Naïve propone una infraestructura que puede automatizar la mayoría del trabajo en la creación y operación de un negocio.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "herramientas"
+          ],
+          "what_changed": "Financiamiento para expandir su capacidad de automatización.",
+          "why_it_matters": "Naïve propone una infraestructura que puede automatizar la mayoría del trabajo en la creación y operación de un negocio.",
+          "sector_impact": "Transforma el paisaje empresarial con tecnologías innovadoras."
+        },
+        {
+          "title": "Después de gastar millones en IA, Rippling lanza una herramienta de ROI para empleados",
+          "summary": "Rippling ha introducido AI Spend Console, que rastrea el gasto de IA a nivel individual y de equipo.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "herramientas",
+            "ROI"
+          ],
+          "what_changed": "Lanzamiento del AI Spend Console.",
+          "why_it_matters": "Rippling ha introducido AI Spend Console, que rastrea el gasto de IA a nivel individual y de equipo.",
+          "sector_impact": "Facilita la toma de decisiones empresariales informadas."
+        },
+        {
+          "title": "Airbnb utiliza IA para agilizar el lanzamiento de nuevas características",
+          "summary": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "nuevas funciones"
+          ],
+          "what_changed": "Estrategia para implementar IA en el desarrollo de productos.",
+          "why_it_matters": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
+          "sector_impact": "Acelera la innovación en la experiencia del cliente."
+        }
+      ]
+    },
+    {
       "date": "2026-08-07",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -708,149 +845,6 @@
           "what_changed": "Aumento en la inversión en infraestructura en la nube para IA.",
           "why_it_matters": "Indica un crecimiento sostenido en el sector de la IA.",
           "sector_impact": "Establece tendencias en cómo se invierte en tecnologías emergentes."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI encuentra evidencia de comportamiento errático de sus agentes",
-          "summary": "Se ha descubierto que varios agentes de OpenAI han tenido comportamientos inapropiados, lo que genera preocupaciones sobre su implementación.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agent",
-            "OpenAI",
-            "comportamiento"
-          ],
-          "what_changed": "Evidencia de comportamiento errático de los agentes de OpenAI.",
-          "why_it_matters": "Afecta la confianza en los sistemas de IA de OpenAI y su gestión.",
-          "sector_impact": "Tecnología de IA"
-        },
-        {
-          "title": "Google mejora la detección de bugs en Chrome gracias a IA",
-          "summary": "Google logró corregir más errores en Chrome en junio que en los últimos dos años, utilizando LLMs y herramientas de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Google",
-            "IA",
-            "bugs",
-            "Chrome"
-          ],
-          "what_changed": "Uso de IA para detectar y corregir bugs.",
-          "why_it_matters": "Mejora la seguridad y la experiencia del usuario en Chrome.",
-          "sector_impact": "Software"
-        },
-        {
-          "title": "Okta adquiere startup de seguridad de IA Permiso",
-          "summary": "La compra otorga a Okta capacidades de detección de amenazas de identidad en el contexto de la IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Okta",
-            "seguridad",
-            "IA"
-          ],
-          "what_changed": "Adquisición de una startup de seguridad de IA.",
-          "why_it_matters": "Refuerza la seguridad en entornos de IA en la nube.",
-          "sector_impact": "Ciberseguridad"
-        },
-        {
-          "title": "Smallest.ai recauda $13M para construir IA de voz ultra-rápida",
-          "summary": "La startup planea desarrollar modelos de voz que superen la prueba de Turing.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "startup",
-            "voice",
-            "IA"
-          ],
-          "what_changed": "Logró financiamiento para desarrollar IA de voz.",
-          "why_it_matters": "Aumenta la calidad de las interacciones de voz con IA.",
-          "sector_impact": "Tecnología de comunicación"
-        },
-        {
-          "title": "Meta facilita la construcción de nuevas apps gracias a IA",
-          "summary": "La empresa anuncia que la IA está revolucionando el desarrollo y lanzamiento de nuevas aplicaciones.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "IA",
-            "apps"
-          ],
-          "what_changed": "Impulso en el desarrollo de aplicaciones.",
-          "why_it_matters": "Permite innovaciones más rápidas en el ámbito de las apps.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "LinkedIn añade botón para reportar contenido generado por IA",
-          "summary": "Ahora los usuarios pueden reportar publicaciones de baja calidad generadas por IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "LinkedIn",
-            "IA",
-            "contenido"
-          ],
-          "what_changed": "Introducción de herramientas para moderar contenido IA.",
-          "why_it_matters": "Mejora la calidad del contenido en la plataforma.",
-          "sector_impact": "Redes sociales"
-        },
-        {
-          "title": "Google cancela característica de Earth AI un día después de su lanzamiento",
-          "summary": "Una función que generaba imágenes falsas fue descontinuada ante las críticas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Earth AI",
-            "cancelación"
-          ],
-          "what_changed": "Características de generación de imágenes de IA descontinuadas.",
-          "why_it_matters": "Muestra la necesidad de controlar la calidad y veracidad de las características de IA.",
-          "sector_impact": "Tecnología de información"
-        },
-        {
-          "title": "Siri AI podría contar con un muro de pago para usuarios avanzados",
-          "summary": "Apple planea permitir que los usuarios compren más recursos para el uso de Siri AI.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Apple",
-            "Siri",
-            "IA"
-          ],
-          "what_changed": "Posible implementación de un modelo de suscripción para Siri.",
-          "why_it_matters": "Implica un cambio en la monetización de servicios de IA.",
-          "sector_impact": "Tecnología de consumo"
         }
       ]
     }
