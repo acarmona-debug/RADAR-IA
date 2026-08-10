@@ -1,6 +1,129 @@
 {
   "days": [
     {
+      "date": "2026-08-10",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+          "summary": "Propuesta de un marco de distilación de memoria que transfiere conocimiento estructurado desde un agente maestro grande a un agente estudiante pequeño, mejorando considerablemente su desempeño.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.07169",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes",
+            "modelos"
+          ],
+          "what_changed": "Introducción de un nuevo marco de distilación sin necesidad de entrenamiento.",
+          "why_it_matters": "Mejora significativa del rendimiento en modelos de lenguaje pequeños, facilitando su uso en tareas específicas.",
+          "sector_impact": "Tecnología, Educación"
+        },
+        {
+          "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
+          "summary": "Desarrollo de un marco de razonamiento forense multi-agente para detectar videos deepfake de manera efectiva y generalizable.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.06865",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes"
+          ],
+          "what_changed": "Creación de un nuevo conjunto de datos y marco que mejora la detección de deepfakes con una metodología innovadora.",
+          "why_it_matters": "Aborda la seguridad y la ética en el uso de IA generativa, mejorando la respuesta a desafíos actuales.",
+          "sector_impact": "Seguridad, Medios"
+        },
+        {
+          "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+          "summary": "Presentación de un marco automatizado para realizar investigaciones profundas en finanzas mediante el uso de agentes autónomos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.27853",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un sistema que mejora la investigación financiera mediante la automatización.",
+          "why_it_matters": "Facilita el análisis y la previsión en finanzas, lo que permite decisiones más informadas.",
+          "sector_impact": "Finanzas"
+        },
+        {
+          "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+          "summary": "Framework de código abierto que permite entrenar agentes nativos a través de la separación del entrenamiento y la inferencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.21557",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "agentes",
+            "automación"
+          ],
+          "what_changed": "Introducción de un sistema que facilita el entrenamiento de agentes en entornos diversos.",
+          "why_it_matters": "Optimiza el desarrollo de agentes de IA mediante la descentralización de sus fases operativas.",
+          "sector_impact": "Investigación, Tecnología"
+        },
+        {
+          "title": "An End-to-End Agent Auditing Engine",
+          "summary": "Motor de auditoría integral para evaluar capacidades de agentes en diversos contextos y tareas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.07346",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "auditoría",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un motor que permite la evaluación sistemática y eficiente de agentes de IA.",
+          "why_it_matters": "Mejora la comprensión y la seguridad en la implementación de modelos de IA.",
+          "sector_impact": "Tecnología, Supervisión"
+        },
+        {
+          "title": "CyberForge: Verified Vulnerability Injection at Repository Level for Cybersecurity Agent Training",
+          "summary": "Marco que inyecta vulnerabilidades verificadas en proyectos de software para entrenar agentes de ciberseguridad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.06471",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "seguridad",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un método para generar datos de entrenamiento a partir de inyecciones de vulnerabilidades.",
+          "why_it_matters": "Fortalece la capacitación en defensa cibernética frente a amenazas emergentes.",
+          "sector_impact": "Ciberseguridad, Tecnología"
+        },
+        {
+          "title": "AgentPatch: Coarse-to-Fine Weak-Task Repair for Merging Agentic Multimodal Large Language Models",
+          "summary": "Método que mejora la consolidación de modelos de lenguaje multimodal, enfocándose en la recuperación de tareas débiles.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.06699",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "framework",
+            "modelos",
+            "agentes"
+          ],
+          "what_changed": "Presentación de un marco que mejora la interacción y la recuperación de tareas en modelos fusionados.",
+          "why_it_matters": "Facilita el avance hacia modelos de IA más robustos y generales.",
+          "sector_impact": "Investigación, Tecnología"
+        }
+      ]
+    },
+    {
       "date": "2026-08-09",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -737,131 +860,6 @@
           "what_changed": "Propuesta de una nueva estrategia hacia la recuperación de errores en codificación.",
           "why_it_matters": "Optimiza el uso de recursos durante el proceso de recuperación en programación.",
           "sector_impact": "Desarrollo de software"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "DragonCrawl: Un Framework Generativo para Pruebas Móviles",
-          "summary": "DragonCrawl logra un alto porcentaje de éxito en pruebas automáticas de UI en aplicaciones móviles, mejorando la estabilidad y calidad de las pruebas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.28750",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "testing",
-            "mobile",
-            "automation"
-          ],
-          "what_changed": "Implementación de un sistema de pruebas basado en razonamiento generativo.",
-          "why_it_matters": "Reduce el tiempo de integración de pruebas y mejora la calidad del software móvil.",
-          "sector_impact": "Mejora significativa en el desarrollo de software y la calidad de la experiencia del usuario."
-        },
-        {
-          "title": "WILC: Integrando Inteligencia Colectiva de LLMs",
-          "summary": "WILC define un nuevo enfoque para coordinar múltiples LLMs, mejorando su rendimiento en tareas complejas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.29087",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "coordination",
-            "multimodal",
-            "AI"
-          ],
-          "what_changed": "Nuevo marco de trabajo para la selección dinámica de modelos.",
-          "why_it_matters": "Maximiza la inteligencia colectiva de diversos modelos para resolver problemas complejos.",
-          "sector_impact": "Aumenta la eficiencia en la resolución de problemas utilizando IA."
-        },
-        {
-          "title": "SciToolAgent-Evo: Agente Autonómico para Adquisición de Herramientas Científicas",
-          "summary": "SciToolAgent-Evo se adapta dinámicamente a flujos de trabajo científicos abiertos, mejorando la adquisición de herramientas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.28692",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "AI",
-            "science",
-            "agent"
-          ],
-          "what_changed": "Introducción de un agente evolutivo consciente de la ontología.",
-          "why_it_matters": "Facilita la integración de herramientas científicas en entornos cambiantes.",
-          "sector_impact": "Impulsa la eficiencia y capacidad reactiva en la investigación científica."
-        },
-        {
-          "title": "AMTFV: Verificación de Flujos Matemáticos para LLMs",
-          "summary": "AMTFV mejora la verificación de respuestas matemáticas en LLMs apoyándose en un método de verificación específica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.29549",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "mathematics",
-            "verification",
-            "AI"
-          ],
-          "what_changed": "Desacoplamiento de la verificación de la ejecución concreta.",
-          "why_it_matters": "Mejora la precisión en la resolución de problemas matemáticos.",
-          "sector_impact": "Aumenta la fiabilidad de aplicaciones que dependen de cálculos exactos."
-        },
-        {
-          "title": "SafeKeep: Mitigación de Riesgos de Seguridad en Agentes de IA",
-          "summary": "SafeKeep introduce un salvaguarda en el tiempo de inferencia para mejorar la seguridad de los agentes de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.29254",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "safety",
-            "AI",
-            "security"
-          ],
-          "what_changed": "Separación del juicio de seguridad de la ejecución de la herramienta.",
-          "why_it_matters": "Aumenta la tasa de rechazo a solicitudes dañinas significativamente.",
-          "sector_impact": "Mejora la seguridad en aplicaciones de inteligencia artificial aplicadas."
-        },
-        {
-          "title": "ModeloEquivBench: Evaluación Multi-Relacional de Modelos Generados por LLM",
-          "summary": "ModeloEquivBench proporciona un sistema de evaluación para modelos de optimización generados automáticamente, introduciendo perfiles semánticos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.29431",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluation",
-            "optimization",
-            "AI"
-          ],
-          "what_changed": "Nuevas formas de evaluación multi-relacional con perfiles semánticos.",
-          "why_it_matters": "Permite evaluaciones más precisas y confiables de modelos generados.",
-          "sector_impact": "Fortalece la confianza en el uso de LLMs en aplicaciones críticas."
-        },
-        {
-          "title": "Optimización en Diseño de Motores Mediante Enfoque Híbrido FEA-AI",
-          "summary": "Este estudio presenta un marco de multi-agentes para la optimización de motores que mejora los flujos de trabajo convencionales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.09037",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "design",
-            "optimization",
-            "AI"
-          ],
-          "what_changed": "Implementación de agentes especializados para abordar problemas de diseño.",
-          "why_it_matters": "Aumenta la eficiencia y precisión en el diseño de motores.",
-          "sector_impact": "Revoluciona el proceso de diseño en la industria automotriz."
         }
       ]
     }
