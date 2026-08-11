@@ -1,6 +1,116 @@
 {
   "days": [
     {
+      "date": "2026-08-11",
+      "executive_title": "Radar IA del día",
+      "items": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Claude Sonnet 4",
+          "summary": "arXiv:2607.15509v2 Announce Type: replace-cross Abstract: We present a fully automated closed-loop AutoML framework that uses GPT-5, GPT-4o, and Claude Sonnet 4 as autonomous neural architecture designers for cross-lingual handwritten optical character recognition. Each large language model independently generates, trains, evaluates, and iteratively refines neural network architectures using performance feedback from previous trials. The framework is evaluated on Arabic, Persian, and English handwriting datasets through 270 independent experiments. It consistently discovers accurate and computationally efficient models without manual architecture design, domain-specific preprocessing, or hyperparameter tuning. The generated models achieve mean test accuracies above 93 percent, a best accuracy of 98.1 percent, and inference latency between 41 and 44 milliseconds. The results demonstrate that large language models can function as effective AutoML agents for neural architecture search, enabling scalable, script-adaptive, and reproducible handwriting recognition across languages.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15509",
+          "relevance_score": 38,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "SkillSentry: Reliable Skill Execution for LLM Agents via Runtime Assurance",
+          "summary": "arXiv:2608.09253v1 Announce Type: new Abstract: LLM agents are increasingly equipped with skills to perform complex tasks through multi-step reasoning and tool use. Although skills provide reusable procedural knowledge, agents may still execute them unreliably. Even when an agent has demonstrated the capability to complete tasks under the guidance of a skill, it may fail to do so consistently across similar tasks or repeated runs due to deviations from the skill procedure or incorrect execution of individual steps. Such instability limits the practical reliability of LLM agents. To address this problem, we propose SkillSentry, a skill-oriented runtime assurance framework built upon a new domain-specific language (DSL) for representing runtime guidance for skill execution. SkillSentry initializes the runtime guidance by combining a skill specification extracted from the corresponding skill document with execution experience mined from historical successful and failed traces. It then wraps around the agent execution loop to monitor and guide skill execution under the current guidance, while iteratively refining the guidance using newly collected traces. We evaluate SkillSentry on 15 skills across two LLM agents, each paired with two backbone models, i.e., Claude Code with Claude-Haiku-4.5 and Claude-Opus-4.6, and Codex with GPT-5.2 and GPT-5.4. Our results show that SkillSentry improves the task success rate of LLM agents by 24.1% across skills, on average, while exhibiting lower variability across repeated runs.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.09253",
+          "relevance_score": 37,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Evaluating Jailbreaking Vulnerabilities in LLMs Deployed as Assistants for Smart Grid Operations: A Benchmark Against NERC Standards",
+          "summary": "arXiv:2604.23341v3 Announce Type: replace-cross Abstract: The deployment of Large Language Models (LLMs) as assistants in electric grid operations promises to streamline compliance and decision-making but exposes new vulnerabilities to prompt-based adversarial attacks. This paper evaluates the risk of jailbreaking LLMs, i.e., circumventing safety alignments to produce outputs violating regulatory standards, assuming threats from authorized users, such as operators, who craft malicious prompts to elicit non-compliant guidance. Three state-of-the-art LLMs (OpenAI's GPT-4o mini, Google's Gemini 2.0 Flash-Lite, and Anthropic's Claude 3.5 Haiku) were tested against Baseline, BitBypass, and DeepInception jailbreaking methods across scenarios derived from nine NERC Reliability Standards (EOP, TOP, and CIP). In the initial broad experiment, the overall Attack Success Rate (ASR) was 33.1%, with DeepInception proving most effective at 63.17% ASR. Claude 3.5 Haiku exhibited complete resistance (0% ASR), while Gemini 2.0 Flash-Lite was most vulnerable (55.04% ASR) and GPT-4o mini moderately susceptible (44.34% ASR). A follow-up experiment refining malicious wording in Baseline and BitBypass attacks yielded a 30.6% ASR, confirming that subtle prompt adjustments can enhance simpler methods' efficacy.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.23341",
+          "relevance_score": 37,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "An Agentic AI Framework Overcomes Fundamental Limitations of Large Language Models for Glaucoma Detection from Fundus Photography",
+          "summary": "arXiv:2608.07651v1 Announce Type: new Abstract: Large language models (LLMs) show promise in medical image interpretation but suffer from hallucination, limited accuracy, and run-to-run inconsistency. We developed and validated an agentic AI framework integrating LLMs with specialized deep learning tools for glaucoma detection from fundus photography. The workflow had three steps: (1) LLM initial assessment; (2) function calling to invoke specialized tools for image quality (QAModel, FundaQ-8), glaucoma classification (SwinV2-Tiny), and optic disc/cup segmentation (SegFormer-B0); and (3) LLM reflection integrating the initial impression with tool outputs. Two LLMs (Gemini 2.5 Flash, GPT-5.4 mini) were evaluated on two public datasets (ORIGA, n=100; RIM-ONE-v3, n=100) under uncropped and cropped fields of view; all images were independently graded by a masked fellowship-trained glaucoma specialist. The agentic workflow improved classification accuracy by 16 to 47 percentage points across all conditions, reaching within 6 points of the specialist; on RIM-ONE-v3 the best configurations matched the specialist accuracy of 88%. LLM-alone approaches failed in two ways: GPT-5.4 mini showed positive bias (sensitivity 95-100%, specificity 0-5%), while Gemini 2.5 Flash varied stochastically between runs; the agentic workflow corrected both. Cup-to-disc ratio error fell 15-50% (MAE 0.156-0.228 to 0.104-0.132), and correlation with specialist grading rose from weak (r=0.12-0.39) to moderate-strong (r=0.59-0.84). Run-to-run consistency rose from near-random (kappa as low as -0.01) to near-perfect (kappa up to 0.96). Integrating LLMs with specialized tools addressed key limitations of LLM-alone approaches, including over-diagnosis and run-to-run variability. Gains held for both LLMs, suggesting generalizability across backbones, and may signal a shift from monolithic models toward orchestrated multi-agent systems in medical AI.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.07651",
+          "relevance_score": 35,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Performance of large language models in the optical diagnosis of colorectal polyps",
+          "summary": "arXiv:2608.07543v1 Announce Type: cross Abstract: Background and Study Aims: Accurate optical diagnosis of colorectal polyps guides resection strategy and surveillance, with multimodal large language models (MLLMs) showing potential for image-based diagnosis. We aimed to evaluate the diagnostic accuracy of MLLMs in classifying colorectal polyps and predicting histology. Methods: We conducted a retrospective diagnostic performance study using the PRIME dataset, a curated set of white light and narrow-band imaging (NBI) images. We evaluated Claude Opus 4, Google Gemini 2.5 Pro, GPT-o3, GPT-4o, and GPT-5. For Paris, Narrow-band Imaging Colorectal Endoscopic (NICE), and predicted histology, we calculated F1 scores, percent correct scores, and accuracy of each MLLM compared to expert responses for 132 cases. Cochran's Q and McNemar's Test were used to determine differences between predicted values of each MLLM. Results: The F1 scores among MLLMs were >0.9 for all models for neoplastic vs. non-neoplastic polyps. Gemini 2.5 Pro demonstrated the highest F1 scores for invasive vs. non-invasive polyps and low- vs. high-grade adenoma, at 0.560 and 0.492 respectively. Claude Opus 4 and GPT-5 had statistically significantly higher percent correct scores than other MLLMs at 41.7%, using Paris classification. Conclusions: Claude Opus 4 and Gemini 2.5 Pro showed the highest accuracy in differentiating polyp subtypes, performing closest to expert consensus. Sensitivity and specificity, however, did not meet ESGE standards, highlighting the need for prospective multicenter trials and the design of human-in-the-loop workflows before clinical deployment.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.07543",
+          "relevance_score": 35,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "ChannelGuard: Safe Models Do Not Compose into Safe Multi-Agent Systems",
+          "summary": "arXiv:2607.19430v2 Announce Type: replace-cross Abstract: Multi-agent LLM applications chain a planner, worker agents, a verifier, and a synthesizer, and every hop between agents is an unmonitored channel through which an adversary can smuggle instructions. Existing defenses guard only the input boundary (IBProtector, Llama Guard, perplexity filters, SmoothLLM) or run outside the application as opaque, stochastic provider-side filters. We show this gap carries a consequence rarely measured: on a 2,100-trace evaluation across eight attack families, five defenses, and three model backends, an undefended pipeline that appears fully safe under standard reporting (attack success 0.000 on tool- and memory-poisoning) owes that safety almost entirely to the cloud provider's server-side filter (54 of 60 blocks on Azure GPT-5), and silently shifts to the agent model's own alignment on a backend without such a filter. Outcome-only reporting hides this dependence. We present ChannelGuard, a training-free defense-in-depth framework placing information-bottleneck gates on every inter-agent channel; each scores channel text against an adversarial phrase bank by embedding similarity and deterministically passes, compresses, or blocks it, adding no LLM call, while an attribution method records which layer stopped each attack. ChannelGuard's tool-output gate blocks Tool Poisoning 30 of 30 at the application layer, identically across Azure GPT-5, Anthropic Sonnet 4.5, and Anthropic Haiku 4.5, whereas the undefended pipeline shifts entirely across backends; it also lowers Prompt Injection attack success by half (0.333 to 0.167) and preserves GSM8K accuracy exactly (0.867). White-box adaptive paraphrase evades every embedding gate, where a perturb-and-vote baseline does better. An extended appendix adds baselines, ablations, sweeps, a benign-preservation analysis, and a judge audit (kappa = 0.900), at a total cost of 47.36 USD.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.19430",
+          "relevance_score": 35,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "LLM within MCP Matters: Measuring Inefficient Resource Utilization Driven by LLMs",
+          "summary": "arXiv:2608.08467v1 Announce Type: new Abstract: The Model Context Protocol (MCP) standardizes how servers expose data and tools to Large Language Models (LLMs). A common server design embeds frequently used reference data, such as identifier lookup tables, directly in the server instructions: the system-prompt text a server hands to the host application. When a query concerns an entry of the embedded table, the model can act on it immediately instead of re-discovering the same information through a search tool. We test whether client LLMs actually consume such instruction-embedded data, reporting a 54,000-trial study across 24 LLMs (9 Claude, 6 Gemini, 9 GPT) on a production legal-information MCP server. A diagnostic condition that removes the competing search tool shows that failures are dominated by behavioral preference rather than missing capability. With search unavailable, 23 of 24 models read the embedded data reliably (hit ratio at least 98%); with a search tool merely present, 9 models drop below 15%. A 2^3 factorial analysis of three instruction-level interventions reveals strong interaction effects: combining all three restores at least 86% for 20 of 24 models, but individual interventions can backfire for specific model families. Per-server prompt engineering is therefore a workaround rather than a fix; we argue that MCP host applications should provide an explicit mechanism that places server instructions ahead of tool selection in the client LLM's deliberation.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.08467",
+          "relevance_score": 33,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        },
+        {
+          "title": "Can Open-Weight Models Compete on Financial Text Comprehension?",
+          "summary": "arXiv:2608.08634v1 Announce Type: new Abstract: Open-weight language models from Chinese AI labs caught up on benchmarks relative to proprietary frontier models in recent months. Yet their reliability on real-world financial tasks remains largely untested. We updated the Financial Touchstone benchmark, which now has 2,967 question context-answer triplets across 495 international annual reports. We also apply a new set of models on the benchmark, expanding coverage from eleven to twenty models across ten providers, including recent open-weight models such as GLM 4.7, GLM 5, Kimi K2.6, and DeepSeek V3.2, as well as Alibaba's proprietary flagship Qwen3-Max. Anthropic's Claude Opus 4.6 achieves the highest accuracy (88.4%), while Google's Gemini 2.5 Pro maintains the lowest hallucination rate (0.08%). Notably, the open-weight Kimi K2.6 ranks third in accuracy, and the non-reasoning models GLM 5 and Mistral 3 rank fourth and fifth, challenging the assumption that reasoning architectures or proprietary weights are a prerequisite for strong financial comprehension. Information retrieval remains the primary bottleneck, accounting for 48.9% of all failures. We also document a new finding: geopolitical content filters in Chinese models refuse legitimate financial questions (0.08% of attempts), sometimes without clear reason, and the refusal behavior depends on the access route as much as on the model. The complete dataset and evaluation framework are publicly available.",
+          "category": "labs",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.08634",
+          "relevance_score": 33,
+          "status": "new",
+          "tags": [],
+          "what_changed": "Nueva señal detectada.",
+          "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+          "sector_impact": "Relevante para el ecosistema de IA aplicada."
+        }
+      ]
+    },
+    {
       "date": "2026-08-10",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
       "items": [
@@ -737,129 +847,6 @@
           "what_changed": "Capacidades de reconocimiento de alimentos mejoradas a través de entrenamiento específico.",
           "why_it_matters": "Facilita la evaluación dietética de forma más precisa y accesible.",
           "sector_impact": "Beneficios en la salud pública y en la promoción de dietas saludables."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "executive_title": "Radar Diario de IA: Innovaciones y Herramientas Clave",
-      "items": [
-        {
-          "title": "PEFT of SLM for Telecommunications Customer Support",
-          "summary": "Estudio sobre la adaptación de modelos de lenguaje para proporcionar soporte conversacional específico en telecomunicaciones.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.05176",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "telecom",
-            "customer support",
-            "adaptive models"
-          ],
-          "what_changed": "Se presenta un enfoque de fine-tuning específico para el dominio.",
-          "why_it_matters": "Mejora la capacidad de los LLMs en entornos específicos y reduce la dependencia de modelos externos.",
-          "sector_impact": "Telecomunicaciones"
-        },
-        {
-          "title": "OpenClaw and Ollama in Agentic AI",
-          "summary": "Arquitectura unificada para sistemas de IA agentes que integra memoria persistente y toma de decisiones adaptativa.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.28629",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentic AI",
-            "architectures"
-          ],
-          "what_changed": "Se propone un nuevo enfoque que diferencia las capas de inferencia y orquestación.",
-          "why_it_matters": "Establece un fundamento arquitectónico para implementar IA agentes autónomos.",
-          "sector_impact": "IA Agente"
-        },
-        {
-          "title": "AgenticHarness for Real-World Compilers",
-          "summary": "Introducción de un arnés especializado para ayudar a los agentes de IA en la reparación de errores en compiladores.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.20075",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "compilers",
-            "bug repair",
-            "automation"
-          ],
-          "what_changed": "Desarrollo de herramientas específicas para errores del compilador.",
-          "why_it_matters": "Mejora la eficacia de la IA en tareas de ingeniería de compiladores.",
-          "sector_impact": "Informática"
-        },
-        {
-          "title": "Validation Evidence in LLM Repair Agents",
-          "summary": "Estudio sobre la efectividad de los agentes de reparación en la validación de errores.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.28871",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "repair agents",
-            "validation",
-            "evidence"
-          ],
-          "what_changed": "Evaluación de la validez de pruebas realizadas por agentes de reparación.",
-          "why_it_matters": "Proporciona métricas útiles para mejorar la eficacia de la reparación automatizada.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "ExtractBench: Benchmark for Schema-Guided Enterprise Document Extraction",
-          "summary": "Creación de un benchmark para la extracción guiada por esquemas en documentos empresariales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.29677",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "document extraction",
-            "automation",
-            "enterprise"
-          ],
-          "what_changed": "Propuesta de un nuevo sistema de evaluación para la extracción de datos.",
-          "why_it_matters": "Mejora la precisión en la recuperación de información clave en documentos empresariales.",
-          "sector_impact": "Empresarial"
-        },
-        {
-          "title": "M3MAD-Bench: Multi-Dimensional Evaluation of Multi-Agent Debate",
-          "summary": "Benchmark para evaluar métodos de debate multi-agente en distintas tareas y modalidades.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.02854",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "multi-agent systems",
-            "benchmarking"
-          ],
-          "what_changed": "Establecimiento de protocolos estándar para la evaluación de debate multi-agente.",
-          "why_it_matters": "Facilita la comparación de métodos y estrategias en evaluaciones de IA.",
-          "sector_impact": "IA Colaborativa"
-        },
-        {
-          "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
-          "summary": "Desarrollo de un sistema de recuperación calibrado por presupuesto para agentes de codificación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.19338",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "coding agents",
-            "recovery",
-            "budget control"
-          ],
-          "what_changed": "Propuesta de una nueva estrategia hacia la recuperación de errores en codificación.",
-          "why_it_matters": "Optimiza el uso de recursos durante el proceso de recuperación en programación.",
-          "sector_impact": "Desarrollo de software"
         }
       ]
     }
