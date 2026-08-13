@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-08-13",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "Sistema RAG clínico VITA supera a modelos LLM en HealthBench",
+          "summary": "El sistema VITA ha demostrado ser competitivo con modelos LLM de última generación en evaluaciones médicas, especialmente en contextos de recursos limitados.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12138",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "RAG",
+            "salud",
+            "IA clínica"
+          ],
+          "what_changed": "Comparación directa con modelos LLM en benchmarks específicos.",
+          "why_it_matters": "Asegura que sistemas especializados sean igualmente eficaces que modelos generales, crucial para implementaciones en LMIC.",
+          "sector_impact": "Salud y medicina."
+        },
+        {
+          "title": "Gemini Embedding 2: Primer modelo nativamente multimodal",
+          "summary": "Gemini Embedding 2 permite la representación multimodal de texto, imágenes, video y audio, ampliando las capacidades de recuperación multimodal.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.11343",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "IA",
+            "embeddings"
+          ],
+          "what_changed": "Introducción de un modelo nativo que unifica diferentes tipos de datos en un solo espacio.",
+          "why_it_matters": "Mejora la eficacia en la recuperación de información y aplicaciones de baja latencia.",
+          "sector_impact": "Tecnología de la información."
+        },
+        {
+          "title": "Marco de memoria para socios AI de ciencia de materiales",
+          "summary": "Se propone un marco de memoria persistente que mejora la transferencia de conocimiento en investigación de materiales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.11224",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "IA",
+            "ciencia de materiales"
+          ],
+          "what_changed": "Implementación de un sistema que almacena experiencia científica como hechos inspectables.",
+          "why_it_matters": "Permite aprovechar el conocimiento acumulado de manera efectiva y persistente.",
+          "sector_impact": "Investigación científica."
+        },
+        {
+          "title": "SRE-Bench: Nuevo benchmark para ingeniería inversa",
+          "summary": "Se introduce SRE-Bench, un benchmark realista para evaluar capacidades de ingeniería inversa en modelos LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "ingeniería inversa"
+          ],
+          "what_changed": "Benchmark diseñado para integrar software complejo no accesible como código fuente.",
+          "why_it_matters": "Proporciona un contexto de evaluación crítico para capacidades de seguridad de software.",
+          "sector_impact": "Ciberseguridad."
+        },
+        {
+          "title": "Backtrader-Bench: Evaluación de agentes en trading algorítmico",
+          "summary": "Se presenta un marco que permite evaluar agentes de LLM en trading algorítmico mediante preguntas de opción múltiple.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.11232",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "trading",
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de dos pipelines complementarias para la evaluación de estrategias de trading.",
+          "why_it_matters": "Aumenta la precisión y eficacia de los agentes en entornos de trading reales.",
+          "sector_impact": "Finanzas."
+        },
+        {
+          "title": "DREAMS: Motor de investigación basado en teoría funcional de densidad",
+          "summary": "DREAMS es un marco que verifica y asegura la precisión de los trabajos en simulación de materiales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2507.14267",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "simulación",
+            "materiales",
+            "IA"
+          ],
+          "what_changed": "Implementación de guardas de seguridad para la verificación de entradas y pasos en simulaciones.",
+          "why_it_matters": "Aumenta la confianza en los resultados y la precisión de simulaciones automatizadas.",
+          "sector_impact": "Ciencia de materiales."
+        },
+        {
+          "title": "Distribird: Automatización de la calibración bayesiana",
+          "summary": "Distribird automatiza la creación de distribuciones previas informativas a partir de literatura científica, mejorando la calibración de modelos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.11210",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "calibración",
+            "bayesiana",
+            "automatización"
+          ],
+          "what_changed": "Desarrollo de un sistema que extrae y ajusta valores de la literatura científica semiautomáticamente.",
+          "why_it_matters": "Facilita la creación de parámetros previos fundamentados y reduce el esfuerzo manual.",
+          "sector_impact": "Investigación científica."
+        }
+      ]
+    },
+    {
       "date": "2026-08-12",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -749,131 +873,6 @@
           "what_changed": "Introdujo un marco controlado para evaluar la recuperación en sistemas multi-agente.",
           "why_it_matters": "Permite la identificación de fallos y mejora en procesos orquestados.",
           "sector_impact": "Mejora la eficacia de flujos de trabajo en entornos de múltiples agentes."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "PICopilot: Un marco agente basado en LLM para el diseño de circuitos integrados fotónicos",
-          "summary": "PICopilot asiste en la generación de scripts de diseño desde instrucciones en lenguaje natural, mejorando la productividad en la creación de circuitos integrados.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.01791",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "automación",
-            "diseño"
-          ],
-          "what_changed": "Introducción de un marco basado en LLM para la automatización del diseño.",
-          "why_it_matters": "Facilita la creación de circuitos complejos, reduciendo la necesidad de habilidades de programación avanzadas.",
-          "sector_impact": "Transforma el campo del diseño de circuitos, aumentando la eficiencia."
-        },
-        {
-          "title": "EDATracer: Un marco para el análisis de artefactos EDA a gran escala",
-          "summary": "EDATracer organiza artefactos de diseño en un grafo de conocimiento, mejorando la recuperación de evidencia y el análisis de artefactos EDA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.04032",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "EDA",
-            "análisis",
-            "evidencia"
-          ],
-          "what_changed": "Desarrollo de un marco para análisis cruzado de artefactos EDA.",
-          "why_it_matters": "Facilita la depuración y optimización en el diseño de chips, aumentando precisión y eficiencia.",
-          "sector_impact": "Revoluciona el campo de diseño de chips, promoviendo una y mejora en la eficiencia."
-        },
-        {
-          "title": "Canary Tools: Diagnóstico en la selección de herramientas para agentes LLM",
-          "summary": "Introducción de herramientas canarias para identificar debilidades en la selección de herramientas en agentes LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.04719",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "diagnóstico",
-            "LLM",
-            "selección de herramientas"
-          ],
-          "what_changed": "Implementación de un sistema que evalúa el razonamiento del modelo en la selección de herramientas.",
-          "why_it_matters": "Mejora la eficiencia de agentes LLM, ayudando a identificar sus puntos débiles.",
-          "sector_impact": "Optimiza el rendimiento de los modelos en entornos de desarrollo."
-        },
-        {
-          "title": "AutoProteinEngine: Un marco agentivo impulsado por LLM para AutoML en ingeniería de proteínas",
-          "summary": "AutoProteinEngine facilita la interacción entre biólogos y modelos de aprendizaje profundo usando lenguaje natural.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2411.04440",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "AutoML",
-            "proteínas",
-            "interacción"
-          ],
-          "what_changed": "Baja la barrera de entrada en ingeniería de proteínas mediante modelos LLM.",
-          "why_it_matters": "Permite a investigadores sin experiencia en DL aprovechar el aprendizaje profundo fácilmente.",
-          "sector_impact": "Aumenta la accesibilidad en la investigación biomédica."
-        },
-        {
-          "title": "ORCA-bench: Cómo de preparados están los agentes de modelos de lenguaje para el soporte técnico",
-          "summary": "ORCA-bench introduce un entorno de banco de pruebas para evaluar agentes en análisis de causa raíz en producción.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.28545",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "RCA",
-            "on-call"
-          ],
-          "what_changed": "Desarrollo de un conjunto de pruebas para evaluar la capacidad de agentes en entornos de soporte técnico.",
-          "why_it_matters": "Proporciona una evaluación objetiva de la capacidad de los modelos en situaciones reales.",
-          "sector_impact": "Mejora la fiabilidad y eficacia de los agentes en el soporte técnico."
-        },
-        {
-          "title": "Hallucinations on the Board: Evaluación de comentarios de ajedrez potenciados por herramientas",
-          "summary": "ACT-Eval descompone comentarios de ajedrez en afirmaciones atómicas para evaluar la corrección fáctica y la calidad del movimiento.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.04240",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "ajedrez",
-            "evaluación",
-            "hallucinations"
-          ],
-          "what_changed": "Introducción de un marco para evaluar la corrección fáctica en comentarios de ajedrez.",
-          "why_it_matters": "Reduce los errores en el análisis de partidas, mejorando la comprensión en ajedrez.",
-          "sector_impact": "Aumenta la calidad de las herramientas de análisis en ajedrez."
-        },
-        {
-          "title": "Combatiendo la corrupción del conocimiento en sistemas de agentes",
-          "summary": "SecureCollaRAG se presenta como un marco colaborativo tolerante a fallos para validar el conocimiento en sistemas RAG.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.04366",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "RAg",
-            "colaboración"
-          ],
-          "what_changed": "Desarrollo de un marco seguro para validar el conocimiento en sistemas RAG.",
-          "why_it_matters": "Previene ataques de corrupción de conocimiento, manteniendo la integridad del conocimiento.",
-          "sector_impact": "Fortalece la confianza y robustez en sistemas de generación de conocimiento."
         }
       ]
     }
