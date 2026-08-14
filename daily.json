@@ -1,126 +1,127 @@
 {
-  "date": "2026-08-13",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-  "intro_message": "Bienvenido al Radar Diario de IA, donde destacamos los avances más relevantes en herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "A continuación, encontrará las últimas novedades que están impactando el campo de la inteligencia artificial.",
+  "date": "2026-08-14",
+  "executive_title": "Radar Diario de AI - Actualizaciones Clave",
+  "intro_message": "Bienvenido al radar diario de IA, donde destacamos las herramientas, modelos y características más importantes del campo.",
+  "opening_message": "A continuación, presentamos las innovaciones más relevantes y útiles en inteligencia artificial.",
   "items": [
     {
-      "title": "Sistema RAG clínico VITA supera a modelos LLM en HealthBench",
-      "summary": "El sistema VITA ha demostrado ser competitivo con modelos LLM de última generación en evaluaciones médicas, especialmente en contextos de recursos limitados.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.12138",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "RAG",
-        "salud",
-        "IA clínica"
-      ],
-      "what_changed": "Comparación directa con modelos LLM en benchmarks específicos.",
-      "why_it_matters": "Asegura que sistemas especializados sean igualmente eficaces que modelos generales, crucial para implementaciones en LMIC.",
-      "sector_impact": "Salud y medicina."
-    },
-    {
-      "title": "Gemini Embedding 2: Primer modelo nativamente multimodal",
-      "summary": "Gemini Embedding 2 permite la representación multimodal de texto, imágenes, video y audio, ampliando las capacidades de recuperación multimodal.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.11343",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "multimodal",
-        "IA",
-        "embeddings"
-      ],
-      "what_changed": "Introducción de un modelo nativo que unifica diferentes tipos de datos en un solo espacio.",
-      "why_it_matters": "Mejora la eficacia en la recuperación de información y aplicaciones de baja latencia.",
-      "sector_impact": "Tecnología de la información."
-    },
-    {
-      "title": "Marco de memoria para socios AI de ciencia de materiales",
-      "summary": "Se propone un marco de memoria persistente que mejora la transferencia de conocimiento en investigación de materiales.",
+      "title": "Foam-Agent: Un Modelo Multi-Agente para CFD",
+      "summary": "Foam-Agent automatiza flujos de trabajo de dinámica de fluidos computacional utilizando LLMs, mejorando la tasa de éxito de ejecución.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.11224",
+      "source_url": "https://arxiv.org/abs/2505.04997",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "multi-agente",
+        "CFD",
+        "automatización"
+      ],
+      "what_changed": "Introducción de un marco multi-agente que simplifica complejos flujos de trabajo.",
+      "why_it_matters": "Reduce la curva de aprendizaje y facilita el acceso a la dinámica de fluidos para nuevos usuarios.",
+      "sector_impact": "Mejora la eficiencia en ingeniería y simulaciones físicas."
+    },
+    {
+      "title": "AaLLM: Marco de Diseño de Circuitos Analógicos",
+      "summary": "AaLLM es un flujo de trabajo multi-agente que automatiza el diseño de circuitos analógicos desde la generación de topologías hasta el dimensionamiento.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.13472",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "diseño",
+        "circuitos",
+        "automatización"
+      ],
+      "what_changed": "Se automatiza el proceso tradicionalmente manual y propenso a errores.",
+      "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos y permite innovaciones en topologías.",
+      "sector_impact": "Impacta en la ingeniería electrónica y el desarrollo de dispositivos."
+    },
+    {
+      "title": "$\\varepsilon$-MemEvo: Transferencia de Memoria para Evolución de Programas",
+      "summary": "Framework para la transferencia de memoria adaptativa en sistemas de evolución de programas basados en LLMs.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.12522",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "programación",
+        "memoria",
+        "transferencia"
+      ],
+      "what_changed": "Mejoras en la transferencia de conocimientos entre tareas diferentes.",
+      "why_it_matters": "Incrementa la eficiencia y la velocidad en la búsqueda de algoritmos.",
+      "sector_impact": "Acelera el desarrollo de software y optimización."
+    },
+    {
+      "title": "ERSkill: Recuperación de Memoria Basada en Habilidades",
+      "summary": "Framework que permite la recuperación adaptativa de memoria para interacciones persistentes en agentes de LLM.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.12720",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "memoria",
-        "IA",
-        "ciencia de materiales"
+        "adaptación",
+        "interacción"
       ],
-      "what_changed": "Implementación de un sistema que almacena experiencia científica como hechos inspectables.",
-      "why_it_matters": "Permite aprovechar el conocimiento acumulado de manera efectiva y persistente.",
-      "sector_impact": "Investigación científica."
+      "what_changed": "Incorpora habilidades en la recuperación de información.",
+      "why_it_matters": "Mejora la adaptabilidad de agentes en escenarios complejos.",
+      "sector_impact": "Accesibilidad en aplicaciones de IA y asistencia personal."
     },
     {
-      "title": "SRE-Bench: Nuevo benchmark para ingeniería inversa",
-      "summary": "Se introduce SRE-Bench, un benchmark realista para evaluar capacidades de ingeniería inversa en modelos LLM.",
-      "category": "tool",
+      "title": "Unmasking Conversational Bias en Sistemas Multiagente",
+      "summary": "Un marco para cuantificar sesgos en sistemas de LLM multiagente en discusiones contextuales.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.11469",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2501.14844",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "ingeniería inversa"
-      ],
-      "what_changed": "Benchmark diseñado para integrar software complejo no accesible como código fuente.",
-      "why_it_matters": "Proporciona un contexto de evaluación crítico para capacidades de seguridad de software.",
-      "sector_impact": "Ciberseguridad."
-    },
-    {
-      "title": "Backtrader-Bench: Evaluación de agentes en trading algorítmico",
-      "summary": "Se presenta un marco que permite evaluar agentes de LLM en trading algorítmico mediante preguntas de opción múltiple.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.11232",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "trading",
-        "agentes",
+        "sesgos",
+        "multiagente",
         "evaluación"
       ],
-      "what_changed": "Introducción de dos pipelines complementarias para la evaluación de estrategias de trading.",
-      "why_it_matters": "Aumenta la precisión y eficacia de los agentes en entornos de trading reales.",
-      "sector_impact": "Finanzas."
+      "what_changed": "Implementación de un nuevo enfoque para detectar sesgos en interacciones de agentes.",
+      "why_it_matters": "Reduce los riesgos asociados en aplicaciones críticas de AI.",
+      "sector_impact": "Mejora la ética y la efectividad en sistemas de IA conversacional."
     },
     {
-      "title": "DREAMS: Motor de investigación basado en teoría funcional de densidad",
-      "summary": "DREAMS es un marco que verifica y asegura la precisión de los trabajos en simulación de materiales.",
-      "category": "framework",
+      "title": "Mimicry without understanding: Decisión en modelos de lenguaje",
+      "summary": "Investigación sobre el sesgo en los modelos de lenguaje y cómo se genera durante la inferencia.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2507.14267",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.12339",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "simulación",
-        "materiales",
+        "sesgo",
+        "IA",
+        "evaluación"
+      ],
+      "what_changed": "Identificación de mecanismos subyacentes que generan sesgos en decisiones.",
+      "why_it_matters": "Proporciona una comprensión más profunda sobre la generación de sesgos.",
+      "sector_impact": "Impulsa desarrollos más responsables en IA."
+    },
+    {
+      "title": "SynAct: Modelo de Actuación para Optimización de Síntesis",
+      "summary": "Agente adaptativo que mejora la optimización de la síntesis lógica en circuitos.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.12751",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "optimización",
+        "síntesis",
         "IA"
       ],
-      "what_changed": "Implementación de guardas de seguridad para la verificación de entradas y pasos en simulaciones.",
-      "why_it_matters": "Aumenta la confianza en los resultados y la precisión de simulaciones automatizadas.",
-      "sector_impact": "Ciencia de materiales."
-    },
-    {
-      "title": "Distribird: Automatización de la calibración bayesiana",
-      "summary": "Distribird automatiza la creación de distribuciones previas informativas a partir de literatura científica, mejorando la calibración de modelos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.11210",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "calibración",
-        "bayesiana",
-        "automatización"
-      ],
-      "what_changed": "Desarrollo de un sistema que extrae y ajusta valores de la literatura científica semiautomáticamente.",
-      "why_it_matters": "Facilita la creación de parámetros previos fundamentados y reduce el esfuerzo manual.",
-      "sector_impact": "Investigación científica."
+      "what_changed": "Mejora en la adaptación de comandos durante la síntesis lógica.",
+      "why_it_matters": "Aumenta la efectividad y reduce errores en el diseño de circuitos.",
+      "sector_impact": "Revoluciona procesos de ingeniería en microelectrónica."
     }
   ]
 }

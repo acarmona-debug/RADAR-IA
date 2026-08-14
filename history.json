@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-08-14",
+      "executive_title": "Radar Diario de AI - Actualizaciones Clave",
+      "items": [
+        {
+          "title": "Foam-Agent: Un Modelo Multi-Agente para CFD",
+          "summary": "Foam-Agent automatiza flujos de trabajo de dinámica de fluidos computacional utilizando LLMs, mejorando la tasa de éxito de ejecución.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2505.04997",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "multi-agente",
+            "CFD",
+            "automatización"
+          ],
+          "what_changed": "Introducción de un marco multi-agente que simplifica complejos flujos de trabajo.",
+          "why_it_matters": "Reduce la curva de aprendizaje y facilita el acceso a la dinámica de fluidos para nuevos usuarios.",
+          "sector_impact": "Mejora la eficiencia en ingeniería y simulaciones físicas."
+        },
+        {
+          "title": "AaLLM: Marco de Diseño de Circuitos Analógicos",
+          "summary": "AaLLM es un flujo de trabajo multi-agente que automatiza el diseño de circuitos analógicos desde la generación de topologías hasta el dimensionamiento.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.13472",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "diseño",
+            "circuitos",
+            "automatización"
+          ],
+          "what_changed": "Se automatiza el proceso tradicionalmente manual y propenso a errores.",
+          "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos y permite innovaciones en topologías.",
+          "sector_impact": "Impacta en la ingeniería electrónica y el desarrollo de dispositivos."
+        },
+        {
+          "title": "$\\varepsilon$-MemEvo: Transferencia de Memoria para Evolución de Programas",
+          "summary": "Framework para la transferencia de memoria adaptativa en sistemas de evolución de programas basados en LLMs.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12522",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "programación",
+            "memoria",
+            "transferencia"
+          ],
+          "what_changed": "Mejoras en la transferencia de conocimientos entre tareas diferentes.",
+          "why_it_matters": "Incrementa la eficiencia y la velocidad en la búsqueda de algoritmos.",
+          "sector_impact": "Acelera el desarrollo de software y optimización."
+        },
+        {
+          "title": "ERSkill: Recuperación de Memoria Basada en Habilidades",
+          "summary": "Framework que permite la recuperación adaptativa de memoria para interacciones persistentes en agentes de LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12720",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "adaptación",
+            "interacción"
+          ],
+          "what_changed": "Incorpora habilidades en la recuperación de información.",
+          "why_it_matters": "Mejora la adaptabilidad de agentes en escenarios complejos.",
+          "sector_impact": "Accesibilidad en aplicaciones de IA y asistencia personal."
+        },
+        {
+          "title": "Unmasking Conversational Bias en Sistemas Multiagente",
+          "summary": "Un marco para cuantificar sesgos en sistemas de LLM multiagente en discusiones contextuales.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2501.14844",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "sesgos",
+            "multiagente",
+            "evaluación"
+          ],
+          "what_changed": "Implementación de un nuevo enfoque para detectar sesgos en interacciones de agentes.",
+          "why_it_matters": "Reduce los riesgos asociados en aplicaciones críticas de AI.",
+          "sector_impact": "Mejora la ética y la efectividad en sistemas de IA conversacional."
+        },
+        {
+          "title": "Mimicry without understanding: Decisión en modelos de lenguaje",
+          "summary": "Investigación sobre el sesgo en los modelos de lenguaje y cómo se genera durante la inferencia.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12339",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "sesgo",
+            "IA",
+            "evaluación"
+          ],
+          "what_changed": "Identificación de mecanismos subyacentes que generan sesgos en decisiones.",
+          "why_it_matters": "Proporciona una comprensión más profunda sobre la generación de sesgos.",
+          "sector_impact": "Impulsa desarrollos más responsables en IA."
+        },
+        {
+          "title": "SynAct: Modelo de Actuación para Optimización de Síntesis",
+          "summary": "Agente adaptativo que mejora la optimización de la síntesis lógica en circuitos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12751",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "síntesis",
+            "IA"
+          ],
+          "what_changed": "Mejora en la adaptación de comandos durante la síntesis lógica.",
+          "why_it_matters": "Aumenta la efectividad y reduce errores en el diseño de circuitos.",
+          "sector_impact": "Revoluciona procesos de ingeniería en microelectrónica."
+        }
+      ]
+    },
+    {
       "date": "2026-08-13",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
       "items": [
@@ -751,128 +876,6 @@
           "what_changed": "Estrategia para implementar IA en el desarrollo de productos.",
           "why_it_matters": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
           "sector_impact": "Acelera la innovación en la experiencia del cliente."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "EcoAgent-Bench: Evaluando Toma de Decisiones Económicas en Agentes LLM Limitados por Presupuesto",
-          "summary": "Un nuevo benchmark que evalúa decisiones económicas de agentes LLM en un contexto de presupuestos limitados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05519",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "decisiones económicas",
-            "benchmarking"
-          ],
-          "what_changed": "Introdujo un benchmark para evaluar decisiones económicas bajo presupuestos limitados.",
-          "why_it_matters": "Ayuda a entender cómo los agentes manejan recursos en tareas complejas.",
-          "sector_impact": "Mejora la capacidad de modelos en contextos limitados de recursos."
-        },
-        {
-          "title": "SkillHEX: Mejorando Habilidades de Agentes a través de Exploración y Explotación Autónoma",
-          "summary": "Marco que optimiza la evolución de habilidades de agentes de IA en tiempo real.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05628",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "optimización",
-            "aprendizaje autónomo"
-          ],
-          "what_changed": "Introdujo un sistema de verificación y búsqueda guiada para la evolución de habilidades.",
-          "why_it_matters": "Facilita la mejora continua de los modelos en entornos cambiantes.",
-          "sector_impact": "Aumenta la eficiencia y efectividad de los agentes en tareas dinámicas."
-        },
-        {
-          "title": "SearchAuditBench: Auditoría y Atribución de Fallos en Agentes de Búsqueda a Largo Plazo",
-          "summary": "Un benchmarking para evaluar la habilidad de los LLM para auditar y reparar fallos en búsquedas complejas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05212",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes de búsqueda",
-            "auditoría"
-          ],
-          "what_changed": "Introdujo un framework que audita y repara fallos en agentes de búsqueda a largo plazo.",
-          "why_it_matters": "Reduce la carga humana al diagnosticar fallos en interacciones de búsqueda.",
-          "sector_impact": "Mejora la robustez y confiabilidad de los sistemas de búsqueda."
-        },
-        {
-          "title": "CodeGrep: Un Agente de Recuperación Entrenado por RL para Agentes de Programación LLM",
-          "summary": "Un agente de recuperación que mejora la eficiencia de la resolución de problemas por parte de agentes de codificación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05886",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "código",
-            "optimización",
-            "agentes"
-          ],
-          "what_changed": "Mejoró la eficiencia en la resolución de problemas de código con menos llamadas y tokens.",
-          "why_it_matters": "Maximiza el uso del presupuesto de tokens en interacciones con el modelo.",
-          "sector_impact": "Incrementa la productividad en entornos de desarrollo de software."
-        },
-        {
-          "title": "Agentic Nesting: Nueva Metodología para la Integración de Aplicaciones Empresariales Existentes",
-          "summary": "Un marco que encapsula aplicaciones empresariales como agentes autónomos para mejorar la integración.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05159",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "integración",
-            "agentes",
-            "empresa"
-          ],
-          "what_changed": "Propuesta de un paradigma de integración basado en agentes para sistemas empresariales.",
-          "why_it_matters": "Facilita la interacción y manipulación de aplicaciones empresariales dispersas.",
-          "sector_impact": "Optimiza la orquestación de procesos en empresas."
-        },
-        {
-          "title": "Stochastic Parrots or Singing in Harmony? Evaluando LLMs en Decisiones de Negocios",
-          "summary": "Un análisis del rendimiento de LLMs en la toma de decisiones estratégicas en simulaciones empresariales.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2509.26331",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "negocios"
-          ],
-          "what_changed": "Estableció un nuevo marco para evaluar decisiones empresariales de LLMs.",
-          "why_it_matters": "Informa sobre la capacidad de los LLMs en contextos de decisión a largo plazo.",
-          "sector_impact": "Impacta en cómo se utilizan los LLMs en la toma de decisiones estratégicas."
-        },
-        {
-          "title": "OrchestraBench: Evaluando Modos Fallidos y Recuperación en Orquestación Multi-Agente",
-          "summary": "Un benchmark que diagnostica fallos en la orquestación de múltiples agentes en flujos de trabajo empresariales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05263",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "orquestación",
-            "agentes"
-          ],
-          "what_changed": "Introdujo un marco controlado para evaluar la recuperación en sistemas multi-agente.",
-          "why_it_matters": "Permite la identificación de fallos y mejora en procesos orquestados.",
-          "sector_impact": "Mejora la eficacia de flujos de trabajo en entornos de múltiples agentes."
         }
       ]
     }
