@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-08-15",
+      "executive_title": "Radar Diario de IA - Innovaciones Clave",
+      "items": [
+        {
+          "title": "CIDER: Un Dataset para la Alineación de Preferencias de Privacidad",
+          "summary": "Un nuevo conjunto de datos que captura los límites de divulgación de la privacidad humanos para evaluar la alineación en la IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.09164",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "privacidad",
+            "alineación",
+            "dataset"
+          ],
+          "what_changed": "Creación de un dataset extenso de 14,850 anotaciones humanas.",
+          "why_it_matters": "Permite un mejor ajuste de modelos de IA a las preferencias de privacidad humanas.",
+          "sector_impact": "Mejora en la implementación de IA en entornos donde la privacidad es crítica."
+        },
+        {
+          "title": "Spatial Memory Agent: Razonamiento Espacial Mejorado",
+          "summary": "Desarrollo de un marco que permite a un agente mejorar su razonamiento espacial sin actualizaciones de parámetros.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12743",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "razonamiento",
+            "agente",
+            "IA espacial"
+          ],
+          "what_changed": "Introducción de un marco que permite la auto-evolución de agentes sin modificaciones en los parámetros.",
+          "why_it_matters": "Impulsa el desarrollo de agentes autónomos en contextos espaciales complejos.",
+          "sector_impact": "Aplicaciones en robótica y planificación espacial."
+        },
+        {
+          "title": "AUTO: Optimización de Diseño mediante Modelos de Lenguaje",
+          "summary": "Marco iterativo de optimización que utiliza modelos de lenguaje para resolver problemas de diseño de manera efectiva.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.22651",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "diseño",
+            "IA"
+          ],
+          "what_changed": "Presentación de un marco de búsqueda estratégica para la optimización de diseño.",
+          "why_it_matters": "Mejora la eficiencia en la optimización de procesos complejos.",
+          "sector_impact": "Impacto en la ingeniería y desarrollo de software."
+        },
+        {
+          "title": "QuoteBench: Medición de Errores en Comando de Agentes LLM",
+          "summary": "Una herramienta que permite distinguir errores en la generación de comandos por LLMs, mejorando la evaluación de sus capacidades.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.13547",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "herramienta",
+            "LLM"
+          ],
+          "what_changed": "Introducción de mediciones de validación de estados finales para errores de generación.",
+          "why_it_matters": "Asegura evaluaciones más precisas de agentes de comando.",
+          "sector_impact": "Relevante para el desarrollo de interfaces de usuario y sistemas automatizados."
+        },
+        {
+          "title": "Automated Design Optimization via Strategic Search",
+          "summary": "Método innovador que utiliza LLMs para resolver problemas de optimización en diseño.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.22651",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "IA",
+            "diseño"
+          ],
+          "what_changed": "Implementación de un marco que guía la optimización a través de búsqueda estratégica.",
+          "why_it_matters": "Facilita la exploración de espacios de diseño complejos con LLMs.",
+          "sector_impact": "Innovación en ingeniería y diseño industrial."
+        },
+        {
+          "title": "PhysMaster: AI para Investigación en Física",
+          "summary": "Agente científico autónomo diseñado para simular y realizar investigaciones en física avanzada.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.19799",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ciencia",
+            "IA",
+            "física"
+          ],
+          "what_changed": "Desarrollo de un agente con exploración multi-trayectoria adaptativa.",
+          "why_it_matters": "Promete avances en el área de investigación científica autónoma.",
+          "sector_impact": "Impacto significativo en la investigación académica en física."
+        },
+        {
+          "title": "Reasoning Jury: Proceso de Consenso para Razonamiento IA",
+          "summary": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.12585",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "razonamiento",
+            "evaluación",
+            "IA"
+          ],
+          "what_changed": "Introducción de un sistema de jurado para la identificación de errores de razonamiento.",
+          "why_it_matters": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
+          "sector_impact": "Crucial para el avance en las aplicaciones de IA en contextos complejos."
+        }
+      ]
+    },
+    {
       "date": "2026-08-14",
       "executive_title": "Radar Diario de AI - Actualizaciones Clave",
       "items": [
@@ -739,143 +864,6 @@
           "what_changed": "Investigación sobre el comportamiento de tutores de IA.",
           "why_it_matters": "Influencia en el desarrollo de sistemas educativos inteligentes.",
           "sector_impact": "Transformación en métodos de enseñanza."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-08",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Cloudflare lanza Kitesurf, un navegador diseñado para agentes de IA",
-          "summary": "Kitesurf es un navegador alojado en la nube que utiliza menos recursos que Chromium, facilitando la creación de agentes de IA basados en navegador.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "agentes",
-            "automatización"
-          ],
-          "what_changed": "Lanzamiento del navegador Kitesurf.",
-          "why_it_matters": "Permite a los desarrolladores crear agentes de IA más eficientes y con menos consumo de recursos.",
-          "sector_impact": "Representa un avance significativo en la automatización de tareas en línea."
-        },
-        {
-          "title": "ChatGPT permite chats de texto ilimitados para usuarios gratuitos",
-          "summary": "OpenAI ha implementado un nuevo botón de pensamiento que mejora las consultas complejas para los usuarios de ChatGPT.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "nuevas funciones"
-          ],
-          "what_changed": "Se amplía el acceso a funciones mejoradas en la versión gratuita.",
-          "why_it_matters": "Facilita la interacción con el modelo, democratizando el acceso a la inteligencia artificial.",
-          "sector_impact": "Aumenta la accesibilidad y el uso de IA en la comunicación."
-        },
-        {
-          "title": "Google Maps añade funciones de asistente, incluyendo pedidos de comida y reservas de hotel",
-          "summary": "Estas nuevas características reflejan la ambición de Google de transformar Maps en un asistente capaz de ayudar en tareas del mundo real.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "integraciones",
-            "nuevas funciones"
-          ],
-          "what_changed": "Incorporación de nuevas funciones asistenciales.",
-          "why_it_matters": "Mejora la experiencia del usuario al hacer más accesibles recursos esenciales.",
-          "sector_impact": "Revoluciona cómo los usuarios interactúan con la tecnología de navegación."
-        },
-        {
-          "title": "Meta lanza Muse Code, un agente de IA para grandes bases de código",
-          "summary": "Muse Code promete manejar tareas complejas en grandes proyectos de software, expandiendo las ofertas de IA de Meta en programación.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "programación",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento del agente Muse Code.",
-          "why_it_matters": "Optimiza el proceso de desarrollo y programación en software grandes.",
-          "sector_impact": "Aumenta la productividad en la ingeniería de software."
-        },
-        {
-          "title": "OpenAI detiene el desarrollo del modelo Astra por preocupaciones de seguridad",
-          "summary": "Este modelo alcanzó su 'umbral crítico de ciberseguridad', lo que implica la capacidad de realizar ciberataques de forma independiente.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "seguridad"
-          ],
-          "what_changed": "Temporaria pausa en el desarrollo del modelo Astra.",
-          "why_it_matters": "Plantea interrogantes sobre la responsabilidad en el desarrollo de IA potencialmente peligrosa.",
-          "sector_impact": "Impacta la regulación y ética en el desarrollo de modelos de IA."
-        },
-        {
-          "title": "Naïve recauda $28.5 millones para automatizar la operación de empresas",
-          "summary": "Naïve propone una infraestructura que puede automatizar la mayoría del trabajo en la creación y operación de un negocio.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "herramientas"
-          ],
-          "what_changed": "Financiamiento para expandir su capacidad de automatización.",
-          "why_it_matters": "Naïve propone una infraestructura que puede automatizar la mayoría del trabajo en la creación y operación de un negocio.",
-          "sector_impact": "Transforma el paisaje empresarial con tecnologías innovadoras."
-        },
-        {
-          "title": "Después de gastar millones en IA, Rippling lanza una herramienta de ROI para empleados",
-          "summary": "Rippling ha introducido AI Spend Console, que rastrea el gasto de IA a nivel individual y de equipo.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "herramientas",
-            "ROI"
-          ],
-          "what_changed": "Lanzamiento del AI Spend Console.",
-          "why_it_matters": "Rippling ha introducido AI Spend Console, que rastrea el gasto de IA a nivel individual y de equipo.",
-          "sector_impact": "Facilita la toma de decisiones empresariales informadas."
-        },
-        {
-          "title": "Airbnb utiliza IA para agilizar el lanzamiento de nuevas características",
-          "summary": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "nuevas funciones"
-          ],
-          "what_changed": "Estrategia para implementar IA en el desarrollo de productos.",
-          "why_it_matters": "Airbnb pondrá a prueba una nueva experiencia de búsqueda impulsada por IA con un interruptor de activación.",
-          "sector_impact": "Acelera la innovación en la experiencia del cliente."
         }
       ]
     }

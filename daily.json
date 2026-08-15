@@ -1,127 +1,127 @@
 {
-  "date": "2026-08-14",
-  "executive_title": "Radar Diario de AI - Actualizaciones Clave",
-  "intro_message": "Bienvenido al radar diario de IA, donde destacamos las herramientas, modelos y características más importantes del campo.",
-  "opening_message": "A continuación, presentamos las innovaciones más relevantes y útiles en inteligencia artificial.",
+  "date": "2026-08-15",
+  "executive_title": "Radar Diario de IA - Innovaciones Clave",
+  "intro_message": "Hoy exploramos las nuevas herramientas y modelos en la inteligencia artificial que están configurando el futuro de este campo.",
+  "opening_message": "A continuación, destacamos las innovaciones más relevantes que pueden influir en el desarrollo de la inteligencia artificial en diversas áreas.",
   "items": [
     {
-      "title": "Foam-Agent: Un Modelo Multi-Agente para CFD",
-      "summary": "Foam-Agent automatiza flujos de trabajo de dinámica de fluidos computacional utilizando LLMs, mejorando la tasa de éxito de ejecución.",
-      "category": "framework",
+      "title": "CIDER: Un Dataset para la Alineación de Preferencias de Privacidad",
+      "summary": "Un nuevo conjunto de datos que captura los límites de divulgación de la privacidad humanos para evaluar la alineación en la IA.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.04997",
+      "source_url": "https://arxiv.org/abs/2608.09164",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "multi-agente",
-        "CFD",
-        "automatización"
+        "privacidad",
+        "alineación",
+        "dataset"
       ],
-      "what_changed": "Introducción de un marco multi-agente que simplifica complejos flujos de trabajo.",
-      "why_it_matters": "Reduce la curva de aprendizaje y facilita el acceso a la dinámica de fluidos para nuevos usuarios.",
-      "sector_impact": "Mejora la eficiencia en ingeniería y simulaciones físicas."
+      "what_changed": "Creación de un dataset extenso de 14,850 anotaciones humanas.",
+      "why_it_matters": "Permite un mejor ajuste de modelos de IA a las preferencias de privacidad humanas.",
+      "sector_impact": "Mejora en la implementación de IA en entornos donde la privacidad es crítica."
     },
     {
-      "title": "AaLLM: Marco de Diseño de Circuitos Analógicos",
-      "summary": "AaLLM es un flujo de trabajo multi-agente que automatiza el diseño de circuitos analógicos desde la generación de topologías hasta el dimensionamiento.",
-      "category": "framework",
+      "title": "Spatial Memory Agent: Razonamiento Espacial Mejorado",
+      "summary": "Desarrollo de un marco que permite a un agente mejorar su razonamiento espacial sin actualizaciones de parámetros.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.13472",
+      "source_url": "https://arxiv.org/abs/2608.12743",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "diseño",
-        "circuitos",
-        "automatización"
+        "razonamiento",
+        "agente",
+        "IA espacial"
       ],
-      "what_changed": "Se automatiza el proceso tradicionalmente manual y propenso a errores.",
-      "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos y permite innovaciones en topologías.",
-      "sector_impact": "Impacta en la ingeniería electrónica y el desarrollo de dispositivos."
+      "what_changed": "Introducción de un marco que permite la auto-evolución de agentes sin modificaciones en los parámetros.",
+      "why_it_matters": "Impulsa el desarrollo de agentes autónomos en contextos espaciales complejos.",
+      "sector_impact": "Aplicaciones en robótica y planificación espacial."
     },
     {
-      "title": "$\\varepsilon$-MemEvo: Transferencia de Memoria para Evolución de Programas",
-      "summary": "Framework para la transferencia de memoria adaptativa en sistemas de evolución de programas basados en LLMs.",
-      "category": "framework",
+      "title": "AUTO: Optimización de Diseño mediante Modelos de Lenguaje",
+      "summary": "Marco iterativo de optimización que utiliza modelos de lenguaje para resolver problemas de diseño de manera efectiva.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.12522",
+      "source_url": "https://arxiv.org/abs/2511.22651",
       "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "programación",
-        "memoria",
-        "transferencia"
-      ],
-      "what_changed": "Mejoras en la transferencia de conocimientos entre tareas diferentes.",
-      "why_it_matters": "Incrementa la eficiencia y la velocidad en la búsqueda de algoritmos.",
-      "sector_impact": "Acelera el desarrollo de software y optimización."
-    },
-    {
-      "title": "ERSkill: Recuperación de Memoria Basada en Habilidades",
-      "summary": "Framework que permite la recuperación adaptativa de memoria para interacciones persistentes en agentes de LLM.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.12720",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "memoria",
-        "adaptación",
-        "interacción"
-      ],
-      "what_changed": "Incorpora habilidades en la recuperación de información.",
-      "why_it_matters": "Mejora la adaptabilidad de agentes en escenarios complejos.",
-      "sector_impact": "Accesibilidad en aplicaciones de IA y asistencia personal."
-    },
-    {
-      "title": "Unmasking Conversational Bias en Sistemas Multiagente",
-      "summary": "Un marco para cuantificar sesgos en sistemas de LLM multiagente en discusiones contextuales.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2501.14844",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "sesgos",
-        "multiagente",
-        "evaluación"
-      ],
-      "what_changed": "Implementación de un nuevo enfoque para detectar sesgos en interacciones de agentes.",
-      "why_it_matters": "Reduce los riesgos asociados en aplicaciones críticas de AI.",
-      "sector_impact": "Mejora la ética y la efectividad en sistemas de IA conversacional."
-    },
-    {
-      "title": "Mimicry without understanding: Decisión en modelos de lenguaje",
-      "summary": "Investigación sobre el sesgo en los modelos de lenguaje y cómo se genera durante la inferencia.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.12339",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "sesgo",
-        "IA",
-        "evaluación"
-      ],
-      "what_changed": "Identificación de mecanismos subyacentes que generan sesgos en decisiones.",
-      "why_it_matters": "Proporciona una comprensión más profunda sobre la generación de sesgos.",
-      "sector_impact": "Impulsa desarrollos más responsables en IA."
-    },
-    {
-      "title": "SynAct: Modelo de Actuación para Optimización de Síntesis",
-      "summary": "Agente adaptativo que mejora la optimización de la síntesis lógica en circuitos.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.12751",
-      "relevance_score": 6,
       "status": "new",
       "tags": [
         "optimización",
-        "síntesis",
+        "diseño",
         "IA"
       ],
-      "what_changed": "Mejora en la adaptación de comandos durante la síntesis lógica.",
-      "why_it_matters": "Aumenta la efectividad y reduce errores en el diseño de circuitos.",
-      "sector_impact": "Revoluciona procesos de ingeniería en microelectrónica."
+      "what_changed": "Presentación de un marco de búsqueda estratégica para la optimización de diseño.",
+      "why_it_matters": "Mejora la eficiencia en la optimización de procesos complejos.",
+      "sector_impact": "Impacto en la ingeniería y desarrollo de software."
+    },
+    {
+      "title": "QuoteBench: Medición de Errores en Comando de Agentes LLM",
+      "summary": "Una herramienta que permite distinguir errores en la generación de comandos por LLMs, mejorando la evaluación de sus capacidades.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.13547",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "herramienta",
+        "LLM"
+      ],
+      "what_changed": "Introducción de mediciones de validación de estados finales para errores de generación.",
+      "why_it_matters": "Asegura evaluaciones más precisas de agentes de comando.",
+      "sector_impact": "Relevante para el desarrollo de interfaces de usuario y sistemas automatizados."
+    },
+    {
+      "title": "Automated Design Optimization via Strategic Search",
+      "summary": "Método innovador que utiliza LLMs para resolver problemas de optimización en diseño.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.22651",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "optimización",
+        "IA",
+        "diseño"
+      ],
+      "what_changed": "Implementación de un marco que guía la optimización a través de búsqueda estratégica.",
+      "why_it_matters": "Facilita la exploración de espacios de diseño complejos con LLMs.",
+      "sector_impact": "Innovación en ingeniería y diseño industrial."
+    },
+    {
+      "title": "PhysMaster: AI para Investigación en Física",
+      "summary": "Agente científico autónomo diseñado para simular y realizar investigaciones en física avanzada.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2512.19799",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ciencia",
+        "IA",
+        "física"
+      ],
+      "what_changed": "Desarrollo de un agente con exploración multi-trayectoria adaptativa.",
+      "why_it_matters": "Promete avances en el área de investigación científica autónoma.",
+      "sector_impact": "Impacto significativo en la investigación académica en física."
+    },
+    {
+      "title": "Reasoning Jury: Proceso de Consenso para Razonamiento IA",
+      "summary": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.12585",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "razonamiento",
+        "evaluación",
+        "IA"
+      ],
+      "what_changed": "Introducción de un sistema de jurado para la identificación de errores de razonamiento.",
+      "why_it_matters": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
+      "sector_impact": "Crucial para el avance en las aplicaciones de IA en contextos complejos."
     }
   ]
 }
