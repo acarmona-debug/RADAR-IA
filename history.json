@@ -1,6 +1,125 @@
 {
   "days": [
     {
+      "date": "2026-08-16",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "OpenAI introduce ‘Ultrafast’, una nueva modalidad para GPT-5.6 Sol",
+          "summary": "OpenAI lanza una versión acelerada de su modelo más reciente, buscando atraer a usuarios empresariales.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "GPT-5.6",
+            "Ultrafast"
+          ],
+          "what_changed": "Lanzamiento de una modalidad más rápida del modelo GPT-5.6.",
+          "why_it_matters": "Permite a las empresas implementar IA a mayor velocidad, aumentando la competitividad.",
+          "sector_impact": "Transformación en el uso de IA en empresas."
+        },
+        {
+          "title": "SpaceX cierra la adquisición de Cursor",
+          "summary": "La startup de codificación IA Cursor ahora forma parte oficialmente de SpaceX.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Cursor",
+            "SpaceX"
+          ],
+          "what_changed": "SpaceX completa la adquisición de Cursor.",
+          "why_it_matters": "Incorpora herramientas de codificación avanzada a la infraestructura de SpaceX.",
+          "sector_impact": "Potencial desarrollo de tecnología IA en la industria aeroespacial."
+        },
+        {
+          "title": "Anthropic presenta detalles sobre las nuevas marcas de agua de Claude",
+          "summary": "Se detallan las implicaciones del sistema de marcas de agua que introduce Claude.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "marcas de agua"
+          ],
+          "what_changed": "Mejoras en el sistema de marcas de agua para identificación y seguridad.",
+          "why_it_matters": "Aumenta la trazabilidad y seguridad del uso del modelo IA.",
+          "sector_impact": "Mejora en la confianza y uso responsable de tecnología IA."
+        },
+        {
+          "title": "Microsoft fusiona sus aplicaciones Copilot y elimina funciones no exitosas",
+          "summary": "Microsoft simplifica Copilot al combinar aplicaciones y eliminar características menos efectivas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Microsoft",
+            "Copilot"
+          ],
+          "what_changed": "Fusión de aplicaciones y eliminación de funciones no exitosas.",
+          "why_it_matters": "Aumenta la eficiencia en el uso de herramientas IA.",
+          "sector_impact": "Optimización del ecosistema de herramientas digitales empresariales."
+        },
+        {
+          "title": "Hugging Face lanza Strands Agents",
+          "summary": "Strands Agents permite grabar, entrenar y desplegar desde un solo lugar.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "Strands Agents"
+          ],
+          "what_changed": "Integración de nuevas funcionalidades para gestionar flujos de trabajo de IA.",
+          "why_it_matters": "Facilita el proceso de desarrollo y despliegue de aplicaciones IA.",
+          "sector_impact": "Impulsa la automatización en proyectos tecnológicos."
+        },
+        {
+          "title": "Google lanza Sheets canvas para visualización de datos",
+          "summary": "Sheets canvas transforma datos en tableros interactivos y más mediante comandos simples.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Google Sheets",
+            "visualización"
+          ],
+          "what_changed": "Introducción de herramientas para visualización interactiva de datos.",
+          "why_it_matters": "Mejora la presentación y análisis de datos en entornos empresariales.",
+          "sector_impact": "Facilita toma de decisiones basadas en datos."
+        },
+        {
+          "title": "Anthropic investiga la interacción de agentes IA",
+          "summary": "Investigadores de Anthropic encuentran que los agentes IA pueden chocar, coordinar y colaborar de maneras inesperadas.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Anthropic",
+            "agentes IA"
+          ],
+          "what_changed": "Análisis de interacciones complejas entre agentes IA.",
+          "why_it_matters": "Plantea nuevos desafíos para la seguridad y pruebas en entornos multi-agente.",
+          "sector_impact": "Impulsa la investigación y desarrollo en sistemas IA multi-agente."
+        }
+      ]
+    },
+    {
       "date": "2026-08-15",
       "executive_title": "Radar Diario de IA - Innovaciones Clave",
       "items": [
@@ -739,131 +858,6 @@
           "what_changed": "Presentación de un marco que mejora la interacción y la recuperación de tareas en modelos fusionados.",
           "why_it_matters": "Facilita el avance hacia modelos de IA más robustos y generales.",
           "sector_impact": "Investigación, Tecnología"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI acquires presentation startup NextSlide",
-          "summary": "La adquisición de NextSlide indica que su equipo ahora trabaja con ChatGPT.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "adquisición",
-            "tecnología"
-          ],
-          "what_changed": "NextSlide ahora forma parte de OpenAI.",
-          "why_it_matters": "Refuerza la capacidad de OpenAI en el ámbito de presentaciones asistidas por IA.",
-          "sector_impact": "Mejora en herramientas de productividad y comunicación."
-        },
-        {
-          "title": "Klaviyo acquires Elias Torres’ Agency to strengthen AI capabilities",
-          "summary": "Elias Torres se une a Klaviyo como CPO para liderar sus agentes de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Klaviyo",
-            "agentes de IA",
-            "adquisición"
-          ],
-          "what_changed": "Se fortalece el equipo de IA en Klaviyo.",
-          "why_it_matters": "Permite mejorar la automatización y eficiencia en el marketing.",
-          "sector_impact": "Impacto directo en soluciones e-commerce."
-        },
-        {
-          "title": "Mirendil inks $100M+ Google Cloud deal for self-improving AI",
-          "summary": "Mirendil firma un contrato de más de $100 millones con Google Cloud para escalar su infraestructura de IA.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Mirendil",
-            "Google Cloud",
-            "IA auto-mejorativa"
-          ],
-          "what_changed": "Expansión de la infraestructura de Mirendil.",
-          "why_it_matters": "Acelera el descubrimiento científico y el desarrollo de IA.",
-          "sector_impact": "Revoluciona la investigación científica."
-        },
-        {
-          "title": "OpenAI’s new AI smart speaker priced between $300 and $400",
-          "summary": "Detalles sobre el nuevo altavoz inteligente de OpenAI que promete revolucionar el mercado.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "altavoz inteligente",
-            "tecnología"
-          ],
-          "what_changed": "Lanzamiento de un nuevo dispositivo de OpenAI.",
-          "why_it_matters": "Posiciona a OpenAI en el mercado de dispositivos de IA para el hogar.",
-          "sector_impact": "Innovación en el uso de IA en el hogar."
-        },
-        {
-          "title": "Ex-Spotify employees raise $10M for e-commerce AI recommendations",
-          "summary": "Un nuevo proyecto busca llevar la IA de recomendaciones de Spotify al comercio electrónico.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "recomendaciones",
-            "e-commerce",
-            "Spotify"
-          ],
-          "what_changed": "Nueva financiación para desarrollo de IA en comercio eletrônico.",
-          "why_it_matters": "Aumenta la personalización y efectividad en el comercio electrónico.",
-          "sector_impact": "Impacto en la experiencia del consumidor."
-        },
-        {
-          "title": "New Gen Z dating apps like Ditto use AI matchmaking",
-          "summary": "Aplicaciones de citas de la Generación Z optan por emparejamientos de IA en lugar de deslizamientos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "citas",
-            "IA",
-            "Generación Z"
-          ],
-          "what_changed": "Cambio en la forma de emparejamiento en aplicaciones de citas.",
-          "why_it_matters": "Responde a la desilusión con aplicaciones tradicionales.",
-          "sector_impact": "Modificación en la industria de citas."
-        },
-        {
-          "title": "AI Tutors: Balancing when to help and when to hold back",
-          "summary": "Exploración sobre el equilibrio de las tutorías de IA en el aprendizaje.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/allenai/tutormoments",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "tutores de IA",
-            "educación",
-            "aprendizaje"
-          ],
-          "what_changed": "Investigación sobre el comportamiento de tutores de IA.",
-          "why_it_matters": "Influencia en el desarrollo de sistemas educativos inteligentes.",
-          "sector_impact": "Transformación en métodos de enseñanza."
         }
       ]
     }
