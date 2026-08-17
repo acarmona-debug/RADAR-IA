@@ -1,121 +1,126 @@
 {
-  "date": "2026-08-16",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas novedades en herramientas, modelos y frameworks de IA.",
-  "opening_message": "A continuación, destacamos innovaciones clave y lanzamientos relevantes en el ámbito de la inteligencia artificial.",
+  "date": "2026-08-17",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+  "intro_message": "Aquí tienes las actualizaciones más relevantes en el campo de la IA, centradas en herramientas, modelos y nuevas integraciones.",
+  "opening_message": "Este radar diario destaca las innovaciones más recientes y relevantes en IA que pueden impactar significativamente el desarrollo operativo.",
   "items": [
     {
-      "title": "OpenAI introduce ‘Ultrafast’, una nueva modalidad para GPT-5.6 Sol",
-      "summary": "OpenAI lanza una versión acelerada de su modelo más reciente, buscando atraer a usuarios empresariales.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "title": "TENET: Desarrollo impulsado por pruebas para generación de código",
+      "summary": "TENET es un marco que permite la generación de código a nivel de repositorio bajo un paradigma de Desarrollo Guiado por Pruebas, mejorando la eficiencia en la creación de código.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2509.24148",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "GPT-5.6",
-        "Ultrafast"
+        "TDD",
+        "Generación de código",
+        "IA"
       ],
-      "what_changed": "Lanzamiento de una modalidad más rápida del modelo GPT-5.6.",
-      "why_it_matters": "Permite a las empresas implementar IA a mayor velocidad, aumentando la competitividad.",
-      "sector_impact": "Transformación en el uso de IA en empresas."
+      "what_changed": "Se propusieron mecanismos para seleccionar y mejorar pruebas de forma iterativa.",
+      "why_it_matters": "Facilita un enfoque más estructurado y eficiente para el desarrollo de software utilizando IA.",
+      "sector_impact": "Desarrollo de software"
     },
     {
-      "title": "SpaceX cierra la adquisición de Cursor",
-      "summary": "La startup de codificación IA Cursor ahora forma parte oficialmente de SpaceX.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "title": "Agentic Transaction: Sistemas de Agentes ACID-Compliant",
+      "summary": "Se introduce un marco de sistemas de agentes que cumplen con las propiedades ACID, mejorando la fiabilidad en la ejecución de tareas autónomas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.13900",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Agentes",
+        "ACID",
+        "Fiabilidad"
+      ],
+      "what_changed": "Se reinterpretaron las propiedades ACID para su aplicación en sistemas de agentes.",
+      "why_it_matters": "Establece una base sólida para construir sistemas de IA fiables y escalables.",
+      "sector_impact": "Sistemas autónomos"
+    },
+    {
+      "title": "TIDE: Descubrimiento proactivo de múltiples problemas",
+      "summary": "TIDE es un marco iterativo guiado por plantillas que permite descubrir problemas ocultos en contextos como áreas de trabajo y repositorios de software.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.04743",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Cursor",
-        "SpaceX"
+        "Agentes",
+        "Resolución de problemas"
       ],
-      "what_changed": "SpaceX completa la adquisición de Cursor.",
-      "why_it_matters": "Incorpora herramientas de codificación avanzada a la infraestructura de SpaceX.",
-      "sector_impact": "Potencial desarrollo de tecnología IA en la industria aeroespacial."
+      "what_changed": "Mejora en la identificación y resolución de problemas en contextos múltiples.",
+      "why_it_matters": "Aumenta la capacidad de los agentes para anticipar y resolver problemas de manera proactiva.",
+      "sector_impact": "Asistentes digitales"
     },
     {
-      "title": "Anthropic presenta detalles sobre las nuevas marcas de agua de Claude",
-      "summary": "Se detallan las implicaciones del sistema de marcas de agua que introduce Claude.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "title": "TeachMateGPT: Generación de evaluaciones pedagógicas",
+      "summary": "TeachMateGPT utiliza un enfoque de múltiples agentes para generar evaluaciones basadas en materiales curriculares de ciencia.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.13708",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Claude",
-        "marcas de agua"
+        "Educación",
+        "IA",
+        "Evaluación"
       ],
-      "what_changed": "Mejoras en el sistema de marcas de agua para identificación y seguridad.",
-      "why_it_matters": "Aumenta la trazabilidad y seguridad del uso del modelo IA.",
-      "sector_impact": "Mejora en la confianza y uso responsable de tecnología IA."
+      "what_changed": "Se implementaron mecanismos de verificación y evaluación más rigurosos.",
+      "why_it_matters": "Reduce la carga de trabajo de los docentes y mejora la calidad de las evaluaciones.",
+      "sector_impact": "Educación"
     },
     {
-      "title": "Microsoft fusiona sus aplicaciones Copilot y elimina funciones no exitosas",
-      "summary": "Microsoft simplifica Copilot al combinar aplicaciones y eliminar características menos efectivas.",
+      "title": "MACS: Marco hibrido para recomendación en e-commerce",
+      "summary": "MACS es un sistema multi-agente que provee recomendaciones de productos de manera confiable en catálogos fijos, mejorando la experiencia de compra.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.14068",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "E-commerce",
+        "Recomendaciones",
+        "IA"
+      ],
+      "what_changed": "Combinación de tecnologías determinísticas y de LLM para maximizar la confiabilidad.",
+      "why_it_matters": "Mejora las tasas de éxito en recomendaciones y disminuye las inconsistencias.",
+      "sector_impact": "Comercio electrónico"
+    },
+    {
+      "title": "MemoryLake: evaluación de backends de memoria para agentes",
+      "summary": "Comparativa del backend de memoria MemoryLake con otros sistemas para medir su eficacia en completar tareas interdependientes.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.13883",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Microsoft",
-        "Copilot"
+        "Memoria",
+        "Agentes",
+        "Evaluación"
       ],
-      "what_changed": "Fusión de aplicaciones y eliminación de funciones no exitosas.",
-      "why_it_matters": "Aumenta la eficiencia en el uso de herramientas IA.",
-      "sector_impact": "Optimización del ecosistema de herramientas digitales empresariales."
+      "what_changed": "Nueva métrica para evaluar la efectividad de la memoria en tareas con múltiples sesiones.",
+      "why_it_matters": "Ofrece una nueva perspectiva sobre la gestión de memoria en sistemas de IA.",
+      "sector_impact": "Agentes inteligentes"
     },
     {
-      "title": "Hugging Face lanza Strands Agents",
-      "summary": "Strands Agents permite grabar, entrenar y desplegar desde un solo lugar.",
+      "title": "SkillSight: calibración del sesgo de contenido genérico para la recuperación de habilidades",
+      "summary": "SkillSight mejora la recuperación de habilidades evitando interferencias derivadas de patrones descriptivos compartidos en las habilidades.",
       "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.18785",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Hugging Face",
-        "Strands Agents"
+        "Recuperación",
+        "Habilidades",
+        "IA"
       ],
-      "what_changed": "Integración de nuevas funcionalidades para gestionar flujos de trabajo de IA.",
-      "why_it_matters": "Facilita el proceso de desarrollo y despliegue de aplicaciones IA.",
-      "sector_impact": "Impulsa la automatización en proyectos tecnológicos."
-    },
-    {
-      "title": "Google lanza Sheets canvas para visualización de datos",
-      "summary": "Sheets canvas transforma datos en tableros interactivos y más mediante comandos simples.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Google Sheets",
-        "visualización"
-      ],
-      "what_changed": "Introducción de herramientas para visualización interactiva de datos.",
-      "why_it_matters": "Mejora la presentación y análisis de datos en entornos empresariales.",
-      "sector_impact": "Facilita toma de decisiones basadas en datos."
-    },
-    {
-      "title": "Anthropic investiga la interacción de agentes IA",
-      "summary": "Investigadores de Anthropic encuentran que los agentes IA pueden chocar, coordinar y colaborar de maneras inesperadas.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "agentes IA"
-      ],
-      "what_changed": "Análisis de interacciones complejas entre agentes IA.",
-      "why_it_matters": "Plantea nuevos desafíos para la seguridad y pruebas en entornos multi-agente.",
-      "sector_impact": "Impulsa la investigación y desarrollo en sistemas IA multi-agente."
+      "what_changed": "Se implementó un nuevo marco de recuperación para mejorar la precisión.",
+      "why_it_matters": "Aumenta la eficacia y eficiencia en la selección de habilidades en sistemas de IA.",
+      "sector_impact": "Recuperación de habilidades"
     }
   ]
 }

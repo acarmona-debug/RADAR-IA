@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-08-17",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "TENET: Desarrollo impulsado por pruebas para generación de código",
+          "summary": "TENET es un marco que permite la generación de código a nivel de repositorio bajo un paradigma de Desarrollo Guiado por Pruebas, mejorando la eficiencia en la creación de código.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.24148",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "TDD",
+            "Generación de código",
+            "IA"
+          ],
+          "what_changed": "Se propusieron mecanismos para seleccionar y mejorar pruebas de forma iterativa.",
+          "why_it_matters": "Facilita un enfoque más estructurado y eficiente para el desarrollo de software utilizando IA.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "Agentic Transaction: Sistemas de Agentes ACID-Compliant",
+          "summary": "Se introduce un marco de sistemas de agentes que cumplen con las propiedades ACID, mejorando la fiabilidad en la ejecución de tareas autónomas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.13900",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Agentes",
+            "ACID",
+            "Fiabilidad"
+          ],
+          "what_changed": "Se reinterpretaron las propiedades ACID para su aplicación en sistemas de agentes.",
+          "why_it_matters": "Establece una base sólida para construir sistemas de IA fiables y escalables.",
+          "sector_impact": "Sistemas autónomos"
+        },
+        {
+          "title": "TIDE: Descubrimiento proactivo de múltiples problemas",
+          "summary": "TIDE es un marco iterativo guiado por plantillas que permite descubrir problemas ocultos en contextos como áreas de trabajo y repositorios de software.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.04743",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Agentes",
+            "Resolución de problemas"
+          ],
+          "what_changed": "Mejora en la identificación y resolución de problemas en contextos múltiples.",
+          "why_it_matters": "Aumenta la capacidad de los agentes para anticipar y resolver problemas de manera proactiva.",
+          "sector_impact": "Asistentes digitales"
+        },
+        {
+          "title": "TeachMateGPT: Generación de evaluaciones pedagógicas",
+          "summary": "TeachMateGPT utiliza un enfoque de múltiples agentes para generar evaluaciones basadas en materiales curriculares de ciencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.13708",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Educación",
+            "IA",
+            "Evaluación"
+          ],
+          "what_changed": "Se implementaron mecanismos de verificación y evaluación más rigurosos.",
+          "why_it_matters": "Reduce la carga de trabajo de los docentes y mejora la calidad de las evaluaciones.",
+          "sector_impact": "Educación"
+        },
+        {
+          "title": "MACS: Marco hibrido para recomendación en e-commerce",
+          "summary": "MACS es un sistema multi-agente que provee recomendaciones de productos de manera confiable en catálogos fijos, mejorando la experiencia de compra.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.14068",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "E-commerce",
+            "Recomendaciones",
+            "IA"
+          ],
+          "what_changed": "Combinación de tecnologías determinísticas y de LLM para maximizar la confiabilidad.",
+          "why_it_matters": "Mejora las tasas de éxito en recomendaciones y disminuye las inconsistencias.",
+          "sector_impact": "Comercio electrónico"
+        },
+        {
+          "title": "MemoryLake: evaluación de backends de memoria para agentes",
+          "summary": "Comparativa del backend de memoria MemoryLake con otros sistemas para medir su eficacia en completar tareas interdependientes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.13883",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Memoria",
+            "Agentes",
+            "Evaluación"
+          ],
+          "what_changed": "Nueva métrica para evaluar la efectividad de la memoria en tareas con múltiples sesiones.",
+          "why_it_matters": "Ofrece una nueva perspectiva sobre la gestión de memoria en sistemas de IA.",
+          "sector_impact": "Agentes inteligentes"
+        },
+        {
+          "title": "SkillSight: calibración del sesgo de contenido genérico para la recuperación de habilidades",
+          "summary": "SkillSight mejora la recuperación de habilidades evitando interferencias derivadas de patrones descriptivos compartidos en las habilidades.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.18785",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Recuperación",
+            "Habilidades",
+            "IA"
+          ],
+          "what_changed": "Se implementó un nuevo marco de recuperación para mejorar la precisión.",
+          "why_it_matters": "Aumenta la eficacia y eficiencia en la selección de habilidades en sistemas de IA.",
+          "sector_impact": "Recuperación de habilidades"
+        }
+      ]
+    },
+    {
       "date": "2026-08-16",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -735,129 +859,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
-          "summary": "Propuesta de un marco de distilación de memoria que transfiere conocimiento estructurado desde un agente maestro grande a un agente estudiante pequeño, mejorando considerablemente su desempeño.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.07169",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "agentes",
-            "modelos"
-          ],
-          "what_changed": "Introducción de un nuevo marco de distilación sin necesidad de entrenamiento.",
-          "why_it_matters": "Mejora significativa del rendimiento en modelos de lenguaje pequeños, facilitando su uso en tareas específicas.",
-          "sector_impact": "Tecnología, Educación"
-        },
-        {
-          "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
-          "summary": "Desarrollo de un marco de razonamiento forense multi-agente para detectar videos deepfake de manera efectiva y generalizable.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.06865",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "agentes"
-          ],
-          "what_changed": "Creación de un nuevo conjunto de datos y marco que mejora la detección de deepfakes con una metodología innovadora.",
-          "why_it_matters": "Aborda la seguridad y la ética en el uso de IA generativa, mejorando la respuesta a desafíos actuales.",
-          "sector_impact": "Seguridad, Medios"
-        },
-        {
-          "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
-          "summary": "Presentación de un marco automatizado para realizar investigaciones profundas en finanzas mediante el uso de agentes autónomos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.27853",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un sistema que mejora la investigación financiera mediante la automatización.",
-          "why_it_matters": "Facilita el análisis y la previsión en finanzas, lo que permite decisiones más informadas.",
-          "sector_impact": "Finanzas"
-        },
-        {
-          "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-          "summary": "Framework de código abierto que permite entrenar agentes nativos a través de la separación del entrenamiento y la inferencia.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.21557",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "agentes",
-            "automación"
-          ],
-          "what_changed": "Introducción de un sistema que facilita el entrenamiento de agentes en entornos diversos.",
-          "why_it_matters": "Optimiza el desarrollo de agentes de IA mediante la descentralización de sus fases operativas.",
-          "sector_impact": "Investigación, Tecnología"
-        },
-        {
-          "title": "An End-to-End Agent Auditing Engine",
-          "summary": "Motor de auditoría integral para evaluar capacidades de agentes en diversos contextos y tareas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.07346",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "auditoría",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un motor que permite la evaluación sistemática y eficiente de agentes de IA.",
-          "why_it_matters": "Mejora la comprensión y la seguridad en la implementación de modelos de IA.",
-          "sector_impact": "Tecnología, Supervisión"
-        },
-        {
-          "title": "CyberForge: Verified Vulnerability Injection at Repository Level for Cybersecurity Agent Training",
-          "summary": "Marco que inyecta vulnerabilidades verificadas en proyectos de software para entrenar agentes de ciberseguridad.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.06471",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "seguridad",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un método para generar datos de entrenamiento a partir de inyecciones de vulnerabilidades.",
-          "why_it_matters": "Fortalece la capacitación en defensa cibernética frente a amenazas emergentes.",
-          "sector_impact": "Ciberseguridad, Tecnología"
-        },
-        {
-          "title": "AgentPatch: Coarse-to-Fine Weak-Task Repair for Merging Agentic Multimodal Large Language Models",
-          "summary": "Método que mejora la consolidación de modelos de lenguaje multimodal, enfocándose en la recuperación de tareas débiles.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.06699",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "framework",
-            "modelos",
-            "agentes"
-          ],
-          "what_changed": "Presentación de un marco que mejora la interacción y la recuperación de tareas en modelos fusionados.",
-          "why_it_matters": "Facilita el avance hacia modelos de IA más robustos y generales.",
-          "sector_impact": "Investigación, Tecnología"
         }
       ]
     }
