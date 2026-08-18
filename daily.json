@@ -1,126 +1,76 @@
 {
-  "date": "2026-08-17",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-  "intro_message": "Aquí tienes las actualizaciones más relevantes en el campo de la IA, centradas en herramientas, modelos y nuevas integraciones.",
-  "opening_message": "Este radar diario destaca las innovaciones más recientes y relevantes en IA que pueden impactar significativamente el desarrollo operativo.",
+  "date": "2026-08-18",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Resumen de los avances más recientes en herramientas, modelos e integraciones de IA.",
+  "opening_message": "Aquí están las novedades más relevantes en IA que impactan a desarrolladores y profesionales del sector.",
   "items": [
     {
-      "title": "TENET: Desarrollo impulsado por pruebas para generación de código",
-      "summary": "TENET es un marco que permite la generación de código a nivel de repositorio bajo un paradigma de Desarrollo Guiado por Pruebas, mejorando la eficiencia en la creación de código.",
-      "category": "framework",
+      "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
+      "summary": "Un servidor de aplicaciones de IA de código abierto que permite desarrollar y desplegar aplicaciones de IA con flexibilidad en la selección de modelos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2509.24148",
+      "source_url": "https://arxiv.org/abs/2608.14580",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "TDD",
-        "Generación de código",
-        "IA"
+        "framework",
+        "Open Source",
+        "Developer Tools"
       ],
-      "what_changed": "Se propusieron mecanismos para seleccionar y mejorar pruebas de forma iterativa.",
-      "why_it_matters": "Facilita un enfoque más estructurado y eficiente para el desarrollo de software utilizando IA.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Lanzamiento de OGX como un servidor de aplicaciones de IA abierto.",
+      "why_it_matters": "Facilita el desarrollo de aplicaciones de IA con diversas integraciones.",
+      "sector_impact": "Mejora la flexibilidad y compatibilidad en el desarrollo de herramientas IA."
     },
     {
-      "title": "Agentic Transaction: Sistemas de Agentes ACID-Compliant",
-      "summary": "Se introduce un marco de sistemas de agentes que cumplen con las propiedades ACID, mejorando la fiabilidad en la ejecución de tareas autónomas.",
-      "category": "framework",
+      "title": "SKILL: Self-correcting Knowledge-guided Iterative LLM Agent for Logic Optimization",
+      "summary": "Un agente de lenguaje que combina razonamiento de LLMs y refuerzo para optimizar la síntesis lógica.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.13900",
+      "source_url": "https://arxiv.org/abs/2608.14579",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Agentes",
-        "ACID",
-        "Fiabilidad"
+        "AI",
+        "Agent",
+        "Reinforcement Learning"
       ],
-      "what_changed": "Se reinterpretaron las propiedades ACID para su aplicación en sistemas de agentes.",
-      "why_it_matters": "Establece una base sólida para construir sistemas de IA fiables y escalables.",
-      "sector_impact": "Sistemas autónomos"
+      "what_changed": "Introducción de un agente LLM que auto-corrige procesos de optimización.",
+      "why_it_matters": "Mejora la eficiencia en la optimización lógica para aplicaciones industriales.",
+      "sector_impact": "Incrementa la efectividad en la síntesis lógica y diseño de circuitos."
     },
     {
-      "title": "TIDE: Descubrimiento proactivo de múltiples problemas",
-      "summary": "TIDE es un marco iterativo guiado por plantillas que permite descubrir problemas ocultos en contextos como áreas de trabajo y repositorios de software.",
+      "title": "ACTS-SQL: Agentic and Critic-Oriented Tree-Structured SQL Correctness with LLMs",
+      "summary": "Un marco de corrección de SQL que organiza el proceso de depuración para mejorar la precisión en la inferencia.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.04743",
+      "source_url": "https://arxiv.org/abs/2608.15145",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "SQL",
+        "AI",
+        "Text-to-SQL"
+      ],
+      "what_changed": "Desarrollo de un marco de corrección estructurado sin necesidad de grandes datos de entrenamiento.",
+      "why_it_matters": "Reduce errores en consultas SQL en aplicaciones del mundo real.",
+      "sector_impact": "Aumenta la confianza en sistemas de inferencia SQL y analítica de datos."
+    },
+    {
+      "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+      "summary": "Un marco que permite escalar el red-team automatizado mediante estrategias de ataque reutilizables.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.16465",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Agentes",
-        "Resolución de problemas"
+        "Cybersecurity",
+        "Red-Teaming",
+        "Automation"
       ],
-      "what_changed": "Mejora en la identificación y resolución de problemas en contextos múltiples.",
-      "why_it_matters": "Aumenta la capacidad de los agentes para anticipar y resolver problemas de manera proactiva.",
-      "sector_impact": "Asistentes digitales"
-    },
-    {
-      "title": "TeachMateGPT: Generación de evaluaciones pedagógicas",
-      "summary": "TeachMateGPT utiliza un enfoque de múltiples agentes para generar evaluaciones basadas en materiales curriculares de ciencia.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.13708",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Educación",
-        "IA",
-        "Evaluación"
-      ],
-      "what_changed": "Se implementaron mecanismos de verificación y evaluación más rigurosos.",
-      "why_it_matters": "Reduce la carga de trabajo de los docentes y mejora la calidad de las evaluaciones.",
-      "sector_impact": "Educación"
-    },
-    {
-      "title": "MACS: Marco hibrido para recomendación en e-commerce",
-      "summary": "MACS es un sistema multi-agente que provee recomendaciones de productos de manera confiable en catálogos fijos, mejorando la experiencia de compra.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.14068",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "E-commerce",
-        "Recomendaciones",
-        "IA"
-      ],
-      "what_changed": "Combinación de tecnologías determinísticas y de LLM para maximizar la confiabilidad.",
-      "why_it_matters": "Mejora las tasas de éxito en recomendaciones y disminuye las inconsistencias.",
-      "sector_impact": "Comercio electrónico"
-    },
-    {
-      "title": "MemoryLake: evaluación de backends de memoria para agentes",
-      "summary": "Comparativa del backend de memoria MemoryLake con otros sistemas para medir su eficacia en completar tareas interdependientes.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.13883",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Memoria",
-        "Agentes",
-        "Evaluación"
-      ],
-      "what_changed": "Nueva métrica para evaluar la efectividad de la memoria en tareas con múltiples sesiones.",
-      "why_it_matters": "Ofrece una nueva perspectiva sobre la gestión de memoria en sistemas de IA.",
-      "sector_impact": "Agentes inteligentes"
-    },
-    {
-      "title": "SkillSight: calibración del sesgo de contenido genérico para la recuperación de habilidades",
-      "summary": "SkillSight mejora la recuperación de habilidades evitando interferencias derivadas de patrones descriptivos compartidos en las habilidades.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.18785",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Recuperación",
-        "Habilidades",
-        "IA"
-      ],
-      "what_changed": "Se implementó un nuevo marco de recuperación para mejorar la precisión.",
-      "why_it_matters": "Aumenta la eficacia y eficiencia en la selección de habilidades en sistemas de IA.",
-      "sector_impact": "Recuperación de habilidades"
+      "what_changed": "Introducción de un sistema centrado en habilidades para mejorar la automatización del red-teaming.",
+      "why_it_matters": "Optimiza la creación y reutilización de estrategias de ataque en seguridad cibernética.",
+      "sector_impact": "Fortalece las medidas de defensa contra ataques automatizados en sistemas críticos."
     }
   ]
 }
