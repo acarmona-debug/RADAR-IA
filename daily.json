@@ -1,76 +1,137 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de los avances más recientes en herramientas, modelos e integraciones de IA.",
-  "opening_message": "Aquí están las novedades más relevantes en IA que impactan a desarrolladores y profesionales del sector.",
+  "intro_message": "Bienvenido a la última actualización diaria sobre innovaciones y herramientas clave en IA.",
+  "opening_message": "En este informe, destacamos las herramientas, modelos, frameworks y características que están transformando el panorama de la inteligencia artificial.",
   "items": [
     {
-      "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
-      "summary": "Un servidor de aplicaciones de IA de código abierto que permite desarrollar y desplegar aplicaciones de IA con flexibilidad en la selección de modelos.",
+      "title": "StagedWorkspace: Un Espacio de Trabajo Versionado para Agentes de Conocimiento",
+      "summary": "Se propone StagedWorkspace, un espacio de trabajo versionado que mejora el rendimiento de los agentes de IA al vincular registros y diferencias de revisión a los archivos nativos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.14580",
+      "source_url": "https://arxiv.org/abs/2608.18050",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "framework",
-        "Open Source",
-        "Developer Tools"
+        "agentes",
+        "versionado",
+        "IA"
       ],
-      "what_changed": "Lanzamiento de OGX como un servidor de aplicaciones de IA abierto.",
-      "why_it_matters": "Facilita el desarrollo de aplicaciones de IA con diversas integraciones.",
-      "sector_impact": "Mejora la flexibilidad y compatibilidad en el desarrollo de herramientas IA."
+      "what_changed": "Presentación de un nuevo espacio de trabajo versionado para agentes de conocimiento.",
+      "why_it_matters": "Mejora la precisión de agentes en trabajos de conocimiento al definir claramente el estado del espacio de trabajo.",
+      "sector_impact": "Transformación en la eficacia del trabajo digital persistente."
     },
     {
-      "title": "SKILL: Self-correcting Knowledge-guided Iterative LLM Agent for Logic Optimization",
-      "summary": "Un agente de lenguaje que combina razonamiento de LLMs y refuerzo para optimizar la síntesis lógica.",
-      "category": "model",
+      "title": "GxP-Agent: Topología de Proceso-DAG para Programación de Ensayos Clínicos",
+      "summary": "GxP-Agent utiliza un sistema multi-agente estructurado como un DAG para optimizar la generación de conjuntos de datos en ensayos clínicos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.14579",
+      "source_url": "https://arxiv.org/abs/2608.16890",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "AI",
-        "Agent",
-        "Reinforcement Learning"
+        "ensayos clínicos",
+        "multi-agente"
       ],
-      "what_changed": "Introducción de un agente LLM que auto-corrige procesos de optimización.",
-      "why_it_matters": "Mejora la eficiencia en la optimización lógica para aplicaciones industriales.",
-      "sector_impact": "Incrementa la efectividad en la síntesis lógica y diseño de circuitos."
+      "what_changed": "Implementación de una nueva topología DAG que mejora la generación de datos en ensayos clínicos.",
+      "why_it_matters": "Genera conjuntos de datos con un 100% de coincidencia estructural, mejorando la calidad del análisis.",
+      "sector_impact": "Optimización de procesos en la investigación clínica."
     },
     {
-      "title": "ACTS-SQL: Agentic and Critic-Oriented Tree-Structured SQL Correctness with LLMs",
-      "summary": "Un marco de corrección de SQL que organiza el proceso de depuración para mejorar la precisión en la inferencia.",
+      "title": "LEGO-RL: Aprendizaje por Refuerzo Nativo para Agentes de Codificación",
+      "summary": "LEGO-RL conecta harnesses nativos de agentes de codificación con optimización de gradiente de política, mejorando el rendimiento en múltiples entornos de codificación.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.15145",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "SQL",
-        "AI",
-        "Text-to-SQL"
-      ],
-      "what_changed": "Desarrollo de un marco de corrección estructurado sin necesidad de grandes datos de entrenamiento.",
-      "why_it_matters": "Reduce errores en consultas SQL en aplicaciones del mundo real.",
-      "sector_impact": "Aumenta la confianza en sistemas de inferencia SQL y analítica de datos."
-    },
-    {
-      "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
-      "summary": "Un marco que permite escalar el red-team automatizado mediante estrategias de ataque reutilizables.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.16465",
+      "source_url": "https://arxiv.org/abs/2608.17393",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Cybersecurity",
-        "Red-Teaming",
-        "Automation"
+        "aprendizaje por refuerzo",
+        "IA"
       ],
-      "what_changed": "Introducción de un sistema centrado en habilidades para mejorar la automatización del red-teaming.",
-      "why_it_matters": "Optimiza la creación y reutilización de estrategias de ataque en seguridad cibernética.",
-      "sector_impact": "Fortalece las medidas de defensa contra ataques automatizados en sistemas críticos."
+      "what_changed": "Introducción de un nuevo marco que optimiza el aprendizaje de agentes de codificación.",
+      "why_it_matters": "Mejora el rendimiento y la estabilidad en entornos de codificación a través de mejor integración.",
+      "sector_impact": "Aumento de la eficacia en el desarrollo de software."
+    },
+    {
+      "title": "VDGR-RAG: Unificación del Razonamiento sobre Conocimientos Empresariales Jerárquicos",
+      "summary": "VDGR-RAG ofrece un marco unificado para la recuperación del conocimiento empresarial, mejorando la precisión en tareas de QA.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.07994",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "recuperación",
+        "razonamiento"
+      ],
+      "what_changed": "Presentación de un sistema para integrar diferentes métodos de recuperación del conocimiento.",
+      "why_it_matters": "Capacita a los modelos de IA para razonar mejor sobre información jerárquica.",
+      "sector_impact": "Mejora el soporte para decisiones empresariales."
+    },
+    {
+      "title": "LENS: Búsqueda In-Contexto a través de la Exploración de Evidencias Latentes",
+      "summary": "LENS propone un marco sin índices para la búsqueda de evidencias en colecciones de documentos en tiempo real.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.16185",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "búsqueda",
+        "documentos dinámicos"
+      ],
+      "what_changed": "Desarrollo de un marco que mejora la localización de datos relevantes en colecciones dinámicas.",
+      "why_it_matters": "LENS propone un marco sin índices para la búsqueda de evidencias en colecciones de documentos en tiempo real.",
+      "sector_impact": "Avance en la recuperación de información en entornos dinámicos."
+    },
+    {
+      "title": "Agent Lightning v1.0: Hacia un Aprendizaje por Refuerzo Aprendido en Harness",
+      "summary": "Agent Lightning es un marco que permite el aprendizaje por refuerzo en agentes, facilitando la interacción y el entrenamiento de modelos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.17528",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "aprendizaje por refuerzo",
+        "agentes"
+      ],
+      "what_changed": "Introducción de una arquitectura para el aprendizaje por refuerzo usando una interfaz de proxy de LLM.",
+      "why_it_matters": "Agent Lightning es un marco que permite el aprendizaje por refuerzo en agentes, facilitando la interacción y el entrenamiento de modelos.",
+      "sector_impact": "Impulsa el desarrollo de agentes más eficientes y potentes."
+    },
+    {
+      "title": "Fair ASR: Re-evaluando Jailbreaks de Caja Negra",
+      "summary": "Fair ASR introduce un protocolo de evaluación para ataques de jailbreak, considerando el presupuesto de llamadas objetivo.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.17360",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "evaluación"
+      ],
+      "what_changed": "Implementación de un nuevo protocolo de evaluación en ataques de jailbreak sobre modelos de IA.",
+      "why_it_matters": "Fair ASR introduce un protocolo de evaluación para ataques de jailbreak, considerando el presupuesto de llamadas objetivo.",
+      "sector_impact": "Mejora la evaluación de la seguridad en modelos de IA."
+    },
+    {
+      "title": "Benchmarking de Parches de Seguridad Automáticos",
+      "summary": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.17671",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "automación"
+      ],
+      "what_changed": "Desarrollo de un conjunto de datos para la evaluación de herramientas de retroceso de parches.",
+      "why_it_matters": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
+      "sector_impact": "Mejora la seguridad en sistemas de software."
     }
   ]
 }

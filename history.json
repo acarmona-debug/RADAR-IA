@@ -1,6 +1,141 @@
 {
   "days": [
     {
+      "date": "2026-08-19",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "StagedWorkspace: Un Espacio de Trabajo Versionado para Agentes de Conocimiento",
+          "summary": "Se propone StagedWorkspace, un espacio de trabajo versionado que mejora el rendimiento de los agentes de IA al vincular registros y diferencias de revisión a los archivos nativos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.18050",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "versionado",
+            "IA"
+          ],
+          "what_changed": "Presentación de un nuevo espacio de trabajo versionado para agentes de conocimiento.",
+          "why_it_matters": "Mejora la precisión de agentes en trabajos de conocimiento al definir claramente el estado del espacio de trabajo.",
+          "sector_impact": "Transformación en la eficacia del trabajo digital persistente."
+        },
+        {
+          "title": "GxP-Agent: Topología de Proceso-DAG para Programación de Ensayos Clínicos",
+          "summary": "GxP-Agent utiliza un sistema multi-agente estructurado como un DAG para optimizar la generación de conjuntos de datos en ensayos clínicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.16890",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ensayos clínicos",
+            "multi-agente"
+          ],
+          "what_changed": "Implementación de una nueva topología DAG que mejora la generación de datos en ensayos clínicos.",
+          "why_it_matters": "Genera conjuntos de datos con un 100% de coincidencia estructural, mejorando la calidad del análisis.",
+          "sector_impact": "Optimización de procesos en la investigación clínica."
+        },
+        {
+          "title": "LEGO-RL: Aprendizaje por Refuerzo Nativo para Agentes de Codificación",
+          "summary": "LEGO-RL conecta harnesses nativos de agentes de codificación con optimización de gradiente de política, mejorando el rendimiento en múltiples entornos de codificación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.17393",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aprendizaje por refuerzo",
+            "IA"
+          ],
+          "what_changed": "Introducción de un nuevo marco que optimiza el aprendizaje de agentes de codificación.",
+          "why_it_matters": "Mejora el rendimiento y la estabilidad en entornos de codificación a través de mejor integración.",
+          "sector_impact": "Aumento de la eficacia en el desarrollo de software."
+        },
+        {
+          "title": "VDGR-RAG: Unificación del Razonamiento sobre Conocimientos Empresariales Jerárquicos",
+          "summary": "VDGR-RAG ofrece un marco unificado para la recuperación del conocimiento empresarial, mejorando la precisión en tareas de QA.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.07994",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "recuperación",
+            "razonamiento"
+          ],
+          "what_changed": "Presentación de un sistema para integrar diferentes métodos de recuperación del conocimiento.",
+          "why_it_matters": "Capacita a los modelos de IA para razonar mejor sobre información jerárquica.",
+          "sector_impact": "Mejora el soporte para decisiones empresariales."
+        },
+        {
+          "title": "LENS: Búsqueda In-Contexto a través de la Exploración de Evidencias Latentes",
+          "summary": "LENS propone un marco sin índices para la búsqueda de evidencias en colecciones de documentos en tiempo real.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.16185",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "búsqueda",
+            "documentos dinámicos"
+          ],
+          "what_changed": "Desarrollo de un marco que mejora la localización de datos relevantes en colecciones dinámicas.",
+          "why_it_matters": "LENS propone un marco sin índices para la búsqueda de evidencias en colecciones de documentos en tiempo real.",
+          "sector_impact": "Avance en la recuperación de información en entornos dinámicos."
+        },
+        {
+          "title": "Agent Lightning v1.0: Hacia un Aprendizaje por Refuerzo Aprendido en Harness",
+          "summary": "Agent Lightning es un marco que permite el aprendizaje por refuerzo en agentes, facilitando la interacción y el entrenamiento de modelos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.17528",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aprendizaje por refuerzo",
+            "agentes"
+          ],
+          "what_changed": "Introducción de una arquitectura para el aprendizaje por refuerzo usando una interfaz de proxy de LLM.",
+          "why_it_matters": "Agent Lightning es un marco que permite el aprendizaje por refuerzo en agentes, facilitando la interacción y el entrenamiento de modelos.",
+          "sector_impact": "Impulsa el desarrollo de agentes más eficientes y potentes."
+        },
+        {
+          "title": "Fair ASR: Re-evaluando Jailbreaks de Caja Negra",
+          "summary": "Fair ASR introduce un protocolo de evaluación para ataques de jailbreak, considerando el presupuesto de llamadas objetivo.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.17360",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "evaluación"
+          ],
+          "what_changed": "Implementación de un nuevo protocolo de evaluación en ataques de jailbreak sobre modelos de IA.",
+          "why_it_matters": "Fair ASR introduce un protocolo de evaluación para ataques de jailbreak, considerando el presupuesto de llamadas objetivo.",
+          "sector_impact": "Mejora la evaluación de la seguridad en modelos de IA."
+        },
+        {
+          "title": "Benchmarking de Parches de Seguridad Automáticos",
+          "summary": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.17671",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "automación"
+          ],
+          "what_changed": "Desarrollo de un conjunto de datos para la evaluación de herramientas de retroceso de parches.",
+          "why_it_matters": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
+          "sector_impact": "Mejora la seguridad en sistemas de software."
+        }
+      ]
+    },
+    {
       "date": "2026-08-18",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -688,141 +823,6 @@
           "what_changed": "Desarrollo de un sistema que extrae y ajusta valores de la literatura científica semiautomáticamente.",
           "why_it_matters": "Facilita la creación de parámetros previos fundamentados y reduce el esfuerzo manual.",
           "sector_impact": "Investigación científica."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?",
-          "summary": "Se presenta DSAgentBench, un nuevo benchmark para evaluar la capacidad de los agentes de IA para automatizar flujos de trabajo completos de ciencia de datos en entornos informáticos reales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.10366",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "ciencia de datos"
-          ],
-          "what_changed": "Se introdujo un benchmark que abarca el ciclo de vida completo de la ciencia de datos, incluyendo 275 tareas.",
-          "why_it_matters": "Revela las limitaciones de los sistemas actuales de agentes en comparación con flujos de trabajo de ciencia de datos del mundo real.",
-          "sector_impact": "Mejoramiento de la automatización en ciencia de datos y desarrollo de agentes autónomos."
-        },
-        {
-          "title": "Self-evolving Agentic Customer Support System at LinkedIn",
-          "summary": "LinkedIn presenta un sistema de soporte auto-evolutivo que mejora continuamente sin necesidad de reentrenar los modelos fundamentales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.10224",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "soporte",
-            "mejora continua"
-          ],
-          "what_changed": "Integración de generación aumentada por recuperación y auto-prompting para mejoras continuas.",
-          "why_it_matters": "Demuestra un camino práctico hacia agentes auto-evolutivos escalables en entornos empresariales.",
-          "sector_impact": "Mejora en la eficiencia y efectividad de los sistemas de soporte al cliente."
-        },
-        {
-          "title": "CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification",
-          "summary": "Se propone un marco para la generación auto-evolutiva de habilidades para agentes LLM, permitiendo la construcción autónoma de paquetes de habilidades complejas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.01687",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "habilidades",
-            "auto-evolución"
-          ],
-          "what_changed": "Desarrollo de un generador de habilidades y un verificador que evolucionan juntos.",
-          "why_it_matters": "Optimiza la creación de habilidades complejas para agentes, mejorando su desempeño en tareas.",
-          "sector_impact": "Facilita el desarrollo de agentes más competentes y autónomos."
-        },
-        {
-          "title": "Euclid-MCP: A Model Context Protocol Server for Deterministic Logical Reasoning via Prolog",
-          "summary": "Presenta un servidor MCP que proporciona razonamiento lógico determinista a través de Prolog, mejorando las capacidades de razonamiento de modelos de lenguaje.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.21412",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "herramientas"
-          ],
-          "what_changed": "Introducción de un servidor open-source que integra razonamiento lógico en modelos de lenguaje.",
-          "why_it_matters": "Aborda las limitaciones actuales en razonamiento lógico en dominios críticos de seguridad.",
-          "sector_impact": "Mejora la interoperabilidad entre modelos de IA y sistemas simbólicos."
-        },
-        {
-          "title": "Auditing Automated Evaluation, Error Propagation, and Runtime Mitigation in Tool-Using Language Agents",
-          "summary": "Se presenta AgentProp-Bench, un benchmark para auditar la evaluación y la propagación de errores en agentes de lenguaje que utilizan herramientas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.16706",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "auditoría",
-            "agentes"
-          ],
-          "what_changed": "Evaluación sistemática de errores en la ejecución de agentes de lenguaje utilizando herramientas.",
-          "why_it_matters": "Revela la fiabilidad de la evaluación automatizada frente a la anotación humana.",
-          "sector_impact": "Contribuye a la mejora de la confianza en los agentes que utilizan herramientas."
-        },
-        {
-          "title": "Generating Attacks for LLMs with GFlowNets",
-          "summary": "Propuesta de un enfoque automatizado y adaptativo para identificar vulnerabilidades de LLM utilizando GFlowNets.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.10171",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "testing"
-          ],
-          "what_changed": "Un modelo capaz de generar ataques adaptativos en múltiples idiomas.",
-          "why_it_matters": "Mejora la robustez de los LLM ante exploitaciones maliciosas.",
-          "sector_impact": "Aumenta la seguridad en el uso de LLM en diversas aplicaciones."
-        },
-        {
-          "title": "DOCSCHISEL: Adaptive Tool Documentation Optimization Framework for LLM Agents",
-          "summary": "Introducción de DocsChisel, un marco para optimizar la documentación de herramientas para agentes LLM de manera adaptativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.10037",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "documentación",
-            "optimización"
-          ],
-          "what_changed": "Marco que identifica y optimiza la documentación de herramientas según trazas de ejecución fallidas.",
-          "why_it_matters": "Aumenta el rendimiento de los agentes LLM al mejorar la calidad de la documentación.",
-          "sector_impact": "Mejora la eficacia de los agentes en tareas basadas en herramientas."
-        },
-        {
-          "title": "Living-Harness Is an Interactive-Agent Evolver",
-          "summary": "Se propone Living-Harness, un arnés auto-evolutivo para agentes que mejora la fiabilidad de las interacciones mediante retroalimentación post-episodio.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.26598",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "auto-evolución",
-            "interactividad"
-          ],
-          "what_changed": "Introducción de un enfoque que permite actualizaciones basadas en experiencias previas.",
-          "why_it_matters": "Mejora la adaptabilidad y fiabilidad de los agentes en interacciones futuras.",
-          "sector_impact": "Aumenta la eficacia de agentes interactivos en diversas aplicaciones."
         }
       ]
     }
