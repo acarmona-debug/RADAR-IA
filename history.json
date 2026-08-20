@@ -1,6 +1,132 @@
 {
   "days": [
     {
+      "date": "2026-08-20",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR",
+          "summary": "Un framework AutoML automatizado que utiliza GPT-5, GPT-4o y Claude Sonnet 4 para diseñar arquitecturas de redes neuronales para OCR multilingüe.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.15509",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "AutoML",
+            "OCR",
+            "GPT-5",
+            "Claude"
+          ],
+          "what_changed": "Tecnología de AutoML basada en LLMs.",
+          "why_it_matters": "La capacidad de diseñar redes neuronales sin intervención manual mejora la eficiencia y escalabilidad en OCR multilingüe.",
+          "sector_impact": "Transforma la automatización en la clasificación de textos en múltiples idiomas."
+        },
+        {
+          "title": "ComponentBench: Diagnosing Component-Level Failures in Computer-Use Agents",
+          "summary": "Una nueva pipeline de evaluación para agentes informáticos que se centra en la interacción con componentes de UI modernizados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.18307",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes",
+            "UI"
+          ],
+          "what_changed": "Introducción de un enfoque de evaluación centrado en componentes.",
+          "why_it_matters": "Aborda deficiencias en la evaluación actual de agentes informáticos mediante interacciones más realistas.",
+          "sector_impact": "Mejora la fiabilidad y eficiencia de los agentes informáticos en entornos de usuario."
+        },
+        {
+          "title": "TrojanGYM: A Detector-in-the-Loop LLM for Adaptive RTL Hardware Trojan Insertion",
+          "summary": "Un marco LLM que implementa inserciones de Hardware Trojans para mejorar la detección y superar ceguera en los detectores.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.17178",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "detector",
+            "hardware",
+            "LLM"
+          ],
+          "what_changed": "Automatización de pruebas para inserciones de trojan en hardware.",
+          "why_it_matters": "Mejora la robustez de los sistemas frente a amenazas de seguridad hardware.",
+          "sector_impact": "Fortalece la seguridad en el diseño de circuitos y sistemas electrónicos."
+        },
+        {
+          "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
+          "summary": "Un andamiaje diseñado para mejorar las investigaciones de inteligencia sobre amenazas cibernéticas gestionadas por agentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.18613",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "inteligencia",
+            "agentes"
+          ],
+          "what_changed": "Materialización de estructuras para mejorar la inteligencia de amenazas.",
+          "why_it_matters": "Aumenta la eficacia y precisión en investigaciones de amenazas cibernéticas por parte de agentes LLM.",
+          "sector_impact": "Optimiza la capacidad de respuesta a incidentes de ciberseguridad."
+        },
+        {
+          "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
+          "summary": "Una evaluación para medir si los agentes LLM pueden usar eficazmente habilidades financieras en gestión de inversiones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.18099",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "finanzas",
+            "evaluación",
+            "agentes"
+          ],
+          "what_changed": "Introducción de habilidades de dominio para resolver tareas de inversión.",
+          "why_it_matters": "Mejora significativamente el rendimiento de las tareas de gestión de carteras y análisis de riesgos.",
+          "sector_impact": "Transforma la gestión de inversiones mediante IA más competente."
+        },
+        {
+          "title": "DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning",
+          "summary": "Un marco que integra agentes especializados para realizar razonamientos dentales a partir de evidencia variada.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.18878",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "odontología",
+            "razonamiento",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de una coordinación multi-agente centrada en evidencia dental.",
+          "why_it_matters": "Aumenta la precisión en diagnósticos dentales y mejora la calidad del tratamiento.",
+          "sector_impact": "Revoluciona la práctica odontológica mediante IA multimodal."
+        },
+        {
+          "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+          "summary": "Un marco que permite a los agentes de IA adquirir conocimientos específicos de proyectos para resolver problemas de software.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.18933",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "software",
+            "resolución",
+            "agentes"
+          ],
+          "what_changed": "Optimización de la adquisición de conocimientos específicos de repositorio.",
+          "why_it_matters": "Mejora la eficacia en la resolución de problemas de software específicos.",
+          "sector_impact": "Aumenta la velocidad y la precisión en el desarrollo de software."
+        }
+      ]
+    },
+    {
       "date": "2026-08-19",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -699,130 +825,6 @@
           "what_changed": "Mejora en la adaptación de comandos durante la síntesis lógica.",
           "why_it_matters": "Aumenta la efectividad y reduce errores en el diseño de circuitos.",
           "sector_impact": "Revoluciona procesos de ingeniería en microelectrónica."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "Sistema RAG clínico VITA supera a modelos LLM en HealthBench",
-          "summary": "El sistema VITA ha demostrado ser competitivo con modelos LLM de última generación en evaluaciones médicas, especialmente en contextos de recursos limitados.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12138",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "RAG",
-            "salud",
-            "IA clínica"
-          ],
-          "what_changed": "Comparación directa con modelos LLM en benchmarks específicos.",
-          "why_it_matters": "Asegura que sistemas especializados sean igualmente eficaces que modelos generales, crucial para implementaciones en LMIC.",
-          "sector_impact": "Salud y medicina."
-        },
-        {
-          "title": "Gemini Embedding 2: Primer modelo nativamente multimodal",
-          "summary": "Gemini Embedding 2 permite la representación multimodal de texto, imágenes, video y audio, ampliando las capacidades de recuperación multimodal.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.11343",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "IA",
-            "embeddings"
-          ],
-          "what_changed": "Introducción de un modelo nativo que unifica diferentes tipos de datos en un solo espacio.",
-          "why_it_matters": "Mejora la eficacia en la recuperación de información y aplicaciones de baja latencia.",
-          "sector_impact": "Tecnología de la información."
-        },
-        {
-          "title": "Marco de memoria para socios AI de ciencia de materiales",
-          "summary": "Se propone un marco de memoria persistente que mejora la transferencia de conocimiento en investigación de materiales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.11224",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "IA",
-            "ciencia de materiales"
-          ],
-          "what_changed": "Implementación de un sistema que almacena experiencia científica como hechos inspectables.",
-          "why_it_matters": "Permite aprovechar el conocimiento acumulado de manera efectiva y persistente.",
-          "sector_impact": "Investigación científica."
-        },
-        {
-          "title": "SRE-Bench: Nuevo benchmark para ingeniería inversa",
-          "summary": "Se introduce SRE-Bench, un benchmark realista para evaluar capacidades de ingeniería inversa en modelos LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.11469",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "ingeniería inversa"
-          ],
-          "what_changed": "Benchmark diseñado para integrar software complejo no accesible como código fuente.",
-          "why_it_matters": "Proporciona un contexto de evaluación crítico para capacidades de seguridad de software.",
-          "sector_impact": "Ciberseguridad."
-        },
-        {
-          "title": "Backtrader-Bench: Evaluación de agentes en trading algorítmico",
-          "summary": "Se presenta un marco que permite evaluar agentes de LLM en trading algorítmico mediante preguntas de opción múltiple.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.11232",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "trading",
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de dos pipelines complementarias para la evaluación de estrategias de trading.",
-          "why_it_matters": "Aumenta la precisión y eficacia de los agentes en entornos de trading reales.",
-          "sector_impact": "Finanzas."
-        },
-        {
-          "title": "DREAMS: Motor de investigación basado en teoría funcional de densidad",
-          "summary": "DREAMS es un marco que verifica y asegura la precisión de los trabajos en simulación de materiales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2507.14267",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "materiales",
-            "IA"
-          ],
-          "what_changed": "Implementación de guardas de seguridad para la verificación de entradas y pasos en simulaciones.",
-          "why_it_matters": "Aumenta la confianza en los resultados y la precisión de simulaciones automatizadas.",
-          "sector_impact": "Ciencia de materiales."
-        },
-        {
-          "title": "Distribird: Automatización de la calibración bayesiana",
-          "summary": "Distribird automatiza la creación de distribuciones previas informativas a partir de literatura científica, mejorando la calibración de modelos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.11210",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "calibración",
-            "bayesiana",
-            "automatización"
-          ],
-          "what_changed": "Desarrollo de un sistema que extrae y ajusta valores de la literatura científica semiautomáticamente.",
-          "why_it_matters": "Facilita la creación de parámetros previos fundamentados y reduce el esfuerzo manual.",
-          "sector_impact": "Investigación científica."
         }
       ]
     }
