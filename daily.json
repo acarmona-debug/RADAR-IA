@@ -1,128 +1,127 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen diario de las últimas innovaciones en herramientas y modelos de IA.",
-  "opening_message": "Aquí están los desarrollos más relevantes del ecosistema de inteligencia artificial que no debes perderte.",
+  "intro_message": "Bienvenidos al Radar Diario de IA, donde destacamos las últimas innovaciones y desarrollos en herramientas, modelos, y frameworks de inteligencia artificial.",
+  "opening_message": "Aquí encontrarás un resumen de las herramientas y modelos más relevantes en el campo de la inteligencia artificial, priorizando aquellas integraciones y características que están marcando la pauta en la automatización y el uso de agentes.",
   "items": [
     {
-      "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR",
-      "summary": "Un framework AutoML automatizado que utiliza GPT-5, GPT-4o y Claude Sonnet 4 para diseñar arquitecturas de redes neuronales para OCR multilingüe.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.15509",
+      "title": "Binance ahora permite la negociación con agentes de IA",
+      "summary": "Binance ha introducido su sistema Agent OS, que permite a los usuarios comerciar con herramientas de IA como ChatGPT y Claude Code.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "AutoML",
-        "OCR",
-        "GPT-5",
-        "Claude"
+        "trading",
+        "AI agents",
+        "Binance"
       ],
-      "what_changed": "Tecnología de AutoML basada en LLMs.",
-      "why_it_matters": "La capacidad de diseñar redes neuronales sin intervención manual mejora la eficiencia y escalabilidad en OCR multilingüe.",
-      "sector_impact": "Transforma la automatización en la clasificación de textos en múltiples idiomas."
+      "what_changed": "Implementación de un sistema que permite operar con AI.",
+      "why_it_matters": "Proporciona a los usuarios nuevas herramientas para comerciar de manera más eficiente.",
+      "sector_impact": "Impacto significativo en la industria de la criptomoneda."
     },
     {
-      "title": "ComponentBench: Diagnosing Component-Level Failures in Computer-Use Agents",
-      "summary": "Una nueva pipeline de evaluación para agentes informáticos que se centra en la interacción con componentes de UI modernizados.",
+      "title": "SNAIL: Reconocimiento automático de software de bioinformática",
+      "summary": "SNAIL es un nuevo marco diseñado para identificar nombres de software y bases de datos en textos biomédicos, superando a herramientas existentes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.19201",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "biomedicina",
+        "reconocimiento de entidades",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de un marco híbrido de reconocimiento de entidades.",
+      "why_it_matters": "Permite una extracción de datos biomédicos más precisa y automatizada.",
+      "sector_impact": "Mejora la investigación en bioinformática y análisis de datos médicos."
+    },
+    {
+      "title": "FlowEvo: Agentes auto-evolutivos para la construcción de flujos de trabajo",
+      "summary": "FlowEvo es un marco que permite a los modelos de lenguaje generar y evolucionar habilidades en tiempo real.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.18307",
+      "source_url": "https://arxiv.org/abs/2607.21596",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "flujos de trabajo",
+        "IA"
+      ],
+      "what_changed": "Introducción de un marco sin entrenamiento que co-evoluciona flujos de trabajo y habilidades.",
+      "why_it_matters": "Aumenta la eficiencia y la adaptabilidad de los agentes en tareas complejas.",
+      "sector_impact": "Fomenta la innovación en la automatización y el desarrollo de software."
+    },
+    {
+      "title": "DeltaML-Bench: Evaluación de agentes de ML en repositorios de investigación",
+      "summary": "DeltaML-Bench introduce benchmarks para evaluar agentes en entornos de ML abiertos y desafiantes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.19653",
       "relevance_score": 8,
       "status": "new",
       "tags": [
         "evaluación",
         "agentes",
-        "UI"
+        "ML"
       ],
-      "what_changed": "Introducción de un enfoque de evaluación centrado en componentes.",
-      "why_it_matters": "Aborda deficiencias en la evaluación actual de agentes informáticos mediante interacciones más realistas.",
-      "sector_impact": "Mejora la fiabilidad y eficiencia de los agentes informáticos en entornos de usuario."
+      "what_changed": "Desarrollo de una nueva serie de tareas para evaluar la efectividad de los agentes.",
+      "why_it_matters": "Proporciona un estándar para mejorar la calidad de los agentes de ML en condiciones reales.",
+      "sector_impact": "Impulsa avances en la investigación y desarrollo de agentes autónomos."
     },
     {
-      "title": "TrojanGYM: A Detector-in-the-Loop LLM for Adaptive RTL Hardware Trojan Insertion",
-      "summary": "Un marco LLM que implementa inserciones de Hardware Trojans para mejorar la detección y superar ceguera en los detectores.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.17178",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "detector",
-        "hardware",
-        "LLM"
-      ],
-      "what_changed": "Automatización de pruebas para inserciones de trojan en hardware.",
-      "why_it_matters": "Mejora la robustez de los sistemas frente a amenazas de seguridad hardware.",
-      "sector_impact": "Fortalece la seguridad en el diseño de circuitos y sistemas electrónicos."
-    },
-    {
-      "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
-      "summary": "Un andamiaje diseñado para mejorar las investigaciones de inteligencia sobre amenazas cibernéticas gestionadas por agentes.",
+      "title": "PolicyGuide: Agentes de LLMs conforme a políticas organizacionales",
+      "summary": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.18613",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2608.19861",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "inteligencia",
-        "agentes"
+        "políticas",
+        "agentes",
+        "IA"
       ],
-      "what_changed": "Materialización de estructuras para mejorar la inteligencia de amenazas.",
-      "why_it_matters": "Aumenta la eficacia y precisión en investigaciones de amenazas cibernéticas por parte de agentes LLM.",
-      "sector_impact": "Optimiza la capacidad de respuesta a incidentes de ciberseguridad."
+      "what_changed": "Implementación de un verificador proactivo para guiar a los agentes en procedimientos complejos.",
+      "why_it_matters": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
+      "sector_impact": "Mejora la confianza en la automatización de procesos empresariales."
     },
     {
-      "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
-      "summary": "Una evaluación para medir si los agentes LLM pueden usar eficazmente habilidades financieras en gestión de inversiones.",
+      "title": "Repo0: Generación de código desde cero",
+      "summary": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.18099",
+      "source_url": "https://arxiv.org/abs/2608.19854",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "finanzas",
-        "evaluación",
-        "agentes"
-      ],
-      "what_changed": "Introducción de habilidades de dominio para resolver tareas de inversión.",
-      "why_it_matters": "Mejora significativamente el rendimiento de las tareas de gestión de carteras y análisis de riesgos.",
-      "sector_impact": "Transforma la gestión de inversiones mediante IA más competente."
-    },
-    {
-      "title": "DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning",
-      "summary": "Un marco que integra agentes especializados para realizar razonamientos dentales a partir de evidencia variada.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.18878",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "odontología",
-        "razonamiento",
-        "agentes"
-      ],
-      "what_changed": "Desarrollo de una coordinación multi-agente centrada en evidencia dental.",
-      "why_it_matters": "Aumenta la precisión en diagnósticos dentales y mejora la calidad del tratamiento.",
-      "sector_impact": "Revoluciona la práctica odontológica mediante IA multimodal."
-    },
-    {
-      "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
-      "summary": "Un marco que permite a los agentes de IA adquirir conocimientos específicos de proyectos para resolver problemas de software.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.18933",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
+        "generación de código",
         "software",
-        "resolución",
-        "agentes"
+        "IA"
       ],
-      "what_changed": "Optimización de la adquisición de conocimientos específicos de repositorio.",
-      "why_it_matters": "Mejora la eficacia en la resolución de problemas de software específicos.",
-      "sector_impact": "Aumenta la velocidad y la precisión en el desarrollo de software."
+      "what_changed": "Presentación de un enfoque de evolución estructural continua para la generación de código.",
+      "why_it_matters": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
+      "sector_impact": "Transforma la forma en que se desarrollan aplicaciones de software."
+    },
+    {
+      "title": "MidTool: Sintetización de datos en medio del entrenamiento para el uso de herramientas",
+      "summary": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.20314",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "herramientas",
+        "entrenamiento",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de un corpus abierto que combina datos de web, PDF y códigos para mejorar el uso de herramientas.",
+      "why_it_matters": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
+      "sector_impact": "Impulsa la versatilidad de los modelos de LLM en aplicaciones prácticas."
     }
   ]
 }

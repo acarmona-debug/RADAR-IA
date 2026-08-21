@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-08-21",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Binance ahora permite la negociación con agentes de IA",
+          "summary": "Binance ha introducido su sistema Agent OS, que permite a los usuarios comerciar con herramientas de IA como ChatGPT y Claude Code.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "trading",
+            "AI agents",
+            "Binance"
+          ],
+          "what_changed": "Implementación de un sistema que permite operar con AI.",
+          "why_it_matters": "Proporciona a los usuarios nuevas herramientas para comerciar de manera más eficiente.",
+          "sector_impact": "Impacto significativo en la industria de la criptomoneda."
+        },
+        {
+          "title": "SNAIL: Reconocimiento automático de software de bioinformática",
+          "summary": "SNAIL es un nuevo marco diseñado para identificar nombres de software y bases de datos en textos biomédicos, superando a herramientas existentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.19201",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "biomedicina",
+            "reconocimiento de entidades",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un marco híbrido de reconocimiento de entidades.",
+          "why_it_matters": "Permite una extracción de datos biomédicos más precisa y automatizada.",
+          "sector_impact": "Mejora la investigación en bioinformática y análisis de datos médicos."
+        },
+        {
+          "title": "FlowEvo: Agentes auto-evolutivos para la construcción de flujos de trabajo",
+          "summary": "FlowEvo es un marco que permite a los modelos de lenguaje generar y evolucionar habilidades en tiempo real.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.21596",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "flujos de trabajo",
+            "IA"
+          ],
+          "what_changed": "Introducción de un marco sin entrenamiento que co-evoluciona flujos de trabajo y habilidades.",
+          "why_it_matters": "Aumenta la eficiencia y la adaptabilidad de los agentes en tareas complejas.",
+          "sector_impact": "Fomenta la innovación en la automatización y el desarrollo de software."
+        },
+        {
+          "title": "DeltaML-Bench: Evaluación de agentes de ML en repositorios de investigación",
+          "summary": "DeltaML-Bench introduce benchmarks para evaluar agentes en entornos de ML abiertos y desafiantes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.19653",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes",
+            "ML"
+          ],
+          "what_changed": "Desarrollo de una nueva serie de tareas para evaluar la efectividad de los agentes.",
+          "why_it_matters": "Proporciona un estándar para mejorar la calidad de los agentes de ML en condiciones reales.",
+          "sector_impact": "Impulsa avances en la investigación y desarrollo de agentes autónomos."
+        },
+        {
+          "title": "PolicyGuide: Agentes de LLMs conforme a políticas organizacionales",
+          "summary": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.19861",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "políticas",
+            "agentes",
+            "IA"
+          ],
+          "what_changed": "Implementación de un verificador proactivo para guiar a los agentes en procedimientos complejos.",
+          "why_it_matters": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
+          "sector_impact": "Mejora la confianza en la automatización de procesos empresariales."
+        },
+        {
+          "title": "Repo0: Generación de código desde cero",
+          "summary": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.19854",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "generación de código",
+            "software",
+            "IA"
+          ],
+          "what_changed": "Presentación de un enfoque de evolución estructural continua para la generación de código.",
+          "why_it_matters": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
+          "sector_impact": "Transforma la forma en que se desarrollan aplicaciones de software."
+        },
+        {
+          "title": "MidTool: Sintetización de datos en medio del entrenamiento para el uso de herramientas",
+          "summary": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.20314",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "entrenamiento",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un corpus abierto que combina datos de web, PDF y códigos para mejorar el uso de herramientas.",
+          "why_it_matters": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
+          "sector_impact": "Impulsa la versatilidad de los modelos de LLM en aplicaciones prácticas."
+        }
+      ]
+    },
+    {
       "date": "2026-08-20",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -700,131 +825,6 @@
           "what_changed": "Introducción de un sistema de jurado para la identificación de errores de razonamiento.",
           "why_it_matters": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
           "sector_impact": "Crucial para el avance en las aplicaciones de IA en contextos complejos."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "executive_title": "Radar Diario de AI - Actualizaciones Clave",
-      "items": [
-        {
-          "title": "Foam-Agent: Un Modelo Multi-Agente para CFD",
-          "summary": "Foam-Agent automatiza flujos de trabajo de dinámica de fluidos computacional utilizando LLMs, mejorando la tasa de éxito de ejecución.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.04997",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "multi-agente",
-            "CFD",
-            "automatización"
-          ],
-          "what_changed": "Introducción de un marco multi-agente que simplifica complejos flujos de trabajo.",
-          "why_it_matters": "Reduce la curva de aprendizaje y facilita el acceso a la dinámica de fluidos para nuevos usuarios.",
-          "sector_impact": "Mejora la eficiencia en ingeniería y simulaciones físicas."
-        },
-        {
-          "title": "AaLLM: Marco de Diseño de Circuitos Analógicos",
-          "summary": "AaLLM es un flujo de trabajo multi-agente que automatiza el diseño de circuitos analógicos desde la generación de topologías hasta el dimensionamiento.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.13472",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "diseño",
-            "circuitos",
-            "automatización"
-          ],
-          "what_changed": "Se automatiza el proceso tradicionalmente manual y propenso a errores.",
-          "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos y permite innovaciones en topologías.",
-          "sector_impact": "Impacta en la ingeniería electrónica y el desarrollo de dispositivos."
-        },
-        {
-          "title": "$\\varepsilon$-MemEvo: Transferencia de Memoria para Evolución de Programas",
-          "summary": "Framework para la transferencia de memoria adaptativa en sistemas de evolución de programas basados en LLMs.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12522",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "programación",
-            "memoria",
-            "transferencia"
-          ],
-          "what_changed": "Mejoras en la transferencia de conocimientos entre tareas diferentes.",
-          "why_it_matters": "Incrementa la eficiencia y la velocidad en la búsqueda de algoritmos.",
-          "sector_impact": "Acelera el desarrollo de software y optimización."
-        },
-        {
-          "title": "ERSkill: Recuperación de Memoria Basada en Habilidades",
-          "summary": "Framework que permite la recuperación adaptativa de memoria para interacciones persistentes en agentes de LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12720",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "adaptación",
-            "interacción"
-          ],
-          "what_changed": "Incorpora habilidades en la recuperación de información.",
-          "why_it_matters": "Mejora la adaptabilidad de agentes en escenarios complejos.",
-          "sector_impact": "Accesibilidad en aplicaciones de IA y asistencia personal."
-        },
-        {
-          "title": "Unmasking Conversational Bias en Sistemas Multiagente",
-          "summary": "Un marco para cuantificar sesgos en sistemas de LLM multiagente en discusiones contextuales.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2501.14844",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "sesgos",
-            "multiagente",
-            "evaluación"
-          ],
-          "what_changed": "Implementación de un nuevo enfoque para detectar sesgos en interacciones de agentes.",
-          "why_it_matters": "Reduce los riesgos asociados en aplicaciones críticas de AI.",
-          "sector_impact": "Mejora la ética y la efectividad en sistemas de IA conversacional."
-        },
-        {
-          "title": "Mimicry without understanding: Decisión en modelos de lenguaje",
-          "summary": "Investigación sobre el sesgo en los modelos de lenguaje y cómo se genera durante la inferencia.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12339",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "sesgo",
-            "IA",
-            "evaluación"
-          ],
-          "what_changed": "Identificación de mecanismos subyacentes que generan sesgos en decisiones.",
-          "why_it_matters": "Proporciona una comprensión más profunda sobre la generación de sesgos.",
-          "sector_impact": "Impulsa desarrollos más responsables en IA."
-        },
-        {
-          "title": "SynAct: Modelo de Actuación para Optimización de Síntesis",
-          "summary": "Agente adaptativo que mejora la optimización de la síntesis lógica en circuitos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12751",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "síntesis",
-            "IA"
-          ],
-          "what_changed": "Mejora en la adaptación de comandos durante la síntesis lógica.",
-          "why_it_matters": "Aumenta la efectividad y reduce errores en el diseño de circuitos.",
-          "sector_impact": "Revoluciona procesos de ingeniería en microelectrónica."
         }
       ]
     }
