@@ -1,127 +1,144 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Bienvenidos al Radar Diario de IA, donde destacamos las últimas innovaciones y desarrollos en herramientas, modelos, y frameworks de inteligencia artificial.",
-  "opening_message": "Aquí encontrarás un resumen de las herramientas y modelos más relevantes en el campo de la inteligencia artificial, priorizando aquellas integraciones y características que están marcando la pauta en la automatización y el uso de agentes.",
+  "intro_message": "Los últimos desarrollos en herramientas, modelos y automatización de IA.",
+  "opening_message": "Este radar destaca las innovaciones más relevantes, brindando información crucial para la toma de decisiones en el ámbito de la inteligencia artificial.",
   "items": [
     {
-      "title": "Binance ahora permite la negociación con agentes de IA",
-      "summary": "Binance ha introducido su sistema Agent OS, que permite a los usuarios comerciar con herramientas de IA como ChatGPT y Claude Code.",
+      "title": "ChatGPT puede enviar textos por ti con nuevo plugin de Apple Messages",
+      "summary": "ChatGPT ahora funciona como un escribiente automático de textos gracias a una nueva integración con Apple Messages.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "source_url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "trading",
-        "AI agents",
-        "Binance"
+        "ChatGPT",
+        "integración",
+        "herramientas"
       ],
-      "what_changed": "Implementación de un sistema que permite operar con AI.",
-      "why_it_matters": "Proporciona a los usuarios nuevas herramientas para comerciar de manera más eficiente.",
-      "sector_impact": "Impacto significativo en la industria de la criptomoneda."
+      "what_changed": "Integración de ChatGPT con Apple Messages.",
+      "why_it_matters": "Permite automatizar aún más las tareas de mensajería, aumentando la eficiencia.",
+      "sector_impact": "Impacta en la comunicación y atención al cliente."
     },
     {
-      "title": "SNAIL: Reconocimiento automático de software de bioinformática",
-      "summary": "SNAIL es un nuevo marco diseñado para identificar nombres de software y bases de datos en textos biomédicos, superando a herramientas existentes.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.19201",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "biomedicina",
-        "reconocimiento de entidades",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de un marco híbrido de reconocimiento de entidades.",
-      "why_it_matters": "Permite una extracción de datos biomédicos más precisa y automatizada.",
-      "sector_impact": "Mejora la investigación en bioinformática y análisis de datos médicos."
-    },
-    {
-      "title": "FlowEvo: Agentes auto-evolutivos para la construcción de flujos de trabajo",
-      "summary": "FlowEvo es un marco que permite a los modelos de lenguaje generar y evolucionar habilidades en tiempo real.",
+      "title": "Ramp lanza su propio enrutador de modelos de IA llamado Router",
+      "summary": "Ramp ha lanzado 'Router', un servicio de enrutamiento de modelos de IA que permite a usuarios y empresas alternar entre varios modelos de lenguaje mediante una API.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.21596",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "flujos de trabajo",
-        "IA"
-      ],
-      "what_changed": "Introducción de un marco sin entrenamiento que co-evoluciona flujos de trabajo y habilidades.",
-      "why_it_matters": "Aumenta la eficiencia y la adaptabilidad de los agentes en tareas complejas.",
-      "sector_impact": "Fomenta la innovación en la automatización y el desarrollo de software."
-    },
-    {
-      "title": "DeltaML-Bench: Evaluación de agentes de ML en repositorios de investigación",
-      "summary": "DeltaML-Bench introduce benchmarks para evaluar agentes en entornos de ML abiertos y desafiantes.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.19653",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "agentes",
-        "ML"
-      ],
-      "what_changed": "Desarrollo de una nueva serie de tareas para evaluar la efectividad de los agentes.",
-      "why_it_matters": "Proporciona un estándar para mejorar la calidad de los agentes de ML en condiciones reales.",
-      "sector_impact": "Impulsa avances en la investigación y desarrollo de agentes autónomos."
-    },
-    {
-      "title": "PolicyGuide: Agentes de LLMs conforme a políticas organizacionales",
-      "summary": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.19861",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "políticas",
-        "agentes",
-        "IA"
+        "modelos",
+        "integración",
+        "API"
       ],
-      "what_changed": "Implementación de un verificador proactivo para guiar a los agentes en procedimientos complejos.",
-      "why_it_matters": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
-      "sector_impact": "Mejora la confianza en la automatización de procesos empresariales."
+      "what_changed": "Lanzamiento de un nuevo enrutador para modelos de IA.",
+      "why_it_matters": "Ofrece flexibilidad en el uso de diferentes modelos, adaptándose a necesidades específicas.",
+      "sector_impact": "Aumenta la interoperabilidad en aplicaciones de IA."
     },
     {
-      "title": "Repo0: Generación de código desde cero",
-      "summary": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.19854",
+      "title": "Nuevo impulso para ChatGPT y sus modelos en empresas",
+      "summary": "Los usuarios de negocios están volviendo a ChatGPT ante los nuevos lanzamientos de modelos por Anthropic.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "generación de código",
-        "software",
-        "IA"
+        "modelos",
+        "ChatGPT",
+        "negocios"
       ],
-      "what_changed": "Presentación de un enfoque de evolución estructural continua para la generación de código.",
-      "why_it_matters": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
-      "sector_impact": "Transforma la forma en que se desarrollan aplicaciones de software."
+      "what_changed": "Aumento en el uso de ChatGPT por empresas.",
+      "why_it_matters": "Indica una competencia dinámica en el sector empresarial de IA.",
+      "sector_impact": "Impulsa la adopción empresarial de modelos de IA."
     },
     {
-      "title": "MidTool: Sintetización de datos en medio del entrenamiento para el uso de herramientas",
-      "summary": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.20314",
-      "relevance_score": 7,
+      "title": "Nvidia demuestra que el arnés, no el modelo de IA, es el verdadero héroe",
+      "summary": "Investigación de Nvidia muestra que los agentes de IA pueden desempeñarse bien a través de afinaciones, incluso si el modelo no es el mejor para la tarea.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
+        "modelos",
+        "Nvidia",
+        "agentes"
+      ],
+      "what_changed": "Resultados de investigación sobre el rendimiento de IA.",
+      "why_it_matters": "Reinventa la forma en que se perciben los modelos de IA y su efectividad.",
+      "sector_impact": "Impulsa el diseño de sistemas de IA más eficientes."
+    },
+    {
+      "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT fueron escritas por IA",
+      "summary": "Estudio revela que ChatGPT y otros modelos de IA están participando activamente en la autoría y edición de contenido online.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "ChatGPT",
+        "AI",
+        "contenido"
+      ],
+      "what_changed": "Crecimiento del contenido generado por IA en la web.",
+      "why_it_matters": "Refleja la capacidad de las IA para impactar el contenido digital.",
+      "sector_impact": "Transforma el paisaje de creación de contenido."
+    },
+    {
+      "title": "Meta lanza una nueva aplicación de IA para Mac que te permite hablar con tus aplicaciones",
+      "summary": "Meta presentó una aplicación que permite la dictación en diversas aplicaciones, rivalizando con varias herramientas existentes.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "AI",
+        "Meta",
+        "herramientas"
+      ],
+      "what_changed": "Lanzamiento de una nueva herramienta de dictado.",
+      "why_it_matters": "Facilita la interacción con aplicaciones, mejorando la accesibilidad.",
+      "sector_impact": "Revoluciona la forma en que interactuamos con la tecnología."
+    },
+    {
+      "title": "5 nuevas formas de mejorar tu aprendizaje con Google Search",
+      "summary": "Google presenta herramientas en su búsqueda para ayudar en el estudio y pruebas estandarizadas.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "Google",
         "herramientas",
-        "entrenamiento",
-        "IA"
+        "aprendizaje"
       ],
-      "what_changed": "Desarrollo de un corpus abierto que combina datos de web, PDF y códigos para mejorar el uso de herramientas.",
-      "why_it_matters": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
-      "sector_impact": "Impulsa la versatilidad de los modelos de LLM en aplicaciones prácticas."
+      "what_changed": "Introducción de nuevas técnicas de estudio en Google Search.",
+      "why_it_matters": "Brinda recursos útiles para estudiantes y educadores.",
+      "sector_impact": "Fortalece el aprendizaje y la educación digital."
+    },
+    {
+      "title": "Nuevas findings sobre la memoria de los agentes IA",
+      "summary": "Un artículo de Hugging Face explora las necesidades de memoria de los agentes IA.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "relevance_score": 3,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "Hugging Face",
+        "investigación"
+      ],
+      "what_changed": "Investigaciones sobre la memoria de los agentes de IA.",
+      "why_it_matters": "Optimiza el rendimiento de los agentes mejorando la asignación de recursos.",
+      "sector_impact": "Aumenta la eficiencia de los agentes inteligentes."
     }
   ]
 }

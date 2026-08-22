@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-08-22",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "ChatGPT puede enviar textos por ti con nuevo plugin de Apple Messages",
+          "summary": "ChatGPT ahora funciona como un escribiente automático de textos gracias a una nueva integración con Apple Messages.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "integración",
+            "herramientas"
+          ],
+          "what_changed": "Integración de ChatGPT con Apple Messages.",
+          "why_it_matters": "Permite automatizar aún más las tareas de mensajería, aumentando la eficiencia.",
+          "sector_impact": "Impacta en la comunicación y atención al cliente."
+        },
+        {
+          "title": "Ramp lanza su propio enrutador de modelos de IA llamado Router",
+          "summary": "Ramp ha lanzado 'Router', un servicio de enrutamiento de modelos de IA que permite a usuarios y empresas alternar entre varios modelos de lenguaje mediante una API.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "integración",
+            "API"
+          ],
+          "what_changed": "Lanzamiento de un nuevo enrutador para modelos de IA.",
+          "why_it_matters": "Ofrece flexibilidad en el uso de diferentes modelos, adaptándose a necesidades específicas.",
+          "sector_impact": "Aumenta la interoperabilidad en aplicaciones de IA."
+        },
+        {
+          "title": "Nuevo impulso para ChatGPT y sus modelos en empresas",
+          "summary": "Los usuarios de negocios están volviendo a ChatGPT ante los nuevos lanzamientos de modelos por Anthropic.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "ChatGPT",
+            "negocios"
+          ],
+          "what_changed": "Aumento en el uso de ChatGPT por empresas.",
+          "why_it_matters": "Indica una competencia dinámica en el sector empresarial de IA.",
+          "sector_impact": "Impulsa la adopción empresarial de modelos de IA."
+        },
+        {
+          "title": "Nvidia demuestra que el arnés, no el modelo de IA, es el verdadero héroe",
+          "summary": "Investigación de Nvidia muestra que los agentes de IA pueden desempeñarse bien a través de afinaciones, incluso si el modelo no es el mejor para la tarea.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "Nvidia",
+            "agentes"
+          ],
+          "what_changed": "Resultados de investigación sobre el rendimiento de IA.",
+          "why_it_matters": "Reinventa la forma en que se perciben los modelos de IA y su efectividad.",
+          "sector_impact": "Impulsa el diseño de sistemas de IA más eficientes."
+        },
+        {
+          "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT fueron escritas por IA",
+          "summary": "Estudio revela que ChatGPT y otros modelos de IA están participando activamente en la autoría y edición de contenido online.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "AI",
+            "contenido"
+          ],
+          "what_changed": "Crecimiento del contenido generado por IA en la web.",
+          "why_it_matters": "Refleja la capacidad de las IA para impactar el contenido digital.",
+          "sector_impact": "Transforma el paisaje de creación de contenido."
+        },
+        {
+          "title": "Meta lanza una nueva aplicación de IA para Mac que te permite hablar con tus aplicaciones",
+          "summary": "Meta presentó una aplicación que permite la dictación en diversas aplicaciones, rivalizando con varias herramientas existentes.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "AI",
+            "Meta",
+            "herramientas"
+          ],
+          "what_changed": "Lanzamiento de una nueva herramienta de dictado.",
+          "why_it_matters": "Facilita la interacción con aplicaciones, mejorando la accesibilidad.",
+          "sector_impact": "Revoluciona la forma en que interactuamos con la tecnología."
+        },
+        {
+          "title": "5 nuevas formas de mejorar tu aprendizaje con Google Search",
+          "summary": "Google presenta herramientas en su búsqueda para ayudar en el estudio y pruebas estandarizadas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Google",
+            "herramientas",
+            "aprendizaje"
+          ],
+          "what_changed": "Introducción de nuevas técnicas de estudio en Google Search.",
+          "why_it_matters": "Brinda recursos útiles para estudiantes y educadores.",
+          "sector_impact": "Fortalece el aprendizaje y la educación digital."
+        },
+        {
+          "title": "Nuevas findings sobre la memoria de los agentes IA",
+          "summary": "Un artículo de Hugging Face explora las necesidades de memoria de los agentes IA.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "relevance_score": 3,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "Hugging Face",
+            "investigación"
+          ],
+          "what_changed": "Investigaciones sobre la memoria de los agentes de IA.",
+          "why_it_matters": "Optimiza el rendimiento de los agentes mejorando la asignación de recursos.",
+          "sector_impact": "Aumenta la eficiencia de los agentes inteligentes."
+        }
+      ]
+    },
+    {
       "date": "2026-08-21",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -700,131 +842,6 @@
           "what_changed": "Análisis de interacciones complejas entre agentes IA.",
           "why_it_matters": "Plantea nuevos desafíos para la seguridad y pruebas en entornos multi-agente.",
           "sector_impact": "Impulsa la investigación y desarrollo en sistemas IA multi-agente."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-15",
-      "executive_title": "Radar Diario de IA - Innovaciones Clave",
-      "items": [
-        {
-          "title": "CIDER: Un Dataset para la Alineación de Preferencias de Privacidad",
-          "summary": "Un nuevo conjunto de datos que captura los límites de divulgación de la privacidad humanos para evaluar la alineación en la IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.09164",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "privacidad",
-            "alineación",
-            "dataset"
-          ],
-          "what_changed": "Creación de un dataset extenso de 14,850 anotaciones humanas.",
-          "why_it_matters": "Permite un mejor ajuste de modelos de IA a las preferencias de privacidad humanas.",
-          "sector_impact": "Mejora en la implementación de IA en entornos donde la privacidad es crítica."
-        },
-        {
-          "title": "Spatial Memory Agent: Razonamiento Espacial Mejorado",
-          "summary": "Desarrollo de un marco que permite a un agente mejorar su razonamiento espacial sin actualizaciones de parámetros.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12743",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "agente",
-            "IA espacial"
-          ],
-          "what_changed": "Introducción de un marco que permite la auto-evolución de agentes sin modificaciones en los parámetros.",
-          "why_it_matters": "Impulsa el desarrollo de agentes autónomos en contextos espaciales complejos.",
-          "sector_impact": "Aplicaciones en robótica y planificación espacial."
-        },
-        {
-          "title": "AUTO: Optimización de Diseño mediante Modelos de Lenguaje",
-          "summary": "Marco iterativo de optimización que utiliza modelos de lenguaje para resolver problemas de diseño de manera efectiva.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.22651",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "diseño",
-            "IA"
-          ],
-          "what_changed": "Presentación de un marco de búsqueda estratégica para la optimización de diseño.",
-          "why_it_matters": "Mejora la eficiencia en la optimización de procesos complejos.",
-          "sector_impact": "Impacto en la ingeniería y desarrollo de software."
-        },
-        {
-          "title": "QuoteBench: Medición de Errores en Comando de Agentes LLM",
-          "summary": "Una herramienta que permite distinguir errores en la generación de comandos por LLMs, mejorando la evaluación de sus capacidades.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.13547",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "herramienta",
-            "LLM"
-          ],
-          "what_changed": "Introducción de mediciones de validación de estados finales para errores de generación.",
-          "why_it_matters": "Asegura evaluaciones más precisas de agentes de comando.",
-          "sector_impact": "Relevante para el desarrollo de interfaces de usuario y sistemas automatizados."
-        },
-        {
-          "title": "Automated Design Optimization via Strategic Search",
-          "summary": "Método innovador que utiliza LLMs para resolver problemas de optimización en diseño.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.22651",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "IA",
-            "diseño"
-          ],
-          "what_changed": "Implementación de un marco que guía la optimización a través de búsqueda estratégica.",
-          "why_it_matters": "Facilita la exploración de espacios de diseño complejos con LLMs.",
-          "sector_impact": "Innovación en ingeniería y diseño industrial."
-        },
-        {
-          "title": "PhysMaster: AI para Investigación en Física",
-          "summary": "Agente científico autónomo diseñado para simular y realizar investigaciones en física avanzada.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.19799",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciencia",
-            "IA",
-            "física"
-          ],
-          "what_changed": "Desarrollo de un agente con exploración multi-trayectoria adaptativa.",
-          "why_it_matters": "Promete avances en el área de investigación científica autónoma.",
-          "sector_impact": "Impacto significativo en la investigación académica en física."
-        },
-        {
-          "title": "Reasoning Jury: Proceso de Consenso para Razonamiento IA",
-          "summary": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.12585",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "evaluación",
-            "IA"
-          ],
-          "what_changed": "Introducción de un sistema de jurado para la identificación de errores de razonamiento.",
-          "why_it_matters": "Sistema que mejora la evaluación del razonamiento en modelos IA mediante un jurado de modelos.",
-          "sector_impact": "Crucial para el avance en las aplicaciones de IA en contextos complejos."
         }
       ]
     }
