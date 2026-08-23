@@ -1,144 +1,110 @@
 {
-  "date": "2026-08-22",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Los últimos desarrollos en herramientas, modelos y automatización de IA.",
-  "opening_message": "Este radar destaca las innovaciones más relevantes, brindando información crucial para la toma de decisiones en el ámbito de la inteligencia artificial.",
+  "date": "2026-08-23",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+  "intro_message": "Resumen de los desarrollos más relevantes en inteligencia artificial.",
+  "opening_message": "A continuación, las noticias y avances destacados en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "ChatGPT puede enviar textos por ti con nuevo plugin de Apple Messages",
-      "summary": "ChatGPT ahora funciona como un escribiente automático de textos gracias a una nueva integración con Apple Messages.",
+      "title": "Inherent presenta Faraday, un agente IA innovador",
+      "summary": "Faraday, desarrollado por Inherent, un laboratorio fundado por alumni de DeepMind, supera a modelos como Anthropic y OpenAI en replicación de investigaciones científicas.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "source_url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "ChatGPT",
-        "integración",
-        "herramientas"
+        "IA",
+        "agente",
+        "replicación"
       ],
-      "what_changed": "Integración de ChatGPT con Apple Messages.",
-      "why_it_matters": "Permite automatizar aún más las tareas de mensajería, aumentando la eficiencia.",
-      "sector_impact": "Impacta en la comunicación y atención al cliente."
+      "what_changed": "Lanzamiento de un nuevo agente IA con capacidades mejoradas.",
+      "why_it_matters": "Una herramienta que podría revolucionar la forma en que se reproducen investigaciones científicas.",
+      "sector_impact": "Ciencia y tecnología"
     },
     {
-      "title": "Ramp lanza su propio enrutador de modelos de IA llamado Router",
-      "summary": "Ramp ha lanzado 'Router', un servicio de enrutamiento de modelos de IA que permite a usuarios y empresas alternar entre varios modelos de lenguaje mediante una API.",
+      "title": "Rob Strechay se une a VentureBeat como Lead Analyst",
+      "summary": "Rob Strechay liderará la nueva investigación de VentureBeat centrada en IA empresarial, enfocándose en infraestructura y orquestación de múltiples proveedores.",
+      "category": "model",
+      "source_name": "VentureBeat AI",
+      "source_url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "análisis",
+        "IA empresarial",
+        "infraestructura"
+      ],
+      "what_changed": "Creación de un nuevo rol de Lead Analyst en IA empresarial.",
+      "why_it_matters": "Contribuirá al entendimiento de la orquestación y seguridad en entornos de IA.",
+      "sector_impact": "Tecnología empresarial"
+    },
+    {
+      "title": "Nvidia se asocia con Cloverleaf para desarrollo de data center",
+      "summary": "Nvidia continua invirtiendo en el desarrollo de data centers, impulsando así su negocio en el ámbito de la IA.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "source_url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelos",
-        "integración",
-        "API"
-      ],
-      "what_changed": "Lanzamiento de un nuevo enrutador para modelos de IA.",
-      "why_it_matters": "Ofrece flexibilidad en el uso de diferentes modelos, adaptándose a necesidades específicas.",
-      "sector_impact": "Aumenta la interoperabilidad en aplicaciones de IA."
-    },
-    {
-      "title": "Nuevo impulso para ChatGPT y sus modelos en empresas",
-      "summary": "Los usuarios de negocios están volviendo a ChatGPT ante los nuevos lanzamientos de modelos por Anthropic.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "modelos",
-        "ChatGPT",
-        "negocios"
-      ],
-      "what_changed": "Aumento en el uso de ChatGPT por empresas.",
-      "why_it_matters": "Indica una competencia dinámica en el sector empresarial de IA.",
-      "sector_impact": "Impulsa la adopción empresarial de modelos de IA."
-    },
-    {
-      "title": "Nvidia demuestra que el arnés, no el modelo de IA, es el verdadero héroe",
-      "summary": "Investigación de Nvidia muestra que los agentes de IA pueden desempeñarse bien a través de afinaciones, incluso si el modelo no es el mejor para la tarea.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "modelos",
         "Nvidia",
-        "agentes"
+        "data center",
+        "IA"
       ],
-      "what_changed": "Resultados de investigación sobre el rendimiento de IA.",
-      "why_it_matters": "Reinventa la forma en que se perciben los modelos de IA y su efectividad.",
-      "sector_impact": "Impulsa el diseño de sistemas de IA más eficientes."
+      "what_changed": "Nueva asociación para desarrollo de data centers.",
+      "why_it_matters": "Mejora la infraestructura necesaria para soportar aplicaciones de IA.",
+      "sector_impact": "Tecnología y cloud"
     },
     {
-      "title": "Un tercio de las páginas web publicadas desde el lanzamiento de ChatGPT fueron escritas por IA",
-      "summary": "Estudio revela que ChatGPT y otros modelos de IA están participando activamente en la autoría y edición de contenido online.",
-      "category": "model",
+      "title": "Micro1 alcanza $500M en ingresos gracias a la demanda de datos de IA",
+      "summary": "El aumento de la demanda de datos para entrenamiento de IA lleva a Micro1 a una rápida expansión de su negocio.",
+      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "source_url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "ChatGPT",
-        "AI",
-        "contenido"
+        "Datos",
+        "IA",
+        "crecimiento"
       ],
-      "what_changed": "Crecimiento del contenido generado por IA en la web.",
-      "why_it_matters": "Refleja la capacidad de las IA para impactar el contenido digital.",
-      "sector_impact": "Transforma el paisaje de creación de contenido."
+      "what_changed": "Crecimiento significativo en ingresos.",
+      "why_it_matters": "Refleja el auge en la industria del entrenamiento de IA.",
+      "sector_impact": "Datos y análisis"
     },
     {
-      "title": "Meta lanza una nueva aplicación de IA para Mac que te permite hablar con tus aplicaciones",
-      "summary": "Meta presentó una aplicación que permite la dictación en diversas aplicaciones, rivalizando con varias herramientas existentes.",
+      "title": "Google lanza herramienta para editores para combatir pérdidas de tráfico",
+      "summary": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "AI",
-        "Meta",
-        "herramientas"
-      ],
-      "what_changed": "Lanzamiento de una nueva herramienta de dictado.",
-      "why_it_matters": "Facilita la interacción con aplicaciones, mejorando la accesibilidad.",
-      "sector_impact": "Revoluciona la forma en que interactuamos con la tecnología."
-    },
-    {
-      "title": "5 nuevas formas de mejorar tu aprendizaje con Google Search",
-      "summary": "Google presenta herramientas en su búsqueda para ayudar en el estudio y pruebas estandarizadas.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "relevance_score": 4,
+      "source_url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
         "Google",
-        "herramientas",
-        "aprendizaje"
+        "trafico",
+        "edición"
       ],
-      "what_changed": "Introducción de nuevas técnicas de estudio en Google Search.",
-      "why_it_matters": "Brinda recursos útiles para estudiantes y educadores.",
-      "sector_impact": "Fortalece el aprendizaje y la educación digital."
+      "what_changed": "Nueva funcionalidad para editores en plataformas de Google.",
+      "why_it_matters": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
+      "sector_impact": "Medios de comunicación"
     },
     {
-      "title": "Nuevas findings sobre la memoria de los agentes IA",
-      "summary": "Un artículo de Hugging Face explora las necesidades de memoria de los agentes IA.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "relevance_score": 3,
+      "title": "Meta lanza Pocket: una app para crear y compartir juegos",
+      "summary": "Meta presenta Pocket, una app impulsada por IA que permite a los usuarios diseñar y compartir juegos.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "agentes",
-        "Hugging Face",
-        "investigación"
+        "Meta",
+        "juegos",
+        "IA"
       ],
-      "what_changed": "Investigaciones sobre la memoria de los agentes de IA.",
-      "why_it_matters": "Optimiza el rendimiento de los agentes mejorando la asignación de recursos.",
-      "sector_impact": "Aumenta la eficiencia de los agentes inteligentes."
+      "what_changed": "Lanzamiento de una nueva app para la creación de juegos.",
+      "why_it_matters": "Fomenta la creatividad y comunidad entre los usuarios.",
+      "sector_impact": "Entretenimiento y tecnología"
     }
   ]
 }

@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-08-23",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "Inherent presenta Faraday, un agente IA innovador",
+          "summary": "Faraday, desarrollado por Inherent, un laboratorio fundado por alumni de DeepMind, supera a modelos como Anthropic y OpenAI en replicación de investigaciones científicas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "agente",
+            "replicación"
+          ],
+          "what_changed": "Lanzamiento de un nuevo agente IA con capacidades mejoradas.",
+          "why_it_matters": "Una herramienta que podría revolucionar la forma en que se reproducen investigaciones científicas.",
+          "sector_impact": "Ciencia y tecnología"
+        },
+        {
+          "title": "Rob Strechay se une a VentureBeat como Lead Analyst",
+          "summary": "Rob Strechay liderará la nueva investigación de VentureBeat centrada en IA empresarial, enfocándose en infraestructura y orquestación de múltiples proveedores.",
+          "category": "model",
+          "source_name": "VentureBeat AI",
+          "source_url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "análisis",
+            "IA empresarial",
+            "infraestructura"
+          ],
+          "what_changed": "Creación de un nuevo rol de Lead Analyst en IA empresarial.",
+          "why_it_matters": "Contribuirá al entendimiento de la orquestación y seguridad en entornos de IA.",
+          "sector_impact": "Tecnología empresarial"
+        },
+        {
+          "title": "Nvidia se asocia con Cloverleaf para desarrollo de data center",
+          "summary": "Nvidia continua invirtiendo en el desarrollo de data centers, impulsando así su negocio en el ámbito de la IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Nvidia",
+            "data center",
+            "IA"
+          ],
+          "what_changed": "Nueva asociación para desarrollo de data centers.",
+          "why_it_matters": "Mejora la infraestructura necesaria para soportar aplicaciones de IA.",
+          "sector_impact": "Tecnología y cloud"
+        },
+        {
+          "title": "Micro1 alcanza $500M en ingresos gracias a la demanda de datos de IA",
+          "summary": "El aumento de la demanda de datos para entrenamiento de IA lleva a Micro1 a una rápida expansión de su negocio.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Datos",
+            "IA",
+            "crecimiento"
+          ],
+          "what_changed": "Crecimiento significativo en ingresos.",
+          "why_it_matters": "Refleja el auge en la industria del entrenamiento de IA.",
+          "sector_impact": "Datos y análisis"
+        },
+        {
+          "title": "Google lanza herramienta para editores para combatir pérdidas de tráfico",
+          "summary": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Google",
+            "trafico",
+            "edición"
+          ],
+          "what_changed": "Nueva funcionalidad para editores en plataformas de Google.",
+          "why_it_matters": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
+          "sector_impact": "Medios de comunicación"
+        },
+        {
+          "title": "Meta lanza Pocket: una app para crear y compartir juegos",
+          "summary": "Meta presenta Pocket, una app impulsada por IA que permite a los usuarios diseñar y compartir juegos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "juegos",
+            "IA"
+          ],
+          "what_changed": "Lanzamiento de una nueva app para la creación de juegos.",
+          "why_it_matters": "Fomenta la creatividad y comunidad entre los usuarios.",
+          "sector_impact": "Entretenimiento y tecnología"
+        }
+      ]
+    },
+    {
       "date": "2026-08-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -723,125 +831,6 @@
           "what_changed": "Se implementó un nuevo marco de recuperación para mejorar la precisión.",
           "why_it_matters": "Aumenta la eficacia y eficiencia en la selección de habilidades en sistemas de IA.",
           "sector_impact": "Recuperación de habilidades"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI introduce ‘Ultrafast’, una nueva modalidad para GPT-5.6 Sol",
-          "summary": "OpenAI lanza una versión acelerada de su modelo más reciente, buscando atraer a usuarios empresariales.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "GPT-5.6",
-            "Ultrafast"
-          ],
-          "what_changed": "Lanzamiento de una modalidad más rápida del modelo GPT-5.6.",
-          "why_it_matters": "Permite a las empresas implementar IA a mayor velocidad, aumentando la competitividad.",
-          "sector_impact": "Transformación en el uso de IA en empresas."
-        },
-        {
-          "title": "SpaceX cierra la adquisición de Cursor",
-          "summary": "La startup de codificación IA Cursor ahora forma parte oficialmente de SpaceX.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Cursor",
-            "SpaceX"
-          ],
-          "what_changed": "SpaceX completa la adquisición de Cursor.",
-          "why_it_matters": "Incorpora herramientas de codificación avanzada a la infraestructura de SpaceX.",
-          "sector_impact": "Potencial desarrollo de tecnología IA en la industria aeroespacial."
-        },
-        {
-          "title": "Anthropic presenta detalles sobre las nuevas marcas de agua de Claude",
-          "summary": "Se detallan las implicaciones del sistema de marcas de agua que introduce Claude.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "marcas de agua"
-          ],
-          "what_changed": "Mejoras en el sistema de marcas de agua para identificación y seguridad.",
-          "why_it_matters": "Aumenta la trazabilidad y seguridad del uso del modelo IA.",
-          "sector_impact": "Mejora en la confianza y uso responsable de tecnología IA."
-        },
-        {
-          "title": "Microsoft fusiona sus aplicaciones Copilot y elimina funciones no exitosas",
-          "summary": "Microsoft simplifica Copilot al combinar aplicaciones y eliminar características menos efectivas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Microsoft",
-            "Copilot"
-          ],
-          "what_changed": "Fusión de aplicaciones y eliminación de funciones no exitosas.",
-          "why_it_matters": "Aumenta la eficiencia en el uso de herramientas IA.",
-          "sector_impact": "Optimización del ecosistema de herramientas digitales empresariales."
-        },
-        {
-          "title": "Hugging Face lanza Strands Agents",
-          "summary": "Strands Agents permite grabar, entrenar y desplegar desde un solo lugar.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "Strands Agents"
-          ],
-          "what_changed": "Integración de nuevas funcionalidades para gestionar flujos de trabajo de IA.",
-          "why_it_matters": "Facilita el proceso de desarrollo y despliegue de aplicaciones IA.",
-          "sector_impact": "Impulsa la automatización en proyectos tecnológicos."
-        },
-        {
-          "title": "Google lanza Sheets canvas para visualización de datos",
-          "summary": "Sheets canvas transforma datos en tableros interactivos y más mediante comandos simples.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Google Sheets",
-            "visualización"
-          ],
-          "what_changed": "Introducción de herramientas para visualización interactiva de datos.",
-          "why_it_matters": "Mejora la presentación y análisis de datos en entornos empresariales.",
-          "sector_impact": "Facilita toma de decisiones basadas en datos."
-        },
-        {
-          "title": "Anthropic investiga la interacción de agentes IA",
-          "summary": "Investigadores de Anthropic encuentran que los agentes IA pueden chocar, coordinar y colaborar de maneras inesperadas.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Anthropic",
-            "agentes IA"
-          ],
-          "what_changed": "Análisis de interacciones complejas entre agentes IA.",
-          "why_it_matters": "Plantea nuevos desafíos para la seguridad y pruebas en entornos multi-agente.",
-          "sector_impact": "Impulsa la investigación y desarrollo en sistemas IA multi-agente."
         }
       ]
     }
