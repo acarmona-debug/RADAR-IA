@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-08-24",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "ClawSentry: Monitor de Seguridad para Agentes LLM Autónomos",
+          "summary": "Un marco de supervisión de seguridad para agentes LLM, diseñado para mitigar riesgos durante la ejecución de habilidades y proteger contra ataques maliciosos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.21101",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes",
+            "LLMs"
+          ],
+          "what_changed": "Introducción de un motor de decisión progresivo que revisa el contexto de ejecución y evalúa habilidades.",
+          "why_it_matters": "Protege contra la exfiltración de datos y escalada de privilegios durante la ejecución de tareas.",
+          "sector_impact": "Altamente relevante para la implementación de IA segura en entornos críticos."
+        },
+        {
+          "title": "ARQ: Refinamiento Automático de Consultas de Vulnerabilidad en C/C++",
+          "summary": "Un marco que refina automáticamente consultas de detección de vulnerabilidades en C/C++ usando evidencia verificada.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.20637",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "vulnerabilidades",
+            "C/C++",
+            "LLMs"
+          ],
+          "what_changed": "Mejoras significativas en la detección de vulnerabilidades reales mediante el refinamiento de consultas.",
+          "why_it_matters": "Reduce falsos positivos y aumenta la confianza en los resultados de las herramientas de análisis de código.",
+          "sector_impact": "Crucial para mejorar la seguridad del software en aplicaciones críticas."
+        },
+        {
+          "title": "Primer Agent Orchestrator: Básicas de Memoria para Infraestructura Personal de IA",
+          "summary": "Un sistema que inicia agentes LLM con contextos relevantes pre-cargados desde bases de datos personales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.20342",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "agentes",
+            "personalización"
+          ],
+          "what_changed": "Mejora la eficiencia de los agentes al pre-cargar información relevante.",
+          "why_it_matters": "Aumenta la efectividad de los agentes LLM en tareas personalizadas.",
+          "sector_impact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+          "title": "Portabilidad de Especificaciones entre Agentes LLM",
+          "summary": "Investigación sobre la portabilidad de especificaciones entre agentes de desarrollo de LLM usando migración controlada.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.21208",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "especificaciones",
+            "migración",
+            "interoperabilidad"
+          ],
+          "what_changed": "Presentación de un marco para evaluar la calidad de implementación de especificaciones cruzadas.",
+          "why_it_matters": "Facilita la interoperabilidad entre diferentes entornos de desarrollo de software.",
+          "sector_impact": "Beneficioso para empresas que manejan múltiples tecnologías."
+        },
+        {
+          "title": "Evaluación de Agentes: Detección de Desinformación y Contaminación en IA Generativa",
+          "summary": "Un agente de evaluación que combina verificación fáctica y detección de conocimientos contaminados en sistemas de IA generativa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.21095",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "verificación",
+            "desinformación",
+            "IA generativa"
+          ],
+          "what_changed": "Implementación de un índice de confianza para detectar información falsa.",
+          "why_it_matters": "Mejora la fiabilidad de salidas generadas por IA en contextos críticos.",
+          "sector_impact": "Vital en aplicaciones donde la verdad de la información es fundamental."
+        },
+        {
+          "title": "MM-ToolSandBox: Marco para Evaluación de Agentes Llamadores de Herramientas Visuales",
+          "summary": "Benchmark para evaluar agentes que llaman herramientas visuales dentro de un entorno de ejecución.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.11818",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "visual",
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Proporciona un entorno de ejecución y escenarios generados automáticamente para evaluar modelos.",
+          "why_it_matters": "Permite medir la eficacia de los modelos en la ejecución de tareas visuales.",
+          "sector_impact": "Aplicable en desarrollo de asistentes y herramientas visuales inteligentes."
+        }
+      ]
+    },
+    {
       "date": "2026-08-23",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
       "items": [
@@ -707,130 +815,6 @@
           "what_changed": "Introducción de un sistema centrado en habilidades para mejorar la automatización del red-teaming.",
           "why_it_matters": "Optimiza la creación y reutilización de estrategias de ataque en seguridad cibernética.",
           "sector_impact": "Fortalece las medidas de defensa contra ataques automatizados en sistemas críticos."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "TENET: Desarrollo impulsado por pruebas para generación de código",
-          "summary": "TENET es un marco que permite la generación de código a nivel de repositorio bajo un paradigma de Desarrollo Guiado por Pruebas, mejorando la eficiencia en la creación de código.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2509.24148",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "TDD",
-            "Generación de código",
-            "IA"
-          ],
-          "what_changed": "Se propusieron mecanismos para seleccionar y mejorar pruebas de forma iterativa.",
-          "why_it_matters": "Facilita un enfoque más estructurado y eficiente para el desarrollo de software utilizando IA.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "Agentic Transaction: Sistemas de Agentes ACID-Compliant",
-          "summary": "Se introduce un marco de sistemas de agentes que cumplen con las propiedades ACID, mejorando la fiabilidad en la ejecución de tareas autónomas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.13900",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Agentes",
-            "ACID",
-            "Fiabilidad"
-          ],
-          "what_changed": "Se reinterpretaron las propiedades ACID para su aplicación en sistemas de agentes.",
-          "why_it_matters": "Establece una base sólida para construir sistemas de IA fiables y escalables.",
-          "sector_impact": "Sistemas autónomos"
-        },
-        {
-          "title": "TIDE: Descubrimiento proactivo de múltiples problemas",
-          "summary": "TIDE es un marco iterativo guiado por plantillas que permite descubrir problemas ocultos en contextos como áreas de trabajo y repositorios de software.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.04743",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Agentes",
-            "Resolución de problemas"
-          ],
-          "what_changed": "Mejora en la identificación y resolución de problemas en contextos múltiples.",
-          "why_it_matters": "Aumenta la capacidad de los agentes para anticipar y resolver problemas de manera proactiva.",
-          "sector_impact": "Asistentes digitales"
-        },
-        {
-          "title": "TeachMateGPT: Generación de evaluaciones pedagógicas",
-          "summary": "TeachMateGPT utiliza un enfoque de múltiples agentes para generar evaluaciones basadas en materiales curriculares de ciencia.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.13708",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Educación",
-            "IA",
-            "Evaluación"
-          ],
-          "what_changed": "Se implementaron mecanismos de verificación y evaluación más rigurosos.",
-          "why_it_matters": "Reduce la carga de trabajo de los docentes y mejora la calidad de las evaluaciones.",
-          "sector_impact": "Educación"
-        },
-        {
-          "title": "MACS: Marco hibrido para recomendación en e-commerce",
-          "summary": "MACS es un sistema multi-agente que provee recomendaciones de productos de manera confiable en catálogos fijos, mejorando la experiencia de compra.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.14068",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "E-commerce",
-            "Recomendaciones",
-            "IA"
-          ],
-          "what_changed": "Combinación de tecnologías determinísticas y de LLM para maximizar la confiabilidad.",
-          "why_it_matters": "Mejora las tasas de éxito en recomendaciones y disminuye las inconsistencias.",
-          "sector_impact": "Comercio electrónico"
-        },
-        {
-          "title": "MemoryLake: evaluación de backends de memoria para agentes",
-          "summary": "Comparativa del backend de memoria MemoryLake con otros sistemas para medir su eficacia en completar tareas interdependientes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.13883",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Memoria",
-            "Agentes",
-            "Evaluación"
-          ],
-          "what_changed": "Nueva métrica para evaluar la efectividad de la memoria en tareas con múltiples sesiones.",
-          "why_it_matters": "Ofrece una nueva perspectiva sobre la gestión de memoria en sistemas de IA.",
-          "sector_impact": "Agentes inteligentes"
-        },
-        {
-          "title": "SkillSight: calibración del sesgo de contenido genérico para la recuperación de habilidades",
-          "summary": "SkillSight mejora la recuperación de habilidades evitando interferencias derivadas de patrones descriptivos compartidos en las habilidades.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.18785",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Recuperación",
-            "Habilidades",
-            "IA"
-          ],
-          "what_changed": "Se implementó un nuevo marco de recuperación para mejorar la precisión.",
-          "why_it_matters": "Aumenta la eficacia y eficiencia en la selección de habilidades en sistemas de IA.",
-          "sector_impact": "Recuperación de habilidades"
         }
       ]
     }

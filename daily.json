@@ -1,110 +1,110 @@
 {
-  "date": "2026-08-23",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-  "intro_message": "Resumen de los desarrollos más relevantes en inteligencia artificial.",
-  "opening_message": "A continuación, las noticias y avances destacados en herramientas, modelos y frameworks de IA.",
+  "date": "2026-08-24",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Actualizaciones clave sobre herramientas, modelos, y nuevas características en el ámbito de la IA.",
+  "opening_message": "A continuación, se presentan los desarrollos más relevantes en herramientas y modelos de IA.",
   "items": [
     {
-      "title": "Inherent presenta Faraday, un agente IA innovador",
-      "summary": "Faraday, desarrollado por Inherent, un laboratorio fundado por alumni de DeepMind, supera a modelos como Anthropic y OpenAI en replicación de investigaciones científicas.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "title": "ClawSentry: Monitor de Seguridad para Agentes LLM Autónomos",
+      "summary": "Un marco de supervisión de seguridad para agentes LLM, diseñado para mitigar riesgos durante la ejecución de habilidades y proteger contra ataques maliciosos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.21101",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "agentes",
+        "LLMs"
+      ],
+      "what_changed": "Introducción de un motor de decisión progresivo que revisa el contexto de ejecución y evalúa habilidades.",
+      "why_it_matters": "Protege contra la exfiltración de datos y escalada de privilegios durante la ejecución de tareas.",
+      "sector_impact": "Altamente relevante para la implementación de IA segura en entornos críticos."
+    },
+    {
+      "title": "ARQ: Refinamiento Automático de Consultas de Vulnerabilidad en C/C++",
+      "summary": "Un marco que refina automáticamente consultas de detección de vulnerabilidades en C/C++ usando evidencia verificada.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.20637",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "IA",
-        "agente",
-        "replicación"
+        "vulnerabilidades",
+        "C/C++",
+        "LLMs"
       ],
-      "what_changed": "Lanzamiento de un nuevo agente IA con capacidades mejoradas.",
-      "why_it_matters": "Una herramienta que podría revolucionar la forma en que se reproducen investigaciones científicas.",
-      "sector_impact": "Ciencia y tecnología"
+      "what_changed": "Mejoras significativas en la detección de vulnerabilidades reales mediante el refinamiento de consultas.",
+      "why_it_matters": "Reduce falsos positivos y aumenta la confianza en los resultados de las herramientas de análisis de código.",
+      "sector_impact": "Crucial para mejorar la seguridad del software en aplicaciones críticas."
     },
     {
-      "title": "Rob Strechay se une a VentureBeat como Lead Analyst",
-      "summary": "Rob Strechay liderará la nueva investigación de VentureBeat centrada en IA empresarial, enfocándose en infraestructura y orquestación de múltiples proveedores.",
+      "title": "Primer Agent Orchestrator: Básicas de Memoria para Infraestructura Personal de IA",
+      "summary": "Un sistema que inicia agentes LLM con contextos relevantes pre-cargados desde bases de datos personales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.20342",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "memoria",
+        "agentes",
+        "personalización"
+      ],
+      "what_changed": "Mejora la eficiencia de los agentes al pre-cargar información relevante.",
+      "why_it_matters": "Aumenta la efectividad de los agentes LLM en tareas personalizadas.",
+      "sector_impact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Portabilidad de Especificaciones entre Agentes LLM",
+      "summary": "Investigación sobre la portabilidad de especificaciones entre agentes de desarrollo de LLM usando migración controlada.",
       "category": "model",
-      "source_name": "VentureBeat AI",
-      "source_url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "análisis",
-        "IA empresarial",
-        "infraestructura"
-      ],
-      "what_changed": "Creación de un nuevo rol de Lead Analyst en IA empresarial.",
-      "why_it_matters": "Contribuirá al entendimiento de la orquestación y seguridad en entornos de IA.",
-      "sector_impact": "Tecnología empresarial"
-    },
-    {
-      "title": "Nvidia se asocia con Cloverleaf para desarrollo de data center",
-      "summary": "Nvidia continua invirtiendo en el desarrollo de data centers, impulsando así su negocio en el ámbito de la IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Nvidia",
-        "data center",
-        "IA"
-      ],
-      "what_changed": "Nueva asociación para desarrollo de data centers.",
-      "why_it_matters": "Mejora la infraestructura necesaria para soportar aplicaciones de IA.",
-      "sector_impact": "Tecnología y cloud"
-    },
-    {
-      "title": "Micro1 alcanza $500M en ingresos gracias a la demanda de datos de IA",
-      "summary": "El aumento de la demanda de datos para entrenamiento de IA lleva a Micro1 a una rápida expansión de su negocio.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.21208",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Datos",
-        "IA",
-        "crecimiento"
+        "especificaciones",
+        "migración",
+        "interoperabilidad"
       ],
-      "what_changed": "Crecimiento significativo en ingresos.",
-      "why_it_matters": "Refleja el auge en la industria del entrenamiento de IA.",
-      "sector_impact": "Datos y análisis"
+      "what_changed": "Presentación de un marco para evaluar la calidad de implementación de especificaciones cruzadas.",
+      "why_it_matters": "Facilita la interoperabilidad entre diferentes entornos de desarrollo de software.",
+      "sector_impact": "Beneficioso para empresas que manejan múltiples tecnologías."
     },
     {
-      "title": "Google lanza herramienta para editores para combatir pérdidas de tráfico",
-      "summary": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
+      "title": "Evaluación de Agentes: Detección de Desinformación y Contaminación en IA Generativa",
+      "summary": "Un agente de evaluación que combina verificación fáctica y detección de conocimientos contaminados en sistemas de IA generativa.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.21095",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "verificación",
+        "desinformación",
+        "IA generativa"
+      ],
+      "what_changed": "Implementación de un índice de confianza para detectar información falsa.",
+      "why_it_matters": "Mejora la fiabilidad de salidas generadas por IA en contextos críticos.",
+      "sector_impact": "Vital en aplicaciones donde la verdad de la información es fundamental."
+    },
+    {
+      "title": "MM-ToolSandBox: Marco para Evaluación de Agentes Llamadores de Herramientas Visuales",
+      "summary": "Benchmark para evaluar agentes que llaman herramientas visuales dentro de un entorno de ejecución.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.11818",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Google",
-        "trafico",
-        "edición"
+        "visual",
+        "agentes",
+        "evaluación"
       ],
-      "what_changed": "Nueva funcionalidad para editores en plataformas de Google.",
-      "why_it_matters": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
-      "sector_impact": "Medios de comunicación"
-    },
-    {
-      "title": "Meta lanza Pocket: una app para crear y compartir juegos",
-      "summary": "Meta presenta Pocket, una app impulsada por IA que permite a los usuarios diseñar y compartir juegos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Meta",
-        "juegos",
-        "IA"
-      ],
-      "what_changed": "Lanzamiento de una nueva app para la creación de juegos.",
-      "why_it_matters": "Fomenta la creatividad y comunidad entre los usuarios.",
-      "sector_impact": "Entretenimiento y tecnología"
+      "what_changed": "Proporciona un entorno de ejecución y escenarios generados automáticamente para evaluar modelos.",
+      "why_it_matters": "Permite medir la eficacia de los modelos en la ejecución de tareas visuales.",
+      "sector_impact": "Aplicable en desarrollo de asistentes y herramientas visuales inteligentes."
     }
   ]
 }
