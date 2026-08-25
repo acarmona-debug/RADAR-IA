@@ -1,110 +1,125 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre herramientas, modelos, y nuevas características en el ámbito de la IA.",
-  "opening_message": "A continuación, se presentan los desarrollos más relevantes en herramientas y modelos de IA.",
+  "intro_message": "Novedades más relevantes del campo de la inteligencia artificial.",
+  "opening_message": "A continuación, se presentan los últimos avances y herramientas en IA que deben considerarse para su implementación y desarrollo.",
   "items": [
     {
-      "title": "ClawSentry: Monitor de Seguridad para Agentes LLM Autónomos",
-      "summary": "Un marco de supervisión de seguridad para agentes LLM, diseñado para mitigar riesgos durante la ejecución de habilidades y proteger contra ataques maliciosos.",
-      "category": "framework",
+      "title": "Decision-Support and Modeling with Large Language Models for Geothermal Well Arrays",
+      "summary": "Este estudio evalúa el potencial de los LLMs como asistentes expertos para la mejora de modelos geotérmicos, integrando análisis de datos y recomendaciones informadas.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.21101",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "agentes",
-        "LLMs"
-      ],
-      "what_changed": "Introducción de un motor de decisión progresivo que revisa el contexto de ejecución y evalúa habilidades.",
-      "why_it_matters": "Protege contra la exfiltración de datos y escalada de privilegios durante la ejecución de tareas.",
-      "sector_impact": "Altamente relevante para la implementación de IA segura en entornos críticos."
-    },
-    {
-      "title": "ARQ: Refinamiento Automático de Consultas de Vulnerabilidad en C/C++",
-      "summary": "Un marco que refina automáticamente consultas de detección de vulnerabilidades en C/C++ usando evidencia verificada.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.20637",
+      "source_url": "https://arxiv.org/abs/2608.22068",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "vulnerabilidades",
-        "C/C++",
-        "LLMs"
+        "geotermal",
+        "LLM",
+        "ChatGPT",
+        "Gemini"
       ],
-      "what_changed": "Mejoras significativas en la detección de vulnerabilidades reales mediante el refinamiento de consultas.",
-      "why_it_matters": "Reduce falsos positivos y aumenta la confianza en los resultados de las herramientas de análisis de código.",
-      "sector_impact": "Crucial para mejorar la seguridad del software en aplicaciones críticas."
+      "what_changed": "Uso de modelos de lenguaje para optimizar la producción de energía geotérmica.",
+      "why_it_matters": "Impulsa la adopción de tecnologías geotérmicas mediante la automatización del análisis de datos.",
+      "sector_impact": "Energía"
     },
     {
-      "title": "Primer Agent Orchestrator: Básicas de Memoria para Infraestructura Personal de IA",
-      "summary": "Un sistema que inicia agentes LLM con contextos relevantes pre-cargados desde bases de datos personales.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.20342",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "memoria",
-        "agentes",
-        "personalización"
-      ],
-      "what_changed": "Mejora la eficiencia de los agentes al pre-cargar información relevante.",
-      "why_it_matters": "Aumenta la efectividad de los agentes LLM en tareas personalizadas.",
-      "sector_impact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "title": "Portabilidad de Especificaciones entre Agentes LLM",
-      "summary": "Investigación sobre la portabilidad de especificaciones entre agentes de desarrollo de LLM usando migración controlada.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.21208",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "especificaciones",
-        "migración",
-        "interoperabilidad"
-      ],
-      "what_changed": "Presentación de un marco para evaluar la calidad de implementación de especificaciones cruzadas.",
-      "why_it_matters": "Facilita la interoperabilidad entre diferentes entornos de desarrollo de software.",
-      "sector_impact": "Beneficioso para empresas que manejan múltiples tecnologías."
-    },
-    {
-      "title": "Evaluación de Agentes: Detección de Desinformación y Contaminación en IA Generativa",
-      "summary": "Un agente de evaluación que combina verificación fáctica y detección de conocimientos contaminados en sistemas de IA generativa.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.21095",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "verificación",
-        "desinformación",
-        "IA generativa"
-      ],
-      "what_changed": "Implementación de un índice de confianza para detectar información falsa.",
-      "why_it_matters": "Mejora la fiabilidad de salidas generadas por IA en contextos críticos.",
-      "sector_impact": "Vital en aplicaciones donde la verdad de la información es fundamental."
-    },
-    {
-      "title": "MM-ToolSandBox: Marco para Evaluación de Agentes Llamadores de Herramientas Visuales",
-      "summary": "Benchmark para evaluar agentes que llaman herramientas visuales dentro de un entorno de ejecución.",
+      "title": "Architecture as Capability Equalizer for Coding Agents",
+      "summary": "Un experimento muestra cómo el formato de especificación arquitectónica influye en la calidad del código generado por agentes de codificación LLM.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.11818",
+      "source_url": "https://arxiv.org/abs/2608.21747",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "codificación",
+        "Claude",
+        "OpenAI"
+      ],
+      "what_changed": "Evaluación del impacto del formato en la calidad del código.",
+      "why_it_matters": "Define cómo optimizar la generación de código en modelos de menor capacidad.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "TRACE: A Self-Evolving Skill Bank for Consistent, Limit-Aware LLM Agents",
+      "summary": "Se presenta TRACE, que mejora la consistencia de los agentes LLM a través de un banco de habilidades en evolución.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.22793",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "ChatGPT",
+        "GPT-5"
+      ],
+      "what_changed": "Mejora la consistencia de agentes a través de un ciclo evolutivo de habilidades.",
+      "why_it_matters": "Aumenta la confiabilidad en tareas complejas para usuarios finales.",
+      "sector_impact": "Asistentes virtuales"
+    },
+    {
+      "title": "K-Bench: measuring model performance on real scientific agent requests",
+      "summary": "Presenta K-Bench, un sistema de evaluación para medir el rendimiento de modelos LLM en solicitudes científicas reales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.21601",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "científico",
+        "LLM"
+      ],
+      "what_changed": "Desarrollo de un marco de evaluación para tareas científicas reales.",
+      "why_it_matters": "Proporciona un método estructurado para medir el rendimiento de modelos en entornos reales.",
+      "sector_impact": "Investigación científica"
+    },
+    {
+      "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+      "summary": "Introduce MCP-Universe RL para mejorar la capacidad de uso de herramientas de LLMs a través de aprendizaje por refuerzo.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.22167",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "aprendizaje por refuerzo",
+        "uso de herramientas"
+      ],
+      "what_changed": "Facilita el entrenamiento de agentes en múltiples dominios.",
+      "why_it_matters": "Mejora la eficacia de agentes de LLM en tareas complejas.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "Training Proactive and Personalized LLM Agents",
+      "summary": "Propone un enfoque para entrenar agentes como colaboradores adaptativos que se comunican y responden a las necesidades de los usuarios.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2511.02208",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "visual",
-        "agentes",
-        "evaluación"
+        "agentes personalizados",
+        "PPP"
       ],
-      "what_changed": "Proporciona un entorno de ejecución y escenarios generados automáticamente para evaluar modelos.",
-      "why_it_matters": "Permite medir la eficacia de los modelos en la ejecución de tareas visuales.",
-      "sector_impact": "Aplicable en desarrollo de asistentes y herramientas visuales inteligentes."
+      "what_changed": "Desarrollo de un marco que optimiza la colaboración en tareas complejas.",
+      "why_it_matters": "Fomenta la creación de agentes más efectivos y adaptativos.",
+      "sector_impact": "Experiencia de usuario"
+    },
+    {
+      "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+      "summary": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.22137",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "recuperación",
+        "memoria"
+      ],
+      "what_changed": "Separación del acceso semántico de la evidencia generativa.",
+      "why_it_matters": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
+      "sector_impact": "Tecnologías de información"
     }
   ]
 }

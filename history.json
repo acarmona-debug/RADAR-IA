@@ -1,6 +1,129 @@
 {
   "days": [
     {
+      "date": "2026-08-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Decision-Support and Modeling with Large Language Models for Geothermal Well Arrays",
+          "summary": "Este estudio evalúa el potencial de los LLMs como asistentes expertos para la mejora de modelos geotérmicos, integrando análisis de datos y recomendaciones informadas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22068",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "geotermal",
+            "LLM",
+            "ChatGPT",
+            "Gemini"
+          ],
+          "what_changed": "Uso de modelos de lenguaje para optimizar la producción de energía geotérmica.",
+          "why_it_matters": "Impulsa la adopción de tecnologías geotérmicas mediante la automatización del análisis de datos.",
+          "sector_impact": "Energía"
+        },
+        {
+          "title": "Architecture as Capability Equalizer for Coding Agents",
+          "summary": "Un experimento muestra cómo el formato de especificación arquitectónica influye en la calidad del código generado por agentes de codificación LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.21747",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "codificación",
+            "Claude",
+            "OpenAI"
+          ],
+          "what_changed": "Evaluación del impacto del formato en la calidad del código.",
+          "why_it_matters": "Define cómo optimizar la generación de código en modelos de menor capacidad.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "TRACE: A Self-Evolving Skill Bank for Consistent, Limit-Aware LLM Agents",
+          "summary": "Se presenta TRACE, que mejora la consistencia de los agentes LLM a través de un banco de habilidades en evolución.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22793",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "ChatGPT",
+            "GPT-5"
+          ],
+          "what_changed": "Mejora la consistencia de agentes a través de un ciclo evolutivo de habilidades.",
+          "why_it_matters": "Aumenta la confiabilidad en tareas complejas para usuarios finales.",
+          "sector_impact": "Asistentes virtuales"
+        },
+        {
+          "title": "K-Bench: measuring model performance on real scientific agent requests",
+          "summary": "Presenta K-Bench, un sistema de evaluación para medir el rendimiento de modelos LLM en solicitudes científicas reales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.21601",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "científico",
+            "LLM"
+          ],
+          "what_changed": "Desarrollo de un marco de evaluación para tareas científicas reales.",
+          "why_it_matters": "Proporciona un método estructurado para medir el rendimiento de modelos en entornos reales.",
+          "sector_impact": "Investigación científica"
+        },
+        {
+          "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+          "summary": "Introduce MCP-Universe RL para mejorar la capacidad de uso de herramientas de LLMs a través de aprendizaje por refuerzo.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22167",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aprendizaje por refuerzo",
+            "uso de herramientas"
+          ],
+          "what_changed": "Facilita el entrenamiento de agentes en múltiples dominios.",
+          "why_it_matters": "Mejora la eficacia de agentes de LLM en tareas complejas.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "Training Proactive and Personalized LLM Agents",
+          "summary": "Propone un enfoque para entrenar agentes como colaboradores adaptativos que se comunican y responden a las necesidades de los usuarios.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2511.02208",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "agentes personalizados",
+            "PPP"
+          ],
+          "what_changed": "Desarrollo de un marco que optimiza la colaboración en tareas complejas.",
+          "why_it_matters": "Fomenta la creación de agentes más efectivos y adaptativos.",
+          "sector_impact": "Experiencia de usuario"
+        },
+        {
+          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+          "summary": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22137",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "recuperación",
+            "memoria"
+          ],
+          "what_changed": "Separación del acceso semántico de la evidencia generativa.",
+          "why_it_matters": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
+          "sector_impact": "Tecnologías de información"
+        }
+      ]
+    },
+    {
       "date": "2026-08-24",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -741,80 +864,6 @@
           "what_changed": "Desarrollo de un conjunto de datos para la evaluación de herramientas de retroceso de parches.",
           "why_it_matters": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
           "sector_impact": "Mejora la seguridad en sistemas de software."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-18",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OGX: An Open-Source, Vendor-Neutral Generative AI Application Server",
-          "summary": "Un servidor de aplicaciones de IA de código abierto que permite desarrollar y desplegar aplicaciones de IA con flexibilidad en la selección de modelos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.14580",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "framework",
-            "Open Source",
-            "Developer Tools"
-          ],
-          "what_changed": "Lanzamiento de OGX como un servidor de aplicaciones de IA abierto.",
-          "why_it_matters": "Facilita el desarrollo de aplicaciones de IA con diversas integraciones.",
-          "sector_impact": "Mejora la flexibilidad y compatibilidad en el desarrollo de herramientas IA."
-        },
-        {
-          "title": "SKILL: Self-correcting Knowledge-guided Iterative LLM Agent for Logic Optimization",
-          "summary": "Un agente de lenguaje que combina razonamiento de LLMs y refuerzo para optimizar la síntesis lógica.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.14579",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "AI",
-            "Agent",
-            "Reinforcement Learning"
-          ],
-          "what_changed": "Introducción de un agente LLM que auto-corrige procesos de optimización.",
-          "why_it_matters": "Mejora la eficiencia en la optimización lógica para aplicaciones industriales.",
-          "sector_impact": "Incrementa la efectividad en la síntesis lógica y diseño de circuitos."
-        },
-        {
-          "title": "ACTS-SQL: Agentic and Critic-Oriented Tree-Structured SQL Correctness with LLMs",
-          "summary": "Un marco de corrección de SQL que organiza el proceso de depuración para mejorar la precisión en la inferencia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.15145",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "SQL",
-            "AI",
-            "Text-to-SQL"
-          ],
-          "what_changed": "Desarrollo de un marco de corrección estructurado sin necesidad de grandes datos de entrenamiento.",
-          "why_it_matters": "Reduce errores en consultas SQL en aplicaciones del mundo real.",
-          "sector_impact": "Aumenta la confianza en sistemas de inferencia SQL y analítica de datos."
-        },
-        {
-          "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
-          "summary": "Un marco que permite escalar el red-team automatizado mediante estrategias de ataque reutilizables.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.16465",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Cybersecurity",
-            "Red-Teaming",
-            "Automation"
-          ],
-          "what_changed": "Introducción de un sistema centrado en habilidades para mejorar la automatización del red-teaming.",
-          "why_it_matters": "Optimiza la creación y reutilización de estrategias de ataque en seguridad cibernética.",
-          "sector_impact": "Fortalece las medidas de defensa contra ataques automatizados en sistemas críticos."
         }
       ]
     }
