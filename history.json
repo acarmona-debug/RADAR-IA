@@ -1,6 +1,132 @@
 {
   "days": [
     {
+      "date": "2026-08-26",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "REFINE: A Multi-Agent LLM Approach for Evidence-Guided Code Refactoring",
+          "summary": "REFINE combina análisis estático y transformación de código mediante LLM para generar propuestas de refactorización en Java.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.23611",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "refactorización",
+            "LLM",
+            "Java",
+            "multi-agente"
+          ],
+          "what_changed": "Introducción de un enfoque multi-agente para la refactorización automatizada de código.",
+          "why_it_matters": "Reduce hasta 72.79% de olores de código, mejorando la calidad del software.",
+          "sector_impact": "Impacto significativo en el desarrollo de software y mantenimiento."
+        },
+        {
+          "title": "EngiAI: Capability-Based Evaluation of Tool-Connected LLM Agents for Engineering Design",
+          "summary": "Marco de evaluación para agentes conectados a herramientas en diseño de ingeniería, analizando su efectividad en tareas críticas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.19743",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes",
+            "ingeniería"
+          ],
+          "what_changed": "Presentación de un marco que evalúa habilidades específicas de los LLM en diseño.",
+          "why_it_matters": "Permite comparaciones precisas y estructuradas de la efectividad de LLM en tareas de ingeniería.",
+          "sector_impact": "Mejora en procesos de diseño y análisis de ingeniería."
+        },
+        {
+          "title": "ADVERSA: Measuring Multi-Turn Guardrail Degradation and Judge Reliability in Large Language Models",
+          "summary": "Metodología para medir la degradación de las salvaguardias en interacciones prolongadas con LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.10068",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "seguridad",
+            "LLM"
+          ],
+          "what_changed": "Introducción de una evaluación de continuo en la confiabilidad de los modelos de lenguaje.",
+          "why_it_matters": "Permite identificar y mitigar riesgos asociados a LLMs en interacciones extendidas.",
+          "sector_impact": "Aumento en la seguridad y confiabilidad de implementaciones de IA."
+        },
+        {
+          "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
+          "summary": "Compresor de contexto para agentes de código que optimiza el uso de tokens al reenviar información.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.24188",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "compresión",
+            "contexto",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un compresor de contexto extractivo condicional al propósito.",
+          "why_it_matters": "Reduce el tamaño del contexto necesario sin sacrificar calidad en la solución.",
+          "sector_impact": "Optimización de costos en interacciones de IA y herramientas de desarrollo."
+        },
+        {
+          "title": "Design-to-Plan: LLM-Based Multi-Agent Framework for Manufacturing Process Planning",
+          "summary": "Framework que utiliza modelos de lenguaje para la planificación de procesos de manufactura mediante agentes especializados.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.24039",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "manufactura",
+            "planificación",
+            "agentes"
+          ],
+          "what_changed": "Integración de LLMs como agentes de razonamiento en la planificación de manufactura.",
+          "why_it_matters": "Mejora la eficiencia y trazabilidad en el proceso de manufactura.",
+          "sector_impact": "Transforma la planificación en la industria manufacturera."
+        },
+        {
+          "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision",
+          "summary": "Modelo de control de acciones a nivel de paso para agentes de IA con supervisión escalable.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.24777",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "AGI",
+            "vigilancia"
+          ],
+          "what_changed": "Desarrollo de un modelo que audita acciones de agentes antes de su ejecución.",
+          "why_it_matters": "Reduce el riesgo de acciones no autorizadas en aplicaciones de IA.",
+          "sector_impact": "Aumenta la seguridad y efectividad de operaciones automatizadas."
+        },
+        {
+          "title": "ESQ-Bench: Multi-Tier Benchmark for Evaluating NL2SQL Dialect Generalization",
+          "summary": "Nuevo benchmark para evaluar la capacidad de modelos NL2SQL en condiciones complejas de esquemas de base de datos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.23569",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "NL2SQL",
+            "evaluación",
+            "benchmark"
+          ],
+          "what_changed": "Lanzamiento de un benchmark que refleja mejor la complejidad empresarial en NL2SQL.",
+          "why_it_matters": "Mejora la capacidad de los modelos para manejar estructuras de datos reales.",
+          "sector_impact": "Impacto en la adopción de IA en la gestión de datos empresariales."
+        }
+      ]
+    },
+    {
       "date": "2026-08-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -729,141 +855,6 @@
           "what_changed": "Optimización de la adquisición de conocimientos específicos de repositorio.",
           "why_it_matters": "Mejora la eficacia en la resolución de problemas de software específicos.",
           "sector_impact": "Aumenta la velocidad y la precisión en el desarrollo de software."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-19",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "StagedWorkspace: Un Espacio de Trabajo Versionado para Agentes de Conocimiento",
-          "summary": "Se propone StagedWorkspace, un espacio de trabajo versionado que mejora el rendimiento de los agentes de IA al vincular registros y diferencias de revisión a los archivos nativos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.18050",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "versionado",
-            "IA"
-          ],
-          "what_changed": "Presentación de un nuevo espacio de trabajo versionado para agentes de conocimiento.",
-          "why_it_matters": "Mejora la precisión de agentes en trabajos de conocimiento al definir claramente el estado del espacio de trabajo.",
-          "sector_impact": "Transformación en la eficacia del trabajo digital persistente."
-        },
-        {
-          "title": "GxP-Agent: Topología de Proceso-DAG para Programación de Ensayos Clínicos",
-          "summary": "GxP-Agent utiliza un sistema multi-agente estructurado como un DAG para optimizar la generación de conjuntos de datos en ensayos clínicos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.16890",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ensayos clínicos",
-            "multi-agente"
-          ],
-          "what_changed": "Implementación de una nueva topología DAG que mejora la generación de datos en ensayos clínicos.",
-          "why_it_matters": "Genera conjuntos de datos con un 100% de coincidencia estructural, mejorando la calidad del análisis.",
-          "sector_impact": "Optimización de procesos en la investigación clínica."
-        },
-        {
-          "title": "LEGO-RL: Aprendizaje por Refuerzo Nativo para Agentes de Codificación",
-          "summary": "LEGO-RL conecta harnesses nativos de agentes de codificación con optimización de gradiente de política, mejorando el rendimiento en múltiples entornos de codificación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.17393",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje por refuerzo",
-            "IA"
-          ],
-          "what_changed": "Introducción de un nuevo marco que optimiza el aprendizaje de agentes de codificación.",
-          "why_it_matters": "Mejora el rendimiento y la estabilidad en entornos de codificación a través de mejor integración.",
-          "sector_impact": "Aumento de la eficacia en el desarrollo de software."
-        },
-        {
-          "title": "VDGR-RAG: Unificación del Razonamiento sobre Conocimientos Empresariales Jerárquicos",
-          "summary": "VDGR-RAG ofrece un marco unificado para la recuperación del conocimiento empresarial, mejorando la precisión en tareas de QA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.07994",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "recuperación",
-            "razonamiento"
-          ],
-          "what_changed": "Presentación de un sistema para integrar diferentes métodos de recuperación del conocimiento.",
-          "why_it_matters": "Capacita a los modelos de IA para razonar mejor sobre información jerárquica.",
-          "sector_impact": "Mejora el soporte para decisiones empresariales."
-        },
-        {
-          "title": "LENS: Búsqueda In-Contexto a través de la Exploración de Evidencias Latentes",
-          "summary": "LENS propone un marco sin índices para la búsqueda de evidencias en colecciones de documentos en tiempo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.16185",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "búsqueda",
-            "documentos dinámicos"
-          ],
-          "what_changed": "Desarrollo de un marco que mejora la localización de datos relevantes en colecciones dinámicas.",
-          "why_it_matters": "LENS propone un marco sin índices para la búsqueda de evidencias en colecciones de documentos en tiempo real.",
-          "sector_impact": "Avance en la recuperación de información en entornos dinámicos."
-        },
-        {
-          "title": "Agent Lightning v1.0: Hacia un Aprendizaje por Refuerzo Aprendido en Harness",
-          "summary": "Agent Lightning es un marco que permite el aprendizaje por refuerzo en agentes, facilitando la interacción y el entrenamiento de modelos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.17528",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje por refuerzo",
-            "agentes"
-          ],
-          "what_changed": "Introducción de una arquitectura para el aprendizaje por refuerzo usando una interfaz de proxy de LLM.",
-          "why_it_matters": "Agent Lightning es un marco que permite el aprendizaje por refuerzo en agentes, facilitando la interacción y el entrenamiento de modelos.",
-          "sector_impact": "Impulsa el desarrollo de agentes más eficientes y potentes."
-        },
-        {
-          "title": "Fair ASR: Re-evaluando Jailbreaks de Caja Negra",
-          "summary": "Fair ASR introduce un protocolo de evaluación para ataques de jailbreak, considerando el presupuesto de llamadas objetivo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.17360",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "evaluación"
-          ],
-          "what_changed": "Implementación de un nuevo protocolo de evaluación en ataques de jailbreak sobre modelos de IA.",
-          "why_it_matters": "Fair ASR introduce un protocolo de evaluación para ataques de jailbreak, considerando el presupuesto de llamadas objetivo.",
-          "sector_impact": "Mejora la evaluación de la seguridad en modelos de IA."
-        },
-        {
-          "title": "Benchmarking de Parches de Seguridad Automáticos",
-          "summary": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.17671",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "automación"
-          ],
-          "what_changed": "Desarrollo de un conjunto de datos para la evaluación de herramientas de retroceso de parches.",
-          "why_it_matters": "Se presenta Porting Benchmark, un conjunto de datos que evalúa herramientas de retroceso de parches de seguridad en varios entornos.",
-          "sector_impact": "Mejora la seguridad en sistemas de software."
         }
       ]
     }
