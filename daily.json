@@ -1,128 +1,112 @@
 {
-  "date": "2026-08-26",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "En este radar diario, destacamos las herramientas, modelos y frameworks más relevantes en el ámbito de la Inteligencia Artificial.",
-  "opening_message": "A continuación, presentamos los elementos más importantes que impactan el desarrollo y la implementación de IA en diversas industrias.",
+  "date": "2026-08-27",
+  "executive_title": "Radar IA del día",
+  "intro_message": "Resumen automático del ecosistema de IA.",
+  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
   "items": [
     {
-      "title": "REFINE: A Multi-Agent LLM Approach for Evidence-Guided Code Refactoring",
-      "summary": "REFINE combina análisis estático y transformación de código mediante LLM para generar propuestas de refactorización en Java.",
-      "category": "tool",
+      "title": "Can large language models assist choice modelling? Insights into prompting strategies and current models' capabilities",
+      "summary": "arXiv:2507.21790v3 Announce Type: replace-cross Abstract: Large Language Models (LLMs) are becoming widely used to support various workflows across different disciplines, yet their potential in discrete choice modelling remains relatively unexplored. This work examines the potential of LLMs as assistive agents in the specification and, where technically feasible, estimation of Multinomial Logit models. We implement a systematic experimental framework involving twelve versions of seven leading LLMs (ChatGPT, Claude, DeepSeek, Gemini, Gemma, Llama, and Mistral) evaluated under five experimental configurations. These configurations vary along three dimensions: (i) modelling goal (suggesting vs. suggesting and estimating MNL models); (ii) prompting strategy (Zero-Shot vs. Chain-of-Thoughts (CoT)); and (iii) information availability (full dataset vs. data dictionary summarising variable names and types). Each specification suggested by the LLMs is implemented, estimated, and evaluated based on goodness-of-fit metrics, behavioural plausibility, and model complexity. Our findings reveal that proprietary LLMs can generate valid and behaviourally sound utility specifications, particularly when guided by structured prompts (CoT). Open-weight models such as Llama and Gemma struggled to produce meaningful specifications. Notably, some LLMs performed better when provided with just data dictionary, suggesting that limiting raw data access may enhance internal reasoning capabilities. Among all LLMs, GPT o3, operating in an agentic setting, was uniquely capable of correctly estimating its own specifications by executing self-generated code. Overall, the results demonstrate both the promise and current limitations of LLMs as assistive agents in discrete choice modelling, not only for model specification but also for supporting modelling decision and estimation, and provide practical guidance for integrating these tools into choice modellers' workflows.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.23611",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2507.21790",
+      "relevance_score": 40,
       "status": "new",
-      "tags": [
-        "refactorización",
-        "LLM",
-        "Java",
-        "multi-agente"
-      ],
-      "what_changed": "Introducción de un enfoque multi-agente para la refactorización automatizada de código.",
-      "why_it_matters": "Reduce hasta 72.79% de olores de código, mejorando la calidad del software.",
-      "sector_impact": "Impacto significativo en el desarrollo de software y mantenimiento."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "EngiAI: Capability-Based Evaluation of Tool-Connected LLM Agents for Engineering Design",
-      "summary": "Marco de evaluación para agentes conectados a herramientas en diseño de ingeniería, analizando su efectividad en tareas críticas.",
-      "category": "framework",
+      "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight",
+      "summary": "arXiv:2608.24314v1 Announce Type: new Abstract: Evaluating conversational voice agents at scale re- quires reliable assessment methods that capture both observ- able interaction quality and the contextual judgment typically provided by human evaluators. We investigate LLM-as-a-Judge evaluation by comparing human judgments with GPT-4.1 and GPT-5 on telecom and retail voice-agent conversations, across conversational quality and safety dimensions. The same interac- tions are scored under three evaluation configurations, p0, p1, and p2, to test whether automated judgments are sensitive to the evaluation setup and whether observed patterns generalize across configurations and judge models. Beyond aggregate agreement, we examine metric-level correlations, evaluator consistency, and systematic human-LLM disagreement to identify which conver- sational attributes can be judged reliably by automation and which remain sensitive to interpretation and context. Effective voice-agent evaluation is also shaped by pipeline-level factors such as speech generation, streaming, and error propagation across ASR, reasoning, and tool-calling stages, motivating our focus on comparing how human and LLM judges score the same interactions end to end. Our results show that LLM- based evaluation can serve as an effective component of large- scale voice-agent assessment, but that its reliability is metric- and configuration-dependent rather than uniform. This pro- vides an empirical framework for identifying which metrics suit automated evaluation and supports hybrid pipelines in which LLM judges handle scalable assessment while human evaluators remain engaged for metrics that demand contextual interpretation and higher-confidence judgment.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.19743",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.24314",
+      "relevance_score": 35,
       "status": "new",
-      "tags": [
-        "evaluación",
-        "agentes",
-        "ingeniería"
-      ],
-      "what_changed": "Presentación de un marco que evalúa habilidades específicas de los LLM en diseño.",
-      "why_it_matters": "Permite comparaciones precisas y estructuradas de la efectividad de LLM en tareas de ingeniería.",
-      "sector_impact": "Mejora en procesos de diseño y análisis de ingeniería."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ADVERSA: Measuring Multi-Turn Guardrail Degradation and Judge Reliability in Large Language Models",
-      "summary": "Metodología para medir la degradación de las salvaguardias en interacciones prolongadas con LLMs.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.10068",
-      "relevance_score": 7,
+      "title": "Orchestration is the new challenge for CX in the age of AI agents",
+      "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has involved attaching conversational AI to legacy systems never built for it, says Gaurav Anand, global head of the Customer Interaction Suite at Tata Communications. \"In the rush to deploy AI, organizations have largely bolted conversational AI onto legacy systems,\" Anand says. \"As a result, while many enterprises have adopted digital tools, very few have platforms that are truly integrated, scaled, and capable of seamless orchestration.\" That gap creates a heavy cognitive load for human agents who must piece together context across disjointed tools to understand what an AI system has already told a customer. The challenge is not simply access to data, but the absence of a shared enterprise context that connects customer identities, interactions, transactions, policies, journeys, and operational systems into a common understanding. Traditional CX architecture was built for linear, human-driven routing, not for managing real-time data flows between autonomous AI systems, data lakes, and human workers. \"Today's operational complexity is no longer about adding more intelligence,\" he adds. \"It is about coordinating the existing intelligence across the enterprise, so the enterprise customer never feels the friction of those internal silos. That requires a shared context layer that allows AI systems, applications, and people to operate from the same understanding of the customer and the business.\" Why orchestration is replacing automation as the top CX priority As that coordination problem grows, Anand says the strategic priority inside enterprises is shifting from automation to orchestration. \"Automation solves individual tasks, whereas orchestration connects them into end-to-end outcomes,\" Anand says. \"The next evolution is context-aware orchestration, where AI agents, applications, and human workers operate using a shared understanding of customers, processes, and business intent rather than isolated system records.\" As organizations accumulate more bots, agents, and AI tools, managing them grows exponentially more complex. Anand says the competitive advantage now sits less in deploying automation and more in how intelligently systems hand off work, collaborate, and escalate. The trap of bolting AI onto legacy systems Companies that simply place a voice AI agent in front of an existing system are repeating the same old mistake. Instead of improving the experience, they end up recreating the deterministic phone menus AI was supposed to replace. The real benefit of AI is the scale, speed, and orchestration it provides. Anand points to a wave of consolidation across the industry, as established contact center providers acquire AI-native firms to close capability gaps and strengthen their customer experience offerings. The broader industry shift reflects a growing recognition that enterprises need more than channels and automation; they need an intelligence layer capable of orchestrating AI, people, data, and workflows across the business. The goal across industries is to make AI the connective layer between customers, employees, and enterprise systems. To achieve that, organizations increasingly need a common enterprise ontology: a shared business vocabulary that aligns customer data, products, policies, SOPs, transactions, and workflows across otherwise disconnected platforms. Tata Communications’ solution is the Interaction Fabric, an orchestration layer that unifies contact center, messaging, collaboration, AI, and customer data while coordinating AI agents, channels, and enterprise systems in real time. Underpinning that orchestration is a context-driven architecture that continuously connects identities, conversations, transactions, and operational data so interactions retain continuity across channels and touchpoints. That means AI and agents can move across voice, WhatsApp, chat, email, and CRM workflows without losing customer context. Identity, intent, and AI-driven insight flow continuously across channels instead of remaining trapped in disconnected applications. The next phase of orchestration is not simply coordinating tasks across systems, but coordinating them through a shared understanding of the enterprise. Context graphs, built on enterprise ontologies, create that common understanding by connecting customers, interactions, products, policies, decisions, and outcomes across organizational silos. This allows AI agents and human workers to operate from the same source of context, driving more accurate decisions, seamless handoffs, and consistent customer experiences. But synchronizing customer intent, conversation history, enterprise data, and AI decision-making across channels only works without lag. Legacy networks not designed for modern data frequency create what Anand calls data gravity, producing latency and inconsistent journeys as users switch channels. \"The underlying network needs to be engineered to be as agile as the AI systems running on top of it,\" he explains. \"Interactions stay synchronous and technology itself becomes invisible, leaving only an experience that feels effortless.\" Making AI a better partner for human agents Effective shared visibility between human agents and AI systems starts with the agent experience rather than any single technology. The most effective implementations allow both the AI and human agent to operate from the same contextual understanding of the customer, ensuring that information gathered in one interaction can inform the next regardless of channel or system. Automated call summaries, real-time sentiment analysis, and AI-powered assistance provide agents with instant, actionable insights and suggested next steps directly within their workflow. That allows AI to handle routine, high-volume tasks such as password resets, delivery tracking, and account updates, while human agents focus on interactions requiring judgment and empathy. \"If a customer is facing a sudden crisis like a fraudulent transaction, the AI can instantly block the card, but it cannot provide the emotional comfort and delicate communication needed in that moment of panic,\" Anand says. \"The answer to the dilemma is intelligent orchestration, rather than a choice between systems.\" In practice, AI handles the immediate technical transaction, while real-time sentiment analysis recognizes the customer's distress and routes the call to a human expert. The objective is to orchestrate AI and human agents together so efficiency never comes at the cost of brand trust and loyalty. Building a unified CX architecture Moving from fragmented experimentation to coordinated orchestration requires both technical and organizational change, Anand says, beginning with consolidating data and fragmented point solutions onto a unified, cloud-first platform. \"IT and CX teams need to work more collaboratively,\" he explains, describing that alignment as the second necessary shift, this time at the organizational level. At the architecture level, Anand says communication APIs need to be embedded into the enterprise's core so every function operates from the same customer context instead of maintaining its own siloed data. Increasingly, this means moving beyond integration alone toward a contextual architecture where a shared ontology and context graph provide a common understanding across CX, operations, sales, service, and AI systems. The deeper organizational change, he says, is a mindset shift from reactive support toward proactive, predictive, and personalized engagement, which he calls the three Ps. How AI agents will shape the future of CX Customer engagement over the next several years will be defined by real-time intelligence, increasing autonomy, and seamless orchestration across touchpoints, and persistent enterprise context that follows customers, employees, and AI agents wherever interactions occur. Rather than analyzing interactions after the fact, enterprises will increasingly shape conversations in real time. \"The future of CX will be defined by simplification, aligning data, infrastructure, and operating models around clear customer outcomes rather than adding more models and tools,\" Anand says. \"The rise of AI-powered agents and agent-to-agent interactions is a defining trend, with AI systems moving beyond assisting humans to independently managing and resolving interactions, creating a largely invisible layer of engagement that improves speed and efficiency.\" Human agents will increasingly work alongside AI, supported by real-time conversational intelligence and next-best-action recommendations to deliver what Anand calls Total Experience: a unified model that brings together customer, employee, and AI-driven experiences. Tata Communications is building toward that future through its Voice AI, AI Workers, and Total Experience Hub solutions. \"Ultimately, customer engagement will evolve from being reactive to predictive and increasingly generative,\" Anand says. \"Enterprises won't just be responding to needs, but actively shaping and improving customer journeys in real time.\" Sponsored articles are content produced by a company that is either paying for the post or has a business relationship with VentureBeat, and they’re always clearly marked. For more information, contact sales@venturebeat.com.",
+      "category": "model",
+      "source_name": "VentureBeat AI",
+      "source_url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+      "relevance_score": 32,
       "status": "new",
-      "tags": [
-        "evaluación",
-        "seguridad",
-        "LLM"
-      ],
-      "what_changed": "Introducción de una evaluación de continuo en la confiabilidad de los modelos de lenguaje.",
-      "why_it_matters": "Permite identificar y mitigar riesgos asociados a LLMs en interacciones extendidas.",
-      "sector_impact": "Aumento en la seguridad y confiabilidad de implementaciones de IA."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
-      "summary": "Compresor de contexto para agentes de código que optimiza el uso de tokens al reenviar información.",
-      "category": "tool",
+      "title": "'Ghaib in Translation' aka Unseen Harm: Measuring Cross-Script Safety Inconsistency with 'Missed-in-Urdu' Scores in LLM Hate Speech Detection",
+      "summary": "arXiv:2608.24191v1 Announce Type: cross Abstract: Urdu, the world's tenth most spoken language with 246 million speakers, remains almost entirely absent from mainstream LLM safety evaluation and nine years of WOAH proceedings. To investigate whether this absence has measurable consequences for content moderation reliability, five large language models, GPT-4o, Claude Sonnet 4.5, Gemini 2.5 Flash, Qwen-2.5, and Llama-3.1, were tested across six datasets spanning Nastaliq Urdu, Roman Urdu, English, and code-switched Urdu-English. Across the five Urdu-script datasets, label instability between original-script and English-translation classification ranged from 15.9% (Gemini 2.5 Flash) to 31.6% (Qwen-2.5), with a 'Missed-in-Urdu' rate, content flagged as harmful in English translation but passed as normal in the original script, ranging from 2.4% to 9.9% (median 4.3%). A complete enumeration of all 205 papers across nine ALW/WOAH editions via the ACL Anthology API confirms zero dedicated Urdu papers across the entire period. Results indicate that current LLMs provide uneven safety assurance across Urdu's script varieties, with smaller open-weight models showing substantially higher instability and missed-harm rates than frontier closed models.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.24188",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.24191",
+      "relevance_score": 30,
       "status": "new",
-      "tags": [
-        "compresión",
-        "contexto",
-        "agentes"
-      ],
-      "what_changed": "Desarrollo de un compresor de contexto extractivo condicional al propósito.",
-      "why_it_matters": "Reduce el tamaño del contexto necesario sin sacrificar calidad en la solución.",
-      "sector_impact": "Optimización de costos en interacciones de IA y herramientas de desarrollo."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "Design-to-Plan: LLM-Based Multi-Agent Framework for Manufacturing Process Planning",
-      "summary": "Framework que utiliza modelos de lenguaje para la planificación de procesos de manufactura mediante agentes especializados.",
-      "category": "framework",
+      "title": "Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav",
+      "summary": "arXiv:2608.24764v1 Announce Type: new Abstract: Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interaction (DCI) keeps the full corpus accessible, yet reachable evidence can remain unusable under finite interaction budgets. Required evidence may fail to surface, a surfaced supporting document may remain unopened, or an opened document may fail to expose its decisive fragment. We call this progressive silent loss Evidence Blindness and quantify it through stage-wise evidence realization. Within the DCI paradigm, raw interaction adds little reusable corpus organization, while dynamic-workspace methods reconstruct a query-conditioned interaction space from each query and trajectory. In both cases, useful structure is recovered largely online. We instead formulate large-scale agentic search as finite-budget navigation over reusable corpus structure. We introduce AtlasNav, a persistent multi-view corpus-navigation framework that retains direct corpus interaction but organizes the corpus once into a Corpus Atlas, allowing each query to navigate adaptively rather than reconstruct shared structure. On BrowseComp-Plus, AtlasNav achieves 92.05% strict accuracy while reducing recorded online inference cost by 30.21% relative to the prior dynamic-workspace state of the art. Under matched budgets, it realizes the complete required evidence earlier and approaches the same model's evidence-supplied empirical reference more rapidly. The same representation principle remains effective under PhantomWiki's distinct corpus organization and controlled 10K-1M scaling, and transfers competitively to heterogeneous enterprise knowledge. These results show that agentic search depends not only on accessible evidence, but also on how the corpus is represented so that limited interaction becomes effective navigation.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.24039",
-      "relevance_score": 8,
+      "source_url": "https://arxiv.org/abs/2608.24764",
+      "relevance_score": 28,
       "status": "new",
-      "tags": [
-        "manufactura",
-        "planificación",
-        "agentes"
-      ],
-      "what_changed": "Integración de LLMs como agentes de razonamiento en la planificación de manufactura.",
-      "why_it_matters": "Mejora la eficiencia y trazabilidad en el proceso de manufactura.",
-      "sector_impact": "Transforma la planificación en la industria manufacturera."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision",
-      "summary": "Modelo de control de acciones a nivel de paso para agentes de IA con supervisión escalable.",
-      "category": "tool",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "summary": "arXiv:2608.24876v1 Announce Type: new Abstract: Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from Experiential Memory, grounding skill use in current needs rather than the full history. This coupling also turns execution into structured evidence that localizes failures to specific memory components. Across tasks, a fixed Meta-Agent turns that evidence into localized, validation-gated updates to Skill Memory that reshape execution and yield new evidence, forming a bounded recursive memory-evolution loop. Across four long-horizon benchmarks and ten models, Recuris improves task success in 35 of the 37 completed model-benchmark pairs, carrying frontier models to SOTA-level task success: on tau-bench it adds +17.8 points to GPT-5.6 Sol and +15.6 to Claude Opus 5, taking Opus 5 to 87.9%, and +16.6/+13.5 points on Qwen3.6-27B/35B on SkillFlow. The advantage widens as the interaction horizon grows, to +32.2 points on the longest tasks, and common long-horizon failures fall by up to 80%. These results position recursively evolving memory as a scalable foundation for RSI, enabling agents to continuously transform accumulated experience into increasingly effective long-horizon behavior. Code: https://github.com/Gen-Verse/Recuris",
+      "category": "labs",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.24777",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2608.24876",
+      "relevance_score": 27,
       "status": "new",
-      "tags": [
-        "seguridad",
-        "AGI",
-        "vigilancia"
-      ],
-      "what_changed": "Desarrollo de un modelo que audita acciones de agentes antes de su ejecución.",
-      "why_it_matters": "Reduce el riesgo de acciones no autorizadas en aplicaciones de IA.",
-      "sector_impact": "Aumenta la seguridad y efectividad de operaciones automatizadas."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     },
     {
-      "title": "ESQ-Bench: Multi-Tier Benchmark for Evaluating NL2SQL Dialect Generalization",
-      "summary": "Nuevo benchmark para evaluar la capacidad de modelos NL2SQL en condiciones complejas de esquemas de base de datos.",
-      "category": "framework",
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation while varying the reader-facing artifact. RENDER combines a five-level packet ladder, localizing when answer-bearing content enters the input, with deterministic templates approximating ChatGPT-style entries, LangChain summaries, MemGPT-style typed records, and raw conversation. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. In deployed-style templates, best-worst spread is 24.6-48.8 points per model; under the primary scorer, ChatGPT-style entries have higher point estimates than raw conversation on 7 of 9 models. Judge rescoring preserves the positive aggregate effect, but model-specific significance is mixed. Three models scoring 0 percent on formal ledger packets answer the same facts from natural-language entries at 45.4-53.4 percent. The effect persists under retrieval noise and transfers to HotpotQA, suggesting that memory/RAG evaluations should report or control the reader-facing artifact.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.23569",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.23568",
+      "relevance_score": 26,
       "status": "new",
-      "tags": [
-        "NL2SQL",
-        "evaluación",
-        "benchmark"
-      ],
-      "what_changed": "Lanzamiento de un benchmark que refleja mejor la complejidad empresarial en NL2SQL.",
-      "why_it_matters": "Mejora la capacidad de los modelos para manejar estructuras de datos reales.",
-      "sector_impact": "Impacto en la adopción de IA en la gestión de datos empresariales."
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+    },
+    {
+      "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+      "summary": "arXiv:2608.24358v1 Announce Type: new Abstract: Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits. As these runs unfold, users face a practical cost-quality trade-off: escalating to a stronger model when a cheaper one struggles, or downshifting once the hard reasoning is complete. Each switch requires the receiver to continue a non-native trajectory produced by another model. We study how this handoff affects quality and cost, and how varying the trajectory information inherited by the receiver changes the outcome. Using pairs of low-cost, low-capability (LC) and high-cost, high-capability (HC) models from the Claude and GPT families, we vary handoff direction, timing, and interface, comparing full-trajectory transfer, compaction, and trajectory removal while preserving the repository state. Across both model families, full-trajectory escalation recovers less than half of the LC-to-HC quality gap while incurring a substantial cost premium. We term this cost-quality penalty the handoff tax. By contrast, downshift offers a favorable cost-quality point. Interestingly, the preferred interface also reverses with direction: reducing LC-model trajectory information improves escalation quality, whereas removing the HC-model trajectory reduces downshift quality.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.24358",
+      "relevance_score": 26,
+      "status": "new",
+      "tags": [],
+      "what_changed": "Nueva señal detectada.",
+      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
+      "sector_impact": "Relevante para el ecosistema de IA aplicada."
     }
   ]
 }
