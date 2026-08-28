@@ -1,6 +1,125 @@
 {
   "days": [
     {
+      "date": "2026-08-28",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory",
+          "summary": "Un nuevo enfoque para la planificación de viajes que utiliza comportamientos pasados del usuario para generar itinerarios personalizados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26807",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "planeación",
+            "personalización"
+          ],
+          "what_changed": "Introducción del enfoque Behavior-Aware Travel Planning.",
+          "why_it_matters": "Mejora la interacción y reduce la carga de entrada del usuario, aumentando la personalización.",
+          "sector_impact": "Turismo"
+        },
+        {
+          "title": "DRL: A Deterministic Relational Middleware Layer for Transaction-Safe Enterprise NL2SQL Under Schema-Graph Scaling",
+          "summary": "Un middleware que mejora la ejecución de consultas SQL naturales, optimizando la interacción con bases de datos en entornos empresariales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26172",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "integraciones",
+            "NL2SQL"
+          ],
+          "what_changed": "Introducción de verificaciones transaccionales y poda dinámica de contexto.",
+          "why_it_matters": "Permite una comunicación más efectiva entre interfaces de lenguaje natural y bases de datos, mejorando la fiabilidad.",
+          "sector_impact": "Tecnología de la información"
+        },
+        {
+          "title": "Zero-Shot Self-Orchestration with Ledger-Based Control for Improved LLM Coding Performance",
+          "summary": "Investigación sobre el uso de sistemas de múltiples agentes para mejorar el rendimiento de la codificación de LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26480",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "codificación"
+          ],
+          "what_changed": "Introducción de un sistema de gestión de tareas entre agentes para mejorar precisión.",
+          "why_it_matters": "Ofrece un enfoque novedoso para combinar agentes y mejorar la eficiencia en tareas complejas.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+          "summary": "Benchmark para evaluar la fiabilidad de los jueces LLM en sistemas de herramientas agenciales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26623",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Presentación de un nuevo estándar de evaluación para sistemas con herramientas agenciales.",
+          "why_it_matters": "Establece un marco para la evaluación de la fiabilidad y eficiencia de los modelos de IA.",
+          "sector_impact": "Inteligencia artificial"
+        },
+        {
+          "title": "Evaluating human and LLM screening workflows in a conceptually complex scoping review",
+          "summary": "Comparación de flujos de trabajo de evaluación humana y LLM en revisiones de cobertura de evidencias.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26885",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "eficiencia"
+          ],
+          "what_changed": "Mejoras en el rendimiento de LLM para la evaluación de literatura científica.",
+          "why_it_matters": "Aumenta la eficiencia en la revisión de literatura y la identificación de estudios relevantes.",
+          "sector_impact": "Investigación"
+        },
+        {
+          "title": "AgentJudgeBench: Advances in Evaluating LLMs with Agentic Tool-Calling",
+          "summary": "Avances en la evaluación de LLMs para sistemas que llaman a herramientas en entornos completamente autónomos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26623",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "herramientas"
+          ],
+          "what_changed": "Nuevas métricas que mejoran la precisión en la evaluación de sistemas agenciales.",
+          "why_it_matters": "Proporciona un marco necesario para el desarrollo y la evaluación de herramientas LLM.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
+          "summary": "Exploración del papel de los LLMs en la automatización del diseño electrónico.",
+          "category": "sector",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.27184",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "automación",
+            "diseño electrónico"
+          ],
+          "what_changed": "Cambio en el enfoque de generación a orquestación en diseño electrónico.",
+          "why_it_matters": "Mejora la forma en que se llevan a cabo los procesos de diseño y aumenta la eficiencia operativa.",
+          "sector_impact": "Ingeniería electrónica"
+        }
+      ]
+    },
+    {
       "date": "2026-08-27",
       "executive_title": "Radar IA del día",
       "items": [
@@ -714,131 +833,6 @@
           "what_changed": "Investigaciones sobre la memoria de los agentes de IA.",
           "why_it_matters": "Optimiza el rendimiento de los agentes mejorando la asignación de recursos.",
           "sector_impact": "Aumenta la eficiencia de los agentes inteligentes."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Binance ahora permite la negociación con agentes de IA",
-          "summary": "Binance ha introducido su sistema Agent OS, que permite a los usuarios comerciar con herramientas de IA como ChatGPT y Claude Code.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "trading",
-            "AI agents",
-            "Binance"
-          ],
-          "what_changed": "Implementación de un sistema que permite operar con AI.",
-          "why_it_matters": "Proporciona a los usuarios nuevas herramientas para comerciar de manera más eficiente.",
-          "sector_impact": "Impacto significativo en la industria de la criptomoneda."
-        },
-        {
-          "title": "SNAIL: Reconocimiento automático de software de bioinformática",
-          "summary": "SNAIL es un nuevo marco diseñado para identificar nombres de software y bases de datos en textos biomédicos, superando a herramientas existentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.19201",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "biomedicina",
-            "reconocimiento de entidades",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un marco híbrido de reconocimiento de entidades.",
-          "why_it_matters": "Permite una extracción de datos biomédicos más precisa y automatizada.",
-          "sector_impact": "Mejora la investigación en bioinformática y análisis de datos médicos."
-        },
-        {
-          "title": "FlowEvo: Agentes auto-evolutivos para la construcción de flujos de trabajo",
-          "summary": "FlowEvo es un marco que permite a los modelos de lenguaje generar y evolucionar habilidades en tiempo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.21596",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "flujos de trabajo",
-            "IA"
-          ],
-          "what_changed": "Introducción de un marco sin entrenamiento que co-evoluciona flujos de trabajo y habilidades.",
-          "why_it_matters": "Aumenta la eficiencia y la adaptabilidad de los agentes en tareas complejas.",
-          "sector_impact": "Fomenta la innovación en la automatización y el desarrollo de software."
-        },
-        {
-          "title": "DeltaML-Bench: Evaluación de agentes de ML en repositorios de investigación",
-          "summary": "DeltaML-Bench introduce benchmarks para evaluar agentes en entornos de ML abiertos y desafiantes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.19653",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "agentes",
-            "ML"
-          ],
-          "what_changed": "Desarrollo de una nueva serie de tareas para evaluar la efectividad de los agentes.",
-          "why_it_matters": "Proporciona un estándar para mejorar la calidad de los agentes de ML en condiciones reales.",
-          "sector_impact": "Impulsa avances en la investigación y desarrollo de agentes autónomos."
-        },
-        {
-          "title": "PolicyGuide: Agentes de LLMs conforme a políticas organizacionales",
-          "summary": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.19861",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "políticas",
-            "agentes",
-            "IA"
-          ],
-          "what_changed": "Implementación de un verificador proactivo para guiar a los agentes en procedimientos complejos.",
-          "why_it_matters": "PolicyGuide ayuda a los agentes a seguir políticas organizacionales durante la interacción con usuarios.",
-          "sector_impact": "Mejora la confianza en la automatización de procesos empresariales."
-        },
-        {
-          "title": "Repo0: Generación de código desde cero",
-          "summary": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.19854",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "generación de código",
-            "software",
-            "IA"
-          ],
-          "what_changed": "Presentación de un enfoque de evolución estructural continua para la generación de código.",
-          "why_it_matters": "Repo0 es un marco que permite la generación de proyectos de software a partir de requisitos en lenguaje natural.",
-          "sector_impact": "Transforma la forma en que se desarrollan aplicaciones de software."
-        },
-        {
-          "title": "MidTool: Sintetización de datos en medio del entrenamiento para el uso de herramientas",
-          "summary": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.20314",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "entrenamiento",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un corpus abierto que combina datos de web, PDF y códigos para mejorar el uso de herramientas.",
-          "why_it_matters": "MidTool es un pipeline que enseña a los modelos a utilizar herramientas de manera efectiva durante el entrenamiento.",
-          "sector_impact": "Impulsa la versatilidad de los modelos de LLM en aplicaciones prácticas."
         }
       ]
     }
