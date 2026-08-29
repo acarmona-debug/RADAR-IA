@@ -1,121 +1,122 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Esta es tu actualización diaria sobre las últimas herramientas, modelos y características de la inteligencia artificial.",
-  "opening_message": "Enfocándonos en lo más relevante y práctico, aquí tienes las herramientas y desarrollos que marcan tendencia en la IA.",
+  "intro_message": "Resumen diario de los desarrollos más relevantes en herramientas y modelos de IA.",
+  "opening_message": "Hoy destacamos las últimas innovaciones en inteligencia artificial, centrándonos en herramientas, modelos y marcos que están cambiando el panorama tecnológico.",
   "items": [
     {
-      "title": "Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory",
-      "summary": "Un nuevo enfoque para la planificación de viajes que utiliza comportamientos pasados del usuario para generar itinerarios personalizados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26807",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "planeación",
-        "personalización"
-      ],
-      "what_changed": "Introducción del enfoque Behavior-Aware Travel Planning.",
-      "why_it_matters": "Mejora la interacción y reduce la carga de entrada del usuario, aumentando la personalización.",
-      "sector_impact": "Turismo"
-    },
-    {
-      "title": "DRL: A Deterministic Relational Middleware Layer for Transaction-Safe Enterprise NL2SQL Under Schema-Graph Scaling",
-      "summary": "Un middleware que mejora la ejecución de consultas SQL naturales, optimizando la interacción con bases de datos en entornos empresariales.",
+      "title": "Modality Maturity Index: Benchmark para modelos multimodales",
+      "summary": "Se propone un índice diseñado para evaluar capacidades multimodales de modelos grandes de lenguaje en cinco modalidades.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26172",
+      "source_url": "https://arxiv.org/abs/2608.26317",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "multimodal",
+        "benchmark",
+        "modelo"
+      ],
+      "what_changed": "Introducción del Modality Maturity Index.",
+      "why_it_matters": "Permite evaluar la efectividad de modelos en tareas complejas que requieren comprensión de múltiples modalidades.",
+      "sector_impact": "Aumentará la precisión en tareas que involucran diversas formas de datos."
+    },
+    {
+      "title": "NIS-Agent: Mejora en Agentes de Investigación Profunda",
+      "summary": "Un nuevo marco que aísla el ruido en la toma de decisiones de agentes de investigación impulsados por LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.23045",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "integraciones",
-        "NL2SQL"
+        "agente",
+        "automatización"
       ],
-      "what_changed": "Introducción de verificaciones transaccionales y poda dinámica de contexto.",
-      "why_it_matters": "Permite una comunicación más efectiva entre interfaces de lenguaje natural y bases de datos, mejorando la fiabilidad.",
-      "sector_impact": "Tecnología de la información"
+      "what_changed": "Introducción del NIS-Agent para mejorar la objetividad en la evaluación de acciones anteriores.",
+      "why_it_matters": "Reduce el sesgo de inercia en la toma de decisiones de agentes de búsqueda.",
+      "sector_impact": "Incrementa la efectividad en tareas de investigación complejas."
     },
     {
-      "title": "Zero-Shot Self-Orchestration with Ledger-Based Control for Improved LLM Coding Performance",
-      "summary": "Investigación sobre el uso de sistemas de múltiples agentes para mejorar el rendimiento de la codificación de LLM.",
+      "title": "Evaluación de Modelos para Revisiones Sistemáticas con LLMs",
+      "summary": "Desarrollo de un pipeline LLM para extraer información relevante de investigaciones sobre modelos de propagación de enfermedades.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26480",
+      "source_url": "https://arxiv.org/abs/2608.26150",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automatización",
-        "codificación"
+        "revisión",
+        "literatura",
+        "modelo"
       ],
-      "what_changed": "Introducción de un sistema de gestión de tareas entre agentes para mejorar precisión.",
-      "why_it_matters": "Ofrece un enfoque novedoso para combinar agentes y mejorar la eficiencia en tareas complejas.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Aplicación de LLMs en revisiones sistemáticas.",
+      "why_it_matters": "Permite automatizar procesos de revisión literaria de manera efectiva.",
+      "sector_impact": "Mejora la eficiencia en la investigación médica y epidemiológica."
     },
     {
-      "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
-      "summary": "Benchmark para evaluar la fiabilidad de los jueces LLM en sistemas de herramientas agenciales.",
+      "title": "DeepPlanner: Mejora la Capacidad de Planificación",
+      "summary": "Un marco de aprendizaje reforzado que mejora las capacidades de planificación en agentes de investigación profunda.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26623",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2510.12979",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "agentes",
-        "evaluación"
+        "planificación",
+        "aprendizaje"
       ],
-      "what_changed": "Presentación de un nuevo estándar de evaluación para sistemas con herramientas agenciales.",
-      "why_it_matters": "Establece un marco para la evaluación de la fiabilidad y eficiencia de los modelos de IA.",
-      "sector_impact": "Inteligencia artificial"
+      "what_changed": "Introducción de un nuevo marco que optimiza la planificación de agentes.",
+      "why_it_matters": "Optimiza las decisiones estratégicas en tareas complejas.",
+      "sector_impact": "Aumenta la efectividad de los modelos en la toma de decisiones complejas."
     },
     {
-      "title": "Evaluating human and LLM screening workflows in a conceptually complex scoping review",
-      "summary": "Comparación de flujos de trabajo de evaluación humana y LLM en revisiones de cobertura de evidencias.",
-      "category": "tool",
+      "title": "Rethinking the Evaluation of Harness Evolution for Agents",
+      "summary": "Reevaluación de la evolución automática de sistemas de harness para LLMs, destacando las limitaciones de los métodos actuales.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26885",
+      "source_url": "https://arxiv.org/abs/2607.12227",
       "relevance_score": 6,
       "status": "new",
       "tags": [
         "evaluación",
-        "eficiencia"
+        "modelo"
       ],
-      "what_changed": "Mejoras en el rendimiento de LLM para la evaluación de literatura científica.",
-      "why_it_matters": "Aumenta la eficiencia en la revisión de literatura y la identificación de estudios relevantes.",
-      "sector_impact": "Investigación"
+      "what_changed": "Análisis de protocolos de evaluación más justos para la evolución de harness.",
+      "why_it_matters": "Plantea nuevos estándares para evaluar la eficacia de la evolución automática.",
+      "sector_impact": "Mejora la calidad de la evaluación de modelos de lenguaje."
     },
     {
-      "title": "AgentJudgeBench: Advances in Evaluating LLMs with Agentic Tool-Calling",
-      "summary": "Avances en la evaluación de LLMs para sistemas que llaman a herramientas en entornos completamente autónomos.",
-      "category": "model",
+      "title": "Explorando el Rol de LLMs en Programación HPC",
+      "summary": "Revisión de la aplicación de LLMs en la programación de computación de alto rendimiento.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26623",
+      "source_url": "https://arxiv.org/abs/2608.26110",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "evaluación",
-        "herramientas"
+        "HPC",
+        "programación"
       ],
-      "what_changed": "Nuevas métricas que mejoran la precisión en la evaluación de sistemas agenciales.",
-      "why_it_matters": "Proporciona un marco necesario para el desarrollo y la evaluación de herramientas LLM.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Identificación de oportunidades y limitaciones en el uso de LLMs en HPC.",
+      "why_it_matters": "Ofrece un análisis comprensivo sobre la aplicación de LLMs en áreas críticas.",
+      "sector_impact": "Potencial para revolucionar el desarrollo de software en HPC."
     },
     {
-      "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
-      "summary": "Exploración del papel de los LLMs en la automatización del diseño electrónico.",
-      "category": "sector",
+      "title": "Benchmarking AI Agents para Automatización de Diseño de Hardware",
+      "summary": "Evaluación de agentes de IA para automatizar flujos de trabajo de diseño de hardware.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.27184",
-      "relevance_score": 5,
+      "source_url": "https://arxiv.org/abs/2608.26199",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automación",
-        "diseño electrónico"
+        "hardware",
+        "automatización"
       ],
-      "what_changed": "Cambio en el enfoque de generación a orquestación en diseño electrónico.",
-      "why_it_matters": "Mejora la forma en que se llevan a cabo los procesos de diseño y aumenta la eficiencia operativa.",
-      "sector_impact": "Ingeniería electrónica"
+      "what_changed": "Introducción de un protocolo para estudiar la fiabilidad de agentes de diseño.",
+      "why_it_matters": "Mejora la automatización en la ingeniería de hardware a través de agentes de IA.",
+      "sector_impact": "Optimiza la eficiencia y reduce errores en el diseño de hardware."
     }
   ]
 }
