@@ -1,6 +1,144 @@
 {
   "days": [
     {
+      "date": "2026-08-30",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Cuando los agentes actúan por su cuenta, la gobernanza debe vivir en la capa de datos",
+          "summary": "La responsabilidad por las acciones de los agentes de IA recae en la capa de datos, no en políticas abstractas.",
+          "category": "tool",
+          "source_name": "VentureBeat AI",
+          "source_url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "gobernanza",
+            "agentes",
+            "datos"
+          ],
+          "what_changed": "Se enfatiza la importancia de la gobernanza en la capa de datos.",
+          "why_it_matters": "Permite un control más efectivo y ágil de los agentes en tiempo real.",
+          "sector_impact": "Mejora la seguridad y la confianza en la implementación de IA en empresas."
+        },
+        {
+          "title": "Una investigación de Anthropic muestra IA auto-mejorada",
+          "summary": "Los sistemas automatizados mejoraron su rendimiento en comportamientos desalineados sin degradar su desempeño general.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [
+            "IA auto-mejorada",
+            "modelos"
+          ],
+          "what_changed": "Demostración de IA que mejora su rendimiento de manera autónoma.",
+          "why_it_matters": "Incrementa la viabilidad de sistemas autónomos en diversas aplicaciones.",
+          "sector_impact": "Revoluciona la forma en que interactuamos con modelos de IA."
+        },
+        {
+          "title": "OpenAI comienza a mostrar anuncios en ChatGPT en India",
+          "summary": "Más de 100 millones de usuarios activos semanales utilizan ChatGPT en India.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "monetización"
+          ],
+          "what_changed": "Introducción de anuncios en las versiones gratuitas de ChatGPT.",
+          "why_it_matters": "Aumenta las fuentes de ingresos y el acceso a la plataforma.",
+          "sector_impact": "Puede cambiar la dinámica del uso de IA en el mercado."
+        },
+        {
+          "title": "Nuevo modo IA de Google para planificar y reservar viajes",
+          "summary": "Los usuarios pueden reservar hoteles y rastrear tarifas aéreas con el nuevo modo IA en Google Search.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "Google",
+            "IA",
+            "viajes"
+          ],
+          "what_changed": "Nuevas funcionalidades en la búsqueda de Google para la planificación de viajes.",
+          "why_it_matters": "Facilita la experiencia de los usuarios en la reserva de viajes.",
+          "sector_impact": "Transforma la forma en que los consumidores planifican sus viajes."
+        },
+        {
+          "title": "Earphones de Plaud con estuche eSIM para interactuar con agentes de IA",
+          "summary": "Los nuevos earphones permiten grabar llamadas y tener interacciones con agentes de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "tecnología",
+            "IA"
+          ],
+          "what_changed": "Innovación en la integración de IA con dispositivos de audio.",
+          "why_it_matters": "Promueve la interacción continua con agentes de IA en la vida diaria.",
+          "sector_impact": "Impulsa la adopción de tecnología IA en gadgets de consumo."
+        },
+        {
+          "title": "Empresas de IA de código abierto como objetivos de adquisición",
+          "summary": "Aumento del capital en empresas que ofrecen modelos de IA de código abierto.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "adquisiciones",
+            "IA",
+            "código abierto"
+          ],
+          "what_changed": "Aumento en el interés de adquisición de empresas de IA abiertas.",
+          "why_it_matters": "Impulsa la innovación y el desarrollo en el sector de IA.",
+          "sector_impact": "Puede definir el futuro de las colaboraciones en el desarrollo de IA."
+        },
+        {
+          "title": "La complejidad de los agentes en la IA empresarial",
+          "summary": "La interacción de múltiples agentes puede complicar la gobernanza y la supervisión en sistemas empresariales.",
+          "category": "sector",
+          "source_name": "VentureBeat AI",
+          "source_url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+          "relevance_score": 14,
+          "status": "new",
+          "tags": [
+            "gobernanza",
+            "agentes"
+          ],
+          "what_changed": "Reflexión sobre los desafíos de la complejidad en sistemas de IA.",
+          "why_it_matters": "Destaca la necesidad de estrategias de gobernanza claras.",
+          "sector_impact": "Afecta la implementación de IA en entornos empresariales."
+        },
+        {
+          "title": "Nvidia cerca de adquirir Hugging Face",
+          "summary": "Nvidia está en conversaciones para comprar Hugging Face, un popular centro de IA de código abierto.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Nvidia",
+            "Hugging Face",
+            "adquisición"
+          ],
+          "what_changed": "Movimientos estratégicos en el mercado de adquisiciones de IA.",
+          "why_it_matters": "Protege la infraestructura y la propiedad intelectual de Nvidia.",
+          "sector_impact": "Consolidación del enfoque de Nvidia en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-08-29",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -703,114 +841,6 @@
           "what_changed": "Proporciona un entorno de ejecución y escenarios generados automáticamente para evaluar modelos.",
           "why_it_matters": "Permite medir la eficacia de los modelos en la ejecución de tareas visuales.",
           "sector_impact": "Aplicable en desarrollo de asistentes y herramientas visuales inteligentes."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "Inherent presenta Faraday, un agente IA innovador",
-          "summary": "Faraday, desarrollado por Inherent, un laboratorio fundado por alumni de DeepMind, supera a modelos como Anthropic y OpenAI en replicación de investigaciones científicas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "agente",
-            "replicación"
-          ],
-          "what_changed": "Lanzamiento de un nuevo agente IA con capacidades mejoradas.",
-          "why_it_matters": "Una herramienta que podría revolucionar la forma en que se reproducen investigaciones científicas.",
-          "sector_impact": "Ciencia y tecnología"
-        },
-        {
-          "title": "Rob Strechay se une a VentureBeat como Lead Analyst",
-          "summary": "Rob Strechay liderará la nueva investigación de VentureBeat centrada en IA empresarial, enfocándose en infraestructura y orquestación de múltiples proveedores.",
-          "category": "model",
-          "source_name": "VentureBeat AI",
-          "source_url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "análisis",
-            "IA empresarial",
-            "infraestructura"
-          ],
-          "what_changed": "Creación de un nuevo rol de Lead Analyst en IA empresarial.",
-          "why_it_matters": "Contribuirá al entendimiento de la orquestación y seguridad en entornos de IA.",
-          "sector_impact": "Tecnología empresarial"
-        },
-        {
-          "title": "Nvidia se asocia con Cloverleaf para desarrollo de data center",
-          "summary": "Nvidia continua invirtiendo en el desarrollo de data centers, impulsando así su negocio en el ámbito de la IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Nvidia",
-            "data center",
-            "IA"
-          ],
-          "what_changed": "Nueva asociación para desarrollo de data centers.",
-          "why_it_matters": "Mejora la infraestructura necesaria para soportar aplicaciones de IA.",
-          "sector_impact": "Tecnología y cloud"
-        },
-        {
-          "title": "Micro1 alcanza $500M en ingresos gracias a la demanda de datos de IA",
-          "summary": "El aumento de la demanda de datos para entrenamiento de IA lleva a Micro1 a una rápida expansión de su negocio.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Datos",
-            "IA",
-            "crecimiento"
-          ],
-          "what_changed": "Crecimiento significativo en ingresos.",
-          "why_it_matters": "Refleja el auge en la industria del entrenamiento de IA.",
-          "sector_impact": "Datos y análisis"
-        },
-        {
-          "title": "Google lanza herramienta para editores para combatir pérdidas de tráfico",
-          "summary": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Google",
-            "trafico",
-            "edición"
-          ],
-          "what_changed": "Nueva funcionalidad para editores en plataformas de Google.",
-          "why_it_matters": "Google presenta un nuevo botón que permite a los lectores apoyar a los editores, ayudándoles a aumentar su tráfico en medio de la competencia de la IA.",
-          "sector_impact": "Medios de comunicación"
-        },
-        {
-          "title": "Meta lanza Pocket: una app para crear y compartir juegos",
-          "summary": "Meta presenta Pocket, una app impulsada por IA que permite a los usuarios diseñar y compartir juegos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "juegos",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de una nueva app para la creación de juegos.",
-          "why_it_matters": "Fomenta la creatividad y comunidad entre los usuarios.",
-          "sector_impact": "Entretenimiento y tecnología"
         }
       ]
     }
