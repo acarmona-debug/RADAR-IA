@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-08-31",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Anthropic y OpenAI en TechCrunch Disrupt 2026",
+          "summary": "Anthropic y OpenAI participarán en el escenario de IA en TechCrunch Disrupt 2026, presentando los temas más candentes de la comunidad.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evento",
+            "AI",
+            "desarrollo"
+          ],
+          "what_changed": "Participación de dos grandes actores de IA en un evento clave.",
+          "why_it_matters": "El evento plantea discusiones cruciales sobre el futuro de la IA.",
+          "sector_impact": "Impacto positivo en la colaboración y el desarrollo de tecnologías emergentes."
+        },
+        {
+          "title": "Nvidia invierte en MediaTek para el desarrollo de chips de IA",
+          "summary": "Nvidia realiza una inversión de $3.5 mil millones en MediaTek para asegurar su relevancia en la infraestructura de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "inversión",
+            "chips",
+            "IA"
+          ],
+          "what_changed": "Nueva inversión estratégica para fortalecer la oferta de chips de IA.",
+          "why_it_matters": "Asegura que Nvidia mantenga su ventaja competitiva en un mercado en rápida evolución.",
+          "sector_impact": "Refuerza el ecosistema de chips de IA y su accesibilidad para desarrolladores."
+        },
+        {
+          "title": "Clipto usa IA para buscar terabytes de video",
+          "summary": "Clipto, una startup de IA, ha alcanzado una valoración de $250 millones gracias a su innovadora tecnología de búsqueda de video.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "startup",
+            "media",
+            "IA"
+          ],
+          "what_changed": "Crecimiento significativo en la valoración de la startup y su capacidad operativa.",
+          "why_it_matters": "Muestra el potencial de la IA en la búsqueda de contenido multimedia.",
+          "sector_impact": "Impulsa el sector de medios con una tecnología más eficiente."
+        },
+        {
+          "title": "Neocloud Lambda asegura $1B en deuda para comprar chips de IA",
+          "summary": "Neocloud Lambda ha recaudado $1B para comprar chips de IA de Nvidia y aumentará su capacidad de arrendar.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "financiamiento",
+            "IA",
+            "chips"
+          ],
+          "what_changed": "Aumento en la capacidad de hardware para proyectos de IA.",
+          "why_it_matters": "Subraya la creciente demandada por chips de IA en el mercado actual.",
+          "sector_impact": "Fortalece la infraestructura de IA con más recursos disponibles."
+        },
+        {
+          "title": "Eficiencia en centros de datos: Más allá de la GPU",
+          "summary": "Nvidia está transformando los sistemas de centros de datos para mejorar la eficiencia, dejando atrás el enfoque exclusivo en las GPU.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "eficiencia",
+            "centros de datos",
+            "IA"
+          ],
+          "what_changed": "Pasos hacia la optimización del rendimiento en vez de simplemente añadir más potencia de procesamiento.",
+          "why_it_matters": "Mejora la sostenibilidad y coste-efectividad en operaciones de IA.",
+          "sector_impact": "Influye en la infraestructura de TI y operaciones con IA."
+        },
+        {
+          "title": "Caterpillar aplica lecciones de minería a despliegue de IA",
+          "summary": "Caterpillar trae su experiencia en automatización de minería al campo del despliegue de IA.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "automático",
+            "despliegue",
+            "IA"
+          ],
+          "what_changed": "Nuevas estrategias de despliegue derivadas de la automatización.",
+          "why_it_matters": "Ofrece un enfoque práctico para integrar IA en operaciones complejas.",
+          "sector_impact": "Mejora en la adopción de IA en industrias tradicionales."
+        },
+        {
+          "title": "Barret Zoph se une a Google tras su paso por OpenAI",
+          "summary": "El cofundador de Thinking Machines, Barret Zoph, se ha integrado a Google después de una breve etapa en OpenAI.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "talento",
+            "transferencia",
+            "Google"
+          ],
+          "what_changed": "Cambio de posición de un talento clave en la arena de IA.",
+          "why_it_matters": "Las nuevas contrataciones pueden influir en la dirección de proyectos en Google.",
+          "sector_impact": "Aporta experiencia fresca en el desarrollo de tecnologías de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-08-30",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -733,114 +858,6 @@
           "what_changed": "Separación del acceso semántico de la evidencia generativa.",
           "why_it_matters": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
           "sector_impact": "Tecnologías de información"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-24",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "ClawSentry: Monitor de Seguridad para Agentes LLM Autónomos",
-          "summary": "Un marco de supervisión de seguridad para agentes LLM, diseñado para mitigar riesgos durante la ejecución de habilidades y proteger contra ataques maliciosos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.21101",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agentes",
-            "LLMs"
-          ],
-          "what_changed": "Introducción de un motor de decisión progresivo que revisa el contexto de ejecución y evalúa habilidades.",
-          "why_it_matters": "Protege contra la exfiltración de datos y escalada de privilegios durante la ejecución de tareas.",
-          "sector_impact": "Altamente relevante para la implementación de IA segura en entornos críticos."
-        },
-        {
-          "title": "ARQ: Refinamiento Automático de Consultas de Vulnerabilidad en C/C++",
-          "summary": "Un marco que refina automáticamente consultas de detección de vulnerabilidades en C/C++ usando evidencia verificada.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.20637",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "vulnerabilidades",
-            "C/C++",
-            "LLMs"
-          ],
-          "what_changed": "Mejoras significativas en la detección de vulnerabilidades reales mediante el refinamiento de consultas.",
-          "why_it_matters": "Reduce falsos positivos y aumenta la confianza en los resultados de las herramientas de análisis de código.",
-          "sector_impact": "Crucial para mejorar la seguridad del software en aplicaciones críticas."
-        },
-        {
-          "title": "Primer Agent Orchestrator: Básicas de Memoria para Infraestructura Personal de IA",
-          "summary": "Un sistema que inicia agentes LLM con contextos relevantes pre-cargados desde bases de datos personales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.20342",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "agentes",
-            "personalización"
-          ],
-          "what_changed": "Mejora la eficiencia de los agentes al pre-cargar información relevante.",
-          "why_it_matters": "Aumenta la efectividad de los agentes LLM en tareas personalizadas.",
-          "sector_impact": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "title": "Portabilidad de Especificaciones entre Agentes LLM",
-          "summary": "Investigación sobre la portabilidad de especificaciones entre agentes de desarrollo de LLM usando migración controlada.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.21208",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "especificaciones",
-            "migración",
-            "interoperabilidad"
-          ],
-          "what_changed": "Presentación de un marco para evaluar la calidad de implementación de especificaciones cruzadas.",
-          "why_it_matters": "Facilita la interoperabilidad entre diferentes entornos de desarrollo de software.",
-          "sector_impact": "Beneficioso para empresas que manejan múltiples tecnologías."
-        },
-        {
-          "title": "Evaluación de Agentes: Detección de Desinformación y Contaminación en IA Generativa",
-          "summary": "Un agente de evaluación que combina verificación fáctica y detección de conocimientos contaminados en sistemas de IA generativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.21095",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "verificación",
-            "desinformación",
-            "IA generativa"
-          ],
-          "what_changed": "Implementación de un índice de confianza para detectar información falsa.",
-          "why_it_matters": "Mejora la fiabilidad de salidas generadas por IA en contextos críticos.",
-          "sector_impact": "Vital en aplicaciones donde la verdad de la información es fundamental."
-        },
-        {
-          "title": "MM-ToolSandBox: Marco para Evaluación de Agentes Llamadores de Herramientas Visuales",
-          "summary": "Benchmark para evaluar agentes que llaman herramientas visuales dentro de un entorno de ejecución.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.11818",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "visual",
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Proporciona un entorno de ejecución y escenarios generados automáticamente para evaluar modelos.",
-          "why_it_matters": "Permite medir la eficacia de los modelos en la ejecución de tareas visuales.",
-          "sector_impact": "Aplicable en desarrollo de asistentes y herramientas visuales inteligentes."
         }
       ]
     }
