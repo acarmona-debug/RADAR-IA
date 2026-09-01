@@ -1,6 +1,112 @@
 {
   "days": [
     {
+      "date": "2026-09-01",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Paper Pilot: A Human-in-the-Loop Expert System",
+          "summary": "Un sistema experto que integra humanos en el proceso de generación de manuscritos científicos, asegurando la trazabilidad de las evidencias.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.28596",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "manuscritos",
+            "sistemas expertos",
+            "IA"
+          ],
+          "what_changed": "Introducción de un sistema con gates de aprobación humana.",
+          "why_it_matters": "Proporciona un control sobre la calidad y precisión de la generación de texto basado en IA.",
+          "sector_impact": "Mejora la integridad de la investigación científica."
+        },
+        {
+          "title": "Development of an Autonomous AI Coding Agent",
+          "summary": "Creación de un agente de codificación autónomo utilizando el marco Gemini y técnicas de búsqueda de Monte Carlo.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.29096",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "codificación",
+            "automación",
+            "IA"
+          ],
+          "what_changed": "Implementación de un nuevo agente que mejora la generación de código.",
+          "why_it_matters": "Facilita la creación de software seguro y eficiente desde entradas en lenguaje natural.",
+          "sector_impact": "Transforma el desarrollo de software al reducir la intervención manual."
+        },
+        {
+          "title": "T-MAP: Red-Teaming LLM Agents",
+          "summary": "Método para descubrir vulnerabilidades en agentes de modelos de lenguaje usando búsqueda evolutiva con conciencia de trayectoria.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.22341",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "vulnerabilidades",
+            "modelos de lenguaje"
+          ],
+          "what_changed": "Introducción de un enfoque que utiliza trayectorias de ejecución para evidenciar ataques.",
+          "why_it_matters": "Aumenta la seguridad de los modelos de IA al exponer sus debilidades.",
+          "sector_impact": "Mejor seguridad en aplicaciones de IA."
+        },
+        {
+          "title": "LiteSearch-VL: Small Multimodal Search Agents",
+          "summary": "Desarrollo de agentes de búsqueda multimodal de bajo consumo, mejorando la eficiencia en respuestas de consultas visuales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.29357",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "búsqueda",
+            "multimodal"
+          ],
+          "what_changed": "Optimización de agentes de búsqueda a través de destilación de trayectorias.",
+          "why_it_matters": "Maximiza el potencial de las búsquedas multimodales sin requerir modelos grandes.",
+          "sector_impact": "Aumenta la accesibilidad y rapidez en la búsqueda de información."
+        },
+        {
+          "title": "Gurukul AI: Interactive AI-Driven Educational Platform",
+          "summary": "Plataforma educativa basada en IA adaptada al sistema educativo indio, utilizando LLMs para interactuar con los estudiantes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.28611",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "educación",
+            "IA",
+            "interacción"
+          ],
+          "what_changed": "Localización de sistemas de IA para la educación en India.",
+          "why_it_matters": "Conecta la tecnología IA con el currículo educativo regional.",
+          "sector_impact": "Mejora el aprendizaje y acceso a la educación en India."
+        },
+        {
+          "title": "MM-BrowseComp: Multimodal Browsing Benchmarks",
+          "summary": "Introducción de un nuevo benchmark para evaluar la capacidad de búsqueda multimodal en agentes de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2508.13186",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "multimodal",
+            "agentes"
+          ],
+          "what_changed": "Nuevos estándares para evaluar la búsqueda en múltiples modos.",
+          "why_it_matters": "Facilita la mejora continua de los agentes de búsqueda multimodal.",
+          "sector_impact": "Aumenta la eficacia de los sistemas de búsqueda."
+        }
+      ]
+    },
+    {
       "date": "2026-08-31",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -735,129 +841,6 @@
           "what_changed": "Lanzamiento de un benchmark que refleja mejor la complejidad empresarial en NL2SQL.",
           "why_it_matters": "Mejora la capacidad de los modelos para manejar estructuras de datos reales.",
           "sector_impact": "Impacto en la adopción de IA en la gestión de datos empresariales."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Decision-Support and Modeling with Large Language Models for Geothermal Well Arrays",
-          "summary": "Este estudio evalúa el potencial de los LLMs como asistentes expertos para la mejora de modelos geotérmicos, integrando análisis de datos y recomendaciones informadas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22068",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "geotermal",
-            "LLM",
-            "ChatGPT",
-            "Gemini"
-          ],
-          "what_changed": "Uso de modelos de lenguaje para optimizar la producción de energía geotérmica.",
-          "why_it_matters": "Impulsa la adopción de tecnologías geotérmicas mediante la automatización del análisis de datos.",
-          "sector_impact": "Energía"
-        },
-        {
-          "title": "Architecture as Capability Equalizer for Coding Agents",
-          "summary": "Un experimento muestra cómo el formato de especificación arquitectónica influye en la calidad del código generado por agentes de codificación LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.21747",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "codificación",
-            "Claude",
-            "OpenAI"
-          ],
-          "what_changed": "Evaluación del impacto del formato en la calidad del código.",
-          "why_it_matters": "Define cómo optimizar la generación de código en modelos de menor capacidad.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "TRACE: A Self-Evolving Skill Bank for Consistent, Limit-Aware LLM Agents",
-          "summary": "Se presenta TRACE, que mejora la consistencia de los agentes LLM a través de un banco de habilidades en evolución.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22793",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "ChatGPT",
-            "GPT-5"
-          ],
-          "what_changed": "Mejora la consistencia de agentes a través de un ciclo evolutivo de habilidades.",
-          "why_it_matters": "Aumenta la confiabilidad en tareas complejas para usuarios finales.",
-          "sector_impact": "Asistentes virtuales"
-        },
-        {
-          "title": "K-Bench: measuring model performance on real scientific agent requests",
-          "summary": "Presenta K-Bench, un sistema de evaluación para medir el rendimiento de modelos LLM en solicitudes científicas reales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.21601",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "científico",
-            "LLM"
-          ],
-          "what_changed": "Desarrollo de un marco de evaluación para tareas científicas reales.",
-          "why_it_matters": "Proporciona un método estructurado para medir el rendimiento de modelos en entornos reales.",
-          "sector_impact": "Investigación científica"
-        },
-        {
-          "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
-          "summary": "Introduce MCP-Universe RL para mejorar la capacidad de uso de herramientas de LLMs a través de aprendizaje por refuerzo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22167",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje por refuerzo",
-            "uso de herramientas"
-          ],
-          "what_changed": "Facilita el entrenamiento de agentes en múltiples dominios.",
-          "why_it_matters": "Mejora la eficacia de agentes de LLM en tareas complejas.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "Training Proactive and Personalized LLM Agents",
-          "summary": "Propone un enfoque para entrenar agentes como colaboradores adaptativos que se comunican y responden a las necesidades de los usuarios.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2511.02208",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "agentes personalizados",
-            "PPP"
-          ],
-          "what_changed": "Desarrollo de un marco que optimiza la colaboración en tareas complejas.",
-          "why_it_matters": "Fomenta la creación de agentes más efectivos y adaptativos.",
-          "sector_impact": "Experiencia de usuario"
-        },
-        {
-          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-          "summary": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22137",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "recuperación",
-            "memoria"
-          ],
-          "what_changed": "Separación del acceso semántico de la evidencia generativa.",
-          "why_it_matters": "Presenta MegaMem, un sistema de recuperación diseñado para manejar ventanas de contexto ultra-grandes en modelos de lenguaje.",
-          "sector_impact": "Tecnologías de información"
         }
       ]
     }

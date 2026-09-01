@@ -1,127 +1,108 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Aquí están las actualizaciones más relevantes del ecosistema de Inteligencia Artificial.",
-  "opening_message": "Estas son las últimas novedades y avances en herramientas, modelos y características para desarrolladores.",
+  "intro_message": "Actualizaciones más relevantes en herramientas y desarrollos de inteligencia artificial.",
+  "opening_message": "Aquí están los últimos avances en herramientas, modelos y frameworks que pueden impulsar el desarrollo de tecnología basada en IA.",
   "items": [
     {
-      "title": "Anthropic y OpenAI en TechCrunch Disrupt 2026",
-      "summary": "Anthropic y OpenAI participarán en el escenario de IA en TechCrunch Disrupt 2026, presentando los temas más candentes de la comunidad.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "evento",
-        "AI",
-        "desarrollo"
-      ],
-      "what_changed": "Participación de dos grandes actores de IA en un evento clave.",
-      "why_it_matters": "El evento plantea discusiones cruciales sobre el futuro de la IA.",
-      "sector_impact": "Impacto positivo en la colaboración y el desarrollo de tecnologías emergentes."
-    },
-    {
-      "title": "Nvidia invierte en MediaTek para el desarrollo de chips de IA",
-      "summary": "Nvidia realiza una inversión de $3.5 mil millones en MediaTek para asegurar su relevancia en la infraestructura de IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "inversión",
-        "chips",
-        "IA"
-      ],
-      "what_changed": "Nueva inversión estratégica para fortalecer la oferta de chips de IA.",
-      "why_it_matters": "Asegura que Nvidia mantenga su ventaja competitiva en un mercado en rápida evolución.",
-      "sector_impact": "Refuerza el ecosistema de chips de IA y su accesibilidad para desarrolladores."
-    },
-    {
-      "title": "Clipto usa IA para buscar terabytes de video",
-      "summary": "Clipto, una startup de IA, ha alcanzado una valoración de $250 millones gracias a su innovadora tecnología de búsqueda de video.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "startup",
-        "media",
-        "IA"
-      ],
-      "what_changed": "Crecimiento significativo en la valoración de la startup y su capacidad operativa.",
-      "why_it_matters": "Muestra el potencial de la IA en la búsqueda de contenido multimedia.",
-      "sector_impact": "Impulsa el sector de medios con una tecnología más eficiente."
-    },
-    {
-      "title": "Neocloud Lambda asegura $1B en deuda para comprar chips de IA",
-      "summary": "Neocloud Lambda ha recaudado $1B para comprar chips de IA de Nvidia y aumentará su capacidad de arrendar.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "financiamiento",
-        "IA",
-        "chips"
-      ],
-      "what_changed": "Aumento en la capacidad de hardware para proyectos de IA.",
-      "why_it_matters": "Subraya la creciente demandada por chips de IA en el mercado actual.",
-      "sector_impact": "Fortalece la infraestructura de IA con más recursos disponibles."
-    },
-    {
-      "title": "Eficiencia en centros de datos: Más allá de la GPU",
-      "summary": "Nvidia está transformando los sistemas de centros de datos para mejorar la eficiencia, dejando atrás el enfoque exclusivo en las GPU.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "eficiencia",
-        "centros de datos",
-        "IA"
-      ],
-      "what_changed": "Pasos hacia la optimización del rendimiento en vez de simplemente añadir más potencia de procesamiento.",
-      "why_it_matters": "Mejora la sostenibilidad y coste-efectividad en operaciones de IA.",
-      "sector_impact": "Influye en la infraestructura de TI y operaciones con IA."
-    },
-    {
-      "title": "Caterpillar aplica lecciones de minería a despliegue de IA",
-      "summary": "Caterpillar trae su experiencia en automatización de minería al campo del despliegue de IA.",
+      "title": "Paper Pilot: A Human-in-the-Loop Expert System",
+      "summary": "Un sistema experto que integra humanos en el proceso de generación de manuscritos científicos, asegurando la trazabilidad de las evidencias.",
       "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.28596",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "manuscritos",
+        "sistemas expertos",
+        "IA"
+      ],
+      "what_changed": "Introducción de un sistema con gates de aprobación humana.",
+      "why_it_matters": "Proporciona un control sobre la calidad y precisión de la generación de texto basado en IA.",
+      "sector_impact": "Mejora la integridad de la investigación científica."
+    },
+    {
+      "title": "Development of an Autonomous AI Coding Agent",
+      "summary": "Creación de un agente de codificación autónomo utilizando el marco Gemini y técnicas de búsqueda de Monte Carlo.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.29096",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "codificación",
+        "automación",
+        "IA"
+      ],
+      "what_changed": "Implementación de un nuevo agente que mejora la generación de código.",
+      "why_it_matters": "Facilita la creación de software seguro y eficiente desde entradas en lenguaje natural.",
+      "sector_impact": "Transforma el desarrollo de software al reducir la intervención manual."
+    },
+    {
+      "title": "T-MAP: Red-Teaming LLM Agents",
+      "summary": "Método para descubrir vulnerabilidades en agentes de modelos de lenguaje usando búsqueda evolutiva con conciencia de trayectoria.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.22341",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "vulnerabilidades",
+        "modelos de lenguaje"
+      ],
+      "what_changed": "Introducción de un enfoque que utiliza trayectorias de ejecución para evidenciar ataques.",
+      "why_it_matters": "Aumenta la seguridad de los modelos de IA al exponer sus debilidades.",
+      "sector_impact": "Mejor seguridad en aplicaciones de IA."
+    },
+    {
+      "title": "LiteSearch-VL: Small Multimodal Search Agents",
+      "summary": "Desarrollo de agentes de búsqueda multimodal de bajo consumo, mejorando la eficiencia en respuestas de consultas visuales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.29357",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "búsqueda",
+        "multimodal"
+      ],
+      "what_changed": "Optimización de agentes de búsqueda a través de destilación de trayectorias.",
+      "why_it_matters": "Maximiza el potencial de las búsquedas multimodales sin requerir modelos grandes.",
+      "sector_impact": "Aumenta la accesibilidad y rapidez en la búsqueda de información."
+    },
+    {
+      "title": "Gurukul AI: Interactive AI-Driven Educational Platform",
+      "summary": "Plataforma educativa basada en IA adaptada al sistema educativo indio, utilizando LLMs para interactuar con los estudiantes.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.28611",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "automático",
-        "despliegue",
-        "IA"
+        "educación",
+        "IA",
+        "interacción"
       ],
-      "what_changed": "Nuevas estrategias de despliegue derivadas de la automatización.",
-      "why_it_matters": "Ofrece un enfoque práctico para integrar IA en operaciones complejas.",
-      "sector_impact": "Mejora en la adopción de IA en industrias tradicionales."
+      "what_changed": "Localización de sistemas de IA para la educación en India.",
+      "why_it_matters": "Conecta la tecnología IA con el currículo educativo regional.",
+      "sector_impact": "Mejora el aprendizaje y acceso a la educación en India."
     },
     {
-      "title": "Barret Zoph se une a Google tras su paso por OpenAI",
-      "summary": "El cofundador de Thinking Machines, Barret Zoph, se ha integrado a Google después de una breve etapa en OpenAI.",
+      "title": "MM-BrowseComp: Multimodal Browsing Benchmarks",
+      "summary": "Introducción de un nuevo benchmark para evaluar la capacidad de búsqueda multimodal en agentes de IA.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2508.13186",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "talento",
-        "transferencia",
-        "Google"
+        "benchmark",
+        "multimodal",
+        "agentes"
       ],
-      "what_changed": "Cambio de posición de un talento clave en la arena de IA.",
-      "why_it_matters": "Las nuevas contrataciones pueden influir en la dirección de proyectos en Google.",
-      "sector_impact": "Aporta experiencia fresca en el desarrollo de tecnologías de IA."
+      "what_changed": "Nuevos estándares para evaluar la búsqueda en múltiples modos.",
+      "why_it_matters": "Facilita la mejora continua de los agentes de búsqueda multimodal.",
+      "sector_impact": "Aumenta la eficacia de los sistemas de búsqueda."
     }
   ]
 }
