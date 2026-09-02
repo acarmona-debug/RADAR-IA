@@ -1,6 +1,144 @@
 {
   "days": [
     {
+      "date": "2026-09-02",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Dr. Claw: Un espacio de trabajo científico de IA para investigación Vibe",
+          "summary": "Presentamos Dr. Claw, un espacio de trabajo de código abierto que coordina agentes de codificación en un proceso auditable.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.00365",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "auditoria",
+            "codificación"
+          ],
+          "what_changed": "Integración de agentes en un flujo de trabajo humano-a-loop.",
+          "why_it_matters": "Mejora la trazabilidad en la investigación y ejecución de tareas.",
+          "sector_impact": "Impulsa la investigación colaborativa y la eficiencia en el desarrollo."
+        },
+        {
+          "title": "Harness-of-Harness: Desarrollo de software autónomo con mejora continua",
+          "summary": "introducimos un marco de desarrollo de software que permite a los agentes codificadores mejorar continuamente el software sin intervención humana.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.01481",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "desarrollo de software"
+          ],
+          "what_changed": "Mejoras en bucles iterativos de planificación, codificación y prueba.",
+          "why_it_matters": "Permite un desarrollo más eficiente y autónomo.",
+          "sector_impact": "Transforma el desarrollo de software, reduciendo tiempos y aumentando la calidad."
+        },
+        {
+          "title": "AutoXRD: Marco para análisis de difracción de polvo con agentes LLM autónomos",
+          "summary": "Proponemos un marco autónomo de LLM para análisis de difracción de polvo, organizando el análisis como un refinamiento paso a paso.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.00070",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "análisis",
+            "automación"
+          ],
+          "what_changed": "Organización del análisis de XRD en un proceso de mejora iterativa.",
+          "why_it_matters": "Aumenta la precisión en la caracterización de materiales.",
+          "sector_impact": "Revoluciona la investigación en materiales y su análisis."
+        },
+        {
+          "title": "ReDeck: Mejora de generación de documentos a diapositivas",
+          "summary": "Proponemos ReDeck, un marco de refinamiento basado en renderización paso a paso para la generación de diapositivas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.00194",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "generación",
+            "refinamiento"
+          ],
+          "what_changed": "Descomposición de la revisión de diapositivas en acciones editables y observaciones en cada paso.",
+          "why_it_matters": "Mejora la calidad y utilidad de las presentaciones generadas.",
+          "sector_impact": "Impacta en la educación y el diseño de presentaciones."
+        },
+        {
+          "title": "EvoFlint: Un atlas evolutivo de vulnerabilidades de LLM",
+          "summary": "Introducimos EvoFlint, una herramienta que organiza estrategias de ataque a LLM a través de una búsqueda evolutiva.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.00487",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "vulnerabilidades",
+            "evaluación"
+          ],
+          "what_changed": "Estrategias de ataque que se adaptan y evolucionan con el LLM.",
+          "why_it_matters": "Mejora la comprensión de las debilidades en modelos de lenguaje.",
+          "sector_impact": "Potencia la seguridad en el desarrollo de IA."
+        },
+        {
+          "title": "WiseSpec: Agentes impulsados por requisitos para generación de código",
+          "summary": "Proponemos WiseSpec, un marco que mejora los requisitos de tareas para facilitar la generación de código congruente.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.00568",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "generación de código",
+            "requisitos"
+          ],
+          "what_changed": "Construcción automática de requisitos estructurados.",
+          "why_it_matters": "Aumenta la precisión en la generación de código basado en requisitos.",
+          "sector_impact": "Transforma la ingeniería de software y la automatización del desarrollo."
+        },
+        {
+          "title": "SciTrue: Validación de afirmaciones científicas con modelos de lenguaje",
+          "summary": "Describimos SciTrue, un sistema para verificar afirmaciones científicas utilizando modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.00654",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "validación",
+            "ciencia",
+            "modelos de lenguaje"
+          ],
+          "what_changed": "Benchmarking de múltiples modelos bajo un protocolo claro y honesto.",
+          "why_it_matters": "Mejora la fiabilidad en la validación de afirmaciones científicas.",
+          "sector_impact": "Fortalece la integridad en la investigación científica."
+        },
+        {
+          "title": "EdiTikZ: Edición de figuras científicas a partir de trayectorias de revisión",
+          "summary": "Introducimos DaEdiTikZ, un conjunto de datos para editar figuras científicas basadas en revisiones previas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.01409",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "edición",
+            "figuras científicas"
+          ],
+          "what_changed": "Explotación de trayectorias de revisión para supervisión escalable.",
+          "why_it_matters": "Introducimos DaEdiTikZ, un conjunto de datos para editar figuras científicas basadas en revisiones previas.",
+          "sector_impact": "Revoluciona la creación y edición de materiales científicos."
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -715,132 +853,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "REFINE: A Multi-Agent LLM Approach for Evidence-Guided Code Refactoring",
-          "summary": "REFINE combina análisis estático y transformación de código mediante LLM para generar propuestas de refactorización en Java.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.23611",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "refactorización",
-            "LLM",
-            "Java",
-            "multi-agente"
-          ],
-          "what_changed": "Introducción de un enfoque multi-agente para la refactorización automatizada de código.",
-          "why_it_matters": "Reduce hasta 72.79% de olores de código, mejorando la calidad del software.",
-          "sector_impact": "Impacto significativo en el desarrollo de software y mantenimiento."
-        },
-        {
-          "title": "EngiAI: Capability-Based Evaluation of Tool-Connected LLM Agents for Engineering Design",
-          "summary": "Marco de evaluación para agentes conectados a herramientas en diseño de ingeniería, analizando su efectividad en tareas críticas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.19743",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "agentes",
-            "ingeniería"
-          ],
-          "what_changed": "Presentación de un marco que evalúa habilidades específicas de los LLM en diseño.",
-          "why_it_matters": "Permite comparaciones precisas y estructuradas de la efectividad de LLM en tareas de ingeniería.",
-          "sector_impact": "Mejora en procesos de diseño y análisis de ingeniería."
-        },
-        {
-          "title": "ADVERSA: Measuring Multi-Turn Guardrail Degradation and Judge Reliability in Large Language Models",
-          "summary": "Metodología para medir la degradación de las salvaguardias en interacciones prolongadas con LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.10068",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "seguridad",
-            "LLM"
-          ],
-          "what_changed": "Introducción de una evaluación de continuo en la confiabilidad de los modelos de lenguaje.",
-          "why_it_matters": "Permite identificar y mitigar riesgos asociados a LLMs en interacciones extendidas.",
-          "sector_impact": "Aumento en la seguridad y confiabilidad de implementaciones de IA."
-        },
-        {
-          "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
-          "summary": "Compresor de contexto para agentes de código que optimiza el uso de tokens al reenviar información.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.24188",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "compresión",
-            "contexto",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un compresor de contexto extractivo condicional al propósito.",
-          "why_it_matters": "Reduce el tamaño del contexto necesario sin sacrificar calidad en la solución.",
-          "sector_impact": "Optimización de costos en interacciones de IA y herramientas de desarrollo."
-        },
-        {
-          "title": "Design-to-Plan: LLM-Based Multi-Agent Framework for Manufacturing Process Planning",
-          "summary": "Framework que utiliza modelos de lenguaje para la planificación de procesos de manufactura mediante agentes especializados.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.24039",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "manufactura",
-            "planificación",
-            "agentes"
-          ],
-          "what_changed": "Integración de LLMs como agentes de razonamiento en la planificación de manufactura.",
-          "why_it_matters": "Mejora la eficiencia y trazabilidad en el proceso de manufactura.",
-          "sector_impact": "Transforma la planificación en la industria manufacturera."
-        },
-        {
-          "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision",
-          "summary": "Modelo de control de acciones a nivel de paso para agentes de IA con supervisión escalable.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.24777",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "AGI",
-            "vigilancia"
-          ],
-          "what_changed": "Desarrollo de un modelo que audita acciones de agentes antes de su ejecución.",
-          "why_it_matters": "Reduce el riesgo de acciones no autorizadas en aplicaciones de IA.",
-          "sector_impact": "Aumenta la seguridad y efectividad de operaciones automatizadas."
-        },
-        {
-          "title": "ESQ-Bench: Multi-Tier Benchmark for Evaluating NL2SQL Dialect Generalization",
-          "summary": "Nuevo benchmark para evaluar la capacidad de modelos NL2SQL en condiciones complejas de esquemas de base de datos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.23569",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "NL2SQL",
-            "evaluación",
-            "benchmark"
-          ],
-          "what_changed": "Lanzamiento de un benchmark que refleja mejor la complejidad empresarial en NL2SQL.",
-          "why_it_matters": "Mejora la capacidad de los modelos para manejar estructuras de datos reales.",
-          "sector_impact": "Impacto en la adopción de IA en la gestión de datos empresariales."
         }
       ]
     }
