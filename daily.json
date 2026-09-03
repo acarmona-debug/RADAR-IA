@@ -1,140 +1,127 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las tendencias y desarrollos más recientes en herramientas y modelos de IA para automatización y desarrollo ágil.",
-  "opening_message": "El futuro de la inteligencia artificial se está construyendo hoy, y aquí están los puntos destacados relevantes.",
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas, modelos y frameworks de IA.",
+  "opening_message": "Esta edición destaca avances significativos en herramientas y marcos de trabajo destinados a mejorar la eficiencia y efectividad en el uso de IA.",
   "items": [
     {
-      "title": "Dr. Claw: Un espacio de trabajo científico de IA para investigación Vibe",
-      "summary": "Presentamos Dr. Claw, un espacio de trabajo de código abierto que coordina agentes de codificación en un proceso auditable.",
-      "category": "tool",
+      "title": "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives",
+      "summary": "Introducción de Tool Primitives y HEART, un marco que mejora la invocación de herramientas mediante comunicación natural entre LLMs, resultando en un 10% de mejora de rendimiento por encima de modelos de referencia.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.00365",
+      "source_url": "https://arxiv.org/abs/2609.01736",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "agentes",
-        "auditoria",
-        "codificación"
+        "Tool Primitives",
+        "HEART",
+        "LLMs"
       ],
-      "what_changed": "Integración de agentes en un flujo de trabajo humano-a-loop.",
-      "why_it_matters": "Mejora la trazabilidad en la investigación y ejecución de tareas.",
-      "sector_impact": "Impulsa la investigación colaborativa y la eficiencia en el desarrollo."
+      "what_changed": "Se introdujo un nuevo sistema de invocación usando lenguaje natural en lugar de esquemas API rígidos.",
+      "why_it_matters": "Optimiza la interacción entre múltiples herramientas, mejorando la eficiencia en tareas complejas.",
+      "sector_impact": "Aumenta la aplicabilidad de LLMs en entornos de producción."
     },
     {
-      "title": "Harness-of-Harness: Desarrollo de software autónomo con mejora continua",
-      "summary": "introducimos un marco de desarrollo de software que permite a los agentes codificadores mejorar continuamente el software sin intervención humana.",
+      "title": "UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents",
+      "summary": "Presenta UniToolCall, un marco unificado que estandariza la representación y evaluación del uso de herramientas en agentes LLM.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.01481",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "automación",
-        "desarrollo de software"
-      ],
-      "what_changed": "Mejoras en bucles iterativos de planificación, codificación y prueba.",
-      "why_it_matters": "Permite un desarrollo más eficiente y autónomo.",
-      "sector_impact": "Transforma el desarrollo de software, reduciendo tiempos y aumentando la calidad."
-    },
-    {
-      "title": "AutoXRD: Marco para análisis de difracción de polvo con agentes LLM autónomos",
-      "summary": "Proponemos un marco autónomo de LLM para análisis de difracción de polvo, organizando el análisis como un refinamiento paso a paso.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.00070",
+      "source_url": "https://arxiv.org/abs/2604.11557",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes",
-        "análisis",
-        "automación"
-      ],
-      "what_changed": "Organización del análisis de XRD en un proceso de mejora iterativa.",
-      "why_it_matters": "Aumenta la precisión en la caracterización de materiales.",
-      "sector_impact": "Revoluciona la investigación en materiales y su análisis."
-    },
-    {
-      "title": "ReDeck: Mejora de generación de documentos a diapositivas",
-      "summary": "Proponemos ReDeck, un marco de refinamiento basado en renderización paso a paso para la generación de diapositivas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.00194",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "generación",
-        "refinamiento"
-      ],
-      "what_changed": "Descomposición de la revisión de diapositivas en acciones editables y observaciones en cada paso.",
-      "why_it_matters": "Mejora la calidad y utilidad de las presentaciones generadas.",
-      "sector_impact": "Impacta en la educación y el diseño de presentaciones."
-    },
-    {
-      "title": "EvoFlint: Un atlas evolutivo de vulnerabilidades de LLM",
-      "summary": "Introducimos EvoFlint, una herramienta que organiza estrategias de ataque a LLM a través de una búsqueda evolutiva.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.00487",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "vulnerabilidades",
+        "UniToolCall",
+        "LLM",
         "evaluación"
       ],
-      "what_changed": "Estrategias de ataque que se adaptan y evolucionan con el LLM.",
-      "why_it_matters": "Mejora la comprensión de las debilidades en modelos de lenguaje.",
-      "sector_impact": "Potencia la seguridad en el desarrollo de IA."
+      "what_changed": "Introduce un enfoque estandarizado que mejora la representación y evaluación del uso de herramientas.",
+      "why_it_matters": "Facilita la integración y evaluación coherente de herramientas en los LLMs.",
+      "sector_impact": "Impulsa el desarrollo de agentes más confiables y eficientes."
     },
     {
-      "title": "WiseSpec: Agentes impulsados por requisitos para generación de código",
-      "summary": "Proponemos WiseSpec, un marco que mejora los requisitos de tareas para facilitar la generación de código congruente.",
-      "category": "framework",
+      "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
+      "summary": "Desarrolla DisCo, un agente de investigación que destila habilidades de repositorios de GitHub, mejorando la eficiencia de las investigaciones en IA.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.00568",
+      "source_url": "https://arxiv.org/abs/2609.02749",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "generación de código",
-        "requisitos"
+        "repositorios",
+        "habilidades",
+        "DisCo"
       ],
-      "what_changed": "Construcción automática de requisitos estructurados.",
-      "why_it_matters": "Aumenta la precisión en la generación de código basado en requisitos.",
-      "sector_impact": "Transforma la ingeniería de software y la automatización del desarrollo."
+      "what_changed": "Se introdujo un agente que destila conocimientos operativos de repositorios existentes en habilidades reutilizables.",
+      "why_it_matters": "Facilita la reutilización de conocimientos especializados sin necesidad de redescubrimiento.",
+      "sector_impact": "Mejora la capacidad de los agentes de IA para ejecutar tareas complejas."
     },
     {
-      "title": "SciTrue: Validación de afirmaciones científicas con modelos de lenguaje",
-      "summary": "Describimos SciTrue, un sistema para verificar afirmaciones científicas utilizando modelos de lenguaje.",
-      "category": "tool",
+      "title": "FUSE: An Evaluating Framework for Dangerous Capabilities of LLMs",
+      "summary": "Presenta un marco modular para evaluar capacidades peligrosas de los LLMs, proporcionando un perfil estandarizado de capacidades frente a modelos comerciales.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.00654",
+      "source_url": "https://arxiv.org/abs/2609.02168",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "validación",
-        "ciencia",
-        "modelos de lenguaje"
+        "evaluación",
+        "marco",
+        "seguridad"
       ],
-      "what_changed": "Benchmarking de múltiples modelos bajo un protocolo claro y honesto.",
-      "why_it_matters": "Mejora la fiabilidad en la validación de afirmaciones científicas.",
-      "sector_impact": "Fortalece la integridad en la investigación científica."
+      "what_changed": "Introduce un enfoque estandarizado de evaluación que destaca las diferencias en capacidades peligrosas entre modelos.",
+      "why_it_matters": "Mejora la comprensión y gestión de riesgos en IA.",
+      "sector_impact": "Aumenta la seguridad y la gobernanza en IA."
     },
     {
-      "title": "EdiTikZ: Edición de figuras científicas a partir de trayectorias de revisión",
-      "summary": "Introducimos DaEdiTikZ, un conjunto de datos para editar figuras científicas basadas en revisiones previas.",
+      "title": "ToolGate: An Executable Acceptance Pipeline for Tool-Dependent Scientific Benchmark Construction",
+      "summary": "Desarrolla ToolGate, un sistema de verificación que asegura la validez de los elementos generados por modelos de IA para evaluaciones científicas.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.01409",
+      "source_url": "https://arxiv.org/abs/2609.02067",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "edición",
+        "evaluación",
+        "ToolGate",
+        "IA"
+      ],
+      "what_changed": "Implementa una metodología de verificación robusta para asegurar la calidad de los candidatos generados por LLMs.",
+      "why_it_matters": "Aumenta la fiabilidad de las evaluaciones científicas generadas por modelos de IA.",
+      "sector_impact": "Mejora la calidad de la investigación científica."
+    },
+    {
+      "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+      "summary": "Desarrolla TikZilla, un modelo que mejora la generación de figuras científicas a partir de descripciones textuales utilizando RL y un dataset mejorado.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.03072",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "TikZ",
+        "RL",
         "figuras científicas"
       ],
-      "what_changed": "Explotación de trayectorias de revisión para supervisión escalable.",
-      "why_it_matters": "Introducimos DaEdiTikZ, un conjunto de datos para editar figuras científicas basadas en revisiones previas.",
-      "sector_impact": "Revoluciona la creación y edición de materiales científicos."
+      "what_changed": "Introduce un dataset mejorado para optimizar la calidad de las figuras generadas por el modelo.",
+      "why_it_matters": "Aumenta la utilidad de modelos de LLM en la visualización de datos científicos.",
+      "sector_impact": "Facilita la representación visual en la investigación científica."
+    },
+    {
+      "title": "APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering",
+      "summary": "Presenta APEx, un marco que optimiza la experiencia de interacción de los agentes para mejorar la adaptación en la respuesta a preguntas complejas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.02253",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "APEx",
+        "adaptación",
+        "IA"
+      ],
+      "what_changed": "Optimiza la utilización de la experiencia de interacción en agentes de IA mediante un marco jerárquico.",
+      "why_it_matters": "Permite una mejor comprensión y mejora continua de los modelos en tareas complejas.",
+      "sector_impact": "Aumenta la eficiencia de los modelos en la investigación y resolución de problemas."
     }
   ]
 }
