@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-04",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "TRACE: Un Banco de Habilidades Evolutivas para Agentes LLM",
+          "summary": "TRACE mejora la consistencia y la conciencia de límites en agentes LLM, organizando habilidades en un Banco de Habilidades actualizable.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22793",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "consistencia",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un marco autónomo para la evolución de habilidades de agentes.",
+          "why_it_matters": "Mejora notablemente la consistencia en tareas repetidas, crucial para aplicaciones en entornos de usuarios.",
+          "sector_impact": "Transforma la manera en que los agentes de IA pueden operar con mayor coherencia en interacciones."
+        },
+        {
+          "title": "GeoNatureAgent Benchmark: Evaluación de Agentes de Análisis Geoespacial",
+          "summary": "El primer benchmark para agentes de análisis ambiental que utiliza llamadas a herramientas estructuradas contra APIs geoespaciales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.12821",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "análisis ambiental",
+            "benchmark",
+            "API"
+          ],
+          "what_changed": "Desarrollo de una metodología para evaluar capacidades de agentes en tareas ambientales.",
+          "why_it_matters": "Aumenta la eficacia de los agentes en la automatización de flujos de trabajo geoespaciales reales.",
+          "sector_impact": "Impulsa la IA en la ciencia ambiental y mejora la eficiencia operativa en la gestión de datos geoespaciales."
+        },
+        {
+          "title": "Privacy-Preserving Federated Inference para Diagnóstico Cognitivo",
+          "summary": "Propuesta de un marco de inferencia federada que preserva la privacidad en diagnósticos cognitivos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.02947",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "privacidad",
+            "diagnóstico",
+            "federado"
+          ],
+          "what_changed": "Mejora en la precisión del diagnóstico sin necesidad de acceder a datos personales.",
+          "why_it_matters": "Protege la privacidad mientras permite el diagnóstico efectivo en entornos educativos.",
+          "sector_impact": "Revoluciona el uso de LLMs en la educación, asegurando la privacidad del estudiante."
+        },
+        {
+          "title": "PalmClaw: Un Marco de Agentes Nativos para Teléfonos Móviles",
+          "summary": "Presentamos PalmClaw, un marco que ejecuta agentes nativos en dispositivos móviles, mejorando la autenticidad y eficacia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.13027",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes móviles",
+            "eficacia",
+            "tool"
+          ],
+          "what_changed": "Introduce un manejo directo de habilidades y herramientas en dispositivos móviles.",
+          "why_it_matters": "Optimiza el rendimiento de agentes en móviles, un entorno clave para la IA.",
+          "sector_impact": "Facilita nuevas aplicaciones de IA en la vida diaria y el uso de smartphones."
+        },
+        {
+          "title": "IRWOZ 2.0: Un Dataset de Diálogos para Conversaciones con Robots Industriales",
+          "summary": "Presentamos un nuevo dataset mejorado para diálogos de interacción humano-robot, ahora más preciso y ajustado.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.04030",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "HRI",
+            "dataset",
+            "robot"
+          ],
+          "what_changed": "Mejoras en la calidad y precisión del dataset inicial para diálogos industriales.",
+          "why_it_matters": "Proporciona una base más sólida para el desarrollo de sistemas de HRI efectivos.",
+          "sector_impact": "Impulsa avances en la interacción humano-robot en ambientes industriales."
+        },
+        {
+          "title": "DuplexSpeechBench-IFEval: Evaluando Seguimiento de Instrucciones en Agentes de Voz",
+          "summary": "Introducción de una nueva evaluación para agentess de voz de doble vía que prueba la adherencia a instrucciones implícitas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.03423",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "voz",
+            "instrucciones"
+          ],
+          "what_changed": "Desarrollo de un marco que mide la gestión del suelo en interacciones en tiempo real.",
+          "why_it_matters": "Proporciona herramientas para mejorar la interacción de los agentes de voz en situaciones complejas.",
+          "sector_impact": "Mejora la experiencia del usuario en tecnologías de asistentes de voz."
+        },
+        {
+          "title": "ObserverBench: Evaluando Estimaciones Mecanísticas para Intervención y Control",
+          "summary": "Un marco de referencia para evaluar la efectividad de estimadores en tareas de intervención y control.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.03026",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "intervención",
+            "control"
+          ],
+          "what_changed": "Propuesta de una evaluación para medir la calidad de acciones en sistemas de control.",
+          "why_it_matters": "Un marco de referencia para evaluar la efectividad de estimadores en tareas de intervención y control.",
+          "sector_impact": "Optimiza modelos de IA en control y monitoreo de procesos críticos."
+        }
+      ]
+    },
+    {
       "date": "2026-09-03",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -749,125 +874,6 @@
           "what_changed": "Introducción de un protocolo para estudiar la fiabilidad de agentes de diseño.",
           "why_it_matters": "Mejora la automatización en la ingeniería de hardware a través de agentes de IA.",
           "sector_impact": "Optimiza la eficiencia y reduce errores en el diseño de hardware."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-28",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory",
-          "summary": "Un nuevo enfoque para la planificación de viajes que utiliza comportamientos pasados del usuario para generar itinerarios personalizados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26807",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "planeación",
-            "personalización"
-          ],
-          "what_changed": "Introducción del enfoque Behavior-Aware Travel Planning.",
-          "why_it_matters": "Mejora la interacción y reduce la carga de entrada del usuario, aumentando la personalización.",
-          "sector_impact": "Turismo"
-        },
-        {
-          "title": "DRL: A Deterministic Relational Middleware Layer for Transaction-Safe Enterprise NL2SQL Under Schema-Graph Scaling",
-          "summary": "Un middleware que mejora la ejecución de consultas SQL naturales, optimizando la interacción con bases de datos en entornos empresariales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26172",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "integraciones",
-            "NL2SQL"
-          ],
-          "what_changed": "Introducción de verificaciones transaccionales y poda dinámica de contexto.",
-          "why_it_matters": "Permite una comunicación más efectiva entre interfaces de lenguaje natural y bases de datos, mejorando la fiabilidad.",
-          "sector_impact": "Tecnología de la información"
-        },
-        {
-          "title": "Zero-Shot Self-Orchestration with Ledger-Based Control for Improved LLM Coding Performance",
-          "summary": "Investigación sobre el uso de sistemas de múltiples agentes para mejorar el rendimiento de la codificación de LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26480",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "codificación"
-          ],
-          "what_changed": "Introducción de un sistema de gestión de tareas entre agentes para mejorar precisión.",
-          "why_it_matters": "Ofrece un enfoque novedoso para combinar agentes y mejorar la eficiencia en tareas complejas.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
-          "summary": "Benchmark para evaluar la fiabilidad de los jueces LLM en sistemas de herramientas agenciales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26623",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "evaluación"
-          ],
-          "what_changed": "Presentación de un nuevo estándar de evaluación para sistemas con herramientas agenciales.",
-          "why_it_matters": "Establece un marco para la evaluación de la fiabilidad y eficiencia de los modelos de IA.",
-          "sector_impact": "Inteligencia artificial"
-        },
-        {
-          "title": "Evaluating human and LLM screening workflows in a conceptually complex scoping review",
-          "summary": "Comparación de flujos de trabajo de evaluación humana y LLM en revisiones de cobertura de evidencias.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26885",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "eficiencia"
-          ],
-          "what_changed": "Mejoras en el rendimiento de LLM para la evaluación de literatura científica.",
-          "why_it_matters": "Aumenta la eficiencia en la revisión de literatura y la identificación de estudios relevantes.",
-          "sector_impact": "Investigación"
-        },
-        {
-          "title": "AgentJudgeBench: Advances in Evaluating LLMs with Agentic Tool-Calling",
-          "summary": "Avances en la evaluación de LLMs para sistemas que llaman a herramientas en entornos completamente autónomos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26623",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "herramientas"
-          ],
-          "what_changed": "Nuevas métricas que mejoran la precisión en la evaluación de sistemas agenciales.",
-          "why_it_matters": "Proporciona un marco necesario para el desarrollo y la evaluación de herramientas LLM.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
-          "summary": "Exploración del papel de los LLMs en la automatización del diseño electrónico.",
-          "category": "sector",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.27184",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "automación",
-            "diseño electrónico"
-          ],
-          "what_changed": "Cambio en el enfoque de generación a orquestación en diseño electrónico.",
-          "why_it_matters": "Mejora la forma en que se llevan a cabo los procesos de diseño y aumenta la eficiencia operativa.",
-          "sector_impact": "Ingeniería electrónica"
         }
       ]
     }
