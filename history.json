@@ -1,6 +1,108 @@
 {
   "days": [
     {
+      "date": "2026-09-05",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+          "summary": "Google Pics, una herramienta de creación y edición de imágenes, está ahora disponible.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Google Pics",
+            "edición de imágenes"
+          ],
+          "what_changed": "Lanzamiento de herramienta de IA para edición de imágenes.",
+          "why_it_matters": "Permite a los usuarios crear y editar contenido visual fácilmente en Google Workspace.",
+          "sector_impact": "Transforma el flujo de trabajo en entornos colaborativos."
+        },
+        {
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "summary": "Para el nuevo modelo Muse Spark, Meta ofrece descuentos por contribuciones en el desarrollo de futuros modelos.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "Muse Spark"
+          ],
+          "what_changed": "Introducción de un modelo incentivado por el usuario.",
+          "why_it_matters": "Fomenta la colaboración y mejora el desarrollo de modelos de IA.",
+          "sector_impact": "Impulsa la innovación en el uso de IA en programación."
+        },
+        {
+          "title": "Google’s Gemini Spark can now manage your Google Photos library",
+          "summary": "Gemini Spark puede editar y curar álbumes de fotos, crear colecciones compartidas y manejar tareas de Google Photos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "Google Photos"
+          ],
+          "what_changed": "Funcionalidad ampliada en el manejo de Google Photos.",
+          "why_it_matters": "Facilita la organización y gestión de contenido fotográfico para los usuarios.",
+          "sector_impact": "Mejora la experiencia del usuario en aplicaciones de fotografía."
+        },
+        {
+          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "summary": "Nvidia confirma la adquisición de Hugging Face, que alberga más de 3 millones de modelos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Nvidia",
+            "Hugging Face"
+          ],
+          "what_changed": "Adquisición de un jugador clave en el espacio de modelos de IA.",
+          "why_it_matters": "Reforzará la oferta de modelos de IA de Nvidia y su ecosistema de desarrolladores.",
+          "sector_impact": "Amplifica la capacidad de acceso y desarrollo de modelos de IA."
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "summary": "OpenAI lanza Astra, afirmando que es una nueva frontera en uso computacional con velocidad y seguridad mejoradas.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "Astra"
+          ],
+          "what_changed": "Lanzamiento de un nuevo modelo altamente potente.",
+          "why_it_matters": "Promete revolucionar tareas complejas con un enfoque en la eficiencia.",
+          "sector_impact": "Potencial impacto significativo en aplicaciones empresariales y tecnológicas."
+        },
+        {
+          "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+          "summary": "GitHub Podcast desglosa términos de IA que están en conversaciones de desarrolladores.",
+          "category": "framework",
+          "source_name": "GitHub AI",
+          "source_url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "terminología de IA",
+            "desarrolladores"
+          ],
+          "what_changed": "Aclaración de conceptos clave en IA.",
+          "why_it_matters": "Fomenta una mejor comunicación y comprensión entre los desarrolladores.",
+          "sector_impact": "Facilita el desarrollo ágil y eficiente en proyectos de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-09-04",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -754,126 +856,6 @@
           "what_changed": "Movimientos estratégicos en el mercado de adquisiciones de IA.",
           "why_it_matters": "Protege la infraestructura y la propiedad intelectual de Nvidia.",
           "sector_impact": "Consolidación del enfoque de Nvidia en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-29",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Modality Maturity Index: Benchmark para modelos multimodales",
-          "summary": "Se propone un índice diseñado para evaluar capacidades multimodales de modelos grandes de lenguaje en cinco modalidades.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26317",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "benchmark",
-            "modelo"
-          ],
-          "what_changed": "Introducción del Modality Maturity Index.",
-          "why_it_matters": "Permite evaluar la efectividad de modelos en tareas complejas que requieren comprensión de múltiples modalidades.",
-          "sector_impact": "Aumentará la precisión en tareas que involucran diversas formas de datos."
-        },
-        {
-          "title": "NIS-Agent: Mejora en Agentes de Investigación Profunda",
-          "summary": "Un nuevo marco que aísla el ruido en la toma de decisiones de agentes de investigación impulsados por LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.23045",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agente",
-            "automatización"
-          ],
-          "what_changed": "Introducción del NIS-Agent para mejorar la objetividad en la evaluación de acciones anteriores.",
-          "why_it_matters": "Reduce el sesgo de inercia en la toma de decisiones de agentes de búsqueda.",
-          "sector_impact": "Incrementa la efectividad en tareas de investigación complejas."
-        },
-        {
-          "title": "Evaluación de Modelos para Revisiones Sistemáticas con LLMs",
-          "summary": "Desarrollo de un pipeline LLM para extraer información relevante de investigaciones sobre modelos de propagación de enfermedades.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26150",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "revisión",
-            "literatura",
-            "modelo"
-          ],
-          "what_changed": "Aplicación de LLMs en revisiones sistemáticas.",
-          "why_it_matters": "Permite automatizar procesos de revisión literaria de manera efectiva.",
-          "sector_impact": "Mejora la eficiencia en la investigación médica y epidemiológica."
-        },
-        {
-          "title": "DeepPlanner: Mejora la Capacidad de Planificación",
-          "summary": "Un marco de aprendizaje reforzado que mejora las capacidades de planificación en agentes de investigación profunda.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.12979",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "planificación",
-            "aprendizaje"
-          ],
-          "what_changed": "Introducción de un nuevo marco que optimiza la planificación de agentes.",
-          "why_it_matters": "Optimiza las decisiones estratégicas en tareas complejas.",
-          "sector_impact": "Aumenta la efectividad de los modelos en la toma de decisiones complejas."
-        },
-        {
-          "title": "Rethinking the Evaluation of Harness Evolution for Agents",
-          "summary": "Reevaluación de la evolución automática de sistemas de harness para LLMs, destacando las limitaciones de los métodos actuales.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.12227",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "modelo"
-          ],
-          "what_changed": "Análisis de protocolos de evaluación más justos para la evolución de harness.",
-          "why_it_matters": "Plantea nuevos estándares para evaluar la eficacia de la evolución automática.",
-          "sector_impact": "Mejora la calidad de la evaluación de modelos de lenguaje."
-        },
-        {
-          "title": "Explorando el Rol de LLMs en Programación HPC",
-          "summary": "Revisión de la aplicación de LLMs en la programación de computación de alto rendimiento.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26110",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "HPC",
-            "programación"
-          ],
-          "what_changed": "Identificación de oportunidades y limitaciones en el uso de LLMs en HPC.",
-          "why_it_matters": "Ofrece un análisis comprensivo sobre la aplicación de LLMs en áreas críticas.",
-          "sector_impact": "Potencial para revolucionar el desarrollo de software en HPC."
-        },
-        {
-          "title": "Benchmarking AI Agents para Automatización de Diseño de Hardware",
-          "summary": "Evaluación de agentes de IA para automatizar flujos de trabajo de diseño de hardware.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26199",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "hardware",
-            "automatización"
-          ],
-          "what_changed": "Introducción de un protocolo para estudiar la fiabilidad de agentes de diseño.",
-          "why_it_matters": "Mejora la automatización en la ingeniería de hardware a través de agentes de IA.",
-          "sector_impact": "Optimiza la eficiencia y reduce errores en el diseño de hardware."
         }
       ]
     }
