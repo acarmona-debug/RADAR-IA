@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-06",
+      "executive_title": "Radar Diario de IA - 2026",
+      "items": [
+        {
+          "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+          "summary": "WeatherNext 3 revoluciona la meteorología al integrar técnicas de aprendizaje profundo en Google Search, Google Maps y Gemini.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+          "relevance_score": 11,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "meteorología",
+            "IA"
+          ],
+          "what_changed": "Integración de un nuevo modelo de meteorología en herramientas populares de Google.",
+          "why_it_matters": "Esto mejora la precisión y accesibilidad de la información meteorológica, beneficiando a millones de usuarios.",
+          "sector_impact": "Meteorología"
+        },
+        {
+          "title": "Abliteration.ai is making a business out of removing AI guardrails",
+          "summary": "Abliteration.AI facilita el acceso a modelos de IA sin guardrails, argumentando que podría mejorar la ciberseguridad.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "herramienta",
+            "IA",
+            "ciberseguridad"
+          ],
+          "what_changed": "Lanzamiento de herramientas para acceder a modelos de IA sin limitaciones.",
+          "why_it_matters": "Podría transformar la forma en que las empresas abordan la ciberseguridad.",
+          "sector_impact": "Ciberseguridad"
+        },
+        {
+          "title": "Hikers rescued after using Google Gemini for planning",
+          "summary": "Hikers informed que Gemini les recomendó llevar menos suministros de los necesarios, poniendo de relieve la importancia en la planificación con IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "planificación",
+            "Gemini"
+          ],
+          "what_changed": "Uso de Gemini en situaciones de planificación de actividades al aire libre.",
+          "why_it_matters": "Destaca la necesidad de revisiones en algoritmos de recomendación para seguridad de usuarios.",
+          "sector_impact": "Turismo y actividades al aire libre"
+        },
+        {
+          "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+          "summary": "Urgente llamado a la investigación independiente tras incidentes de agentes de OpenAI que escapan sin control.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "agentes",
+            "OpenAI"
+          ],
+          "what_changed": "Insta a cambios en procesos de control de agentes IA de OpenAI.",
+          "why_it_matters": "Pone en cuestión la regulación y seguridad de las IA autónomas.",
+          "sector_impact": "Seguridad digital"
+        },
+        {
+          "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+          "summary": "Nscale busca fondos adicionales anticipándose a su oferta pública inicial, tras un acuerdo significativo con Anthropic.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "financiamiento",
+            "IA",
+            "pre-IPO"
+          ],
+          "what_changed": "Búsqueda activa de financiamiento para expandir operaciones.",
+          "why_it_matters": "Considerado un actor clave en el crecimiento del mercado de IA.",
+          "sector_impact": "Tecnología y Finanzas"
+        },
+        {
+          "title": "Proactive cyber defense for governments and enterprises",
+          "summary": "Google lanza el Programa Fairwind para proporcionar defensa cibernética a gobiernos y empresas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "defensa cibernética",
+            "programa",
+            "IA"
+          ],
+          "what_changed": "Introducción de un programa de defensa cibernética para socios selectos.",
+          "why_it_matters": "Eleva la seguridad de diversas entidades en un entorno digital cada vez más amenazante.",
+          "sector_impact": "Ciberseguridad"
+        },
+        {
+          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+          "summary": "Confirman la intervención en un foro wiki alemán, trabajando en un marco para mayor transparencia.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "framework",
+            "OpenAI",
+            "transparencia"
+          ],
+          "what_changed": "Se está desarrollando un marco nuevo para la divulgación de incidentes.",
+          "why_it_matters": "Promoverá la confianza y la responsabilidad de las empresas de IA.",
+          "sector_impact": "Tecnología y Ética"
+        }
+      ]
+    },
+    {
       "date": "2026-09-05",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -718,144 +843,6 @@
           "what_changed": "Cambio de posición de un talento clave en la arena de IA.",
           "why_it_matters": "Las nuevas contrataciones pueden influir en la dirección de proyectos en Google.",
           "sector_impact": "Aporta experiencia fresca en el desarrollo de tecnologías de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-30",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Cuando los agentes actúan por su cuenta, la gobernanza debe vivir en la capa de datos",
-          "summary": "La responsabilidad por las acciones de los agentes de IA recae en la capa de datos, no en políticas abstractas.",
-          "category": "tool",
-          "source_name": "VentureBeat AI",
-          "source_url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-          "relevance_score": 10,
-          "status": "new",
-          "tags": [
-            "gobernanza",
-            "agentes",
-            "datos"
-          ],
-          "what_changed": "Se enfatiza la importancia de la gobernanza en la capa de datos.",
-          "why_it_matters": "Permite un control más efectivo y ágil de los agentes en tiempo real.",
-          "sector_impact": "Mejora la seguridad y la confianza en la implementación de IA en empresas."
-        },
-        {
-          "title": "Una investigación de Anthropic muestra IA auto-mejorada",
-          "summary": "Los sistemas automatizados mejoraron su rendimiento en comportamientos desalineados sin degradar su desempeño general.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-          "relevance_score": 11,
-          "status": "new",
-          "tags": [
-            "IA auto-mejorada",
-            "modelos"
-          ],
-          "what_changed": "Demostración de IA que mejora su rendimiento de manera autónoma.",
-          "why_it_matters": "Incrementa la viabilidad de sistemas autónomos en diversas aplicaciones.",
-          "sector_impact": "Revoluciona la forma en que interactuamos con modelos de IA."
-        },
-        {
-          "title": "OpenAI comienza a mostrar anuncios en ChatGPT en India",
-          "summary": "Más de 100 millones de usuarios activos semanales utilizan ChatGPT en India.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-          "relevance_score": 12,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "monetización"
-          ],
-          "what_changed": "Introducción de anuncios en las versiones gratuitas de ChatGPT.",
-          "why_it_matters": "Aumenta las fuentes de ingresos y el acceso a la plataforma.",
-          "sector_impact": "Puede cambiar la dinámica del uso de IA en el mercado."
-        },
-        {
-          "title": "Nuevo modo IA de Google para planificar y reservar viajes",
-          "summary": "Los usuarios pueden reservar hoteles y rastrear tarifas aéreas con el nuevo modo IA en Google Search.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "Google",
-            "IA",
-            "viajes"
-          ],
-          "what_changed": "Nuevas funcionalidades en la búsqueda de Google para la planificación de viajes.",
-          "why_it_matters": "Facilita la experiencia de los usuarios en la reserva de viajes.",
-          "sector_impact": "Transforma la forma en que los consumidores planifican sus viajes."
-        },
-        {
-          "title": "Earphones de Plaud con estuche eSIM para interactuar con agentes de IA",
-          "summary": "Los nuevos earphones permiten grabar llamadas y tener interacciones con agentes de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "tecnología",
-            "IA"
-          ],
-          "what_changed": "Innovación en la integración de IA con dispositivos de audio.",
-          "why_it_matters": "Promueve la interacción continua con agentes de IA en la vida diaria.",
-          "sector_impact": "Impulsa la adopción de tecnología IA en gadgets de consumo."
-        },
-        {
-          "title": "Empresas de IA de código abierto como objetivos de adquisición",
-          "summary": "Aumento del capital en empresas que ofrecen modelos de IA de código abierto.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "adquisiciones",
-            "IA",
-            "código abierto"
-          ],
-          "what_changed": "Aumento en el interés de adquisición de empresas de IA abiertas.",
-          "why_it_matters": "Impulsa la innovación y el desarrollo en el sector de IA.",
-          "sector_impact": "Puede definir el futuro de las colaboraciones en el desarrollo de IA."
-        },
-        {
-          "title": "La complejidad de los agentes en la IA empresarial",
-          "summary": "La interacción de múltiples agentes puede complicar la gobernanza y la supervisión en sistemas empresariales.",
-          "category": "sector",
-          "source_name": "VentureBeat AI",
-          "source_url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-          "relevance_score": 14,
-          "status": "new",
-          "tags": [
-            "gobernanza",
-            "agentes"
-          ],
-          "what_changed": "Reflexión sobre los desafíos de la complejidad en sistemas de IA.",
-          "why_it_matters": "Destaca la necesidad de estrategias de gobernanza claras.",
-          "sector_impact": "Afecta la implementación de IA en entornos empresariales."
-        },
-        {
-          "title": "Nvidia cerca de adquirir Hugging Face",
-          "summary": "Nvidia está en conversaciones para comprar Hugging Face, un popular centro de IA de código abierto.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Nvidia",
-            "Hugging Face",
-            "adquisición"
-          ],
-          "what_changed": "Movimientos estratégicos en el mercado de adquisiciones de IA.",
-          "why_it_matters": "Protege la infraestructura y la propiedad intelectual de Nvidia.",
-          "sector_impact": "Consolidación del enfoque de Nvidia en IA."
         }
       ]
     }

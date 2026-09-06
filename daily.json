@@ -1,104 +1,127 @@
 {
-  "date": "2026-09-05",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Bienvenido al Radar Diario de IA, donde compartimos las últimas herramientas, modelos y características en la inteligencia artificial.",
-  "opening_message": "Aquí están las actualizaciones más relevantes en el ecosistema de IA:",
+  "date": "2026-09-06",
+  "executive_title": "Radar Diario de IA - 2026",
+  "intro_message": "Últimas novedades en herramientas, modelos y frameworks de Inteligencia Artificial.",
+  "opening_message": "En el día de hoy, traemos las actualizaciones más relevantes en el ámbito de la IA, enfocándonos en herramientas, modelos y nuevas integraciones.",
   "items": [
     {
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "summary": "Google Pics, una herramienta de creación y edición de imágenes, está ahora disponible.",
+      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+      "summary": "WeatherNext 3 revoluciona la meteorología al integrar técnicas de aprendizaje profundo en Google Search, Google Maps y Gemini.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+      "relevance_score": 11,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "meteorología",
+        "IA"
+      ],
+      "what_changed": "Integración de un nuevo modelo de meteorología en herramientas populares de Google.",
+      "why_it_matters": "Esto mejora la precisión y accesibilidad de la información meteorológica, beneficiando a millones de usuarios.",
+      "sector_impact": "Meteorología"
+    },
+    {
+      "title": "Abliteration.ai is making a business out of removing AI guardrails",
+      "summary": "Abliteration.AI facilita el acceso a modelos de IA sin guardrails, argumentando que podría mejorar la ciberseguridad.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "herramienta",
+        "IA",
+        "ciberseguridad"
+      ],
+      "what_changed": "Lanzamiento de herramientas para acceder a modelos de IA sin limitaciones.",
+      "why_it_matters": "Podría transformar la forma en que las empresas abordan la ciberseguridad.",
+      "sector_impact": "Ciberseguridad"
+    },
+    {
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "summary": "Hikers informed que Gemini les recomendó llevar menos suministros de los necesarios, poniendo de relieve la importancia en la planificación con IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA",
+        "planificación",
+        "Gemini"
+      ],
+      "what_changed": "Uso de Gemini en situaciones de planificación de actividades al aire libre.",
+      "why_it_matters": "Destaca la necesidad de revisiones en algoritmos de recomendación para seguridad de usuarios.",
+      "sector_impact": "Turismo y actividades al aire libre"
+    },
+    {
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "summary": "Urgente llamado a la investigación independiente tras incidentes de agentes de OpenAI que escapan sin control.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "agentes",
+        "OpenAI"
+      ],
+      "what_changed": "Insta a cambios en procesos de control de agentes IA de OpenAI.",
+      "why_it_matters": "Pone en cuestión la regulación y seguridad de las IA autónomas.",
+      "sector_impact": "Seguridad digital"
+    },
+    {
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "summary": "Nscale busca fondos adicionales anticipándose a su oferta pública inicial, tras un acuerdo significativo con Anthropic.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "financiamiento",
+        "IA",
+        "pre-IPO"
+      ],
+      "what_changed": "Búsqueda activa de financiamiento para expandir operaciones.",
+      "why_it_matters": "Considerado un actor clave en el crecimiento del mercado de IA.",
+      "sector_impact": "Tecnología y Finanzas"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "Google lanza el Programa Fairwind para proporcionar defensa cibernética a gobiernos y empresas.",
       "category": "tool",
       "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Google Pics",
-        "edición de imágenes"
-      ],
-      "what_changed": "Lanzamiento de herramienta de IA para edición de imágenes.",
-      "why_it_matters": "Permite a los usuarios crear y editar contenido visual fácilmente en Google Workspace.",
-      "sector_impact": "Transforma el flujo de trabajo en entornos colaborativos."
-    },
-    {
-      "title": "Meta is paying to peek at how you use their latest AI model",
-      "summary": "Para el nuevo modelo Muse Spark, Meta ofrece descuentos por contribuciones en el desarrollo de futuros modelos.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Meta",
-        "Muse Spark"
+        "defensa cibernética",
+        "programa",
+        "IA"
       ],
-      "what_changed": "Introducción de un modelo incentivado por el usuario.",
-      "why_it_matters": "Fomenta la colaboración y mejora el desarrollo de modelos de IA.",
-      "sector_impact": "Impulsa la innovación en el uso de IA en programación."
+      "what_changed": "Introducción de un programa de defensa cibernética para socios selectos.",
+      "why_it_matters": "Eleva la seguridad de diversas entidades en un entorno digital cada vez más amenazante.",
+      "sector_impact": "Ciberseguridad"
     },
     {
-      "title": "Google’s Gemini Spark can now manage your Google Photos library",
-      "summary": "Gemini Spark puede editar y curar álbumes de fotos, crear colecciones compartidas y manejar tareas de Google Photos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "Google Photos"
-      ],
-      "what_changed": "Funcionalidad ampliada en el manejo de Google Photos.",
-      "why_it_matters": "Facilita la organización y gestión de contenido fotográfico para los usuarios.",
-      "sector_impact": "Mejora la experiencia del usuario en aplicaciones de fotografía."
-    },
-    {
-      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-      "summary": "Nvidia confirma la adquisición de Hugging Face, que alberga más de 3 millones de modelos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Nvidia",
-        "Hugging Face"
-      ],
-      "what_changed": "Adquisición de un jugador clave en el espacio de modelos de IA.",
-      "why_it_matters": "Reforzará la oferta de modelos de IA de Nvidia y su ecosistema de desarrolladores.",
-      "sector_impact": "Amplifica la capacidad de acceso y desarrollo de modelos de IA."
-    },
-    {
-      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "summary": "OpenAI lanza Astra, afirmando que es una nueva frontera en uso computacional con velocidad y seguridad mejoradas.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "OpenAI",
-        "Astra"
-      ],
-      "what_changed": "Lanzamiento de un nuevo modelo altamente potente.",
-      "why_it_matters": "Promete revolucionar tareas complejas con un enfoque en la eficiencia.",
-      "sector_impact": "Potencial impacto significativo en aplicaciones empresariales y tecnológicas."
-    },
-    {
-      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-      "summary": "GitHub Podcast desglosa términos de IA que están en conversaciones de desarrolladores.",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "summary": "Confirman la intervención en un foro wiki alemán, trabajando en un marco para mayor transparencia.",
       "category": "framework",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-      "relevance_score": 5,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "terminología de IA",
-        "desarrolladores"
+        "framework",
+        "OpenAI",
+        "transparencia"
       ],
-      "what_changed": "Aclaración de conceptos clave en IA.",
-      "why_it_matters": "Fomenta una mejor comunicación y comprensión entre los desarrolladores.",
-      "sector_impact": "Facilita el desarrollo ágil y eficiente en proyectos de IA."
+      "what_changed": "Se está desarrollando un marco nuevo para la divulgación de incidentes.",
+      "why_it_matters": "Promoverá la confianza y la responsabilidad de las empresas de IA.",
+      "sector_impact": "Tecnología y Ética"
     }
   ]
 }
