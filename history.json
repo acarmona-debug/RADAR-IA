@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-07",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
+          "summary": "Los agentes de IA mejoran la selección de acciones en entornos específicos gracias a la inclusión de contexto de ejecución, lo que optimiza el rendimiento en tareas complejas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.05232",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "optimización",
+            "IA"
+          ],
+          "what_changed": "Incorporación de contexto de ejecución en la planificación de agentes.",
+          "why_it_matters": "Mejora el rendimiento de los agentes de IA en la toma de decisiones complejas.",
+          "sector_impact": "Impacto significativo en automatización y ejecución de tareas."
+        },
+        {
+          "title": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
+          "summary": "Un marco que mejora la generación de afirmaciones de IA al integrarlas en un grafo de conocimiento, facilitando la verificación por expertos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.04442",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "conocimiento",
+            "expertos"
+          ],
+          "what_changed": "Integración de un grafo de conocimiento para la validación de afirmaciones.",
+          "why_it_matters": "Reduce las alucinaciones y mejora la precisión de la IA.",
+          "sector_impact": "Mejoras notables en aplicaciones críticas de IA."
+        },
+        {
+          "title": "Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
+          "summary": "Método que permite a los agentes de IA estructurar datos no organizados especulativamente mientras razonando, reduciendo costos operativos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.31082",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "data",
+            "eficiencia"
+          ],
+          "what_changed": "Estructuración adaptativa de datos no organizados durante el razonamiento.",
+          "why_it_matters": "Disminuye significativamente el costo de procesamiento de datos.",
+          "sector_impact": "Revoluciona la forma en que los datos son utilizados por agentes de IA."
+        },
+        {
+          "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems",
+          "summary": "Revisión de sistemas de reclutamiento impulsados por IA, destacando el uso de agentes que pueden optimizar el proceso de selección y evaluación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.04286",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "reclutamiento",
+            "IA",
+            "agentes"
+          ],
+          "what_changed": "Transición de modelos estáticos a flujos de trabajo automatizados en reclutamiento.",
+          "why_it_matters": "Mejora la eficiencia y efectividad del proceso de contratación.",
+          "sector_impact": "Transforma la gestión de talento en empresas."
+        },
+        {
+          "title": "Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection",
+          "summary": "Presenta un nuevo ataque de inyección de prompts visuales, exponiendo vulnerabilidades en modelos de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.04533",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "IA",
+            "vulnerabilidades"
+          ],
+          "what_changed": "Nueva técnica de inyección visual que puede comprometer modelos de IA.",
+          "why_it_matters": "Aumenta la conciencia sobre la seguridad de los agentes de IA.",
+          "sector_impact": "Desafíos significativos para la seguridad en aplicaciones de IA."
+        },
+        {
+          "title": "A Structured Debate-Mixture-of-Agents Framework for Complex Clinical Diagnostic Decision Support",
+          "summary": "Un marco multi-agente diseñado para mejorar la precisión del diagnóstico clínico a través de interacción estructurada.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.05069",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "salud",
+            "diagnóstico",
+            "agentes"
+          ],
+          "what_changed": "Introducción de interacciones estructuradas entre múltiples agentes.",
+          "why_it_matters": "Mejora la precisión y seguridad en diagnósticos médicos.",
+          "sector_impact": "Transforma el soporte en decisiones clínicas."
+        },
+        {
+          "title": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
+          "summary": "Un marco multi-agente que ejecuta pruebas autónomas en sistemas de infoentretenimiento, mejorando la eficiencia en su validación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.04913",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "testing",
+            "agentes"
+          ],
+          "what_changed": "Implementación de un marco autónomo para pruebas de sistemas complejos.",
+          "why_it_matters": "Aumenta la fiabilidad y eficiencia de las validaciones in situ.",
+          "sector_impact": "Beneficia la industria automotriz y de tecnología."
+        }
+      ]
+    },
+    {
       "date": "2026-09-06",
       "executive_title": "Radar Diario de IA - 2026",
       "items": [
@@ -718,131 +843,6 @@
           "what_changed": "Nuevos estándares para evaluar la búsqueda en múltiples modos.",
           "why_it_matters": "Facilita la mejora continua de los agentes de búsqueda multimodal.",
           "sector_impact": "Aumenta la eficacia de los sistemas de búsqueda."
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Anthropic y OpenAI en TechCrunch Disrupt 2026",
-          "summary": "Anthropic y OpenAI participarán en el escenario de IA en TechCrunch Disrupt 2026, presentando los temas más candentes de la comunidad.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evento",
-            "AI",
-            "desarrollo"
-          ],
-          "what_changed": "Participación de dos grandes actores de IA en un evento clave.",
-          "why_it_matters": "El evento plantea discusiones cruciales sobre el futuro de la IA.",
-          "sector_impact": "Impacto positivo en la colaboración y el desarrollo de tecnologías emergentes."
-        },
-        {
-          "title": "Nvidia invierte en MediaTek para el desarrollo de chips de IA",
-          "summary": "Nvidia realiza una inversión de $3.5 mil millones en MediaTek para asegurar su relevancia en la infraestructura de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "inversión",
-            "chips",
-            "IA"
-          ],
-          "what_changed": "Nueva inversión estratégica para fortalecer la oferta de chips de IA.",
-          "why_it_matters": "Asegura que Nvidia mantenga su ventaja competitiva en un mercado en rápida evolución.",
-          "sector_impact": "Refuerza el ecosistema de chips de IA y su accesibilidad para desarrolladores."
-        },
-        {
-          "title": "Clipto usa IA para buscar terabytes de video",
-          "summary": "Clipto, una startup de IA, ha alcanzado una valoración de $250 millones gracias a su innovadora tecnología de búsqueda de video.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "startup",
-            "media",
-            "IA"
-          ],
-          "what_changed": "Crecimiento significativo en la valoración de la startup y su capacidad operativa.",
-          "why_it_matters": "Muestra el potencial de la IA en la búsqueda de contenido multimedia.",
-          "sector_impact": "Impulsa el sector de medios con una tecnología más eficiente."
-        },
-        {
-          "title": "Neocloud Lambda asegura $1B en deuda para comprar chips de IA",
-          "summary": "Neocloud Lambda ha recaudado $1B para comprar chips de IA de Nvidia y aumentará su capacidad de arrendar.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "financiamiento",
-            "IA",
-            "chips"
-          ],
-          "what_changed": "Aumento en la capacidad de hardware para proyectos de IA.",
-          "why_it_matters": "Subraya la creciente demandada por chips de IA en el mercado actual.",
-          "sector_impact": "Fortalece la infraestructura de IA con más recursos disponibles."
-        },
-        {
-          "title": "Eficiencia en centros de datos: Más allá de la GPU",
-          "summary": "Nvidia está transformando los sistemas de centros de datos para mejorar la eficiencia, dejando atrás el enfoque exclusivo en las GPU.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "eficiencia",
-            "centros de datos",
-            "IA"
-          ],
-          "what_changed": "Pasos hacia la optimización del rendimiento en vez de simplemente añadir más potencia de procesamiento.",
-          "why_it_matters": "Mejora la sostenibilidad y coste-efectividad en operaciones de IA.",
-          "sector_impact": "Influye en la infraestructura de TI y operaciones con IA."
-        },
-        {
-          "title": "Caterpillar aplica lecciones de minería a despliegue de IA",
-          "summary": "Caterpillar trae su experiencia en automatización de minería al campo del despliegue de IA.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "automático",
-            "despliegue",
-            "IA"
-          ],
-          "what_changed": "Nuevas estrategias de despliegue derivadas de la automatización.",
-          "why_it_matters": "Ofrece un enfoque práctico para integrar IA en operaciones complejas.",
-          "sector_impact": "Mejora en la adopción de IA en industrias tradicionales."
-        },
-        {
-          "title": "Barret Zoph se une a Google tras su paso por OpenAI",
-          "summary": "El cofundador de Thinking Machines, Barret Zoph, se ha integrado a Google después de una breve etapa en OpenAI.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "talento",
-            "transferencia",
-            "Google"
-          ],
-          "what_changed": "Cambio de posición de un talento clave en la arena de IA.",
-          "why_it_matters": "Las nuevas contrataciones pueden influir en la dirección de proyectos en Google.",
-          "sector_impact": "Aporta experiencia fresca en el desarrollo de tecnologías de IA."
         }
       ]
     }
