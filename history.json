@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-10",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "EmoMed: Un Agente Emocionalmente Consciente para Soporte Médico Multimodal",
+          "summary": "EmoMed adapta sus respuestas en función del estado emocional del usuario, usando un mecanismo de recuperación de información en tiempo real.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.07194",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "emotional intelligence",
+            "medical support",
+            "AI agents"
+          ],
+          "what_changed": "Mejora en la adaptabilidad emocional de agentes en entornos médicos.",
+          "why_it_matters": "Promueve interacciones más empáticas y precisas en consultas médicas.",
+          "sector_impact": "Salud"
+        },
+        {
+          "title": "Exploración de ML Agentic (A-MLE) para Clasificación de Anuncios",
+          "summary": "A-MLE es un sistema autónomo que explora técnicas de ML en modelos de clasificación de anuncios para optimizar el rendimiento.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.08248",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "advertising",
+            "ML techniques",
+            "automation"
+          ],
+          "what_changed": "Optimización en ciclos de iteración de ML.",
+          "why_it_matters": "Aumenta la eficiencia en la implementación de mejoras significativas en modelos de anuncios.",
+          "sector_impact": "Marketing"
+        },
+        {
+          "title": "Evaluación de Memoria a Largo Plazo en Agentes LLM",
+          "summary": "Se introduce MERIT, un marco evaluativo para medir la utilidad de la memoria en agentes que ejecutan tareas específicas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.05441",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "memory",
+            "evaluation",
+            "agent"
+          ],
+          "what_changed": "Nuevo estándar para evaluar la memoria en tareas específicas.",
+          "why_it_matters": "Permite una mejor comprensión del impacto de la memoria en el éxito de las tareas ejecutadas por agentes.",
+          "sector_impact": "IA general"
+        },
+        {
+          "title": "Mejoras en la Generación de Citaciones en Documentos Multicapa",
+          "summary": "AtomCite verifica y corrige citaciones de nivel de página en documentos, mejorando significativamente la precisión de las referencias.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.05802",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "citation",
+            "verification",
+            "accuracy"
+          ],
+          "what_changed": "Implementación de un nuevo marco para validar citaciones automáticamente.",
+          "why_it_matters": "Reduce la tasa de inexactitudes en citaciones, crucial para la investigación y la academia.",
+          "sector_impact": "Academia"
+        },
+        {
+          "title": "Audio-Maestro: Mejora de Modelos de Audio-Lenguaje con Razonamiento Aumentado por Herramientas",
+          "summary": "Audio-Maestro permite que modelos de audio-lenguaje usen herramientas externas, mejorando la precisión en análisis de audio.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.11454",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "audio",
+            "reasoning",
+            "AI tools"
+          ],
+          "what_changed": "Integración de razonamiento estructurado en análisis de audio.",
+          "why_it_matters": "Mejora el desempeño de modelos en tareas de razonamiento de audio.",
+          "sector_impact": "Multimodal AI"
+        },
+        {
+          "title": "Plataforma de Ejecución Adaptativa para Agentes LLM en Producción",
+          "summary": "Una plataforma que separa la definición de flujos de trabajo de su ejecución, optimizando el uso de recursos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.06128",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "workflow",
+            "production"
+          ],
+          "what_changed": "Optimización en la ejecución de tareas de IA en ambientes de producción.",
+          "why_it_matters": "Reduce costes y mejora la eficiencia de ejecuciones en tiempo real y por lotes.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "RAG sobre Huellas de Pensamiento puede Mejorar Tareas de Razonamiento",
+          "summary": "Se demuestra que recuperar trazas de pensamiento mejora el rendimiento en tareas de razonamiento con LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.03344",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "reasoning",
+            "RAG",
+            "AI workflows"
+          ],
+          "what_changed": "Cambio en la percepción sobre la eficacia de RAG en problemas de razonamiento.",
+          "why_it_matters": "Ofrece una nueva perspectiva para optimizar tareas complejas en modelos de IA.",
+          "sector_impact": "Inteligencia Artificial"
+        }
+      ]
+    },
+    {
       "date": "2026-09-09",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -622,131 +747,6 @@
           "what_changed": "Propuesta de una evaluación para medir la calidad de acciones en sistemas de control.",
           "why_it_matters": "Un marco de referencia para evaluar la efectividad de estimadores en tareas de intervención y control.",
           "sector_impact": "Optimiza modelos de IA en control y monitoreo de procesos críticos."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-03",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives",
-          "summary": "Introducción de Tool Primitives y HEART, un marco que mejora la invocación de herramientas mediante comunicación natural entre LLMs, resultando en un 10% de mejora de rendimiento por encima de modelos de referencia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.01736",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Tool Primitives",
-            "HEART",
-            "LLMs"
-          ],
-          "what_changed": "Se introdujo un nuevo sistema de invocación usando lenguaje natural en lugar de esquemas API rígidos.",
-          "why_it_matters": "Optimiza la interacción entre múltiples herramientas, mejorando la eficiencia en tareas complejas.",
-          "sector_impact": "Aumenta la aplicabilidad de LLMs en entornos de producción."
-        },
-        {
-          "title": "UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents",
-          "summary": "Presenta UniToolCall, un marco unificado que estandariza la representación y evaluación del uso de herramientas en agentes LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.11557",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "UniToolCall",
-            "LLM",
-            "evaluación"
-          ],
-          "what_changed": "Introduce un enfoque estandarizado que mejora la representación y evaluación del uso de herramientas.",
-          "why_it_matters": "Facilita la integración y evaluación coherente de herramientas en los LLMs.",
-          "sector_impact": "Impulsa el desarrollo de agentes más confiables y eficientes."
-        },
-        {
-          "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
-          "summary": "Desarrolla DisCo, un agente de investigación que destila habilidades de repositorios de GitHub, mejorando la eficiencia de las investigaciones en IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.02749",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "repositorios",
-            "habilidades",
-            "DisCo"
-          ],
-          "what_changed": "Se introdujo un agente que destila conocimientos operativos de repositorios existentes en habilidades reutilizables.",
-          "why_it_matters": "Facilita la reutilización de conocimientos especializados sin necesidad de redescubrimiento.",
-          "sector_impact": "Mejora la capacidad de los agentes de IA para ejecutar tareas complejas."
-        },
-        {
-          "title": "FUSE: An Evaluating Framework for Dangerous Capabilities of LLMs",
-          "summary": "Presenta un marco modular para evaluar capacidades peligrosas de los LLMs, proporcionando un perfil estandarizado de capacidades frente a modelos comerciales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.02168",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "marco",
-            "seguridad"
-          ],
-          "what_changed": "Introduce un enfoque estandarizado de evaluación que destaca las diferencias en capacidades peligrosas entre modelos.",
-          "why_it_matters": "Mejora la comprensión y gestión de riesgos en IA.",
-          "sector_impact": "Aumenta la seguridad y la gobernanza en IA."
-        },
-        {
-          "title": "ToolGate: An Executable Acceptance Pipeline for Tool-Dependent Scientific Benchmark Construction",
-          "summary": "Desarrolla ToolGate, un sistema de verificación que asegura la validez de los elementos generados por modelos de IA para evaluaciones científicas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.02067",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "ToolGate",
-            "IA"
-          ],
-          "what_changed": "Implementa una metodología de verificación robusta para asegurar la calidad de los candidatos generados por LLMs.",
-          "why_it_matters": "Aumenta la fiabilidad de las evaluaciones científicas generadas por modelos de IA.",
-          "sector_impact": "Mejora la calidad de la investigación científica."
-        },
-        {
-          "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
-          "summary": "Desarrolla TikZilla, un modelo que mejora la generación de figuras científicas a partir de descripciones textuales utilizando RL y un dataset mejorado.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.03072",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "TikZ",
-            "RL",
-            "figuras científicas"
-          ],
-          "what_changed": "Introduce un dataset mejorado para optimizar la calidad de las figuras generadas por el modelo.",
-          "why_it_matters": "Aumenta la utilidad de modelos de LLM en la visualización de datos científicos.",
-          "sector_impact": "Facilita la representación visual en la investigación científica."
-        },
-        {
-          "title": "APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering",
-          "summary": "Presenta APEx, un marco que optimiza la experiencia de interacción de los agentes para mejorar la adaptación en la respuesta a preguntas complejas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.02253",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "APEx",
-            "adaptación",
-            "IA"
-          ],
-          "what_changed": "Optimiza la utilización de la experiencia de interacción en agentes de IA mediante un marco jerárquico.",
-          "why_it_matters": "Permite una mejor comprensión y mejora continua de los modelos en tareas complejas.",
-          "sector_impact": "Aumenta la eficiencia de los modelos en la investigación y resolución de problemas."
         }
       ]
     }
