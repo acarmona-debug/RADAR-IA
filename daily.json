@@ -1,127 +1,126 @@
 {
-  "date": "2026-09-10",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Estas son las actualizaciones más relevantes en el campo de la inteligencia artificial, enfocadas en herramientas, frameworks y modelos emergentes.",
-  "opening_message": "Prioriza innovaciones que impacten en el desarrollo de agentes y automatización.",
+  "date": "2026-09-11",
+  "executive_title": "Radar Diario de IA - Nuevas Integraciones y Herramientas",
+  "intro_message": "Bienvenido al Radar Diario de IA, donde destacamos las últimas innovaciones y herramientas que están revolucionando el campo de la inteligencia artificial.",
+  "opening_message": "A continuación, encontrará un resumen de las nuevas herramientas, modelos y frameworks que están marcando la pauta en el desarrollo de IA.",
   "items": [
     {
-      "title": "EmoMed: Un Agente Emocionalmente Consciente para Soporte Médico Multimodal",
-      "summary": "EmoMed adapta sus respuestas en función del estado emocional del usuario, usando un mecanismo de recuperación de información en tiempo real.",
-      "category": "tool",
+      "title": "AgentAudit: Un marco extenso para la evaluación de confianza en agentes IA",
+      "summary": "AgentAudit evalúa todo el rastro de ejecución de los agentes IA, abordando aspectos de confiabilidad y capacidad de cumplimiento.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.07194",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "emotional intelligence",
-        "medical support",
-        "AI agents"
-      ],
-      "what_changed": "Mejora en la adaptabilidad emocional de agentes en entornos médicos.",
-      "why_it_matters": "Promueve interacciones más empáticas y precisas en consultas médicas.",
-      "sector_impact": "Salud"
-    },
-    {
-      "title": "Exploración de ML Agentic (A-MLE) para Clasificación de Anuncios",
-      "summary": "A-MLE es un sistema autónomo que explora técnicas de ML en modelos de clasificación de anuncios para optimizar el rendimiento.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.08248",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "advertising",
-        "ML techniques",
-        "automation"
-      ],
-      "what_changed": "Optimización en ciclos de iteración de ML.",
-      "why_it_matters": "Aumenta la eficiencia en la implementación de mejoras significativas en modelos de anuncios.",
-      "sector_impact": "Marketing"
-    },
-    {
-      "title": "Evaluación de Memoria a Largo Plazo en Agentes LLM",
-      "summary": "Se introduce MERIT, un marco evaluativo para medir la utilidad de la memoria en agentes que ejecutan tareas específicas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.05441",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "memory",
-        "evaluation",
-        "agent"
-      ],
-      "what_changed": "Nuevo estándar para evaluar la memoria en tareas específicas.",
-      "why_it_matters": "Permite una mejor comprensión del impacto de la memoria en el éxito de las tareas ejecutadas por agentes.",
-      "sector_impact": "IA general"
-    },
-    {
-      "title": "Mejoras en la Generación de Citaciones en Documentos Multicapa",
-      "summary": "AtomCite verifica y corrige citaciones de nivel de página en documentos, mejorando significativamente la precisión de las referencias.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.05802",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "citation",
-        "verification",
-        "accuracy"
-      ],
-      "what_changed": "Implementación de un nuevo marco para validar citaciones automáticamente.",
-      "why_it_matters": "Reduce la tasa de inexactitudes en citaciones, crucial para la investigación y la academia.",
-      "sector_impact": "Academia"
-    },
-    {
-      "title": "Audio-Maestro: Mejora de Modelos de Audio-Lenguaje con Razonamiento Aumentado por Herramientas",
-      "summary": "Audio-Maestro permite que modelos de audio-lenguaje usen herramientas externas, mejorando la precisión en análisis de audio.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.11454",
+      "source_url": "https://arxiv.org/abs/2609.09875",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "audio",
-        "reasoning",
-        "AI tools"
+        "evaluación",
+        "agentes",
+        "confianza"
       ],
-      "what_changed": "Integración de razonamiento estructurado en análisis de audio.",
-      "why_it_matters": "Mejora el desempeño de modelos en tareas de razonamiento de audio.",
-      "sector_impact": "Multimodal AI"
+      "what_changed": "Introducción de un marco más completo para evaluar agentes IA.",
+      "why_it_matters": "Permite identificar fallos específicos en la ejecución de agentes, mejorando su fiabilidad.",
+      "sector_impact": "Impacto significativo en la regulación y auditoría de agentes automáticos."
     },
     {
-      "title": "Plataforma de Ejecución Adaptativa para Agentes LLM en Producción",
-      "summary": "Una plataforma que separa la definición de flujos de trabajo de su ejecución, optimizando el uso de recursos.",
+      "title": "OpenDiscoveryTrace: Evaluación de flujos de trabajo de científicos IA",
+      "summary": "Dataset público que registra trayectorias completas de agentes científicos de IA, permitiendo auditar la metodología científica.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.06128",
+      "source_url": "https://arxiv.org/abs/2609.09203",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "LLM",
-        "workflow",
-        "production"
+        "dataset",
+        "IA científica",
+        "auditoría"
       ],
-      "what_changed": "Optimización en la ejecución de tareas de IA en ambientes de producción.",
-      "why_it_matters": "Reduce costes y mejora la eficiencia de ejecuciones en tiempo real y por lotes.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Base de datos de trayectorias que facilita la evaluación de procesos de pensamiento en IA.",
+      "why_it_matters": "Fomenta la transparencia y la precisión en la investigación científica basada en IA.",
+      "sector_impact": "Mejora el enfoque en la precisión y auditoría de la IA en la ciencia."
     },
     {
-      "title": "RAG sobre Huellas de Pensamiento puede Mejorar Tareas de Razonamiento",
-      "summary": "Se demuestra que recuperar trazas de pensamiento mejora el rendimiento en tareas de razonamiento con LLM.",
+      "title": "LogiScope-VQA: Evaluación de modelos para identificación de peligros logísticos",
+      "summary": "Dataset específico que investiga la aplicabilidad de modelos multimodales en operaciones logísticas del mundo real.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.03344",
+      "source_url": "https://arxiv.org/abs/2609.09790",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "reasoning",
-        "RAG",
-        "AI workflows"
+        "evaluación",
+        "logística",
+        "modelos multimodales"
       ],
-      "what_changed": "Cambio en la percepción sobre la eficacia de RAG en problemas de razonamiento.",
-      "why_it_matters": "Ofrece una nueva perspectiva para optimizar tareas complejas en modelos de IA.",
-      "sector_impact": "Inteligencia Artificial"
+      "what_changed": "Creación de un dataset que aborda la percepción y razonamiento en condiciones industriales.",
+      "why_it_matters": "Destaca la necesidad de mejorar los modelos de IA para su implementación en entornos industriales.",
+      "sector_impact": "Proporciona un camino hacia la mejora de la seguridad y las operaciones en logística."
+    },
+    {
+      "title": "Kernel-Managed Shared Memory para Personalización",
+      "summary": "Un sistema de memoria compartida que permite a múltiples agentes IA aprender contexto útil de manera centralizada.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.10144",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "personalización",
+        "sistemas multi-agentes"
+      ],
+      "what_changed": "Introducción de gestión centralizada de memoria para mejorar la personalización.",
+      "why_it_matters": "Facilita la colaboración entre diferentes agentes IA, optimizando su rendimiento.",
+      "sector_impact": "Potencia las capacidades de personalización y uso colaborativo de IA."
+    },
+    {
+      "title": "KairosAgent: Predicción de series temporales con razonamiento semántico",
+      "summary": "Marco innovador para la previsión de series temporales que unifica el razonamiento textual y la predicción numérica.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.30002",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "predicción",
+        "series temporales",
+        "IA"
+      ],
+      "what_changed": "Integración de modelos de razonamiento e incorporación de herramientas analíticas.",
+      "why_it_matters": "Aumenta la precisión en la predicción de datos temporales a partir de múltiples fuentes.",
+      "sector_impact": "Mejora la capacidad de análisis en entornos de datos complejos."
+    },
+    {
+      "title": "RAP: Predicción de Atención en Investigación",
+      "summary": "Un benchmark que mide la evolución de la atención en investigación utilizando un agente LLM.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.10092",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "investigación",
+        "atención",
+        "benchmark"
+      ],
+      "what_changed": "Desarrollo de un cronograma que abarca múltiples campos de AI/ML.",
+      "why_it_matters": "Mejora la capacidad de investigación y seguimiento de tendencias en el campo de IA.",
+      "sector_impact": "Facilita la evaluación y priorización de áreas de investigación en IA."
+    },
+    {
+      "title": "Trust Me, I'm Your Developer: Autenticación en Modelos LLM",
+      "summary": "Modelo de autenticación donde LLM valida reclamos de identidad a través de pruebas generadas por la misma IA.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.03247",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "autenticación",
+        "seguridad",
+        "IA"
+      ],
+      "what_changed": "Establecimiento de un método de autenticación basado en interacción conversacional.",
+      "why_it_matters": "Identifica fallos en la autenticación y escalamiento de privilegios en interacciones con IA.",
+      "sector_impact": "Resalta la importancia de integraciones de seguridad en IAs."
     }
   ]
 }

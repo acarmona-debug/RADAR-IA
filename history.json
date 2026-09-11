@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-09-11",
+      "executive_title": "Radar Diario de IA - Nuevas Integraciones y Herramientas",
+      "items": [
+        {
+          "title": "AgentAudit: Un marco extenso para la evaluación de confianza en agentes IA",
+          "summary": "AgentAudit evalúa todo el rastro de ejecución de los agentes IA, abordando aspectos de confiabilidad y capacidad de cumplimiento.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.09875",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes",
+            "confianza"
+          ],
+          "what_changed": "Introducción de un marco más completo para evaluar agentes IA.",
+          "why_it_matters": "Permite identificar fallos específicos en la ejecución de agentes, mejorando su fiabilidad.",
+          "sector_impact": "Impacto significativo en la regulación y auditoría de agentes automáticos."
+        },
+        {
+          "title": "OpenDiscoveryTrace: Evaluación de flujos de trabajo de científicos IA",
+          "summary": "Dataset público que registra trayectorias completas de agentes científicos de IA, permitiendo auditar la metodología científica.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.09203",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "dataset",
+            "IA científica",
+            "auditoría"
+          ],
+          "what_changed": "Base de datos de trayectorias que facilita la evaluación de procesos de pensamiento en IA.",
+          "why_it_matters": "Fomenta la transparencia y la precisión en la investigación científica basada en IA.",
+          "sector_impact": "Mejora el enfoque en la precisión y auditoría de la IA en la ciencia."
+        },
+        {
+          "title": "LogiScope-VQA: Evaluación de modelos para identificación de peligros logísticos",
+          "summary": "Dataset específico que investiga la aplicabilidad de modelos multimodales en operaciones logísticas del mundo real.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.09790",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "logística",
+            "modelos multimodales"
+          ],
+          "what_changed": "Creación de un dataset que aborda la percepción y razonamiento en condiciones industriales.",
+          "why_it_matters": "Destaca la necesidad de mejorar los modelos de IA para su implementación en entornos industriales.",
+          "sector_impact": "Proporciona un camino hacia la mejora de la seguridad y las operaciones en logística."
+        },
+        {
+          "title": "Kernel-Managed Shared Memory para Personalización",
+          "summary": "Un sistema de memoria compartida que permite a múltiples agentes IA aprender contexto útil de manera centralizada.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.10144",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "personalización",
+            "sistemas multi-agentes"
+          ],
+          "what_changed": "Introducción de gestión centralizada de memoria para mejorar la personalización.",
+          "why_it_matters": "Facilita la colaboración entre diferentes agentes IA, optimizando su rendimiento.",
+          "sector_impact": "Potencia las capacidades de personalización y uso colaborativo de IA."
+        },
+        {
+          "title": "KairosAgent: Predicción de series temporales con razonamiento semántico",
+          "summary": "Marco innovador para la previsión de series temporales que unifica el razonamiento textual y la predicción numérica.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.30002",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "predicción",
+            "series temporales",
+            "IA"
+          ],
+          "what_changed": "Integración de modelos de razonamiento e incorporación de herramientas analíticas.",
+          "why_it_matters": "Aumenta la precisión en la predicción de datos temporales a partir de múltiples fuentes.",
+          "sector_impact": "Mejora la capacidad de análisis en entornos de datos complejos."
+        },
+        {
+          "title": "RAP: Predicción de Atención en Investigación",
+          "summary": "Un benchmark que mide la evolución de la atención en investigación utilizando un agente LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.10092",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "investigación",
+            "atención",
+            "benchmark"
+          ],
+          "what_changed": "Desarrollo de un cronograma que abarca múltiples campos de AI/ML.",
+          "why_it_matters": "Mejora la capacidad de investigación y seguimiento de tendencias en el campo de IA.",
+          "sector_impact": "Facilita la evaluación y priorización de áreas de investigación en IA."
+        },
+        {
+          "title": "Trust Me, I'm Your Developer: Autenticación en Modelos LLM",
+          "summary": "Modelo de autenticación donde LLM valida reclamos de identidad a través de pruebas generadas por la misma IA.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.03247",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "autenticación",
+            "seguridad",
+            "IA"
+          ],
+          "what_changed": "Establecimiento de un método de autenticación basado en interacción conversacional.",
+          "why_it_matters": "Identifica fallos en la autenticación y escalamiento de privilegios en interacciones con IA.",
+          "sector_impact": "Resalta la importancia de integraciones de seguridad en IAs."
+        }
+      ]
+    },
+    {
       "date": "2026-09-10",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -622,131 +746,6 @@
           "what_changed": "Aclaración de conceptos clave en IA.",
           "why_it_matters": "Fomenta una mejor comunicación y comprensión entre los desarrolladores.",
           "sector_impact": "Facilita el desarrollo ágil y eficiente en proyectos de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "TRACE: Un Banco de Habilidades Evolutivas para Agentes LLM",
-          "summary": "TRACE mejora la consistencia y la conciencia de límites en agentes LLM, organizando habilidades en un Banco de Habilidades actualizable.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22793",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "consistencia",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un marco autónomo para la evolución de habilidades de agentes.",
-          "why_it_matters": "Mejora notablemente la consistencia en tareas repetidas, crucial para aplicaciones en entornos de usuarios.",
-          "sector_impact": "Transforma la manera en que los agentes de IA pueden operar con mayor coherencia en interacciones."
-        },
-        {
-          "title": "GeoNatureAgent Benchmark: Evaluación de Agentes de Análisis Geoespacial",
-          "summary": "El primer benchmark para agentes de análisis ambiental que utiliza llamadas a herramientas estructuradas contra APIs geoespaciales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.12821",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "análisis ambiental",
-            "benchmark",
-            "API"
-          ],
-          "what_changed": "Desarrollo de una metodología para evaluar capacidades de agentes en tareas ambientales.",
-          "why_it_matters": "Aumenta la eficacia de los agentes en la automatización de flujos de trabajo geoespaciales reales.",
-          "sector_impact": "Impulsa la IA en la ciencia ambiental y mejora la eficiencia operativa en la gestión de datos geoespaciales."
-        },
-        {
-          "title": "Privacy-Preserving Federated Inference para Diagnóstico Cognitivo",
-          "summary": "Propuesta de un marco de inferencia federada que preserva la privacidad en diagnósticos cognitivos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.02947",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "privacidad",
-            "diagnóstico",
-            "federado"
-          ],
-          "what_changed": "Mejora en la precisión del diagnóstico sin necesidad de acceder a datos personales.",
-          "why_it_matters": "Protege la privacidad mientras permite el diagnóstico efectivo en entornos educativos.",
-          "sector_impact": "Revoluciona el uso de LLMs en la educación, asegurando la privacidad del estudiante."
-        },
-        {
-          "title": "PalmClaw: Un Marco de Agentes Nativos para Teléfonos Móviles",
-          "summary": "Presentamos PalmClaw, un marco que ejecuta agentes nativos en dispositivos móviles, mejorando la autenticidad y eficacia.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.13027",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes móviles",
-            "eficacia",
-            "tool"
-          ],
-          "what_changed": "Introduce un manejo directo de habilidades y herramientas en dispositivos móviles.",
-          "why_it_matters": "Optimiza el rendimiento de agentes en móviles, un entorno clave para la IA.",
-          "sector_impact": "Facilita nuevas aplicaciones de IA en la vida diaria y el uso de smartphones."
-        },
-        {
-          "title": "IRWOZ 2.0: Un Dataset de Diálogos para Conversaciones con Robots Industriales",
-          "summary": "Presentamos un nuevo dataset mejorado para diálogos de interacción humano-robot, ahora más preciso y ajustado.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.04030",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "HRI",
-            "dataset",
-            "robot"
-          ],
-          "what_changed": "Mejoras en la calidad y precisión del dataset inicial para diálogos industriales.",
-          "why_it_matters": "Proporciona una base más sólida para el desarrollo de sistemas de HRI efectivos.",
-          "sector_impact": "Impulsa avances en la interacción humano-robot en ambientes industriales."
-        },
-        {
-          "title": "DuplexSpeechBench-IFEval: Evaluando Seguimiento de Instrucciones en Agentes de Voz",
-          "summary": "Introducción de una nueva evaluación para agentess de voz de doble vía que prueba la adherencia a instrucciones implícitas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.03423",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "voz",
-            "instrucciones"
-          ],
-          "what_changed": "Desarrollo de un marco que mide la gestión del suelo en interacciones en tiempo real.",
-          "why_it_matters": "Proporciona herramientas para mejorar la interacción de los agentes de voz en situaciones complejas.",
-          "sector_impact": "Mejora la experiencia del usuario en tecnologías de asistentes de voz."
-        },
-        {
-          "title": "ObserverBench: Evaluando Estimaciones Mecanísticas para Intervención y Control",
-          "summary": "Un marco de referencia para evaluar la efectividad de estimadores en tareas de intervención y control.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.03026",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "intervención",
-            "control"
-          ],
-          "what_changed": "Propuesta de una evaluación para medir la calidad de acciones en sistemas de control.",
-          "why_it_matters": "Un marco de referencia para evaluar la efectividad de estimadores en tareas de intervención y control.",
-          "sector_impact": "Optimiza modelos de IA en control y monitoreo de procesos críticos."
         }
       ]
     }
