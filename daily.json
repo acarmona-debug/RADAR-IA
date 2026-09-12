@@ -1,126 +1,110 @@
 {
-  "date": "2026-09-11",
-  "executive_title": "Radar Diario de IA - Nuevas Integraciones y Herramientas",
-  "intro_message": "Bienvenido al Radar Diario de IA, donde destacamos las últimas innovaciones y herramientas que están revolucionando el campo de la inteligencia artificial.",
-  "opening_message": "A continuación, encontrará un resumen de las nuevas herramientas, modelos y frameworks que están marcando la pauta en el desarrollo de IA.",
+  "date": "2026-09-12",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimas actualizaciones sobre herramientas y modelos de inteligencia artificial.",
+  "opening_message": "Conoce las novedades más relevantes en el ámbito de la IA, centrándonos en herramientas, modelos y frameworks clave.",
   "items": [
     {
-      "title": "AgentAudit: Un marco extenso para la evaluación de confianza en agentes IA",
-      "summary": "AgentAudit evalúa todo el rastro de ejecución de los agentes IA, abordando aspectos de confiabilidad y capacidad de cumplimiento.",
-      "category": "framework",
+      "title": "AI Economist Agent: Un Marco para Análisis Económico y Financiero",
+      "summary": "Se propone un agente de economista de IA para el análisis de escenarios económicos que combina modelos cualitativos y cuantitativos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.09875",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2606.20041",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "evaluación",
+        "IA",
+        "economía",
+        "análisis"
+      ],
+      "what_changed": "Integración de análisis cualitativo y cuantitativo.",
+      "why_it_matters": "Ayuda a estructurar mecanismos económicos a partir de evidencia diversificada.",
+      "sector_impact": "Impacto en análisis macroeconómico y financiero."
+    },
+    {
+      "title": "EvoMaster: Marco de Agentes para Ciencia a Escala",
+      "summary": "EvoMaster aborda la fragmentación y discontinuidad en la investigación científica mediante un marco que apoya a varios agentes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.17406",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
         "agentes",
-        "confianza"
+        "ciencia",
+        "framework"
       ],
-      "what_changed": "Introducción de un marco más completo para evaluar agentes IA.",
-      "why_it_matters": "Permite identificar fallos específicos en la ejecución de agentes, mejorando su fiabilidad.",
-      "sector_impact": "Impacto significativo en la regulación y auditoría de agentes automáticos."
+      "what_changed": "Se implementa un marco de investigación basado en bucles.",
+      "why_it_matters": "Facilita la colaboración entre diferentes agentes científicos.",
+      "sector_impact": "Transformación en el enfoque de investigación científica."
     },
     {
-      "title": "OpenDiscoveryTrace: Evaluación de flujos de trabajo de científicos IA",
-      "summary": "Dataset público que registra trayectorias completas de agentes científicos de IA, permitiendo auditar la metodología científica.",
+      "title": "SGA: Verificación Geométrica para Síntesis de Video Educativo",
+      "summary": "Un módulo que mejora la calidad de animaciones pedagógicas generadas automáticamente por IA.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.09203",
+      "source_url": "https://arxiv.org/abs/2607.18116",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "dataset",
-        "IA científica",
-        "auditoría"
+        "educación",
+        "animación",
+        "IA"
       ],
-      "what_changed": "Base de datos de trayectorias que facilita la evaluación de procesos de pensamiento en IA.",
-      "why_it_matters": "Fomenta la transparencia y la precisión en la investigación científica basada en IA.",
-      "sector_impact": "Mejora el enfoque en la precisión y auditoría de la IA en la ciencia."
+      "what_changed": "Integración de verificación geométrica en procesos de animación.",
+      "why_it_matters": "Aumenta la calidad visual y pedagógica de los materiales educativos generados.",
+      "sector_impact": "Mejora en la educación y la creación de contenido interactivo."
     },
     {
-      "title": "LogiScope-VQA: Evaluación de modelos para identificación de peligros logísticos",
-      "summary": "Dataset específico que investiga la aplicabilidad de modelos multimodales en operaciones logísticas del mundo real.",
+      "title": "Grounding Agent Memory: Curation de Memoria para Agentes de Empresa",
+      "summary": "Un proceso que optimiza la memoria persistente en agentes de IA para mejorar la eficiencia en tareas a largo plazo.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.09790",
+      "source_url": "https://arxiv.org/abs/2609.11060",
       "relevance_score": 7,
       "status": "new",
       "tags": [
+        "memoria",
+        "agentes",
+        "optimización"
+      ],
+      "what_changed": "Implementación de una curator para verificar y refrescar memoria de agentes.",
+      "why_it_matters": "Aumenta la eficacia y la precisión de los agentes en tareas repetitivas.",
+      "sector_impact": "Aporta mejoras en el rendimiento organizacional con tecnología de IA."
+    },
+    {
+      "title": "Benchmark Radar: Base de Datos de Evaluación de IA",
+      "summary": "Un motor de búsqueda para descubrir y evaluar benchmarks de IA, facilitando la investigación y el desarrollo.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.11115",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
         "evaluación",
-        "logística",
-        "modelos multimodales"
-      ],
-      "what_changed": "Creación de un dataset que aborda la percepción y razonamiento en condiciones industriales.",
-      "why_it_matters": "Destaca la necesidad de mejorar los modelos de IA para su implementación en entornos industriales.",
-      "sector_impact": "Proporciona un camino hacia la mejora de la seguridad y las operaciones en logística."
-    },
-    {
-      "title": "Kernel-Managed Shared Memory para Personalización",
-      "summary": "Un sistema de memoria compartida que permite a múltiples agentes IA aprender contexto útil de manera centralizada.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.10144",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "personalización",
-        "sistemas multi-agentes"
-      ],
-      "what_changed": "Introducción de gestión centralizada de memoria para mejorar la personalización.",
-      "why_it_matters": "Facilita la colaboración entre diferentes agentes IA, optimizando su rendimiento.",
-      "sector_impact": "Potencia las capacidades de personalización y uso colaborativo de IA."
-    },
-    {
-      "title": "KairosAgent: Predicción de series temporales con razonamiento semántico",
-      "summary": "Marco innovador para la previsión de series temporales que unifica el razonamiento textual y la predicción numérica.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.30002",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "predicción",
-        "series temporales",
         "IA"
       ],
-      "what_changed": "Integración de modelos de razonamiento e incorporación de herramientas analíticas.",
-      "why_it_matters": "Aumenta la precisión en la predicción de datos temporales a partir de múltiples fuentes.",
-      "sector_impact": "Mejora la capacidad de análisis en entornos de datos complejos."
+      "what_changed": "Lanzamiento de una plataforma que agrega y clasifica benchmarks de IA.",
+      "why_it_matters": "Facilita el acceso a datos cruciales para el desarrollo de modelos de IA.",
+      "sector_impact": "Revoluciona la forma en que se entienden y utilizan los benchmarks en IA."
     },
     {
-      "title": "RAP: Predicción de Atención en Investigación",
-      "summary": "Un benchmark que mide la evolución de la atención en investigación utilizando un agente LLM.",
+      "title": "GitSkills: Un Conjunto de Datos sobre Habilidades de Agentes en GitHub",
+      "summary": "Conjunto de datos que recoge archivos de habilidades de agentes de IA en repositorios públicos de GitHub.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.10092",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.10906",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "investigación",
-        "atención",
-        "benchmark"
+        "datos",
+        "GitHub",
+        "agentes"
       ],
-      "what_changed": "Desarrollo de un cronograma que abarca múltiples campos de AI/ML.",
-      "why_it_matters": "Mejora la capacidad de investigación y seguimiento de tendencias en el campo de IA.",
-      "sector_impact": "Facilita la evaluación y priorización de áreas de investigación en IA."
-    },
-    {
-      "title": "Trust Me, I'm Your Developer: Autenticación en Modelos LLM",
-      "summary": "Modelo de autenticación donde LLM valida reclamos de identidad a través de pruebas generadas por la misma IA.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.03247",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "autenticación",
-        "seguridad",
-        "IA"
-      ],
-      "what_changed": "Establecimiento de un método de autenticación basado en interacción conversacional.",
-      "why_it_matters": "Identifica fallos en la autenticación y escalamiento de privilegios en interacciones con IA.",
-      "sector_impact": "Resalta la importancia de integraciones de seguridad en IAs."
+      "what_changed": "Primera recopilación extensa de archivos de habilidades de agentes en GitHub.",
+      "why_it_matters": "Proporciona un recurso valioso para el estudio y la mejora de habilidades de IA.",
+      "sector_impact": "Fomenta la investigación en el desarrollo de agentes inteligente."
     }
   ]
 }
