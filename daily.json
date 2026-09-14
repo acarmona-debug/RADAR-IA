@@ -1,144 +1,126 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Descubre las últimas innovaciones en herramientas, modelos y agentes de IA.",
-  "opening_message": "Este radar destaca los avances más relevantes en tecnología de IA, priorizando herramientas y modelos útiles para desarrolladores y automatización.",
+  "intro_message": "Resumen diario de las tendencias y avances en herramientas y modelos de inteligencia artificial.",
+  "opening_message": "En el radar de hoy nos enfocamos en las herramientas, modelos y características innovadoras que están moldeando el futuro de la IA.",
   "items": [
     {
-      "title": "Meta’s AI agent Muse es ahora la aplicación número 2 en EE.UU.",
-      "summary": "La nueva aplicación Muse de Meta ha alcanzado rápidamente la segunda posición entre las aplicaciones en EE.UU., impulsando la interacción de los usuarios con IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Meta",
-        "IA",
-        "aplicaciones"
-      ],
-      "what_changed": "Lanzamiento de Muse al mercado.",
-      "why_it_matters": "Impulsa la visibilidad y uso de IA en aplicaciones móviles.",
-      "sector_impact": "Mejoras en herramientas para usuarios en aspectos como productividad y creatividad."
-    },
-    {
-      "title": "AI agents are flooding public services with new requests",
-      "summary": "Los agentes de IA están generando un aumento de solicitudes en servicios públicos, lo que plantea nuevos desafíos operativos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "IA",
-        "servicios públicos",
-        "agentes"
-      ],
-      "what_changed": "Incremento en las solicitudes generadas por IA.",
-      "why_it_matters": "Destaca la necesidad de adaptar los servicios públicos a las tecnologías emergentes.",
-      "sector_impact": "Transformación en la forma en que se brindan los servicios a la ciudadanía."
-    },
-    {
-      "title": "Anthropic detalla campañas de destilación de Alibaba, Moonshot AI y DeepSeek",
-      "summary": "Anthropic denuncia ataques de destilación provenientes de empresas chinas de IA, aumentando la competencia en el sector.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "IA",
-        "competencia"
-      ],
-      "what_changed": "Informe sobre tácticas de distilación alertando sobre amenazas competitivas.",
-      "why_it_matters": "Resalta la creciente intensidad entre las empresas de IA globales.",
-      "sector_impact": "Impulsa la vigilancia y adaptación de las empresas en el sector."
-    },
-    {
-      "title": "Lanzamiento del modelo SOTA Granite Time Series por IBM",
-      "summary": "IBM lanza un modelo de series temporales con una licencia comercial amigable, facilitando su adopción.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IBM",
-        "modelos",
-        "series temporales"
-      ],
-      "what_changed": "Presentación del modelo con enfoque comercial.",
-      "why_it_matters": "Facilita su integración en aplicaciones empresariales y análisis de datos.",
-      "sector_impact": "Impulsa la analítica avanzada en múltiples industrias."
-    },
-    {
-      "title": "Anthropic revela que los agentes de IA rebeldes odian los CAPTCHAs",
-      "summary": "Explora la experiencia de los bots que intentan parecer humanos en internet y su aversión a los CAPTCHAs.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "CAPTCHA",
-        "bots"
-      ],
-      "what_changed": "Revelación sobre el comportamiento de agentes de IA en internet.",
-      "why_it_matters": "Ofrece insights sobre la funcionalidad y limitaciones de bots en la web.",
-      "sector_impact": "Afecta el desarrollo de tecnologías de validación en línea."
-    },
-    {
-      "title": "Nuevas funciones de fútbol en Search de Google",
-      "summary": "Google añade funciones en Search para seguimiento de juegos en vivo y estadísticas detalladas, mejorando la experiencia del usuario.",
+      "title": "DevFest 2026 is back",
+      "summary": "DevFest 2026 está de regreso, con más de 800 eventos globales para construir, asegurar y escalar en la era de la IA agente.",
       "category": "tool",
       "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
       "relevance_score": 9,
       "status": "new",
       "tags": [
-        "Google",
-        "Search",
-        "deportes"
+        "evento",
+        "desarrolladores",
+        "AI agente"
       ],
-      "what_changed": "Introducción de características deportivas en Search.",
-      "why_it_matters": "Enriquece la manera en la que los usuarios interactúan con datos deportivos.",
-      "sector_impact": "Transforma el acceso a información en tiempo real y análisis deportivo."
+      "what_changed": "Regreso de un evento clave para desarrolladores.",
+      "why_it_matters": "Proporciona una plataforma para construir y escalar aplicaciones de IA.",
+      "sector_impact": "Impulsa la colaboración y la innovación en el desarrollo de IA."
     },
     {
-      "title": "3 formas de prepararse para tu próxima gran carrera con Search",
-      "summary": "Google ofrece herramientas de entrenamiento personalizadas para corredores, ayudándoles a prepararse para competencias.",
+      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "summary": "TechCrunch Disrupt 2026 presenta una sesión interactiva sobre la evolución de los modelos de IA y cómo ayudan a crear valor.",
       "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "relevance_score": 9,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+      "relevance_score": 10,
       "status": "new",
       "tags": [
-        "Google",
-        "Search",
-        "salud"
+        "evento",
+        "OpenAI",
+        "modelos"
       ],
-      "what_changed": "Desarrollo de herramientas para entrenamiento de corredores.",
-      "why_it_matters": "Promueve un enfoque más saludable y organizado hacia el deporte.",
-      "sector_impact": "Inspirar a más personas a adoptar un estilo de vida activo."
+      "what_changed": "Incluirá una discusión sobre la evolución de los modelos de IA.",
+      "why_it_matters": "Aborda cómo los modelos están transformando las empresas tecnológicas.",
+      "sector_impact": "Fomenta la innovación en la industria de IA."
     },
     {
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "summary": "Moonshot AI apunta a alcanzar $2 mil millones en ingresos anuales, destacando su crecimiento en el mercado.",
-      "category": "model",
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop",
+      "summary": "La app Daydream ahora permite comprar ropa a partir de fotos guardadas en el carrete gracias a nuevas funciones lanzadas en iOS 27.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "source_url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Moonshot AI",
-        "modelos",
-        "estrategia"
+        "app",
+        "e-commerce",
+        "iOS"
       ],
-      "what_changed": "Consolidación del modelo K3 en el mercado.",
-      "why_it_matters": "Indica un fuerte desempeño en el sector de IA con proyecciones ambiciosas.",
-      "sector_impact": "Refuerza la competitividad y la innovación en el sector."
+      "what_changed": "Nuevas funcionalidades de compra e integración con Siri.",
+      "why_it_matters": "Facilita la experiencia de compra utilizando IA para análisis visual.",
+      "sector_impact": "Impacta el sector de comercio electrónico y moda."
+    },
+    {
+      "title": "Microsoft’s new AI ‘code of conduct’",
+      "summary": "Microsoft lanza un código de conducta para modelos de IA que incluye principios de apoyo y seguridad para los usuarios.",
+      "category": "framework",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Microsoft",
+        "código de conducta",
+        "modelos"
+      ],
+      "what_changed": "Establecimiento de principios y restricciones de seguridad.",
+      "why_it_matters": "Aconseja cómo deben interactuar los modelos con los usuarios.",
+      "sector_impact": "Fortalece la confianza en el uso de IA."
+    },
+    {
+      "title": "Superhuman acquires YC-backed notetaker Fathom",
+      "summary": "Superhuman adquiere a Fathom, un notificador respaldado por YC, en medio de una tendencia hacia el trabajo ágil con IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "adquisición",
+        "productividad",
+        "IA"
+      ],
+      "what_changed": "Integración de plataformas de productividad para trabajo con IA.",
+      "why_it_matters": "Mejora el flujo de trabajo y la eficiencia en ambientes colaborativos.",
+      "sector_impact": "Influencia en el desarrollo de plataformas colaborativas de IA."
+    },
+    {
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "summary": "Dario Amodei de Anthropic y Sam Altman de OpenAI abordan el tema de 'acelerar el límite' en el desarrollo de IA.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Antropic",
+        "OpenAI",
+        "desarrollo"
+      ],
+      "what_changed": "Propuesta de una nueva estrategia de desarrollo de IA.",
+      "why_it_matters": "Busca gestionar el crecimiento rápido e impulsivo de la IA.",
+      "sector_impact": "Posible redefinición de estándares en la industria de IA."
+    },
+    {
+      "title": "TechCrunch Disrupt 2026 Call for Side Events",
+      "summary": "Última oportunidad para realizar un evento paralelo oficial en TechCrunch Disrupt 2026.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "evento",
+        "TechCrunch"
+      ],
+      "what_changed": "Lanzamiento de una llamada para eventos paralelos.",
+      "why_it_matters": "Ofrece oportunidades de networking y visibilidad para startups.",
+      "sector_impact": "Promueve la colaboración entre la comunidad de desarrollo de IA."
     }
   ]
 }

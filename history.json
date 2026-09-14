@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-09-14",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "DevFest 2026 is back",
+          "summary": "DevFest 2026 está de regreso, con más de 800 eventos globales para construir, asegurar y escalar en la era de la IA agente.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "evento",
+            "desarrolladores",
+            "AI agente"
+          ],
+          "what_changed": "Regreso de un evento clave para desarrolladores.",
+          "why_it_matters": "Proporciona una plataforma para construir y escalar aplicaciones de IA.",
+          "sector_impact": "Impulsa la colaboración y la innovación en el desarrollo de IA."
+        },
+        {
+          "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+          "summary": "TechCrunch Disrupt 2026 presenta una sesión interactiva sobre la evolución de los modelos de IA y cómo ayudan a crear valor.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "evento",
+            "OpenAI",
+            "modelos"
+          ],
+          "what_changed": "Incluirá una discusión sobre la evolución de los modelos de IA.",
+          "why_it_matters": "Aborda cómo los modelos están transformando las empresas tecnológicas.",
+          "sector_impact": "Fomenta la innovación en la industria de IA."
+        },
+        {
+          "title": "Fashion app Daydream uses Apple Intelligence to help you shop",
+          "summary": "La app Daydream ahora permite comprar ropa a partir de fotos guardadas en el carrete gracias a nuevas funciones lanzadas en iOS 27.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "app",
+            "e-commerce",
+            "iOS"
+          ],
+          "what_changed": "Nuevas funcionalidades de compra e integración con Siri.",
+          "why_it_matters": "Facilita la experiencia de compra utilizando IA para análisis visual.",
+          "sector_impact": "Impacta el sector de comercio electrónico y moda."
+        },
+        {
+          "title": "Microsoft’s new AI ‘code of conduct’",
+          "summary": "Microsoft lanza un código de conducta para modelos de IA que incluye principios de apoyo y seguridad para los usuarios.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Microsoft",
+            "código de conducta",
+            "modelos"
+          ],
+          "what_changed": "Establecimiento de principios y restricciones de seguridad.",
+          "why_it_matters": "Aconseja cómo deben interactuar los modelos con los usuarios.",
+          "sector_impact": "Fortalece la confianza en el uso de IA."
+        },
+        {
+          "title": "Superhuman acquires YC-backed notetaker Fathom",
+          "summary": "Superhuman adquiere a Fathom, un notificador respaldado por YC, en medio de una tendencia hacia el trabajo ágil con IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "adquisición",
+            "productividad",
+            "IA"
+          ],
+          "what_changed": "Integración de plataformas de productividad para trabajo con IA.",
+          "why_it_matters": "Mejora el flujo de trabajo y la eficiencia en ambientes colaborativos.",
+          "sector_impact": "Influencia en el desarrollo de plataformas colaborativas de IA."
+        },
+        {
+          "title": "Anthropic CEO outlines plan to slow AI development",
+          "summary": "Dario Amodei de Anthropic y Sam Altman de OpenAI abordan el tema de 'acelerar el límite' en el desarrollo de IA.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Antropic",
+            "OpenAI",
+            "desarrollo"
+          ],
+          "what_changed": "Propuesta de una nueva estrategia de desarrollo de IA.",
+          "why_it_matters": "Busca gestionar el crecimiento rápido e impulsivo de la IA.",
+          "sector_impact": "Posible redefinición de estándares en la industria de IA."
+        },
+        {
+          "title": "TechCrunch Disrupt 2026 Call for Side Events",
+          "summary": "Última oportunidad para realizar un evento paralelo oficial en TechCrunch Disrupt 2026.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "evento",
+            "TechCrunch"
+          ],
+          "what_changed": "Lanzamiento de una llamada para eventos paralelos.",
+          "why_it_matters": "Ofrece oportunidades de networking y visibilidad para startups.",
+          "sector_impact": "Promueve la colaboración entre la comunidad de desarrollo de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-09-13",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -644,131 +768,6 @@
           "what_changed": "La empresa está en la búsqueda de financiamiento a gran escala.",
           "why_it_matters": "Esto puede indicar un creciente interés y confianza en el sector de datos robóticos.",
           "sector_impact": "Impacto en la innovación y desarrollo de soluciones robóticas."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
-          "summary": "Los agentes de IA mejoran la selección de acciones en entornos específicos gracias a la inclusión de contexto de ejecución, lo que optimiza el rendimiento en tareas complejas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.05232",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "optimización",
-            "IA"
-          ],
-          "what_changed": "Incorporación de contexto de ejecución en la planificación de agentes.",
-          "why_it_matters": "Mejora el rendimiento de los agentes de IA en la toma de decisiones complejas.",
-          "sector_impact": "Impacto significativo en automatización y ejecución de tareas."
-        },
-        {
-          "title": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
-          "summary": "Un marco que mejora la generación de afirmaciones de IA al integrarlas en un grafo de conocimiento, facilitando la verificación por expertos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.04442",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "conocimiento",
-            "expertos"
-          ],
-          "what_changed": "Integración de un grafo de conocimiento para la validación de afirmaciones.",
-          "why_it_matters": "Reduce las alucinaciones y mejora la precisión de la IA.",
-          "sector_impact": "Mejoras notables en aplicaciones críticas de IA."
-        },
-        {
-          "title": "Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data",
-          "summary": "Método que permite a los agentes de IA estructurar datos no organizados especulativamente mientras razonando, reduciendo costos operativos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.31082",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "data",
-            "eficiencia"
-          ],
-          "what_changed": "Estructuración adaptativa de datos no organizados durante el razonamiento.",
-          "why_it_matters": "Disminuye significativamente el costo de procesamiento de datos.",
-          "sector_impact": "Revoluciona la forma en que los datos son utilizados por agentes de IA."
-        },
-        {
-          "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems",
-          "summary": "Revisión de sistemas de reclutamiento impulsados por IA, destacando el uso de agentes que pueden optimizar el proceso de selección y evaluación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.04286",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "reclutamiento",
-            "IA",
-            "agentes"
-          ],
-          "what_changed": "Transición de modelos estáticos a flujos de trabajo automatizados en reclutamiento.",
-          "why_it_matters": "Mejora la eficiencia y efectividad del proceso de contratación.",
-          "sector_impact": "Transforma la gestión de talento en empresas."
-        },
-        {
-          "title": "Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection",
-          "summary": "Presenta un nuevo ataque de inyección de prompts visuales, exponiendo vulnerabilidades en modelos de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.04533",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "IA",
-            "vulnerabilidades"
-          ],
-          "what_changed": "Nueva técnica de inyección visual que puede comprometer modelos de IA.",
-          "why_it_matters": "Aumenta la conciencia sobre la seguridad de los agentes de IA.",
-          "sector_impact": "Desafíos significativos para la seguridad en aplicaciones de IA."
-        },
-        {
-          "title": "A Structured Debate-Mixture-of-Agents Framework for Complex Clinical Diagnostic Decision Support",
-          "summary": "Un marco multi-agente diseñado para mejorar la precisión del diagnóstico clínico a través de interacción estructurada.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.05069",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "salud",
-            "diagnóstico",
-            "agentes"
-          ],
-          "what_changed": "Introducción de interacciones estructuradas entre múltiples agentes.",
-          "why_it_matters": "Mejora la precisión y seguridad en diagnósticos médicos.",
-          "sector_impact": "Transforma el soporte en decisiones clínicas."
-        },
-        {
-          "title": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
-          "summary": "Un marco multi-agente que ejecuta pruebas autónomas en sistemas de infoentretenimiento, mejorando la eficiencia en su validación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.04913",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "testing",
-            "agentes"
-          ],
-          "what_changed": "Implementación de un marco autónomo para pruebas de sistemas complejos.",
-          "why_it_matters": "Aumenta la fiabilidad y eficiencia de las validaciones in situ.",
-          "sector_impact": "Beneficia la industria automotriz y de tecnología."
         }
       ]
     }
