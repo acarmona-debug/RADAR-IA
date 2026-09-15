@@ -1,126 +1,120 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen diario de las tendencias y avances en herramientas y modelos de inteligencia artificial.",
-  "opening_message": "En el radar de hoy nos enfocamos en las herramientas, modelos y características innovadoras que están moldeando el futuro de la IA.",
+  "intro_message": "Las últimas innovaciones en herramientas y modelos de inteligencia artificial están moldeando el futuro del desarrollo. Aquí están los aspectos más destacados.",
+  "opening_message": "En el radar de hoy, abordamos los avances más relevantes en herramientas, frameworks y modelos de IA.",
   "items": [
     {
-      "title": "DevFest 2026 is back",
-      "summary": "DevFest 2026 está de regreso, con más de 800 eventos globales para construir, asegurar y escalar en la era de la IA agente.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "evento",
-        "desarrolladores",
-        "AI agente"
-      ],
-      "what_changed": "Regreso de un evento clave para desarrolladores.",
-      "why_it_matters": "Proporciona una plataforma para construir y escalar aplicaciones de IA.",
-      "sector_impact": "Impulsa la colaboración y la innovación en el desarrollo de IA."
-    },
-    {
-      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-      "summary": "TechCrunch Disrupt 2026 presenta una sesión interactiva sobre la evolución de los modelos de IA y cómo ayudan a crear valor.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
-      "relevance_score": 10,
-      "status": "new",
-      "tags": [
-        "evento",
-        "OpenAI",
-        "modelos"
-      ],
-      "what_changed": "Incluirá una discusión sobre la evolución de los modelos de IA.",
-      "why_it_matters": "Aborda cómo los modelos están transformando las empresas tecnológicas.",
-      "sector_impact": "Fomenta la innovación en la industria de IA."
-    },
-    {
-      "title": "Fashion app Daydream uses Apple Intelligence to help you shop",
-      "summary": "La app Daydream ahora permite comprar ropa a partir de fotos guardadas en el carrete gracias a nuevas funciones lanzadas en iOS 27.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "app",
-        "e-commerce",
-        "iOS"
-      ],
-      "what_changed": "Nuevas funcionalidades de compra e integración con Siri.",
-      "why_it_matters": "Facilita la experiencia de compra utilizando IA para análisis visual.",
-      "sector_impact": "Impacta el sector de comercio electrónico y moda."
-    },
-    {
-      "title": "Microsoft’s new AI ‘code of conduct’",
-      "summary": "Microsoft lanza un código de conducta para modelos de IA que incluye principios de apoyo y seguridad para los usuarios.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Microsoft",
-        "código de conducta",
-        "modelos"
-      ],
-      "what_changed": "Establecimiento de principios y restricciones de seguridad.",
-      "why_it_matters": "Aconseja cómo deben interactuar los modelos con los usuarios.",
-      "sector_impact": "Fortalece la confianza en el uso de IA."
-    },
-    {
-      "title": "Superhuman acquires YC-backed notetaker Fathom",
-      "summary": "Superhuman adquiere a Fathom, un notificador respaldado por YC, en medio de una tendencia hacia el trabajo ágil con IA.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "adquisición",
-        "productividad",
-        "IA"
-      ],
-      "what_changed": "Integración de plataformas de productividad para trabajo con IA.",
-      "why_it_matters": "Mejora el flujo de trabajo y la eficiencia en ambientes colaborativos.",
-      "sector_impact": "Influencia en el desarrollo de plataformas colaborativas de IA."
-    },
-    {
-      "title": "Anthropic CEO outlines plan to slow AI development",
-      "summary": "Dario Amodei de Anthropic y Sam Altman de OpenAI abordan el tema de 'acelerar el límite' en el desarrollo de IA.",
+      "title": "Efficiency Hallucination: Formalizing and Measuring Behavioral Calibration in LLM-Based Code Optimization",
+      "summary": "Se presenta un marco de validación para mitigar el riesgo de modificaciones no funcionales en la optimización automática de código.",
       "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.14839",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "optimización",
+        "LLM"
+      ],
+      "what_changed": "Introducción de un marco de validación para evaluar el riesgo de alucinaciones en modelos de lenguaje.",
+      "why_it_matters": "Aumenta la confianza en el uso de LLMs en producción.",
+      "sector_impact": "Optimización de código y desarrollo de software."
+    },
+    {
+      "title": "Question's Gambit: The First Move Matters in Agentic Deep Search",
+      "summary": "Se presenta un módulo de recuperación que mejora la precisión en la búsqueda de documentos relevantes.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.14412",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "búsqueda",
+        "agentes"
+      ],
+      "what_changed": "Introducción de un módulo para mejorar las primeras decisiones de recuperación.",
+      "why_it_matters": "Aumenta la efectividad de los agentes en investigaciones profundas.",
+      "sector_impact": "Mejora en la inteligencia de búsqueda y razonamiento."
+    },
+    {
+      "title": "ClinAgent: A ReAct-Based Agent for Conversational Access to Clinical Trial Information",
+      "summary": "Un sistema conversacional que permite a los investigadores acceder a información de ensayos clínicos de forma natural.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.13860",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Antropic",
-        "OpenAI",
-        "desarrollo"
+        "salud",
+        "ensayos clínicos"
       ],
-      "what_changed": "Propuesta de una nueva estrategia de desarrollo de IA.",
-      "why_it_matters": "Busca gestionar el crecimiento rápido e impulsivo de la IA.",
-      "sector_impact": "Posible redefinición de estándares en la industria de IA."
+      "what_changed": "Desarrollo de un agente que utiliza ReAct para proporcionar respuestas a consultas complejas.",
+      "why_it_matters": "Aumenta la accesibilidad de información crítica para la investigación médica.",
+      "sector_impact": "Mejora en la investigación biomédica y acceso a información clínica."
     },
     {
-      "title": "TechCrunch Disrupt 2026 Call for Side Events",
-      "summary": "Última oportunidad para realizar un evento paralelo oficial en TechCrunch Disrupt 2026.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
-      "relevance_score": 4,
+      "title": "Exploring Automated Vulnerability Identification in JavaScript Code Using Large Language Models",
+      "summary": "LSMs demuestran ser más eficaces que herramientas SAST en la identificación de vulnerabilidades en JavaScript.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.13816",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "evento",
-        "TechCrunch"
+        "seguridad",
+        "JavaScript"
       ],
-      "what_changed": "Lanzamiento de una llamada para eventos paralelos.",
-      "why_it_matters": "Ofrece oportunidades de networking y visibilidad para startups.",
-      "sector_impact": "Promueve la colaboración entre la comunidad de desarrollo de IA."
+      "what_changed": "Evaluación de LLMs en comparación con herramientas tradicionales de detección.",
+      "why_it_matters": "Aumenta la eficacia en la identificación de vulnerabilidades en el código.",
+      "sector_impact": "Impulso en la seguridad del desarrollo web."
+    },
+    {
+      "title": "SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics",
+      "summary": "Un benchmark que evalúa la resolución de restricciones de versiones en modelos de lenguaje.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.11180",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "versionado",
+        "LLMs"
+      ],
+      "what_changed": "Desarrollo de un framework para evaluar la comprensión de las restricciones de versión.",
+      "why_it_matters": "Proporciona herramientas para mejorar la delegación de tareas en agentes de codificación.",
+      "sector_impact": "Optimización en la gestión de versiones en el desarrollo de software."
+    },
+    {
+      "title": "CWM: Controllable White-Box Meta-Prompting for Adaptive Retrieval-Augmented Generation",
+      "summary": "Un nuevo marco que mejora el rendimiento en tareas de RAG y razonamiento en LLMs.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.15234",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "RAG",
+        "prompting"
+      ],
+      "what_changed": "Introducción de un método de meta-prompting para tareas adaptativas.",
+      "why_it_matters": "Facilita la mejora de la capacidad de razonamiento y generación en LLMs.",
+      "sector_impact": "Fortalece la interactividad y detección de información."
+    },
+    {
+      "title": "ANASSA: An Agentic AI Orchestration Framework for Spatial Intelligence",
+      "summary": "Un marco para la orquestación de agentes en análisis geoespacial.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.14824",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "geoespacial",
+        "orquestación"
+      ],
+      "what_changed": "Desarrollo de un marco para la integración de razonamiento espacial y ejecución.",
+      "why_it_matters": "Transforma la forma en que se gestionan los flujos de trabajo en SIG.",
+      "sector_impact": "Mejora en el análisis y la toma de decisiones en contextos geoespaciales."
     }
   ]
 }
