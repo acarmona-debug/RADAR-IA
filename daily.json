@@ -1,120 +1,127 @@
 {
-  "date": "2026-09-15",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas innovaciones en herramientas y modelos de inteligencia artificial están moldeando el futuro del desarrollo. Aquí están los aspectos más destacados.",
-  "opening_message": "En el radar de hoy, abordamos los avances más relevantes en herramientas, frameworks y modelos de IA.",
+  "date": "2026-09-16",
+  "executive_title": "Radar Diario de Innovaciones en IA",
+  "intro_message": "Bienvenido a la última actualización sobre herramientas y modelos innovadores en IA.",
+  "opening_message": "A continuación, destacamos las novedades más relevantes en herramientas, modelos y tecnologías que impulsan la automatización y el desarrollo.",
   "items": [
     {
-      "title": "Efficiency Hallucination: Formalizing and Measuring Behavioral Calibration in LLM-Based Code Optimization",
-      "summary": "Se presenta un marco de validación para mitigar el riesgo de modificaciones no funcionales en la optimización automática de código.",
-      "category": "model",
+      "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
+      "summary": "Se presentan estrategias de defensa para agentes LLM integrados con herramientas, protegiéndolos de ataques adversariales.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.14839",
+      "source_url": "https://arxiv.org/abs/2609.16098",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "optimización",
-        "LLM"
+        "defensa",
+        "LLM",
+        "seguridad"
       ],
-      "what_changed": "Introducción de un marco de validación para evaluar el riesgo de alucinaciones en modelos de lenguaje.",
-      "why_it_matters": "Aumenta la confianza en el uso de LLMs en producción.",
-      "sector_impact": "Optimización de código y desarrollo de software."
+      "what_changed": "Implementación de defensas universales para mitigar ataques.",
+      "why_it_matters": "Refuerza la seguridad y robustez de los agentes LLM integrados.",
+      "sector_impact": "Mejora en entornos de producción que utilicen LLM."
     },
     {
-      "title": "Question's Gambit: The First Move Matters in Agentic Deep Search",
-      "summary": "Se presenta un módulo de recuperación que mejora la precisión en la búsqueda de documentos relevantes.",
+      "title": "Meta ahora permite que agentes de IA manejen partes aburridas de la configuración de WhatsApp Business",
+      "summary": "Nuevo servidor MCP de WhatsApp que permite a desarrolladores usar agentes de IA para automatizar la configuración.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.14412",
-      "relevance_score": 8,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "búsqueda",
+        "Whatsapp",
+        "automación",
         "agentes"
       ],
-      "what_changed": "Introducción de un módulo para mejorar las primeras decisiones de recuperación.",
-      "why_it_matters": "Aumenta la efectividad de los agentes en investigaciones profundas.",
-      "sector_impact": "Mejora en la inteligencia de búsqueda y razonamiento."
+      "what_changed": "Integración de agentes de IA en la configuración de negocio.",
+      "why_it_matters": "Facilita y acelera el proceso de configuración para empresas.",
+      "sector_impact": "Refuerzo en la adopción de IA en entornos comerciales."
     },
     {
-      "title": "ClinAgent: A ReAct-Based Agent for Conversational Access to Clinical Trial Information",
-      "summary": "Un sistema conversacional que permite a los investigadores acceder a información de ensayos clínicos de forma natural.",
-      "category": "tool",
+      "title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
+      "summary": "Se presenta MADA, un marco con múltiples agentes para explorar diseños en sistemas de computación de alto rendimiento.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.13860",
+      "source_url": "https://arxiv.org/abs/2603.11515",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "salud",
-        "ensayos clínicos"
+        "HPC",
+        "diseño",
+        "agentes"
       ],
-      "what_changed": "Desarrollo de un agente que utiliza ReAct para proporcionar respuestas a consultas complejas.",
-      "why_it_matters": "Aumenta la accesibilidad de información crítica para la investigación médica.",
-      "sector_impact": "Mejora en la investigación biomédica y acceso a información clínica."
+      "what_changed": "Nuevo marco para la colaboración de agentes en diseño.",
+      "why_it_matters": "Acelera el descubrimiento científico automatizando procesos de diseño.",
+      "sector_impact": "Impacto significativo en investigaciones científicas complejas."
     },
     {
-      "title": "Exploring Automated Vulnerability Identification in JavaScript Code Using Large Language Models",
-      "summary": "LSMs demuestran ser más eficaces que herramientas SAST en la identificación de vulnerabilidades en JavaScript.",
-      "category": "model",
+      "title": "EchoPath: Execution-Level Replayable Memory for GUI Agents",
+      "summary": "Introducing EchoPath, which transforms GUI interactions into reusable memories for improved automation.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.13816",
+      "source_url": "https://arxiv.org/abs/2609.16635",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "seguridad",
-        "JavaScript"
+        "memoria",
+        "GUI",
+        "agentes"
       ],
-      "what_changed": "Evaluación de LLMs en comparación con herramientas tradicionales de detección.",
-      "why_it_matters": "Aumenta la eficacia en la identificación de vulnerabilidades en el código.",
-      "sector_impact": "Impulso en la seguridad del desarrollo web."
+      "what_changed": "Estandarización de procesos GUI en agentes para su reutilización.",
+      "why_it_matters": "Aumenta la eficiencia en tareas repetitivas en entornos empresariales.",
+      "sector_impact": "Optimización en flujos de trabajo de usuarios que interactúan con interfaces gráficas."
     },
     {
-      "title": "SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics",
-      "summary": "Un benchmark que evalúa la resolución de restricciones de versiones en modelos de lenguaje.",
+      "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
+      "summary": "Se propone REALM, un nuevo marco para la evolución de la memoria a largo plazo en agentes LLM.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.11180",
+      "source_url": "https://arxiv.org/abs/2609.16053",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "versionado",
-        "LLMs"
+        "memoria",
+        "LLM",
+        "evolución"
       ],
-      "what_changed": "Desarrollo de un framework para evaluar la comprensión de las restricciones de versión.",
-      "why_it_matters": "Proporciona herramientas para mejorar la delegación de tareas en agentes de codificación.",
-      "sector_impact": "Optimización en la gestión de versiones en el desarrollo de software."
+      "what_changed": "Introducción de un ciclo de vida continuo para la memoria a largo plazo.",
+      "why_it_matters": "Permite que los agentes organicen y evolucionen sus recuerdos de forma autónoma.",
+      "sector_impact": "Posibilidad de mejorar interacciones prolongadas con usuarios."
     },
     {
-      "title": "CWM: Controllable White-Box Meta-Prompting for Adaptive Retrieval-Augmented Generation",
-      "summary": "Un nuevo marco que mejora el rendimiento en tareas de RAG y razonamiento en LLMs.",
+      "title": "Ave: Guiding Agentic GPU Optimization Using Data-Flow Invariants",
+      "summary": "Nueva plataforma para optimizar kernels de GPU utilizando invariantes de flujo de datos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.15234",
+      "source_url": "https://arxiv.org/abs/2604.18616",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "RAG",
-        "prompting"
+        "GPU",
+        "optimización",
+        "agentes"
       ],
-      "what_changed": "Introducción de un método de meta-prompting para tareas adaptativas.",
-      "why_it_matters": "Facilita la mejora de la capacidad de razonamiento y generación en LLMs.",
-      "sector_impact": "Fortalece la interactividad y detección de información."
+      "what_changed": "Uso de invariantes de flujo de datos para optimización.",
+      "why_it_matters": "Aumenta el rendimiento de los agentes de codificación en entornos de IA.",
+      "sector_impact": "Influencia positiva en el desarrollo de softwares de alta eficiencia."
     },
     {
-      "title": "ANASSA: An Agentic AI Orchestration Framework for Spatial Intelligence",
-      "summary": "Un marco para la orquestación de agentes en análisis geoespacial.",
+      "title": "CLEAR: Cross-Source Evidence Adjudication for Large Language Models in Medicine",
+      "summary": "Marco propuesto para adjudicación de evidencia en LLMs aplicados a la medicina.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.14824",
+      "source_url": "https://arxiv.org/abs/2609.16301",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "geoespacial",
-        "orquestación"
+        "medicina",
+        "evidencia",
+        "LLMs"
       ],
-      "what_changed": "Desarrollo de un marco para la integración de razonamiento espacial y ejecución.",
-      "why_it_matters": "Transforma la forma en que se gestionan los flujos de trabajo en SIG.",
-      "sector_impact": "Mejora en el análisis y la toma de decisiones en contextos geoespaciales."
+      "what_changed": "Introducción de múltiples fuentes de información en la evaluación de LLMs.",
+      "why_it_matters": "Mejora la precisión y relevancia de las respuestas médicas generadas por AI.",
+      "sector_impact": "Potencial de transformar la práctica médica con IA más confiable."
     }
   ]
 }

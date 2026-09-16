@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-16",
+      "executive_title": "Radar Diario de Innovaciones en IA",
+      "items": [
+        {
+          "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
+          "summary": "Se presentan estrategias de defensa para agentes LLM integrados con herramientas, protegiéndolos de ataques adversariales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.16098",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "defensa",
+            "LLM",
+            "seguridad"
+          ],
+          "what_changed": "Implementación de defensas universales para mitigar ataques.",
+          "why_it_matters": "Refuerza la seguridad y robustez de los agentes LLM integrados.",
+          "sector_impact": "Mejora en entornos de producción que utilicen LLM."
+        },
+        {
+          "title": "Meta ahora permite que agentes de IA manejen partes aburridas de la configuración de WhatsApp Business",
+          "summary": "Nuevo servidor MCP de WhatsApp que permite a desarrolladores usar agentes de IA para automatizar la configuración.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Whatsapp",
+            "automación",
+            "agentes"
+          ],
+          "what_changed": "Integración de agentes de IA en la configuración de negocio.",
+          "why_it_matters": "Facilita y acelera el proceso de configuración para empresas.",
+          "sector_impact": "Refuerzo en la adopción de IA en entornos comerciales."
+        },
+        {
+          "title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
+          "summary": "Se presenta MADA, un marco con múltiples agentes para explorar diseños en sistemas de computación de alto rendimiento.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.11515",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "HPC",
+            "diseño",
+            "agentes"
+          ],
+          "what_changed": "Nuevo marco para la colaboración de agentes en diseño.",
+          "why_it_matters": "Acelera el descubrimiento científico automatizando procesos de diseño.",
+          "sector_impact": "Impacto significativo en investigaciones científicas complejas."
+        },
+        {
+          "title": "EchoPath: Execution-Level Replayable Memory for GUI Agents",
+          "summary": "Introducing EchoPath, which transforms GUI interactions into reusable memories for improved automation.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.16635",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "GUI",
+            "agentes"
+          ],
+          "what_changed": "Estandarización de procesos GUI en agentes para su reutilización.",
+          "why_it_matters": "Aumenta la eficiencia en tareas repetitivas en entornos empresariales.",
+          "sector_impact": "Optimización en flujos de trabajo de usuarios que interactúan con interfaces gráficas."
+        },
+        {
+          "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
+          "summary": "Se propone REALM, un nuevo marco para la evolución de la memoria a largo plazo en agentes LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.16053",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "LLM",
+            "evolución"
+          ],
+          "what_changed": "Introducción de un ciclo de vida continuo para la memoria a largo plazo.",
+          "why_it_matters": "Permite que los agentes organicen y evolucionen sus recuerdos de forma autónoma.",
+          "sector_impact": "Posibilidad de mejorar interacciones prolongadas con usuarios."
+        },
+        {
+          "title": "Ave: Guiding Agentic GPU Optimization Using Data-Flow Invariants",
+          "summary": "Nueva plataforma para optimizar kernels de GPU utilizando invariantes de flujo de datos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.18616",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "GPU",
+            "optimización",
+            "agentes"
+          ],
+          "what_changed": "Uso de invariantes de flujo de datos para optimización.",
+          "why_it_matters": "Aumenta el rendimiento de los agentes de codificación en entornos de IA.",
+          "sector_impact": "Influencia positiva en el desarrollo de softwares de alta eficiencia."
+        },
+        {
+          "title": "CLEAR: Cross-Source Evidence Adjudication for Large Language Models in Medicine",
+          "summary": "Marco propuesto para adjudicación de evidencia en LLMs aplicados a la medicina.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.16301",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "medicina",
+            "evidencia",
+            "LLMs"
+          ],
+          "what_changed": "Introducción de múltiples fuentes de información en la evaluación de LLMs.",
+          "why_it_matters": "Mejora la precisión y relevancia de las respuestas médicas generadas por AI.",
+          "sector_impact": "Potencial de transformar la práctica médica con IA más confiable."
+        }
+      ]
+    },
+    {
       "date": "2026-09-15",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -738,97 +863,6 @@
           "what_changed": "Cambio en la percepción sobre la eficacia de RAG en problemas de razonamiento.",
           "why_it_matters": "Ofrece una nueva perspectiva para optimizar tareas complejas en modelos de IA.",
           "sector_impact": "Inteligencia Artificial"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Cymphony recibe inversión significativa en el contexto de riesgos de seguridad",
-          "summary": "Cymphony, una startup de IA, fue valorada en más de $100 millones tras una ronda de financiamiento de $25 millones, co-liderada por Sequoia y SMBC.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "inversión",
-            "seguridad",
-            "startups"
-          ],
-          "what_changed": "Incremento en la valoración de una startup de IA clave.",
-          "why_it_matters": "Refleja el crecimiento de la inversión en tecnologías de IA y la preocupación por la seguridad.",
-          "sector_impact": "Aumento de la inversión en soluciones de IA aplicadas a la seguridad empresarial."
-        },
-        {
-          "title": "Suno lanza nuevo modelo de IA entrenado en música licenciada",
-          "summary": "Suno ha reemplazado sus modelos de IA existentes con Suno v6, ajustándose a las demandas de derechos de autor.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "música",
-            "modelo"
-          ],
-          "what_changed": "Ajuste en el enfoque del modelo de IA hacia el cumplimiento de derechos de autor.",
-          "why_it_matters": "Importante para mitigar riesgos legales en la industria musical.",
-          "sector_impact": "Positivo, abriendo oportunidades en aplicaciones de IA en música."
-        },
-        {
-          "title": "Cognition alcanza una valoración de $48B en el ámbito de IA",
-          "summary": "La valoración de Cognition ha superado la de Cursor, sugiriendo un mercado competitivo en codificación de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "inversión",
-            "IA",
-            "valoración"
-          ],
-          "what_changed": "Aumento significativo en la valoración de Cognition.",
-          "why_it_matters": "Refleja la creciente confianza de inversionistas en la diversidad del mercado de IA.",
-          "sector_impact": "Fomenta una mayor competencia en el desarrollo de tecnologías de IA."
-        },
-        {
-          "title": "Instinct lanza características para gestión de correo electrónico",
-          "summary": "El asistente de IA Instinct ahora puede gestionar cuentas de correo, manejar solicitudes y más.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "asistente",
-            "IA",
-            "funcionalidad"
-          ],
-          "what_changed": "Integración de nuevas funcionalidades para gestionar el correo electrónico.",
-          "why_it_matters": "Mejora la usabilidad del asistente IA en tareas cotidianas.",
-          "sector_impact": "Expande las capacidades de los agentes de IA en la gestión personal."
-        },
-        {
-          "title": "Instacart presenta asistente de compras de IA llamado Clementine",
-          "summary": "La aplicación Instacart integra un asistente de IA para asistir en las compras de grocery.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "asistente",
-            "compras",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de un nuevo asistente que mejora la experiencia de compra.",
-          "why_it_matters": "Ofrece una solución innovadora en el comercio electrónico.",
-          "sector_impact": "Optimización del proceso de compra en línea."
         }
       ]
     }
