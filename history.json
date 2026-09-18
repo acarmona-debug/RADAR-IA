@@ -1,6 +1,95 @@
 {
   "days": [
     {
+      "date": "2026-09-18",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+          "summary": "SoL-Pi optimiza la eficiencia de los bucles de auto-investigación, logrando una reducción significativa en el tráfico de tokens y costos de API en comparación con soluciones anteriores.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.20519",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "agentes",
+            "eficiencia"
+          ],
+          "what_changed": "Mejora en la eficiencia de agentes de programación y reducción de costos.",
+          "why_it_matters": "Optimiza el uso de recursos en la programación automatizada y mejora los resultados en tareas complejas.",
+          "sector_impact": "Alto; impacta notablemente en el desarrollo de automatización de software."
+        },
+        {
+          "title": "MaSCoD: A Multi-Agent Framework for Structural-Context-Guided Candidate Causal Graph Generation",
+          "summary": "MaSCoD crea un marco multi-agente para generar gráficos causales, mejorando la retención y selectividad en modelos de generación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.19944",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "agentes",
+            "causalidad"
+          ],
+          "what_changed": "Introducción de un método estructurado para la generación de relaciones causales.",
+          "why_it_matters": "Incrementa la efectividad de descubrimiento causal en datos complejos.",
+          "sector_impact": "Moderado; mejora la calidad del análisis de datos en diferentes sectores."
+        },
+        {
+          "title": "Effective and Efficient Threat Hunting with Small Language Models",
+          "summary": "Se presenta una metodología para traducir consultas en lenguaje natural a KQL, facilitando la caza de amenazas en seguridad con Modelos de Lenguaje Pequeños (SLMs).",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.06660",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "herramientas",
+            "automatización"
+          ],
+          "what_changed": "Mejora significativa en la eficacia de traducción y reducción de costos.",
+          "why_it_matters": "Facilita el trabajo de los equipos de seguridad, permitiendo una respuesta más ágil y eficiente.",
+          "sector_impact": "Alto; impacta en la seguridad cibernética y la operación de TI."
+        },
+        {
+          "title": "ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI",
+          "summary": "ScientistTwo es un marco multi-agente autónomo que realiza investigaciones científicas sin intervención humana, generando resultados comparables a los de investigadores humanos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.19644",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "investigación",
+            "inteligencia autónoma"
+          ],
+          "what_changed": "Permite la investigación científica autónoma y la generación de artículos con calidad de publicación.",
+          "why_it_matters": "Revoluciona la forma en que se realiza la investigación científica al introducir un enfoque autónomo.",
+          "sector_impact": "Alto; podría cambiar radicalmente la investigación y el desarrollo en múltiples campos."
+        },
+        {
+          "title": "Self-Evolving Search Index",
+          "summary": "SELF-INDEX mejora el rendimiento de búsqueda permitiendo que un índice evolucione de forma autónoma para adaptarse a las demandas de recuperación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.19656",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "búsqueda"
+          ],
+          "what_changed": "Implementación de un marco para la auto-evolución de índices de búsqueda sin intervención humana.",
+          "why_it_matters": "Mejora la eficiencia en la recuperación de información y permite personalizaciones más rápidas.",
+          "sector_impact": "Alto; impacta notablemente en sistemas de búsqueda y recupero de datos."
+        }
+      ]
+    },
+    {
       "date": "2026-09-17",
       "executive_title": "Radar Diario de IA - Avances y Herramientas Clave",
       "items": [
@@ -739,130 +828,6 @@
           "what_changed": "Primera recopilación extensa de archivos de habilidades de agentes en GitHub.",
           "why_it_matters": "Proporciona un recurso valioso para el estudio y la mejora de habilidades de IA.",
           "sector_impact": "Fomenta la investigación en el desarrollo de agentes inteligente."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "executive_title": "Radar Diario de IA - Nuevas Integraciones y Herramientas",
-      "items": [
-        {
-          "title": "AgentAudit: Un marco extenso para la evaluación de confianza en agentes IA",
-          "summary": "AgentAudit evalúa todo el rastro de ejecución de los agentes IA, abordando aspectos de confiabilidad y capacidad de cumplimiento.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.09875",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "agentes",
-            "confianza"
-          ],
-          "what_changed": "Introducción de un marco más completo para evaluar agentes IA.",
-          "why_it_matters": "Permite identificar fallos específicos en la ejecución de agentes, mejorando su fiabilidad.",
-          "sector_impact": "Impacto significativo en la regulación y auditoría de agentes automáticos."
-        },
-        {
-          "title": "OpenDiscoveryTrace: Evaluación de flujos de trabajo de científicos IA",
-          "summary": "Dataset público que registra trayectorias completas de agentes científicos de IA, permitiendo auditar la metodología científica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.09203",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "dataset",
-            "IA científica",
-            "auditoría"
-          ],
-          "what_changed": "Base de datos de trayectorias que facilita la evaluación de procesos de pensamiento en IA.",
-          "why_it_matters": "Fomenta la transparencia y la precisión en la investigación científica basada en IA.",
-          "sector_impact": "Mejora el enfoque en la precisión y auditoría de la IA en la ciencia."
-        },
-        {
-          "title": "LogiScope-VQA: Evaluación de modelos para identificación de peligros logísticos",
-          "summary": "Dataset específico que investiga la aplicabilidad de modelos multimodales en operaciones logísticas del mundo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.09790",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "logística",
-            "modelos multimodales"
-          ],
-          "what_changed": "Creación de un dataset que aborda la percepción y razonamiento en condiciones industriales.",
-          "why_it_matters": "Destaca la necesidad de mejorar los modelos de IA para su implementación en entornos industriales.",
-          "sector_impact": "Proporciona un camino hacia la mejora de la seguridad y las operaciones en logística."
-        },
-        {
-          "title": "Kernel-Managed Shared Memory para Personalización",
-          "summary": "Un sistema de memoria compartida que permite a múltiples agentes IA aprender contexto útil de manera centralizada.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.10144",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "personalización",
-            "sistemas multi-agentes"
-          ],
-          "what_changed": "Introducción de gestión centralizada de memoria para mejorar la personalización.",
-          "why_it_matters": "Facilita la colaboración entre diferentes agentes IA, optimizando su rendimiento.",
-          "sector_impact": "Potencia las capacidades de personalización y uso colaborativo de IA."
-        },
-        {
-          "title": "KairosAgent: Predicción de series temporales con razonamiento semántico",
-          "summary": "Marco innovador para la previsión de series temporales que unifica el razonamiento textual y la predicción numérica.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.30002",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "predicción",
-            "series temporales",
-            "IA"
-          ],
-          "what_changed": "Integración de modelos de razonamiento e incorporación de herramientas analíticas.",
-          "why_it_matters": "Aumenta la precisión en la predicción de datos temporales a partir de múltiples fuentes.",
-          "sector_impact": "Mejora la capacidad de análisis en entornos de datos complejos."
-        },
-        {
-          "title": "RAP: Predicción de Atención en Investigación",
-          "summary": "Un benchmark que mide la evolución de la atención en investigación utilizando un agente LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.10092",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "investigación",
-            "atención",
-            "benchmark"
-          ],
-          "what_changed": "Desarrollo de un cronograma que abarca múltiples campos de AI/ML.",
-          "why_it_matters": "Mejora la capacidad de investigación y seguimiento de tendencias en el campo de IA.",
-          "sector_impact": "Facilita la evaluación y priorización de áreas de investigación en IA."
-        },
-        {
-          "title": "Trust Me, I'm Your Developer: Autenticación en Modelos LLM",
-          "summary": "Modelo de autenticación donde LLM valida reclamos de identidad a través de pruebas generadas por la misma IA.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.03247",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "autenticación",
-            "seguridad",
-            "IA"
-          ],
-          "what_changed": "Establecimiento de un método de autenticación basado en interacción conversacional.",
-          "why_it_matters": "Identifica fallos en la autenticación y escalamiento de privilegios en interacciones con IA.",
-          "sector_impact": "Resalta la importancia de integraciones de seguridad en IAs."
         }
       ]
     }

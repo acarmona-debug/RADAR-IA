@@ -1,127 +1,91 @@
 {
-  "date": "2026-09-17",
-  "executive_title": "Radar Diario de IA - Avances y Herramientas Clave",
-  "intro_message": "En el radar de hoy, destacamos las últimas herramientas, modelos y frameworks que están impactando el ecosistema de inteligencia artificial. Aquí se presentan desarrollos significativos que no solo optimizan la automatización, sino que también ofrecen integraciones y características novedosas.",
-  "opening_message": "La inteligencia artificial sigue evolucionando rápidamente, y es crucial mantenerse actualizado sobre las innovaciones más relevantes. A continuación, algunos de los aspectos más destacados en el ámbito de IA.",
+  "date": "2026-09-18",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Este radar presenta los últimos avances significativos en herramientas, modelos y frameworks de IA, priorizando aquellos que aportan integraciones y nuevas funcionalidades.",
+  "opening_message": "A continuación, se detallan las innovaciones más relevantes en el ecosistema de inteligencia artificial, con un enfoque en la automatización y el desarrollo de agentes inteligentes.",
   "items": [
     {
-      "title": "PentestChain: Framework de Pruebas de Penetración Automatizadas",
-      "summary": "PentestChain es un marco automatizado que permite realizar pruebas de penetración de forma rentable, utilizando modelos LLM de nivel gratuito en un flujo de trabajo orquestado.",
-      "category": "framework",
+      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+      "summary": "SoL-Pi optimiza la eficiencia de los bucles de auto-investigación, logrando una reducción significativa en el tráfico de tokens y costos de API en comparación con soluciones anteriores.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.18120",
+      "source_url": "https://arxiv.org/abs/2609.20519",
       "relevance_score": 8,
       "status": "new",
       "tags": [
         "automatización",
-        "seguridad",
-        "LLM"
+        "agentes",
+        "eficiencia"
       ],
-      "what_changed": "Introducción de un marco de trabajo automatizado que aborda el costo de las pruebas de penetración.",
-      "why_it_matters": "Hace que las pruebas de seguridad sean más accesibles para pequeñas organizaciones, optimizando el uso de recursos.",
-      "sector_impact": "Mejora la ciberseguridad en organizaciones con recursos limitados."
+      "what_changed": "Mejora en la eficiencia de agentes de programación y reducción de costos.",
+      "why_it_matters": "Optimiza el uso de recursos en la programación automatizada y mejora los resultados en tareas complejas.",
+      "sector_impact": "Alto; impacta notablemente en el desarrollo de automatización de software."
     },
     {
-      "title": "Clueing up LLMs with Tool-Augmented Deductive Reasoning",
-      "summary": "Uso de un marco de juego para evaluar el razonamiento deductivo en modelos LLM mediante herramientas de apoyo que mejoran la calidad de las decisiones.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.18736",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "razonamiento",
-        "evaluación",
-        "LLM"
-      ],
-      "what_changed": "Implementación de un entorno de juego para evaluar el razonamiento lógico de modelos LLM.",
-      "why_it_matters": "Proporciona un test de calidad para mejorar la capacidad de razonamiento de los modelos.",
-      "sector_impact": "Ayuda a refinar los sistemas de razonamiento en aplicaciones de IA."
-    },
-    {
-      "title": "WordPolo: Evaluando Modelos de Lenguaje a Través de Retroalimentación Semántica Iterativa",
-      "summary": "WordPolo ofrece un enfoque innovador para evaluar LLMs mediante una tarea de búsqueda de palabras basada en retroalimentación semántica.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.19006",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "modelos de lenguajes",
-        "innovación"
-      ],
-      "what_changed": "Introducción de métricas de progresión que evalúan el razonamiento iterativo en modelos de lenguaje.",
-      "why_it_matters": "Proporciona una visión holística de las capacidades de razonamiento de los modelos más allá de la precisión.",
-      "sector_impact": "Mejor análisis del rendimiento de los modelos de lenguaje complejos."
-    },
-    {
-      "title": "TuiML: Biblioteca de Aprendizaje Automático para Agentes de IA",
-      "summary": "TuiML es una biblioteca autosuficiente diseñada para agentes de IA, permitiendo un acceso más fácil a algoritmos y flujos de trabajo validados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.17984",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "herramientas",
-        "aprendizaje automático",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de una biblioteca que se adapta a las necesidades específicas de los agentes de IA.",
-      "why_it_matters": "Permite a los agentes de IA ejecutar experimentos de manera más autónoma y efectiva.",
-      "sector_impact": "Facilita la implementación de soluciones de IA en varios dominios."
-    },
-    {
-      "title": "Controles de Seguridad en la Acción de Modelos LLM con Contratos",
-      "summary": "El marco ContrAgent utiliza contratos para supervisar el comportamiento de los agentes LLM, mejorando su seguridad y eficacia.",
+      "title": "MaSCoD: A Multi-Agent Framework for Structural-Context-Guided Candidate Causal Graph Generation",
+      "summary": "MaSCoD crea un marco multi-agente para generar gráficos causales, mejorando la retención y selectividad en modelos de generación.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.18128",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "modelos de lenguaje",
-        "supervisión"
-      ],
-      "what_changed": "Implementación de un sistema de contratos para evaluar y supervisar acciones de agentes LLM.",
-      "why_it_matters": "Mejora la confianza en el uso de LLMs en tareas críticas.",
-      "sector_impact": "Previene acciones no seguras y mejora la confianza empresarial en la IA."
-    },
-    {
-      "title": "MIRAGE: Evaluación del Uso de Evidencia Histórica en Agentes Personales Multimodales",
-      "summary": "MIRAGE estudia cómo los agentes personales multimodales utilizan evidencia histórica a lo largo de ciclos de conversación.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.19059",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "multimodal",
-        "evaluación"
-      ],
-      "what_changed": "Nuevos métodos para evaluar el uso de evidencia en agentes personales en conversaciones multimodales.",
-      "why_it_matters": "Ayuda a mejorar la efectividad y continuidad en las interacciones con agents inteligentes.",
-      "sector_impact": "Aumenta la usabilidad de asistentes personales en tareas complejas."
-    },
-    {
-      "title": "Su Ajuste o Servicio: Agentes de IA para controlar Dispositivos Google Home",
-      "summary": "Los agentes de IA ahora pueden controlar dispositivos Google Home, facilitando la interacción del usuario con el hogar inteligente.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "source_url": "https://arxiv.org/abs/2609.19944",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "integración",
-        "hogar inteligente",
-        "IA"
+        "modelos",
+        "agentes",
+        "causalidad"
       ],
-      "what_changed": "Lanzamiento de acceso anticipado a un servidor MCP que permite el control de dispositivos por IA.",
-      "why_it_matters": "Amplía la aplicación práctica de IA en la vida cotidiana.",
-      "sector_impact": "Mejora la experiencia del usuario en el hogar conectado."
+      "what_changed": "Introducción de un método estructurado para la generación de relaciones causales.",
+      "why_it_matters": "Incrementa la efectividad de descubrimiento causal en datos complejos.",
+      "sector_impact": "Moderado; mejora la calidad del análisis de datos en diferentes sectores."
+    },
+    {
+      "title": "Effective and Efficient Threat Hunting with Small Language Models",
+      "summary": "Se presenta una metodología para traducir consultas en lenguaje natural a KQL, facilitando la caza de amenazas en seguridad con Modelos de Lenguaje Pequeños (SLMs).",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2512.06660",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "herramientas",
+        "automatización"
+      ],
+      "what_changed": "Mejora significativa en la eficacia de traducción y reducción de costos.",
+      "why_it_matters": "Facilita el trabajo de los equipos de seguridad, permitiendo una respuesta más ágil y eficiente.",
+      "sector_impact": "Alto; impacta en la seguridad cibernética y la operación de TI."
+    },
+    {
+      "title": "ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI",
+      "summary": "ScientistTwo es un marco multi-agente autónomo que realiza investigaciones científicas sin intervención humana, generando resultados comparables a los de investigadores humanos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.19644",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "investigación",
+        "inteligencia autónoma"
+      ],
+      "what_changed": "Permite la investigación científica autónoma y la generación de artículos con calidad de publicación.",
+      "why_it_matters": "Revoluciona la forma en que se realiza la investigación científica al introducir un enfoque autónomo.",
+      "sector_impact": "Alto; podría cambiar radicalmente la investigación y el desarrollo en múltiples campos."
+    },
+    {
+      "title": "Self-Evolving Search Index",
+      "summary": "SELF-INDEX mejora el rendimiento de búsqueda permitiendo que un índice evolucione de forma autónoma para adaptarse a las demandas de recuperación.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.19656",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "búsqueda"
+      ],
+      "what_changed": "Implementación de un marco para la auto-evolución de índices de búsqueda sin intervención humana.",
+      "why_it_matters": "Mejora la eficiencia en la recuperación de información y permite personalizaciones más rápidas.",
+      "sector_impact": "Alto; impacta notablemente en sistemas de búsqueda y recupero de datos."
     }
   ]
 }
