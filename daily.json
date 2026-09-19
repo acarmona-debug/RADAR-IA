@@ -1,91 +1,144 @@
 {
-  "date": "2026-09-18",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar presenta los últimos avances significativos en herramientas, modelos y frameworks de IA, priorizando aquellos que aportan integraciones y nuevas funcionalidades.",
-  "opening_message": "A continuación, se detallan las innovaciones más relevantes en el ecosistema de inteligencia artificial, con un enfoque en la automatización y el desarrollo de agentes inteligentes.",
+  "date": "2026-09-19",
+  "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
+  "intro_message": "Bienvenidos al radar diario de IA donde recopilamos las innovaciones más relevantes del sector.",
+  "opening_message": "Hoy destacamos herramientas y modelos que están transformando la forma en que los desarrolladores interactúan con la inteligencia artificial.",
   "items": [
     {
-      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-      "summary": "SoL-Pi optimiza la eficiencia de los bucles de auto-investigación, logrando una reducción significativa en el tráfico de tokens y costos de API en comparación con soluciones anteriores.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.20519",
+      "title": "Un nuevo tipo de modelo de IA de un inventor de ChatGPT emociona a los desarrolladores",
+      "summary": "Jev, un nuevo modelo de IA, ofrece a los desarrolladores un camino más barato y rápido hacia la inteligencia del software.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "automatización",
-        "agentes",
-        "eficiencia"
+        "IA",
+        "desarrollo",
+        "modelo"
       ],
-      "what_changed": "Mejora en la eficiencia de agentes de programación y reducción de costos.",
-      "why_it_matters": "Optimiza el uso de recursos en la programación automatizada y mejora los resultados en tareas complejas.",
-      "sector_impact": "Alto; impacta notablemente en el desarrollo de automatización de software."
+      "what_changed": "Lanzamiento de Jev, un modelo de IA innovador.",
+      "why_it_matters": "Reduce costos y tiempo en el desarrollo de software inteligente.",
+      "sector_impact": "Aumentará la eficiencia en la creación de soluciones de software."
     },
     {
-      "title": "MaSCoD: A Multi-Agent Framework for Structural-Context-Guided Candidate Causal Graph Generation",
-      "summary": "MaSCoD crea un marco multi-agente para generar gráficos causales, mejorando la retención y selectividad en modelos de generación.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.19944",
+      "title": "Claude de Anthropic explota vulnerabilidades en sistemas de OpenAI",
+      "summary": "Investigadores utilizaron Claude para acceder a cuentas de empleados y un repositorio de código interno de OpenAI, reportando las fallas.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelos",
-        "agentes",
-        "causalidad"
-      ],
-      "what_changed": "Introducción de un método estructurado para la generación de relaciones causales.",
-      "why_it_matters": "Incrementa la efectividad de descubrimiento causal en datos complejos.",
-      "sector_impact": "Moderado; mejora la calidad del análisis de datos en diferentes sectores."
-    },
-    {
-      "title": "Effective and Efficient Threat Hunting with Small Language Models",
-      "summary": "Se presenta una metodología para traducir consultas en lenguaje natural a KQL, facilitando la caza de amenazas en seguridad con Modelos de Lenguaje Pequeños (SLMs).",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2512.06660",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
+        "IA",
         "seguridad",
-        "herramientas",
-        "automatización"
+        "hackeo"
       ],
-      "what_changed": "Mejora significativa en la eficacia de traducción y reducción de costos.",
-      "why_it_matters": "Facilita el trabajo de los equipos de seguridad, permitiendo una respuesta más ágil y eficiente.",
-      "sector_impact": "Alto; impacta en la seguridad cibernética y la operación de TI."
+      "what_changed": "Uso de Claude en un ataque de seguridad sobre OpenAI.",
+      "why_it_matters": "Destaca la necesidad de mejorar la seguridad en IA.",
+      "sector_impact": "Impacta la confianza en sistemas de IA."
     },
     {
-      "title": "ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI",
-      "summary": "ScientistTwo es un marco multi-agente autónomo que realiza investigaciones científicas sin intervención humana, generando resultados comparables a los de investigadores humanos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.19644",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "investigación",
-        "inteligencia autónoma"
-      ],
-      "what_changed": "Permite la investigación científica autónoma y la generación de artículos con calidad de publicación.",
-      "why_it_matters": "Revoluciona la forma en que se realiza la investigación científica al introducir un enfoque autónomo.",
-      "sector_impact": "Alto; podría cambiar radicalmente la investigación y el desarrollo en múltiples campos."
-    },
-    {
-      "title": "Self-Evolving Search Index",
-      "summary": "SELF-INDEX mejora el rendimiento de búsqueda permitiendo que un índice evolucione de forma autónoma para adaptarse a las demandas de recuperación.",
+      "title": "Vals, respaldado por Andreessen Horowitz, busca ser el estándar dorado para benchmarking de IA",
+      "summary": "Vals AI aspira a hacer del benchmarking de IA un recurso más neutral y confiable en un mundo inundado por modelos de IA.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.19656",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "benchmarking",
+        "IA",
+        "estándares"
+      ],
+      "what_changed": "Desarrollo de una nueva herramienta de benchmarking.",
+      "why_it_matters": "Establece estándares más confiables para la evaluación de modelos de IA.",
+      "sector_impact": "Mejora la transparencia en la evaluación de modelos."
+    },
+    {
+      "title": "Meta’s Muse llega a Mac, permitiendo que la IA realice acciones en tu computadora",
+      "summary": "Muse está disponible en Mac, donde puede trabajar con tus archivos y aplicaciones para actuar en tu nombre.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automatización",
-        "búsqueda"
+        "IA",
+        "automación",
+        "Mac"
       ],
-      "what_changed": "Implementación de un marco para la auto-evolución de índices de búsqueda sin intervención humana.",
-      "why_it_matters": "Mejora la eficiencia en la recuperación de información y permite personalizaciones más rápidas.",
-      "sector_impact": "Alto; impacta notablemente en sistemas de búsqueda y recupero de datos."
+      "what_changed": "Lanzamiento de Muse para Mac.",
+      "why_it_matters": "Facilita la interacción del usuario con la IA en su computadora.",
+      "sector_impact": "Aumenta la accesibilidad y usabilidad de herramientas de IA."
+    },
+    {
+      "title": "AI para el impacto societal",
+      "summary": "Colección que muestra cómo expertos y líderes locales están utilizando los avances en IA para asegurar que todos accedan a sus beneficios.",
+      "category": "sector",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "impacto",
+        "IA",
+        "sociedad"
+      ],
+      "what_changed": "Uso de IA para el impacto social.",
+      "why_it_matters": "Demuestra el compromiso de la IA con el bienestar social.",
+      "sector_impact": "Aumenta las iniciativas de responsabilidad social en la tecnología."
+    },
+    {
+      "title": "AI para acelerar la ciencia y mejorar vidas",
+      "summary": "Explicación de cómo la IA está impactando vidas hoy y en áreas clave donde la tecnología avanzada puede ayudar a avanzar extraordinariamente.",
+      "category": "sector",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "IA",
+        "ciencia",
+        "vida"
+      ],
+      "what_changed": "Enfoque en aplicaciones de IA en la ciencia.",
+      "why_it_matters": "Muestra el potencial transformador de la IA para la humanidad.",
+      "sector_impact": "Impulsa investigación e innovación científica."
+    },
+    {
+      "title": "Nuevos expertos se unen al equipo de IA y Economía de Google",
+      "summary": "Ampliamos nuestro equipo de IA y Economía con asesores académicos de primer nivel.",
+      "category": "sector",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "IA",
+        "economía",
+        "investigación"
+      ],
+      "what_changed": "Ampliación del equipo de expertos en IA y economía.",
+      "why_it_matters": "Mejora la colaboración en investigación y desarrollo de IA aplicada.",
+      "sector_impact": "Fortalece el compromiso de Google con la IA en la economía."
+    },
+    {
+      "title": "Nuevas herramientas de IA en Google para la Semana de la Moda de Nueva York",
+      "summary": "Colaboración con diseñadores para personalizar herramientas de Google Flow para la NYFW.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "IA",
+        "moda",
+        "herramientas"
+      ],
+      "what_changed": "Desarrollo de herramientas personalizadas para la industria de la moda.",
+      "why_it_matters": "Integra IA en el diseño de moda contemporáneo.",
+      "sector_impact": "Crea nuevas oportunidades en la industria de la moda."
     }
   ]
 }

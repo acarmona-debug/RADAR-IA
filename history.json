@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-09-19",
+      "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
+      "items": [
+        {
+          "title": "Un nuevo tipo de modelo de IA de un inventor de ChatGPT emociona a los desarrolladores",
+          "summary": "Jev, un nuevo modelo de IA, ofrece a los desarrolladores un camino más barato y rápido hacia la inteligencia del software.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "IA",
+            "desarrollo",
+            "modelo"
+          ],
+          "what_changed": "Lanzamiento de Jev, un modelo de IA innovador.",
+          "why_it_matters": "Reduce costos y tiempo en el desarrollo de software inteligente.",
+          "sector_impact": "Aumentará la eficiencia en la creación de soluciones de software."
+        },
+        {
+          "title": "Claude de Anthropic explota vulnerabilidades en sistemas de OpenAI",
+          "summary": "Investigadores utilizaron Claude para acceder a cuentas de empleados y un repositorio de código interno de OpenAI, reportando las fallas.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "seguridad",
+            "hackeo"
+          ],
+          "what_changed": "Uso de Claude en un ataque de seguridad sobre OpenAI.",
+          "why_it_matters": "Destaca la necesidad de mejorar la seguridad en IA.",
+          "sector_impact": "Impacta la confianza en sistemas de IA."
+        },
+        {
+          "title": "Vals, respaldado por Andreessen Horowitz, busca ser el estándar dorado para benchmarking de IA",
+          "summary": "Vals AI aspira a hacer del benchmarking de IA un recurso más neutral y confiable en un mundo inundado por modelos de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmarking",
+            "IA",
+            "estándares"
+          ],
+          "what_changed": "Desarrollo de una nueva herramienta de benchmarking.",
+          "why_it_matters": "Establece estándares más confiables para la evaluación de modelos de IA.",
+          "sector_impact": "Mejora la transparencia en la evaluación de modelos."
+        },
+        {
+          "title": "Meta’s Muse llega a Mac, permitiendo que la IA realice acciones en tu computadora",
+          "summary": "Muse está disponible en Mac, donde puede trabajar con tus archivos y aplicaciones para actuar en tu nombre.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "automación",
+            "Mac"
+          ],
+          "what_changed": "Lanzamiento de Muse para Mac.",
+          "why_it_matters": "Facilita la interacción del usuario con la IA en su computadora.",
+          "sector_impact": "Aumenta la accesibilidad y usabilidad de herramientas de IA."
+        },
+        {
+          "title": "AI para el impacto societal",
+          "summary": "Colección que muestra cómo expertos y líderes locales están utilizando los avances en IA para asegurar que todos accedan a sus beneficios.",
+          "category": "sector",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "impacto",
+            "IA",
+            "sociedad"
+          ],
+          "what_changed": "Uso de IA para el impacto social.",
+          "why_it_matters": "Demuestra el compromiso de la IA con el bienestar social.",
+          "sector_impact": "Aumenta las iniciativas de responsabilidad social en la tecnología."
+        },
+        {
+          "title": "AI para acelerar la ciencia y mejorar vidas",
+          "summary": "Explicación de cómo la IA está impactando vidas hoy y en áreas clave donde la tecnología avanzada puede ayudar a avanzar extraordinariamente.",
+          "category": "sector",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "IA",
+            "ciencia",
+            "vida"
+          ],
+          "what_changed": "Enfoque en aplicaciones de IA en la ciencia.",
+          "why_it_matters": "Muestra el potencial transformador de la IA para la humanidad.",
+          "sector_impact": "Impulsa investigación e innovación científica."
+        },
+        {
+          "title": "Nuevos expertos se unen al equipo de IA y Economía de Google",
+          "summary": "Ampliamos nuestro equipo de IA y Economía con asesores académicos de primer nivel.",
+          "category": "sector",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "IA",
+            "economía",
+            "investigación"
+          ],
+          "what_changed": "Ampliación del equipo de expertos en IA y economía.",
+          "why_it_matters": "Mejora la colaboración en investigación y desarrollo de IA aplicada.",
+          "sector_impact": "Fortalece el compromiso de Google con la IA en la economía."
+        },
+        {
+          "title": "Nuevas herramientas de IA en Google para la Semana de la Moda de Nueva York",
+          "summary": "Colaboración con diseñadores para personalizar herramientas de Google Flow para la NYFW.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "IA",
+            "moda",
+            "herramientas"
+          ],
+          "what_changed": "Desarrollo de herramientas personalizadas para la industria de la moda.",
+          "why_it_matters": "Integra IA en el diseño de moda contemporáneo.",
+          "sector_impact": "Crea nuevas oportunidades en la industria de la moda."
+        }
+      ]
+    },
+    {
       "date": "2026-09-18",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -720,114 +862,6 @@
           "what_changed": "Consolidación del modelo K3 en el mercado.",
           "why_it_matters": "Indica un fuerte desempeño en el sector de IA con proyecciones ambiciosas.",
           "sector_impact": "Refuerza la competitividad y la innovación en el sector."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "AI Economist Agent: Un Marco para Análisis Económico y Financiero",
-          "summary": "Se propone un agente de economista de IA para el análisis de escenarios económicos que combina modelos cualitativos y cuantitativos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.20041",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "economía",
-            "análisis"
-          ],
-          "what_changed": "Integración de análisis cualitativo y cuantitativo.",
-          "why_it_matters": "Ayuda a estructurar mecanismos económicos a partir de evidencia diversificada.",
-          "sector_impact": "Impacto en análisis macroeconómico y financiero."
-        },
-        {
-          "title": "EvoMaster: Marco de Agentes para Ciencia a Escala",
-          "summary": "EvoMaster aborda la fragmentación y discontinuidad en la investigación científica mediante un marco que apoya a varios agentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.17406",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "ciencia",
-            "framework"
-          ],
-          "what_changed": "Se implementa un marco de investigación basado en bucles.",
-          "why_it_matters": "Facilita la colaboración entre diferentes agentes científicos.",
-          "sector_impact": "Transformación en el enfoque de investigación científica."
-        },
-        {
-          "title": "SGA: Verificación Geométrica para Síntesis de Video Educativo",
-          "summary": "Un módulo que mejora la calidad de animaciones pedagógicas generadas automáticamente por IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.18116",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "educación",
-            "animación",
-            "IA"
-          ],
-          "what_changed": "Integración de verificación geométrica en procesos de animación.",
-          "why_it_matters": "Aumenta la calidad visual y pedagógica de los materiales educativos generados.",
-          "sector_impact": "Mejora en la educación y la creación de contenido interactivo."
-        },
-        {
-          "title": "Grounding Agent Memory: Curation de Memoria para Agentes de Empresa",
-          "summary": "Un proceso que optimiza la memoria persistente en agentes de IA para mejorar la eficiencia en tareas a largo plazo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.11060",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "agentes",
-            "optimización"
-          ],
-          "what_changed": "Implementación de una curator para verificar y refrescar memoria de agentes.",
-          "why_it_matters": "Aumenta la eficacia y la precisión de los agentes en tareas repetitivas.",
-          "sector_impact": "Aporta mejoras en el rendimiento organizacional con tecnología de IA."
-        },
-        {
-          "title": "Benchmark Radar: Base de Datos de Evaluación de IA",
-          "summary": "Un motor de búsqueda para descubrir y evaluar benchmarks de IA, facilitando la investigación y el desarrollo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.11115",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "evaluación",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de una plataforma que agrega y clasifica benchmarks de IA.",
-          "why_it_matters": "Facilita el acceso a datos cruciales para el desarrollo de modelos de IA.",
-          "sector_impact": "Revoluciona la forma en que se entienden y utilizan los benchmarks en IA."
-        },
-        {
-          "title": "GitSkills: Un Conjunto de Datos sobre Habilidades de Agentes en GitHub",
-          "summary": "Conjunto de datos que recoge archivos de habilidades de agentes de IA en repositorios públicos de GitHub.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.10906",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "datos",
-            "GitHub",
-            "agentes"
-          ],
-          "what_changed": "Primera recopilación extensa de archivos de habilidades de agentes en GitHub.",
-          "why_it_matters": "Proporciona un recurso valioso para el estudio y la mejora de habilidades de IA.",
-          "sector_impact": "Fomenta la investigación en el desarrollo de agentes inteligente."
         }
       ]
     }
