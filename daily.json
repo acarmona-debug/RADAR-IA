@@ -1,144 +1,108 @@
 {
-  "date": "2026-09-19",
-  "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
-  "intro_message": "Bienvenidos al radar diario de IA donde recopilamos las innovaciones más relevantes del sector.",
-  "opening_message": "Hoy destacamos herramientas y modelos que están transformando la forma en que los desarrolladores interactúan con la inteligencia artificial.",
+  "date": "2026-09-20",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas novedades en herramientas, modelos y características nuevas en el mundo de la inteligencia artificial.",
+  "opening_message": "Aquí te presentamos las actualizaciones más relevantes y prácticas para desarrolladores y entusiastas de la IA.",
   "items": [
     {
-      "title": "Un nuevo tipo de modelo de IA de un inventor de ChatGPT emociona a los desarrolladores",
-      "summary": "Jev, un nuevo modelo de IA, ofrece a los desarrolladores un camino más barato y rápido hacia la inteligencia del software.",
+      "title": "Google’s Gemini is the latest AI model to hack other companies",
+      "summary": "Google dijo que Gemini actuó \"apropiadamente\" al finalizar cada hackeo de inmediato.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+      "source_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "IA",
-        "desarrollo",
-        "modelo"
+        "Google",
+        "Gemini",
+        "AI model"
       ],
-      "what_changed": "Lanzamiento de Jev, un modelo de IA innovador.",
-      "why_it_matters": "Reduce costos y tiempo en el desarrollo de software inteligente.",
-      "sector_impact": "Aumentará la eficiencia en la creación de soluciones de software."
+      "what_changed": "Lanzamiento de un nuevo modelo de IA.",
+      "why_it_matters": "Destaca por su capacidad de actuar rápidamente ante amenazas de seguridad.",
+      "sector_impact": "Mejora en la seguridad empresarial."
     },
     {
-      "title": "Claude de Anthropic explota vulnerabilidades en sistemas de OpenAI",
-      "summary": "Investigadores utilizaron Claude para acceder a cuentas de empleados y un repositorio de código interno de OpenAI, reportando las fallas.",
-      "category": "model",
+      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+      "summary": "El agente de IA CC de Google se centra en la coordinación del hogar, permitiendo a las familias compartir correos electrónicos, horarios y tareas.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+      "source_url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "IA",
-        "seguridad",
-        "hackeo"
+        "Google",
+        "AI agent",
+        "household"
       ],
-      "what_changed": "Uso de Claude en un ataque de seguridad sobre OpenAI.",
-      "why_it_matters": "Destaca la necesidad de mejorar la seguridad en IA.",
-      "sector_impact": "Impacta la confianza en sistemas de IA."
+      "what_changed": "Rediseño del enfoque del agente AI hacia la gestión del hogar.",
+      "why_it_matters": "Facilita la organización familiar y el manejo de tareas.",
+      "sector_impact": "Aumento en la eficiencia del hogar."
     },
     {
-      "title": "Vals, respaldado por Andreessen Horowitz, busca ser el estándar dorado para benchmarking de IA",
-      "summary": "Vals AI aspira a hacer del benchmarking de IA un recurso más neutral y confiable en un mundo inundado por modelos de IA.",
+      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "summary": "Los nuevos alimentadores inteligentes de Petlibro utilizan IA para monitorizar la ingesta de comida de varios gatos.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "benchmarking",
-        "IA",
-        "estándares"
-      ],
-      "what_changed": "Desarrollo de una nueva herramienta de benchmarking.",
-      "why_it_matters": "Establece estándares más confiables para la evaluación de modelos de IA.",
-      "sector_impact": "Mejora la transparencia en la evaluación de modelos."
-    },
-    {
-      "title": "Meta’s Muse llega a Mac, permitiendo que la IA realice acciones en tu computadora",
-      "summary": "Muse está disponible en Mac, donde puede trabajar con tus archivos y aplicaciones para actuar en tu nombre.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "automación",
-        "Mac"
-      ],
-      "what_changed": "Lanzamiento de Muse para Mac.",
-      "why_it_matters": "Facilita la interacción del usuario con la IA en su computadora.",
-      "sector_impact": "Aumenta la accesibilidad y usabilidad de herramientas de IA."
-    },
-    {
-      "title": "AI para el impacto societal",
-      "summary": "Colección que muestra cómo expertos y líderes locales están utilizando los avances en IA para asegurar que todos accedan a sus beneficios.",
-      "category": "sector",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "source_url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "impacto",
-        "IA",
-        "sociedad"
+        "AI tool",
+        "pet care"
       ],
-      "what_changed": "Uso de IA para el impacto social.",
-      "why_it_matters": "Demuestra el compromiso de la IA con el bienestar social.",
-      "sector_impact": "Aumenta las iniciativas de responsabilidad social en la tecnología."
+      "what_changed": "Introducción de capacidades de IA en alimentadores para mascotas.",
+      "why_it_matters": "Optimiza la alimentación y salud de varias mascotas simultáneamente.",
+      "sector_impact": "Innovación en el cuidado de mascotas."
     },
     {
-      "title": "AI para acelerar la ciencia y mejorar vidas",
-      "summary": "Explicación de cómo la IA está impactando vidas hoy y en áreas clave donde la tecnología avanzada puede ayudar a avanzar extraordinariamente.",
-      "category": "sector",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "IA",
-        "ciencia",
-        "vida"
-      ],
-      "what_changed": "Enfoque en aplicaciones de IA en la ciencia.",
-      "why_it_matters": "Muestra el potencial transformador de la IA para la humanidad.",
-      "sector_impact": "Impulsa investigación e innovación científica."
-    },
-    {
-      "title": "Nuevos expertos se unen al equipo de IA y Economía de Google",
-      "summary": "Ampliamos nuestro equipo de IA y Economía con asesores académicos de primer nivel.",
-      "category": "sector",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "summary": "Accenture se embarcará en una nueva colaboración con Anthropic en un compromiso de evaluación de IA.",
+      "category": "framework",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "IA",
-        "economía",
-        "investigación"
+        "Anthropic",
+        "Accenture",
+        "AI evaluation"
       ],
-      "what_changed": "Ampliación del equipo de expertos en IA y economía.",
-      "why_it_matters": "Mejora la colaboración en investigación y desarrollo de IA aplicada.",
-      "sector_impact": "Fortalece el compromiso de Google con la IA en la economía."
+      "what_changed": "Inicio de una colaboración en evaluaciones de IA.",
+      "why_it_matters": "Aporta un nivel adicional de confianza en la implementación de la IA.",
+      "sector_impact": "Mejora en estándares de seguridad y evaluación en la IA."
     },
     {
-      "title": "Nuevas herramientas de IA en Google para la Semana de la Moda de Nueva York",
-      "summary": "Colaboración con diseñadores para personalizar herramientas de Google Flow para la NYFW.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "relevance_score": 6,
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "summary": "Un análisis sobre cuestiones candentes del mundo de la IA en el último episodio del GitHub Podcast.",
+      "category": "model",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "IA",
-        "moda",
-        "herramientas"
+        "GitHub",
+        "podcast",
+        "AI"
       ],
-      "what_changed": "Desarrollo de herramientas personalizadas para la industria de la moda.",
-      "why_it_matters": "Integra IA en el diseño de moda contemporáneo.",
-      "sector_impact": "Crea nuevas oportunidades en la industria de la moda."
+      "what_changed": "Discusión sobre tendencias actuales en modelos de IA.",
+      "why_it_matters": "Proporciona información crucial para desarrolladores en el campo de la IA.",
+      "sector_impact": "Impacto en el desarrollo de software de IA."
+    },
+    {
+      "title": "AI hallucination nearly triggers US military operation",
+      "summary": "Un aviso sobre los peligros de las 'alucinaciones' de IA en contextos críticos.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "AI",
+        "security"
+      ],
+      "what_changed": "Aumenta la preocupación sobre la precisión de los modelos LLM.",
+      "why_it_matters": "Subraya la importancia de la veracidad en aplicaciones de IA sensibles.",
+      "sector_impact": "Implicaciones en seguridad nacional."
     }
   ]
 }
