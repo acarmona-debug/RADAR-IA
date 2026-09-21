@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-21",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "AutoRecLab: Describe el Experimento, Obtén el Código",
+          "summary": "AutoRecLab es un laboratorio autónomo de sistemas de recomendación que automatiza experimentos a partir de prompts en lenguaje natural.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21863",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "recomendación",
+            "IA"
+          ],
+          "what_changed": "Introducción de un laboratorio que convierte diseños experimentales en código ejecutable.",
+          "why_it_matters": "Reduce el tiempo y errores en la implementación de experimentos en sistemas de recomendación.",
+          "sector_impact": "Mejora la eficiencia en la investigación en sistemas de recomendación."
+        },
+        {
+          "title": "Git-Assistant: Soporte Basado en Planificación para Actualizar Repositorios Git",
+          "summary": "Git-Assistant combina LLMs con planificación automatizada para ayudar en operaciones complejas de Git.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.09224",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "desarrollo",
+            "Git"
+          ],
+          "what_changed": "Integración de razonamiento formal con LLMs para mejorar la gestión de repositorios.",
+          "why_it_matters": "Incrementa la fiabilidad y reduce errores en la gestión de código.",
+          "sector_impact": "Facilita la colaboración y manejo de proyectos de software."
+        },
+        {
+          "title": "EnterpriseVal: Cuantificando la Eficacia y Valor de la IA Generativa en la Empresa",
+          "summary": "EnterpriseVal es un sistema de evaluación que ayuda a determinar la viabilidad y escalabilidad de flujos de trabajo de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21841",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "IA",
+            "empresa"
+          ],
+          "what_changed": "Propuesta de un sistema formal para evaluar la implementación de modelos de IA.",
+          "why_it_matters": "Asegura que las iniciativas de IA generativa tengan un impacto medible en las empresas.",
+          "sector_impact": "Permite decisiones informadas sobre el uso y escalabilidad de la IA en el sector empresarial."
+        },
+        {
+          "title": "DENSE: Destilando Trayectorias de Agentes para la Autofinación",
+          "summary": "DENSE organiza la evidencia de ejecuciones de agentes en árboles de accesos de sub-tareas reutilizables.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21423",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "mejora",
+            "autoconfianza"
+          ],
+          "what_changed": "Desarrollo de un método para mejorar la reutilización del progreso de agentes sin supervisión externa.",
+          "why_it_matters": "Facilita la automejora de agentes a partir de sus propias experiencias.",
+          "sector_impact": "Incrementa la eficiencia y efectividad de los agentes en tareas específicas."
+        },
+        {
+          "title": "AutoViewMem: Memoria Conversacional a Largo Plazo de Configuración Automática",
+          "summary": "AutoViewMem organiza la memoria conversacional de LLMs en vistas semánticas de baja superposición.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21940",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "memoria",
+            "personalización"
+          ],
+          "what_changed": "Implementación de un diseño que mejora la recuperación y consistencia de memoria.",
+          "why_it_matters": "Aumenta la personalización y coherencia en interacciones a largo plazo.",
+          "sector_impact": "Optimiza la experiencia del usuario en aplicaciones de IA conversacional."
+        },
+        {
+          "title": "Designer-RSI: Evolving Procedural Memory for Agentic Graphic Design",
+          "summary": "Un marco de adaptación continua para diseñar gráficos de manera profesional a partir de la memoria procedimental.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.22086",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "diseño",
+            "adaptación"
+          ],
+          "what_changed": "Introducción de un sistema que mejora habilidades de diseño basadas en la experiencia.",
+          "why_it_matters": "Permite a los agentes mejorar sus habilidades de diseño a través de experiencias pasadas.",
+          "sector_impact": "Eleva la calidad del diseño gráfico en tareas automatizadas."
+        },
+        {
+          "title": "AgentVidBench: Un Benchmark de Respuestas a Preguntas de Videos Multihop",
+          "summary": "AgentVidBench evalúa agentes MLLM en su capacidad para entender videos de múltiples etapas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21386",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "video",
+            "IA"
+          ],
+          "what_changed": "Introducción de un nuevo benchmark que evalúa razonamiento multihop en vídeos.",
+          "why_it_matters": "Fortalece la evaluación de capacidades de comprensión de videos en agentes de IA.",
+          "sector_impact": "Impulsa el desarrollo de modelos de IA más capaces en tareas de comprensión visual."
+        }
+      ]
+    },
+    {
       "date": "2026-09-20",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -702,130 +827,6 @@
           "what_changed": "Desarrollo de un marco para la integración de razonamiento espacial y ejecución.",
           "why_it_matters": "Transforma la forma en que se gestionan los flujos de trabajo en SIG.",
           "sector_impact": "Mejora en el análisis y la toma de decisiones en contextos geoespaciales."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "DevFest 2026 is back",
-          "summary": "DevFest 2026 está de regreso, con más de 800 eventos globales para construir, asegurar y escalar en la era de la IA agente.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "evento",
-            "desarrolladores",
-            "AI agente"
-          ],
-          "what_changed": "Regreso de un evento clave para desarrolladores.",
-          "why_it_matters": "Proporciona una plataforma para construir y escalar aplicaciones de IA.",
-          "sector_impact": "Impulsa la colaboración y la innovación en el desarrollo de IA."
-        },
-        {
-          "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
-          "summary": "TechCrunch Disrupt 2026 presenta una sesión interactiva sobre la evolución de los modelos de IA y cómo ayudan a crear valor.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
-          "relevance_score": 10,
-          "status": "new",
-          "tags": [
-            "evento",
-            "OpenAI",
-            "modelos"
-          ],
-          "what_changed": "Incluirá una discusión sobre la evolución de los modelos de IA.",
-          "why_it_matters": "Aborda cómo los modelos están transformando las empresas tecnológicas.",
-          "sector_impact": "Fomenta la innovación en la industria de IA."
-        },
-        {
-          "title": "Fashion app Daydream uses Apple Intelligence to help you shop",
-          "summary": "La app Daydream ahora permite comprar ropa a partir de fotos guardadas en el carrete gracias a nuevas funciones lanzadas en iOS 27.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "app",
-            "e-commerce",
-            "iOS"
-          ],
-          "what_changed": "Nuevas funcionalidades de compra e integración con Siri.",
-          "why_it_matters": "Facilita la experiencia de compra utilizando IA para análisis visual.",
-          "sector_impact": "Impacta el sector de comercio electrónico y moda."
-        },
-        {
-          "title": "Microsoft’s new AI ‘code of conduct’",
-          "summary": "Microsoft lanza un código de conducta para modelos de IA que incluye principios de apoyo y seguridad para los usuarios.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Microsoft",
-            "código de conducta",
-            "modelos"
-          ],
-          "what_changed": "Establecimiento de principios y restricciones de seguridad.",
-          "why_it_matters": "Aconseja cómo deben interactuar los modelos con los usuarios.",
-          "sector_impact": "Fortalece la confianza en el uso de IA."
-        },
-        {
-          "title": "Superhuman acquires YC-backed notetaker Fathom",
-          "summary": "Superhuman adquiere a Fathom, un notificador respaldado por YC, en medio de una tendencia hacia el trabajo ágil con IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "adquisición",
-            "productividad",
-            "IA"
-          ],
-          "what_changed": "Integración de plataformas de productividad para trabajo con IA.",
-          "why_it_matters": "Mejora el flujo de trabajo y la eficiencia en ambientes colaborativos.",
-          "sector_impact": "Influencia en el desarrollo de plataformas colaborativas de IA."
-        },
-        {
-          "title": "Anthropic CEO outlines plan to slow AI development",
-          "summary": "Dario Amodei de Anthropic y Sam Altman de OpenAI abordan el tema de 'acelerar el límite' en el desarrollo de IA.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Antropic",
-            "OpenAI",
-            "desarrollo"
-          ],
-          "what_changed": "Propuesta de una nueva estrategia de desarrollo de IA.",
-          "why_it_matters": "Busca gestionar el crecimiento rápido e impulsivo de la IA.",
-          "sector_impact": "Posible redefinición de estándares en la industria de IA."
-        },
-        {
-          "title": "TechCrunch Disrupt 2026 Call for Side Events",
-          "summary": "Última oportunidad para realizar un evento paralelo oficial en TechCrunch Disrupt 2026.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "evento",
-            "TechCrunch"
-          ],
-          "what_changed": "Lanzamiento de una llamada para eventos paralelos.",
-          "why_it_matters": "Ofrece oportunidades de networking y visibilidad para startups.",
-          "sector_impact": "Promueve la colaboración entre la comunidad de desarrollo de IA."
         }
       ]
     }

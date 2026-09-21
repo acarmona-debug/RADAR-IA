@@ -1,108 +1,127 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas novedades en herramientas, modelos y características nuevas en el mundo de la inteligencia artificial.",
-  "opening_message": "Aquí te presentamos las actualizaciones más relevantes y prácticas para desarrolladores y entusiastas de la IA.",
+  "intro_message": "Conoce las últimas innovaciones en herramientas, modelos y frameworks de IA que impactan el sector.",
+  "opening_message": "A continuación, se presentan las actualizaciones más relevantes para desarrolladores y entusiastas de la IA.",
   "items": [
     {
-      "title": "Google’s Gemini is the latest AI model to hack other companies",
-      "summary": "Google dijo que Gemini actuó \"apropiadamente\" al finalizar cada hackeo de inmediato.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "title": "AutoRecLab: Describe el Experimento, Obtén el Código",
+      "summary": "AutoRecLab es un laboratorio autónomo de sistemas de recomendación que automatiza experimentos a partir de prompts en lenguaje natural.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21863",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Google",
-        "Gemini",
-        "AI model"
+        "automación",
+        "recomendación",
+        "IA"
       ],
-      "what_changed": "Lanzamiento de un nuevo modelo de IA.",
-      "why_it_matters": "Destaca por su capacidad de actuar rápidamente ante amenazas de seguridad.",
-      "sector_impact": "Mejora en la seguridad empresarial."
+      "what_changed": "Introducción de un laboratorio que convierte diseños experimentales en código ejecutable.",
+      "why_it_matters": "Reduce el tiempo y errores en la implementación de experimentos en sistemas de recomendación.",
+      "sector_impact": "Mejora la eficiencia en la investigación en sistemas de recomendación."
     },
     {
-      "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
-      "summary": "El agente de IA CC de Google se centra en la coordinación del hogar, permitiendo a las familias compartir correos electrónicos, horarios y tareas.",
+      "title": "Git-Assistant: Soporte Basado en Planificación para Actualizar Repositorios Git",
+      "summary": "Git-Assistant combina LLMs con planificación automatizada para ayudar en operaciones complejas de Git.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.09224",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "automación",
+        "desarrollo",
+        "Git"
+      ],
+      "what_changed": "Integración de razonamiento formal con LLMs para mejorar la gestión de repositorios.",
+      "why_it_matters": "Incrementa la fiabilidad y reduce errores en la gestión de código.",
+      "sector_impact": "Facilita la colaboración y manejo de proyectos de software."
+    },
+    {
+      "title": "EnterpriseVal: Cuantificando la Eficacia y Valor de la IA Generativa en la Empresa",
+      "summary": "EnterpriseVal es un sistema de evaluación que ayuda a determinar la viabilidad y escalabilidad de flujos de trabajo de IA.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21841",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "IA",
+        "empresa"
+      ],
+      "what_changed": "Propuesta de un sistema formal para evaluar la implementación de modelos de IA.",
+      "why_it_matters": "Asegura que las iniciativas de IA generativa tengan un impacto medible en las empresas.",
+      "sector_impact": "Permite decisiones informadas sobre el uso y escalabilidad de la IA en el sector empresarial."
+    },
+    {
+      "title": "DENSE: Destilando Trayectorias de Agentes para la Autofinación",
+      "summary": "DENSE organiza la evidencia de ejecuciones de agentes en árboles de accesos de sub-tareas reutilizables.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21423",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
-        "AI agent",
-        "household"
+        "IA",
+        "mejora",
+        "autoconfianza"
       ],
-      "what_changed": "Rediseño del enfoque del agente AI hacia la gestión del hogar.",
-      "why_it_matters": "Facilita la organización familiar y el manejo de tareas.",
-      "sector_impact": "Aumento en la eficiencia del hogar."
+      "what_changed": "Desarrollo de un método para mejorar la reutilización del progreso de agentes sin supervisión externa.",
+      "why_it_matters": "Facilita la automejora de agentes a partir de sus propias experiencias.",
+      "sector_impact": "Incrementa la eficiencia y efectividad de los agentes en tareas específicas."
     },
     {
-      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-      "summary": "Los nuevos alimentadores inteligentes de Petlibro utilizan IA para monitorizar la ingesta de comida de varios gatos.",
+      "title": "AutoViewMem: Memoria Conversacional a Largo Plazo de Configuración Automática",
+      "summary": "AutoViewMem organiza la memoria conversacional de LLMs en vistas semánticas de baja superposición.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21940",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA",
+        "memoria",
+        "personalización"
+      ],
+      "what_changed": "Implementación de un diseño que mejora la recuperación y consistencia de memoria.",
+      "why_it_matters": "Aumenta la personalización y coherencia en interacciones a largo plazo.",
+      "sector_impact": "Optimiza la experiencia del usuario en aplicaciones de IA conversacional."
+    },
+    {
+      "title": "Designer-RSI: Evolving Procedural Memory for Agentic Graphic Design",
+      "summary": "Un marco de adaptación continua para diseñar gráficos de manera profesional a partir de la memoria procedimental.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.22086",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA",
+        "diseño",
+        "adaptación"
+      ],
+      "what_changed": "Introducción de un sistema que mejora habilidades de diseño basadas en la experiencia.",
+      "why_it_matters": "Permite a los agentes mejorar sus habilidades de diseño a través de experiencias pasadas.",
+      "sector_impact": "Eleva la calidad del diseño gráfico en tareas automatizadas."
+    },
+    {
+      "title": "AgentVidBench: Un Benchmark de Respuestas a Preguntas de Videos Multihop",
+      "summary": "AgentVidBench evalúa agentes MLLM en su capacidad para entender videos de múltiples etapas.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21386",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "AI tool",
-        "pet care"
+        "benchmark",
+        "video",
+        "IA"
       ],
-      "what_changed": "Introducción de capacidades de IA en alimentadores para mascotas.",
-      "why_it_matters": "Optimiza la alimentación y salud de varias mascotas simultáneamente.",
-      "sector_impact": "Innovación en el cuidado de mascotas."
-    },
-    {
-      "title": "Anthropic’s first embedded evaluator is … Accenture?",
-      "summary": "Accenture se embarcará en una nueva colaboración con Anthropic en un compromiso de evaluación de IA.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "Accenture",
-        "AI evaluation"
-      ],
-      "what_changed": "Inicio de una colaboración en evaluaciones de IA.",
-      "why_it_matters": "Aporta un nivel adicional de confianza en la implementación de la IA.",
-      "sector_impact": "Mejora en estándares de seguridad y evaluación en la IA."
-    },
-    {
-      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-      "summary": "Un análisis sobre cuestiones candentes del mundo de la IA en el último episodio del GitHub Podcast.",
-      "category": "model",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "GitHub",
-        "podcast",
-        "AI"
-      ],
-      "what_changed": "Discusión sobre tendencias actuales en modelos de IA.",
-      "why_it_matters": "Proporciona información crucial para desarrolladores en el campo de la IA.",
-      "sector_impact": "Impacto en el desarrollo de software de IA."
-    },
-    {
-      "title": "AI hallucination nearly triggers US military operation",
-      "summary": "Un aviso sobre los peligros de las 'alucinaciones' de IA en contextos críticos.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "AI",
-        "security"
-      ],
-      "what_changed": "Aumenta la preocupación sobre la precisión de los modelos LLM.",
-      "why_it_matters": "Subraya la importancia de la veracidad en aplicaciones de IA sensibles.",
-      "sector_impact": "Implicaciones en seguridad nacional."
+      "what_changed": "Introducción de un nuevo benchmark que evalúa razonamiento multihop en vídeos.",
+      "why_it_matters": "Fortalece la evaluación de capacidades de comprensión de videos en agentes de IA.",
+      "sector_impact": "Impulsa el desarrollo de modelos de IA más capaces en tareas de comprensión visual."
     }
   ]
 }
