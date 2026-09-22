@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-09-22",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "GameLogicBench: Evaluando Agentes de Programación en Lógica de Juegos",
+          "summary": "Un nuevo benchmark que evalúa tareas de lógica de juego en proyectos de Godot, asegurando que las reglas de juego se cumplan a través de cada tick de simulación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21562",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "agentes",
+            "programación"
+          ],
+          "what_changed": "Introducción de un nuevo método para evaluar la lógica de juego en tiempo real.",
+          "why_it_matters": "Permite una evaluación más precisa de cómo los agentes manejan la lógica de juegos en situaciones complejas.",
+          "sector_impact": "Mejora en el desarrollo de videojuegos y capacitación de agentes en entornos complejos."
+        },
+        {
+          "title": "BI-Agent y BI-Bench: Automatizando Inteligencia Empresarial de Fin a Fin",
+          "summary": "Un nuevo agente de inteligencia empresarial que gestiona tareas complejas sin necesidad de preparación manual de datos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.20886",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "inteligencia empresarial",
+            "agentes",
+            "automatización"
+          ],
+          "what_changed": "Desarrollo de un agente que combina razonamiento con entrenamiento especializado para mejorar la exactitud.",
+          "why_it_matters": "Facilita un acceso más eficiente a datos empresariales, reduciendo el tiempo de respuesta a preguntas comerciales.",
+          "sector_impact": "Transformación en la forma en que las empresas manejan la inteligencia de datos."
+        },
+        {
+          "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+          "summary": "Exploración de agentes LLM para el diseño de chips utilizando abstracciones de alto nivel, logrando mejoras significativas en rendimiento.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21157",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "diseño de chips",
+            "modelos",
+            "abstracción"
+          ],
+          "what_changed": "Integración de diseño abstraído para producción de chips más eficientes.",
+          "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos integrados y optimiza procesos de ingeniería.",
+          "sector_impact": "Impacto significativo en la industria de semiconductores y diseño de circuitos."
+        },
+        {
+          "title": "Planetary Prediction Engine: Predicción Geoespacial Autónoma",
+          "summary": "Un sistema de IA autónoma que optimiza la selección de datos para modelar desafíos globales críticos, mejorando la precisión de las predicciones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.26088",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "predicción geoespacial",
+            "IA",
+            "modelos"
+          ],
+          "what_changed": "Implementación de un sistema que reduce la carga técnica para análisis a gran escala.",
+          "why_it_matters": "Facilita la respuesta a desafíos críticos como la seguridad alimentaria y el manejo de riesgos.",
+          "sector_impact": "Transformación en el análisis geoespacial y mejora en la planificación de recursos."
+        },
+        {
+          "title": "CIPL: Un Marco para la Evaluación de Fugas de Privacidad en Agentes LLM",
+          "summary": "Un nuevo marco que evalúa la fuga de privacidad en actores de lenguaje, abordando la transición de uso interno a exposición externa.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21686",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "privacidad",
+            "agentes",
+            "tecnología"
+          ],
+          "what_changed": "Introducción de un marco para comparar dependencias internas de fuga de datos.",
+          "why_it_matters": "Mejora la comprensión y gestión de la privacidad en sistemas de IA.",
+          "sector_impact": "Aumentar la confianza en el uso de agentes inteligentes en sectores sensibles."
+        },
+        {
+          "title": "Staying on the Attack Path: Testeo Automatizado de Penetración",
+          "summary": "Desarrollo de un agente automatizado que mejora las pruebas de penetración a largo plazo utilizando un grafo de intenciones.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.07344",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "automatización",
+            "penetración"
+          ],
+          "what_changed": "Implementación de un gráfico de intenciones para manejar estados a largo plazo.",
+          "why_it_matters": "Mejora la efectividad en la identificación de vulnerabilidades en aplicaciones web.",
+          "sector_impact": "Refuerzo en la ciberseguridad y protección de datos en infraestructuras críticas."
+        },
+        {
+          "title": "Listen Before You Speak: Planificación de Respuestas por Reacciones Faciales",
+          "summary": "Propuesta de un marco de dos etapas que utiliza las reacciones faciales de oyentes para mejorar la generación de discursos conversacionales.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.21683",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA conversacional",
+            "procesamiento de lenguaje natural"
+          ],
+          "what_changed": "Introducción de un enfoque temporal para modelar reacciones en la planificación de respuestas.",
+          "why_it_matters": "Potencia la efectividad de los sistemas de IA en interacciones humanas al adaptarse a señales sociales.",
+          "sector_impact": "Mejora en la calidad de las interacciones generadas por IA en diversas aplicaciones."
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -709,124 +833,6 @@
           "what_changed": "Introducción de múltiples fuentes de información en la evaluación de LLMs.",
           "why_it_matters": "Mejora la precisión y relevancia de las respuestas médicas generadas por AI.",
           "sector_impact": "Potencial de transformar la práctica médica con IA más confiable."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Efficiency Hallucination: Formalizing and Measuring Behavioral Calibration in LLM-Based Code Optimization",
-          "summary": "Se presenta un marco de validación para mitigar el riesgo de modificaciones no funcionales en la optimización automática de código.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.14839",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "LLM"
-          ],
-          "what_changed": "Introducción de un marco de validación para evaluar el riesgo de alucinaciones en modelos de lenguaje.",
-          "why_it_matters": "Aumenta la confianza en el uso de LLMs en producción.",
-          "sector_impact": "Optimización de código y desarrollo de software."
-        },
-        {
-          "title": "Question's Gambit: The First Move Matters in Agentic Deep Search",
-          "summary": "Se presenta un módulo de recuperación que mejora la precisión en la búsqueda de documentos relevantes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.14412",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "búsqueda",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un módulo para mejorar las primeras decisiones de recuperación.",
-          "why_it_matters": "Aumenta la efectividad de los agentes en investigaciones profundas.",
-          "sector_impact": "Mejora en la inteligencia de búsqueda y razonamiento."
-        },
-        {
-          "title": "ClinAgent: A ReAct-Based Agent for Conversational Access to Clinical Trial Information",
-          "summary": "Un sistema conversacional que permite a los investigadores acceder a información de ensayos clínicos de forma natural.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.13860",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "salud",
-            "ensayos clínicos"
-          ],
-          "what_changed": "Desarrollo de un agente que utiliza ReAct para proporcionar respuestas a consultas complejas.",
-          "why_it_matters": "Aumenta la accesibilidad de información crítica para la investigación médica.",
-          "sector_impact": "Mejora en la investigación biomédica y acceso a información clínica."
-        },
-        {
-          "title": "Exploring Automated Vulnerability Identification in JavaScript Code Using Large Language Models",
-          "summary": "LSMs demuestran ser más eficaces que herramientas SAST en la identificación de vulnerabilidades en JavaScript.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.13816",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "JavaScript"
-          ],
-          "what_changed": "Evaluación de LLMs en comparación con herramientas tradicionales de detección.",
-          "why_it_matters": "Aumenta la eficacia en la identificación de vulnerabilidades en el código.",
-          "sector_impact": "Impulso en la seguridad del desarrollo web."
-        },
-        {
-          "title": "SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics",
-          "summary": "Un benchmark que evalúa la resolución de restricciones de versiones en modelos de lenguaje.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.11180",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "versionado",
-            "LLMs"
-          ],
-          "what_changed": "Desarrollo de un framework para evaluar la comprensión de las restricciones de versión.",
-          "why_it_matters": "Proporciona herramientas para mejorar la delegación de tareas en agentes de codificación.",
-          "sector_impact": "Optimización en la gestión de versiones en el desarrollo de software."
-        },
-        {
-          "title": "CWM: Controllable White-Box Meta-Prompting for Adaptive Retrieval-Augmented Generation",
-          "summary": "Un nuevo marco que mejora el rendimiento en tareas de RAG y razonamiento en LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.15234",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "RAG",
-            "prompting"
-          ],
-          "what_changed": "Introducción de un método de meta-prompting para tareas adaptativas.",
-          "why_it_matters": "Facilita la mejora de la capacidad de razonamiento y generación en LLMs.",
-          "sector_impact": "Fortalece la interactividad y detección de información."
-        },
-        {
-          "title": "ANASSA: An Agentic AI Orchestration Framework for Spatial Intelligence",
-          "summary": "Un marco para la orquestación de agentes en análisis geoespacial.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.14824",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "geoespacial",
-            "orquestación"
-          ],
-          "what_changed": "Desarrollo de un marco para la integración de razonamiento espacial y ejecución.",
-          "why_it_matters": "Transforma la forma en que se gestionan los flujos de trabajo en SIG.",
-          "sector_impact": "Mejora en el análisis y la toma de decisiones en contextos geoespaciales."
         }
       ]
     }

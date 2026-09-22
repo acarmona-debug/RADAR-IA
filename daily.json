@@ -1,127 +1,126 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Conoce las últimas innovaciones en herramientas, modelos y frameworks de IA que impactan el sector.",
-  "opening_message": "A continuación, se presentan las actualizaciones más relevantes para desarrolladores y entusiastas de la IA.",
+  "intro_message": "Este radar diario destaca las últimas herramientas, modelos y frameworks en inteligencia artificial, priorizando innovaciones relevantes y descartando información de menor utilidad.",
+  "opening_message": "A continuación, se presentan las innovaciones más relevantes en el campo de la inteligencia artificial, enfocándose en herramientas, modelos, y características que impactan el desarrollo y la implementación.",
   "items": [
     {
-      "title": "AutoRecLab: Describe el Experimento, Obtén el Código",
-      "summary": "AutoRecLab es un laboratorio autónomo de sistemas de recomendación que automatiza experimentos a partir de prompts en lenguaje natural.",
+      "title": "GameLogicBench: Evaluando Agentes de Programación en Lógica de Juegos",
+      "summary": "Un nuevo benchmark que evalúa tareas de lógica de juego en proyectos de Godot, asegurando que las reglas de juego se cumplan a través de cada tick de simulación.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21863",
+      "source_url": "https://arxiv.org/abs/2609.21562",
       "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "automación",
-        "recomendación",
-        "IA"
-      ],
-      "what_changed": "Introducción de un laboratorio que convierte diseños experimentales en código ejecutable.",
-      "why_it_matters": "Reduce el tiempo y errores en la implementación de experimentos en sistemas de recomendación.",
-      "sector_impact": "Mejora la eficiencia en la investigación en sistemas de recomendación."
-    },
-    {
-      "title": "Git-Assistant: Soporte Basado en Planificación para Actualizar Repositorios Git",
-      "summary": "Git-Assistant combina LLMs con planificación automatizada para ayudar en operaciones complejas de Git.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.09224",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "automación",
-        "desarrollo",
-        "Git"
-      ],
-      "what_changed": "Integración de razonamiento formal con LLMs para mejorar la gestión de repositorios.",
-      "why_it_matters": "Incrementa la fiabilidad y reduce errores en la gestión de código.",
-      "sector_impact": "Facilita la colaboración y manejo de proyectos de software."
-    },
-    {
-      "title": "EnterpriseVal: Cuantificando la Eficacia y Valor de la IA Generativa en la Empresa",
-      "summary": "EnterpriseVal es un sistema de evaluación que ayuda a determinar la viabilidad y escalabilidad de flujos de trabajo de IA.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21841",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "IA",
-        "empresa"
-      ],
-      "what_changed": "Propuesta de un sistema formal para evaluar la implementación de modelos de IA.",
-      "why_it_matters": "Asegura que las iniciativas de IA generativa tengan un impacto medible en las empresas.",
-      "sector_impact": "Permite decisiones informadas sobre el uso y escalabilidad de la IA en el sector empresarial."
-    },
-    {
-      "title": "DENSE: Destilando Trayectorias de Agentes para la Autofinación",
-      "summary": "DENSE organiza la evidencia de ejecuciones de agentes en árboles de accesos de sub-tareas reutilizables.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21423",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "mejora",
-        "autoconfianza"
-      ],
-      "what_changed": "Desarrollo de un método para mejorar la reutilización del progreso de agentes sin supervisión externa.",
-      "why_it_matters": "Facilita la automejora de agentes a partir de sus propias experiencias.",
-      "sector_impact": "Incrementa la eficiencia y efectividad de los agentes en tareas específicas."
-    },
-    {
-      "title": "AutoViewMem: Memoria Conversacional a Largo Plazo de Configuración Automática",
-      "summary": "AutoViewMem organiza la memoria conversacional de LLMs en vistas semánticas de baja superposición.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21940",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "memoria",
-        "personalización"
-      ],
-      "what_changed": "Implementación de un diseño que mejora la recuperación y consistencia de memoria.",
-      "why_it_matters": "Aumenta la personalización y coherencia en interacciones a largo plazo.",
-      "sector_impact": "Optimiza la experiencia del usuario en aplicaciones de IA conversacional."
-    },
-    {
-      "title": "Designer-RSI: Evolving Procedural Memory for Agentic Graphic Design",
-      "summary": "Un marco de adaptación continua para diseñar gráficos de manera profesional a partir de la memoria procedimental.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.22086",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "diseño",
-        "adaptación"
-      ],
-      "what_changed": "Introducción de un sistema que mejora habilidades de diseño basadas en la experiencia.",
-      "why_it_matters": "Permite a los agentes mejorar sus habilidades de diseño a través de experiencias pasadas.",
-      "sector_impact": "Eleva la calidad del diseño gráfico en tareas automatizadas."
-    },
-    {
-      "title": "AgentVidBench: Un Benchmark de Respuestas a Preguntas de Videos Multihop",
-      "summary": "AgentVidBench evalúa agentes MLLM en su capacidad para entender videos de múltiples etapas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21386",
-      "relevance_score": 6,
       "status": "new",
       "tags": [
         "benchmark",
-        "video",
-        "IA"
+        "agentes",
+        "programación"
       ],
-      "what_changed": "Introducción de un nuevo benchmark que evalúa razonamiento multihop en vídeos.",
-      "why_it_matters": "Fortalece la evaluación de capacidades de comprensión de videos en agentes de IA.",
-      "sector_impact": "Impulsa el desarrollo de modelos de IA más capaces en tareas de comprensión visual."
+      "what_changed": "Introducción de un nuevo método para evaluar la lógica de juego en tiempo real.",
+      "why_it_matters": "Permite una evaluación más precisa de cómo los agentes manejan la lógica de juegos en situaciones complejas.",
+      "sector_impact": "Mejora en el desarrollo de videojuegos y capacitación de agentes en entornos complejos."
+    },
+    {
+      "title": "BI-Agent y BI-Bench: Automatizando Inteligencia Empresarial de Fin a Fin",
+      "summary": "Un nuevo agente de inteligencia empresarial que gestiona tareas complejas sin necesidad de preparación manual de datos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.20886",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "inteligencia empresarial",
+        "agentes",
+        "automatización"
+      ],
+      "what_changed": "Desarrollo de un agente que combina razonamiento con entrenamiento especializado para mejorar la exactitud.",
+      "why_it_matters": "Facilita un acceso más eficiente a datos empresariales, reduciendo el tiempo de respuesta a preguntas comerciales.",
+      "sector_impact": "Transformación en la forma en que las empresas manejan la inteligencia de datos."
+    },
+    {
+      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "summary": "Exploración de agentes LLM para el diseño de chips utilizando abstracciones de alto nivel, logrando mejoras significativas en rendimiento.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21157",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "diseño de chips",
+        "modelos",
+        "abstracción"
+      ],
+      "what_changed": "Integración de diseño abstraído para producción de chips más eficientes.",
+      "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos integrados y optimiza procesos de ingeniería.",
+      "sector_impact": "Impacto significativo en la industria de semiconductores y diseño de circuitos."
+    },
+    {
+      "title": "Planetary Prediction Engine: Predicción Geoespacial Autónoma",
+      "summary": "Un sistema de IA autónoma que optimiza la selección de datos para modelar desafíos globales críticos, mejorando la precisión de las predicciones.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.26088",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "predicción geoespacial",
+        "IA",
+        "modelos"
+      ],
+      "what_changed": "Implementación de un sistema que reduce la carga técnica para análisis a gran escala.",
+      "why_it_matters": "Facilita la respuesta a desafíos críticos como la seguridad alimentaria y el manejo de riesgos.",
+      "sector_impact": "Transformación en el análisis geoespacial y mejora en la planificación de recursos."
+    },
+    {
+      "title": "CIPL: Un Marco para la Evaluación de Fugas de Privacidad en Agentes LLM",
+      "summary": "Un nuevo marco que evalúa la fuga de privacidad en actores de lenguaje, abordando la transición de uso interno a exposición externa.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21686",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "privacidad",
+        "agentes",
+        "tecnología"
+      ],
+      "what_changed": "Introducción de un marco para comparar dependencias internas de fuga de datos.",
+      "why_it_matters": "Mejora la comprensión y gestión de la privacidad en sistemas de IA.",
+      "sector_impact": "Aumentar la confianza en el uso de agentes inteligentes en sectores sensibles."
+    },
+    {
+      "title": "Staying on the Attack Path: Testeo Automatizado de Penetración",
+      "summary": "Desarrollo de un agente automatizado que mejora las pruebas de penetración a largo plazo utilizando un grafo de intenciones.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.07344",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ciberseguridad",
+        "automatización",
+        "penetración"
+      ],
+      "what_changed": "Implementación de un gráfico de intenciones para manejar estados a largo plazo.",
+      "why_it_matters": "Mejora la efectividad en la identificación de vulnerabilidades en aplicaciones web.",
+      "sector_impact": "Refuerzo en la ciberseguridad y protección de datos en infraestructuras críticas."
+    },
+    {
+      "title": "Listen Before You Speak: Planificación de Respuestas por Reacciones Faciales",
+      "summary": "Propuesta de un marco de dos etapas que utiliza las reacciones faciales de oyentes para mejorar la generación de discursos conversacionales.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.21683",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "IA conversacional",
+        "procesamiento de lenguaje natural"
+      ],
+      "what_changed": "Introducción de un enfoque temporal para modelar reacciones en la planificación de respuestas.",
+      "why_it_matters": "Potencia la efectividad de los sistemas de IA en interacciones humanas al adaptarse a señales sociales.",
+      "sector_impact": "Mejora en la calidad de las interacciones generadas por IA en diversas aplicaciones."
     }
   ]
 }
