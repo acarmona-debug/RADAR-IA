@@ -1,126 +1,136 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar diario destaca las últimas herramientas, modelos y frameworks en inteligencia artificial, priorizando innovaciones relevantes y descartando información de menor utilidad.",
-  "opening_message": "A continuación, se presentan las innovaciones más relevantes en el campo de la inteligencia artificial, enfocándose en herramientas, modelos, y características que impactan el desarrollo y la implementación.",
+  "intro_message": "Actualizaciones y avances en herramientas, modelos y frameworks emergentes en el ámbito de la inteligencia artificial.",
+  "opening_message": "En este radar, destacamos las innovaciones clave en modelos y herramientas de IA, así como lanzamientos relevantes para desarrolladores que están configurando el futuro del sector.",
   "items": [
     {
-      "title": "GameLogicBench: Evaluando Agentes de Programación en Lógica de Juegos",
-      "summary": "Un nuevo benchmark que evalúa tareas de lógica de juego en proyectos de Godot, asegurando que las reglas de juego se cumplan a través de cada tick de simulación.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21562",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "agentes",
-        "programación"
-      ],
-      "what_changed": "Introducción de un nuevo método para evaluar la lógica de juego en tiempo real.",
-      "why_it_matters": "Permite una evaluación más precisa de cómo los agentes manejan la lógica de juegos en situaciones complejas.",
-      "sector_impact": "Mejora en el desarrollo de videojuegos y capacitación de agentes en entornos complejos."
-    },
-    {
-      "title": "BI-Agent y BI-Bench: Automatizando Inteligencia Empresarial de Fin a Fin",
-      "summary": "Un nuevo agente de inteligencia empresarial que gestiona tareas complejas sin necesidad de preparación manual de datos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.20886",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "inteligencia empresarial",
-        "agentes",
-        "automatización"
-      ],
-      "what_changed": "Desarrollo de un agente que combina razonamiento con entrenamiento especializado para mejorar la exactitud.",
-      "why_it_matters": "Facilita un acceso más eficiente a datos empresariales, reduciendo el tiempo de respuesta a preguntas comerciales.",
-      "sector_impact": "Transformación en la forma en que las empresas manejan la inteligencia de datos."
-    },
-    {
-      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
-      "summary": "Exploración de agentes LLM para el diseño de chips utilizando abstracciones de alto nivel, logrando mejoras significativas en rendimiento.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21157",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "diseño de chips",
-        "modelos",
-        "abstracción"
-      ],
-      "what_changed": "Integración de diseño abstraído para producción de chips más eficientes.",
-      "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos integrados y optimiza procesos de ingeniería.",
-      "sector_impact": "Impacto significativo en la industria de semiconductores y diseño de circuitos."
-    },
-    {
-      "title": "Planetary Prediction Engine: Predicción Geoespacial Autónoma",
-      "summary": "Un sistema de IA autónoma que optimiza la selección de datos para modelar desafíos globales críticos, mejorando la precisión de las predicciones.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.26088",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "predicción geoespacial",
-        "IA",
-        "modelos"
-      ],
-      "what_changed": "Implementación de un sistema que reduce la carga técnica para análisis a gran escala.",
-      "why_it_matters": "Facilita la respuesta a desafíos críticos como la seguridad alimentaria y el manejo de riesgos.",
-      "sector_impact": "Transformación en el análisis geoespacial y mejora en la planificación de recursos."
-    },
-    {
-      "title": "CIPL: Un Marco para la Evaluación de Fugas de Privacidad en Agentes LLM",
-      "summary": "Un nuevo marco que evalúa la fuga de privacidad en actores de lenguaje, abordando la transición de uso interno a exposición externa.",
+      "title": "VLM-in-Sandbox: Visual Workspaces for Agentic Visual Reasoning",
+      "summary": "Un marco para razonamiento multimodal en entornos controlados, optimizando la gestión de evidencia visual generada.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21686",
+      "source_url": "https://arxiv.org/abs/2609.24362",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "privacidad",
+        "multimodal",
+        "razonamiento visual"
+      ],
+      "what_changed": "Introducción de un entorno sand-box para VLMs.",
+      "why_it_matters": "Mejora la precisión y gestión de información visual en modelos.",
+      "sector_impact": "Revoluciona cómo los modelos manejan contextos visuales."
+    },
+    {
+      "title": "H2LooP Telecom Model v1: From Telecom Comprehension to Autonomous Issue and PR Resolution",
+      "summary": "Modelo especializado en telecomunicaciones que mejora la resolución de problemas autónomos.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.22241",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "telecom",
+        "IA autónoma"
+      ],
+      "what_changed": "Modelos adaptados al dominio de telecomunicaciones.",
+      "why_it_matters": "Supera modelos cerrados actuales en rendimiento para tareas específicas.",
+      "sector_impact": "Transforma las capacidades de gestión automatizada en telecomunicaciones."
+    },
+    {
+      "title": "SelfOp: An Optimization Algorithm for Self-Improving Security Agents",
+      "summary": "Algoritmo que mejora agentes de seguridad sin modificar sus modelos o estructuras existentes.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.22792",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
         "agentes",
-        "tecnología"
+        "seguridad"
       ],
-      "what_changed": "Introducción de un marco para comparar dependencias internas de fuga de datos.",
-      "why_it_matters": "Mejora la comprensión y gestión de la privacidad en sistemas de IA.",
-      "sector_impact": "Aumentar la confianza en el uso de agentes inteligentes en sectores sensibles."
+      "what_changed": "Optimizaciones automáticas para agentes de seguridad.",
+      "why_it_matters": "Aumenta la eficacia de los agentes en tareas de seguridad.",
+      "sector_impact": "Refuerza la capacidad de respuesta ante vulnerabilidades."
     },
     {
-      "title": "Staying on the Attack Path: Testeo Automatizado de Penetración",
-      "summary": "Desarrollo de un agente automatizado que mejora las pruebas de penetración a largo plazo utilizando un grafo de intenciones.",
-      "category": "model",
+      "title": "FinInteract: Benchmarking Clarification and Intent Integration in Ambiguous Financial Question Answering",
+      "summary": "Benchmark para evaluar respuestas ambiguas en preguntas financieras usando LLMs.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.07344",
+      "source_url": "https://arxiv.org/abs/2609.24002",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "automatización",
-        "penetración"
+        "finanzas",
+        "benchmark"
       ],
-      "what_changed": "Implementación de un gráfico de intenciones para manejar estados a largo plazo.",
-      "why_it_matters": "Mejora la efectividad en la identificación de vulnerabilidades en aplicaciones web.",
-      "sector_impact": "Refuerzo en la ciberseguridad y protección de datos en infraestructuras críticas."
+      "what_changed": "Introducción de un nuevo benchmark para la resolución de ambigüedades.",
+      "why_it_matters": "Permite a los modelos manejar mejor las interpretaciones ambiguas en finanzas.",
+      "sector_impact": "Mejora la calidad de respuestas en sistemas financieros automatizados."
     },
     {
-      "title": "Listen Before You Speak: Planificación de Respuestas por Reacciones Faciales",
-      "summary": "Propuesta de un marco de dos etapas que utiliza las reacciones faciales de oyentes para mejorar la generación de discursos conversacionales.",
+      "title": "Auditing Political Alignment in LLM Assistants",
+      "summary": "Auditoría del comportamiento político de asistentes de IA, explorando cómo responden según el perfil del usuario.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.21683",
+      "source_url": "https://arxiv.org/abs/2609.23039",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "IA conversacional",
-        "procesamiento de lenguaje natural"
+        "ética",
+        "transparencia"
       ],
-      "what_changed": "Introducción de un enfoque temporal para modelar reacciones en la planificación de respuestas.",
-      "why_it_matters": "Potencia la efectividad de los sistemas de IA en interacciones humanas al adaptarse a señales sociales.",
-      "sector_impact": "Mejora en la calidad de las interacciones generadas por IA en diversas aplicaciones."
+      "what_changed": "Nuevas métricas para auditar comportamientos políticos en LLM.",
+      "why_it_matters": "Asegura la responsabilidad y la alineación en la IA política.",
+      "sector_impact": "Impacta en cómo se desarrollan y utilizan modelos de IA en contextos políticos."
+    },
+    {
+      "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
+      "summary": "Estudio empírico que examina el uso de LLMs en diseño de software y sus beneficios y limitaciones.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.01392",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "software",
+        "diseño"
+      ],
+      "what_changed": "Investigación sobre interacciones entre desarrolladores y LLMs.",
+      "why_it_matters": "Proporciona una caracterización basada en evidencia del uso de LLM en diseño.",
+      "sector_impact": "Transforma el enfoque de los desarrolladores hacia herramientas de IA en diseño."
+    },
+    {
+      "title": "Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents",
+      "summary": "Estudio sobre las fallas de interpretabilidad en agentes de inferencia activa con LLM.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.23215",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "interpretabilidad",
+        "diagnóstico"
+      ],
+      "what_changed": "Nuevos métodos de diagnóstico para fallos en la interpretabilidad.",
+      "why_it_matters": "Asegura una mejor comprensión de los errores en decisiones automatizadas.",
+      "sector_impact": "Fortalece la confianza en sistemas automatizados de IA."
+    },
+    {
+      "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+      "summary": "Benchmark que evalúa la capacidad de toma de decisiones en sistemas autónomos UAV centrados en IA física.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.23695",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "UAV",
+        "IA física"
+      ],
+      "what_changed": "Introducción de un nuevo benchmark para la toma de decisiones autónoma.",
+      "why_it_matters": "Proporciona métricas estandarizadas para evaluar LLM en contextos de UAV.",
+      "sector_impact": "Mejora la fiabilidad en las decisiones de IA en entornos voladores."
     }
   ]
 }

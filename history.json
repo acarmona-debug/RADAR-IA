@@ -1,6 +1,140 @@
 {
   "days": [
     {
+      "date": "2026-09-23",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "VLM-in-Sandbox: Visual Workspaces for Agentic Visual Reasoning",
+          "summary": "Un marco para razonamiento multimodal en entornos controlados, optimizando la gestión de evidencia visual generada.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.24362",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "razonamiento visual"
+          ],
+          "what_changed": "Introducción de un entorno sand-box para VLMs.",
+          "why_it_matters": "Mejora la precisión y gestión de información visual en modelos.",
+          "sector_impact": "Revoluciona cómo los modelos manejan contextos visuales."
+        },
+        {
+          "title": "H2LooP Telecom Model v1: From Telecom Comprehension to Autonomous Issue and PR Resolution",
+          "summary": "Modelo especializado en telecomunicaciones que mejora la resolución de problemas autónomos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.22241",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "telecom",
+            "IA autónoma"
+          ],
+          "what_changed": "Modelos adaptados al dominio de telecomunicaciones.",
+          "why_it_matters": "Supera modelos cerrados actuales en rendimiento para tareas específicas.",
+          "sector_impact": "Transforma las capacidades de gestión automatizada en telecomunicaciones."
+        },
+        {
+          "title": "SelfOp: An Optimization Algorithm for Self-Improving Security Agents",
+          "summary": "Algoritmo que mejora agentes de seguridad sin modificar sus modelos o estructuras existentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.22792",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "seguridad"
+          ],
+          "what_changed": "Optimizaciones automáticas para agentes de seguridad.",
+          "why_it_matters": "Aumenta la eficacia de los agentes en tareas de seguridad.",
+          "sector_impact": "Refuerza la capacidad de respuesta ante vulnerabilidades."
+        },
+        {
+          "title": "FinInteract: Benchmarking Clarification and Intent Integration in Ambiguous Financial Question Answering",
+          "summary": "Benchmark para evaluar respuestas ambiguas en preguntas financieras usando LLMs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.24002",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "finanzas",
+            "benchmark"
+          ],
+          "what_changed": "Introducción de un nuevo benchmark para la resolución de ambigüedades.",
+          "why_it_matters": "Permite a los modelos manejar mejor las interpretaciones ambiguas en finanzas.",
+          "sector_impact": "Mejora la calidad de respuestas en sistemas financieros automatizados."
+        },
+        {
+          "title": "Auditing Political Alignment in LLM Assistants",
+          "summary": "Auditoría del comportamiento político de asistentes de IA, explorando cómo responden según el perfil del usuario.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.23039",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ética",
+            "transparencia"
+          ],
+          "what_changed": "Nuevas métricas para auditar comportamientos políticos en LLM.",
+          "why_it_matters": "Asegura la responsabilidad y la alineación en la IA política.",
+          "sector_impact": "Impacta en cómo se desarrollan y utilizan modelos de IA en contextos políticos."
+        },
+        {
+          "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
+          "summary": "Estudio empírico que examina el uso de LLMs en diseño de software y sus beneficios y limitaciones.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.01392",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "software",
+            "diseño"
+          ],
+          "what_changed": "Investigación sobre interacciones entre desarrolladores y LLMs.",
+          "why_it_matters": "Proporciona una caracterización basada en evidencia del uso de LLM en diseño.",
+          "sector_impact": "Transforma el enfoque de los desarrolladores hacia herramientas de IA en diseño."
+        },
+        {
+          "title": "Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents",
+          "summary": "Estudio sobre las fallas de interpretabilidad en agentes de inferencia activa con LLM.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.23215",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "interpretabilidad",
+            "diagnóstico"
+          ],
+          "what_changed": "Nuevos métodos de diagnóstico para fallos en la interpretabilidad.",
+          "why_it_matters": "Asegura una mejor comprensión de los errores en decisiones automatizadas.",
+          "sector_impact": "Fortalece la confianza en sistemas automatizados de IA."
+        },
+        {
+          "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+          "summary": "Benchmark que evalúa la capacidad de toma de decisiones en sistemas autónomos UAV centrados en IA física.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.23695",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "UAV",
+            "IA física"
+          ],
+          "what_changed": "Introducción de un nuevo benchmark para la toma de decisiones autónoma.",
+          "why_it_matters": "Proporciona métricas estandarizadas para evaluar LLM en contextos de UAV.",
+          "sector_impact": "Mejora la fiabilidad en las decisiones de IA en entornos voladores."
+        }
+      ]
+    },
+    {
       "date": "2026-09-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -708,131 +842,6 @@
           "what_changed": "Lanzamiento de acceso anticipado a un servidor MCP que permite el control de dispositivos por IA.",
           "why_it_matters": "Amplía la aplicación práctica de IA en la vida cotidiana.",
           "sector_impact": "Mejora la experiencia del usuario en el hogar conectado."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "executive_title": "Radar Diario de Innovaciones en IA",
-      "items": [
-        {
-          "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
-          "summary": "Se presentan estrategias de defensa para agentes LLM integrados con herramientas, protegiéndolos de ataques adversariales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.16098",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "defensa",
-            "LLM",
-            "seguridad"
-          ],
-          "what_changed": "Implementación de defensas universales para mitigar ataques.",
-          "why_it_matters": "Refuerza la seguridad y robustez de los agentes LLM integrados.",
-          "sector_impact": "Mejora en entornos de producción que utilicen LLM."
-        },
-        {
-          "title": "Meta ahora permite que agentes de IA manejen partes aburridas de la configuración de WhatsApp Business",
-          "summary": "Nuevo servidor MCP de WhatsApp que permite a desarrolladores usar agentes de IA para automatizar la configuración.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Whatsapp",
-            "automación",
-            "agentes"
-          ],
-          "what_changed": "Integración de agentes de IA en la configuración de negocio.",
-          "why_it_matters": "Facilita y acelera el proceso de configuración para empresas.",
-          "sector_impact": "Refuerzo en la adopción de IA en entornos comerciales."
-        },
-        {
-          "title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
-          "summary": "Se presenta MADA, un marco con múltiples agentes para explorar diseños en sistemas de computación de alto rendimiento.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.11515",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "HPC",
-            "diseño",
-            "agentes"
-          ],
-          "what_changed": "Nuevo marco para la colaboración de agentes en diseño.",
-          "why_it_matters": "Acelera el descubrimiento científico automatizando procesos de diseño.",
-          "sector_impact": "Impacto significativo en investigaciones científicas complejas."
-        },
-        {
-          "title": "EchoPath: Execution-Level Replayable Memory for GUI Agents",
-          "summary": "Introducing EchoPath, which transforms GUI interactions into reusable memories for improved automation.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.16635",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "GUI",
-            "agentes"
-          ],
-          "what_changed": "Estandarización de procesos GUI en agentes para su reutilización.",
-          "why_it_matters": "Aumenta la eficiencia en tareas repetitivas en entornos empresariales.",
-          "sector_impact": "Optimización en flujos de trabajo de usuarios que interactúan con interfaces gráficas."
-        },
-        {
-          "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
-          "summary": "Se propone REALM, un nuevo marco para la evolución de la memoria a largo plazo en agentes LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.16053",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "LLM",
-            "evolución"
-          ],
-          "what_changed": "Introducción de un ciclo de vida continuo para la memoria a largo plazo.",
-          "why_it_matters": "Permite que los agentes organicen y evolucionen sus recuerdos de forma autónoma.",
-          "sector_impact": "Posibilidad de mejorar interacciones prolongadas con usuarios."
-        },
-        {
-          "title": "Ave: Guiding Agentic GPU Optimization Using Data-Flow Invariants",
-          "summary": "Nueva plataforma para optimizar kernels de GPU utilizando invariantes de flujo de datos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.18616",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "GPU",
-            "optimización",
-            "agentes"
-          ],
-          "what_changed": "Uso de invariantes de flujo de datos para optimización.",
-          "why_it_matters": "Aumenta el rendimiento de los agentes de codificación en entornos de IA.",
-          "sector_impact": "Influencia positiva en el desarrollo de softwares de alta eficiencia."
-        },
-        {
-          "title": "CLEAR: Cross-Source Evidence Adjudication for Large Language Models in Medicine",
-          "summary": "Marco propuesto para adjudicación de evidencia en LLMs aplicados a la medicina.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.16301",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "medicina",
-            "evidencia",
-            "LLMs"
-          ],
-          "what_changed": "Introducción de múltiples fuentes de información en la evaluación de LLMs.",
-          "why_it_matters": "Mejora la precisión y relevancia de las respuestas médicas generadas por AI.",
-          "sector_impact": "Potencial de transformar la práctica médica con IA más confiable."
         }
       ]
     }
