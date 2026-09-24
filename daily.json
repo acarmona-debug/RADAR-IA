@@ -1,136 +1,127 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones y avances en herramientas, modelos y frameworks emergentes en el ámbito de la inteligencia artificial.",
-  "opening_message": "En este radar, destacamos las innovaciones clave en modelos y herramientas de IA, así como lanzamientos relevantes para desarrolladores que están configurando el futuro del sector.",
+  "intro_message": "Resumen de innovaciones y herramientas recientes en inteligencia artificial.",
+  "opening_message": "A continuación, se presentan los desarrollos más relevantes en el ámbito de la IA, priorizando herramientas, modelos y nuevas características.",
   "items": [
     {
-      "title": "VLM-in-Sandbox: Visual Workspaces for Agentic Visual Reasoning",
-      "summary": "Un marco para razonamiento multimodal en entornos controlados, optimizando la gestión de evidencia visual generada.",
+      "title": "Med-V1: Small Language Models for Zero-shot Biomedical Evidence Attribution",
+      "summary": "Med-V1 presenta modelos de lenguaje pequeños que superan a modelos más grandes en tareas biomédicas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.05308",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "biomedical",
+        "language model",
+        "evidence attribution"
+      ],
+      "what_changed": "Desarrollo de modelos más eficientes para atribución de evidencia biomédica.",
+      "why_it_matters": "Ofrece una alternativa accesible para la detección de alucinaciones en modelos de lenguaje grandes.",
+      "sector_impact": "Salud y biomedicina."
+    },
+    {
+      "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+      "summary": "Se presenta JAZ, un marco de agente LLM que simplifica la interacción con herramientas.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.24362",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26891",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "multimodal",
-        "razonamiento visual"
+        "agent framework",
+        "LLM",
+        "automation"
       ],
-      "what_changed": "Introducción de un entorno sand-box para VLMs.",
-      "why_it_matters": "Mejora la precisión y gestión de información visual en modelos.",
-      "sector_impact": "Revoluciona cómo los modelos manejan contextos visuales."
+      "what_changed": "Introduce un modelo de bucle de agente simplificado.",
+      "why_it_matters": "Permite una mayor flexibilidad y eficiencia en la implementación de agentes IA.",
+      "sector_impact": "Desarrollo de software y automatización."
     },
     {
-      "title": "H2LooP Telecom Model v1: From Telecom Comprehension to Autonomous Issue and PR Resolution",
-      "summary": "Modelo especializado en telecomunicaciones que mejora la resolución de problemas autónomos.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.22241",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "telecom",
-        "IA autónoma"
-      ],
-      "what_changed": "Modelos adaptados al dominio de telecomunicaciones.",
-      "why_it_matters": "Supera modelos cerrados actuales en rendimiento para tareas específicas.",
-      "sector_impact": "Transforma las capacidades de gestión automatizada en telecomunicaciones."
-    },
-    {
-      "title": "SelfOp: An Optimization Algorithm for Self-Improving Security Agents",
-      "summary": "Algoritmo que mejora agentes de seguridad sin modificar sus modelos o estructuras existentes.",
+      "title": "TiAb Review Plugin: AI-Assisted Study Selection in Systematic Reviews",
+      "summary": "Plugin para Chrome que asiste en la selección de estudios en revisiones sistemáticas sin necesidad de código.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.22792",
+      "source_url": "https://arxiv.org/abs/2604.08602",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes",
-        "seguridad"
+        "review tool",
+        "AI",
+        "systematic review"
       ],
-      "what_changed": "Optimizaciones automáticas para agentes de seguridad.",
-      "why_it_matters": "Aumenta la eficacia de los agentes en tareas de seguridad.",
-      "sector_impact": "Refuerza la capacidad de respuesta ante vulnerabilidades."
+      "what_changed": "Facilita la selección de estudios mediante IA sin costo de servidor.",
+      "why_it_matters": "Reduce la carga de trabajo manual y mejora la eficiencia en investigaciones sistemáticas.",
+      "sector_impact": "Investigación y salud pública."
     },
     {
-      "title": "FinInteract: Benchmarking Clarification and Intent Integration in Ambiguous Financial Question Answering",
-      "summary": "Benchmark para evaluar respuestas ambiguas en preguntas financieras usando LLMs.",
+      "title": "Agora: Git as Shared Memory for Collective AutoResearch",
+      "summary": "Plataforma que permite a agentes de investigación registrar y colaborar en tiempo real.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.24002",
+      "source_url": "https://arxiv.org/abs/2609.18094",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "finanzas",
-        "benchmark"
+        "collaboration",
+        "research agents",
+        "git"
       ],
-      "what_changed": "Introducción de un nuevo benchmark para la resolución de ambigüedades.",
-      "why_it_matters": "Permite a los modelos manejar mejor las interpretaciones ambiguas en finanzas.",
-      "sector_impact": "Mejora la calidad de respuestas en sistemas financieros automatizados."
+      "what_changed": "Almacena contribuciones de investigación en un gráfico acíclico dirigido.",
+      "why_it_matters": "Fomenta la colaboración y reutilización del trabajo en investigación.",
+      "sector_impact": "Investigación colaborativa y desarrollo científico."
     },
     {
-      "title": "Auditing Political Alignment in LLM Assistants",
-      "summary": "Auditoría del comportamiento político de asistentes de IA, explorando cómo responden según el perfil del usuario.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.23039",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ética",
-        "transparencia"
-      ],
-      "what_changed": "Nuevas métricas para auditar comportamientos políticos en LLM.",
-      "why_it_matters": "Asegura la responsabilidad y la alineación en la IA política.",
-      "sector_impact": "Impacta en cómo se desarrollan y utilizan modelos de IA en contextos políticos."
-    },
-    {
-      "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
-      "summary": "Estudio empírico que examina el uso de LLMs en diseño de software y sus beneficios y limitaciones.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.01392",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "software",
-        "diseño"
-      ],
-      "what_changed": "Investigación sobre interacciones entre desarrolladores y LLMs.",
-      "why_it_matters": "Proporciona una caracterización basada en evidencia del uso de LLM en diseño.",
-      "sector_impact": "Transforma el enfoque de los desarrolladores hacia herramientas de IA en diseño."
-    },
-    {
-      "title": "Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents",
-      "summary": "Estudio sobre las fallas de interpretabilidad en agentes de inferencia activa con LLM.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.23215",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "interpretabilidad",
-        "diagnóstico"
-      ],
-      "what_changed": "Nuevos métodos de diagnóstico para fallos en la interpretabilidad.",
-      "why_it_matters": "Asegura una mejor comprensión de los errores en decisiones automatizadas.",
-      "sector_impact": "Fortalece la confianza en sistemas automatizados de IA."
-    },
-    {
-      "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
-      "summary": "Benchmark que evalúa la capacidad de toma de decisiones en sistemas autónomos UAV centrados en IA física.",
+      "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
+      "summary": "Herramienta de evaluación para agentes que configuran entornos de implementación.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.23695",
+      "source_url": "https://arxiv.org/abs/2609.27571",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "deployment",
+        "evaluation",
+        "agent"
+      ],
+      "what_changed": "Evalúa tareas de configuración de despliegue con agentes LLM.",
+      "why_it_matters": "Mejora la calidad y eficiencia de las tareas de despliegue.",
+      "sector_impact": "DevOps y tecnología."
+    },
+    {
+      "title": "Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
+      "summary": "Framework que protege a agentes LLM de amenazas a largo plazo mediante memoria de sombra.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.03228",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "UAV",
-        "IA física"
+        "security",
+        "long-horizon threats",
+        "agent"
       ],
-      "what_changed": "Introducción de un nuevo benchmark para la toma de decisiones autónoma.",
-      "why_it_matters": "Proporciona métricas estandarizadas para evaluar LLM en contextos de UAV.",
-      "sector_impact": "Mejora la fiabilidad en las decisiones de IA en entornos voladores."
+      "what_changed": "Introduce memoria dedicada para evaluar riesgos en decisiones de agentes.",
+      "why_it_matters": "Aumenta la seguridad de los agentes LLM en entornos críticos.",
+      "sector_impact": "Seguridad informática y desarrollo de software."
+    },
+    {
+      "title": "EidosDoc: Implicit Structure Encoding for Cost-Effective Semi-Structured Document QA",
+      "summary": "Sistema que mejora la precisión en la respuesta a documentos semiestructurados con bajo costo computacional.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.27784",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "document QA",
+        "efficient",
+        "AI"
+      ],
+      "what_changed": "Implementa un nuevo método para codificación de estructura implícita.",
+      "why_it_matters": "Ofrece respuestas más precisas a menor costo y tiempo.",
+      "sector_impact": "Análisis de documentos y procesamiento de datos."
     }
   ]
 }

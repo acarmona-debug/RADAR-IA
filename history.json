@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-24",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Med-V1: Small Language Models for Zero-shot Biomedical Evidence Attribution",
+          "summary": "Med-V1 presenta modelos de lenguaje pequeños que superan a modelos más grandes en tareas biomédicas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.05308",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "biomedical",
+            "language model",
+            "evidence attribution"
+          ],
+          "what_changed": "Desarrollo de modelos más eficientes para atribución de evidencia biomédica.",
+          "why_it_matters": "Ofrece una alternativa accesible para la detección de alucinaciones en modelos de lenguaje grandes.",
+          "sector_impact": "Salud y biomedicina."
+        },
+        {
+          "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+          "summary": "Se presenta JAZ, un marco de agente LLM que simplifica la interacción con herramientas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.26891",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agent framework",
+            "LLM",
+            "automation"
+          ],
+          "what_changed": "Introduce un modelo de bucle de agente simplificado.",
+          "why_it_matters": "Permite una mayor flexibilidad y eficiencia en la implementación de agentes IA.",
+          "sector_impact": "Desarrollo de software y automatización."
+        },
+        {
+          "title": "TiAb Review Plugin: AI-Assisted Study Selection in Systematic Reviews",
+          "summary": "Plugin para Chrome que asiste en la selección de estudios en revisiones sistemáticas sin necesidad de código.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.08602",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "review tool",
+            "AI",
+            "systematic review"
+          ],
+          "what_changed": "Facilita la selección de estudios mediante IA sin costo de servidor.",
+          "why_it_matters": "Reduce la carga de trabajo manual y mejora la eficiencia en investigaciones sistemáticas.",
+          "sector_impact": "Investigación y salud pública."
+        },
+        {
+          "title": "Agora: Git as Shared Memory for Collective AutoResearch",
+          "summary": "Plataforma que permite a agentes de investigación registrar y colaborar en tiempo real.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.18094",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "collaboration",
+            "research agents",
+            "git"
+          ],
+          "what_changed": "Almacena contribuciones de investigación en un gráfico acíclico dirigido.",
+          "why_it_matters": "Fomenta la colaboración y reutilización del trabajo en investigación.",
+          "sector_impact": "Investigación colaborativa y desarrollo científico."
+        },
+        {
+          "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
+          "summary": "Herramienta de evaluación para agentes que configuran entornos de implementación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.27571",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "deployment",
+            "evaluation",
+            "agent"
+          ],
+          "what_changed": "Evalúa tareas de configuración de despliegue con agentes LLM.",
+          "why_it_matters": "Mejora la calidad y eficiencia de las tareas de despliegue.",
+          "sector_impact": "DevOps y tecnología."
+        },
+        {
+          "title": "Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
+          "summary": "Framework que protege a agentes LLM de amenazas a largo plazo mediante memoria de sombra.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.03228",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "security",
+            "long-horizon threats",
+            "agent"
+          ],
+          "what_changed": "Introduce memoria dedicada para evaluar riesgos en decisiones de agentes.",
+          "why_it_matters": "Aumenta la seguridad de los agentes LLM en entornos críticos.",
+          "sector_impact": "Seguridad informática y desarrollo de software."
+        },
+        {
+          "title": "EidosDoc: Implicit Structure Encoding for Cost-Effective Semi-Structured Document QA",
+          "summary": "Sistema que mejora la precisión en la respuesta a documentos semiestructurados con bajo costo computacional.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.27784",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "document QA",
+            "efficient",
+            "AI"
+          ],
+          "what_changed": "Implementa un nuevo método para codificación de estructura implícita.",
+          "why_it_matters": "Ofrece respuestas más precisas a menor costo y tiempo.",
+          "sector_impact": "Análisis de documentos y procesamiento de datos."
+        }
+      ]
+    },
+    {
       "date": "2026-09-23",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -717,131 +842,6 @@
           "what_changed": "Implementación de un marco para la auto-evolución de índices de búsqueda sin intervención humana.",
           "why_it_matters": "Mejora la eficiencia en la recuperación de información y permite personalizaciones más rápidas.",
           "sector_impact": "Alto; impacta notablemente en sistemas de búsqueda y recupero de datos."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "executive_title": "Radar Diario de IA - Avances y Herramientas Clave",
-      "items": [
-        {
-          "title": "PentestChain: Framework de Pruebas de Penetración Automatizadas",
-          "summary": "PentestChain es un marco automatizado que permite realizar pruebas de penetración de forma rentable, utilizando modelos LLM de nivel gratuito en un flujo de trabajo orquestado.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.18120",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "seguridad",
-            "LLM"
-          ],
-          "what_changed": "Introducción de un marco de trabajo automatizado que aborda el costo de las pruebas de penetración.",
-          "why_it_matters": "Hace que las pruebas de seguridad sean más accesibles para pequeñas organizaciones, optimizando el uso de recursos.",
-          "sector_impact": "Mejora la ciberseguridad en organizaciones con recursos limitados."
-        },
-        {
-          "title": "Clueing up LLMs with Tool-Augmented Deductive Reasoning",
-          "summary": "Uso de un marco de juego para evaluar el razonamiento deductivo en modelos LLM mediante herramientas de apoyo que mejoran la calidad de las decisiones.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.18736",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "evaluación",
-            "LLM"
-          ],
-          "what_changed": "Implementación de un entorno de juego para evaluar el razonamiento lógico de modelos LLM.",
-          "why_it_matters": "Proporciona un test de calidad para mejorar la capacidad de razonamiento de los modelos.",
-          "sector_impact": "Ayuda a refinar los sistemas de razonamiento en aplicaciones de IA."
-        },
-        {
-          "title": "WordPolo: Evaluando Modelos de Lenguaje a Través de Retroalimentación Semántica Iterativa",
-          "summary": "WordPolo ofrece un enfoque innovador para evaluar LLMs mediante una tarea de búsqueda de palabras basada en retroalimentación semántica.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.19006",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "modelos de lenguajes",
-            "innovación"
-          ],
-          "what_changed": "Introducción de métricas de progresión que evalúan el razonamiento iterativo en modelos de lenguaje.",
-          "why_it_matters": "Proporciona una visión holística de las capacidades de razonamiento de los modelos más allá de la precisión.",
-          "sector_impact": "Mejor análisis del rendimiento de los modelos de lenguaje complejos."
-        },
-        {
-          "title": "TuiML: Biblioteca de Aprendizaje Automático para Agentes de IA",
-          "summary": "TuiML es una biblioteca autosuficiente diseñada para agentes de IA, permitiendo un acceso más fácil a algoritmos y flujos de trabajo validados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.17984",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "aprendizaje automático",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de una biblioteca que se adapta a las necesidades específicas de los agentes de IA.",
-          "why_it_matters": "Permite a los agentes de IA ejecutar experimentos de manera más autónoma y efectiva.",
-          "sector_impact": "Facilita la implementación de soluciones de IA en varios dominios."
-        },
-        {
-          "title": "Controles de Seguridad en la Acción de Modelos LLM con Contratos",
-          "summary": "El marco ContrAgent utiliza contratos para supervisar el comportamiento de los agentes LLM, mejorando su seguridad y eficacia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.18128",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "modelos de lenguaje",
-            "supervisión"
-          ],
-          "what_changed": "Implementación de un sistema de contratos para evaluar y supervisar acciones de agentes LLM.",
-          "why_it_matters": "Mejora la confianza en el uso de LLMs en tareas críticas.",
-          "sector_impact": "Previene acciones no seguras y mejora la confianza empresarial en la IA."
-        },
-        {
-          "title": "MIRAGE: Evaluación del Uso de Evidencia Histórica en Agentes Personales Multimodales",
-          "summary": "MIRAGE estudia cómo los agentes personales multimodales utilizan evidencia histórica a lo largo de ciclos de conversación.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.19059",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "multimodal",
-            "evaluación"
-          ],
-          "what_changed": "Nuevos métodos para evaluar el uso de evidencia en agentes personales en conversaciones multimodales.",
-          "why_it_matters": "Ayuda a mejorar la efectividad y continuidad en las interacciones con agents inteligentes.",
-          "sector_impact": "Aumenta la usabilidad de asistentes personales en tareas complejas."
-        },
-        {
-          "title": "Su Ajuste o Servicio: Agentes de IA para controlar Dispositivos Google Home",
-          "summary": "Los agentes de IA ahora pueden controlar dispositivos Google Home, facilitando la interacción del usuario con el hogar inteligente.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "integración",
-            "hogar inteligente",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de acceso anticipado a un servidor MCP que permite el control de dispositivos por IA.",
-          "why_it_matters": "Amplía la aplicación práctica de IA en la vida cotidiana.",
-          "sector_impact": "Mejora la experiencia del usuario en el hogar conectado."
         }
       ]
     }
