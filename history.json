@@ -1,6 +1,140 @@
 {
   "days": [
     {
+      "date": "2026-09-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "BaseCamp --- Un marco de IA agente para automatizar pipelines de secuenciación de ADN",
+          "summary": "Un nuevo marco que utiliza seis agentes especializados para automatizar decisiones en pipelines de secuenciación de ADN.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.28557",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "DNAs"
+          ],
+          "what_changed": "Introducción de agentes dedicados para mejorar la toma de decisiones en biometría.",
+          "why_it_matters": "Aumenta la eficiencia y precisión en la secuenciación de ADN, un proceso crítico en biología.",
+          "sector_impact": "Biotecnología"
+        },
+        {
+          "title": "Coding Agents para problemas de planificación de tareas y movimiento generalizados",
+          "summary": "Los agentes de codificación automatizan la planificación en entornos complejos y mejoran el éxito comparado con los planificadores tradicionales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.30233",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "planificación",
+            "automatización"
+          ],
+          "what_changed": "Se mejoró la eficacia de planificación a través de agentes de codificación.",
+          "why_it_matters": "Optimiza la planificación de tareas en entornos dinámicos y complejos.",
+          "sector_impact": "Robótica"
+        },
+        {
+          "title": "CRISS: Un chatbot de IA aumentada por recuperación para ayudar a registradores de cáncer",
+          "summary": "Desarrollo de un asistente conversacional para proporcionar acceso rápido y citable a pautas de registro de cáncer.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.29075",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "salud",
+            "IA aumentada"
+          ],
+          "what_changed": "Mejora en la interpretación de estándares complejos de codificación.",
+          "why_it_matters": "Mejora la eficiencia y precisión en el registro de cáncer.",
+          "sector_impact": "Salud"
+        },
+        {
+          "title": "META: Agente de Trading Mejorado por Memoria Episódica para la Toma de Decisiones Financieras",
+          "summary": "Un marco de múltiples agentes que integra memoria episodica para mejorar la toma de decisiones en trading.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.28771",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "finanzas",
+            "trading"
+          ],
+          "what_changed": "Incorporación de memoria episodica en decisiones de trading.",
+          "why_it_matters": "Aumenta la precisión en decisiones financieras críticas.",
+          "sector_impact": "Finanzas"
+        },
+        {
+          "title": "JoyAI-VL-Interaction: Inteligencia de Interacción Visual-Lenguaje en Tiempo Real",
+          "summary": "Un modelo de interacción visual-lenguaje que responde de manera proactiva a eventos en tiempo real.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.14777",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "interacción",
+            "IA visual"
+          ],
+          "what_changed": "Cambio en el paradigma de interacción hacia una respuesta continua y proactiva.",
+          "why_it_matters": "Mejora la capacidad de los modelos para interactuar en ambientes dinámicos.",
+          "sector_impact": "Tecnología"
+        },
+        {
+          "title": "iCoder-27B: Desarrollo Autónomo de Modelos de Codificación",
+          "summary": "Un modelo líder en diseño y optimización con un enfoque en la evolución a través de la auto-mejora.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.29626",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "modelos de codificación",
+            "autonomía"
+          ],
+          "what_changed": "Desarrollo de un modelo de 27B a través de la auto-mejora con mínima intervención humana.",
+          "why_it_matters": "Establece un precedente para desarrollos futuros en IA autónoma.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "La última puerta humana: Ingeniería Desplegada para la Automatización del Gobierno",
+          "summary": "Un marco de sustitución de tareas para la automatización del gobierno digital.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.29345",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "gubernamental",
+            "automación"
+          ],
+          "what_changed": "Desarrollo de un marco para integrar la automatización en procesos de gobierno.",
+          "why_it_matters": "Promueve la eficiencia en contextos de gobernanza.",
+          "sector_impact": "Gobierno"
+        },
+        {
+          "title": "Acelerador de decisiones con IA: Control del gasto en agentes de codificación",
+          "summary": "Desarrollo de un router personalizable para optimizar costos en el uso de agentes de codificación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.28919",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "eficiencia de costos",
+            "AI"
+          ],
+          "what_changed": "Implementación de un sistema que redistribuye tareas para optimizar gastos.",
+          "why_it_matters": "Reduce costes operativos significativos en la utilización de herramientas de IA.",
+          "sector_impact": "Empresas"
+        }
+      ]
+    },
+    {
       "date": "2026-09-24",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -753,95 +887,6 @@
           "what_changed": "Desarrollo de herramientas personalizadas para la industria de la moda.",
           "why_it_matters": "Integra IA en el diseño de moda contemporáneo.",
           "sector_impact": "Crea nuevas oportunidades en la industria de la moda."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-          "summary": "SoL-Pi optimiza la eficiencia de los bucles de auto-investigación, logrando una reducción significativa en el tráfico de tokens y costos de API en comparación con soluciones anteriores.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.20519",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "agentes",
-            "eficiencia"
-          ],
-          "what_changed": "Mejora en la eficiencia de agentes de programación y reducción de costos.",
-          "why_it_matters": "Optimiza el uso de recursos en la programación automatizada y mejora los resultados en tareas complejas.",
-          "sector_impact": "Alto; impacta notablemente en el desarrollo de automatización de software."
-        },
-        {
-          "title": "MaSCoD: A Multi-Agent Framework for Structural-Context-Guided Candidate Causal Graph Generation",
-          "summary": "MaSCoD crea un marco multi-agente para generar gráficos causales, mejorando la retención y selectividad en modelos de generación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.19944",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "agentes",
-            "causalidad"
-          ],
-          "what_changed": "Introducción de un método estructurado para la generación de relaciones causales.",
-          "why_it_matters": "Incrementa la efectividad de descubrimiento causal en datos complejos.",
-          "sector_impact": "Moderado; mejora la calidad del análisis de datos en diferentes sectores."
-        },
-        {
-          "title": "Effective and Efficient Threat Hunting with Small Language Models",
-          "summary": "Se presenta una metodología para traducir consultas en lenguaje natural a KQL, facilitando la caza de amenazas en seguridad con Modelos de Lenguaje Pequeños (SLMs).",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.06660",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "herramientas",
-            "automatización"
-          ],
-          "what_changed": "Mejora significativa en la eficacia de traducción y reducción de costos.",
-          "why_it_matters": "Facilita el trabajo de los equipos de seguridad, permitiendo una respuesta más ágil y eficiente.",
-          "sector_impact": "Alto; impacta en la seguridad cibernética y la operación de TI."
-        },
-        {
-          "title": "ScientistTwo: Pioneering the Human Knowledge Frontier with Autonomous AI",
-          "summary": "ScientistTwo es un marco multi-agente autónomo que realiza investigaciones científicas sin intervención humana, generando resultados comparables a los de investigadores humanos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.19644",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "investigación",
-            "inteligencia autónoma"
-          ],
-          "what_changed": "Permite la investigación científica autónoma y la generación de artículos con calidad de publicación.",
-          "why_it_matters": "Revoluciona la forma en que se realiza la investigación científica al introducir un enfoque autónomo.",
-          "sector_impact": "Alto; podría cambiar radicalmente la investigación y el desarrollo en múltiples campos."
-        },
-        {
-          "title": "Self-Evolving Search Index",
-          "summary": "SELF-INDEX mejora el rendimiento de búsqueda permitiendo que un índice evolucione de forma autónoma para adaptarse a las demandas de recuperación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.19656",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "búsqueda"
-          ],
-          "what_changed": "Implementación de un marco para la auto-evolución de índices de búsqueda sin intervención humana.",
-          "why_it_matters": "Mejora la eficiencia en la recuperación de información y permite personalizaciones más rápidas.",
-          "sector_impact": "Alto; impacta notablemente en sistemas de búsqueda y recupero de datos."
         }
       ]
     }

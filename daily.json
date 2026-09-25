@@ -1,127 +1,136 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de innovaciones y herramientas recientes en inteligencia artificial.",
-  "opening_message": "A continuación, se presentan los desarrollos más relevantes en el ámbito de la IA, priorizando herramientas, modelos y nuevas características.",
+  "intro_message": "Actualizaciones y novedades en herramientas, modelos y agentes de IA.",
+  "opening_message": "Este radar resume las últimas tendencias y desarrollos relevantes en el campo de la inteligencia artificial, priorizando herramientas y tecnologías aplicables.",
   "items": [
     {
-      "title": "Med-V1: Small Language Models for Zero-shot Biomedical Evidence Attribution",
-      "summary": "Med-V1 presenta modelos de lenguaje pequeños que superan a modelos más grandes en tareas biomédicas.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.05308",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "biomedical",
-        "language model",
-        "evidence attribution"
-      ],
-      "what_changed": "Desarrollo de modelos más eficientes para atribución de evidencia biomédica.",
-      "why_it_matters": "Ofrece una alternativa accesible para la detección de alucinaciones en modelos de lenguaje grandes.",
-      "sector_impact": "Salud y biomedicina."
-    },
-    {
-      "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
-      "summary": "Se presenta JAZ, un marco de agente LLM que simplifica la interacción con herramientas.",
+      "title": "BaseCamp --- Un marco de IA agente para automatizar pipelines de secuenciación de ADN",
+      "summary": "Un nuevo marco que utiliza seis agentes especializados para automatizar decisiones en pipelines de secuenciación de ADN.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.26891",
+      "source_url": "https://arxiv.org/abs/2609.28557",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "agent framework",
-        "LLM",
-        "automation"
+        "automatización",
+        "DNAs"
       ],
-      "what_changed": "Introduce un modelo de bucle de agente simplificado.",
-      "why_it_matters": "Permite una mayor flexibilidad y eficiencia en la implementación de agentes IA.",
-      "sector_impact": "Desarrollo de software y automatización."
+      "what_changed": "Introducción de agentes dedicados para mejorar la toma de decisiones en biometría.",
+      "why_it_matters": "Aumenta la eficiencia y precisión en la secuenciación de ADN, un proceso crítico en biología.",
+      "sector_impact": "Biotecnología"
     },
     {
-      "title": "TiAb Review Plugin: AI-Assisted Study Selection in Systematic Reviews",
-      "summary": "Plugin para Chrome que asiste en la selección de estudios en revisiones sistemáticas sin necesidad de código.",
+      "title": "Coding Agents para problemas de planificación de tareas y movimiento generalizados",
+      "summary": "Los agentes de codificación automatizan la planificación en entornos complejos y mejoran el éxito comparado con los planificadores tradicionales.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.08602",
+      "source_url": "https://arxiv.org/abs/2609.30233",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "planificación",
+        "automatización"
+      ],
+      "what_changed": "Se mejoró la eficacia de planificación a través de agentes de codificación.",
+      "why_it_matters": "Optimiza la planificación de tareas en entornos dinámicos y complejos.",
+      "sector_impact": "Robótica"
+    },
+    {
+      "title": "CRISS: Un chatbot de IA aumentada por recuperación para ayudar a registradores de cáncer",
+      "summary": "Desarrollo de un asistente conversacional para proporcionar acceso rápido y citable a pautas de registro de cáncer.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.29075",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "review tool",
-        "AI",
-        "systematic review"
+        "salud",
+        "IA aumentada"
       ],
-      "what_changed": "Facilita la selección de estudios mediante IA sin costo de servidor.",
-      "why_it_matters": "Reduce la carga de trabajo manual y mejora la eficiencia en investigaciones sistemáticas.",
-      "sector_impact": "Investigación y salud pública."
+      "what_changed": "Mejora en la interpretación de estándares complejos de codificación.",
+      "why_it_matters": "Mejora la eficiencia y precisión en el registro de cáncer.",
+      "sector_impact": "Salud"
     },
     {
-      "title": "Agora: Git as Shared Memory for Collective AutoResearch",
-      "summary": "Plataforma que permite a agentes de investigación registrar y colaborar en tiempo real.",
+      "title": "META: Agente de Trading Mejorado por Memoria Episódica para la Toma de Decisiones Financieras",
+      "summary": "Un marco de múltiples agentes que integra memoria episodica para mejorar la toma de decisiones en trading.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.18094",
+      "source_url": "https://arxiv.org/abs/2609.28771",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "collaboration",
-        "research agents",
-        "git"
+        "finanzas",
+        "trading"
       ],
-      "what_changed": "Almacena contribuciones de investigación en un gráfico acíclico dirigido.",
-      "why_it_matters": "Fomenta la colaboración y reutilización del trabajo en investigación.",
-      "sector_impact": "Investigación colaborativa y desarrollo científico."
+      "what_changed": "Incorporación de memoria episodica en decisiones de trading.",
+      "why_it_matters": "Aumenta la precisión en decisiones financieras críticas.",
+      "sector_impact": "Finanzas"
     },
     {
-      "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
-      "summary": "Herramienta de evaluación para agentes que configuran entornos de implementación.",
-      "category": "tool",
+      "title": "JoyAI-VL-Interaction: Inteligencia de Interacción Visual-Lenguaje en Tiempo Real",
+      "summary": "Un modelo de interacción visual-lenguaje que responde de manera proactiva a eventos en tiempo real.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.27571",
+      "source_url": "https://arxiv.org/abs/2606.14777",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "deployment",
-        "evaluation",
-        "agent"
+        "interacción",
+        "IA visual"
       ],
-      "what_changed": "Evalúa tareas de configuración de despliegue con agentes LLM.",
-      "why_it_matters": "Mejora la calidad y eficiencia de las tareas de despliegue.",
-      "sector_impact": "DevOps y tecnología."
+      "what_changed": "Cambio en el paradigma de interacción hacia una respuesta continua y proactiva.",
+      "why_it_matters": "Mejora la capacidad de los modelos para interactuar en ambientes dinámicos.",
+      "sector_impact": "Tecnología"
     },
     {
-      "title": "Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
-      "summary": "Framework que protege a agentes LLM de amenazas a largo plazo mediante memoria de sombra.",
+      "title": "iCoder-27B: Desarrollo Autónomo de Modelos de Codificación",
+      "summary": "Un modelo líder en diseño y optimización con un enfoque en la evolución a través de la auto-mejora.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.29626",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "modelos de codificación",
+        "autonomía"
+      ],
+      "what_changed": "Desarrollo de un modelo de 27B a través de la auto-mejora con mínima intervención humana.",
+      "why_it_matters": "Establece un precedente para desarrollos futuros en IA autónoma.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "La última puerta humana: Ingeniería Desplegada para la Automatización del Gobierno",
+      "summary": "Un marco de sustitución de tareas para la automatización del gobierno digital.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.03228",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2609.29345",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "security",
-        "long-horizon threats",
-        "agent"
+        "gubernamental",
+        "automación"
       ],
-      "what_changed": "Introduce memoria dedicada para evaluar riesgos en decisiones de agentes.",
-      "why_it_matters": "Aumenta la seguridad de los agentes LLM en entornos críticos.",
-      "sector_impact": "Seguridad informática y desarrollo de software."
+      "what_changed": "Desarrollo de un marco para integrar la automatización en procesos de gobierno.",
+      "why_it_matters": "Promueve la eficiencia en contextos de gobernanza.",
+      "sector_impact": "Gobierno"
     },
     {
-      "title": "EidosDoc: Implicit Structure Encoding for Cost-Effective Semi-Structured Document QA",
-      "summary": "Sistema que mejora la precisión en la respuesta a documentos semiestructurados con bajo costo computacional.",
+      "title": "Acelerador de decisiones con IA: Control del gasto en agentes de codificación",
+      "summary": "Desarrollo de un router personalizable para optimizar costos en el uso de agentes de codificación.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.27784",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2609.28919",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "document QA",
-        "efficient",
+        "eficiencia de costos",
         "AI"
       ],
-      "what_changed": "Implementa un nuevo método para codificación de estructura implícita.",
-      "why_it_matters": "Ofrece respuestas más precisas a menor costo y tiempo.",
-      "sector_impact": "Análisis de documentos y procesamiento de datos."
+      "what_changed": "Implementación de un sistema que redistribuye tareas para optimizar gastos.",
+      "why_it_matters": "Reduce costes operativos significativos en la utilización de herramientas de IA.",
+      "sector_impact": "Empresas"
     }
   ]
 }
