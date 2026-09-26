@@ -1,136 +1,127 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones y novedades en herramientas, modelos y agentes de IA.",
-  "opening_message": "Este radar resume las últimas tendencias y desarrollos relevantes en el campo de la inteligencia artificial, priorizando herramientas y tecnologías aplicables.",
+  "intro_message": "Últimas actualizaciones en herramientas, modelos y características de IA.",
+  "opening_message": "Este radar presenta los desarrollos más relevantes en el ámbito de la IA, priorizando innovaciones y herramientas clave.",
   "items": [
     {
-      "title": "BaseCamp --- Un marco de IA agente para automatizar pipelines de secuenciación de ADN",
-      "summary": "Un nuevo marco que utiliza seis agentes especializados para automatizar decisiones en pipelines de secuenciación de ADN.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.28557",
+      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "summary": "Meta ha lanzado su agente personal de IA, Muse, que está superando a ChatGPT en popularidad y funcionalidad.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "automatización",
-        "DNAs"
+        "Meta",
+        "AI",
+        "Muse"
       ],
-      "what_changed": "Introducción de agentes dedicados para mejorar la toma de decisiones en biometría.",
-      "why_it_matters": "Aumenta la eficiencia y precisión en la secuenciación de ADN, un proceso crítico en biología.",
-      "sector_impact": "Biotecnología"
+      "what_changed": "Lanzamiento y adopción masiva de Muse.",
+      "why_it_matters": "Representa un avance significativo en la competencia en el sector de asistentes virtuales.",
+      "sector_impact": "Altamente impactante en la adopción de IA personal."
     },
     {
-      "title": "Coding Agents para problemas de planificación de tareas y movimiento generalizados",
-      "summary": "Los agentes de codificación automatizan la planificación en entornos complejos y mejoran el éxito comparado con los planificadores tradicionales.",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "summary": "La expansión de Google Beam a nuevos países y asociaciones puede mejorar la infraestructura de IA global.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.30233",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "planificación",
-        "automatización"
-      ],
-      "what_changed": "Se mejoró la eficacia de planificación a través de agentes de codificación.",
-      "why_it_matters": "Optimiza la planificación de tareas en entornos dinámicos y complejos.",
-      "sector_impact": "Robótica"
-    },
-    {
-      "title": "CRISS: Un chatbot de IA aumentada por recuperación para ayudar a registradores de cáncer",
-      "summary": "Desarrollo de un asistente conversacional para proporcionar acceso rápido y citable a pautas de registro de cáncer.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.29075",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "salud",
-        "IA aumentada"
+        "Google Beam",
+        "expansión",
+        "IA"
       ],
-      "what_changed": "Mejora en la interpretación de estándares complejos de codificación.",
-      "why_it_matters": "Mejora la eficiencia y precisión en el registro de cáncer.",
-      "sector_impact": "Salud"
+      "what_changed": "Expansión a cinco nuevos países.",
+      "why_it_matters": "Facilita la adopción y el uso de IA en nuevos territorios.",
+      "sector_impact": "Mejora la infraestructura de IA en mercados emergentes."
     },
     {
-      "title": "META: Agente de Trading Mejorado por Memoria Episódica para la Toma de Decisiones Financieras",
-      "summary": "Un marco de múltiples agentes que integra memoria episodica para mejorar la toma de decisiones en trading.",
+      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+      "summary": "Meta está promocionando activamente su aplicación Muse, que está dominando las listas de aplicaciones.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.28771",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "finanzas",
-        "trading"
-      ],
-      "what_changed": "Incorporación de memoria episodica en decisiones de trading.",
-      "why_it_matters": "Aumenta la precisión en decisiones financieras críticas.",
-      "sector_impact": "Finanzas"
-    },
-    {
-      "title": "JoyAI-VL-Interaction: Inteligencia de Interacción Visual-Lenguaje en Tiempo Real",
-      "summary": "Un modelo de interacción visual-lenguaje que responde de manera proactiva a eventos en tiempo real.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.14777",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "interacción",
-        "IA visual"
+        "Meta",
+        "Muse",
+        "promoción"
       ],
-      "what_changed": "Cambio en el paradigma de interacción hacia una respuesta continua y proactiva.",
-      "why_it_matters": "Mejora la capacidad de los modelos para interactuar en ambientes dinámicos.",
-      "sector_impact": "Tecnología"
+      "what_changed": "Incremento en la promoción y adopción de la app Muse.",
+      "why_it_matters": "Mostrar el potencial de Muse en el mercado de aplicaciones.",
+      "sector_impact": "Gran impacto en la comercialización de agentes de IA."
     },
     {
-      "title": "iCoder-27B: Desarrollo Autónomo de Modelos de Codificación",
-      "summary": "Un modelo líder en diseño y optimización con un enfoque en la evolución a través de la auto-mejora.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.29626",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "modelos de codificación",
-        "autonomía"
-      ],
-      "what_changed": "Desarrollo de un modelo de 27B a través de la auto-mejora con mínima intervención humana.",
-      "why_it_matters": "Establece un precedente para desarrollos futuros en IA autónoma.",
-      "sector_impact": "Desarrollo de software"
-    },
-    {
-      "title": "La última puerta humana: Ingeniería Desplegada para la Automatización del Gobierno",
-      "summary": "Un marco de sustitución de tareas para la automatización del gobierno digital.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.29345",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "gubernamental",
-        "automación"
-      ],
-      "what_changed": "Desarrollo de un marco para integrar la automatización en procesos de gobierno.",
-      "why_it_matters": "Promueve la eficiencia en contextos de gobernanza.",
-      "sector_impact": "Gobierno"
-    },
-    {
-      "title": "Acelerador de decisiones con IA: Control del gasto en agentes de codificación",
-      "summary": "Desarrollo de un router personalizable para optimizar costos en el uso de agentes de codificación.",
+      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+      "summary": "Anthropic ha firmado un acuerdo significativo con Akamai para infraestructura en la nube.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.28919",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "eficiencia de costos",
-        "AI"
+        "Anthropic",
+        "Akamai",
+        "infraestructura"
       ],
-      "what_changed": "Implementación de un sistema que redistribuye tareas para optimizar gastos.",
-      "why_it_matters": "Reduce costes operativos significativos en la utilización de herramientas de IA.",
-      "sector_impact": "Empresas"
+      "what_changed": "Acuerdo de financiamiento a largo plazo con Akamai.",
+      "why_it_matters": "Refuerza la infraestructura y capacidades de IA de Anthropic.",
+      "sector_impact": "Fortalece el ecosistema de servicios de IA."
+    },
+    {
+      "title": "Meta opens early access program for new Muse features",
+      "summary": "Meta ha lanzado un programa de acceso anticipado para nuevas características de Muse.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Muse",
+        "características",
+        "acceso anticipado"
+      ],
+      "what_changed": "Implementación de un programa de acceso anticipado.",
+      "why_it_matters": "Permite la retroalimentación temprana y mejora del producto.",
+      "sector_impact": "Influencia en el desarrollo futuro de IA personal."
+    },
+    {
+      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+      "summary": "Problemas de seguridad en apps de IA que usan Supabase permitieron filtraciones de datos.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Supabase",
+        "seguridad",
+        "datos"
+      ],
+      "what_changed": "Descubrimientos de filtraciones de datos en aplicaciones de IA.",
+      "why_it_matters": "Resalta la importancia de la seguridad en aplicaciones de IA.",
+      "sector_impact": "Impacto en la confianza del consumidor hacia aplicaciones de IA."
+    },
+    {
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "summary": "Crusoe ha cancelado un proyecto significativo de infraestructura relacionada con IA.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "Crusoe",
+        "infraestructura",
+        "IA"
+      ],
+      "what_changed": "Abandono de un plan para usar turbinas en centros de datos.",
+      "why_it_matters": "Indica posibles desafíos en el financiamiento de infraestructura de IA.",
+      "sector_impact": "Efecto en la evolución de la infraestructura de centros de datos."
     }
   ]
 }

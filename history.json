@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-26",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+          "summary": "Meta ha lanzado su agente personal de IA, Muse, que está superando a ChatGPT en popularidad y funcionalidad.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "AI",
+            "Muse"
+          ],
+          "what_changed": "Lanzamiento y adopción masiva de Muse.",
+          "why_it_matters": "Representa un avance significativo en la competencia en el sector de asistentes virtuales.",
+          "sector_impact": "Altamente impactante en la adopción de IA personal."
+        },
+        {
+          "title": "Google Beam expands with new regions, partners, and customers",
+          "summary": "La expansión de Google Beam a nuevos países y asociaciones puede mejorar la infraestructura de IA global.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google Beam",
+            "expansión",
+            "IA"
+          ],
+          "what_changed": "Expansión a cinco nuevos países.",
+          "why_it_matters": "Facilita la adopción y el uso de IA en nuevos territorios.",
+          "sector_impact": "Mejora la infraestructura de IA en mercados emergentes."
+        },
+        {
+          "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+          "summary": "Meta está promocionando activamente su aplicación Muse, que está dominando las listas de aplicaciones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "Muse",
+            "promoción"
+          ],
+          "what_changed": "Incremento en la promoción y adopción de la app Muse.",
+          "why_it_matters": "Mostrar el potencial de Muse en el mercado de aplicaciones.",
+          "sector_impact": "Gran impacto en la comercialización de agentes de IA."
+        },
+        {
+          "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+          "summary": "Anthropic ha firmado un acuerdo significativo con Akamai para infraestructura en la nube.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Anthropic",
+            "Akamai",
+            "infraestructura"
+          ],
+          "what_changed": "Acuerdo de financiamiento a largo plazo con Akamai.",
+          "why_it_matters": "Refuerza la infraestructura y capacidades de IA de Anthropic.",
+          "sector_impact": "Fortalece el ecosistema de servicios de IA."
+        },
+        {
+          "title": "Meta opens early access program for new Muse features",
+          "summary": "Meta ha lanzado un programa de acceso anticipado para nuevas características de Muse.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Muse",
+            "características",
+            "acceso anticipado"
+          ],
+          "what_changed": "Implementación de un programa de acceso anticipado.",
+          "why_it_matters": "Permite la retroalimentación temprana y mejora del producto.",
+          "sector_impact": "Influencia en el desarrollo futuro de IA personal."
+        },
+        {
+          "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+          "summary": "Problemas de seguridad en apps de IA que usan Supabase permitieron filtraciones de datos.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Supabase",
+            "seguridad",
+            "datos"
+          ],
+          "what_changed": "Descubrimientos de filtraciones de datos en aplicaciones de IA.",
+          "why_it_matters": "Resalta la importancia de la seguridad en aplicaciones de IA.",
+          "sector_impact": "Impacto en la confianza del consumidor hacia aplicaciones de IA."
+        },
+        {
+          "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+          "summary": "Crusoe ha cancelado un proyecto significativo de infraestructura relacionada con IA.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Crusoe",
+            "infraestructura",
+            "IA"
+          ],
+          "what_changed": "Abandono de un plan para usar turbinas en centros de datos.",
+          "why_it_matters": "Indica posibles desafíos en el financiamiento de infraestructura de IA.",
+          "sector_impact": "Efecto en la evolución de la infraestructura de centros de datos."
+        }
+      ]
+    },
+    {
       "date": "2026-09-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -745,148 +870,6 @@
           "what_changed": "Aumenta la preocupación sobre la precisión de los modelos LLM.",
           "why_it_matters": "Subraya la importancia de la veracidad en aplicaciones de IA sensibles.",
           "sector_impact": "Implicaciones en seguridad nacional."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-19",
-      "executive_title": "Radar Diario de IA - Nuevas Herramientas y Modelos",
-      "items": [
-        {
-          "title": "Un nuevo tipo de modelo de IA de un inventor de ChatGPT emociona a los desarrolladores",
-          "summary": "Jev, un nuevo modelo de IA, ofrece a los desarrolladores un camino más barato y rápido hacia la inteligencia del software.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "IA",
-            "desarrollo",
-            "modelo"
-          ],
-          "what_changed": "Lanzamiento de Jev, un modelo de IA innovador.",
-          "why_it_matters": "Reduce costos y tiempo en el desarrollo de software inteligente.",
-          "sector_impact": "Aumentará la eficiencia en la creación de soluciones de software."
-        },
-        {
-          "title": "Claude de Anthropic explota vulnerabilidades en sistemas de OpenAI",
-          "summary": "Investigadores utilizaron Claude para acceder a cuentas de empleados y un repositorio de código interno de OpenAI, reportando las fallas.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "seguridad",
-            "hackeo"
-          ],
-          "what_changed": "Uso de Claude en un ataque de seguridad sobre OpenAI.",
-          "why_it_matters": "Destaca la necesidad de mejorar la seguridad en IA.",
-          "sector_impact": "Impacta la confianza en sistemas de IA."
-        },
-        {
-          "title": "Vals, respaldado por Andreessen Horowitz, busca ser el estándar dorado para benchmarking de IA",
-          "summary": "Vals AI aspira a hacer del benchmarking de IA un recurso más neutral y confiable en un mundo inundado por modelos de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmarking",
-            "IA",
-            "estándares"
-          ],
-          "what_changed": "Desarrollo de una nueva herramienta de benchmarking.",
-          "why_it_matters": "Establece estándares más confiables para la evaluación de modelos de IA.",
-          "sector_impact": "Mejora la transparencia en la evaluación de modelos."
-        },
-        {
-          "title": "Meta’s Muse llega a Mac, permitiendo que la IA realice acciones en tu computadora",
-          "summary": "Muse está disponible en Mac, donde puede trabajar con tus archivos y aplicaciones para actuar en tu nombre.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "automación",
-            "Mac"
-          ],
-          "what_changed": "Lanzamiento de Muse para Mac.",
-          "why_it_matters": "Facilita la interacción del usuario con la IA en su computadora.",
-          "sector_impact": "Aumenta la accesibilidad y usabilidad de herramientas de IA."
-        },
-        {
-          "title": "AI para el impacto societal",
-          "summary": "Colección que muestra cómo expertos y líderes locales están utilizando los avances en IA para asegurar que todos accedan a sus beneficios.",
-          "category": "sector",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "impacto",
-            "IA",
-            "sociedad"
-          ],
-          "what_changed": "Uso de IA para el impacto social.",
-          "why_it_matters": "Demuestra el compromiso de la IA con el bienestar social.",
-          "sector_impact": "Aumenta las iniciativas de responsabilidad social en la tecnología."
-        },
-        {
-          "title": "AI para acelerar la ciencia y mejorar vidas",
-          "summary": "Explicación de cómo la IA está impactando vidas hoy y en áreas clave donde la tecnología avanzada puede ayudar a avanzar extraordinariamente.",
-          "category": "sector",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "IA",
-            "ciencia",
-            "vida"
-          ],
-          "what_changed": "Enfoque en aplicaciones de IA en la ciencia.",
-          "why_it_matters": "Muestra el potencial transformador de la IA para la humanidad.",
-          "sector_impact": "Impulsa investigación e innovación científica."
-        },
-        {
-          "title": "Nuevos expertos se unen al equipo de IA y Economía de Google",
-          "summary": "Ampliamos nuestro equipo de IA y Economía con asesores académicos de primer nivel.",
-          "category": "sector",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "IA",
-            "economía",
-            "investigación"
-          ],
-          "what_changed": "Ampliación del equipo de expertos en IA y economía.",
-          "why_it_matters": "Mejora la colaboración en investigación y desarrollo de IA aplicada.",
-          "sector_impact": "Fortalece el compromiso de Google con la IA en la economía."
-        },
-        {
-          "title": "Nuevas herramientas de IA en Google para la Semana de la Moda de Nueva York",
-          "summary": "Colaboración con diseñadores para personalizar herramientas de Google Flow para la NYFW.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "IA",
-            "moda",
-            "herramientas"
-          ],
-          "what_changed": "Desarrollo de herramientas personalizadas para la industria de la moda.",
-          "why_it_matters": "Integra IA en el diseño de moda contemporáneo.",
-          "sector_impact": "Crea nuevas oportunidades en la industria de la moda."
         }
       ]
     }
