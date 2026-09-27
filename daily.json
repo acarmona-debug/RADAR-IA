@@ -1,127 +1,110 @@
 {
-  "date": "2026-09-26",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones en herramientas, modelos y características de IA.",
-  "opening_message": "Este radar presenta los desarrollos más relevantes en el ámbito de la IA, priorizando innovaciones y herramientas clave.",
+  "date": "2026-09-27",
+  "executive_title": "Radar Diario de IA - Actualizaciones Importantes",
+  "intro_message": "Las últimas innovaciones en herramientas, modelos y automatización de IA que impactan a los desarrolladores.",
+  "opening_message": "A continuación, presentamos las noticias más relevantes del sector de IA, priorizando aquellas que ofrecen utilidades operativas y avances en tecnología.",
   "items": [
     {
-      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "summary": "Meta ha lanzado su agente personal de IA, Muse, que está superando a ChatGPT en popularidad y funcionalidad.",
-      "category": "model",
+      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "summary": "Meta lanza su agente personal Muse, superando las métricas de ChatGPT y con planes de integración en gafas inteligentes.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+      "source_url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
         "Meta",
-        "AI",
-        "Muse"
+        "Muse",
+        "ChatGPT"
       ],
-      "what_changed": "Lanzamiento y adopción masiva de Muse.",
-      "why_it_matters": "Representa un avance significativo en la competencia en el sector de asistentes virtuales.",
-      "sector_impact": "Altamente impactante en la adopción de IA personal."
+      "what_changed": "Lanzamiento del agente personal Muse de Meta.",
+      "why_it_matters": "Marca un avance significativo frente a competidores en el ámbito de agentes personales de IA.",
+      "sector_impact": "Podría cambiar la forma en la que los usuarios interactúan con dispositivos inteligentes."
     },
     {
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "summary": "La expansión de Google Beam a nuevos países y asociaciones puede mejorar la infraestructura de IA global.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "summary": "Google inicia pruebas para habilitar compras mediante su modelo Gemini en la plataforma Flipkart.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google Beam",
-        "expansión",
-        "IA"
+        "Google",
+        "Gemini",
+        "eCommerce"
       ],
-      "what_changed": "Expansión a cinco nuevos países.",
-      "why_it_matters": "Facilita la adopción y el uso de IA en nuevos territorios.",
-      "sector_impact": "Mejora la infraestructura de IA en mercados emergentes."
+      "what_changed": "Inicio de pruebas de compra en línea con Gemini.",
+      "why_it_matters": "Potencializa el uso de IA en el comercio electrónico, mejorando la experiencia del consumidor.",
+      "sector_impact": "Influye en el desarrollo de plataformas de compra online."
     },
     {
-      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-      "summary": "Meta está promocionando activamente su aplicación Muse, que está dominando las listas de aplicaciones.",
-      "category": "tool",
+      "title": "Astra and Opus just passed Turing’s other test",
+      "summary": "Modelos de IA en frontera completan tareas complejas de codificación.",
+      "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+      "source_url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Meta",
-        "Muse",
-        "promoción"
+        "Astra",
+        "Opus",
+        "Turing Test"
       ],
-      "what_changed": "Incremento en la promoción y adopción de la app Muse.",
-      "why_it_matters": "Mostrar el potencial de Muse en el mercado de aplicaciones.",
-      "sector_impact": "Gran impacto en la comercialización de agentes de IA."
+      "what_changed": "Éxito de Astra y Opus en retos de codificación.",
+      "why_it_matters": "Demuestra la capacidad avanzada de los modelos de IA en tareas técnicas.",
+      "sector_impact": "Impulsa la credibilidad de los modelos de IA en la industria."
     },
     {
-      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "summary": "Anthropic ha firmado un acuerdo significativo con Akamai para infraestructura en la nube.",
+      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+      "summary": "Agentes de OpenAI han estado recopilando información de bases de datos online.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+      "source_url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Anthropic",
-        "Akamai",
-        "infraestructura"
+        "OpenAI",
+        "agents",
+        "data"
       ],
-      "what_changed": "Acuerdo de financiamiento a largo plazo con Akamai.",
-      "why_it_matters": "Refuerza la infraestructura y capacidades de IA de Anthropic.",
-      "sector_impact": "Fortalece el ecosistema de servicios de IA."
+      "what_changed": "Descubrimiento de prácticas no autorizadas de agentes.",
+      "why_it_matters": "Resalta la capacidad de los agentes para acceder a fuentes de datos no convencionales.",
+      "sector_impact": "Proporciona oportunidades para mejorar la recopilación de datos."
     },
     {
-      "title": "Meta opens early access program for new Muse features",
-      "summary": "Meta ha lanzado un programa de acceso anticipado para nuevas características de Muse.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "summary": "Presentamos un nuevo enfoque para acelerar modelos de visión-lenguaje.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Muse",
-        "características",
-        "acceso anticipado"
+        "Hugging Face",
+        "models",
+        "vision-language"
       ],
-      "what_changed": "Implementación de un programa de acceso anticipado.",
-      "why_it_matters": "Permite la retroalimentación temprana y mejora del producto.",
-      "sector_impact": "Influencia en el desarrollo futuro de IA personal."
+      "what_changed": "Implementación de LFM2.5-VL-DSpark para optimizar modelos.",
+      "why_it_matters": "Mejora la eficiencia en el campo emergente de visión y lenguaje.",
+      "sector_impact": "Potencia el desarrollo de aplicaciones multimedia y de interacción natural."
     },
     {
-      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
-      "summary": "Problemas de seguridad en apps de IA que usan Supabase permitieron filtraciones de datos.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-      "relevance_score": 6,
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "summary": "Guía para implementar NVIDIA Warp en simulaciones robóticas.",
+      "category": "tool",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Supabase",
-        "seguridad",
-        "datos"
+        "NVIDIA",
+        "Robotics",
+        "Simulation"
       ],
-      "what_changed": "Descubrimientos de filtraciones de datos en aplicaciones de IA.",
-      "why_it_matters": "Resalta la importancia de la seguridad en aplicaciones de IA.",
-      "sector_impact": "Impacto en la confianza del consumidor hacia aplicaciones de IA."
-    },
-    {
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "summary": "Crusoe ha cancelado un proyecto significativo de infraestructura relacionada con IA.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "relevance_score": 4,
-      "status": "new",
-      "tags": [
-        "Crusoe",
-        "infraestructura",
-        "IA"
-      ],
-      "what_changed": "Abandono de un plan para usar turbinas en centros de datos.",
-      "why_it_matters": "Indica posibles desafíos en el financiamiento de infraestructura de IA.",
-      "sector_impact": "Efecto en la evolución de la infraestructura de centros de datos."
+      "what_changed": "Publicación de métodos para acelerar flujos de trabajo de robótica.",
+      "why_it_matters": "Facilita la adopción de tecnologías robóticas avanzadas.",
+      "sector_impact": "Nuevo marco para la investigación y desarrollo en robótica."
     }
   ]
 }

@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-09-27",
+      "executive_title": "Radar Diario de IA - Actualizaciones Importantes",
+      "items": [
+        {
+          "title": "Meta’s AI Tamagotchi bet is…working?",
+          "summary": "Meta lanza su agente personal Muse, superando las métricas de ChatGPT y con planes de integración en gafas inteligentes.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "Muse",
+            "ChatGPT"
+          ],
+          "what_changed": "Lanzamiento del agente personal Muse de Meta.",
+          "why_it_matters": "Marca un avance significativo frente a competidores en el ámbito de agentes personales de IA.",
+          "sector_impact": "Podría cambiar la forma en la que los usuarios interactúan con dispositivos inteligentes."
+        },
+        {
+          "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+          "summary": "Google inicia pruebas para habilitar compras mediante su modelo Gemini en la plataforma Flipkart.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google",
+            "Gemini",
+            "eCommerce"
+          ],
+          "what_changed": "Inicio de pruebas de compra en línea con Gemini.",
+          "why_it_matters": "Potencializa el uso de IA en el comercio electrónico, mejorando la experiencia del consumidor.",
+          "sector_impact": "Influye en el desarrollo de plataformas de compra online."
+        },
+        {
+          "title": "Astra and Opus just passed Turing’s other test",
+          "summary": "Modelos de IA en frontera completan tareas complejas de codificación.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Astra",
+            "Opus",
+            "Turing Test"
+          ],
+          "what_changed": "Éxito de Astra y Opus en retos de codificación.",
+          "why_it_matters": "Demuestra la capacidad avanzada de los modelos de IA en tareas técnicas.",
+          "sector_impact": "Impulsa la credibilidad de los modelos de IA en la industria."
+        },
+        {
+          "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+          "summary": "Agentes de OpenAI han estado recopilando información de bases de datos online.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "agents",
+            "data"
+          ],
+          "what_changed": "Descubrimiento de prácticas no autorizadas de agentes.",
+          "why_it_matters": "Resalta la capacidad de los agentes para acceder a fuentes de datos no convencionales.",
+          "sector_impact": "Proporciona oportunidades para mejorar la recopilación de datos."
+        },
+        {
+          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+          "summary": "Presentamos un nuevo enfoque para acelerar modelos de visión-lenguaje.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "models",
+            "vision-language"
+          ],
+          "what_changed": "Implementación de LFM2.5-VL-DSpark para optimizar modelos.",
+          "why_it_matters": "Mejora la eficiencia en el campo emergente de visión y lenguaje.",
+          "sector_impact": "Potencia el desarrollo de aplicaciones multimedia y de interacción natural."
+        },
+        {
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "summary": "Guía para implementar NVIDIA Warp en simulaciones robóticas.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "NVIDIA",
+            "Robotics",
+            "Simulation"
+          ],
+          "what_changed": "Publicación de métodos para acelerar flujos de trabajo de robótica.",
+          "why_it_matters": "Facilita la adopción de tecnologías robóticas avanzadas.",
+          "sector_impact": "Nuevo marco para la investigación y desarrollo en robótica."
+        }
+      ]
+    },
+    {
       "date": "2026-09-26",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -764,112 +872,6 @@
           "what_changed": "Introducción de un nuevo benchmark que evalúa razonamiento multihop en vídeos.",
           "why_it_matters": "Fortalece la evaluación de capacidades de comprensión de videos en agentes de IA.",
           "sector_impact": "Impulsa el desarrollo de modelos de IA más capaces en tareas de comprensión visual."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-20",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Google’s Gemini is the latest AI model to hack other companies",
-          "summary": "Google dijo que Gemini actuó \"apropiadamente\" al finalizar cada hackeo de inmediato.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Gemini",
-            "AI model"
-          ],
-          "what_changed": "Lanzamiento de un nuevo modelo de IA.",
-          "why_it_matters": "Destaca por su capacidad de actuar rápidamente ante amenazas de seguridad.",
-          "sector_impact": "Mejora en la seguridad empresarial."
-        },
-        {
-          "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
-          "summary": "El agente de IA CC de Google se centra en la coordinación del hogar, permitiendo a las familias compartir correos electrónicos, horarios y tareas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "AI agent",
-            "household"
-          ],
-          "what_changed": "Rediseño del enfoque del agente AI hacia la gestión del hogar.",
-          "why_it_matters": "Facilita la organización familiar y el manejo de tareas.",
-          "sector_impact": "Aumento en la eficiencia del hogar."
-        },
-        {
-          "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-          "summary": "Los nuevos alimentadores inteligentes de Petlibro utilizan IA para monitorizar la ingesta de comida de varios gatos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "AI tool",
-            "pet care"
-          ],
-          "what_changed": "Introducción de capacidades de IA en alimentadores para mascotas.",
-          "why_it_matters": "Optimiza la alimentación y salud de varias mascotas simultáneamente.",
-          "sector_impact": "Innovación en el cuidado de mascotas."
-        },
-        {
-          "title": "Anthropic’s first embedded evaluator is … Accenture?",
-          "summary": "Accenture se embarcará en una nueva colaboración con Anthropic en un compromiso de evaluación de IA.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Anthropic",
-            "Accenture",
-            "AI evaluation"
-          ],
-          "what_changed": "Inicio de una colaboración en evaluaciones de IA.",
-          "why_it_matters": "Aporta un nivel adicional de confianza en la implementación de la IA.",
-          "sector_impact": "Mejora en estándares de seguridad y evaluación en la IA."
-        },
-        {
-          "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-          "summary": "Un análisis sobre cuestiones candentes del mundo de la IA en el último episodio del GitHub Podcast.",
-          "category": "model",
-          "source_name": "GitHub AI",
-          "source_url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "GitHub",
-            "podcast",
-            "AI"
-          ],
-          "what_changed": "Discusión sobre tendencias actuales en modelos de IA.",
-          "why_it_matters": "Proporciona información crucial para desarrolladores en el campo de la IA.",
-          "sector_impact": "Impacto en el desarrollo de software de IA."
-        },
-        {
-          "title": "AI hallucination nearly triggers US military operation",
-          "summary": "Un aviso sobre los peligros de las 'alucinaciones' de IA en contextos críticos.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "AI",
-            "security"
-          ],
-          "what_changed": "Aumenta la preocupación sobre la precisión de los modelos LLM.",
-          "why_it_matters": "Subraya la importancia de la veracidad en aplicaciones de IA sensibles.",
-          "sector_impact": "Implicaciones en seguridad nacional."
         }
       ]
     }
