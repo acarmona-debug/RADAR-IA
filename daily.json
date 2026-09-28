@@ -1,110 +1,136 @@
 {
-  "date": "2026-09-27",
-  "executive_title": "Radar Diario de IA - Actualizaciones Importantes",
-  "intro_message": "Las últimas innovaciones en herramientas, modelos y automatización de IA que impactan a los desarrolladores.",
-  "opening_message": "A continuación, presentamos las noticias más relevantes del sector de IA, priorizando aquellas que ofrecen utilidades operativas y avances en tecnología.",
+  "date": "2026-09-28",
+  "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+  "intro_message": "Este radar diario presenta las actualizaciones más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas, modelos y frameworks útiles para desarrolladores.",
+  "opening_message": "En esta edición, se destacan innovaciones significativas que impulsan el desarrollo y la automatización en el ecosistema de la IA.",
   "items": [
     {
-      "title": "Meta’s AI Tamagotchi bet is…working?",
-      "summary": "Meta lanza su agente personal Muse, superando las métricas de ChatGPT y con planes de integración en gafas inteligentes.",
+      "title": "Agentick: Un Benchmark Unificado para Agentes de Toma de Decisiones Secuenciales",
+      "summary": "Agentick proporciona un benchmark para evaluar agentes en tareas de toma de decisiones secuenciales, cubriendo múltiples paradigmas de agentes y revelando áreas de mejora.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Meta",
-        "Muse",
-        "ChatGPT"
-      ],
-      "what_changed": "Lanzamiento del agente personal Muse de Meta.",
-      "why_it_matters": "Marca un avance significativo frente a competidores en el ámbito de agentes personales de IA.",
-      "sector_impact": "Podría cambiar la forma en la que los usuarios interactúan con dispositivos inteligentes."
-    },
-    {
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "summary": "Google inicia pruebas para habilitar compras mediante su modelo Gemini en la plataforma Flipkart.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.06869",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
-        "Gemini",
-        "eCommerce"
+        "agentes",
+        "benchmark"
       ],
-      "what_changed": "Inicio de pruebas de compra en línea con Gemini.",
-      "why_it_matters": "Potencializa el uso de IA en el comercio electrónico, mejorando la experiencia del consumidor.",
-      "sector_impact": "Influye en el desarrollo de plataformas de compra online."
+      "what_changed": "Introducción de un benchmark unificado que permite evaluar agentes en un mismo marco.",
+      "why_it_matters": "Facilita la comparación y mejora de distintos tipos de agentes en entornos complejos.",
+      "sector_impact": "Grandes implicaciones para el desarrollo de agentes autónomos y sistemas de IA."
     },
     {
-      "title": "Astra and Opus just passed Turing’s other test",
-      "summary": "Modelos de IA en frontera completan tareas complejas de codificación.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-      "relevance_score": 6,
+      "title": "Grid-Orch: Un Orquestador Potenciado por LLM para Simulación de Redes Eléctricas",
+      "summary": "Grid-Orch integra LLM con herramientas de análisis de sistemas eléctricos, permitiendo a los ingenieros usar lenguaje natural para realizar simulaciones complejas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.12728",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Astra",
-        "Opus",
-        "Turing Test"
+        "simulación",
+        "LLM"
       ],
-      "what_changed": "Éxito de Astra y Opus en retos de codificación.",
-      "why_it_matters": "Demuestra la capacidad avanzada de los modelos de IA en tareas técnicas.",
-      "sector_impact": "Impulsa la credibilidad de los modelos de IA en la industria."
+      "what_changed": "Lanzamiento de una plataforma interactiva que mejora radicalmente la accesibilidad de análisis complejos.",
+      "why_it_matters": "Reduce horas de trabajo en análisis eléctricos a pocos minutos, aumentando la eficiencia del personal técnico.",
+      "sector_impact": "Transforma el análisis y gestión de redes eléctricas en entornos críticos."
     },
     {
-      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-      "summary": "Agentes de OpenAI han estado recopilando información de bases de datos online.",
+      "title": "VLAA-GUI: Un Framework Modular para Automatización de Interfaz Gráfica",
+      "summary": "VLAA-GUI combina múltiples componentes modulares para mejorar la eficiencia y eficacia de los agentes en la automatización de GUI.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.21375",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "GUI"
+      ],
+      "what_changed": "Presentación de un framework modular que mejora el rendimiento de agentes en tareas de GUI.",
+      "why_it_matters": "Aumenta la eficacia de las interacciones automatizadas y reduce fallos en ejecutaciones repetitivas.",
+      "sector_impact": "Mejora los sistemas de automatización de interfaces gráficas ofreciendo un control más robusto."
+    },
+    {
+      "title": "DeepEdu-v1: Agentes de LLM para la Educación en Vietnam",
+      "summary": "DeepEdu-v1 es un sistema de tutoría en IA adaptado a las necesidades educativas de Vietnam, integrando un motor eficiente de inferencia y curación.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.31568",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "agents",
-        "data"
+        "educación",
+        "tutoría"
       ],
-      "what_changed": "Descubrimiento de prácticas no autorizadas de agentes.",
-      "why_it_matters": "Resalta la capacidad de los agentes para acceder a fuentes de datos no convencionales.",
-      "sector_impact": "Proporciona oportunidades para mejorar la recopilación de datos."
+      "what_changed": "Desarrollo de un sistema de tutoría que respeta la soberanía de datos y mejora la relevancia del contenido.",
+      "why_it_matters": "Ofrece soluciones adaptadas al contexto nacional, mejorando los resultados educativos.",
+      "sector_impact": "Impacto significativo en la calidad educativa en países en vías de desarrollo."
     },
     {
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "summary": "Presentamos un nuevo enfoque para acelerar modelos de visión-lenguaje.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "relevance_score": 5,
+      "title": "LogicTree-RAG: Generación Aumentada por Recuperación para Redacción de Patentes",
+      "summary": "LogicTree-RAG utiliza un árbol lógico para guiar la generación de textos técnicos, mejorando la calidad y coherencia de documentos legales.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.30943",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Hugging Face",
-        "models",
-        "vision-language"
+        "patentes",
+        "generación de textos"
       ],
-      "what_changed": "Implementación de LFM2.5-VL-DSpark para optimizar modelos.",
-      "why_it_matters": "Mejora la eficiencia en el campo emergente de visión y lenguaje.",
-      "sector_impact": "Potencia el desarrollo de aplicaciones multimedia y de interacción natural."
+      "what_changed": "Implementación de un enfoque estructurado para mejorar la redacción de patentes.",
+      "why_it_matters": "Facilita la creación de documentos más complejos, legales y técnicamente precisos.",
+      "sector_impact": "Transforma el proceso de redacción en la industria de la propiedad intelectual."
     },
     {
-      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-      "summary": "Guía para implementar NVIDIA Warp en simulaciones robóticas.",
+      "title": "BabelCoder: Traducción de Código con Alineación de Especificaciones",
+      "summary": "BabelCoder es un marco que permite la traducción de código entre lenguajes mediante el uso de agentes especializados.",
       "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2512.06902",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "NVIDIA",
-        "Robotics",
-        "Simulation"
+        "traducción de código",
+        "agentes"
       ],
-      "what_changed": "Publicación de métodos para acelerar flujos de trabajo de robótica.",
-      "why_it_matters": "Facilita la adopción de tecnologías robóticas avanzadas.",
-      "sector_impact": "Nuevo marco para la investigación y desarrollo en robótica."
+      "what_changed": "Desarrollo de un marco que mejora la precisión en la traducción de código utilizando colaboradores especializados.",
+      "why_it_matters": "Reduce la carga de trabajo en migraciones de código, aumentando la eficiencia del desarrollo.",
+      "sector_impact": "Facilita la transición entre lenguajes de programación en entornos de desarrollo variados."
+    },
+    {
+      "title": "Intent2Tc: Traducción Automatizada de Intenciones a Control de Tráfico",
+      "summary": "Intent2Tc es un marco que traduce intenciones de alta calidad en políticas de gestión de tráfico, mejorando la automatización en redes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.31397",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "gestión de tráfico",
+        "automatización"
+      ],
+      "what_changed": "Presentación de un modelo automatizado para traducir intenciones empresariales a acciones de red.",
+      "why_it_matters": "Mejora la consistencia semántica y la fiabilidad de las configuraciones en redes.",
+      "sector_impact": "Aumenta la efectividad de la gestión de tráfico en entornos de red complejos."
+    },
+    {
+      "title": "Evaluación de Agentes de Voz en Tiempo Real: Resultados y Componentes",
+      "summary": "Un análisis de los agentes de voz en tiempo real, evaluando su calidad de componente y los resultados en escenarios de uso activos.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.30798",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "voz",
+        "agentes"
+      ],
+      "what_changed": "Investigación sobre la efectividad de agentes de voz en situaciones reales de producción.",
+      "why_it_matters": "Aborda la escasez de información sobre el rendimiento real de los agentes de voz.",
+      "sector_impact": "Mejora la confianza y adopción de agentes de voz en diversas aplicaciones comerciales."
     }
   ]
 }

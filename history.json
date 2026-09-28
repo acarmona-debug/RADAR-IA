@@ -1,6 +1,140 @@
 {
   "days": [
     {
+      "date": "2026-09-28",
+      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+      "items": [
+        {
+          "title": "Agentick: Un Benchmark Unificado para Agentes de Toma de Decisiones Secuenciales",
+          "summary": "Agentick proporciona un benchmark para evaluar agentes en tareas de toma de decisiones secuenciales, cubriendo múltiples paradigmas de agentes y revelando áreas de mejora.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.06869",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "benchmark"
+          ],
+          "what_changed": "Introducción de un benchmark unificado que permite evaluar agentes en un mismo marco.",
+          "why_it_matters": "Facilita la comparación y mejora de distintos tipos de agentes en entornos complejos.",
+          "sector_impact": "Grandes implicaciones para el desarrollo de agentes autónomos y sistemas de IA."
+        },
+        {
+          "title": "Grid-Orch: Un Orquestador Potenciado por LLM para Simulación de Redes Eléctricas",
+          "summary": "Grid-Orch integra LLM con herramientas de análisis de sistemas eléctricos, permitiendo a los ingenieros usar lenguaje natural para realizar simulaciones complejas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.12728",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "simulación",
+            "LLM"
+          ],
+          "what_changed": "Lanzamiento de una plataforma interactiva que mejora radicalmente la accesibilidad de análisis complejos.",
+          "why_it_matters": "Reduce horas de trabajo en análisis eléctricos a pocos minutos, aumentando la eficiencia del personal técnico.",
+          "sector_impact": "Transforma el análisis y gestión de redes eléctricas en entornos críticos."
+        },
+        {
+          "title": "VLAA-GUI: Un Framework Modular para Automatización de Interfaz Gráfica",
+          "summary": "VLAA-GUI combina múltiples componentes modulares para mejorar la eficiencia y eficacia de los agentes en la automatización de GUI.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.21375",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "GUI"
+          ],
+          "what_changed": "Presentación de un framework modular que mejora el rendimiento de agentes en tareas de GUI.",
+          "why_it_matters": "Aumenta la eficacia de las interacciones automatizadas y reduce fallos en ejecutaciones repetitivas.",
+          "sector_impact": "Mejora los sistemas de automatización de interfaces gráficas ofreciendo un control más robusto."
+        },
+        {
+          "title": "DeepEdu-v1: Agentes de LLM para la Educación en Vietnam",
+          "summary": "DeepEdu-v1 es un sistema de tutoría en IA adaptado a las necesidades educativas de Vietnam, integrando un motor eficiente de inferencia y curación.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.31568",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "educación",
+            "tutoría"
+          ],
+          "what_changed": "Desarrollo de un sistema de tutoría que respeta la soberanía de datos y mejora la relevancia del contenido.",
+          "why_it_matters": "Ofrece soluciones adaptadas al contexto nacional, mejorando los resultados educativos.",
+          "sector_impact": "Impacto significativo en la calidad educativa en países en vías de desarrollo."
+        },
+        {
+          "title": "LogicTree-RAG: Generación Aumentada por Recuperación para Redacción de Patentes",
+          "summary": "LogicTree-RAG utiliza un árbol lógico para guiar la generación de textos técnicos, mejorando la calidad y coherencia de documentos legales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.30943",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "patentes",
+            "generación de textos"
+          ],
+          "what_changed": "Implementación de un enfoque estructurado para mejorar la redacción de patentes.",
+          "why_it_matters": "Facilita la creación de documentos más complejos, legales y técnicamente precisos.",
+          "sector_impact": "Transforma el proceso de redacción en la industria de la propiedad intelectual."
+        },
+        {
+          "title": "BabelCoder: Traducción de Código con Alineación de Especificaciones",
+          "summary": "BabelCoder es un marco que permite la traducción de código entre lenguajes mediante el uso de agentes especializados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.06902",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "traducción de código",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un marco que mejora la precisión en la traducción de código utilizando colaboradores especializados.",
+          "why_it_matters": "Reduce la carga de trabajo en migraciones de código, aumentando la eficiencia del desarrollo.",
+          "sector_impact": "Facilita la transición entre lenguajes de programación en entornos de desarrollo variados."
+        },
+        {
+          "title": "Intent2Tc: Traducción Automatizada de Intenciones a Control de Tráfico",
+          "summary": "Intent2Tc es un marco que traduce intenciones de alta calidad en políticas de gestión de tráfico, mejorando la automatización en redes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.31397",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "gestión de tráfico",
+            "automatización"
+          ],
+          "what_changed": "Presentación de un modelo automatizado para traducir intenciones empresariales a acciones de red.",
+          "why_it_matters": "Mejora la consistencia semántica y la fiabilidad de las configuraciones en redes.",
+          "sector_impact": "Aumenta la efectividad de la gestión de tráfico en entornos de red complejos."
+        },
+        {
+          "title": "Evaluación de Agentes de Voz en Tiempo Real: Resultados y Componentes",
+          "summary": "Un análisis de los agentes de voz en tiempo real, evaluando su calidad de componente y los resultados en escenarios de uso activos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.30798",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "voz",
+            "agentes"
+          ],
+          "what_changed": "Investigación sobre la efectividad de agentes de voz en situaciones reales de producción.",
+          "why_it_matters": "Aborda la escasez de información sobre el rendimiento real de los agentes de voz.",
+          "sector_impact": "Mejora la confianza y adopción de agentes de voz en diversas aplicaciones comerciales."
+        }
+      ]
+    },
+    {
       "date": "2026-09-27",
       "executive_title": "Radar Diario de IA - Actualizaciones Importantes",
       "items": [
@@ -747,131 +881,6 @@
           "what_changed": "Introducción de un enfoque temporal para modelar reacciones en la planificación de respuestas.",
           "why_it_matters": "Potencia la efectividad de los sistemas de IA en interacciones humanas al adaptarse a señales sociales.",
           "sector_impact": "Mejora en la calidad de las interacciones generadas por IA en diversas aplicaciones."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-21",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "AutoRecLab: Describe el Experimento, Obtén el Código",
-          "summary": "AutoRecLab es un laboratorio autónomo de sistemas de recomendación que automatiza experimentos a partir de prompts en lenguaje natural.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21863",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automación",
-            "recomendación",
-            "IA"
-          ],
-          "what_changed": "Introducción de un laboratorio que convierte diseños experimentales en código ejecutable.",
-          "why_it_matters": "Reduce el tiempo y errores en la implementación de experimentos en sistemas de recomendación.",
-          "sector_impact": "Mejora la eficiencia en la investigación en sistemas de recomendación."
-        },
-        {
-          "title": "Git-Assistant: Soporte Basado en Planificación para Actualizar Repositorios Git",
-          "summary": "Git-Assistant combina LLMs con planificación automatizada para ayudar en operaciones complejas de Git.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.09224",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automación",
-            "desarrollo",
-            "Git"
-          ],
-          "what_changed": "Integración de razonamiento formal con LLMs para mejorar la gestión de repositorios.",
-          "why_it_matters": "Incrementa la fiabilidad y reduce errores en la gestión de código.",
-          "sector_impact": "Facilita la colaboración y manejo de proyectos de software."
-        },
-        {
-          "title": "EnterpriseVal: Cuantificando la Eficacia y Valor de la IA Generativa en la Empresa",
-          "summary": "EnterpriseVal es un sistema de evaluación que ayuda a determinar la viabilidad y escalabilidad de flujos de trabajo de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21841",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "IA",
-            "empresa"
-          ],
-          "what_changed": "Propuesta de un sistema formal para evaluar la implementación de modelos de IA.",
-          "why_it_matters": "Asegura que las iniciativas de IA generativa tengan un impacto medible en las empresas.",
-          "sector_impact": "Permite decisiones informadas sobre el uso y escalabilidad de la IA en el sector empresarial."
-        },
-        {
-          "title": "DENSE: Destilando Trayectorias de Agentes para la Autofinación",
-          "summary": "DENSE organiza la evidencia de ejecuciones de agentes en árboles de accesos de sub-tareas reutilizables.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21423",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "mejora",
-            "autoconfianza"
-          ],
-          "what_changed": "Desarrollo de un método para mejorar la reutilización del progreso de agentes sin supervisión externa.",
-          "why_it_matters": "Facilita la automejora de agentes a partir de sus propias experiencias.",
-          "sector_impact": "Incrementa la eficiencia y efectividad de los agentes en tareas específicas."
-        },
-        {
-          "title": "AutoViewMem: Memoria Conversacional a Largo Plazo de Configuración Automática",
-          "summary": "AutoViewMem organiza la memoria conversacional de LLMs en vistas semánticas de baja superposición.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21940",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "memoria",
-            "personalización"
-          ],
-          "what_changed": "Implementación de un diseño que mejora la recuperación y consistencia de memoria.",
-          "why_it_matters": "Aumenta la personalización y coherencia en interacciones a largo plazo.",
-          "sector_impact": "Optimiza la experiencia del usuario en aplicaciones de IA conversacional."
-        },
-        {
-          "title": "Designer-RSI: Evolving Procedural Memory for Agentic Graphic Design",
-          "summary": "Un marco de adaptación continua para diseñar gráficos de manera profesional a partir de la memoria procedimental.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.22086",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "diseño",
-            "adaptación"
-          ],
-          "what_changed": "Introducción de un sistema que mejora habilidades de diseño basadas en la experiencia.",
-          "why_it_matters": "Permite a los agentes mejorar sus habilidades de diseño a través de experiencias pasadas.",
-          "sector_impact": "Eleva la calidad del diseño gráfico en tareas automatizadas."
-        },
-        {
-          "title": "AgentVidBench: Un Benchmark de Respuestas a Preguntas de Videos Multihop",
-          "summary": "AgentVidBench evalúa agentes MLLM en su capacidad para entender videos de múltiples etapas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21386",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "video",
-            "IA"
-          ],
-          "what_changed": "Introducción de un nuevo benchmark que evalúa razonamiento multihop en vídeos.",
-          "why_it_matters": "Fortalece la evaluación de capacidades de comprensión de videos en agentes de IA.",
-          "sector_impact": "Impulsa el desarrollo de modelos de IA más capaces en tareas de comprensión visual."
         }
       ]
     }
