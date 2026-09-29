@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-09-29",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "BioEVAL: Benchmark Global para Modelos Multimodales en Bioingeniería",
+          "summary": "Una iniciativa para evaluar modelos de lenguaje en diversas subáreas de bioingeniería con un marco de referencia robusto.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.30489",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "bioingeniería",
+            "modelos de lenguaje",
+            "evaluación"
+          ],
+          "what_changed": "Se han creado 608 elementos de evaluación que abarcan múltiples subcategorías de bioingeniería.",
+          "why_it_matters": "Permite evaluar el desempeño de LLMs en tareas específicas del campo, facilitando su uso en investigación.",
+          "sector_impact": "Gran potencial para mejorar la investigación y desarrollo en bioingeniería."
+        },
+        {
+          "title": "MACBT: Sistema de Soporte a Decisiones para Terapia Cognitiva Conductual",
+          "summary": "Un sistema que combina un enfoque de terapia conductual con un módulo de memoria longitudinal para mejorar la calidad de las sesiones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.30939",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "terapia",
+            "IA",
+            "medicina"
+          ],
+          "what_changed": "Se introdujo una memoria que realiza seguimiento de la efectividad de intervenciones a lo largo del tiempo.",
+          "why_it_matters": "Aumenta la eficacia de la terapia conductual a través de un soporte de IA.",
+          "sector_impact": "Impacto en la salud mental y terapia digital."
+        },
+        {
+          "title": "Scepsy: Sistema de Servido para Flujos de Trabajo Multi-LLM",
+          "summary": "Un sistema para programar flujos de trabajo complejos de múltiples LLMs, optimizando el rendimiento y la latencia.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.15186",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "IA",
+            "flujos de trabajo"
+          ],
+          "what_changed": "Implementa un sistema para mejorar la asignación de recursos en clústeres de GPU.",
+          "why_it_matters": "Permite un uso más eficiente de recursos computacionales en tareas complejas.",
+          "sector_impact": "Significativa mejora en la eficiencia en el desarrollo de aplicaciones IA."
+        },
+        {
+          "title": "Semantic Navigation para Localización de Problemas en Repositorios de Código",
+          "summary": "Un marco que ayuda a identificar y priorizar archivos relevantes para resolver problemas reportados en el código.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.31176",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "desarrollo",
+            "localización",
+            "IA"
+          ],
+          "what_changed": "Introducción de un gráfico de navegación semántica para mejorar la precisión en la localización de problemas.",
+          "why_it_matters": "Aumenta la eficacia en la resolución de problemas de software.",
+          "sector_impact": "Mejoras en el desarrollo de software y mantenimiento de código."
+        },
+        {
+          "title": "FlyAOC: Curación de Ontologías en Conocimientos Científicos",
+          "summary": "Benchmark para evaluar la curación de conocimientos científicos a través de agentes de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.09163",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "curación",
+            "ontologías",
+            "IA"
+          ],
+          "what_changed": "Evaluación de la curación de ontologías en literatura científica de manera integral.",
+          "why_it_matters": "Mejora la integración de datos y hallazgos científicos.",
+          "sector_impact": "Aumenta la velocidad de descubrimiento en investigación científica."
+        },
+        {
+          "title": "AgentXploit: Auditoría de Seguridad para Agentes de IA",
+          "summary": "Un sistema que estudia la seguridad de agentes de IA a través de auditorías pre-despliegue.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.31318",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "IA",
+            "auditoría"
+          ],
+          "what_changed": "Introducción de un sistema para descubrir vulnerabilidades en tiempo de ejecución y repositorios.",
+          "why_it_matters": "Fortalece la seguridad de los sistemas de IA frente a posibles ataques.",
+          "sector_impact": "Mejora la confianza en el uso de IA en aplicaciones críticas."
+        },
+        {
+          "title": "G$^2$PTQ: Mejora en la Cuantización Post-entrenamiento de Modelos de IA",
+          "summary": "Un marco unificado para la cuantización de modelos que mejora la alineación con el modelo de precisión total.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.31009",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "cuantización",
+            "modelos",
+            "IA"
+          ],
+          "what_changed": "Introducción de un enfoque más efectivo para la cuantización de modelos de lenguaje.",
+          "why_it_matters": "Reduce la carga computacional manteniendo la precisión del modelo.",
+          "sector_impact": "Facilita la implementación de modelos de IA en dispositivos con recursos limitados."
+        }
+      ]
+    },
+    {
       "date": "2026-09-28",
       "executive_title": "Radar Diario de IA - Actualizaciones Clave",
       "items": [
@@ -757,130 +882,6 @@
           "what_changed": "Introducción de un nuevo benchmark para la toma de decisiones autónoma.",
           "why_it_matters": "Proporciona métricas estandarizadas para evaluar LLM en contextos de UAV.",
           "sector_impact": "Mejora la fiabilidad en las decisiones de IA en entornos voladores."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "GameLogicBench: Evaluando Agentes de Programación en Lógica de Juegos",
-          "summary": "Un nuevo benchmark que evalúa tareas de lógica de juego en proyectos de Godot, asegurando que las reglas de juego se cumplan a través de cada tick de simulación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21562",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "agentes",
-            "programación"
-          ],
-          "what_changed": "Introducción de un nuevo método para evaluar la lógica de juego en tiempo real.",
-          "why_it_matters": "Permite una evaluación más precisa de cómo los agentes manejan la lógica de juegos en situaciones complejas.",
-          "sector_impact": "Mejora en el desarrollo de videojuegos y capacitación de agentes en entornos complejos."
-        },
-        {
-          "title": "BI-Agent y BI-Bench: Automatizando Inteligencia Empresarial de Fin a Fin",
-          "summary": "Un nuevo agente de inteligencia empresarial que gestiona tareas complejas sin necesidad de preparación manual de datos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.20886",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "inteligencia empresarial",
-            "agentes",
-            "automatización"
-          ],
-          "what_changed": "Desarrollo de un agente que combina razonamiento con entrenamiento especializado para mejorar la exactitud.",
-          "why_it_matters": "Facilita un acceso más eficiente a datos empresariales, reduciendo el tiempo de respuesta a preguntas comerciales.",
-          "sector_impact": "Transformación en la forma en que las empresas manejan la inteligencia de datos."
-        },
-        {
-          "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
-          "summary": "Exploración de agentes LLM para el diseño de chips utilizando abstracciones de alto nivel, logrando mejoras significativas en rendimiento.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21157",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "diseño de chips",
-            "modelos",
-            "abstracción"
-          ],
-          "what_changed": "Integración de diseño abstraído para producción de chips más eficientes.",
-          "why_it_matters": "Aumenta la eficiencia en el diseño de circuitos integrados y optimiza procesos de ingeniería.",
-          "sector_impact": "Impacto significativo en la industria de semiconductores y diseño de circuitos."
-        },
-        {
-          "title": "Planetary Prediction Engine: Predicción Geoespacial Autónoma",
-          "summary": "Un sistema de IA autónoma que optimiza la selección de datos para modelar desafíos globales críticos, mejorando la precisión de las predicciones.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.26088",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "predicción geoespacial",
-            "IA",
-            "modelos"
-          ],
-          "what_changed": "Implementación de un sistema que reduce la carga técnica para análisis a gran escala.",
-          "why_it_matters": "Facilita la respuesta a desafíos críticos como la seguridad alimentaria y el manejo de riesgos.",
-          "sector_impact": "Transformación en el análisis geoespacial y mejora en la planificación de recursos."
-        },
-        {
-          "title": "CIPL: Un Marco para la Evaluación de Fugas de Privacidad en Agentes LLM",
-          "summary": "Un nuevo marco que evalúa la fuga de privacidad en actores de lenguaje, abordando la transición de uso interno a exposición externa.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21686",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "privacidad",
-            "agentes",
-            "tecnología"
-          ],
-          "what_changed": "Introducción de un marco para comparar dependencias internas de fuga de datos.",
-          "why_it_matters": "Mejora la comprensión y gestión de la privacidad en sistemas de IA.",
-          "sector_impact": "Aumentar la confianza en el uso de agentes inteligentes en sectores sensibles."
-        },
-        {
-          "title": "Staying on the Attack Path: Testeo Automatizado de Penetración",
-          "summary": "Desarrollo de un agente automatizado que mejora las pruebas de penetración a largo plazo utilizando un grafo de intenciones.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.07344",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ciberseguridad",
-            "automatización",
-            "penetración"
-          ],
-          "what_changed": "Implementación de un gráfico de intenciones para manejar estados a largo plazo.",
-          "why_it_matters": "Mejora la efectividad en la identificación de vulnerabilidades en aplicaciones web.",
-          "sector_impact": "Refuerzo en la ciberseguridad y protección de datos en infraestructuras críticas."
-        },
-        {
-          "title": "Listen Before You Speak: Planificación de Respuestas por Reacciones Faciales",
-          "summary": "Propuesta de un marco de dos etapas que utiliza las reacciones faciales de oyentes para mejorar la generación de discursos conversacionales.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.21683",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA conversacional",
-            "procesamiento de lenguaje natural"
-          ],
-          "what_changed": "Introducción de un enfoque temporal para modelar reacciones en la planificación de respuestas.",
-          "why_it_matters": "Potencia la efectividad de los sistemas de IA en interacciones humanas al adaptarse a señales sociales.",
-          "sector_impact": "Mejora en la calidad de las interacciones generadas por IA en diversas aplicaciones."
         }
       ]
     }
