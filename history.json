@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-09-30",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agents Most",
+          "summary": "Se analiza cómo los mensajes de error en servidores MCP afectan la recuperación de tareas por parte de agentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.35381",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "MCP",
+            "errores",
+            "agentes"
+          ],
+          "what_changed": "Se propusieron remedios para mejorar la comprensión de los errores.",
+          "why_it_matters": "Optimizar la interpretación de errores puede mejorar la recuperación de tareas en sistemas automatizados.",
+          "sector_impact": "Impacto significativo en la eficacia de los agentes inteligentes."
+        },
+        {
+          "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+          "summary": "Se presenta un enfoque de meta-raciocinio que mejora la toma de decisiones en agentes inteligentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38147",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "meta-raciocinio",
+            "agentes",
+            "toma de decisiones"
+          ],
+          "what_changed": "Introducción de un controlador que organiza el razonamiento en ejecuciones complejas.",
+          "why_it_matters": "Permite decisiones más informadas y efectivas en escenarios complejos.",
+          "sector_impact": "Transforma la capacidad operativa en ambientes dinámicos."
+        },
+        {
+          "title": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
+          "summary": "Se introduce un marco de aprendizaje por refuerzo que optimiza modelos basados en resultados.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.36641",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "aprendizaje por refuerzo",
+            "modelo",
+            "supervisión"
+          ],
+          "what_changed": "Se reduce el costo de entrenamiento para modelos de retroalimentación.",
+          "why_it_matters": "Facilita el desarrollo de modelos más robustos con menos recursos.",
+          "sector_impact": "Impulsa la eficiencia en el entrenamiento de modelos de IA."
+        },
+        {
+          "title": "LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension",
+          "summary": "Se presenta un método eficiente para la comprensión rápida de videos largos usando modelos de lenguaje.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.37426",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "comprensión de video",
+            "eficiencia",
+            "modelos de lenguaje"
+          ],
+          "what_changed": "Reducción de tiempo y costo de procesamiento en tareas de video.",
+          "why_it_matters": "Mejora la capacidad de análisis en aplicaciones multimedia.",
+          "sector_impact": "Tendrá implicaciones importantes en la transmisión automatizada de contenido."
+        },
+        {
+          "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
+          "summary": "Evaluación de simuladores de usuario para benchmarking de agentes en tareas empresariales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38043",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "simuladores de usuario",
+            "benchmarking",
+            "agentes"
+          ],
+          "what_changed": "Introducción de criterios específicos para la evaluación de simuladores.",
+          "why_it_matters": "Permite una mejor calibración de las capacidades de agentes automatizados.",
+          "sector_impact": "Impacto en la formación de agentes más precisos en entornos empresariales."
+        },
+        {
+          "title": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
+          "summary": "Nueva técnica para la recuperación de herramientas en sistemas LLM basados en planificación centrada en la ejecución.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.35811",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "recuperación de herramientas",
+            "planificación",
+            "optimización"
+          ],
+          "what_changed": "Implementación de un modelo que predice el éxito y costo de la ejecución.",
+          "why_it_matters": "Mejora la eficiencia en el uso de recursos durante la recuperación de herramientas.",
+          "sector_impact": "Optimiza la operativa en entornos con múltiples API."
+        }
+      ]
+    },
+    {
       "date": "2026-09-29",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -748,140 +856,6 @@
           "what_changed": "Implementa un nuevo método para codificación de estructura implícita.",
           "why_it_matters": "Ofrece respuestas más precisas a menor costo y tiempo.",
           "sector_impact": "Análisis de documentos y procesamiento de datos."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "VLM-in-Sandbox: Visual Workspaces for Agentic Visual Reasoning",
-          "summary": "Un marco para razonamiento multimodal en entornos controlados, optimizando la gestión de evidencia visual generada.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.24362",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "razonamiento visual"
-          ],
-          "what_changed": "Introducción de un entorno sand-box para VLMs.",
-          "why_it_matters": "Mejora la precisión y gestión de información visual en modelos.",
-          "sector_impact": "Revoluciona cómo los modelos manejan contextos visuales."
-        },
-        {
-          "title": "H2LooP Telecom Model v1: From Telecom Comprehension to Autonomous Issue and PR Resolution",
-          "summary": "Modelo especializado en telecomunicaciones que mejora la resolución de problemas autónomos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.22241",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "telecom",
-            "IA autónoma"
-          ],
-          "what_changed": "Modelos adaptados al dominio de telecomunicaciones.",
-          "why_it_matters": "Supera modelos cerrados actuales en rendimiento para tareas específicas.",
-          "sector_impact": "Transforma las capacidades de gestión automatizada en telecomunicaciones."
-        },
-        {
-          "title": "SelfOp: An Optimization Algorithm for Self-Improving Security Agents",
-          "summary": "Algoritmo que mejora agentes de seguridad sin modificar sus modelos o estructuras existentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.22792",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "seguridad"
-          ],
-          "what_changed": "Optimizaciones automáticas para agentes de seguridad.",
-          "why_it_matters": "Aumenta la eficacia de los agentes en tareas de seguridad.",
-          "sector_impact": "Refuerza la capacidad de respuesta ante vulnerabilidades."
-        },
-        {
-          "title": "FinInteract: Benchmarking Clarification and Intent Integration in Ambiguous Financial Question Answering",
-          "summary": "Benchmark para evaluar respuestas ambiguas en preguntas financieras usando LLMs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.24002",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "finanzas",
-            "benchmark"
-          ],
-          "what_changed": "Introducción de un nuevo benchmark para la resolución de ambigüedades.",
-          "why_it_matters": "Permite a los modelos manejar mejor las interpretaciones ambiguas en finanzas.",
-          "sector_impact": "Mejora la calidad de respuestas en sistemas financieros automatizados."
-        },
-        {
-          "title": "Auditing Political Alignment in LLM Assistants",
-          "summary": "Auditoría del comportamiento político de asistentes de IA, explorando cómo responden según el perfil del usuario.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.23039",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ética",
-            "transparencia"
-          ],
-          "what_changed": "Nuevas métricas para auditar comportamientos políticos en LLM.",
-          "why_it_matters": "Asegura la responsabilidad y la alineación en la IA política.",
-          "sector_impact": "Impacta en cómo se desarrollan y utilizan modelos de IA en contextos políticos."
-        },
-        {
-          "title": "Using LLMs in Software Design: An Empirical Study of GitHub and A Practitioner Survey",
-          "summary": "Estudio empírico que examina el uso de LLMs en diseño de software y sus beneficios y limitaciones.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.01392",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "software",
-            "diseño"
-          ],
-          "what_changed": "Investigación sobre interacciones entre desarrolladores y LLMs.",
-          "why_it_matters": "Proporciona una caracterización basada en evidencia del uso de LLM en diseño.",
-          "sector_impact": "Transforma el enfoque de los desarrolladores hacia herramientas de IA en diseño."
-        },
-        {
-          "title": "Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents",
-          "summary": "Estudio sobre las fallas de interpretabilidad en agentes de inferencia activa con LLM.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.23215",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "interpretabilidad",
-            "diagnóstico"
-          ],
-          "what_changed": "Nuevos métodos de diagnóstico para fallos en la interpretabilidad.",
-          "why_it_matters": "Asegura una mejor comprensión de los errores en decisiones automatizadas.",
-          "sector_impact": "Fortalece la confianza en sistemas automatizados de IA."
-        },
-        {
-          "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
-          "summary": "Benchmark que evalúa la capacidad de toma de decisiones en sistemas autónomos UAV centrados en IA física.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.23695",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "UAV",
-            "IA física"
-          ],
-          "what_changed": "Introducción de un nuevo benchmark para la toma de decisiones autónoma.",
-          "why_it_matters": "Proporciona métricas estandarizadas para evaluar LLM en contextos de UAV.",
-          "sector_impact": "Mejora la fiabilidad en las decisiones de IA en entornos voladores."
         }
       ]
     }
