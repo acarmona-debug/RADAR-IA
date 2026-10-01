@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-10-01",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "RankEvolve: Un marco de auto-investigación para la evolución de modelos de clasificación",
+          "summary": "RankEvolve automatiza el ciclo experimental en aprendizaje automático, mejorando la precisión de ejecución en modelos de clasificación generativa.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.39551",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "auto-investigación",
+            "aprendizaje automático",
+            "modelos de clasificación"
+          ],
+          "what_changed": "Una mejora en la ejecución de modelos de clasificación generativa.",
+          "why_it_matters": "Permite automatizar experimentaciones en ML, reduciendo errores y aumentando la eficiencia.",
+          "sector_impact": "Aumenta la efectividad de aplicaciones de ML en múltiples sectores."
+        },
+        {
+          "title": "DrivingBench: Evaluación de modelos de lenguaje en escenarios de conducción",
+          "summary": "DrivingBench es un nuevo benchmark que prueba modelos de lenguaje en la conducción de un Toyota Corolla.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38948",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos de lenguaje",
+            "conducción",
+            "benchmarks"
+          ],
+          "what_changed": "Introducción de un nuevo benchmark para evaluar capacidades de conducción de modelos.",
+          "why_it_matters": "Evalúa el desempeño real de modelos de IA en tareas cotidianas.",
+          "sector_impact": "Potencial para mejorar la seguridad y la efectividad de vehículos autónomos."
+        },
+        {
+          "title": "CONTRAMEM: Memoria procedural auto-evolutiva",
+          "summary": "CONTRAMEM ofrece un marco para el aprendizaje de memoria procedural que se adapta sin entrenamiento de modelo.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22533",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria procedural",
+            "IA autónoma",
+            "rendimiento"
+          ],
+          "what_changed": "Un enfoque novedoso para el aprendizaje de memoria sin requerir entrenamiento adicional.",
+          "why_it_matters": "Mejora la consistencia en decisiones de IA y reduce exploraciones redundantes.",
+          "sector_impact": "Aumenta la robustez de sistemas autónomos en tareas complejas."
+        },
+        {
+          "title": "ScholarEvolve: Evolución continua de agentes de IA",
+          "summary": "ScholarEvolve utiliza literatura de vanguardia para guiar la evolución de agentes de IA en tareas complejas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.40169",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evolución de IA",
+            "aguas literarias",
+            "estrategias de mejora"
+          ],
+          "what_changed": "Introducción de un método para integrar avances de investigación en la mejora de agentes de IA.",
+          "why_it_matters": "Facilita la mejora continua de agentes en la ejecución de tareas complejas.",
+          "sector_impact": "Transforma la manera en que los agentes interactúan y resuelven problemas."
+        },
+        {
+          "title": "MILO: Descubrimiento automatizado de harnesses",
+          "summary": "MILO es un marco innovador que co-evoluciona harnesses y las estrategias para descubrirlos, mejorando la eficiencia en el uso de modelos de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38349",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "diseño de harnesses",
+            "IA"
+          ],
+          "what_changed": "Implementación de un enfoque co-evolutivo para mejorar la interacción de agentes de IA.",
+          "why_it_matters": "Optimiza el rendimiento de agentes en tareas de largo plazo.",
+          "sector_impact": "Aplicaciones en múltiples dominios que requieren interacción efectiva de IA."
+        },
+        {
+          "title": "DAGent: Planificación incremental para agentes de investigación profunda",
+          "summary": "DAGent incorpora una planificación incremental para optimizar la ejecución de tareas complejas en investigación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.39154",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "planificación",
+            "investigación",
+            "agentes"
+          ],
+          "what_changed": "Optimización en la forma en que los agentes de IA planifican y ejecutan tareas complejas.",
+          "why_it_matters": "Mejora la eficiencia y precisión en tareas que requieren síntesis de información.",
+          "sector_impact": "Revoluciona la manera en que se abordan problemas complejos en investigación."
+        },
+        {
+          "title": "MetaPersona: Generación de poblaciones sintéticas fundamentadas en evidencia",
+          "summary": "MetaPersona crea poblaciones sintéticas utilizando investigaciones de ciencias sociales, mejorando simulaciones de LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38392",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "poblaciones sintéticas",
+            "ciencias sociales",
+            "simulación"
+          ],
+          "what_changed": "Innovadora forma de basar la creación de personajes en evidencias empíricas.",
+          "why_it_matters": "Aumenta la precisión y aplicabilidad de simulaciones en diversos contextos.",
+          "sector_impact": "Fortalece la fiabilidad de modelos en áreas como comportamiento social y marketing."
+        }
+      ]
+    },
+    {
       "date": "2026-09-30",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -731,131 +856,6 @@
           "what_changed": "Implementación de un sistema que redistribuye tareas para optimizar gastos.",
           "why_it_matters": "Reduce costes operativos significativos en la utilización de herramientas de IA.",
           "sector_impact": "Empresas"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Med-V1: Small Language Models for Zero-shot Biomedical Evidence Attribution",
-          "summary": "Med-V1 presenta modelos de lenguaje pequeños que superan a modelos más grandes en tareas biomédicas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.05308",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "biomedical",
-            "language model",
-            "evidence attribution"
-          ],
-          "what_changed": "Desarrollo de modelos más eficientes para atribución de evidencia biomédica.",
-          "why_it_matters": "Ofrece una alternativa accesible para la detección de alucinaciones en modelos de lenguaje grandes.",
-          "sector_impact": "Salud y biomedicina."
-        },
-        {
-          "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
-          "summary": "Se presenta JAZ, un marco de agente LLM que simplifica la interacción con herramientas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.26891",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agent framework",
-            "LLM",
-            "automation"
-          ],
-          "what_changed": "Introduce un modelo de bucle de agente simplificado.",
-          "why_it_matters": "Permite una mayor flexibilidad y eficiencia en la implementación de agentes IA.",
-          "sector_impact": "Desarrollo de software y automatización."
-        },
-        {
-          "title": "TiAb Review Plugin: AI-Assisted Study Selection in Systematic Reviews",
-          "summary": "Plugin para Chrome que asiste en la selección de estudios en revisiones sistemáticas sin necesidad de código.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.08602",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "review tool",
-            "AI",
-            "systematic review"
-          ],
-          "what_changed": "Facilita la selección de estudios mediante IA sin costo de servidor.",
-          "why_it_matters": "Reduce la carga de trabajo manual y mejora la eficiencia en investigaciones sistemáticas.",
-          "sector_impact": "Investigación y salud pública."
-        },
-        {
-          "title": "Agora: Git as Shared Memory for Collective AutoResearch",
-          "summary": "Plataforma que permite a agentes de investigación registrar y colaborar en tiempo real.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.18094",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "collaboration",
-            "research agents",
-            "git"
-          ],
-          "what_changed": "Almacena contribuciones de investigación en un gráfico acíclico dirigido.",
-          "why_it_matters": "Fomenta la colaboración y reutilización del trabajo en investigación.",
-          "sector_impact": "Investigación colaborativa y desarrollo científico."
-        },
-        {
-          "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
-          "summary": "Herramienta de evaluación para agentes que configuran entornos de implementación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.27571",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "deployment",
-            "evaluation",
-            "agent"
-          ],
-          "what_changed": "Evalúa tareas de configuración de despliegue con agentes LLM.",
-          "why_it_matters": "Mejora la calidad y eficiencia de las tareas de despliegue.",
-          "sector_impact": "DevOps y tecnología."
-        },
-        {
-          "title": "Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
-          "summary": "Framework que protege a agentes LLM de amenazas a largo plazo mediante memoria de sombra.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.03228",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "security",
-            "long-horizon threats",
-            "agent"
-          ],
-          "what_changed": "Introduce memoria dedicada para evaluar riesgos en decisiones de agentes.",
-          "why_it_matters": "Aumenta la seguridad de los agentes LLM en entornos críticos.",
-          "sector_impact": "Seguridad informática y desarrollo de software."
-        },
-        {
-          "title": "EidosDoc: Implicit Structure Encoding for Cost-Effective Semi-Structured Document QA",
-          "summary": "Sistema que mejora la precisión en la respuesta a documentos semiestructurados con bajo costo computacional.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.27784",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "document QA",
-            "efficient",
-            "AI"
-          ],
-          "what_changed": "Implementa un nuevo método para codificación de estructura implícita.",
-          "why_it_matters": "Ofrece respuestas más precisas a menor costo y tiempo.",
-          "sector_impact": "Análisis de documentos y procesamiento de datos."
         }
       ]
     }

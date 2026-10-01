@@ -1,110 +1,127 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen diario sobre herramientas y avances en modelos de inteligencia artificial.",
-  "opening_message": "El objetivo de hoy es destacar innovaciones clave que repercuten en el desarrollo y aplicación de la inteligencia artificial.",
+  "intro_message": "Este radar diario proporciona las últimas actualizaciones y tendencias en herramientas, modelos y frameworks de inteligencia artificial. Enfocamos en lo que realmente importa para desarrolladores y profesionales del sector.",
+  "opening_message": "A continuación, se presentan los elementos clave que destacan en el ecosistema de IA.",
   "items": [
     {
-      "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agents Most",
-      "summary": "Se analiza cómo los mensajes de error en servidores MCP afectan la recuperación de tareas por parte de agentes.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.35381",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "MCP",
-        "errores",
-        "agentes"
-      ],
-      "what_changed": "Se propusieron remedios para mejorar la comprensión de los errores.",
-      "why_it_matters": "Optimizar la interpretación de errores puede mejorar la recuperación de tareas en sistemas automatizados.",
-      "sector_impact": "Impacto significativo en la eficacia de los agentes inteligentes."
-    },
-    {
-      "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
-      "summary": "Se presenta un enfoque de meta-raciocinio que mejora la toma de decisiones en agentes inteligentes.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38147",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "meta-raciocinio",
-        "agentes",
-        "toma de decisiones"
-      ],
-      "what_changed": "Introducción de un controlador que organiza el razonamiento en ejecuciones complejas.",
-      "why_it_matters": "Permite decisiones más informadas y efectivas en escenarios complejos.",
-      "sector_impact": "Transforma la capacidad operativa en ambientes dinámicos."
-    },
-    {
-      "title": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
-      "summary": "Se introduce un marco de aprendizaje por refuerzo que optimiza modelos basados en resultados.",
+      "title": "RankEvolve: Un marco de auto-investigación para la evolución de modelos de clasificación",
+      "summary": "RankEvolve automatiza el ciclo experimental en aprendizaje automático, mejorando la precisión de ejecución en modelos de clasificación generativa.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.36641",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2609.39551",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "aprendizaje por refuerzo",
-        "modelo",
-        "supervisión"
+        "auto-investigación",
+        "aprendizaje automático",
+        "modelos de clasificación"
       ],
-      "what_changed": "Se reduce el costo de entrenamiento para modelos de retroalimentación.",
-      "why_it_matters": "Facilita el desarrollo de modelos más robustos con menos recursos.",
-      "sector_impact": "Impulsa la eficiencia en el entrenamiento de modelos de IA."
+      "what_changed": "Una mejora en la ejecución de modelos de clasificación generativa.",
+      "why_it_matters": "Permite automatizar experimentaciones en ML, reduciendo errores y aumentando la eficiencia.",
+      "sector_impact": "Aumenta la efectividad de aplicaciones de ML en múltiples sectores."
     },
     {
-      "title": "LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension",
-      "summary": "Se presenta un método eficiente para la comprensión rápida de videos largos usando modelos de lenguaje.",
+      "title": "DrivingBench: Evaluación de modelos de lenguaje en escenarios de conducción",
+      "summary": "DrivingBench es un nuevo benchmark que prueba modelos de lenguaje en la conducción de un Toyota Corolla.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.37426",
+      "source_url": "https://arxiv.org/abs/2609.38948",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "comprensión de video",
-        "eficiencia",
-        "modelos de lenguaje"
+        "modelos de lenguaje",
+        "conducción",
+        "benchmarks"
       ],
-      "what_changed": "Reducción de tiempo y costo de procesamiento en tareas de video.",
-      "why_it_matters": "Mejora la capacidad de análisis en aplicaciones multimedia.",
-      "sector_impact": "Tendrá implicaciones importantes en la transmisión automatizada de contenido."
+      "what_changed": "Introducción de un nuevo benchmark para evaluar capacidades de conducción de modelos.",
+      "why_it_matters": "Evalúa el desempeño real de modelos de IA en tareas cotidianas.",
+      "sector_impact": "Potencial para mejorar la seguridad y la efectividad de vehículos autónomos."
     },
     {
-      "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
-      "summary": "Evaluación de simuladores de usuario para benchmarking de agentes en tareas empresariales.",
-      "category": "tool",
+      "title": "CONTRAMEM: Memoria procedural auto-evolutiva",
+      "summary": "CONTRAMEM ofrece un marco para el aprendizaje de memoria procedural que se adapta sin entrenamiento de modelo.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38043",
+      "source_url": "https://arxiv.org/abs/2608.22533",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "simuladores de usuario",
-        "benchmarking",
+        "memoria procedural",
+        "IA autónoma",
+        "rendimiento"
+      ],
+      "what_changed": "Un enfoque novedoso para el aprendizaje de memoria sin requerir entrenamiento adicional.",
+      "why_it_matters": "Mejora la consistencia en decisiones de IA y reduce exploraciones redundantes.",
+      "sector_impact": "Aumenta la robustez de sistemas autónomos en tareas complejas."
+    },
+    {
+      "title": "ScholarEvolve: Evolución continua de agentes de IA",
+      "summary": "ScholarEvolve utiliza literatura de vanguardia para guiar la evolución de agentes de IA en tareas complejas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.40169",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "evolución de IA",
+        "aguas literarias",
+        "estrategias de mejora"
+      ],
+      "what_changed": "Introducción de un método para integrar avances de investigación en la mejora de agentes de IA.",
+      "why_it_matters": "Facilita la mejora continua de agentes en la ejecución de tareas complejas.",
+      "sector_impact": "Transforma la manera en que los agentes interactúan y resuelven problemas."
+    },
+    {
+      "title": "MILO: Descubrimiento automatizado de harnesses",
+      "summary": "MILO es un marco innovador que co-evoluciona harnesses y las estrategias para descubrirlos, mejorando la eficiencia en el uso de modelos de IA.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.38349",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "automatización",
+        "diseño de harnesses",
+        "IA"
+      ],
+      "what_changed": "Implementación de un enfoque co-evolutivo para mejorar la interacción de agentes de IA.",
+      "why_it_matters": "Optimiza el rendimiento de agentes en tareas de largo plazo.",
+      "sector_impact": "Aplicaciones en múltiples dominios que requieren interacción efectiva de IA."
+    },
+    {
+      "title": "DAGent: Planificación incremental para agentes de investigación profunda",
+      "summary": "DAGent incorpora una planificación incremental para optimizar la ejecución de tareas complejas en investigación.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.39154",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "planificación",
+        "investigación",
         "agentes"
       ],
-      "what_changed": "Introducción de criterios específicos para la evaluación de simuladores.",
-      "why_it_matters": "Permite una mejor calibración de las capacidades de agentes automatizados.",
-      "sector_impact": "Impacto en la formación de agentes más precisos en entornos empresariales."
+      "what_changed": "Optimización en la forma en que los agentes de IA planifican y ejecutan tareas complejas.",
+      "why_it_matters": "Mejora la eficiencia y precisión en tareas que requieren síntesis de información.",
+      "sector_impact": "Revoluciona la manera en que se abordan problemas complejos en investigación."
     },
     {
-      "title": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
-      "summary": "Nueva técnica para la recuperación de herramientas en sistemas LLM basados en planificación centrada en la ejecución.",
+      "title": "MetaPersona: Generación de poblaciones sintéticas fundamentadas en evidencia",
+      "summary": "MetaPersona crea poblaciones sintéticas utilizando investigaciones de ciencias sociales, mejorando simulaciones de LLM.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.35811",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2609.38392",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "recuperación de herramientas",
-        "planificación",
-        "optimización"
+        "poblaciones sintéticas",
+        "ciencias sociales",
+        "simulación"
       ],
-      "what_changed": "Implementación de un modelo que predice el éxito y costo de la ejecución.",
-      "why_it_matters": "Mejora la eficiencia en el uso de recursos durante la recuperación de herramientas.",
-      "sector_impact": "Optimiza la operativa en entornos con múltiples API."
+      "what_changed": "Innovadora forma de basar la creación de personajes en evidencias empíricas.",
+      "why_it_matters": "Aumenta la precisión y aplicabilidad de simulaciones en diversos contextos.",
+      "sector_impact": "Fortalece la fiabilidad de modelos en áreas como comportamiento social y marketing."
     }
   ]
 }
