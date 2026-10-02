@@ -1,127 +1,121 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar diario proporciona las últimas actualizaciones y tendencias en herramientas, modelos y frameworks de inteligencia artificial. Enfocamos en lo que realmente importa para desarrolladores y profesionales del sector.",
-  "opening_message": "A continuación, se presentan los elementos clave que destacan en el ecosistema de IA.",
+  "intro_message": "Recopilación de novedades relevantes en el ámbito de inteligencia artificial.",
+  "opening_message": "Este radar se centra en herramientas, modelos y características innovadoras en IA, ignorando temas políticos y regulatorios.",
   "items": [
     {
-      "title": "RankEvolve: Un marco de auto-investigación para la evolución de modelos de clasificación",
-      "summary": "RankEvolve automatiza el ciclo experimental en aprendizaje automático, mejorando la precisión de ejecución en modelos de clasificación generativa.",
-      "category": "framework",
+      "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+      "summary": "VeriHarness es un sistema que mejora la verificación de resultados de agentes en tareas complejas.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.39551",
+      "source_url": "https://arxiv.org/abs/2610.00972",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "auto-investigación",
-        "aprendizaje automático",
-        "modelos de clasificación"
+        "verificación",
+        "agentes",
+        "IA avanzada"
       ],
-      "what_changed": "Una mejora en la ejecución de modelos de clasificación generativa.",
-      "why_it_matters": "Permite automatizar experimentaciones en ML, reduciendo errores y aumentando la eficiencia.",
-      "sector_impact": "Aumenta la efectividad de aplicaciones de ML en múltiples sectores."
+      "what_changed": "Presentación de un mecanismo de verificación basado en evidencia.",
+      "why_it_matters": "Aumenta la precisión en la verificación de los outputs de modelos de IA.",
+      "sector_impact": "Mejora en tareas complejas en múltiples sectores."
     },
     {
-      "title": "DrivingBench: Evaluación de modelos de lenguaje en escenarios de conducción",
-      "summary": "DrivingBench es un nuevo benchmark que prueba modelos de lenguaje en la conducción de un Toyota Corolla.",
+      "title": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+      "summary": "SRE-Bench es un nuevo estándar para evaluar la ingeniería inversa de software.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38948",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2608.11469",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "modelos de lenguaje",
-        "conducción",
-        "benchmarks"
+        "ciberseguridad",
+        "ingeniería inversa"
       ],
-      "what_changed": "Introducción de un nuevo benchmark para evaluar capacidades de conducción de modelos.",
-      "why_it_matters": "Evalúa el desempeño real de modelos de IA en tareas cotidianas.",
-      "sector_impact": "Potencial para mejorar la seguridad y la efectividad de vehículos autónomos."
+      "what_changed": "Desarrollo de un banco de pruebas para evaluar modelos de ingeniería inversa.",
+      "why_it_matters": "Proporciona un marco sólido para evaluar el progreso en ciberseguridad.",
+      "sector_impact": "Impulsa la seguridad de software crítico en diversas industrias."
     },
     {
-      "title": "CONTRAMEM: Memoria procedural auto-evolutiva",
-      "summary": "CONTRAMEM ofrece un marco para el aprendizaje de memoria procedural que se adapta sin entrenamiento de modelo.",
+      "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
+      "summary": "Mem++ es un marco de memoria no destructiva para la gestión de documentos en organizaciones.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.22533",
+      "source_url": "https://arxiv.org/abs/2610.02002",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "memoria procedural",
-        "IA autónoma",
-        "rendimiento"
+        "memoria",
+        "organizacional"
       ],
-      "what_changed": "Un enfoque novedoso para el aprendizaje de memoria sin requerir entrenamiento adicional.",
-      "why_it_matters": "Mejora la consistencia en decisiones de IA y reduce exploraciones redundantes.",
-      "sector_impact": "Aumenta la robustez de sistemas autónomos en tareas complejas."
+      "what_changed": "Introducción de una metodología que preserva versiones de documentos.",
+      "why_it_matters": "Mejora la respuesta a preguntas históricas en un contexto organizativo.",
+      "sector_impact": "Fortalece la gestión del conocimiento en empresas."
     },
     {
-      "title": "ScholarEvolve: Evolución continua de agentes de IA",
-      "summary": "ScholarEvolve utiliza literatura de vanguardia para guiar la evolución de agentes de IA en tareas complejas.",
+      "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
+      "summary": "Un nuevo marco para la verificación auditable en matemáticas y software.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.40169",
+      "source_url": "https://arxiv.org/abs/2610.00885",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "evolución de IA",
-        "aguas literarias",
-        "estrategias de mejora"
+        "matemáticas",
+        "verificación"
       ],
-      "what_changed": "Introducción de un método para integrar avances de investigación en la mejora de agentes de IA.",
-      "why_it_matters": "Facilita la mejora continua de agentes en la ejecución de tareas complejas.",
-      "sector_impact": "Transforma la manera en que los agentes interactúan y resuelven problemas."
+      "what_changed": "Desarrollo de un sistema que mejora la trazabilidad y auditoría de razonamientos.",
+      "why_it_matters": "Facilita la verificación de la exactitud en desarrollos formales.",
+      "sector_impact": "Mejora la calidad en el desarrollo de software crítico."
     },
     {
-      "title": "MILO: Descubrimiento automatizado de harnesses",
-      "summary": "MILO es un marco innovador que co-evoluciona harnesses y las estrategias para descubrirlos, mejorando la eficiencia en el uso de modelos de IA.",
+      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+      "summary": "Una nueva abstracción para gestionar la memoria compartida en sistemas de IA.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38349",
+      "source_url": "https://arxiv.org/abs/2609.10144",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "personalización",
+        "memoria compartida"
+      ],
+      "what_changed": "Implementación de un sistema que mejora la personalización en agentes.",
+      "why_it_matters": "Optimiza la eficiencia y el costo en el uso de sistemas de IA.",
+      "sector_impact": "Aumenta la efectividad de las aplicaciones de IA en entornos multijugador."
+    },
+    {
+      "title": "Chaining Skills to Hijack LLM Agents",
+      "summary": "Un estudio sobre cómo encadenar habilidades en agentes LLM puede ser explotado.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.01564",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "automatización",
-        "diseño de harnesses",
-        "IA"
+        "seguridad",
+        "explotación"
       ],
-      "what_changed": "Implementación de un enfoque co-evolutivo para mejorar la interacción de agentes de IA.",
-      "why_it_matters": "Optimiza el rendimiento de agentes en tareas de largo plazo.",
-      "sector_impact": "Aplicaciones en múltiples dominios que requieren interacción efectiva de IA."
+      "what_changed": "Revelación de cómo los agentes pueden ser manipulados a través de cadenas de habilidades.",
+      "why_it_matters": "Destaca la necesidad de defensas robustas en sistemas de IA.",
+      "sector_impact": "Impulsa el interés en la seguridad de IA en diversos campos."
     },
     {
-      "title": "DAGent: Planificación incremental para agentes de investigación profunda",
-      "summary": "DAGent incorpora una planificación incremental para optimizar la ejecución de tareas complejas en investigación.",
+      "title": "Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
+      "summary": "Un marco para la evaluación continua de habilidades en agentes de IA empresariales.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.39154",
+      "source_url": "https://arxiv.org/abs/2610.01833",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "planificación",
-        "investigación",
-        "agentes"
+        "evaluación",
+        "habilidades"
       ],
-      "what_changed": "Optimización en la forma en que los agentes de IA planifican y ejecutan tareas complejas.",
-      "why_it_matters": "Mejora la eficiencia y precisión en tareas que requieren síntesis de información.",
-      "sector_impact": "Revoluciona la manera en que se abordan problemas complejos en investigación."
-    },
-    {
-      "title": "MetaPersona: Generación de poblaciones sintéticas fundamentadas en evidencia",
-      "summary": "MetaPersona crea poblaciones sintéticas utilizando investigaciones de ciencias sociales, mejorando simulaciones de LLM.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38392",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "poblaciones sintéticas",
-        "ciencias sociales",
-        "simulación"
-      ],
-      "what_changed": "Innovadora forma de basar la creación de personajes en evidencias empíricas.",
-      "why_it_matters": "Aumenta la precisión y aplicabilidad de simulaciones en diversos contextos.",
-      "sector_impact": "Fortalece la fiabilidad de modelos en áreas como comportamiento social y marketing."
+      "what_changed": "Introducción de chequeos de conducta en procesos para agentes en evolución.",
+      "why_it_matters": "Garantiza la adaptabilidad y precisión de los agentes de IA.",
+      "sector_impact": "Mejora la efectividad de los robots en entornos empresariales."
     }
   ]
 }

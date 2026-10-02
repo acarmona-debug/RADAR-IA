@@ -1,6 +1,125 @@
 {
   "days": [
     {
+      "date": "2026-10-02",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+          "summary": "VeriHarness es un sistema que mejora la verificación de resultados de agentes en tareas complejas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.00972",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "verificación",
+            "agentes",
+            "IA avanzada"
+          ],
+          "what_changed": "Presentación de un mecanismo de verificación basado en evidencia.",
+          "why_it_matters": "Aumenta la precisión en la verificación de los outputs de modelos de IA.",
+          "sector_impact": "Mejora en tareas complejas en múltiples sectores."
+        },
+        {
+          "title": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+          "summary": "SRE-Bench es un nuevo estándar para evaluar la ingeniería inversa de software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.11469",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ciberseguridad",
+            "ingeniería inversa"
+          ],
+          "what_changed": "Desarrollo de un banco de pruebas para evaluar modelos de ingeniería inversa.",
+          "why_it_matters": "Proporciona un marco sólido para evaluar el progreso en ciberseguridad.",
+          "sector_impact": "Impulsa la seguridad de software crítico en diversas industrias."
+        },
+        {
+          "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
+          "summary": "Mem++ es un marco de memoria no destructiva para la gestión de documentos en organizaciones.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.02002",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "organizacional"
+          ],
+          "what_changed": "Introducción de una metodología que preserva versiones de documentos.",
+          "why_it_matters": "Mejora la respuesta a preguntas históricas en un contexto organizativo.",
+          "sector_impact": "Fortalece la gestión del conocimiento en empresas."
+        },
+        {
+          "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
+          "summary": "Un nuevo marco para la verificación auditable en matemáticas y software.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.00885",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "matemáticas",
+            "verificación"
+          ],
+          "what_changed": "Desarrollo de un sistema que mejora la trazabilidad y auditoría de razonamientos.",
+          "why_it_matters": "Facilita la verificación de la exactitud en desarrollos formales.",
+          "sector_impact": "Mejora la calidad en el desarrollo de software crítico."
+        },
+        {
+          "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+          "summary": "Una nueva abstracción para gestionar la memoria compartida en sistemas de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.10144",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "personalización",
+            "memoria compartida"
+          ],
+          "what_changed": "Implementación de un sistema que mejora la personalización en agentes.",
+          "why_it_matters": "Optimiza la eficiencia y el costo en el uso de sistemas de IA.",
+          "sector_impact": "Aumenta la efectividad de las aplicaciones de IA en entornos multijugador."
+        },
+        {
+          "title": "Chaining Skills to Hijack LLM Agents",
+          "summary": "Un estudio sobre cómo encadenar habilidades en agentes LLM puede ser explotado.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.01564",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "explotación"
+          ],
+          "what_changed": "Revelación de cómo los agentes pueden ser manipulados a través de cadenas de habilidades.",
+          "why_it_matters": "Destaca la necesidad de defensas robustas en sistemas de IA.",
+          "sector_impact": "Impulsa el interés en la seguridad de IA en diversos campos."
+        },
+        {
+          "title": "Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
+          "summary": "Un marco para la evaluación continua de habilidades en agentes de IA empresariales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.01833",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "habilidades"
+          ],
+          "what_changed": "Introducción de chequeos de conducta en procesos para agentes en evolución.",
+          "why_it_matters": "Garantiza la adaptabilidad y precisión de los agentes de IA.",
+          "sector_impact": "Mejora la efectividad de los robots en entornos empresariales."
+        }
+      ]
+    },
+    {
       "date": "2026-10-01",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -722,140 +841,6 @@
           "what_changed": "Abandono de un plan para usar turbinas en centros de datos.",
           "why_it_matters": "Indica posibles desafíos en el financiamiento de infraestructura de IA.",
           "sector_impact": "Efecto en la evolución de la infraestructura de centros de datos."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "BaseCamp --- Un marco de IA agente para automatizar pipelines de secuenciación de ADN",
-          "summary": "Un nuevo marco que utiliza seis agentes especializados para automatizar decisiones en pipelines de secuenciación de ADN.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.28557",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "DNAs"
-          ],
-          "what_changed": "Introducción de agentes dedicados para mejorar la toma de decisiones en biometría.",
-          "why_it_matters": "Aumenta la eficiencia y precisión en la secuenciación de ADN, un proceso crítico en biología.",
-          "sector_impact": "Biotecnología"
-        },
-        {
-          "title": "Coding Agents para problemas de planificación de tareas y movimiento generalizados",
-          "summary": "Los agentes de codificación automatizan la planificación en entornos complejos y mejoran el éxito comparado con los planificadores tradicionales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.30233",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "planificación",
-            "automatización"
-          ],
-          "what_changed": "Se mejoró la eficacia de planificación a través de agentes de codificación.",
-          "why_it_matters": "Optimiza la planificación de tareas en entornos dinámicos y complejos.",
-          "sector_impact": "Robótica"
-        },
-        {
-          "title": "CRISS: Un chatbot de IA aumentada por recuperación para ayudar a registradores de cáncer",
-          "summary": "Desarrollo de un asistente conversacional para proporcionar acceso rápido y citable a pautas de registro de cáncer.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.29075",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "salud",
-            "IA aumentada"
-          ],
-          "what_changed": "Mejora en la interpretación de estándares complejos de codificación.",
-          "why_it_matters": "Mejora la eficiencia y precisión en el registro de cáncer.",
-          "sector_impact": "Salud"
-        },
-        {
-          "title": "META: Agente de Trading Mejorado por Memoria Episódica para la Toma de Decisiones Financieras",
-          "summary": "Un marco de múltiples agentes que integra memoria episodica para mejorar la toma de decisiones en trading.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.28771",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "finanzas",
-            "trading"
-          ],
-          "what_changed": "Incorporación de memoria episodica en decisiones de trading.",
-          "why_it_matters": "Aumenta la precisión en decisiones financieras críticas.",
-          "sector_impact": "Finanzas"
-        },
-        {
-          "title": "JoyAI-VL-Interaction: Inteligencia de Interacción Visual-Lenguaje en Tiempo Real",
-          "summary": "Un modelo de interacción visual-lenguaje que responde de manera proactiva a eventos en tiempo real.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.14777",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "interacción",
-            "IA visual"
-          ],
-          "what_changed": "Cambio en el paradigma de interacción hacia una respuesta continua y proactiva.",
-          "why_it_matters": "Mejora la capacidad de los modelos para interactuar en ambientes dinámicos.",
-          "sector_impact": "Tecnología"
-        },
-        {
-          "title": "iCoder-27B: Desarrollo Autónomo de Modelos de Codificación",
-          "summary": "Un modelo líder en diseño y optimización con un enfoque en la evolución a través de la auto-mejora.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.29626",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "modelos de codificación",
-            "autonomía"
-          ],
-          "what_changed": "Desarrollo de un modelo de 27B a través de la auto-mejora con mínima intervención humana.",
-          "why_it_matters": "Establece un precedente para desarrollos futuros en IA autónoma.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "La última puerta humana: Ingeniería Desplegada para la Automatización del Gobierno",
-          "summary": "Un marco de sustitución de tareas para la automatización del gobierno digital.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.29345",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "gubernamental",
-            "automación"
-          ],
-          "what_changed": "Desarrollo de un marco para integrar la automatización en procesos de gobierno.",
-          "why_it_matters": "Promueve la eficiencia en contextos de gobernanza.",
-          "sector_impact": "Gobierno"
-        },
-        {
-          "title": "Acelerador de decisiones con IA: Control del gasto en agentes de codificación",
-          "summary": "Desarrollo de un router personalizable para optimizar costos en el uso de agentes de codificación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.28919",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "eficiencia de costos",
-            "AI"
-          ],
-          "what_changed": "Implementación de un sistema que redistribuye tareas para optimizar gastos.",
-          "why_it_matters": "Reduce costes operativos significativos en la utilización de herramientas de IA.",
-          "sector_impact": "Empresas"
         }
       ]
     }
