@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-10-03",
+      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+      "items": [
+        {
+          "title": "ChatGPT puede probar ropa virtualmente",
+          "summary": "OpenAI lanza nuevas funciones de compra en ChatGPT que permiten a los usuarios probar ropa y accesorios usando sus propias fotos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+          "relevance_score": 12,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "experiencia de usuario",
+            "compra"
+          ],
+          "what_changed": "Nuevas funcionalidades de prueba de ropa en ChatGPT.",
+          "why_it_matters": "Mejora la experiencia de compra en línea y la interacción con el usuario.",
+          "sector_impact": "Moda y comercio electrónico"
+        },
+        {
+          "title": "Shopify lanza Canvas para construir tiendas online con IA",
+          "summary": "Canvas permite a los comerciantes crear y personalizar sus tiendas en línea conversando con el agente de IA Sidekick en tiempo real.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Shopify",
+            "IA",
+            "eCommerce"
+          ],
+          "what_changed": "Introducción de una herramienta que mejora la creación de tiendas online.",
+          "why_it_matters": "Facilita la entrada de usuarios en el comercio electrónico mediante interacción natural.",
+          "sector_impact": "Comercio electrónico"
+        },
+        {
+          "title": "Generación de datos de entrenamiento para agentes empresariales",
+          "summary": "AutoSynthData permite la generación de datos necesarios para el entrenamiento de agentes en empresas.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "AutoSynthData",
+            "IA",
+            "entrenamiento"
+          ],
+          "what_changed": "Lanzamiento de una herramienta específica para la creación de datos de entrenamiento.",
+          "why_it_matters": "Optimiza el proceso de entrenamiento de agentes IA en entornos empresariales.",
+          "sector_impact": "Tecnología empresarial"
+        },
+        {
+          "title": "Lista de agentes IA que pueden vivir en tus mensajes de texto",
+          "summary": "Se presenta una lista de los agentes IA más notables que pueden integrarse en la mensajería, desde asistentes generales hasta específicos para viajes y trabajo.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "relevance_score": 10,
+          "status": "new",
+          "tags": [
+            "agentes IA",
+            "mensajería",
+            "asistentes"
+          ],
+          "what_changed": "Compilación de agentes IA útiles para la comunicación diaria.",
+          "why_it_matters": "Enriquece la comunicación digital y facilita tareas diarias.",
+          "sector_impact": "Comunicación digital"
+        },
+        {
+          "title": "AI está cambiando el trabajo de los desarrolladores",
+          "summary": "Sobre habilidades que los desarrolladores deben fortalecer en el contexto de la IA, incluyendo la dirección de agentes, revisión crítica y juicio técnico.",
+          "category": "framework",
+          "source_name": "GitHub AI",
+          "source_url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "desarrollo",
+            "IA",
+            "habilidades"
+          ],
+          "what_changed": "Enfoque renovado en habilidades críticas para desarrolladores.",
+          "why_it_matters": "Mantiene a los desarrolladores relevantes en un entorno cada vez más automatizado.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "Control de acceso completo a disco en macOS por riesgos de agentes IA",
+          "summary": "Apple anunciará nuevos controles de acceso completo al disco en macOS debido a los riesgos de los agentes IA.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "apple",
+            "IA"
+          ],
+          "what_changed": "Implementación de nuevas medidas de seguridad en macOS.",
+          "why_it_matters": "Protege los datos de los usuarios frente a agentes IA potencialmente dañinos.",
+          "sector_impact": "Seguridad informática"
+        },
+        {
+          "title": "Grok, chatbot de Musk, sugiere captura de presidente venezolano",
+          "summary": "Se reporta que el chatbot Grok alentó a Trump a capturar al presidente de Venezuela.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Grok",
+            "politica",
+            "IA"
+          ],
+          "what_changed": "Se revela el uso controversial de un chatbot de IA.",
+          "why_it_matters": "Plantea preguntas sobre la ética en la IA y su uso en la política.",
+          "sector_impact": "Ética tecnológica"
+        }
+      ]
+    },
+    {
       "date": "2026-10-02",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -716,131 +841,6 @@
           "what_changed": "Publicación de métodos para acelerar flujos de trabajo de robótica.",
           "why_it_matters": "Facilita la adopción de tecnologías robóticas avanzadas.",
           "sector_impact": "Nuevo marco para la investigación y desarrollo en robótica."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-          "summary": "Meta ha lanzado su agente personal de IA, Muse, que está superando a ChatGPT en popularidad y funcionalidad.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "AI",
-            "Muse"
-          ],
-          "what_changed": "Lanzamiento y adopción masiva de Muse.",
-          "why_it_matters": "Representa un avance significativo en la competencia en el sector de asistentes virtuales.",
-          "sector_impact": "Altamente impactante en la adopción de IA personal."
-        },
-        {
-          "title": "Google Beam expands with new regions, partners, and customers",
-          "summary": "La expansión de Google Beam a nuevos países y asociaciones puede mejorar la infraestructura de IA global.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google Beam",
-            "expansión",
-            "IA"
-          ],
-          "what_changed": "Expansión a cinco nuevos países.",
-          "why_it_matters": "Facilita la adopción y el uso de IA en nuevos territorios.",
-          "sector_impact": "Mejora la infraestructura de IA en mercados emergentes."
-        },
-        {
-          "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-          "summary": "Meta está promocionando activamente su aplicación Muse, que está dominando las listas de aplicaciones.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "Muse",
-            "promoción"
-          ],
-          "what_changed": "Incremento en la promoción y adopción de la app Muse.",
-          "why_it_matters": "Mostrar el potencial de Muse en el mercado de aplicaciones.",
-          "sector_impact": "Gran impacto en la comercialización de agentes de IA."
-        },
-        {
-          "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-          "summary": "Anthropic ha firmado un acuerdo significativo con Akamai para infraestructura en la nube.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Anthropic",
-            "Akamai",
-            "infraestructura"
-          ],
-          "what_changed": "Acuerdo de financiamiento a largo plazo con Akamai.",
-          "why_it_matters": "Refuerza la infraestructura y capacidades de IA de Anthropic.",
-          "sector_impact": "Fortalece el ecosistema de servicios de IA."
-        },
-        {
-          "title": "Meta opens early access program for new Muse features",
-          "summary": "Meta ha lanzado un programa de acceso anticipado para nuevas características de Muse.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Muse",
-            "características",
-            "acceso anticipado"
-          ],
-          "what_changed": "Implementación de un programa de acceso anticipado.",
-          "why_it_matters": "Permite la retroalimentación temprana y mejora del producto.",
-          "sector_impact": "Influencia en el desarrollo futuro de IA personal."
-        },
-        {
-          "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
-          "summary": "Problemas de seguridad en apps de IA que usan Supabase permitieron filtraciones de datos.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Supabase",
-            "seguridad",
-            "datos"
-          ],
-          "what_changed": "Descubrimientos de filtraciones de datos en aplicaciones de IA.",
-          "why_it_matters": "Resalta la importancia de la seguridad en aplicaciones de IA.",
-          "sector_impact": "Impacto en la confianza del consumidor hacia aplicaciones de IA."
-        },
-        {
-          "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-          "summary": "Crusoe ha cancelado un proyecto significativo de infraestructura relacionada con IA.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Crusoe",
-            "infraestructura",
-            "IA"
-          ],
-          "what_changed": "Abandono de un plan para usar turbinas en centros de datos.",
-          "why_it_matters": "Indica posibles desafíos en el financiamiento de infraestructura de IA.",
-          "sector_impact": "Efecto en la evolución de la infraestructura de centros de datos."
         }
       ]
     }

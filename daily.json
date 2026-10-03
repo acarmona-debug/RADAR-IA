@@ -1,121 +1,127 @@
 {
-  "date": "2026-10-02",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Recopilación de novedades relevantes en el ámbito de inteligencia artificial.",
-  "opening_message": "Este radar se centra en herramientas, modelos y características innovadoras en IA, ignorando temas políticos y regulatorios.",
+  "date": "2026-10-03",
+  "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+  "intro_message": "Descubre las últimas herramientas, modelos y funcionalidades en el mundo de la inteligencia artificial que están transformando el trabajo de los desarrolladores.",
+  "opening_message": "Aquí están las actualizaciones más relevantes que debes conocer.",
   "items": [
     {
-      "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
-      "summary": "VeriHarness es un sistema que mejora la verificación de resultados de agentes en tareas complejas.",
+      "title": "ChatGPT puede probar ropa virtualmente",
+      "summary": "OpenAI lanza nuevas funciones de compra en ChatGPT que permiten a los usuarios probar ropa y accesorios usando sus propias fotos.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.00972",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "relevance_score": 12,
+      "status": "new",
+      "tags": [
+        "ChatGPT",
+        "experiencia de usuario",
+        "compra"
+      ],
+      "what_changed": "Nuevas funcionalidades de prueba de ropa en ChatGPT.",
+      "why_it_matters": "Mejora la experiencia de compra en línea y la interacción con el usuario.",
+      "sector_impact": "Moda y comercio electrónico"
+    },
+    {
+      "title": "Shopify lanza Canvas para construir tiendas online con IA",
+      "summary": "Canvas permite a los comerciantes crear y personalizar sus tiendas en línea conversando con el agente de IA Sidekick en tiempo real.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "verificación",
-        "agentes",
-        "IA avanzada"
+        "Shopify",
+        "IA",
+        "eCommerce"
       ],
-      "what_changed": "Presentación de un mecanismo de verificación basado en evidencia.",
-      "why_it_matters": "Aumenta la precisión en la verificación de los outputs de modelos de IA.",
-      "sector_impact": "Mejora en tareas complejas en múltiples sectores."
+      "what_changed": "Introducción de una herramienta que mejora la creación de tiendas online.",
+      "why_it_matters": "Facilita la entrada de usuarios en el comercio electrónico mediante interacción natural.",
+      "sector_impact": "Comercio electrónico"
     },
     {
-      "title": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
-      "summary": "SRE-Bench es un nuevo estándar para evaluar la ingeniería inversa de software.",
+      "title": "Generación de datos de entrenamiento para agentes empresariales",
+      "summary": "AutoSynthData permite la generación de datos necesarios para el entrenamiento de agentes en empresas.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.11469",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "ingeniería inversa"
+        "AutoSynthData",
+        "IA",
+        "entrenamiento"
       ],
-      "what_changed": "Desarrollo de un banco de pruebas para evaluar modelos de ingeniería inversa.",
-      "why_it_matters": "Proporciona un marco sólido para evaluar el progreso en ciberseguridad.",
-      "sector_impact": "Impulsa la seguridad de software crítico en diversas industrias."
+      "what_changed": "Lanzamiento de una herramienta específica para la creación de datos de entrenamiento.",
+      "why_it_matters": "Optimiza el proceso de entrenamiento de agentes IA en entornos empresariales.",
+      "sector_impact": "Tecnología empresarial"
     },
     {
-      "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
-      "summary": "Mem++ es un marco de memoria no destructiva para la gestión de documentos en organizaciones.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.02002",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "memoria",
-        "organizacional"
-      ],
-      "what_changed": "Introducción de una metodología que preserva versiones de documentos.",
-      "why_it_matters": "Mejora la respuesta a preguntas históricas en un contexto organizativo.",
-      "sector_impact": "Fortalece la gestión del conocimiento en empresas."
-    },
-    {
-      "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
-      "summary": "Un nuevo marco para la verificación auditable en matemáticas y software.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.00885",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "matemáticas",
-        "verificación"
-      ],
-      "what_changed": "Desarrollo de un sistema que mejora la trazabilidad y auditoría de razonamientos.",
-      "why_it_matters": "Facilita la verificación de la exactitud en desarrollos formales.",
-      "sector_impact": "Mejora la calidad en el desarrollo de software crítico."
-    },
-    {
-      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
-      "summary": "Una nueva abstracción para gestionar la memoria compartida en sistemas de IA.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.10144",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "personalización",
-        "memoria compartida"
-      ],
-      "what_changed": "Implementación de un sistema que mejora la personalización en agentes.",
-      "why_it_matters": "Optimiza la eficiencia y el costo en el uso de sistemas de IA.",
-      "sector_impact": "Aumenta la efectividad de las aplicaciones de IA en entornos multijugador."
-    },
-    {
-      "title": "Chaining Skills to Hijack LLM Agents",
-      "summary": "Un estudio sobre cómo encadenar habilidades en agentes LLM puede ser explotado.",
+      "title": "Lista de agentes IA que pueden vivir en tus mensajes de texto",
+      "summary": "Se presenta una lista de los agentes IA más notables que pueden integrarse en la mensajería, desde asistentes generales hasta específicos para viajes y trabajo.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.01564",
-      "relevance_score": 6,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "relevance_score": 10,
+      "status": "new",
+      "tags": [
+        "agentes IA",
+        "mensajería",
+        "asistentes"
+      ],
+      "what_changed": "Compilación de agentes IA útiles para la comunicación diaria.",
+      "why_it_matters": "Enriquece la comunicación digital y facilita tareas diarias.",
+      "sector_impact": "Comunicación digital"
+    },
+    {
+      "title": "AI está cambiando el trabajo de los desarrolladores",
+      "summary": "Sobre habilidades que los desarrolladores deben fortalecer en el contexto de la IA, incluyendo la dirección de agentes, revisión crítica y juicio técnico.",
+      "category": "framework",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "desarrollo",
+        "IA",
+        "habilidades"
+      ],
+      "what_changed": "Enfoque renovado en habilidades críticas para desarrolladores.",
+      "why_it_matters": "Mantiene a los desarrolladores relevantes en un entorno cada vez más automatizado.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "Control de acceso completo a disco en macOS por riesgos de agentes IA",
+      "summary": "Apple anunciará nuevos controles de acceso completo al disco en macOS debido a los riesgos de los agentes IA.",
+      "category": "framework",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
         "seguridad",
-        "explotación"
+        "apple",
+        "IA"
       ],
-      "what_changed": "Revelación de cómo los agentes pueden ser manipulados a través de cadenas de habilidades.",
-      "why_it_matters": "Destaca la necesidad de defensas robustas en sistemas de IA.",
-      "sector_impact": "Impulsa el interés en la seguridad de IA en diversos campos."
+      "what_changed": "Implementación de nuevas medidas de seguridad en macOS.",
+      "why_it_matters": "Protege los datos de los usuarios frente a agentes IA potencialmente dañinos.",
+      "sector_impact": "Seguridad informática"
     },
     {
-      "title": "Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
-      "summary": "Un marco para la evaluación continua de habilidades en agentes de IA empresariales.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.01833",
+      "title": "Grok, chatbot de Musk, sugiere captura de presidente venezolano",
+      "summary": "Se reporta que el chatbot Grok alentó a Trump a capturar al presidente de Venezuela.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "evaluación",
-        "habilidades"
+        "Grok",
+        "politica",
+        "IA"
       ],
-      "what_changed": "Introducción de chequeos de conducta en procesos para agentes en evolución.",
-      "why_it_matters": "Garantiza la adaptabilidad y precisión de los agentes de IA.",
-      "sector_impact": "Mejora la efectividad de los robots en entornos empresariales."
+      "what_changed": "Se revela el uso controversial de un chatbot de IA.",
+      "why_it_matters": "Plantea preguntas sobre la ética en la IA y su uso en la política.",
+      "sector_impact": "Ética tecnológica"
     }
   ]
 }
