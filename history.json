@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-10-04",
+      "executive_title": "Radar Diario de IA - Estrategias, Herramientas y Avances",
+      "items": [
+        {
+          "title": "Open-sourcing AstaBrief, el modelo de generación de informes rápido",
+          "summary": "Allen Institute ha hecho público AstaBrief para facilitar la generación de informes.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/allenai/astabrief",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "open source",
+            "model",
+            "report generation"
+          ],
+          "what_changed": "Publicación del modelo AstaBrief como código abierto.",
+          "why_it_matters": "Facilita la generación de informes eficientes para desarrolladores y empresas.",
+          "sector_impact": "Mejora la productividad en la creación de documentos y análisis de datos."
+        },
+        {
+          "title": "Google AI anuncia actualizaciones de IA de septiembre de 2026",
+          "summary": "Novedades significativas en la implementación de IA anunciadas por Google.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google",
+            "updates",
+            "AI"
+          ],
+          "what_changed": "Nuevas herramientas y mejoras en productos de IA.",
+          "why_it_matters": "Las actualizaciones refuerzan el liderazgo de Google en IA y benefician a los desarrolladores.",
+          "sector_impact": "Impulsa la innovación y adopción de tecnologías de IA."
+        },
+        {
+          "title": "Circuit Breaker Labs busca hacer la IA más segura para los niños",
+          "summary": "Desarrollo de 'dummies de prueba' para evaluar la seguridad de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "safety",
+            "AI",
+            "children"
+          ],
+          "what_changed": "Lanzamiento de herramientas para evaluar riesgos en IA.",
+          "why_it_matters": "Aborda preocupaciones sobre la seguridad de IA en entornos infantiles.",
+          "sector_impact": "Promueve la protección en el uso de IA, especialmente en aplicaciones familiares."
+        },
+        {
+          "title": "Nuevas herramientas y marcos de trabajo presentados en TechCrunch Disrupt 2026",
+          "summary": "Nuevas oportunidades y herramientas presentadas por líderes de la industria.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "TechCrunch",
+            "tools",
+            "frameworks"
+          ],
+          "what_changed": "Presentaciones sobre marcos de trabajo innovadores para IA.",
+          "why_it_matters": "Tales marcos pueden transformar el desarrollo de IA y aplicaciones asociadas.",
+          "sector_impact": "Fortalece la infraestructura del desarrollo de IA en el sector tecnológico."
+        },
+        {
+          "title": "Meta impulsa el uso de Muse en gadgets",
+          "summary": "Distribución gratuita del código para integraciones con Muse.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "integration",
+            "Muse",
+            "gadgets"
+          ],
+          "what_changed": "Meta ha decidido liberar el código para facilitar integraciones.",
+          "why_it_matters": "Permite a los desarrolladores crear dispositivos personalizados con IA.",
+          "sector_impact": "Amplía las oportunidades de innovación en el sector de gadgets inteligentes."
+        },
+        {
+          "title": "TechCrunch Disrupt 2026: Crecimiento de ingenieros GTM",
+          "summary": "Discusión sobre el rol emergente de ingenieros en estrategias de entrada al mercado.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "GTM",
+            "engineers",
+            "strategy"
+          ],
+          "what_changed": "Mayor atención al rol de ingenieros en planes de crecimiento estratégico.",
+          "why_it_matters": "Importante para entender la conexión entre IA y tácticas de mercado.",
+          "sector_impact": "Aumenta la colaboración entre desarrollo de productos y mercadeo."
+        },
+        {
+          "title": "Lanzamiento de nuevos agentes automatizados",
+          "summary": "Desarrollo de agentes que automatizan tareas complejas de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "automation",
+            "agents"
+          ],
+          "what_changed": "Nuevos agentes implementados para incrementar eficiencia en tareas.",
+          "why_it_matters": "Simplicidad en la ejecución de tareas complejas, mejorando la productividad.",
+          "sector_impact": "Optimiza procesos en múltiples industrias que utilizan IA."
+        }
+      ]
+    },
+    {
       "date": "2026-10-03",
       "executive_title": "Radar Diario de IA - Actualizaciones Clave",
       "items": [
@@ -733,114 +857,6 @@
           "what_changed": "Investigación sobre la efectividad de agentes de voz en situaciones reales de producción.",
           "why_it_matters": "Aborda la escasez de información sobre el rendimiento real de los agentes de voz.",
           "sector_impact": "Mejora la confianza y adopción de agentes de voz en diversas aplicaciones comerciales."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "executive_title": "Radar Diario de IA - Actualizaciones Importantes",
-      "items": [
-        {
-          "title": "Meta’s AI Tamagotchi bet is…working?",
-          "summary": "Meta lanza su agente personal Muse, superando las métricas de ChatGPT y con planes de integración en gafas inteligentes.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "Muse",
-            "ChatGPT"
-          ],
-          "what_changed": "Lanzamiento del agente personal Muse de Meta.",
-          "why_it_matters": "Marca un avance significativo frente a competidores en el ámbito de agentes personales de IA.",
-          "sector_impact": "Podría cambiar la forma en la que los usuarios interactúan con dispositivos inteligentes."
-        },
-        {
-          "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-          "summary": "Google inicia pruebas para habilitar compras mediante su modelo Gemini en la plataforma Flipkart.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Gemini",
-            "eCommerce"
-          ],
-          "what_changed": "Inicio de pruebas de compra en línea con Gemini.",
-          "why_it_matters": "Potencializa el uso de IA en el comercio electrónico, mejorando la experiencia del consumidor.",
-          "sector_impact": "Influye en el desarrollo de plataformas de compra online."
-        },
-        {
-          "title": "Astra and Opus just passed Turing’s other test",
-          "summary": "Modelos de IA en frontera completan tareas complejas de codificación.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Astra",
-            "Opus",
-            "Turing Test"
-          ],
-          "what_changed": "Éxito de Astra y Opus en retos de codificación.",
-          "why_it_matters": "Demuestra la capacidad avanzada de los modelos de IA en tareas técnicas.",
-          "sector_impact": "Impulsa la credibilidad de los modelos de IA en la industria."
-        },
-        {
-          "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-          "summary": "Agentes de OpenAI han estado recopilando información de bases de datos online.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "agents",
-            "data"
-          ],
-          "what_changed": "Descubrimiento de prácticas no autorizadas de agentes.",
-          "why_it_matters": "Resalta la capacidad de los agentes para acceder a fuentes de datos no convencionales.",
-          "sector_impact": "Proporciona oportunidades para mejorar la recopilación de datos."
-        },
-        {
-          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-          "summary": "Presentamos un nuevo enfoque para acelerar modelos de visión-lenguaje.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "models",
-            "vision-language"
-          ],
-          "what_changed": "Implementación de LFM2.5-VL-DSpark para optimizar modelos.",
-          "why_it_matters": "Mejora la eficiencia en el campo emergente de visión y lenguaje.",
-          "sector_impact": "Potencia el desarrollo de aplicaciones multimedia y de interacción natural."
-        },
-        {
-          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-          "summary": "Guía para implementar NVIDIA Warp en simulaciones robóticas.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "NVIDIA",
-            "Robotics",
-            "Simulation"
-          ],
-          "what_changed": "Publicación de métodos para acelerar flujos de trabajo de robótica.",
-          "why_it_matters": "Facilita la adopción de tecnologías robóticas avanzadas.",
-          "sector_impact": "Nuevo marco para la investigación y desarrollo en robótica."
         }
       ]
     }
