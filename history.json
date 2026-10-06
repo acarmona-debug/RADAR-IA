@@ -1,6 +1,126 @@
 {
   "days": [
     {
+      "date": "2026-10-06",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+          "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "startups",
+            "credit"
+          ],
+          "what_changed": "Introducción de un programa de soporte para startups.",
+          "why_it_matters": "Ofrece oportunidades de desarrollo a nuevas empresas en el sector de la IA.",
+          "sector_impact": "Potencial aumento en la innovación y la adopción de IA."
+        },
+        {
+          "title": "ReviewBench: An open benchmark for AI code review",
+          "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests.",
+          "category": "tool",
+          "source_name": "GitHub AI",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "code review",
+            "GitHub"
+          ],
+          "what_changed": "Lanzamiento de un nuevo estándar para evaluar agentes de revisión de código.",
+          "why_it_matters": "Mejora la calidad y eficiencia de las revisiones de código en entornos de desarrollo.",
+          "sector_impact": "Impacto significativo en la productividad de los desarrolladores."
+        },
+        {
+          "title": "Instinct brings its AI agent to group chats",
+          "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "AI agent",
+            "group chats"
+          ],
+          "what_changed": "Implementación de un agente de IA en chats grupales.",
+          "why_it_matters": "Facilita la colaboración entre amigos en diversas actividades.",
+          "sector_impact": "Innovación en la comunicación social y la cooperación."
+        },
+        {
+          "title": "Reflection debuts Beam, an open-weight AI model",
+          "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "AI model",
+            "enterprises"
+          ],
+          "what_changed": "Lanzamiento de un modelo de IA de código abierto dirigido a empresas.",
+          "why_it_matters": "Proporciona opciones más asequibles para la implementación de IA.",
+          "sector_impact": "Fortalece la competitividad en el mercado de IA empresarial."
+        },
+        {
+          "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+          "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "AI interviewer",
+            "employment"
+          ],
+          "what_changed": "Desarrollo de un entrevistador de IA que ha realizado cientos de miles de entrevistas.",
+          "why_it_matters": "Transforma el proceso de selección de personal.",
+          "sector_impact": "Impacto positivo en la eficiencia y la dinámica de entrevistas laborales."
+        },
+        {
+          "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+          "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "AI assistant",
+            "shopping"
+          ],
+          "what_changed": "Lanzamiento de un asistente de compras de IA en TikTok.",
+          "why_it_matters": "Incorpora IA en la experiencia de compra online.",
+          "sector_impact": "Revoluciona la forma en que los consumidores interactúan con el comercio electrónico."
+        },
+        {
+          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+          "summary": "Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "multimodal model",
+            "AI"
+          ],
+          "what_changed": "Introducción de un modelo multimodal innovador y competitivo.",
+          "why_it_matters": "Un avance significativo en la tecnología de IA que puede cambiar dinámicas de mercado.",
+          "sector_impact": "Promueve la competencia en el desarrollo de modelos de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "executive_title": "Radar Diario de IA - Estrategias, Herramientas y Avances",
       "items": [
@@ -723,140 +843,6 @@
           "what_changed": "Introducción de un enfoque más efectivo para la cuantización de modelos de lenguaje.",
           "why_it_matters": "Reduce la carga computacional manteniendo la precisión del modelo.",
           "sector_impact": "Facilita la implementación de modelos de IA en dispositivos con recursos limitados."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
-      "items": [
-        {
-          "title": "Agentick: Un Benchmark Unificado para Agentes de Toma de Decisiones Secuenciales",
-          "summary": "Agentick proporciona un benchmark para evaluar agentes en tareas de toma de decisiones secuenciales, cubriendo múltiples paradigmas de agentes y revelando áreas de mejora.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.06869",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "benchmark"
-          ],
-          "what_changed": "Introducción de un benchmark unificado que permite evaluar agentes en un mismo marco.",
-          "why_it_matters": "Facilita la comparación y mejora de distintos tipos de agentes en entornos complejos.",
-          "sector_impact": "Grandes implicaciones para el desarrollo de agentes autónomos y sistemas de IA."
-        },
-        {
-          "title": "Grid-Orch: Un Orquestador Potenciado por LLM para Simulación de Redes Eléctricas",
-          "summary": "Grid-Orch integra LLM con herramientas de análisis de sistemas eléctricos, permitiendo a los ingenieros usar lenguaje natural para realizar simulaciones complejas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.12728",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "LLM"
-          ],
-          "what_changed": "Lanzamiento de una plataforma interactiva que mejora radicalmente la accesibilidad de análisis complejos.",
-          "why_it_matters": "Reduce horas de trabajo en análisis eléctricos a pocos minutos, aumentando la eficiencia del personal técnico.",
-          "sector_impact": "Transforma el análisis y gestión de redes eléctricas en entornos críticos."
-        },
-        {
-          "title": "VLAA-GUI: Un Framework Modular para Automatización de Interfaz Gráfica",
-          "summary": "VLAA-GUI combina múltiples componentes modulares para mejorar la eficiencia y eficacia de los agentes en la automatización de GUI.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.21375",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "GUI"
-          ],
-          "what_changed": "Presentación de un framework modular que mejora el rendimiento de agentes en tareas de GUI.",
-          "why_it_matters": "Aumenta la eficacia de las interacciones automatizadas y reduce fallos en ejecutaciones repetitivas.",
-          "sector_impact": "Mejora los sistemas de automatización de interfaces gráficas ofreciendo un control más robusto."
-        },
-        {
-          "title": "DeepEdu-v1: Agentes de LLM para la Educación en Vietnam",
-          "summary": "DeepEdu-v1 es un sistema de tutoría en IA adaptado a las necesidades educativas de Vietnam, integrando un motor eficiente de inferencia y curación.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.31568",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "educación",
-            "tutoría"
-          ],
-          "what_changed": "Desarrollo de un sistema de tutoría que respeta la soberanía de datos y mejora la relevancia del contenido.",
-          "why_it_matters": "Ofrece soluciones adaptadas al contexto nacional, mejorando los resultados educativos.",
-          "sector_impact": "Impacto significativo en la calidad educativa en países en vías de desarrollo."
-        },
-        {
-          "title": "LogicTree-RAG: Generación Aumentada por Recuperación para Redacción de Patentes",
-          "summary": "LogicTree-RAG utiliza un árbol lógico para guiar la generación de textos técnicos, mejorando la calidad y coherencia de documentos legales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.30943",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "patentes",
-            "generación de textos"
-          ],
-          "what_changed": "Implementación de un enfoque estructurado para mejorar la redacción de patentes.",
-          "why_it_matters": "Facilita la creación de documentos más complejos, legales y técnicamente precisos.",
-          "sector_impact": "Transforma el proceso de redacción en la industria de la propiedad intelectual."
-        },
-        {
-          "title": "BabelCoder: Traducción de Código con Alineación de Especificaciones",
-          "summary": "BabelCoder es un marco que permite la traducción de código entre lenguajes mediante el uso de agentes especializados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.06902",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "traducción de código",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un marco que mejora la precisión en la traducción de código utilizando colaboradores especializados.",
-          "why_it_matters": "Reduce la carga de trabajo en migraciones de código, aumentando la eficiencia del desarrollo.",
-          "sector_impact": "Facilita la transición entre lenguajes de programación en entornos de desarrollo variados."
-        },
-        {
-          "title": "Intent2Tc: Traducción Automatizada de Intenciones a Control de Tráfico",
-          "summary": "Intent2Tc es un marco que traduce intenciones de alta calidad en políticas de gestión de tráfico, mejorando la automatización en redes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.31397",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "gestión de tráfico",
-            "automatización"
-          ],
-          "what_changed": "Presentación de un modelo automatizado para traducir intenciones empresariales a acciones de red.",
-          "why_it_matters": "Mejora la consistencia semántica y la fiabilidad de las configuraciones en redes.",
-          "sector_impact": "Aumenta la efectividad de la gestión de tráfico en entornos de red complejos."
-        },
-        {
-          "title": "Evaluación de Agentes de Voz en Tiempo Real: Resultados y Componentes",
-          "summary": "Un análisis de los agentes de voz en tiempo real, evaluando su calidad de componente y los resultados en escenarios de uso activos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.30798",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "voz",
-            "agentes"
-          ],
-          "what_changed": "Investigación sobre la efectividad de agentes de voz en situaciones reales de producción.",
-          "why_it_matters": "Aborda la escasez de información sobre el rendimiento real de los agentes de voz.",
-          "sector_impact": "Mejora la confianza y adopción de agentes de voz en diversas aplicaciones comerciales."
         }
       ]
     }
