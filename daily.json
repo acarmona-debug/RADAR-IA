@@ -1,122 +1,133 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre herramientas, modelos y nuevas integraciones en el mundo de la inteligencia artificial.",
-  "opening_message": "Aquí tienes las últimas novedades relevantes en el ámbito de la IA.",
+  "intro_message": "Resumen de las novedades más relevantes en herramientas y modelos de IA.",
+  "opening_message": "A continuación, se presentan los desarrollos más importantes que están impactando el mundo de la inteligencia artificial.",
   "items": [
     {
-      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
-      "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+      "title": "MiniScope: Autorización de Agentes con Permisos de Mínima Privilegio",
+      "summary": "MiniScope es un sistema de permisos para agentes que minimiza las confirmaciones de permiso al automatizar la gestión de jerarquías de permisos.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
-      "relevance_score": 7,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2512.11147",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Claude",
-        "startups",
-        "credit"
+        "seguridad",
+        "IA",
+        "permisos",
+        "automatización"
       ],
-      "what_changed": "Introducción de un programa de soporte para startups.",
-      "why_it_matters": "Ofrece oportunidades de desarrollo a nuevas empresas en el sector de la IA.",
-      "sector_impact": "Potencial aumento en la innovación y la adopción de IA."
+      "what_changed": "Se presenta un modelo jerárquico para permisos que mejora la experiencia del usuario.",
+      "why_it_matters": "Aborda el desafío crítico de la gestión de permisos en IA, equilibrando seguridad y usabilidad.",
+      "sector_impact": "Ciberseguridad en el uso de IA."
     },
     {
-      "title": "ReviewBench: An open benchmark for AI code review",
-      "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests.",
-      "category": "tool",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "code review",
-        "GitHub"
-      ],
-      "what_changed": "Lanzamiento de un nuevo estándar para evaluar agentes de revisión de código.",
-      "why_it_matters": "Mejora la calidad y eficiencia de las revisiones de código en entornos de desarrollo.",
-      "sector_impact": "Impacto significativo en la productividad de los desarrolladores."
-    },
-    {
-      "title": "Instinct brings its AI agent to group chats",
-      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "AI agent",
-        "group chats"
-      ],
-      "what_changed": "Implementación de un agente de IA en chats grupales.",
-      "why_it_matters": "Facilita la colaboración entre amigos en diversas actividades.",
-      "sector_impact": "Innovación en la comunicación social y la cooperación."
-    },
-    {
-      "title": "Reflection debuts Beam, an open-weight AI model",
-      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations.",
+      "title": "WorldSolver: Simulación de Dinámicas Físicas mediante Agentes LLM",
+      "summary": "WorldSolver es una plataforma que evalúa la capacidad de los agentes LLM para generar soluciones de simulación física.",
       "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.08720",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "simulación",
+        "IA",
+        "física",
+        "agentes"
+      ],
+      "what_changed": "Introduce una evaluación de tareas de simulación física a agentes LLM.",
+      "why_it_matters": "Impulsa el desarrollo de IA en campos como la ingeniería y los videojuegos.",
+      "sector_impact": "Industrias de entretenimiento y simulaciones científicas."
+    },
+    {
+      "title": "FlowAgent: Reparación Automática de Programas en Tiempo Real",
+      "summary": "FlowAgent es un agente de IA que repara automáticamente fallos de prueba en flujos de integración continua en Google.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.07289",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "AI model",
-        "enterprises"
+        "programación",
+        "IA",
+        "reparación",
+        "Google"
       ],
-      "what_changed": "Lanzamiento de un modelo de IA de código abierto dirigido a empresas.",
-      "why_it_matters": "Proporciona opciones más asequibles para la implementación de IA.",
-      "sector_impact": "Fortalece la competitividad en el mercado de IA empresarial."
+      "what_changed": "Mejora la eficiencia en la identificación y reparación de fallos en el flujo de trabajo.",
+      "why_it_matters": "Aumenta la productividad de los desarrolladores al reducir tiempos de espera.",
+      "sector_impact": "Desarrollo de software y tecnología."
     },
     {
-      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-      "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "AI interviewer",
-        "employment"
-      ],
-      "what_changed": "Desarrollo de un entrevistador de IA que ha realizado cientos de miles de entrevistas.",
-      "why_it_matters": "Transforma el proceso de selección de personal.",
-      "sector_impact": "Impacto positivo en la eficiencia y la dinámica de entrevistas laborales."
-    },
-    {
-      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-      "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "AI assistant",
-        "shopping"
-      ],
-      "what_changed": "Lanzamiento de un asistente de compras de IA en TikTok.",
-      "why_it_matters": "Incorpora IA en la experiencia de compra online.",
-      "sector_impact": "Revoluciona la forma en que los consumidores interactúan con el comercio electrónico."
-    },
-    {
-      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "summary": "Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "title": "DrugMCTS: Framework de Reciclaje de Fármacos",
+      "summary": "DrugMCTS combina multi-agente, RAG y búsqueda en árbol de Monte Carlo para el reciclaje de fármacos.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2507.07426",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "multimodal model",
-        "AI"
+        "salud",
+        "IA",
+        "fármacos",
+        "colaboración"
       ],
-      "what_changed": "Introducción de un modelo multimodal innovador y competitivo.",
-      "why_it_matters": "Un avance significativo en la tecnología de IA que puede cambiar dinámicas de mercado.",
-      "sector_impact": "Promueve la competencia en el desarrollo de modelos de IA."
+      "what_changed": "Integra múltiples enfoques para mejorar la búsqueda y análisis en reciclaje de fármacos.",
+      "why_it_matters": "Expande la aplicación de IA en biomedicina y farmacología.",
+      "sector_impact": "Industrias farmacéuticas y de investigación médica."
+    },
+    {
+      "title": "AegisFlow: Autonomía en la Remediación de Ecosistemas de Datos Frágiles",
+      "summary": "AegisFlow cierra la brecha entre la detección y la resolución de fallas en pipelines de datos mediante agentes de IA.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.06971",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "datos",
+        "IA",
+        "remediación",
+        "eficiencia"
+      ],
+      "what_changed": "Proporciona un enfoque sistemático y autónomo para la reparación de datos.",
+      "why_it_matters": "Reduce el tiempo de reparación significativamente, mejorando la eficiencia operativa.",
+      "sector_impact": "Tecnologías de información y automación en datos."
+    },
+    {
+      "title": "ServeLearnBench: Mejora Continua de Agentes a Través de la Experiencia",
+      "summary": "ServeLearnBench evalúa la capacidad de los agentes de IA para aprender y adaptarse en entornos en evolución.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.07792",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "aprendizaje",
+        "IA",
+        "adaptación"
+      ],
+      "what_changed": "Introduce un marco evaluativo para la mejora continua de agentes en entornos de información dinámica.",
+      "why_it_matters": "ServeLearnBench evalúa la capacidad de los agentes de IA para aprender y adaptarse en entornos en evolución.",
+      "sector_impact": "Inteligencia artificial en entornos operacionales."
+    },
+    {
+      "title": "S1-MAS: Colaboración Multi-Agente Eficiente en Recursos",
+      "summary": "S1-MAS es un marco que mejora la colaboración entre agentes al reducir el consumo de recursos y el tiempo de respuesta.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.08155",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "colaboración",
+        "IA",
+        "eficiencia",
+        "multi-agente"
+      ],
+      "what_changed": "Desacopla la coordinación de las decisiones de razonamiento, mejorando la eficiencia.",
+      "why_it_matters": "S1-MAS es un marco que mejora la colaboración entre agentes al reducir el consumo de recursos y el tiempo de respuesta.",
+      "sector_impact": "Servicios web y aplicaciones de IA."
     }
   ]
 }
