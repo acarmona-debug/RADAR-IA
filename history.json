@@ -1,6 +1,126 @@
 {
   "days": [
     {
+      "date": "2026-10-08",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Clave",
+      "items": [
+        {
+          "title": "HERMES: Harness Engineering Framework",
+          "summary": "Una nueva arquitectura que mejora la ingeniería de software mediante la utilización de Dev-Primitives, facilitando el trabajo de agentes a lo largo de flujos de trabajo complejos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.07832",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Dev-Primitives",
+            "software engineering",
+            "Large Language Models"
+          ],
+          "what_changed": "Introducción de Dev-Primitives para una mejor interacción entre componentes de software.",
+          "why_it_matters": "Permite una modificación interna más eficiente y mejora la estabilidad en la ejecución de tareas complejas.",
+          "sector_impact": "Automatización de flujos de trabajo en programación, impactando a desarrolladores de software."
+        },
+        {
+          "title": "GAMEGO: Entrenamiento de Agentes para Desarrollo de Juegos",
+          "summary": "Framework para generar juegos directamente de consultas breves, optimizando el proceso de creación y asegurando la coherencia en el desarrollo.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.06910",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "game development",
+            "coding agents",
+            "AI frameworks"
+          ],
+          "what_changed": "Desarrollo de un pipeline que transforma semillas de juegos en documentos de requisitos claros.",
+          "why_it_matters": "Facilita la creación de juegos, permitiendo a los desarrolladores concentrarse en la creatividad sin comprometer la calidad.",
+          "sector_impact": "Revoluciona la industria de desarrollo de videojuegos al reducir el tiempo de producción."
+        },
+        {
+          "title": "MemMux: Verificación en Tiempo de Ejecución para Agentes de Codificación",
+          "summary": "Solución para la gestión de recursos en flotas de agentes de codificación, asegurando la correcta asignación de recursos y la verificación durante la ejecución.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.07257",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "resource management",
+            "AI agents"
+          ],
+          "what_changed": "Integración de señales observables para la verificación continua de recursos.",
+          "why_it_matters": "Mejora la eficiencia y la transparencia en la ejecución de múltiples agentes de codificación.",
+          "sector_impact": "Optimiza el uso de recursos en entornos de desarrollo, lo que es esencial para la automatización."
+        },
+        {
+          "title": "CuratorMAS: Automatización de la Curaduría de Datos",
+          "summary": "Marco de colaboración de agentes para la curación automatizada de conjuntos de datos, mejorando la calidad y reduciendo el ruido en los datos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.07075",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "data curation",
+            "multi-agent systems"
+          ],
+          "what_changed": "Descomposición del proceso de curación en etapas programables y paralelizable.",
+          "why_it_matters": "Automatiza la curación y mejora la calidad de los datos, crucial para el aprendizaje automático.",
+          "sector_impact": "Eficientiza procesos de manejo de datos en múltiples dominios."
+        },
+        {
+          "title": "LeanPlan: Planificación Óptima con Heurísticas Generadas por LLM",
+          "summary": "Sistema de planificación que encuentra planes óptimos utilizando heurísticas que son comprobadas automáticamente para su admisibilidad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.08246",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "planning systems",
+            "LLM"
+          ],
+          "what_changed": "Implementación de un ciclo iterativo para mejorar heurísticas en la planificación.",
+          "why_it_matters": "Permite una mejora continua en la generación de planes, crucial para aplicaciones en múltiples áreas.",
+          "sector_impact": "Optimiza sistemas de planificación en contextos que requieren toma de decisiones complejas."
+        },
+        {
+          "title": "BioStudyBench: Evaluando Agentes en Estudios Biomédicos",
+          "summary": "Benchmark para evaluar si los agentes de IA pueden replicar hallazgos de estudios biomédicos a partir de datos públicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.07614",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "biomedical studies",
+            "AI agents"
+          ],
+          "what_changed": "Introducción de un marco para medir la capacidad de los agentes en estudios de largo alcance.",
+          "why_it_matters": "Ayuda a validar la efectividad de modelos de IA en campos críticos como la biomedicina.",
+          "sector_impact": "Impulsará la confianza en el uso de IA en investigaciones médicas."
+        },
+        {
+          "title": "ParanoiaEval: Evaluación de la Gestión de Riesgos en Agentes de Codificación",
+          "summary": "Benchmark para evaluar las capacidades de tratamiento de riesgos en agentes de codificación, abordando la gestión de riesgos de manera unificada.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.08662",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "risk management",
+            "coding agents"
+          ],
+          "what_changed": "Introducción de un marco sistemático para la evaluación de comportamientos de riesgo en agentes.",
+          "why_it_matters": "Proporciona una comprensión más profunda de la gestión de riesgos en ambientes de desarrollo.",
+          "sector_impact": "Mejora la interacción de los desarrolladores con los agentes, reduciendo fricciones operativas."
+        }
+      ]
+    },
+    {
       "date": "2026-10-07",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -741,114 +861,6 @@
           "what_changed": "Innovadora forma de basar la creación de personajes en evidencias empíricas.",
           "why_it_matters": "Aumenta la precisión y aplicabilidad de simulaciones en diversos contextos.",
           "sector_impact": "Fortalece la fiabilidad de modelos en áreas como comportamiento social y marketing."
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agents Most",
-          "summary": "Se analiza cómo los mensajes de error en servidores MCP afectan la recuperación de tareas por parte de agentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.35381",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "MCP",
-            "errores",
-            "agentes"
-          ],
-          "what_changed": "Se propusieron remedios para mejorar la comprensión de los errores.",
-          "why_it_matters": "Optimizar la interpretación de errores puede mejorar la recuperación de tareas en sistemas automatizados.",
-          "sector_impact": "Impacto significativo en la eficacia de los agentes inteligentes."
-        },
-        {
-          "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
-          "summary": "Se presenta un enfoque de meta-raciocinio que mejora la toma de decisiones en agentes inteligentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.38147",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "meta-raciocinio",
-            "agentes",
-            "toma de decisiones"
-          ],
-          "what_changed": "Introducción de un controlador que organiza el razonamiento en ejecuciones complejas.",
-          "why_it_matters": "Permite decisiones más informadas y efectivas en escenarios complejos.",
-          "sector_impact": "Transforma la capacidad operativa en ambientes dinámicos."
-        },
-        {
-          "title": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
-          "summary": "Se introduce un marco de aprendizaje por refuerzo que optimiza modelos basados en resultados.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.36641",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje por refuerzo",
-            "modelo",
-            "supervisión"
-          ],
-          "what_changed": "Se reduce el costo de entrenamiento para modelos de retroalimentación.",
-          "why_it_matters": "Facilita el desarrollo de modelos más robustos con menos recursos.",
-          "sector_impact": "Impulsa la eficiencia en el entrenamiento de modelos de IA."
-        },
-        {
-          "title": "LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension",
-          "summary": "Se presenta un método eficiente para la comprensión rápida de videos largos usando modelos de lenguaje.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.37426",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "comprensión de video",
-            "eficiencia",
-            "modelos de lenguaje"
-          ],
-          "what_changed": "Reducción de tiempo y costo de procesamiento en tareas de video.",
-          "why_it_matters": "Mejora la capacidad de análisis en aplicaciones multimedia.",
-          "sector_impact": "Tendrá implicaciones importantes en la transmisión automatizada de contenido."
-        },
-        {
-          "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
-          "summary": "Evaluación de simuladores de usuario para benchmarking de agentes en tareas empresariales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.38043",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "simuladores de usuario",
-            "benchmarking",
-            "agentes"
-          ],
-          "what_changed": "Introducción de criterios específicos para la evaluación de simuladores.",
-          "why_it_matters": "Permite una mejor calibración de las capacidades de agentes automatizados.",
-          "sector_impact": "Impacto en la formación de agentes más precisos en entornos empresariales."
-        },
-        {
-          "title": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
-          "summary": "Nueva técnica para la recuperación de herramientas en sistemas LLM basados en planificación centrada en la ejecución.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.35811",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "recuperación de herramientas",
-            "planificación",
-            "optimización"
-          ],
-          "what_changed": "Implementación de un modelo que predice el éxito y costo de la ejecución.",
-          "why_it_matters": "Mejora la eficiencia en el uso de recursos durante la recuperación de herramientas.",
-          "sector_impact": "Optimiza la operativa en entornos con múltiples API."
         }
       ]
     }

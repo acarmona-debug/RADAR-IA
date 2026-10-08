@@ -1,133 +1,122 @@
 {
-  "date": "2026-10-07",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las novedades más relevantes en herramientas y modelos de IA.",
-  "opening_message": "A continuación, se presentan los desarrollos más importantes que están impactando el mundo de la inteligencia artificial.",
+  "date": "2026-10-08",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Clave",
+  "intro_message": "Las últimas actualizaciones en herramientas, modelos y frameworks de inteligencia artificial. Enfocándonos en integraciones y nuevas funcionalidades que revolucionan el desarrollo de software.",
+  "opening_message": "A continuación, encuentra los desarrollos más relevantes que transforman el campo de la inteligencia artificial y la automatización.",
   "items": [
     {
-      "title": "MiniScope: Autorización de Agentes con Permisos de Mínima Privilegio",
-      "summary": "MiniScope es un sistema de permisos para agentes que minimiza las confirmaciones de permiso al automatizar la gestión de jerarquías de permisos.",
-      "category": "tool",
+      "title": "HERMES: Harness Engineering Framework",
+      "summary": "Una nueva arquitectura que mejora la ingeniería de software mediante la utilización de Dev-Primitives, facilitando el trabajo de agentes a lo largo de flujos de trabajo complejos.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2512.11147",
+      "source_url": "https://arxiv.org/abs/2610.07832",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "seguridad",
-        "IA",
-        "permisos",
-        "automatización"
+        "Dev-Primitives",
+        "software engineering",
+        "Large Language Models"
       ],
-      "what_changed": "Se presenta un modelo jerárquico para permisos que mejora la experiencia del usuario.",
-      "why_it_matters": "Aborda el desafío crítico de la gestión de permisos en IA, equilibrando seguridad y usabilidad.",
-      "sector_impact": "Ciberseguridad en el uso de IA."
+      "what_changed": "Introducción de Dev-Primitives para una mejor interacción entre componentes de software.",
+      "why_it_matters": "Permite una modificación interna más eficiente y mejora la estabilidad en la ejecución de tareas complejas.",
+      "sector_impact": "Automatización de flujos de trabajo en programación, impactando a desarrolladores de software."
     },
     {
-      "title": "WorldSolver: Simulación de Dinámicas Físicas mediante Agentes LLM",
-      "summary": "WorldSolver es una plataforma que evalúa la capacidad de los agentes LLM para generar soluciones de simulación física.",
-      "category": "model",
+      "title": "GAMEGO: Entrenamiento de Agentes para Desarrollo de Juegos",
+      "summary": "Framework para generar juegos directamente de consultas breves, optimizando el proceso de creación y asegurando la coherencia en el desarrollo.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.08720",
+      "source_url": "https://arxiv.org/abs/2610.06910",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "simulación",
-        "IA",
-        "física",
-        "agentes"
+        "game development",
+        "coding agents",
+        "AI frameworks"
       ],
-      "what_changed": "Introduce una evaluación de tareas de simulación física a agentes LLM.",
-      "why_it_matters": "Impulsa el desarrollo de IA en campos como la ingeniería y los videojuegos.",
-      "sector_impact": "Industrias de entretenimiento y simulaciones científicas."
+      "what_changed": "Desarrollo de un pipeline que transforma semillas de juegos en documentos de requisitos claros.",
+      "why_it_matters": "Facilita la creación de juegos, permitiendo a los desarrolladores concentrarse en la creatividad sin comprometer la calidad.",
+      "sector_impact": "Revoluciona la industria de desarrollo de videojuegos al reducir el tiempo de producción."
     },
     {
-      "title": "FlowAgent: Reparación Automática de Programas en Tiempo Real",
-      "summary": "FlowAgent es un agente de IA que repara automáticamente fallos de prueba en flujos de integración continua en Google.",
+      "title": "MemMux: Verificación en Tiempo de Ejecución para Agentes de Codificación",
+      "summary": "Solución para la gestión de recursos en flotas de agentes de codificación, asegurando la correcta asignación de recursos y la verificación durante la ejecución.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.07289",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2610.07257",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "programación",
-        "IA",
-        "reparación",
-        "Google"
+        "resource management",
+        "AI agents"
       ],
-      "what_changed": "Mejora la eficiencia en la identificación y reparación de fallos en el flujo de trabajo.",
-      "why_it_matters": "Aumenta la productividad de los desarrolladores al reducir tiempos de espera.",
-      "sector_impact": "Desarrollo de software y tecnología."
+      "what_changed": "Integración de señales observables para la verificación continua de recursos.",
+      "why_it_matters": "Mejora la eficiencia y la transparencia en la ejecución de múltiples agentes de codificación.",
+      "sector_impact": "Optimiza el uso de recursos en entornos de desarrollo, lo que es esencial para la automatización."
     },
     {
-      "title": "DrugMCTS: Framework de Reciclaje de Fármacos",
-      "summary": "DrugMCTS combina multi-agente, RAG y búsqueda en árbol de Monte Carlo para el reciclaje de fármacos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2507.07426",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "salud",
-        "IA",
-        "fármacos",
-        "colaboración"
-      ],
-      "what_changed": "Integra múltiples enfoques para mejorar la búsqueda y análisis en reciclaje de fármacos.",
-      "why_it_matters": "Expande la aplicación de IA en biomedicina y farmacología.",
-      "sector_impact": "Industrias farmacéuticas y de investigación médica."
-    },
-    {
-      "title": "AegisFlow: Autonomía en la Remediación de Ecosistemas de Datos Frágiles",
-      "summary": "AegisFlow cierra la brecha entre la detección y la resolución de fallas en pipelines de datos mediante agentes de IA.",
+      "title": "CuratorMAS: Automatización de la Curaduría de Datos",
+      "summary": "Marco de colaboración de agentes para la curación automatizada de conjuntos de datos, mejorando la calidad y reduciendo el ruido en los datos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.06971",
+      "source_url": "https://arxiv.org/abs/2610.07075",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "datos",
-        "IA",
-        "remediación",
-        "eficiencia"
+        "data curation",
+        "multi-agent systems"
       ],
-      "what_changed": "Proporciona un enfoque sistemático y autónomo para la reparación de datos.",
-      "why_it_matters": "Reduce el tiempo de reparación significativamente, mejorando la eficiencia operativa.",
-      "sector_impact": "Tecnologías de información y automación en datos."
+      "what_changed": "Descomposición del proceso de curación en etapas programables y paralelizable.",
+      "why_it_matters": "Automatiza la curación y mejora la calidad de los datos, crucial para el aprendizaje automático.",
+      "sector_impact": "Eficientiza procesos de manejo de datos en múltiples dominios."
     },
     {
-      "title": "ServeLearnBench: Mejora Continua de Agentes a Través de la Experiencia",
-      "summary": "ServeLearnBench evalúa la capacidad de los agentes de IA para aprender y adaptarse en entornos en evolución.",
+      "title": "LeanPlan: Planificación Óptima con Heurísticas Generadas por LLM",
+      "summary": "Sistema de planificación que encuentra planes óptimos utilizando heurísticas que son comprobadas automáticamente para su admisibilidad.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.07792",
+      "source_url": "https://arxiv.org/abs/2610.08246",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "aprendizaje",
-        "IA",
-        "adaptación"
+        "planning systems",
+        "LLM"
       ],
-      "what_changed": "Introduce un marco evaluativo para la mejora continua de agentes en entornos de información dinámica.",
-      "why_it_matters": "ServeLearnBench evalúa la capacidad de los agentes de IA para aprender y adaptarse en entornos en evolución.",
-      "sector_impact": "Inteligencia artificial en entornos operacionales."
+      "what_changed": "Implementación de un ciclo iterativo para mejorar heurísticas en la planificación.",
+      "why_it_matters": "Permite una mejora continua en la generación de planes, crucial para aplicaciones en múltiples áreas.",
+      "sector_impact": "Optimiza sistemas de planificación en contextos que requieren toma de decisiones complejas."
     },
     {
-      "title": "S1-MAS: Colaboración Multi-Agente Eficiente en Recursos",
-      "summary": "S1-MAS es un marco que mejora la colaboración entre agentes al reducir el consumo de recursos y el tiempo de respuesta.",
-      "category": "framework",
+      "title": "BioStudyBench: Evaluando Agentes en Estudios Biomédicos",
+      "summary": "Benchmark para evaluar si los agentes de IA pueden replicar hallazgos de estudios biomédicos a partir de datos públicos.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.08155",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2610.07614",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "colaboración",
-        "IA",
-        "eficiencia",
-        "multi-agente"
+        "biomedical studies",
+        "AI agents"
       ],
-      "what_changed": "Desacopla la coordinación de las decisiones de razonamiento, mejorando la eficiencia.",
-      "why_it_matters": "S1-MAS es un marco que mejora la colaboración entre agentes al reducir el consumo de recursos y el tiempo de respuesta.",
-      "sector_impact": "Servicios web y aplicaciones de IA."
+      "what_changed": "Introducción de un marco para medir la capacidad de los agentes en estudios de largo alcance.",
+      "why_it_matters": "Ayuda a validar la efectividad de modelos de IA en campos críticos como la biomedicina.",
+      "sector_impact": "Impulsará la confianza en el uso de IA en investigaciones médicas."
+    },
+    {
+      "title": "ParanoiaEval: Evaluación de la Gestión de Riesgos en Agentes de Codificación",
+      "summary": "Benchmark para evaluar las capacidades de tratamiento de riesgos en agentes de codificación, abordando la gestión de riesgos de manera unificada.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.08662",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "risk management",
+        "coding agents"
+      ],
+      "what_changed": "Introducción de un marco sistemático para la evaluación de comportamientos de riesgo en agentes.",
+      "why_it_matters": "Proporciona una comprensión más profunda de la gestión de riesgos en ambientes de desarrollo.",
+      "sector_impact": "Mejora la interacción de los desarrolladores con los agentes, reduciendo fricciones operativas."
     }
   ]
 }
