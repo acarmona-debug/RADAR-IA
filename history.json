@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-10-09",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "A Closer Look at Agentic BBO",
+          "summary": "Benchmarking de agentes LLM para optimización de caja negra (BBO) introduciendo un protocolo de evaluación unificado.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.12183",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "LLM",
+            "benchmark"
+          ],
+          "what_changed": "Introducción de AgenticBBO-Bench.",
+          "why_it_matters": "Mejora la comparación y utilización de LLM para problemas complejos.",
+          "sector_impact": "Alta relevancia en ciencia y tecnología aplicada."
+        },
+        {
+          "title": "Automatización de verificación de correcciones sin código",
+          "summary": "Propuesta de una pipeline automatizada para validar correcciones generadas por LLM en entornos reales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.11963",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "verificación",
+            "automatización",
+            "LLM"
+          ],
+          "what_changed": "Desarrollo de una agent pipeline para validar correcciones.",
+          "why_it_matters": "Reduce el tiempo de los desarrolladores y mejora la eficiencia en la resolución de errores.",
+          "sector_impact": "Significativa mejora en la calidad del software."
+        },
+        {
+          "title": "Introducción de Arbiter para detección de interferencias",
+          "summary": "Un nuevo marco para la evaluación de prompts en sistemas de agentes LLM que detecta patrones de interferencia.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.08993",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "LLM",
+            "seguridad"
+          ],
+          "what_changed": "Desarrollo del framework Arbiter.",
+          "why_it_matters": "Mejora la estabilidad y seguridad de los sistemas de agentes LLM.",
+          "sector_impact": "Aumenta la confianza en implementaciones LLM en producción."
+        },
+        {
+          "title": "RFChipAgent: Automatización en diseño de circuitos",
+          "summary": "Un flujo de agentes LLM para diseñar circuitos analógicos y RF de manera colaborativa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.10858",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "circuitos",
+            "automación",
+            "diseño"
+          ],
+          "what_changed": "Implementación de un flujo de trabajo completo automatizado.",
+          "why_it_matters": "Reduce el tiempo y esfuerzo en el diseño de circuitos complejos.",
+          "sector_impact": "Revoluciona el diseño de circuitos en la industria tecnológica."
+        },
+        {
+          "title": "MIMESIS: Simuladores de usuarios para agentes interactivos",
+          "summary": "Introducción de un simulador de usuarios para entrenar y evaluar agentes conversacionales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.09484",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "simulación",
+            "interacción",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un simulador de usuarios con patrones reales.",
+          "why_it_matters": "Mejora la generación de interacciones más precisas en agentes de conversación.",
+          "sector_impact": "Aumenta la efectividad de los agentes conversacionales en múltiples sectores."
+        },
+        {
+          "title": "RAG-Stress: Probar límites de confianza en generación aumentada",
+          "summary": "Protocolo diagnóstico para evaluar la dependencia del modelo en evidencia durante la generación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.11183",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "evidencia",
+            "RAG"
+          ],
+          "what_changed": "Introducción de un protocolo para evaluar fiabilidad de evidencia.",
+          "why_it_matters": "Aumenta la confianza en las respuestas generadas por el modelo.",
+          "sector_impact": "Mejora la precisión de modelos de RAG en aplicaciones críticas."
+        },
+        {
+          "title": "SWE-Journey: Evaluación realista de asistentes de codificación",
+          "summary": "Propuesta de un benchmark para evaluar asistentes de codificación con interacciones de múltiples turnos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.11559",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "asistentes",
+            "evaluación",
+            "codificación"
+          ],
+          "what_changed": "Desarrollo de un benchmark que simula interacciones reales.",
+          "why_it_matters": "Valida el rendimiento de asistentes en escenarios del mundo real.",
+          "sector_impact": "Aumenta la efectividad de herramientas para desarrolladores."
+        }
+      ]
+    },
+    {
       "date": "2026-10-08",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Clave",
       "items": [
@@ -736,131 +861,6 @@
           "what_changed": "Introducción de chequeos de conducta en procesos para agentes en evolución.",
           "why_it_matters": "Garantiza la adaptabilidad y precisión de los agentes de IA.",
           "sector_impact": "Mejora la efectividad de los robots en entornos empresariales."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "RankEvolve: Un marco de auto-investigación para la evolución de modelos de clasificación",
-          "summary": "RankEvolve automatiza el ciclo experimental en aprendizaje automático, mejorando la precisión de ejecución en modelos de clasificación generativa.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.39551",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "auto-investigación",
-            "aprendizaje automático",
-            "modelos de clasificación"
-          ],
-          "what_changed": "Una mejora en la ejecución de modelos de clasificación generativa.",
-          "why_it_matters": "Permite automatizar experimentaciones en ML, reduciendo errores y aumentando la eficiencia.",
-          "sector_impact": "Aumenta la efectividad de aplicaciones de ML en múltiples sectores."
-        },
-        {
-          "title": "DrivingBench: Evaluación de modelos de lenguaje en escenarios de conducción",
-          "summary": "DrivingBench es un nuevo benchmark que prueba modelos de lenguaje en la conducción de un Toyota Corolla.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.38948",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos de lenguaje",
-            "conducción",
-            "benchmarks"
-          ],
-          "what_changed": "Introducción de un nuevo benchmark para evaluar capacidades de conducción de modelos.",
-          "why_it_matters": "Evalúa el desempeño real de modelos de IA en tareas cotidianas.",
-          "sector_impact": "Potencial para mejorar la seguridad y la efectividad de vehículos autónomos."
-        },
-        {
-          "title": "CONTRAMEM: Memoria procedural auto-evolutiva",
-          "summary": "CONTRAMEM ofrece un marco para el aprendizaje de memoria procedural que se adapta sin entrenamiento de modelo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22533",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria procedural",
-            "IA autónoma",
-            "rendimiento"
-          ],
-          "what_changed": "Un enfoque novedoso para el aprendizaje de memoria sin requerir entrenamiento adicional.",
-          "why_it_matters": "Mejora la consistencia en decisiones de IA y reduce exploraciones redundantes.",
-          "sector_impact": "Aumenta la robustez de sistemas autónomos en tareas complejas."
-        },
-        {
-          "title": "ScholarEvolve: Evolución continua de agentes de IA",
-          "summary": "ScholarEvolve utiliza literatura de vanguardia para guiar la evolución de agentes de IA en tareas complejas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.40169",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evolución de IA",
-            "aguas literarias",
-            "estrategias de mejora"
-          ],
-          "what_changed": "Introducción de un método para integrar avances de investigación en la mejora de agentes de IA.",
-          "why_it_matters": "Facilita la mejora continua de agentes en la ejecución de tareas complejas.",
-          "sector_impact": "Transforma la manera en que los agentes interactúan y resuelven problemas."
-        },
-        {
-          "title": "MILO: Descubrimiento automatizado de harnesses",
-          "summary": "MILO es un marco innovador que co-evoluciona harnesses y las estrategias para descubrirlos, mejorando la eficiencia en el uso de modelos de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.38349",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "diseño de harnesses",
-            "IA"
-          ],
-          "what_changed": "Implementación de un enfoque co-evolutivo para mejorar la interacción de agentes de IA.",
-          "why_it_matters": "Optimiza el rendimiento de agentes en tareas de largo plazo.",
-          "sector_impact": "Aplicaciones en múltiples dominios que requieren interacción efectiva de IA."
-        },
-        {
-          "title": "DAGent: Planificación incremental para agentes de investigación profunda",
-          "summary": "DAGent incorpora una planificación incremental para optimizar la ejecución de tareas complejas en investigación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.39154",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "planificación",
-            "investigación",
-            "agentes"
-          ],
-          "what_changed": "Optimización en la forma en que los agentes de IA planifican y ejecutan tareas complejas.",
-          "why_it_matters": "Mejora la eficiencia y precisión en tareas que requieren síntesis de información.",
-          "sector_impact": "Revoluciona la manera en que se abordan problemas complejos en investigación."
-        },
-        {
-          "title": "MetaPersona: Generación de poblaciones sintéticas fundamentadas en evidencia",
-          "summary": "MetaPersona crea poblaciones sintéticas utilizando investigaciones de ciencias sociales, mejorando simulaciones de LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.38392",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "poblaciones sintéticas",
-            "ciencias sociales",
-            "simulación"
-          ],
-          "what_changed": "Innovadora forma de basar la creación de personajes en evidencias empíricas.",
-          "why_it_matters": "Aumenta la precisión y aplicabilidad de simulaciones en diversos contextos.",
-          "sector_impact": "Fortalece la fiabilidad de modelos en áreas como comportamiento social y marketing."
         }
       ]
     }

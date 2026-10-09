@@ -1,122 +1,127 @@
 {
-  "date": "2026-10-08",
-  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Clave",
-  "intro_message": "Las últimas actualizaciones en herramientas, modelos y frameworks de inteligencia artificial. Enfocándonos en integraciones y nuevas funcionalidades que revolucionan el desarrollo de software.",
-  "opening_message": "A continuación, encuentra los desarrollos más relevantes que transforman el campo de la inteligencia artificial y la automatización.",
+  "date": "2026-10-09",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Actualizaciones recientes en el ámbito de las herramientas, modelos y frameworks de inteligencia artificial que son esenciales para el desarrollo y la automatización.",
+  "opening_message": "A continuación se presentan los aspectos más relevantes en herramientas y modelos de IA, con un enfoque en automatización y nuevas integraciones.",
   "items": [
     {
-      "title": "HERMES: Harness Engineering Framework",
-      "summary": "Una nueva arquitectura que mejora la ingeniería de software mediante la utilización de Dev-Primitives, facilitando el trabajo de agentes a lo largo de flujos de trabajo complejos.",
-      "category": "framework",
+      "title": "A Closer Look at Agentic BBO",
+      "summary": "Benchmarking de agentes LLM para optimización de caja negra (BBO) introduciendo un protocolo de evaluación unificado.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.07832",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Dev-Primitives",
-        "software engineering",
-        "Large Language Models"
-      ],
-      "what_changed": "Introducción de Dev-Primitives para una mejor interacción entre componentes de software.",
-      "why_it_matters": "Permite una modificación interna más eficiente y mejora la estabilidad en la ejecución de tareas complejas.",
-      "sector_impact": "Automatización de flujos de trabajo en programación, impactando a desarrolladores de software."
-    },
-    {
-      "title": "GAMEGO: Entrenamiento de Agentes para Desarrollo de Juegos",
-      "summary": "Framework para generar juegos directamente de consultas breves, optimizando el proceso de creación y asegurando la coherencia en el desarrollo.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.06910",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "game development",
-        "coding agents",
-        "AI frameworks"
-      ],
-      "what_changed": "Desarrollo de un pipeline que transforma semillas de juegos en documentos de requisitos claros.",
-      "why_it_matters": "Facilita la creación de juegos, permitiendo a los desarrolladores concentrarse en la creatividad sin comprometer la calidad.",
-      "sector_impact": "Revoluciona la industria de desarrollo de videojuegos al reducir el tiempo de producción."
-    },
-    {
-      "title": "MemMux: Verificación en Tiempo de Ejecución para Agentes de Codificación",
-      "summary": "Solución para la gestión de recursos en flotas de agentes de codificación, asegurando la correcta asignación de recursos y la verificación durante la ejecución.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.07257",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "resource management",
-        "AI agents"
-      ],
-      "what_changed": "Integración de señales observables para la verificación continua de recursos.",
-      "why_it_matters": "Mejora la eficiencia y la transparencia en la ejecución de múltiples agentes de codificación.",
-      "sector_impact": "Optimiza el uso de recursos en entornos de desarrollo, lo que es esencial para la automatización."
-    },
-    {
-      "title": "CuratorMAS: Automatización de la Curaduría de Datos",
-      "summary": "Marco de colaboración de agentes para la curación automatizada de conjuntos de datos, mejorando la calidad y reduciendo el ruido en los datos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.07075",
+      "source_url": "https://arxiv.org/abs/2610.12183",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "data curation",
-        "multi-agent systems"
+        "optimización",
+        "LLM",
+        "benchmark"
       ],
-      "what_changed": "Descomposición del proceso de curación en etapas programables y paralelizable.",
-      "why_it_matters": "Automatiza la curación y mejora la calidad de los datos, crucial para el aprendizaje automático.",
-      "sector_impact": "Eficientiza procesos de manejo de datos en múltiples dominios."
+      "what_changed": "Introducción de AgenticBBO-Bench.",
+      "why_it_matters": "Mejora la comparación y utilización de LLM para problemas complejos.",
+      "sector_impact": "Alta relevancia en ciencia y tecnología aplicada."
     },
     {
-      "title": "LeanPlan: Planificación Óptima con Heurísticas Generadas por LLM",
-      "summary": "Sistema de planificación que encuentra planes óptimos utilizando heurísticas que son comprobadas automáticamente para su admisibilidad.",
+      "title": "Automatización de verificación de correcciones sin código",
+      "summary": "Propuesta de una pipeline automatizada para validar correcciones generadas por LLM en entornos reales.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.08246",
+      "source_url": "https://arxiv.org/abs/2610.11963",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "planning systems",
+        "verificación",
+        "automatización",
         "LLM"
       ],
-      "what_changed": "Implementación de un ciclo iterativo para mejorar heurísticas en la planificación.",
-      "why_it_matters": "Permite una mejora continua en la generación de planes, crucial para aplicaciones en múltiples áreas.",
-      "sector_impact": "Optimiza sistemas de planificación en contextos que requieren toma de decisiones complejas."
+      "what_changed": "Desarrollo de una agent pipeline para validar correcciones.",
+      "why_it_matters": "Reduce el tiempo de los desarrolladores y mejora la eficiencia en la resolución de errores.",
+      "sector_impact": "Significativa mejora en la calidad del software."
     },
     {
-      "title": "BioStudyBench: Evaluando Agentes en Estudios Biomédicos",
-      "summary": "Benchmark para evaluar si los agentes de IA pueden replicar hallazgos de estudios biomédicos a partir de datos públicos.",
-      "category": "tool",
+      "title": "Introducción de Arbiter para detección de interferencias",
+      "summary": "Un nuevo marco para la evaluación de prompts en sistemas de agentes LLM que detecta patrones de interferencia.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.07614",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2603.08993",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "biomedical studies",
-        "AI agents"
+        "evaluación",
+        "LLM",
+        "seguridad"
       ],
-      "what_changed": "Introducción de un marco para medir la capacidad de los agentes en estudios de largo alcance.",
-      "why_it_matters": "Ayuda a validar la efectividad de modelos de IA en campos críticos como la biomedicina.",
-      "sector_impact": "Impulsará la confianza en el uso de IA en investigaciones médicas."
+      "what_changed": "Desarrollo del framework Arbiter.",
+      "why_it_matters": "Mejora la estabilidad y seguridad de los sistemas de agentes LLM.",
+      "sector_impact": "Aumenta la confianza en implementaciones LLM en producción."
     },
     {
-      "title": "ParanoiaEval: Evaluación de la Gestión de Riesgos en Agentes de Codificación",
-      "summary": "Benchmark para evaluar las capacidades de tratamiento de riesgos en agentes de codificación, abordando la gestión de riesgos de manera unificada.",
+      "title": "RFChipAgent: Automatización en diseño de circuitos",
+      "summary": "Un flujo de agentes LLM para diseñar circuitos analógicos y RF de manera colaborativa.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.08662",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2610.10858",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "risk management",
-        "coding agents"
+        "circuitos",
+        "automación",
+        "diseño"
       ],
-      "what_changed": "Introducción de un marco sistemático para la evaluación de comportamientos de riesgo en agentes.",
-      "why_it_matters": "Proporciona una comprensión más profunda de la gestión de riesgos en ambientes de desarrollo.",
-      "sector_impact": "Mejora la interacción de los desarrolladores con los agentes, reduciendo fricciones operativas."
+      "what_changed": "Implementación de un flujo de trabajo completo automatizado.",
+      "why_it_matters": "Reduce el tiempo y esfuerzo en el diseño de circuitos complejos.",
+      "sector_impact": "Revoluciona el diseño de circuitos en la industria tecnológica."
+    },
+    {
+      "title": "MIMESIS: Simuladores de usuarios para agentes interactivos",
+      "summary": "Introducción de un simulador de usuarios para entrenar y evaluar agentes conversacionales.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.09484",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "simulación",
+        "interacción",
+        "agentes"
+      ],
+      "what_changed": "Desarrollo de un simulador de usuarios con patrones reales.",
+      "why_it_matters": "Mejora la generación de interacciones más precisas en agentes de conversación.",
+      "sector_impact": "Aumenta la efectividad de los agentes conversacionales en múltiples sectores."
+    },
+    {
+      "title": "RAG-Stress: Probar límites de confianza en generación aumentada",
+      "summary": "Protocolo diagnóstico para evaluar la dependencia del modelo en evidencia durante la generación.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.11183",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "evidencia",
+        "RAG"
+      ],
+      "what_changed": "Introducción de un protocolo para evaluar fiabilidad de evidencia.",
+      "why_it_matters": "Aumenta la confianza en las respuestas generadas por el modelo.",
+      "sector_impact": "Mejora la precisión de modelos de RAG en aplicaciones críticas."
+    },
+    {
+      "title": "SWE-Journey: Evaluación realista de asistentes de codificación",
+      "summary": "Propuesta de un benchmark para evaluar asistentes de codificación con interacciones de múltiples turnos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.11559",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "asistentes",
+        "evaluación",
+        "codificación"
+      ],
+      "what_changed": "Desarrollo de un benchmark que simula interacciones reales.",
+      "why_it_matters": "Valida el rendimiento de asistentes en escenarios del mundo real.",
+      "sector_impact": "Aumenta la efectividad de herramientas para desarrolladores."
     }
   ]
 }
