@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-10-12",
+      "executive_title": "Radar Diario de IA - Enfoque en Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "KnowForge: Agentes Especializados en Herramientas para QA de Documentos Multimodales",
+          "summary": "KnowForge presenta un pipeline que integra agentes especializados en búsqueda y lectura, logrando mejorar significativamente la precisión en la respuesta a preguntas sobre colecciones documentales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.13128",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "QA",
+            "documentación",
+            "agentes"
+          ],
+          "what_changed": "Integración de agentes especializados en tareas específicas.",
+          "why_it_matters": "Mejora la efectividad de las respuestas en entornos de documentos complejos.",
+          "sector_impact": "Transforma la eficiencia en el manejo de grandes colecciones de documentos."
+        },
+        {
+          "title": "ChemDiffAgent: Razonamiento Químico Integrado con Herramientas",
+          "summary": "Una nueva representación del razonamiento químico que mejora el uso de herramientas en tareas complejas, sobrepasando modelos autoregresivos anteriores.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.13330",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "química",
+            "razonamiento",
+            "agentes"
+          ],
+          "what_changed": "Implantación de un marco de razonamiento químico más flexible.",
+          "why_it_matters": "Permite una comprensión más precisa y bidireccional de procesos químicos.",
+          "sector_impact": "Revoluciona la forma en que se abordan problemas químicos complejos."
+        },
+        {
+          "title": "HOA: Agentes Humanizados para Resolución de Problemas Olímpicos",
+          "summary": "Una nueva estructura que mejora la colaboración entre agentes a través de múltiples sesiones para resolver problemas matemáticos complejos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.13632",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "matemáticas",
+            "colaboración",
+            "agentes"
+          ],
+          "what_changed": "Implementación de un sistema de retroalimentación y verificación entre agentes.",
+          "why_it_matters": "Aumenta la precisión y la capacidad de manejo de tareas complejas.",
+          "sector_impact": "Potencia la resolución de problemas en competiciones académicas."
+        },
+        {
+          "title": "EvoBelief: Modelos de Mundo Falsables para Agentes LLM",
+          "summary": "Desarrollo de un modelo automejorable que se adapta a cambios en su entorno usando creencias falsables.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.12789",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelos",
+            "auto-mejoramiento",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un enfoque de hipótesis falsables para la automejoría.",
+          "why_it_matters": "Proporciona un enfoque robusto para mejorar el rendimiento basado en la adaptación al entorno.",
+          "sector_impact": "Optimiza el rendimiento de agentes que operan en ambientes dinámicos."
+        },
+        {
+          "title": "HExA: Agentes Experimentalistas Jerárquicos para Aprendizaje Activo",
+          "summary": "Un nuevo marco que permite a los agentes realizar experimentos iterativos para mejorar el aprendizaje en tiempo real.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.29315",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "aprendizaje",
+            "experimentos",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un enfoque de mejora activa en el rendimiento de los agentes.",
+          "why_it_matters": "Un nuevo marco que permite a los agentes realizar experimentos iterativos para mejorar el aprendizaje en tiempo real.",
+          "sector_impact": "Revoluciona el desarrollo y la ejecución de tareas en entornos desconocidos."
+        },
+        {
+          "title": "Agent4Spec: Optimización de Especificaciones de API a través de Validación Automatizada",
+          "summary": "Un sistema automatizado que mejora las especificaciones de API mediante análisis de mercado y validación continua.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.13273",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "API",
+            "validación",
+            "herramientas"
+          ],
+          "what_changed": "Implementación de un marco de múltiples agentes para la mejora continua.",
+          "why_it_matters": "Un sistema automatizado que mejora las especificaciones de API mediante análisis de mercado y validación continua.",
+          "sector_impact": "Aumenta la eficiencia en el desarrollo de software a través de APIs."
+        },
+        {
+          "title": "DRYLAB-Bench: Evaluación de Riesgas Biológicos de Agentes LLM",
+          "summary": "Un nuevo estándar para evaluar los riesgos inherentes a los modelos en el diseño biológico avanzado, considerando la dualidad de uso.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.13116",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "bioseguridad",
+            "evaluación",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un banco de pruebas específico para evaluar riesgos biológicos.",
+          "why_it_matters": "Un nuevo estándar para evaluar los riesgos inherentes a los modelos en el diseño biológico avanzado, considerando la dualidad de uso.",
+          "sector_impact": "Ayuda a mitigar riesgos catastróficos en la biotecnología impulsada por IA."
+        },
+        {
+          "title": "Hierarchical Hardware Knowledge Graphs: Construcción Automatizada mediante LLMs",
+          "summary": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.12762",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "hardware",
+            "gráficos de conocimiento",
+            "LLMs"
+          ],
+          "what_changed": "Optimización del proceso de extracción de información mediante un marco automatizado.",
+          "why_it_matters": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
+          "sector_impact": "Revoluciona la forma en que se organiza la información de hardware."
+        }
+      ]
+    },
+    {
       "date": "2026-10-11",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -736,130 +878,6 @@
           "what_changed": "Introducción de un modelo multimodal innovador y competitivo.",
           "why_it_matters": "Un avance significativo en la tecnología de IA que puede cambiar dinámicas de mercado.",
           "sector_impact": "Promueve la competencia en el desarrollo de modelos de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "executive_title": "Radar Diario de IA - Estrategias, Herramientas y Avances",
-      "items": [
-        {
-          "title": "Open-sourcing AstaBrief, el modelo de generación de informes rápido",
-          "summary": "Allen Institute ha hecho público AstaBrief para facilitar la generación de informes.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/allenai/astabrief",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "open source",
-            "model",
-            "report generation"
-          ],
-          "what_changed": "Publicación del modelo AstaBrief como código abierto.",
-          "why_it_matters": "Facilita la generación de informes eficientes para desarrolladores y empresas.",
-          "sector_impact": "Mejora la productividad en la creación de documentos y análisis de datos."
-        },
-        {
-          "title": "Google AI anuncia actualizaciones de IA de septiembre de 2026",
-          "summary": "Novedades significativas en la implementación de IA anunciadas por Google.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "updates",
-            "AI"
-          ],
-          "what_changed": "Nuevas herramientas y mejoras en productos de IA.",
-          "why_it_matters": "Las actualizaciones refuerzan el liderazgo de Google en IA y benefician a los desarrolladores.",
-          "sector_impact": "Impulsa la innovación y adopción de tecnologías de IA."
-        },
-        {
-          "title": "Circuit Breaker Labs busca hacer la IA más segura para los niños",
-          "summary": "Desarrollo de 'dummies de prueba' para evaluar la seguridad de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "safety",
-            "AI",
-            "children"
-          ],
-          "what_changed": "Lanzamiento de herramientas para evaluar riesgos en IA.",
-          "why_it_matters": "Aborda preocupaciones sobre la seguridad de IA en entornos infantiles.",
-          "sector_impact": "Promueve la protección en el uso de IA, especialmente en aplicaciones familiares."
-        },
-        {
-          "title": "Nuevas herramientas y marcos de trabajo presentados en TechCrunch Disrupt 2026",
-          "summary": "Nuevas oportunidades y herramientas presentadas por líderes de la industria.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "TechCrunch",
-            "tools",
-            "frameworks"
-          ],
-          "what_changed": "Presentaciones sobre marcos de trabajo innovadores para IA.",
-          "why_it_matters": "Tales marcos pueden transformar el desarrollo de IA y aplicaciones asociadas.",
-          "sector_impact": "Fortalece la infraestructura del desarrollo de IA en el sector tecnológico."
-        },
-        {
-          "title": "Meta impulsa el uso de Muse en gadgets",
-          "summary": "Distribución gratuita del código para integraciones con Muse.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "integration",
-            "Muse",
-            "gadgets"
-          ],
-          "what_changed": "Meta ha decidido liberar el código para facilitar integraciones.",
-          "why_it_matters": "Permite a los desarrolladores crear dispositivos personalizados con IA.",
-          "sector_impact": "Amplía las oportunidades de innovación en el sector de gadgets inteligentes."
-        },
-        {
-          "title": "TechCrunch Disrupt 2026: Crecimiento de ingenieros GTM",
-          "summary": "Discusión sobre el rol emergente de ingenieros en estrategias de entrada al mercado.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "GTM",
-            "engineers",
-            "strategy"
-          ],
-          "what_changed": "Mayor atención al rol de ingenieros en planes de crecimiento estratégico.",
-          "why_it_matters": "Importante para entender la conexión entre IA y tácticas de mercado.",
-          "sector_impact": "Aumenta la colaboración entre desarrollo de productos y mercadeo."
-        },
-        {
-          "title": "Lanzamiento de nuevos agentes automatizados",
-          "summary": "Desarrollo de agentes que automatizan tareas complejas de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "automation",
-            "agents"
-          ],
-          "what_changed": "Nuevos agentes implementados para incrementar eficiencia en tareas.",
-          "why_it_matters": "Simplicidad en la ejecución de tareas complejas, mejorando la productividad.",
-          "sector_impact": "Optimiza procesos en múltiples industrias que utilizan IA."
         }
       ]
     }
