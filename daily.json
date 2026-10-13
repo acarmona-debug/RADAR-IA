@@ -1,144 +1,125 @@
 {
-  "date": "2026-10-12",
-  "executive_title": "Radar Diario de IA - Enfoque en Innovaciones y Herramientas",
-  "intro_message": "Este radar diario se enfoca en las últimas innovaciones en IA, centrándose en herramientas, modelos y frameworks críticos que pueden impactar nuestro trabajo diario.",
-  "opening_message": "A continuación, destacamos las noticias y desarrollos más importantes que pueden transformar el paisaje de la inteligencia artificial y su aplicación práctica.",
+  "date": "2026-10-13",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Presentamos las últimas innovaciones y desarrollos en IA que impactan herramientas, modelos, y automatización.",
+  "opening_message": "Este radar diario destaca las herramientas y modelos más relevantes del campo de la inteligencia artificial, centrándose en sus implicaciones prácticas.",
   "items": [
     {
-      "title": "KnowForge: Agentes Especializados en Herramientas para QA de Documentos Multimodales",
-      "summary": "KnowForge presenta un pipeline que integra agentes especializados en búsqueda y lectura, logrando mejorar significativamente la precisión en la respuesta a preguntas sobre colecciones documentales.",
+      "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
+      "summary": "Propuesta de un enfoque de alternancia para agentes de IA que mejora la efectividad en tareas de ingeniería de aprendizaje automático.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13128",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "QA",
-        "documentación",
-        "agentes"
-      ],
-      "what_changed": "Integración de agentes especializados en tareas específicas.",
-      "why_it_matters": "Mejora la efectividad de las respuestas en entornos de documentos complejos.",
-      "sector_impact": "Transforma la eficiencia en el manejo de grandes colecciones de documentos."
-    },
-    {
-      "title": "ChemDiffAgent: Razonamiento Químico Integrado con Herramientas",
-      "summary": "Una nueva representación del razonamiento químico que mejora el uso de herramientas en tareas complejas, sobrepasando modelos autoregresivos anteriores.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13330",
+      "source_url": "https://arxiv.org/abs/2610.13494",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "química",
-        "razonamiento",
-        "agentes"
+        "Multi-Agent",
+        "Aprendizaje Automático",
+        "Ingeniería"
       ],
-      "what_changed": "Implantación de un marco de razonamiento químico más flexible.",
-      "why_it_matters": "Permite una comprensión más precisa y bidireccional de procesos químicos.",
-      "sector_impact": "Revoluciona la forma en que se abordan problemas químicos complejos."
+      "what_changed": "Introducción de un modelo de agentes alternantes para mejorar el rendimiento en largas sesiones.",
+      "why_it_matters": "Proporciona una mejora significativa en la tasa de éxito en tareas complejas y largas.",
+      "sector_impact": "Impacto positivo en la automatización y eficiencia en proyectos de IA."
     },
     {
-      "title": "HOA: Agentes Humanizados para Resolución de Problemas Olímpicos",
-      "summary": "Una nueva estructura que mejora la colaboración entre agentes a través de múltiples sesiones para resolver problemas matemáticos complejos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13632",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "matemáticas",
-        "colaboración",
-        "agentes"
-      ],
-      "what_changed": "Implementación de un sistema de retroalimentación y verificación entre agentes.",
-      "why_it_matters": "Aumenta la precisión y la capacidad de manejo de tareas complejas.",
-      "sector_impact": "Potencia la resolución de problemas en competiciones académicas."
-    },
-    {
-      "title": "EvoBelief: Modelos de Mundo Falsables para Agentes LLM",
-      "summary": "Desarrollo de un modelo automejorable que se adapta a cambios en su entorno usando creencias falsables.",
+      "title": "ReasoningShield: Safety Detection over Reasoning Traces of Large Reasoning Models",
+      "summary": "Desarrollo de un nuevo modelo para la detección de seguridad en modelos de razonamiento, centrándose en las trazas de razonamiento.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.12789",
+      "source_url": "https://arxiv.org/abs/2505.17244",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Seguridad",
+        "Modelos de Razonamiento"
+      ],
+      "what_changed": "Introducción de un marco de referencia para la moderación de seguridad en modelos de razonamiento.",
+      "why_it_matters": "Mejora la seguridad en la implementación de IA al detectar contenido perjudicial.",
+      "sector_impact": "Contribuye a la confianza en sistemas de IA en aplicaciones críticas."
+    },
+    {
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "summary": "Un nuevo marco para la recuperación de herramientas de IA que se adapta dinámicamente a la fiabilidad durante la ejecución.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.13889",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Herramienta",
+        "Recuperación",
+        "IA"
+      ],
+      "what_changed": "Implementación de un sistema de recuperación de herramientas basado en la dinámica de ejecución.",
+      "why_it_matters": "Aumenta la eficacia de los agentes de IA al mejorar la recuperación de herramientas en tiempo real.",
+      "sector_impact": "Aumenta la fiabilidad de aplicaciones de IA en entornos reales."
+    },
+    {
+      "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+      "summary": "Lanzamiento de un nuevo conjunto de datos para evaluar ataques de inyección de prompt en modelos de IA.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2506.09956",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Dataset",
+        "Seguridad",
+        "IA"
+      ],
+      "what_changed": "Creación de un benchmark a gran escala para estudiar la diversidad en ataques de inyección de prompts.",
+      "why_it_matters": "Lanzamiento de un nuevo conjunto de datos para evaluar ataques de inyección de prompt en modelos de IA.",
+      "sector_impact": "Incrementa la seguridad en el uso de IA en diversas aplicaciones."
+    },
+    {
+      "title": "PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval",
+      "summary": "Propuesta de un marco de optimización para la recuperación de documentos estructurados por modelos de lenguaje.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.13296",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelos",
-        "auto-mejoramiento",
-        "agentes"
+        "Framework",
+        "Recuperación de Documentos"
       ],
-      "what_changed": "Introducción de un enfoque de hipótesis falsables para la automejoría.",
-      "why_it_matters": "Proporciona un enfoque robusto para mejorar el rendimiento basado en la adaptación al entorno.",
-      "sector_impact": "Optimiza el rendimiento de agentes que operan en ambientes dinámicos."
+      "what_changed": "Introducción de un modelo de indexación para mejorar la calidad de recuperación de información.",
+      "why_it_matters": "Propuesta de un marco de optimización para la recuperación de documentos estructurados por modelos de lenguaje.",
+      "sector_impact": "Mejora el rendimiento en sistemas de información y búsqueda."
     },
     {
-      "title": "HExA: Agentes Experimentalistas Jerárquicos para Aprendizaje Activo",
-      "summary": "Un nuevo marco que permite a los agentes realizar experimentos iterativos para mejorar el aprendizaje en tiempo real.",
+      "title": "Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation",
+      "summary": "Se presenta un control para mejorar la negociación en sistemas multi-agente mediante gaiting constitucional.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.29315",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "aprendizaje",
-        "experimentos",
-        "agentes"
-      ],
-      "what_changed": "Introducción de un enfoque de mejora activa en el rendimiento de los agentes.",
-      "why_it_matters": "Un nuevo marco que permite a los agentes realizar experimentos iterativos para mejorar el aprendizaje en tiempo real.",
-      "sector_impact": "Revoluciona el desarrollo y la ejecución de tareas en entornos desconocidos."
-    },
-    {
-      "title": "Agent4Spec: Optimización de Especificaciones de API a través de Validación Automatizada",
-      "summary": "Un sistema automatizado que mejora las especificaciones de API mediante análisis de mercado y validación continua.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13273",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "API",
-        "validación",
-        "herramientas"
-      ],
-      "what_changed": "Implementación de un marco de múltiples agentes para la mejora continua.",
-      "why_it_matters": "Un sistema automatizado que mejora las especificaciones de API mediante análisis de mercado y validación continua.",
-      "sector_impact": "Aumenta la eficiencia en el desarrollo de software a través de APIs."
-    },
-    {
-      "title": "DRYLAB-Bench: Evaluación de Riesgas Biológicos de Agentes LLM",
-      "summary": "Un nuevo estándar para evaluar los riesgos inherentes a los modelos en el diseño biológico avanzado, considerando la dualidad de uso.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13116",
+      "source_url": "https://arxiv.org/abs/2610.11542",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "bioseguridad",
-        "evaluación",
-        "agentes"
+        "Negociación",
+        "Multi-Agente",
+        "IA"
       ],
-      "what_changed": "Introducción de un banco de pruebas específico para evaluar riesgos biológicos.",
-      "why_it_matters": "Un nuevo estándar para evaluar los riesgos inherentes a los modelos en el diseño biológico avanzado, considerando la dualidad de uso.",
-      "sector_impact": "Ayuda a mitigar riesgos catastróficos en la biotecnología impulsada por IA."
+      "what_changed": "Desarrollo de un sistema de recuperación más eficiente en negociaciones complejas.",
+      "why_it_matters": "Se presenta un control para mejorar la negociación en sistemas multi-agente mediante gaiting constitucional.",
+      "sector_impact": "Aumenta la eficacia en sistemas de negociación automatizados."
     },
     {
-      "title": "Hierarchical Hardware Knowledge Graphs: Construcción Automatizada mediante LLMs",
-      "summary": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
+      "title": "Do More Agents Help? Evaluating Accuracy and Cost in LLM Multi-Agent Workflows",
+      "summary": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.12762",
-      "relevance_score": 6,
+      "source_url": "https://arxiv.org/abs/2606.05670",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "hardware",
-        "gráficos de conocimiento",
-        "LLMs"
+        "Herramientas",
+        "Evaluación",
+        "IA"
       ],
-      "what_changed": "Optimización del proceso de extracción de información mediante un marco automatizado.",
-      "why_it_matters": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
-      "sector_impact": "Revoluciona la forma en que se organiza la información de hardware."
+      "what_changed": "Introducción de un marco de evaluación compartido para comparar rendimientos.",
+      "why_it_matters": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
+      "sector_impact": "Facilita decisiones en configuraciones de IA multi-agente."
     }
   ]
 }
