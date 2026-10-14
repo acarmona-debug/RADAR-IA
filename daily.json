@@ -1,125 +1,127 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Presentamos las últimas innovaciones y desarrollos en IA que impactan herramientas, modelos, y automatización.",
-  "opening_message": "Este radar diario destaca las herramientas y modelos más relevantes del campo de la inteligencia artificial, centrándose en sus implicaciones prácticas.",
+  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y características en el ámbito de la inteligencia artificial.",
+  "opening_message": "A continuación, destacamos las novedades más relevantes que pueden impactar el desarrollo y la integración de soluciones de IA.",
   "items": [
     {
-      "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
-      "summary": "Propuesta de un enfoque de alternancia para agentes de IA que mejora la efectividad en tareas de ingeniería de aprendizaje automático.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13494",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Multi-Agent",
-        "Aprendizaje Automático",
-        "Ingeniería"
-      ],
-      "what_changed": "Introducción de un modelo de agentes alternantes para mejorar el rendimiento en largas sesiones.",
-      "why_it_matters": "Proporciona una mejora significativa en la tasa de éxito en tareas complejas y largas.",
-      "sector_impact": "Impacto positivo en la automatización y eficiencia en proyectos de IA."
-    },
-    {
-      "title": "ReasoningShield: Safety Detection over Reasoning Traces of Large Reasoning Models",
-      "summary": "Desarrollo de un nuevo modelo para la detección de seguridad en modelos de razonamiento, centrándose en las trazas de razonamiento.",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": "Acceso a Gemini 4 Argon, el último modelo de frontera de Google, para desarrolladores y empresas.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2505.17244",
-      "relevance_score": 8,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "relevance_score": 9,
       "status": "new",
       "tags": [
-        "Seguridad",
-        "Modelos de Razonamiento"
+        "modelo",
+        "Gemini",
+        "desarrollo"
       ],
-      "what_changed": "Introducción de un marco de referencia para la moderación de seguridad en modelos de razonamiento.",
-      "why_it_matters": "Mejora la seguridad en la implementación de IA al detectar contenido perjudicial.",
-      "sector_impact": "Contribuye a la confianza en sistemas de IA en aplicaciones críticas."
+      "what_changed": "Lanzamiento del modelo Gemini 4 Argon.",
+      "why_it_matters": "Ofrece nuevas capacidades para resolver problemas complejos en diversos sectores.",
+      "sector_impact": "Alta relevancia en tecnología y desarrollo de soluciones IA."
     },
     {
-      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
-      "summary": "Un nuevo marco para la recuperación de herramientas de IA que se adapta dinámicamente a la fiabilidad durante la ejecución.",
+      "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+      "summary": "Nueva suscripción que combina herramientas de IA como Grok y Cursor.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13889",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Herramienta",
-        "Recuperación",
-        "IA"
+        "herramienta",
+        "suscripción",
+        "Cursor"
       ],
-      "what_changed": "Implementación de un sistema de recuperación de herramientas basado en la dinámica de ejecución.",
-      "why_it_matters": "Aumenta la eficacia de los agentes de IA al mejorar la recuperación de herramientas en tiempo real.",
-      "sector_impact": "Aumenta la fiabilidad de aplicaciones de IA en entornos reales."
+      "what_changed": "Integración de varias herramientas de IA en un solo paquete.",
+      "why_it_matters": "Facilita el acceso y uso de múltiples herramientas de IA para los desarrolladores.",
+      "sector_impact": "Mejora en la eficiencia de los equipos de desarrollo."
     },
     {
-      "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
-      "summary": "Lanzamiento de un nuevo conjunto de datos para evaluar ataques de inyección de prompt en modelos de IA.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2506.09956",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Dataset",
-        "Seguridad",
-        "IA"
-      ],
-      "what_changed": "Creación de un benchmark a gran escala para estudiar la diversidad en ataques de inyección de prompts.",
-      "why_it_matters": "Lanzamiento de un nuevo conjunto de datos para evaluar ataques de inyección de prompt en modelos de IA.",
-      "sector_impact": "Incrementa la seguridad en el uso de IA en diversas aplicaciones."
-    },
-    {
-      "title": "PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval",
-      "summary": "Propuesta de un marco de optimización para la recuperación de documentos estructurados por modelos de lenguaje.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.13296",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Framework",
-        "Recuperación de Documentos"
-      ],
-      "what_changed": "Introducción de un modelo de indexación para mejorar la calidad de recuperación de información.",
-      "why_it_matters": "Propuesta de un marco de optimización para la recuperación de documentos estructurados por modelos de lenguaje.",
-      "sector_impact": "Mejora el rendimiento en sistemas de información y búsqueda."
-    },
-    {
-      "title": "Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation",
-      "summary": "Se presenta un control para mejorar la negociación en sistemas multi-agente mediante gaiting constitucional.",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "summary": "Clasificador de secretos de GitHub mejora la detección con un 11.5% más de aceptación.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.11542",
+      "source_name": "GitHub AI",
+      "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Negociación",
-        "Multi-Agente",
-        "IA"
+        "modelo",
+        "seguridad",
+        "GitHub"
       ],
-      "what_changed": "Desarrollo de un sistema de recuperación más eficiente en negociaciones complejas.",
-      "why_it_matters": "Se presenta un control para mejorar la negociación en sistemas multi-agente mediante gaiting constitucional.",
-      "sector_impact": "Aumenta la eficacia en sistemas de negociación automatizados."
+      "what_changed": "Mejora en la calidad de detección de secretos y reducción en tiempo de escaneo.",
+      "why_it_matters": "Aumenta la seguridad y la eficiencia en la gestión de secretos en código.",
+      "sector_impact": "Crucial para empresas que manejan información sensible."
     },
     {
-      "title": "Do More Agents Help? Evaluating Accuracy and Cost in LLM Multi-Agent Workflows",
-      "summary": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "summary": "Agentes de IA de Floqer investigan prospectos de ventas para equipos.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.05670",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Herramientas",
-        "Evaluación",
+        "agentes",
+        "ventas",
         "IA"
       ],
-      "what_changed": "Introducción de un marco de evaluación compartido para comparar rendimientos.",
-      "why_it_matters": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
-      "sector_impact": "Facilita decisiones en configuraciones de IA multi-agente."
+      "what_changed": "Desarrollo de agentes que manejan la investigación de clientes.",
+      "why_it_matters": "Libera tiempo para los equipos de ventas, mejorando su eficiencia.",
+      "sector_impact": "Impacto positivo en la productividad de los equipos de ventas B2B."
+    },
+    {
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "summary": "Simulaciones para probar robots y vehículos autónomos antes de su despliegue.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "simulación",
+        "robótica"
+      ],
+      "what_changed": "Uso de agentes de IA para pruebas exhaustivas.",
+      "why_it_matters": "Aumenta la seguridad y fiabilidad de robots y vehículos autónomos.",
+      "sector_impact": "Crucial para la industria automotriz y robótica."
+    },
+    {
+      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "summary": "Facilita la creación de aplicaciones de Android personalizadas con IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "herramienta",
+        "app",
+        "Android"
+      ],
+      "what_changed": "Introducción de soporte para apps privadas en Google Play.",
+      "why_it_matters": "Permite una personalización y adaptabilidad sin precedentes en apps móviles.",
+      "sector_impact": "Impulso en la creación de soluciones personalizadas en el sector móvil."
+    },
+    {
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "summary": "Predicciones sobre asistentes de IA personales en el hogar.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "asistente",
+        "hogar"
+      ],
+      "what_changed": "Perspectivas sobre el futuro del uso de IA en el hogar.",
+      "why_it_matters": "Indica una tendencia hacia la automatización y asistencia personal generalizada.",
+      "sector_impact": "Transformación en el estilo de vida y gestión del hogar."
     }
   ]
 }

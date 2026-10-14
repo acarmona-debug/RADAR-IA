@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-10-14",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "summary": "Acceso a Gemini 4 Argon, el último modelo de frontera de Google, para desarrolladores y empresas.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "Gemini",
+            "desarrollo"
+          ],
+          "what_changed": "Lanzamiento del modelo Gemini 4 Argon.",
+          "why_it_matters": "Ofrece nuevas capacidades para resolver problemas complejos en diversos sectores.",
+          "sector_impact": "Alta relevancia en tecnología y desarrollo de soluciones IA."
+        },
+        {
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "summary": "Nueva suscripción que combina herramientas de IA como Grok y Cursor.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "herramienta",
+            "suscripción",
+            "Cursor"
+          ],
+          "what_changed": "Integración de varias herramientas de IA en un solo paquete.",
+          "why_it_matters": "Facilita el acceso y uso de múltiples herramientas de IA para los desarrolladores.",
+          "sector_impact": "Mejora en la eficiencia de los equipos de desarrollo."
+        },
+        {
+          "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+          "summary": "Clasificador de secretos de GitHub mejora la detección con un 11.5% más de aceptación.",
+          "category": "model",
+          "source_name": "GitHub AI",
+          "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "seguridad",
+            "GitHub"
+          ],
+          "what_changed": "Mejora en la calidad de detección de secretos y reducción en tiempo de escaneo.",
+          "why_it_matters": "Aumenta la seguridad y la eficiencia en la gestión de secretos en código.",
+          "sector_impact": "Crucial para empresas que manejan información sensible."
+        },
+        {
+          "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+          "summary": "Agentes de IA de Floqer investigan prospectos de ventas para equipos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "ventas",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de agentes que manejan la investigación de clientes.",
+          "why_it_matters": "Libera tiempo para los equipos de ventas, mejorando su eficiencia.",
+          "sector_impact": "Impacto positivo en la productividad de los equipos de ventas B2B."
+        },
+        {
+          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+          "summary": "Simulaciones para probar robots y vehículos autónomos antes de su despliegue.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "simulación",
+            "robótica"
+          ],
+          "what_changed": "Uso de agentes de IA para pruebas exhaustivas.",
+          "why_it_matters": "Aumenta la seguridad y fiabilidad de robots y vehículos autónomos.",
+          "sector_impact": "Crucial para la industria automotriz y robótica."
+        },
+        {
+          "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+          "summary": "Facilita la creación de aplicaciones de Android personalizadas con IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "herramienta",
+            "app",
+            "Android"
+          ],
+          "what_changed": "Introducción de soporte para apps privadas en Google Play.",
+          "why_it_matters": "Permite una personalización y adaptabilidad sin precedentes en apps móviles.",
+          "sector_impact": "Impulso en la creación de soluciones personalizadas en el sector móvil."
+        },
+        {
+          "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+          "summary": "Predicciones sobre asistentes de IA personales en el hogar.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "asistente",
+            "hogar"
+          ],
+          "what_changed": "Perspectivas sobre el futuro del uso de IA en el hogar.",
+          "why_it_matters": "Indica una tendencia hacia la automatización y asistencia personal generalizada.",
+          "sector_impact": "Transformación en el estilo de vida y gestión del hogar."
+        }
+      ]
+    },
+    {
       "date": "2026-10-13",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -750,137 +875,6 @@
           "what_changed": "Introducción de un marco sistemático para la evaluación de comportamientos de riesgo en agentes.",
           "why_it_matters": "Proporciona una comprensión más profunda de la gestión de riesgos en ambientes de desarrollo.",
           "sector_impact": "Mejora la interacción de los desarrolladores con los agentes, reduciendo fricciones operativas."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "MiniScope: Autorización de Agentes con Permisos de Mínima Privilegio",
-          "summary": "MiniScope es un sistema de permisos para agentes que minimiza las confirmaciones de permiso al automatizar la gestión de jerarquías de permisos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2512.11147",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "IA",
-            "permisos",
-            "automatización"
-          ],
-          "what_changed": "Se presenta un modelo jerárquico para permisos que mejora la experiencia del usuario.",
-          "why_it_matters": "Aborda el desafío crítico de la gestión de permisos en IA, equilibrando seguridad y usabilidad.",
-          "sector_impact": "Ciberseguridad en el uso de IA."
-        },
-        {
-          "title": "WorldSolver: Simulación de Dinámicas Físicas mediante Agentes LLM",
-          "summary": "WorldSolver es una plataforma que evalúa la capacidad de los agentes LLM para generar soluciones de simulación física.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.08720",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "IA",
-            "física",
-            "agentes"
-          ],
-          "what_changed": "Introduce una evaluación de tareas de simulación física a agentes LLM.",
-          "why_it_matters": "Impulsa el desarrollo de IA en campos como la ingeniería y los videojuegos.",
-          "sector_impact": "Industrias de entretenimiento y simulaciones científicas."
-        },
-        {
-          "title": "FlowAgent: Reparación Automática de Programas en Tiempo Real",
-          "summary": "FlowAgent es un agente de IA que repara automáticamente fallos de prueba en flujos de integración continua en Google.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.07289",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "programación",
-            "IA",
-            "reparación",
-            "Google"
-          ],
-          "what_changed": "Mejora la eficiencia en la identificación y reparación de fallos en el flujo de trabajo.",
-          "why_it_matters": "Aumenta la productividad de los desarrolladores al reducir tiempos de espera.",
-          "sector_impact": "Desarrollo de software y tecnología."
-        },
-        {
-          "title": "DrugMCTS: Framework de Reciclaje de Fármacos",
-          "summary": "DrugMCTS combina multi-agente, RAG y búsqueda en árbol de Monte Carlo para el reciclaje de fármacos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2507.07426",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "salud",
-            "IA",
-            "fármacos",
-            "colaboración"
-          ],
-          "what_changed": "Integra múltiples enfoques para mejorar la búsqueda y análisis en reciclaje de fármacos.",
-          "why_it_matters": "Expande la aplicación de IA en biomedicina y farmacología.",
-          "sector_impact": "Industrias farmacéuticas y de investigación médica."
-        },
-        {
-          "title": "AegisFlow: Autonomía en la Remediación de Ecosistemas de Datos Frágiles",
-          "summary": "AegisFlow cierra la brecha entre la detección y la resolución de fallas en pipelines de datos mediante agentes de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.06971",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "datos",
-            "IA",
-            "remediación",
-            "eficiencia"
-          ],
-          "what_changed": "Proporciona un enfoque sistemático y autónomo para la reparación de datos.",
-          "why_it_matters": "Reduce el tiempo de reparación significativamente, mejorando la eficiencia operativa.",
-          "sector_impact": "Tecnologías de información y automación en datos."
-        },
-        {
-          "title": "ServeLearnBench: Mejora Continua de Agentes a Través de la Experiencia",
-          "summary": "ServeLearnBench evalúa la capacidad de los agentes de IA para aprender y adaptarse en entornos en evolución.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.07792",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "IA",
-            "adaptación"
-          ],
-          "what_changed": "Introduce un marco evaluativo para la mejora continua de agentes en entornos de información dinámica.",
-          "why_it_matters": "ServeLearnBench evalúa la capacidad de los agentes de IA para aprender y adaptarse en entornos en evolución.",
-          "sector_impact": "Inteligencia artificial en entornos operacionales."
-        },
-        {
-          "title": "S1-MAS: Colaboración Multi-Agente Eficiente en Recursos",
-          "summary": "S1-MAS es un marco que mejora la colaboración entre agentes al reducir el consumo de recursos y el tiempo de respuesta.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.08155",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "colaboración",
-            "IA",
-            "eficiencia",
-            "multi-agente"
-          ],
-          "what_changed": "Desacopla la coordinación de las decisiones de razonamiento, mejorando la eficiencia.",
-          "why_it_matters": "S1-MAS es un marco que mejora la colaboración entre agentes al reducir el consumo de recursos y el tiempo de respuesta.",
-          "sector_impact": "Servicios web y aplicaciones de IA."
         }
       ]
     }
