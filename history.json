@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-10-15",
+      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+      "items": [
+        {
+          "title": "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
+          "summary": "Un nuevo framework que descubre prompts adversarios para LLMs utilizando optimización evolutiva.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.15513",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "seguridad",
+            "LLM"
+          ],
+          "what_changed": "Introducción de un framework de optimización evolutiva.",
+          "why_it_matters": "Aumenta la seguridad de los LLMs al identificar debilidades.",
+          "sector_impact": "Alta"
+        },
+        {
+          "title": "Frustratingly Easy Agentic RAG via Portable Skills",
+          "summary": "Un enfoque simplificado para la automatización de flujos de trabajo en atención al cliente utilizando habilidades portátiles.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.14428",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "atención al cliente",
+            "RAG"
+          ],
+          "what_changed": "Despliegue de un enfoque más simple para la generación de flujos de trabajo.",
+          "why_it_matters": "Reduce la complejidad y mejora la eficiencia en atención al cliente.",
+          "sector_impact": "Media"
+        },
+        {
+          "title": "TENET: One Step Toward Test-Driven Development for Repository-Level Code Generation",
+          "summary": "Un marco para la generación de código mediante el desarrollo impulsado por pruebas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2509.24148",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "generación de código",
+            "TDD",
+            "automatización"
+          ],
+          "what_changed": "Introducción de un enfoque sistemático para mejorar la generación de código.",
+          "why_it_matters": "Optimiza el proceso de desarrollo de software.",
+          "sector_impact": "Alta"
+        },
+        {
+          "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+          "summary": "Dataset y marco para entrenar agentes de largo plazo con recompensas densas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.18868",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "entrenamiento",
+            "agentes",
+            "recompensas"
+          ],
+          "what_changed": "Nuevo dataset y metodología para tareas complejas.",
+          "why_it_matters": "Aumenta la eficacia de los modelos en tareas prolongadas.",
+          "sector_impact": "Alta"
+        },
+        {
+          "title": "LLM Agents for Automated Post-Training via Structured Recipe Optimization",
+          "summary": "Framework para la optimización de post-entrenamiento de LLMs mediante recetas estructuradas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.18572",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "post-entrenamiento",
+            "LLM"
+          ],
+          "what_changed": "Introducción de un enfoque estructurado para la optimización.",
+          "why_it_matters": "Mejora la adaptabilidad de los modelos a distintas tareas.",
+          "sector_impact": "Alta"
+        },
+        {
+          "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+          "summary": "Marco para agentes que mejora su rendimiento mediante ciclos de entrenamiento nativos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.14118",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "auto-mejora",
+            "agentes",
+            "entrenamiento"
+          ],
+          "what_changed": "Desarrollo de un ciclo de auto-mejora en el entrenamiento de agentes.",
+          "why_it_matters": "Facilita la evolución continua de los modelos.",
+          "sector_impact": "Alta"
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -755,126 +863,6 @@
           "what_changed": "Desarrollo de un benchmark que simula interacciones reales.",
           "why_it_matters": "Valida el rendimiento de asistentes en escenarios del mundo real.",
           "sector_impact": "Aumenta la efectividad de herramientas para desarrolladores."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "executive_title": "Radar Diario de IA - Innovaciones y Herramientas Clave",
-      "items": [
-        {
-          "title": "HERMES: Harness Engineering Framework",
-          "summary": "Una nueva arquitectura que mejora la ingeniería de software mediante la utilización de Dev-Primitives, facilitando el trabajo de agentes a lo largo de flujos de trabajo complejos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.07832",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Dev-Primitives",
-            "software engineering",
-            "Large Language Models"
-          ],
-          "what_changed": "Introducción de Dev-Primitives para una mejor interacción entre componentes de software.",
-          "why_it_matters": "Permite una modificación interna más eficiente y mejora la estabilidad en la ejecución de tareas complejas.",
-          "sector_impact": "Automatización de flujos de trabajo en programación, impactando a desarrolladores de software."
-        },
-        {
-          "title": "GAMEGO: Entrenamiento de Agentes para Desarrollo de Juegos",
-          "summary": "Framework para generar juegos directamente de consultas breves, optimizando el proceso de creación y asegurando la coherencia en el desarrollo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.06910",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "game development",
-            "coding agents",
-            "AI frameworks"
-          ],
-          "what_changed": "Desarrollo de un pipeline que transforma semillas de juegos en documentos de requisitos claros.",
-          "why_it_matters": "Facilita la creación de juegos, permitiendo a los desarrolladores concentrarse en la creatividad sin comprometer la calidad.",
-          "sector_impact": "Revoluciona la industria de desarrollo de videojuegos al reducir el tiempo de producción."
-        },
-        {
-          "title": "MemMux: Verificación en Tiempo de Ejecución para Agentes de Codificación",
-          "summary": "Solución para la gestión de recursos en flotas de agentes de codificación, asegurando la correcta asignación de recursos y la verificación durante la ejecución.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.07257",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "resource management",
-            "AI agents"
-          ],
-          "what_changed": "Integración de señales observables para la verificación continua de recursos.",
-          "why_it_matters": "Mejora la eficiencia y la transparencia en la ejecución de múltiples agentes de codificación.",
-          "sector_impact": "Optimiza el uso de recursos en entornos de desarrollo, lo que es esencial para la automatización."
-        },
-        {
-          "title": "CuratorMAS: Automatización de la Curaduría de Datos",
-          "summary": "Marco de colaboración de agentes para la curación automatizada de conjuntos de datos, mejorando la calidad y reduciendo el ruido en los datos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.07075",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "data curation",
-            "multi-agent systems"
-          ],
-          "what_changed": "Descomposición del proceso de curación en etapas programables y paralelizable.",
-          "why_it_matters": "Automatiza la curación y mejora la calidad de los datos, crucial para el aprendizaje automático.",
-          "sector_impact": "Eficientiza procesos de manejo de datos en múltiples dominios."
-        },
-        {
-          "title": "LeanPlan: Planificación Óptima con Heurísticas Generadas por LLM",
-          "summary": "Sistema de planificación que encuentra planes óptimos utilizando heurísticas que son comprobadas automáticamente para su admisibilidad.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.08246",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "planning systems",
-            "LLM"
-          ],
-          "what_changed": "Implementación de un ciclo iterativo para mejorar heurísticas en la planificación.",
-          "why_it_matters": "Permite una mejora continua en la generación de planes, crucial para aplicaciones en múltiples áreas.",
-          "sector_impact": "Optimiza sistemas de planificación en contextos que requieren toma de decisiones complejas."
-        },
-        {
-          "title": "BioStudyBench: Evaluando Agentes en Estudios Biomédicos",
-          "summary": "Benchmark para evaluar si los agentes de IA pueden replicar hallazgos de estudios biomédicos a partir de datos públicos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.07614",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "biomedical studies",
-            "AI agents"
-          ],
-          "what_changed": "Introducción de un marco para medir la capacidad de los agentes en estudios de largo alcance.",
-          "why_it_matters": "Ayuda a validar la efectividad de modelos de IA en campos críticos como la biomedicina.",
-          "sector_impact": "Impulsará la confianza en el uso de IA en investigaciones médicas."
-        },
-        {
-          "title": "ParanoiaEval: Evaluación de la Gestión de Riesgos en Agentes de Codificación",
-          "summary": "Benchmark para evaluar las capacidades de tratamiento de riesgos en agentes de codificación, abordando la gestión de riesgos de manera unificada.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.08662",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "risk management",
-            "coding agents"
-          ],
-          "what_changed": "Introducción de un marco sistemático para la evaluación de comportamientos de riesgo en agentes.",
-          "why_it_matters": "Proporciona una comprensión más profunda de la gestión de riesgos en ambientes de desarrollo.",
-          "sector_impact": "Mejora la interacción de los desarrolladores con los agentes, reduciendo fricciones operativas."
         }
       ]
     }

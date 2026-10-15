@@ -1,127 +1,110 @@
 {
-  "date": "2026-10-14",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y características en el ámbito de la inteligencia artificial.",
-  "opening_message": "A continuación, destacamos las novedades más relevantes que pueden impactar el desarrollo y la integración de soluciones de IA.",
+  "date": "2026-10-15",
+  "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
+  "intro_message": "El radar diario de IA presenta las últimas innovaciones en herramientas, modelos y frameworks relevantes para el desarrollo en el ámbito de inteligencia artificial.",
+  "opening_message": "A continuación, destacamos las herramientas y modelos innovadores que están impactando el campo de la IA.",
   "items": [
     {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "summary": "Acceso a Gemini 4 Argon, el último modelo de frontera de Google, para desarrolladores y empresas.",
-      "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "modelo",
-        "Gemini",
-        "desarrollo"
-      ],
-      "what_changed": "Lanzamiento del modelo Gemini 4 Argon.",
-      "why_it_matters": "Ofrece nuevas capacidades para resolver problemas complejos en diversos sectores.",
-      "sector_impact": "Alta relevancia en tecnología y desarrollo de soluciones IA."
-    },
-    {
-      "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-      "summary": "Nueva suscripción que combina herramientas de IA como Grok y Cursor.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "herramienta",
-        "suscripción",
-        "Cursor"
-      ],
-      "what_changed": "Integración de varias herramientas de IA en un solo paquete.",
-      "why_it_matters": "Facilita el acceso y uso de múltiples herramientas de IA para los desarrolladores.",
-      "sector_impact": "Mejora en la eficiencia de los equipos de desarrollo."
-    },
-    {
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "summary": "Clasificador de secretos de GitHub mejora la detección con un 11.5% más de aceptación.",
-      "category": "model",
-      "source_name": "GitHub AI",
-      "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "title": "REPRO: Reflective Evolutionary Prompt Optimizer for Automated LLM Red-Teaming",
+      "summary": "Un nuevo framework que descubre prompts adversarios para LLMs utilizando optimización evolutiva.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.15513",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelo",
+        "optimización",
         "seguridad",
-        "GitHub"
+        "LLM"
       ],
-      "what_changed": "Mejora en la calidad de detección de secretos y reducción en tiempo de escaneo.",
-      "why_it_matters": "Aumenta la seguridad y la eficiencia en la gestión de secretos en código.",
-      "sector_impact": "Crucial para empresas que manejan información sensible."
+      "what_changed": "Introducción de un framework de optimización evolutiva.",
+      "why_it_matters": "Aumenta la seguridad de los LLMs al identificar debilidades.",
+      "sector_impact": "Alta"
     },
     {
-      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
-      "summary": "Agentes de IA de Floqer investigan prospectos de ventas para equipos.",
+      "title": "Frustratingly Easy Agentic RAG via Portable Skills",
+      "summary": "Un enfoque simplificado para la automatización de flujos de trabajo en atención al cliente utilizando habilidades portátiles.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.14428",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes",
-        "ventas",
-        "IA"
+        "automatización",
+        "atención al cliente",
+        "RAG"
       ],
-      "what_changed": "Desarrollo de agentes que manejan la investigación de clientes.",
-      "why_it_matters": "Libera tiempo para los equipos de ventas, mejorando su eficiencia.",
-      "sector_impact": "Impacto positivo en la productividad de los equipos de ventas B2B."
+      "what_changed": "Despliegue de un enfoque más simple para la generación de flujos de trabajo.",
+      "why_it_matters": "Reduce la complejidad y mejora la eficiencia en atención al cliente.",
+      "sector_impact": "Media"
     },
     {
-      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "summary": "Simulaciones para probar robots y vehículos autónomos antes de su despliegue.",
+      "title": "TENET: One Step Toward Test-Driven Development for Repository-Level Code Generation",
+      "summary": "Un marco para la generación de código mediante el desarrollo impulsado por pruebas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2509.24148",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "generación de código",
+        "TDD",
+        "automatización"
+      ],
+      "what_changed": "Introducción de un enfoque sistemático para mejorar la generación de código.",
+      "why_it_matters": "Optimiza el proceso de desarrollo de software.",
+      "sector_impact": "Alta"
+    },
+    {
+      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "summary": "Dataset y marco para entrenar agentes de largo plazo con recompensas densas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.18868",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
+        "entrenamiento",
         "agentes",
-        "simulación",
-        "robótica"
+        "recompensas"
       ],
-      "what_changed": "Uso de agentes de IA para pruebas exhaustivas.",
-      "why_it_matters": "Aumenta la seguridad y fiabilidad de robots y vehículos autónomos.",
-      "sector_impact": "Crucial para la industria automotriz y robótica."
+      "what_changed": "Nuevo dataset y metodología para tareas complejas.",
+      "why_it_matters": "Aumenta la eficacia de los modelos en tareas prolongadas.",
+      "sector_impact": "Alta"
     },
     {
-      "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
-      "summary": "Facilita la creación de aplicaciones de Android personalizadas con IA.",
+      "title": "LLM Agents for Automated Post-Training via Structured Recipe Optimization",
+      "summary": "Framework para la optimización de post-entrenamiento de LLMs mediante recetas estructuradas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.18572",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "optimización",
+        "post-entrenamiento",
+        "LLM"
+      ],
+      "what_changed": "Introducción de un enfoque estructurado para la optimización.",
+      "why_it_matters": "Mejora la adaptabilidad de los modelos a distintas tareas.",
+      "sector_impact": "Alta"
+    },
+    {
+      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "summary": "Marco para agentes que mejora su rendimiento mediante ciclos de entrenamiento nativos.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.14118",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "herramienta",
-        "app",
-        "Android"
+        "auto-mejora",
+        "agentes",
+        "entrenamiento"
       ],
-      "what_changed": "Introducción de soporte para apps privadas en Google Play.",
-      "why_it_matters": "Permite una personalización y adaptabilidad sin precedentes en apps móviles.",
-      "sector_impact": "Impulso en la creación de soluciones personalizadas en el sector móvil."
-    },
-    {
-      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-      "summary": "Predicciones sobre asistentes de IA personales en el hogar.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "modelo",
-        "asistente",
-        "hogar"
-      ],
-      "what_changed": "Perspectivas sobre el futuro del uso de IA en el hogar.",
-      "why_it_matters": "Indica una tendencia hacia la automatización y asistencia personal generalizada.",
-      "sector_impact": "Transformación en el estilo de vida y gestión del hogar."
+      "what_changed": "Desarrollo de un ciclo de auto-mejora en el entrenamiento de agentes.",
+      "why_it_matters": "Facilita la evolución continua de los modelos.",
+      "sector_impact": "Alta"
     }
   ]
 }
