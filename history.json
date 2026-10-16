@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-10-16",
+      "executive_title": "Radar diario de IA",
+      "items": [
+        {
+          "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+          "summary": "Introducimos INFUSE, un benchmark que evalúa la inyección de mensajes maliciosos en flujos de trabajo de agentes. Se evalúan 19 LLMs y se presentan 40 tareas realistas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.20776",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "seguridad",
+            "agentes"
+          ],
+          "what_changed": "Se presenta un enfoque más integral para evaluar la inyección de mensajes maliciosos.",
+          "why_it_matters": "Mejora la seguridad de los modelos de IA al proporcionar una evaluación más realista de la inyección de comandos.",
+          "sector_impact": "Impacto en la evaluación de seguridad de sistemas de IA."
+        },
+        {
+          "title": "TRACER: Trajectory-Aware Tool Retrieval for LLM Agents",
+          "summary": "TRACER mejora la precisión de selección de herramientas de agentes LLM al indexar secuencias de llamadas a herramientas y reducir la cantidad de tokens usados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.21267",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "optimización",
+            "agentes"
+          ],
+          "what_changed": "Mejora la precisión en la selección de herramientas y reduce el uso de tokens.",
+          "why_it_matters": "Optimiza el rendimiento de los agentes LLM en entornos complejos al ser más eficiente en el uso de recursos.",
+          "sector_impact": "Aplicable en desarrollo de software y automatización de tareas."
+        },
+        {
+          "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
+          "summary": "SkillNEO permite a los agentes LLM evolucionar habilidades mediante optimización no elitista, mejorando su rendimiento en múltiples tareas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.20926",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "framework",
+            "optimización",
+            "habilidades"
+          ],
+          "what_changed": "Introduce un enfoque no elitista para la evolución de habilidades en agentes.",
+          "why_it_matters": "Permite una mejora continua de habilidades, beneficiando tanto a modelos más débiles como fuertes.",
+          "sector_impact": "Transición hacia la automatización en desarrollo de software y tareas de oficina."
+        },
+        {
+          "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
+          "summary": "Athanor permite a agentes realizar investigación post-entrenamiento de manera autónoma, mejorando su capacidad de auto-mejora.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.21055",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "investigación",
+            "agentes"
+          ],
+          "what_changed": "Implementa un sistema autónomo de investigación post-entrenamiento.",
+          "why_it_matters": "Muestra el potencial de la inteligencia artificial para mejorar modelos existentes de forma autónoma.",
+          "sector_impact": "Revoluciona el enfoque de la investigación en IA y el autoaprendizaje."
+        },
+        {
+          "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces",
+          "summary": "Los Librarian Agents organizan documentos en un sistema de archivos, preparando un espacio de trabajo para futuros requerimientos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.22273",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "organización",
+            "agentes"
+          ],
+          "what_changed": "Transforma documentos en un archivo jerárquico para mejorar la respuesta sobre consultas futuras.",
+          "why_it_matters": "Optimiza el uso de LLM al permitir curación anticipada de información.",
+          "sector_impact": "Aplicaciones en gestión del conocimiento y soporte en la toma de decisiones."
+        },
+        {
+          "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
+          "summary": "RSIFlow integra flujos de trabajo de auto-mejora con evolución de capacidades en agentes, mejorando su orquestación de tareas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.21791",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "framework",
+            "mejora",
+            "agentes"
+          ],
+          "what_changed": "Optimiza la orquestación de flujos de trabajo mediante un marco de auto-mejora recursiva.",
+          "why_it_matters": "Permite una mejora constante en la eficacia de los agentes en diversas tareas.",
+          "sector_impact": "Impulsa la productividad en entornos de trabajo automatizados."
+        },
+        {
+          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
+          "summary": "MegaMem es un sistema de recuperación que gestiona grandes contextos de memoria, separando el acceso semántico de la evidencia generativa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.22137",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "memoria",
+            "recuperación"
+          ],
+          "what_changed": "Permite un almacenamiento persistente a gran escala con alta precisión en la recuperación.",
+          "why_it_matters": "Mejora significativamente la precisión de recuperación en modelos de IA avanzados.",
+          "sector_impact": "Beneficios en múltiples industrias que gestionan grandes volúmenes de datos."
+        },
+        {
+          "title": "AutoOnboarder: Autonomously Onboarding LLM Agents",
+          "summary": "AutoOnboarder adapta agentes a tareas de manera autónoma, emulando el proceso de integración de nuevos empleados.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.21218",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "integración",
+            "agentes"
+          ],
+          "what_changed": "Implementa un proceso de integración autónoma para mejorar la capacidad de los agentes.",
+          "why_it_matters": "Fomenta el auto-aprendizaje en la IA, reduciendo costos operativos.",
+          "sector_impact": "Innovación en la gestión de recursos humanos y formación motivacional a través de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "executive_title": "Radar Diario de IA - Innovaciones y Herramientas",
       "items": [
@@ -738,131 +880,6 @@
           "what_changed": "Promocionan diversos agentes de IA útiles para la vida diaria.",
           "why_it_matters": "Amplía las posibilidades de interacción cotidiana con la IA.",
           "sector_impact": "Comunicación"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "A Closer Look at Agentic BBO",
-          "summary": "Benchmarking de agentes LLM para optimización de caja negra (BBO) introduciendo un protocolo de evaluación unificado.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.12183",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimización",
-            "LLM",
-            "benchmark"
-          ],
-          "what_changed": "Introducción de AgenticBBO-Bench.",
-          "why_it_matters": "Mejora la comparación y utilización de LLM para problemas complejos.",
-          "sector_impact": "Alta relevancia en ciencia y tecnología aplicada."
-        },
-        {
-          "title": "Automatización de verificación de correcciones sin código",
-          "summary": "Propuesta de una pipeline automatizada para validar correcciones generadas por LLM en entornos reales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.11963",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "verificación",
-            "automatización",
-            "LLM"
-          ],
-          "what_changed": "Desarrollo de una agent pipeline para validar correcciones.",
-          "why_it_matters": "Reduce el tiempo de los desarrolladores y mejora la eficiencia en la resolución de errores.",
-          "sector_impact": "Significativa mejora en la calidad del software."
-        },
-        {
-          "title": "Introducción de Arbiter para detección de interferencias",
-          "summary": "Un nuevo marco para la evaluación de prompts en sistemas de agentes LLM que detecta patrones de interferencia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.08993",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "LLM",
-            "seguridad"
-          ],
-          "what_changed": "Desarrollo del framework Arbiter.",
-          "why_it_matters": "Mejora la estabilidad y seguridad de los sistemas de agentes LLM.",
-          "sector_impact": "Aumenta la confianza en implementaciones LLM en producción."
-        },
-        {
-          "title": "RFChipAgent: Automatización en diseño de circuitos",
-          "summary": "Un flujo de agentes LLM para diseñar circuitos analógicos y RF de manera colaborativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.10858",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "circuitos",
-            "automación",
-            "diseño"
-          ],
-          "what_changed": "Implementación de un flujo de trabajo completo automatizado.",
-          "why_it_matters": "Reduce el tiempo y esfuerzo en el diseño de circuitos complejos.",
-          "sector_impact": "Revoluciona el diseño de circuitos en la industria tecnológica."
-        },
-        {
-          "title": "MIMESIS: Simuladores de usuarios para agentes interactivos",
-          "summary": "Introducción de un simulador de usuarios para entrenar y evaluar agentes conversacionales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.09484",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "simulación",
-            "interacción",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un simulador de usuarios con patrones reales.",
-          "why_it_matters": "Mejora la generación de interacciones más precisas en agentes de conversación.",
-          "sector_impact": "Aumenta la efectividad de los agentes conversacionales en múltiples sectores."
-        },
-        {
-          "title": "RAG-Stress: Probar límites de confianza en generación aumentada",
-          "summary": "Protocolo diagnóstico para evaluar la dependencia del modelo en evidencia durante la generación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.11183",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "evidencia",
-            "RAG"
-          ],
-          "what_changed": "Introducción de un protocolo para evaluar fiabilidad de evidencia.",
-          "why_it_matters": "Aumenta la confianza en las respuestas generadas por el modelo.",
-          "sector_impact": "Mejora la precisión de modelos de RAG en aplicaciones críticas."
-        },
-        {
-          "title": "SWE-Journey: Evaluación realista de asistentes de codificación",
-          "summary": "Propuesta de un benchmark para evaluar asistentes de codificación con interacciones de múltiples turnos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.11559",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "asistentes",
-            "evaluación",
-            "codificación"
-          ],
-          "what_changed": "Desarrollo de un benchmark que simula interacciones reales.",
-          "why_it_matters": "Valida el rendimiento de asistentes en escenarios del mundo real.",
-          "sector_impact": "Aumenta la efectividad de herramientas para desarrolladores."
         }
       ]
     }
