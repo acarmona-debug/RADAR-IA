@@ -1,144 +1,143 @@
 {
-  "date": "2026-10-16",
-  "executive_title": "Radar diario de IA",
-  "intro_message": "Este radar diario destaca las últimas innovaciones en herramientas, modelos y frameworks de IA, priorizando características relevantes para desarrolladores y automatización.",
-  "opening_message": "A continuación, se presentan las novedades más relevantes en el ámbito de la inteligencia artificial, enfocándose en integraciones y mejoras prácticas.",
+  "date": "2026-10-17",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial.",
+  "opening_message": "Aquí están las actualizaciones más relevantes en IA de los últimos días.",
   "items": [
     {
-      "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
-      "summary": "Introducimos INFUSE, un benchmark que evalúa la inyección de mensajes maliciosos en flujos de trabajo de agentes. Se evalúan 19 LLMs y se presentan 40 tareas realistas.",
+      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "summary": "La nueva herramienta de compras está disponible en los EE.UU. a través de Google Search y la aplicación Gemini.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.20776",
-      "relevance_score": 8,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "relevance_score": 13,
       "status": "new",
       "tags": [
-        "benchmark",
-        "seguridad",
-        "agentes"
+        "Google",
+        "Gemini",
+        "shopping"
       ],
-      "what_changed": "Se presenta un enfoque más integral para evaluar la inyección de mensajes maliciosos.",
-      "why_it_matters": "Mejora la seguridad de los modelos de IA al proporcionar una evaluación más realista de la inyección de comandos.",
-      "sector_impact": "Impacto en la evaluación de seguridad de sistemas de IA."
+      "what_changed": "Lanzamiento de una herramienta de carrito universal.",
+      "why_it_matters": "Facilita la experiencia de compra en línea.",
+      "sector_impact": "Comercio electrónico"
     },
     {
-      "title": "TRACER: Trajectory-Aware Tool Retrieval for LLM Agents",
-      "summary": "TRACER mejora la precisión de selección de herramientas de agentes LLM al indexar secuencias de llamadas a herramientas y reducir la cantidad de tokens usados.",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "summary": "El modelo Glimpse de Elorian supera incluso a GPT-6 Astra en razonamiento sobre gráficos científicos y subtitulación de videos.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [
+        "Elorian",
+        "AI model",
+        "image reasoning"
+      ],
+      "what_changed": "Lanzamiento del modelo que razona con imágenes.",
+      "why_it_matters": "Mejora la comprensión visual y la interacción con los usuarios.",
+      "sector_impact": "Tecnología visual"
+    },
+    {
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "summary": "Los datos provienen del gateway de IA de Vercel, un servicio API unificado similar a OpenRouter.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Vercel",
+        "AI model",
+        "API"
+      ],
+      "what_changed": "La adopción rápida de un nuevo modelo de IA.",
+      "why_it_matters": "Muestra el enfoque innovador de Vercel en la adopción de IA.",
+      "sector_impact": "Desarrollo de software"
+    },
+    {
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "summary": "Meta y Apple lanzan Modelo Muse Spark Open, que funcionará localmente en silicio de Apple.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Meta",
+        "Apple",
+        "open-weight model"
+      ],
+      "what_changed": "Lanzamiento de un modelo de IA de código abierto para Macs.",
+      "why_it_matters": "Aumenta las capacidades de IA en dispositivos locales.",
+      "sector_impact": "Tecnología de consumo"
+    },
+    {
+      "title": "AI agents are coming to Rivian’s cars",
+      "summary": "Los agentes de IA estarán presentes en los autos de Rivian, con más detalles en el próximo evento de 'AI & Autonomy Day'.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.21267",
-      "relevance_score": 8,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "herramientas",
-        "optimización",
-        "agentes"
+        "Rivian",
+        "AI agents",
+        "automotive"
       ],
-      "what_changed": "Mejora la precisión en la selección de herramientas y reduce el uso de tokens.",
-      "why_it_matters": "Optimiza el rendimiento de los agentes LLM en entornos complejos al ser más eficiente en el uso de recursos.",
-      "sector_impact": "Aplicable en desarrollo de software y automatización de tareas."
+      "what_changed": "Introducción de agentes de IA en vehículos.",
+      "why_it_matters": "Revoluciona la experiencia del usuario en automóviles.",
+      "sector_impact": "Automotriz"
     },
     {
-      "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
-      "summary": "SkillNEO permite a los agentes LLM evolucionar habilidades mediante optimización no elitista, mejorando su rendimiento en múltiples tareas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.20926",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "framework",
-        "optimización",
-        "habilidades"
-      ],
-      "what_changed": "Introduce un enfoque no elitista para la evolución de habilidades en agentes.",
-      "why_it_matters": "Permite una mejora continua de habilidades, beneficiando tanto a modelos más débiles como fuertes.",
-      "sector_impact": "Transición hacia la automatización en desarrollo de software y tareas de oficina."
-    },
-    {
-      "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
-      "summary": "Athanor permite a agentes realizar investigación post-entrenamiento de manera autónoma, mejorando su capacidad de auto-mejora.",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "summary": "Figma lanzará su función de capas de código en beta abierta.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.21055",
-      "relevance_score": 8,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "herramientas",
-        "investigación",
-        "agentes"
+        "Figma",
+        "agents",
+        "features"
       ],
-      "what_changed": "Implementa un sistema autónomo de investigación post-entrenamiento.",
-      "why_it_matters": "Muestra el potencial de la inteligencia artificial para mejorar modelos existentes de forma autónoma.",
-      "sector_impact": "Revoluciona el enfoque de la investigación en IA y el autoaprendizaje."
+      "what_changed": "Nuevas características para gestionar agentes en la plataforma.",
+      "why_it_matters": "Facilita el trabajo colaborativo y la eficiencia en diseño.",
+      "sector_impact": "Diseño digital"
     },
     {
-      "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces",
-      "summary": "Los Librarian Agents organizan documentos en un sistema de archivos, preparando un espacio de trabajo para futuros requerimientos.",
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "summary": "El CEO de Replit visualiza un futuro donde los agentes de IA gestionan tareas diarias.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.22273",
-      "relevance_score": 8,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "herramientas",
-        "organización",
-        "agentes"
+        "Replit",
+        "self-driving company",
+        "future of work"
       ],
-      "what_changed": "Transforma documentos en un archivo jerárquico para mejorar la respuesta sobre consultas futuras.",
-      "why_it_matters": "Optimiza el uso de LLM al permitir curación anticipada de información.",
-      "sector_impact": "Aplicaciones en gestión del conocimiento y soporte en la toma de decisiones."
+      "what_changed": "Visión del reconocimiento de empresas autónomas.",
+      "why_it_matters": "Transforma cómo se percibe el trabajo y la gestión empresarial.",
+      "sector_impact": "Tecnología laboral"
     },
     {
-      "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
-      "summary": "RSIFlow integra flujos de trabajo de auto-mejora con evolución de capacidades en agentes, mejorando su orquestación de tareas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.21791",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "framework",
-        "mejora",
-        "agentes"
-      ],
-      "what_changed": "Optimiza la orquestación de flujos de trabajo mediante un marco de auto-mejora recursiva.",
-      "why_it_matters": "Permite una mejora constante en la eficacia de los agentes en diversas tareas.",
-      "sector_impact": "Impulsa la productividad en entornos de trabajo automatizados."
-    },
-    {
-      "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-      "summary": "MegaMem es un sistema de recuperación que gestiona grandes contextos de memoria, separando el acceso semántico de la evidencia generativa.",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "summary": "",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.22137",
-      "relevance_score": 7,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
-        "herramientas",
-        "memoria",
-        "recuperación"
+        "Hugging Face",
+        "private agents"
       ],
-      "what_changed": "Permite un almacenamiento persistente a gran escala con alta precisión en la recuperación.",
-      "why_it_matters": "Mejora significativamente la precisión de recuperación en modelos de IA avanzados.",
-      "sector_impact": "Beneficios en múltiples industrias que gestionan grandes volúmenes de datos."
-    },
-    {
-      "title": "AutoOnboarder: Autonomously Onboarding LLM Agents",
-      "summary": "AutoOnboarder adapta agentes a tareas de manera autónoma, emulando el proceso de integración de nuevos empleados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.21218",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "herramientas",
-        "integración",
-        "agentes"
-      ],
-      "what_changed": "Implementa un proceso de integración autónoma para mejorar la capacidad de los agentes.",
-      "why_it_matters": "Fomenta el auto-aprendizaje en la IA, reduciendo costos operativos.",
-      "sector_impact": "Innovación en la gestión de recursos humanos y formación motivacional a través de IA."
+      "what_changed": "Lanzamiento de agentes rápidos y privados en el dispositivo.",
+      "why_it_matters": "Facilita la privacidad y el rendimiento local.",
+      "sector_impact": "Tecnología de IA"
     }
   ]
 }

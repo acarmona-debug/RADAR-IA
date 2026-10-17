@@ -1,6 +1,147 @@
 {
   "days": [
     {
+      "date": "2026-10-17",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Google’s Universal Cart shopping tool launches in the US",
+          "summary": "La nueva herramienta de compras está disponible en los EE.UU. a través de Google Search y la aplicación Gemini.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "relevance_score": 13,
+          "status": "new",
+          "tags": [
+            "Google",
+            "Gemini",
+            "shopping"
+          ],
+          "what_changed": "Lanzamiento de una herramienta de carrito universal.",
+          "why_it_matters": "Facilita la experiencia de compra en línea.",
+          "sector_impact": "Comercio electrónico"
+        },
+        {
+          "title": "Elorian’s first AI model wants to reason with images, not just about them",
+          "summary": "El modelo Glimpse de Elorian supera incluso a GPT-6 Astra en razonamiento sobre gráficos científicos y subtitulación de videos.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "Elorian",
+            "AI model",
+            "image reasoning"
+          ],
+          "what_changed": "Lanzamiento del modelo que razona con imágenes.",
+          "why_it_matters": "Mejora la comprensión visual y la interacción con los usuarios.",
+          "sector_impact": "Tecnología visual"
+        },
+        {
+          "title": "Jev is Vercel’s fastest-adopted AI model ever",
+          "summary": "Los datos provienen del gateway de IA de Vercel, un servicio API unificado similar a OpenRouter.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Vercel",
+            "AI model",
+            "API"
+          ],
+          "what_changed": "La adopción rápida de un nuevo modelo de IA.",
+          "why_it_matters": "Muestra el enfoque innovador de Vercel en la adopción de IA.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "Meta launches an open-weight AI model that runs on Macs",
+          "summary": "Meta y Apple lanzan Modelo Muse Spark Open, que funcionará localmente en silicio de Apple.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "Apple",
+            "open-weight model"
+          ],
+          "what_changed": "Lanzamiento de un modelo de IA de código abierto para Macs.",
+          "why_it_matters": "Aumenta las capacidades de IA en dispositivos locales.",
+          "sector_impact": "Tecnología de consumo"
+        },
+        {
+          "title": "AI agents are coming to Rivian’s cars",
+          "summary": "Los agentes de IA estarán presentes en los autos de Rivian, con más detalles en el próximo evento de 'AI & Autonomy Day'.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Rivian",
+            "AI agents",
+            "automotive"
+          ],
+          "what_changed": "Introducción de agentes de IA en vehículos.",
+          "why_it_matters": "Revoluciona la experiencia del usuario en automóviles.",
+          "sector_impact": "Automotriz"
+        },
+        {
+          "title": "Figma announces new features to define how agents work on its platform",
+          "summary": "Figma lanzará su función de capas de código en beta abierta.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Figma",
+            "agents",
+            "features"
+          ],
+          "what_changed": "Nuevas características para gestionar agentes en la plataforma.",
+          "why_it_matters": "Facilita el trabajo colaborativo y la eficiencia en diseño.",
+          "sector_impact": "Diseño digital"
+        },
+        {
+          "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+          "summary": "El CEO de Replit visualiza un futuro donde los agentes de IA gestionan tareas diarias.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Replit",
+            "self-driving company",
+            "future of work"
+          ],
+          "what_changed": "Visión del reconocimiento de empresas autónomas.",
+          "why_it_matters": "Transforma cómo se percibe el trabajo y la gestión empresarial.",
+          "sector_impact": "Tecnología laboral"
+        },
+        {
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "summary": "",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "private agents"
+          ],
+          "what_changed": "Lanzamiento de agentes rápidos y privados en el dispositivo.",
+          "why_it_matters": "Facilita la privacidad y el rendimiento local.",
+          "sector_impact": "Tecnología de IA"
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "executive_title": "Radar diario de IA",
       "items": [
@@ -745,141 +886,6 @@
           "what_changed": "Preparativos y expectativas para el evento de tecnología.",
           "why_it_matters": "Se acercan los días del evento TechCrunch Disrupt 2026 donde se presentarán nuevas startups innovadoras en IA.",
           "sector_impact": "Estímulo para la innovación y el emprendimiento en el ámbito tecnológico."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Google brings agentic AI to Gemini, starting with businesses",
-          "summary": "Google está convirtiendo Gemini en un agente de IA que puede planificar y ejecutar tareas en aplicaciones y sistemas empresariales.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Gemini",
-            "Agentes",
-            "Automatización"
-          ],
-          "what_changed": "Gemini ahora puede delegar trabajos a subagentes y utilizar múltiples modelos de IA.",
-          "why_it_matters": "Este avance permite a las empresas automatizar procesos y mejorar la eficiencia.",
-          "sector_impact": "Transformación empresarial"
-        },
-        {
-          "title": "Secret protection must scale with software",
-          "summary": "Los desarrolladores necesitan herramientas para proteger el software que crean.",
-          "category": "tool",
-          "source_name": "GitHub AI",
-          "source_url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Desarrollo",
-            "Seguridad"
-          ],
-          "what_changed": "Se enfatiza la necesidad de herramientas que acompañen el crecimiento del desarrollo de software.",
-          "why_it_matters": "La scalabilidad en la protección del software es crucial para prevenir vulnerabilidades.",
-          "sector_impact": "Seguridad en desarrollo de software"
-        },
-        {
-          "title": "Introducing Playground: Create and play custom games",
-          "summary": "Google lanza Playground, una plataforma para crear y jugar juegos personalizados.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Juegos",
-            "IA"
-          ],
-          "what_changed": "Un entorno experimental para que los usuarios creen y compartan sus propios juegos.",
-          "why_it_matters": "Fomenta la creatividad y experimentación en el desarrollo de juegos utilizando IA.",
-          "sector_impact": "Entretenimiento"
-        },
-        {
-          "title": "Natura’s $99 smart ring puts AI agents on your finger",
-          "summary": "La interfaz de anillo inteligente de Natura permite invocar agentes de IA con un toque.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Wearable",
-            "Agentes"
-          ],
-          "what_changed": "El ring inteligente combina la funcionalidad de seguimiento de salud con la interacción de IA.",
-          "why_it_matters": "Muestra cómo la tecnología portátil puede integrar agentes de IA en la vida diaria.",
-          "sector_impact": "Tecnología portátil"
-        },
-        {
-          "title": "Anthropic changes usage policy to ban model abuse and election interference",
-          "summary": "Anthropic actualiza su política para prohibir el abuso de sus modelos de IA.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "Políticas"
-          ],
-          "what_changed": "Se establecieron nuevas reglas que abordan cuestiones como la manipulación electoral.",
-          "why_it_matters": "Aumenta la responsabilidad y la ética en el uso de modelos de IA.",
-          "sector_impact": "Regulación y Ética"
-        },
-        {
-          "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-          "summary": "TypeSafe afirma que Jev es más rápido y eficiente en el uso de tokens que los LLMs.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Modelo",
-            "Eficiencia"
-          ],
-          "what_changed": "La valoración de Jev ha crecido explosivamente tras su lanzamiento.",
-          "why_it_matters": "Indica un interés creciente en modelos de IA no textuales entre los inversores.",
-          "sector_impact": "Mercado de IA"
-        },
-        {
-          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-          "summary": "LMArena ha recaudado $200 millones y ahora mide modelos de IA en función de problemas de alineación.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Liderazgo",
-            "Modelos"
-          ],
-          "what_changed": "Se han ampliado los criterios de evaluación para modelos de IA.",
-          "why_it_matters": "Refuerza la importancia de la alineación en modelos de IA.",
-          "sector_impact": "Desarrollo y evaluación de modelos"
-        },
-        {
-          "title": "Here are the top AI agents that can live in your text messages",
-          "summary": "Listado de agentes de IA que pueden integrarse en mensajes de texto personal y profesional.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Agentes",
-            "Mensajería"
-          ],
-          "what_changed": "Promocionan diversos agentes de IA útiles para la vida diaria.",
-          "why_it_matters": "Amplía las posibilidades de interacción cotidiana con la IA.",
-          "sector_impact": "Comunicación"
         }
       ]
     }
