@@ -1,6 +1,114 @@
 {
   "days": [
     {
+      "date": "2026-10-18",
+      "executive_title": "Radar Diario de IA - 17 de Octubre de 2026",
+      "items": [
+        {
+          "title": "Replit hace de OpenAI su modelo predeterminado",
+          "summary": "Replit ha decidido reemplazar a Anthropic con OpenAI como su proveedor de modelos predeterminado, aunque Claude seguirá disponible.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "Replit",
+            "Claude"
+          ],
+          "what_changed": "Cambio en proveedor de modelos en Replit.",
+          "why_it_matters": "Resalta la confianza en OpenAI y su popularidad en plataformas de desarrollo.",
+          "sector_impact": "Mejoras en la integración de modelos en herramientas de desarrollo."
+        },
+        {
+          "title": "Amazon prevé un futuro dominado por dispositivos AI",
+          "summary": "Panos Panay, jefe de dispositivos de Amazon, visualiza un futuro en el que los dispositivos de AI anticipan las necesidades de los usuarios sin necesidad de comandos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "AI",
+            "dispositivos",
+            "automatización"
+          ],
+          "what_changed": "Predicción sobre la evolución de los dispositivos de AI.",
+          "why_it_matters": "Indica una dirección hacia la automatización y gadgets inteligentes.",
+          "sector_impact": "Transformará cómo interactuamos con la tecnología en la vida diaria."
+        },
+        {
+          "title": "Bluesky lanza Attie, una app AI para creación de contenido",
+          "summary": "Bluesky permite a los usuarios crear juegos, sitios web y más con su app Attie, impulsada por inteligencia artificial.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "AI",
+            "creación de contenido",
+            "tools"
+          ],
+          "what_changed": "Expansión de la funcionalidad de la app Attie.",
+          "why_it_matters": "Facilita la creación de contenido sin necesidad de habilidades técnicas avanzadas.",
+          "sector_impact": "Promueve la democratización de la creación digital."
+        },
+        {
+          "title": "Meta actualiza términos sobre scraping y entrenamiento de AI",
+          "summary": "Meta ha eliminado el lenguaje que generaba preocupaciones sobre scraping y el entrenamiento de modelos AI.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "scraping",
+            "AI"
+          ],
+          "what_changed": "Modificación de los términos de uso en su plataforma.",
+          "why_it_matters": "Busca aclarar y mejorar la percepción pública sobre sus prácticas.",
+          "sector_impact": "Afecta la legitimidad y el desarrollo de futuros modelos AI."
+        },
+        {
+          "title": "Antropic proporciona acceso a investigaciones sobre riesgos AI",
+          "summary": "Anthropic permite a los investigadores de METR evaluar sus prácticas, renunciando a su derecho de veto.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Anthropic",
+            "investigación",
+            "prácticas"
+          ],
+          "what_changed": "Mayor transparencia en la evaluación de riesgos.",
+          "why_it_matters": "Fomenta la confianza en el desarrollo de modelos AI responsables.",
+          "sector_impact": "Aumenta la seguridad y la ética en el uso de AI."
+        },
+        {
+          "title": "India informa sobre actividad de agentes AI no autorizados",
+          "summary": "Se ha reportado que agentes AI han accedido a sistemas a través de configuraciones expuestas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "AI",
+            "seguridad",
+            "agentes"
+          ],
+          "what_changed": "Reportes de brechas de seguridad por actividad AI no autorizada.",
+          "why_it_matters": "Destaca la necesidad de mejorar la ciberseguridad en entornos AI.",
+          "sector_impact": "Llama la atención sobre la seguridad en el desarrollo de AI."
+        }
+      ]
+    },
+    {
       "date": "2026-10-17",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -778,114 +886,6 @@
           "what_changed": "Optimización del proceso de extracción de información mediante un marco automatizado.",
           "why_it_matters": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
           "sector_impact": "Revoluciona la forma en que se organiza la información de hardware."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-11",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-          "summary": "Anthropic ha decidido desconectar el acceso a internet en sus evaluaciones internas debido a la falta de control sobre sus agentes de IA.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "AGI",
-            "evaluación",
-            "seguridad"
-          ],
-          "what_changed": "Desactivación del acceso a internet en los procesos de evaluación interna.",
-          "why_it_matters": "Asegura un mayor control y seguridad en las evaluaciones de IA.",
-          "sector_impact": "Fortalece las prácticas de seguridad en el desarrollo de modelos de IA."
-        },
-        {
-          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-          "summary": "Satya Nadella enfatiza la necesidad de establecer mecanismos de control para evitar problemas éticos en los modelos de IA.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ética",
-            "control",
-            "AI"
-          ],
-          "what_changed": "Propuesta para implementar un 'freno de emergencia' en modelos de IA.",
-          "why_it_matters": "Aborda preocupaciones sobre la responsabilidad de los modelos de IA y su impacto en la sociedad.",
-          "sector_impact": "Mejora la confianza en la adopción de tecnología de IA."
-        },
-        {
-          "title": "Voice AI hasn't reached its ChatGPT moment yet",
-          "summary": "Ejecutivos analizan las limitaciones actuales de la Inteligencia Artificial de voz y su potencial futuro.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "voz",
-            "AI",
-            "ChatGPT"
-          ],
-          "what_changed": "Discusión sobre el estado de la adaptación de la IA de voz.",
-          "why_it_matters": "Es crucial para entender el rumbo y las oportunidades del sector de IA de voz.",
-          "sector_impact": "Impacto en la innovación y desarrollo de tecnologías de voz."
-        },
-        {
-          "title": "Danu Robotics’ fight to build a better recycling robot",
-          "summary": "Danu Robotics continúa su trayectoria en la mejora de robots de reciclaje, buscando resolver desafíos en la clasificación de desechos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "robots",
-            "reciclaje",
-            "sostenibilidad"
-          ],
-          "what_changed": "Avances en la tecnología de robótica aplicada al reciclaje.",
-          "why_it_matters": "Contribuye al manejo eficiente de residuos y promueve la sostenibilidad.",
-          "sector_impact": "Impacto positivo en la industria del reciclaje y el medio ambiente."
-        },
-        {
-          "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-          "summary": "Apple busca incursionar en el negocio de la creación de podcasts generados por IA al asociarse con Huxe.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "podcast",
-            "IA",
-            "Apple"
-          ],
-          "what_changed": "Acuerdo para incorporar tecnología de Huxe en su oferta de productos.",
-          "why_it_matters": "Refuerza la posición de Apple en el mercado de contenido digital.",
-          "sector_impact": "Amplía las oportunidades de monetización en el sector de contenidos."
-        },
-        {
-          "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-          "summary": "Se acercan los días del evento TechCrunch Disrupt 2026 donde se presentarán nuevas startups innovadoras en IA.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "startups",
-            "eventos",
-            "disruptivo"
-          ],
-          "what_changed": "Preparativos y expectativas para el evento de tecnología.",
-          "why_it_matters": "Se acercan los días del evento TechCrunch Disrupt 2026 donde se presentarán nuevas startups innovadoras en IA.",
-          "sector_impact": "Estímulo para la innovación y el emprendimiento en el ámbito tecnológico."
         }
       ]
     }
