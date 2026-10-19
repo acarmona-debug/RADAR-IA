@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-10-19",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "WebCoder: Scaling General Frontend Development",
+          "summary": "WebCoder es un agente de desarrollo frontend que utiliza aprendizaje por refuerzo basado en artefactos para mejorar la creación y mantenimiento de aplicaciones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.23104",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "frontend",
+            "reinforcement learning",
+            "development"
+          ],
+          "what_changed": "Introducción de un agente de desarrollo optimizado para la creación de aplicaciones frontend.",
+          "why_it_matters": "Ofrece una mejora en la composición y modificación de aplicaciones en entornos en evolución.",
+          "sector_impact": "Puede incrementar significativamente la eficiencia en el desarrollo de software."
+        },
+        {
+          "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+          "summary": "HDA evalúa las mejoras obtenidas en sistemas de agentes al optimizar sus mecanismos de operación sin cambiar los pesos del modelo.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.22466",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluation",
+            "agents",
+            "optimization"
+          ],
+          "what_changed": "Creación de un protocolo de evaluación que descompone las mejoras de evolución de agentes.",
+          "why_it_matters": "Proporciona información clara sobre cómo las mejoras afectan el rendimiento de los sistemas.",
+          "sector_impact": "Facilita la comprensión del rendimiento de agentes en diversas aplicaciones."
+        },
+        {
+          "title": "Veri-Sure: Multi-Agent RTL Code Generation",
+          "summary": "Veri-Sure es un marco de agente múltiple que genera código RTL con verificación temporal y formal.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.19747",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "RTL",
+            "EDA",
+            "code generation"
+          ],
+          "what_changed": "Integración de verificación formal en la generación de código RTL.",
+          "why_it_matters": "Mejora la robustez y confiabilidad del código en entornos de diseño electrónico.",
+          "sector_impact": "Transforma el enfoque de generación de código en la automatización de diseños electrónicos."
+        },
+        {
+          "title": "Q-Reflector: Learning GUI Action Reflection",
+          "summary": "Q-Reflector aprende la reflexión de acciones GUI como predicción estructurada, mejorando la ejecución de agentes móviles.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2608.05587",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "GUI",
+            "agents",
+            "reflection"
+          ],
+          "what_changed": "Desarrollo de un reflector autónomo basado en el aprendizaje supervisado.",
+          "why_it_matters": "Aumenta la capacidad de los agentes móviles para ejecutar tareas de largo plazo con precisión.",
+          "sector_impact": "Mejora la efectividad de aplicaciones móviles y automáticas."
+        },
+        {
+          "title": "Self-Reflective Chain-of-Thought (SRCoT)",
+          "summary": "SRCoT organiza la generación de texto en un ciclo cerrado que permite revisiones documentadas y claridad en la información.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.23311",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "text generation",
+            "LLMs",
+            "feedback"
+          ],
+          "what_changed": "Introducción de un enfoque modular en la generación de texto.",
+          "why_it_matters": "Promueve la transparencia y la validación de los datos generados.",
+          "sector_impact": "Impacta la construcción de modelos de generación de texto más robustos."
+        },
+        {
+          "title": "QEMem: Rethinking Memory Utilization in LLM Agents",
+          "summary": "QEMem optimiza la utilización de la memoria en agentes LLM para mejorar la precisión y la cobertura de la evidencia.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.22668",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "LLMs",
+            "memory",
+            "evidence"
+          ],
+          "what_changed": "Reformulación de cómo se construyen los conjuntos de evidencia a partir de la memoria.",
+          "why_it_matters": "Aumenta la efectividad de los agentes en tareas que requieren integración de evidencias.",
+          "sector_impact": "Mejora significativamente el rendimiento de aplicaciones LLM en tareas complejas."
+        },
+        {
+          "title": "PresenceBench: Evaluation of LLM Adaptation to User State",
+          "summary": "PresenceBench mide la adaptación de los modelos LLM al estado funcional del usuario, evaluando su capacidad de respuesta.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.23625",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "evaluation",
+            "user states",
+            "LLMs"
+          ],
+          "what_changed": "Desarrollo de una herramienta para evaluar la inteligencia adaptativa de los modelos.",
+          "why_it_matters": "Permite un mejor entendimiento de la efectividad de los modelos en contextos reales.",
+          "sector_impact": "Aumenta el valor práctico de LLMs al mejorar la interacción con los usuarios."
+        }
+      ]
+    },
+    {
       "date": "2026-10-18",
       "executive_title": "Radar Diario de IA - 17 de Octubre de 2026",
       "items": [
@@ -744,148 +869,6 @@
           "what_changed": "Introducción de un marco de evaluación compartido para comparar rendimientos.",
           "why_it_matters": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
           "sector_impact": "Facilita decisiones en configuraciones de IA multi-agente."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "executive_title": "Radar Diario de IA - Enfoque en Innovaciones y Herramientas",
-      "items": [
-        {
-          "title": "KnowForge: Agentes Especializados en Herramientas para QA de Documentos Multimodales",
-          "summary": "KnowForge presenta un pipeline que integra agentes especializados en búsqueda y lectura, logrando mejorar significativamente la precisión en la respuesta a preguntas sobre colecciones documentales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13128",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "QA",
-            "documentación",
-            "agentes"
-          ],
-          "what_changed": "Integración de agentes especializados en tareas específicas.",
-          "why_it_matters": "Mejora la efectividad de las respuestas en entornos de documentos complejos.",
-          "sector_impact": "Transforma la eficiencia en el manejo de grandes colecciones de documentos."
-        },
-        {
-          "title": "ChemDiffAgent: Razonamiento Químico Integrado con Herramientas",
-          "summary": "Una nueva representación del razonamiento químico que mejora el uso de herramientas en tareas complejas, sobrepasando modelos autoregresivos anteriores.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13330",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "química",
-            "razonamiento",
-            "agentes"
-          ],
-          "what_changed": "Implantación de un marco de razonamiento químico más flexible.",
-          "why_it_matters": "Permite una comprensión más precisa y bidireccional de procesos químicos.",
-          "sector_impact": "Revoluciona la forma en que se abordan problemas químicos complejos."
-        },
-        {
-          "title": "HOA: Agentes Humanizados para Resolución de Problemas Olímpicos",
-          "summary": "Una nueva estructura que mejora la colaboración entre agentes a través de múltiples sesiones para resolver problemas matemáticos complejos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13632",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "matemáticas",
-            "colaboración",
-            "agentes"
-          ],
-          "what_changed": "Implementación de un sistema de retroalimentación y verificación entre agentes.",
-          "why_it_matters": "Aumenta la precisión y la capacidad de manejo de tareas complejas.",
-          "sector_impact": "Potencia la resolución de problemas en competiciones académicas."
-        },
-        {
-          "title": "EvoBelief: Modelos de Mundo Falsables para Agentes LLM",
-          "summary": "Desarrollo de un modelo automejorable que se adapta a cambios en su entorno usando creencias falsables.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.12789",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "auto-mejoramiento",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un enfoque de hipótesis falsables para la automejoría.",
-          "why_it_matters": "Proporciona un enfoque robusto para mejorar el rendimiento basado en la adaptación al entorno.",
-          "sector_impact": "Optimiza el rendimiento de agentes que operan en ambientes dinámicos."
-        },
-        {
-          "title": "HExA: Agentes Experimentalistas Jerárquicos para Aprendizaje Activo",
-          "summary": "Un nuevo marco que permite a los agentes realizar experimentos iterativos para mejorar el aprendizaje en tiempo real.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.29315",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "experimentos",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un enfoque de mejora activa en el rendimiento de los agentes.",
-          "why_it_matters": "Un nuevo marco que permite a los agentes realizar experimentos iterativos para mejorar el aprendizaje en tiempo real.",
-          "sector_impact": "Revoluciona el desarrollo y la ejecución de tareas en entornos desconocidos."
-        },
-        {
-          "title": "Agent4Spec: Optimización de Especificaciones de API a través de Validación Automatizada",
-          "summary": "Un sistema automatizado que mejora las especificaciones de API mediante análisis de mercado y validación continua.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13273",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "API",
-            "validación",
-            "herramientas"
-          ],
-          "what_changed": "Implementación de un marco de múltiples agentes para la mejora continua.",
-          "why_it_matters": "Un sistema automatizado que mejora las especificaciones de API mediante análisis de mercado y validación continua.",
-          "sector_impact": "Aumenta la eficiencia en el desarrollo de software a través de APIs."
-        },
-        {
-          "title": "DRYLAB-Bench: Evaluación de Riesgas Biológicos de Agentes LLM",
-          "summary": "Un nuevo estándar para evaluar los riesgos inherentes a los modelos en el diseño biológico avanzado, considerando la dualidad de uso.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13116",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "bioseguridad",
-            "evaluación",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un banco de pruebas específico para evaluar riesgos biológicos.",
-          "why_it_matters": "Un nuevo estándar para evaluar los riesgos inherentes a los modelos en el diseño biológico avanzado, considerando la dualidad de uso.",
-          "sector_impact": "Ayuda a mitigar riesgos catastróficos en la biotecnología impulsada por IA."
-        },
-        {
-          "title": "Hierarchical Hardware Knowledge Graphs: Construcción Automatizada mediante LLMs",
-          "summary": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.12762",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "hardware",
-            "gráficos de conocimiento",
-            "LLMs"
-          ],
-          "what_changed": "Optimización del proceso de extracción de información mediante un marco automatizado.",
-          "why_it_matters": "Un enfoque innovador para transformar las hojas de datos de hardware en gráficos de conocimiento jerárquicos, optimizando la ingeniería de hardware.",
-          "sector_impact": "Revoluciona la forma en que se organiza la información de hardware."
         }
       ]
     }

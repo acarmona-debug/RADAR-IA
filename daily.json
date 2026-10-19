@@ -1,110 +1,127 @@
 {
-  "date": "2026-10-18",
-  "executive_title": "Radar Diario de IA - 17 de Octubre de 2026",
-  "intro_message": "Aquí están las actualizaciones clave en herramientas y modelos de IA que importan a desarrolladores y profesionales del sector.",
-  "opening_message": "En este radar, priorizamos las innovaciones y desarrollos en inteligencia artificial que afectan directamente a la automatización, herramientas y nuevas características, mientras descartamos el ruido no operativo.",
+  "date": "2026-10-19",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Resumen diario de avances y novedades en IA, con un enfoque en herramientas y modelos clave.",
+  "opening_message": "Este radar destaca desarrollos significativos en el campo de la inteligencia artificial, priorizando nuevas herramientas, modelos y características que pueden impactar el sector de manera práctica.",
   "items": [
     {
-      "title": "Replit hace de OpenAI su modelo predeterminado",
-      "summary": "Replit ha decidido reemplazar a Anthropic con OpenAI como su proveedor de modelos predeterminado, aunque Claude seguirá disponible.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "title": "WebCoder: Scaling General Frontend Development",
+      "summary": "WebCoder es un agente de desarrollo frontend que utiliza aprendizaje por refuerzo basado en artefactos para mejorar la creación y mantenimiento de aplicaciones.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.23104",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "Replit",
-        "Claude"
+        "frontend",
+        "reinforcement learning",
+        "development"
       ],
-      "what_changed": "Cambio en proveedor de modelos en Replit.",
-      "why_it_matters": "Resalta la confianza en OpenAI y su popularidad en plataformas de desarrollo.",
-      "sector_impact": "Mejoras en la integración de modelos en herramientas de desarrollo."
+      "what_changed": "Introducción de un agente de desarrollo optimizado para la creación de aplicaciones frontend.",
+      "why_it_matters": "Ofrece una mejora en la composición y modificación de aplicaciones en entornos en evolución.",
+      "sector_impact": "Puede incrementar significativamente la eficiencia en el desarrollo de software."
     },
     {
-      "title": "Amazon prevé un futuro dominado por dispositivos AI",
-      "summary": "Panos Panay, jefe de dispositivos de Amazon, visualiza un futuro en el que los dispositivos de AI anticipan las necesidades de los usuarios sin necesidad de comandos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+      "summary": "HDA evalúa las mejoras obtenidas en sistemas de agentes al optimizar sus mecanismos de operación sin cambiar los pesos del modelo.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.22466",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "AI",
-        "dispositivos",
-        "automatización"
+        "evaluation",
+        "agents",
+        "optimization"
       ],
-      "what_changed": "Predicción sobre la evolución de los dispositivos de AI.",
-      "why_it_matters": "Indica una dirección hacia la automatización y gadgets inteligentes.",
-      "sector_impact": "Transformará cómo interactuamos con la tecnología en la vida diaria."
+      "what_changed": "Creación de un protocolo de evaluación que descompone las mejoras de evolución de agentes.",
+      "why_it_matters": "Proporciona información clara sobre cómo las mejoras afectan el rendimiento de los sistemas.",
+      "sector_impact": "Facilita la comprensión del rendimiento de agentes en diversas aplicaciones."
     },
     {
-      "title": "Bluesky lanza Attie, una app AI para creación de contenido",
-      "summary": "Bluesky permite a los usuarios crear juegos, sitios web y más con su app Attie, impulsada por inteligencia artificial.",
+      "title": "Veri-Sure: Multi-Agent RTL Code Generation",
+      "summary": "Veri-Sure es un marco de agente múltiple que genera código RTL con verificación temporal y formal.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2601.19747",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "RTL",
+        "EDA",
+        "code generation"
+      ],
+      "what_changed": "Integración de verificación formal en la generación de código RTL.",
+      "why_it_matters": "Mejora la robustez y confiabilidad del código en entornos de diseño electrónico.",
+      "sector_impact": "Transforma el enfoque de generación de código en la automatización de diseños electrónicos."
+    },
+    {
+      "title": "Q-Reflector: Learning GUI Action Reflection",
+      "summary": "Q-Reflector aprende la reflexión de acciones GUI como predicción estructurada, mejorando la ejecución de agentes móviles.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2608.05587",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "AI",
-        "creación de contenido",
-        "tools"
+        "GUI",
+        "agents",
+        "reflection"
       ],
-      "what_changed": "Expansión de la funcionalidad de la app Attie.",
-      "why_it_matters": "Facilita la creación de contenido sin necesidad de habilidades técnicas avanzadas.",
-      "sector_impact": "Promueve la democratización de la creación digital."
+      "what_changed": "Desarrollo de un reflector autónomo basado en el aprendizaje supervisado.",
+      "why_it_matters": "Aumenta la capacidad de los agentes móviles para ejecutar tareas de largo plazo con precisión.",
+      "sector_impact": "Mejora la efectividad de aplicaciones móviles y automáticas."
     },
     {
-      "title": "Meta actualiza términos sobre scraping y entrenamiento de AI",
-      "summary": "Meta ha eliminado el lenguaje que generaba preocupaciones sobre scraping y el entrenamiento de modelos AI.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "title": "Self-Reflective Chain-of-Thought (SRCoT)",
+      "summary": "SRCoT organiza la generación de texto en un ciclo cerrado que permite revisiones documentadas y claridad en la información.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.23311",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "text generation",
+        "LLMs",
+        "feedback"
+      ],
+      "what_changed": "Introducción de un enfoque modular en la generación de texto.",
+      "why_it_matters": "Promueve la transparencia y la validación de los datos generados.",
+      "sector_impact": "Impacta la construcción de modelos de generación de texto más robustos."
+    },
+    {
+      "title": "QEMem: Rethinking Memory Utilization in LLM Agents",
+      "summary": "QEMem optimiza la utilización de la memoria en agentes LLM para mejorar la precisión y la cobertura de la evidencia.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.22668",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "LLMs",
+        "memory",
+        "evidence"
+      ],
+      "what_changed": "Reformulación de cómo se construyen los conjuntos de evidencia a partir de la memoria.",
+      "why_it_matters": "Aumenta la efectividad de los agentes en tareas que requieren integración de evidencias.",
+      "sector_impact": "Mejora significativamente el rendimiento de aplicaciones LLM en tareas complejas."
+    },
+    {
+      "title": "PresenceBench: Evaluation of LLM Adaptation to User State",
+      "summary": "PresenceBench mide la adaptación de los modelos LLM al estado funcional del usuario, evaluando su capacidad de respuesta.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.23625",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Meta",
-        "scraping",
-        "AI"
+        "evaluation",
+        "user states",
+        "LLMs"
       ],
-      "what_changed": "Modificación de los términos de uso en su plataforma.",
-      "why_it_matters": "Busca aclarar y mejorar la percepción pública sobre sus prácticas.",
-      "sector_impact": "Afecta la legitimidad y el desarrollo de futuros modelos AI."
-    },
-    {
-      "title": "Antropic proporciona acceso a investigaciones sobre riesgos AI",
-      "summary": "Anthropic permite a los investigadores de METR evaluar sus prácticas, renunciando a su derecho de veto.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "investigación",
-        "prácticas"
-      ],
-      "what_changed": "Mayor transparencia en la evaluación de riesgos.",
-      "why_it_matters": "Fomenta la confianza en el desarrollo de modelos AI responsables.",
-      "sector_impact": "Aumenta la seguridad y la ética en el uso de AI."
-    },
-    {
-      "title": "India informa sobre actividad de agentes AI no autorizados",
-      "summary": "Se ha reportado que agentes AI han accedido a sistemas a través de configuraciones expuestas.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "AI",
-        "seguridad",
-        "agentes"
-      ],
-      "what_changed": "Reportes de brechas de seguridad por actividad AI no autorizada.",
-      "why_it_matters": "Destaca la necesidad de mejorar la ciberseguridad en entornos AI.",
-      "sector_impact": "Llama la atención sobre la seguridad en el desarrollo de AI."
+      "what_changed": "Desarrollo de una herramienta para evaluar la inteligencia adaptativa de los modelos.",
+      "why_it_matters": "Permite un mejor entendimiento de la efectividad de los modelos en contextos reales.",
+      "sector_impact": "Aumenta el valor práctico de LLMs al mejorar la interacción con los usuarios."
     }
   ]
 }
