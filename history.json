@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-10-20",
+      "executive_title": "Radar Diario de IA - Actualizaciones Clave",
+      "items": [
+        {
+          "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+          "summary": "OpenCode, un agente de codificación IA de código abierto, fue atacado por hackers que robaron claves API, lo que genera preocupaciones sobre la seguridad en herramientas de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "OpenCode"
+          ],
+          "what_changed": "Incidencia de seguridad en la plataforma OpenCode.",
+          "why_it_matters": "La seguridad es crucial para el uso de herramientas de IA en entornos empresariales.",
+          "sector_impact": "Impacto significativo en la confianza del usuario hacia herramientas de codificación IA."
+        },
+        {
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "summary": "Amazon presenta TorchNeuron para desafiar a Nvidia en el uso de PyTorch, permitiendo que los desarrolladores usen chips alternativos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Amazon",
+            "TorchNeuron",
+            "desarrollo"
+          ],
+          "what_changed": "Lanzamiento de una herramienta de desarrollo para competir con Nvidia.",
+          "why_it_matters": "Ofrece a los desarrolladores más opciones y potencia en sus herramientas de IA.",
+          "sector_impact": "Impulso en la competencia de hardware para IA."
+        },
+        {
+          "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+          "summary": "Nvidia lanza modelos abiertos para que las empresas ejecuten agentes de IA en sus propios centros de datos y dispositivos.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Nvidia",
+            "modelos abiertos",
+            "agentes"
+          ],
+          "what_changed": "Lanzamiento de modelos de IA abiertos para uso empresarial.",
+          "why_it_matters": "Permite a las empresas mayor flexibilidad y control sobre sus sistemas de IA.",
+          "sector_impact": "Transformación en la implementación de soluciones de IA en empresas."
+        },
+        {
+          "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+          "summary": "Otter.ai asegura $320 millones para expandir su herramienta de toma de notas en reuniones, enfocándose en innovación y crecimiento empresarial.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Otter.ai",
+            "financiamiento",
+            "herramientas"
+          ],
+          "what_changed": "Adquisición de capital significativo para crecimiento.",
+          "why_it_matters": "Potencial para mejorar la eficiencia en la toma de notas y la gestión de reuniones.",
+          "sector_impact": "Gran avance en el sector de productividad empresarial."
+        },
+        {
+          "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+          "summary": "Integración de nuevas capacidades de IA en Yelp para que la app llame y verifique tiempos de espera en restaurantes.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Yelp",
+            "IA",
+            "nuevas funciones"
+          ],
+          "what_changed": "Incorporación de llamadas automatizadas para servicio al cliente.",
+          "why_it_matters": "Mejora la experiencia del usuario al facilitar la planificación de visitas a restaurantes.",
+          "sector_impact": "Innovación en el sector de servicios gastronómicos."
+        },
+        {
+          "title": "People are using AI to make their smart TVs dumb again",
+          "summary": "Propietarios de TVs inteligentes están usando agentes IA para eliminar software no deseado y recuperar el control de sus dispositivos.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "IA",
+            "televisión",
+            "usuarios"
+          ],
+          "what_changed": "Desviación de la tendencia de TVs inteligentes a un uso más controlado.",
+          "why_it_matters": "Refleja una creciente frustración con la obsolescencia y el control del usuario.",
+          "sector_impact": "Reinventa la experiencia del consumidor en el entretenimiento."
+        },
+        {
+          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+          "summary": "Startup que usa agentes IA para probar robots y vehículos autónomos antes de su lanzamiento, asegurando su eficacia y seguridad.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Laplace Intelligence",
+            "IA",
+            "vehículos autónomos"
+          ],
+          "what_changed": "Implementación de pruebas rigurosas para tecnología de IA",
+          "why_it_matters": "Startup que usa agentes IA para probar robots y vehículos autónomos antes de su lanzamiento, asegurando su eficacia y seguridad.",
+          "sector_impact": "Influencia en la regulación y despliegue de tecnologías autónomas."
+        }
+      ]
+    },
+    {
       "date": "2026-10-19",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -746,129 +870,6 @@
           "what_changed": "Perspectivas sobre el futuro del uso de IA en el hogar.",
           "why_it_matters": "Indica una tendencia hacia la automatización y asistencia personal generalizada.",
           "sector_impact": "Transformación en el estilo de vida y gestión del hogar."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
-          "summary": "Propuesta de un enfoque de alternancia para agentes de IA que mejora la efectividad en tareas de ingeniería de aprendizaje automático.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13494",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Multi-Agent",
-            "Aprendizaje Automático",
-            "Ingeniería"
-          ],
-          "what_changed": "Introducción de un modelo de agentes alternantes para mejorar el rendimiento en largas sesiones.",
-          "why_it_matters": "Proporciona una mejora significativa en la tasa de éxito en tareas complejas y largas.",
-          "sector_impact": "Impacto positivo en la automatización y eficiencia en proyectos de IA."
-        },
-        {
-          "title": "ReasoningShield: Safety Detection over Reasoning Traces of Large Reasoning Models",
-          "summary": "Desarrollo de un nuevo modelo para la detección de seguridad en modelos de razonamiento, centrándose en las trazas de razonamiento.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2505.17244",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Seguridad",
-            "Modelos de Razonamiento"
-          ],
-          "what_changed": "Introducción de un marco de referencia para la moderación de seguridad en modelos de razonamiento.",
-          "why_it_matters": "Mejora la seguridad en la implementación de IA al detectar contenido perjudicial.",
-          "sector_impact": "Contribuye a la confianza en sistemas de IA en aplicaciones críticas."
-        },
-        {
-          "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
-          "summary": "Un nuevo marco para la recuperación de herramientas de IA que se adapta dinámicamente a la fiabilidad durante la ejecución.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13889",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Herramienta",
-            "Recuperación",
-            "IA"
-          ],
-          "what_changed": "Implementación de un sistema de recuperación de herramientas basado en la dinámica de ejecución.",
-          "why_it_matters": "Aumenta la eficacia de los agentes de IA al mejorar la recuperación de herramientas en tiempo real.",
-          "sector_impact": "Aumenta la fiabilidad de aplicaciones de IA en entornos reales."
-        },
-        {
-          "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
-          "summary": "Lanzamiento de un nuevo conjunto de datos para evaluar ataques de inyección de prompt en modelos de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2506.09956",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Dataset",
-            "Seguridad",
-            "IA"
-          ],
-          "what_changed": "Creación de un benchmark a gran escala para estudiar la diversidad en ataques de inyección de prompts.",
-          "why_it_matters": "Lanzamiento de un nuevo conjunto de datos para evaluar ataques de inyección de prompt en modelos de IA.",
-          "sector_impact": "Incrementa la seguridad en el uso de IA en diversas aplicaciones."
-        },
-        {
-          "title": "PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval",
-          "summary": "Propuesta de un marco de optimización para la recuperación de documentos estructurados por modelos de lenguaje.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.13296",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Framework",
-            "Recuperación de Documentos"
-          ],
-          "what_changed": "Introducción de un modelo de indexación para mejorar la calidad de recuperación de información.",
-          "why_it_matters": "Propuesta de un marco de optimización para la recuperación de documentos estructurados por modelos de lenguaje.",
-          "sector_impact": "Mejora el rendimiento en sistemas de información y búsqueda."
-        },
-        {
-          "title": "Constitutional Gating and Deterministic Recovery for Multi-Agent LLM Negotiation",
-          "summary": "Se presenta un control para mejorar la negociación en sistemas multi-agente mediante gaiting constitucional.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.11542",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Negociación",
-            "Multi-Agente",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un sistema de recuperación más eficiente en negociaciones complejas.",
-          "why_it_matters": "Se presenta un control para mejorar la negociación en sistemas multi-agente mediante gaiting constitucional.",
-          "sector_impact": "Aumenta la eficacia en sistemas de negociación automatizados."
-        },
-        {
-          "title": "Do More Agents Help? Evaluating Accuracy and Cost in LLM Multi-Agent Workflows",
-          "summary": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.05670",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Herramientas",
-            "Evaluación",
-            "IA"
-          ],
-          "what_changed": "Introducción de un marco de evaluación compartido para comparar rendimientos.",
-          "why_it_matters": "Comparativa de un marco de evaluación entre configuraciones de trabajo multi-agente y de agente único.",
-          "sector_impact": "Facilita decisiones en configuraciones de IA multi-agente."
         }
       ]
     }
