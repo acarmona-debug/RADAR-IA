@@ -1,126 +1,127 @@
 {
-  "date": "2026-10-20",
-  "executive_title": "Radar Diario de IA - Actualizaciones Clave",
-  "intro_message": "Este radar diario recopila las últimas y más relevantes innovaciones en el ámbito de la inteligencia artificial.",
-  "opening_message": "Enfócate en herramientas, modelos y características que impulsan el desarrollo en IA.",
+  "date": "2026-10-21",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Últimos avances en herramientas y frameworks de inteligencia artificial.",
+  "opening_message": "A continuación, te presentamos las novedades más importantes en el campo de IA, centradas en modelos, integraciones y nuevas funciones.",
   "items": [
     {
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "summary": "OpenCode, un agente de codificación IA de código abierto, fue atacado por hackers que robaron claves API, lo que genera preocupaciones sobre la seguridad en herramientas de IA.",
+      "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+      "summary": "Una suite de evaluación unificada para agentes LLM en entornos empresariales que consolida múltiples benchmarks.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.27234",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "agentes",
+        "LLM"
+      ],
+      "what_changed": "Lanzamiento de una suite de benchmarking consolidada.",
+      "why_it_matters": "Facilita la comparación entre modelos y mejora la adopción de LLM en empresas.",
+      "sector_impact": "Impacto significativo en la evaluación de agentes de IA en la industria."
+    },
+    {
+      "title": "Evolving Agent Interfaces",
+      "summary": "Desarrollo de interfaces autónomas que evolucionan a partir de la experiencia de tareas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.28601",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "interfaces",
+        "IA"
+      ],
+      "what_changed": "Introducción del agente S4 que mejora el diseño de interfaces.",
+      "why_it_matters": "Permite la adaptación dinámica de interfaces, mejorando el rendimiento de los agentes.",
+      "sector_impact": "Aumenta la eficiencia en la ejecución de tareas automatizadas."
+    },
+    {
+      "title": "RAG-NIMBF: A Non-Invasive Benchmarking Framework for Automated RAG Configuration Analysis",
+      "summary": "Un marco modular para la evaluación de configuraciones RAG sin afectar los flujos de trabajo existentes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.27816",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "RAG",
+        "evaluación"
+      ],
+      "what_changed": "Introducción de un marco evaluativo para sistemas RAG.",
+      "why_it_matters": "Permite decisiones basadas en evidencia dentro de las pipelines existentes.",
+      "sector_impact": "Optimiza el rendimiento de sistemas basados en generación aumentada por recuperación."
+    },
+    {
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis",
+      "summary": "Framework que permite la síntesis de tareas verificables para agentes de coworking.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.26887",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "tareas",
+        "IA"
+      ],
+      "what_changed": "Desarrollo de tareas analíticas con evidencia verificable.",
+      "why_it_matters": "Mejora la capacidad de los agentes para ejecutar tareas complejas.",
+      "sector_impact": "Incrementa la eficiencia en el análisis financiero y otros contextos similares."
+    },
+    {
+      "title": "IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD",
+      "summary": "Modelo de fundación multimodal optimizado para el diseño y fabricación industrial.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.28050",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "CAD",
+        "industrial"
+      ],
+      "what_changed": "Desarrollo de un modelo ampliamente mejorado para CAD industrial.",
+      "why_it_matters": "Proporciona una solución integrada para diseño y operaciones industriales.",
+      "sector_impact": "Transforma la automatización en el diseño CAD y mejora la eficiencia operativa."
+    },
+    {
+      "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
+      "summary": "Marco automatizado para la evaluación de seguridad de agentes estilo claw.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.27244",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "seguridad",
-        "OpenCode"
+        "agentes",
+        "evaluación"
       ],
-      "what_changed": "Incidencia de seguridad en la plataforma OpenCode.",
-      "why_it_matters": "La seguridad es crucial para el uso de herramientas de IA en entornos empresariales.",
-      "sector_impact": "Impacto significativo en la confianza del usuario hacia herramientas de codificación IA."
+      "what_changed": "Introducción de un sistema de red-teaming automatizado.",
+      "why_it_matters": "Facilita la evaluación continua de agentes, mejorando su seguridad.",
+      "sector_impact": "Aumenta la confianza en sistemas de IA en entornos sensibles."
     },
     {
-      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-      "summary": "Amazon presenta TorchNeuron para desafiar a Nvidia en el uso de PyTorch, permitiendo que los desarrolladores usen chips alternativos.",
+      "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "summary": "Framework que optimiza los reportes de radiología mediante IA de agente en el borde.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.26913",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Amazon",
-        "TorchNeuron",
-        "desarrollo"
-      ],
-      "what_changed": "Lanzamiento de una herramienta de desarrollo para competir con Nvidia.",
-      "why_it_matters": "Ofrece a los desarrolladores más opciones y potencia en sus herramientas de IA.",
-      "sector_impact": "Impulso en la competencia de hardware para IA."
-    },
-    {
-      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-      "summary": "Nvidia lanza modelos abiertos para que las empresas ejecuten agentes de IA en sus propios centros de datos y dispositivos.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Nvidia",
-        "modelos abiertos",
-        "agentes"
-      ],
-      "what_changed": "Lanzamiento de modelos de IA abiertos para uso empresarial.",
-      "why_it_matters": "Permite a las empresas mayor flexibilidad y control sobre sus sistemas de IA.",
-      "sector_impact": "Transformación en la implementación de soluciones de IA en empresas."
-    },
-    {
-      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
-      "summary": "Otter.ai asegura $320 millones para expandir su herramienta de toma de notas en reuniones, enfocándose en innovación y crecimiento empresarial.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Otter.ai",
-        "financiamiento",
-        "herramientas"
-      ],
-      "what_changed": "Adquisición de capital significativo para crecimiento.",
-      "why_it_matters": "Potencial para mejorar la eficiencia en la toma de notas y la gestión de reuniones.",
-      "sector_impact": "Gran avance en el sector de productividad empresarial."
-    },
-    {
-      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
-      "summary": "Integración de nuevas capacidades de IA en Yelp para que la app llame y verifique tiempos de espera en restaurantes.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Yelp",
+        "salud",
         "IA",
-        "nuevas funciones"
+        "radiología"
       ],
-      "what_changed": "Incorporación de llamadas automatizadas para servicio al cliente.",
-      "why_it_matters": "Mejora la experiencia del usuario al facilitar la planificación de visitas a restaurantes.",
-      "sector_impact": "Innovación en el sector de servicios gastronómicos."
-    },
-    {
-      "title": "People are using AI to make their smart TVs dumb again",
-      "summary": "Propietarios de TVs inteligentes están usando agentes IA para eliminar software no deseado y recuperar el control de sus dispositivos.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "IA",
-        "televisión",
-        "usuarios"
-      ],
-      "what_changed": "Desviación de la tendencia de TVs inteligentes a un uso más controlado.",
-      "why_it_matters": "Refleja una creciente frustración con la obsolescencia y el control del usuario.",
-      "sector_impact": "Reinventa la experiencia del consumidor en el entretenimiento."
-    },
-    {
-      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "summary": "Startup que usa agentes IA para probar robots y vehículos autónomos antes de su lanzamiento, asegurando su eficacia y seguridad.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Laplace Intelligence",
-        "IA",
-        "vehículos autónomos"
-      ],
-      "what_changed": "Implementación de pruebas rigurosas para tecnología de IA",
-      "why_it_matters": "Startup que usa agentes IA para probar robots y vehículos autónomos antes de su lanzamiento, asegurando su eficacia y seguridad.",
-      "sector_impact": "Influencia en la regulación y despliegue de tecnologías autónomas."
+      "what_changed": "Desarrollo de un sistema que corre en CPU, reduciendo la dependencia de GPUs.",
+      "why_it_matters": "Aumenta la accesibilidad de herramientas IA en el sector salud.",
+      "sector_impact": "Optimiza los flujos de trabajo clínicos mediante la automatización."
     }
   ]
 }

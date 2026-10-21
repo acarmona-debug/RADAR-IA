@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-10-21",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+          "summary": "Una suite de evaluación unificada para agentes LLM en entornos empresariales que consolida múltiples benchmarks.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.27234",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "agentes",
+            "LLM"
+          ],
+          "what_changed": "Lanzamiento de una suite de benchmarking consolidada.",
+          "why_it_matters": "Facilita la comparación entre modelos y mejora la adopción de LLM en empresas.",
+          "sector_impact": "Impacto significativo en la evaluación de agentes de IA en la industria."
+        },
+        {
+          "title": "Evolving Agent Interfaces",
+          "summary": "Desarrollo de interfaces autónomas que evolucionan a partir de la experiencia de tareas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.28601",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "interfaces",
+            "IA"
+          ],
+          "what_changed": "Introducción del agente S4 que mejora el diseño de interfaces.",
+          "why_it_matters": "Permite la adaptación dinámica de interfaces, mejorando el rendimiento de los agentes.",
+          "sector_impact": "Aumenta la eficiencia en la ejecución de tareas automatizadas."
+        },
+        {
+          "title": "RAG-NIMBF: A Non-Invasive Benchmarking Framework for Automated RAG Configuration Analysis",
+          "summary": "Un marco modular para la evaluación de configuraciones RAG sin afectar los flujos de trabajo existentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.27816",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "RAG",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de un marco evaluativo para sistemas RAG.",
+          "why_it_matters": "Permite decisiones basadas en evidencia dentro de las pipelines existentes.",
+          "sector_impact": "Optimiza el rendimiento de sistemas basados en generación aumentada por recuperación."
+        },
+        {
+          "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis",
+          "summary": "Framework que permite la síntesis de tareas verificables para agentes de coworking.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.26887",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "tareas",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de tareas analíticas con evidencia verificable.",
+          "why_it_matters": "Mejora la capacidad de los agentes para ejecutar tareas complejas.",
+          "sector_impact": "Incrementa la eficiencia en el análisis financiero y otros contextos similares."
+        },
+        {
+          "title": "IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD",
+          "summary": "Modelo de fundación multimodal optimizado para el diseño y fabricación industrial.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.28050",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "CAD",
+            "industrial"
+          ],
+          "what_changed": "Desarrollo de un modelo ampliamente mejorado para CAD industrial.",
+          "why_it_matters": "Proporciona una solución integrada para diseño y operaciones industriales.",
+          "sector_impact": "Transforma la automatización en el diseño CAD y mejora la eficiencia operativa."
+        },
+        {
+          "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
+          "summary": "Marco automatizado para la evaluación de seguridad de agentes estilo claw.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.27244",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de un sistema de red-teaming automatizado.",
+          "why_it_matters": "Facilita la evaluación continua de agentes, mejorando su seguridad.",
+          "sector_impact": "Aumenta la confianza en sistemas de IA en entornos sensibles."
+        },
+        {
+          "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+          "summary": "Framework que optimiza los reportes de radiología mediante IA de agente en el borde.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.26913",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "salud",
+            "IA",
+            "radiología"
+          ],
+          "what_changed": "Desarrollo de un sistema que corre en CPU, reduciendo la dependencia de GPUs.",
+          "why_it_matters": "Aumenta la accesibilidad de herramientas IA en el sector salud.",
+          "sector_impact": "Optimiza los flujos de trabajo clínicos mediante la automatización."
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "executive_title": "Radar Diario de IA - Actualizaciones Clave",
       "items": [
@@ -745,131 +870,6 @@
           "what_changed": "Desarrollo de un ciclo de auto-mejora en el entrenamiento de agentes.",
           "why_it_matters": "Facilita la evolución continua de los modelos.",
           "sector_impact": "Alta"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Gemini 4 Argon: Built to solve your hardest problems",
-          "summary": "Acceso a Gemini 4 Argon, el último modelo de frontera de Google, para desarrolladores y empresas.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "modelo",
-            "Gemini",
-            "desarrollo"
-          ],
-          "what_changed": "Lanzamiento del modelo Gemini 4 Argon.",
-          "why_it_matters": "Ofrece nuevas capacidades para resolver problemas complejos en diversos sectores.",
-          "sector_impact": "Alta relevancia en tecnología y desarrollo de soluciones IA."
-        },
-        {
-          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-          "summary": "Nueva suscripción que combina herramientas de IA como Grok y Cursor.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "herramienta",
-            "suscripción",
-            "Cursor"
-          ],
-          "what_changed": "Integración de varias herramientas de IA en un solo paquete.",
-          "why_it_matters": "Facilita el acceso y uso de múltiples herramientas de IA para los desarrolladores.",
-          "sector_impact": "Mejora en la eficiencia de los equipos de desarrollo."
-        },
-        {
-          "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-          "summary": "Clasificador de secretos de GitHub mejora la detección con un 11.5% más de aceptación.",
-          "category": "model",
-          "source_name": "GitHub AI",
-          "source_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelo",
-            "seguridad",
-            "GitHub"
-          ],
-          "what_changed": "Mejora en la calidad de detección de secretos y reducción en tiempo de escaneo.",
-          "why_it_matters": "Aumenta la seguridad y la eficiencia en la gestión de secretos en código.",
-          "sector_impact": "Crucial para empresas que manejan información sensible."
-        },
-        {
-          "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
-          "summary": "Agentes de IA de Floqer investigan prospectos de ventas para equipos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "ventas",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de agentes que manejan la investigación de clientes.",
-          "why_it_matters": "Libera tiempo para los equipos de ventas, mejorando su eficiencia.",
-          "sector_impact": "Impacto positivo en la productividad de los equipos de ventas B2B."
-        },
-        {
-          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-          "summary": "Simulaciones para probar robots y vehículos autónomos antes de su despliegue.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "simulación",
-            "robótica"
-          ],
-          "what_changed": "Uso de agentes de IA para pruebas exhaustivas.",
-          "why_it_matters": "Aumenta la seguridad y fiabilidad de robots y vehículos autónomos.",
-          "sector_impact": "Crucial para la industria automotriz y robótica."
-        },
-        {
-          "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
-          "summary": "Facilita la creación de aplicaciones de Android personalizadas con IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "herramienta",
-            "app",
-            "Android"
-          ],
-          "what_changed": "Introducción de soporte para apps privadas en Google Play.",
-          "why_it_matters": "Permite una personalización y adaptabilidad sin precedentes en apps móviles.",
-          "sector_impact": "Impulso en la creación de soluciones personalizadas en el sector móvil."
-        },
-        {
-          "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-          "summary": "Predicciones sobre asistentes de IA personales en el hogar.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "modelo",
-            "asistente",
-            "hogar"
-          ],
-          "what_changed": "Perspectivas sobre el futuro del uso de IA en el hogar.",
-          "why_it_matters": "Indica una tendencia hacia la automatización y asistencia personal generalizada.",
-          "sector_impact": "Transformación en el estilo de vida y gestión del hogar."
         }
       ]
     }
