@@ -1,127 +1,127 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimos avances en herramientas y frameworks de inteligencia artificial.",
-  "opening_message": "A continuación, te presentamos las novedades más importantes en el campo de IA, centradas en modelos, integraciones y nuevas funciones.",
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en inteligencia artificial.",
+  "opening_message": "En este radar, encontrará las herramientas, modelos y frameworks más destacados en IA que están revolucionando el sector.",
   "items": [
     {
-      "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
-      "summary": "Una suite de evaluación unificada para agentes LLM en entornos empresariales que consolida múltiples benchmarks.",
+      "title": "MADDIE: Multi-Agent Drug Discovery Engine",
+      "summary": "Presentamos MADDIE, un motor de descubrimiento de fármacos que incorpora múltiples agentes para optimizar el proceso de descubrimiento a través de flujos de trabajo flexibles.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.27234",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2610.16975",
+      "relevance_score": 9,
       "status": "new",
       "tags": [
-        "benchmark",
-        "agentes",
-        "LLM"
+        "drug discovery",
+        "multi-agent",
+        "automation"
       ],
-      "what_changed": "Lanzamiento de una suite de benchmarking consolidada.",
-      "why_it_matters": "Facilita la comparación entre modelos y mejora la adopción de LLM en empresas.",
-      "sector_impact": "Impacto significativo en la evaluación de agentes de IA en la industria."
+      "what_changed": "Se proporciona un enfoque integral de colaboración entre agentes en el descubrimiento de fármacos.",
+      "why_it_matters": "MADDIE mejora la eficiencia en la investigación de nuevos medicamentos, permitiendo una reducción significativa en costos y tiempo.",
+      "sector_impact": "Salud y farmacéutica."
     },
     {
-      "title": "Evolving Agent Interfaces",
-      "summary": "Desarrollo de interfaces autónomas que evolucionan a partir de la experiencia de tareas.",
+      "title": "AM-Bench: Taxonomía y Evaluación para la Desalineación Agente",
+      "summary": "AM-Bench propone una taxonomía unificada y un conjunto de evaluación para medir y mitigar la desalineación en agentes de IA.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.28601",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2610.24264",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "agentes",
-        "interfaces",
-        "IA"
+        "alignment",
+        "safety",
+        "evaluation"
       ],
-      "what_changed": "Introducción del agente S4 que mejora el diseño de interfaces.",
-      "why_it_matters": "Permite la adaptación dinámica de interfaces, mejorando el rendimiento de los agentes.",
-      "sector_impact": "Aumenta la eficiencia en la ejecución de tareas automatizadas."
+      "what_changed": "Introducción de un marco para evaluar la desalineación en diversos sectores.",
+      "why_it_matters": "Aborda la crítica problemática de la seguridad en la IA al evaluar y prevenir acciones dañinas por parte de agentes.",
+      "sector_impact": "Tecnología y seguridad."
     },
     {
-      "title": "RAG-NIMBF: A Non-Invasive Benchmarking Framework for Automated RAG Configuration Analysis",
-      "summary": "Un marco modular para la evaluación de configuraciones RAG sin afectar los flujos de trabajo existentes.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.27816",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "RAG",
-        "evaluación"
-      ],
-      "what_changed": "Introducción de un marco evaluativo para sistemas RAG.",
-      "why_it_matters": "Permite decisiones basadas en evidencia dentro de las pipelines existentes.",
-      "sector_impact": "Optimiza el rendimiento de sistemas basados en generación aumentada por recuperación."
-    },
-    {
-      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis",
-      "summary": "Framework que permite la síntesis de tareas verificables para agentes de coworking.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.26887",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "tareas",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de tareas analíticas con evidencia verificable.",
-      "why_it_matters": "Mejora la capacidad de los agentes para ejecutar tareas complejas.",
-      "sector_impact": "Incrementa la eficiencia en el análisis financiero y otros contextos similares."
-    },
-    {
-      "title": "IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD",
-      "summary": "Modelo de fundación multimodal optimizado para el diseño y fabricación industrial.",
+      "title": "How Intervention History Changes AI Agent Sabotage",
+      "summary": "Un estudio sobre cómo la historia de intervenciones previas influye en el comportamiento de sabotaje de los agentes de IA.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.28050",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2610.26935",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "modelo",
-        "CAD",
-        "industrial"
+        "AI behavior",
+        "sabotage",
+        "intervention"
       ],
-      "what_changed": "Desarrollo de un modelo ampliamente mejorado para CAD industrial.",
-      "why_it_matters": "Proporciona una solución integrada para diseño y operaciones industriales.",
-      "sector_impact": "Transforma la automatización en el diseño CAD y mejora la eficiencia operativa."
+      "what_changed": "Se evalúa el impacto de la memoria de intervenciones en la capacidad de sabotaje de los agentes de IA.",
+      "why_it_matters": "Proporciona información crucial para el diseño de agentes que evitan comportamientos dañinos.",
+      "sector_impact": "Tecnología y seguridad."
     },
     {
-      "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
-      "summary": "Marco automatizado para la evaluación de seguridad de agentes estilo claw.",
+      "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+      "summary": "TURTLE es una metodología para evolucionar tareas de uso de herramientas en IA a través de agentes LLM.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.27244",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2610.27307",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "seguridad",
-        "agentes",
-        "evaluación"
+        "tool use",
+        "benchmark",
+        "AI"
       ],
-      "what_changed": "Introducción de un sistema de red-teaming automatizado.",
-      "why_it_matters": "Facilita la evaluación continua de agentes, mejorando su seguridad.",
-      "sector_impact": "Aumenta la confianza en sistemas de IA en entornos sensibles."
+      "what_changed": "Se presenta un enfoque escalar para generar pruebas de uso de herramientas sin supervisión.",
+      "why_it_matters": "Mejora significativamente las capacidades de IA para interactuar con aplicaciones y herramientas reales.",
+      "sector_impact": "Tecnología y software."
     },
     {
-      "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
-      "summary": "Framework que optimiza los reportes de radiología mediante IA de agente en el borde.",
-      "category": "tool",
+      "title": "GBClaw: Un marco agente para investigación en límites de grano",
+      "summary": "GBClaw integra modelos LLM en un marco para investigar estructuras y deformaciones en materiales.",
+      "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.26913",
+      "source_url": "https://arxiv.org/abs/2610.28629",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "salud",
-        "IA",
-        "radiología"
+        "materials",
+        "AI",
+        "mechanics"
       ],
-      "what_changed": "Desarrollo de un sistema que corre en CPU, reduciendo la dependencia de GPUs.",
-      "why_it_matters": "Aumenta la accesibilidad de herramientas IA en el sector salud.",
-      "sector_impact": "Optimiza los flujos de trabajo clínicos mediante la automatización."
+      "what_changed": "Desarrollo de un marco modular para conectar simulaciones con análisis mecanicistas.",
+      "why_it_matters": "Facilita el descubrimiento y diseño de nuevos materiales a través de un análisis profundo.",
+      "sector_impact": "Materiales y manufactura."
+    },
+    {
+      "title": "MAS-Guard: Guardrails Unificados para Agentes",
+      "summary": "MAS-Guard cierra la brecha de seguridad en sistemas de IA mediante un marco unificado para aplicar salvaguardias.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.28397",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "safety",
+        "AI",
+        "framework"
+      ],
+      "what_changed": "Implementación de estructuras de seguridad tanto a nivel local como de sistema.",
+      "why_it_matters": "Refuerza la seguridad en sistemas de IA, reduciendo la probabilidad de acciones dañinas.",
+      "sector_impact": "Tecnología y seguridad."
+    },
+    {
+      "title": "Probe, Don't Prompt: Un Probing Oculto para Filtrado de Metadatos",
+      "summary": "Se presenta un nuevo método para mejorar el filtrado de metadatos en la recuperación orientada a múltiples pasos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.03929",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "retrieval",
+        "metadata",
+        "AI"
+      ],
+      "what_changed": "Se sustituyó un aspecto del sistema de extracción por un filtrado determinista local.",
+      "why_it_matters": "Mejora la precisión y efectividad en la recuperación de información.",
+      "sector_impact": "Información y búsqueda."
     }
   ]
 }
