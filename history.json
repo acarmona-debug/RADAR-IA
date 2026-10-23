@@ -1,6 +1,125 @@
 {
   "days": [
     {
+      "date": "2026-10-23",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "CORE: Optimización de Clasificación en Motores de Búsqueda Basados en LLM",
+          "summary": "CORE propone un nuevo método para controlar las clasificaciones de salida en motores de búsqueda generativos, mejorando la visibilidad de negocios pequeños.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.03608",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "optimización",
+            "LLM",
+            "búsqueda"
+          ],
+          "what_changed": "Introducción de un nuevo método de optimización.",
+          "why_it_matters": "Facilita un mejor acceso a productos, especialmente para pequeñas empresas.",
+          "sector_impact": "Aumento en la diversidad de productos visibles en plataformas de búsqueda."
+        },
+        {
+          "title": "Quality-Diversity Red-Teaming para Modelos de Lenguaje Grande",
+          "summary": "Introduce un nuevo marco para generar atacantes diversos y efectivos, mejorando la seguridad de los LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2506.07121",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "red-teaming"
+          ],
+          "what_changed": "Desarrollo de un marco eficaz para red-teaming.",
+          "why_it_matters": "Aumenta la robustez de los modelos de lenguaje al identificar posibles vulnerabilidades.",
+          "sector_impact": "Mejor calidad en la seguridad del IA en producción."
+        },
+        {
+          "title": "Decision Language Models como Alternativa a Jueces LLM en IA Clínica",
+          "summary": "Jev, un modelo de lenguaje de decisión, se presenta como una alternativa económica y rápida frente a jueces de LLM para la evaluación clínica.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.28826",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "IA clínica"
+          ],
+          "what_changed": "Compara un nuevo modelo con LLM existentes.",
+          "why_it_matters": "Permite evaluaciones clínicas más rápidas y económicas.",
+          "sector_impact": "Eficiencia mejorada en estudios clínicos y diagnósticos."
+        },
+        {
+          "title": "PAUSE: Direccionamiento Sin Búsqueda para Agentes de Codificación",
+          "summary": "PAUSE introduce un marco para dirigir agentes de codificación antes de su primera edición de código, mejorando la resolución de errores.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.29870",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "codificación",
+            "agentes"
+          ],
+          "what_changed": "Nuevos métodos de direccionamiento para mejoras de agente.",
+          "why_it_matters": "Aumenta la efectividad de cambios de código en tiempo real.",
+          "sector_impact": "Mejora la productividad de equipos de desarrollo."
+        },
+        {
+          "title": "Agent4Sci: Mejorando Modelos Científicos con Agentes Automatizados",
+          "summary": "Agent4Sci evalúa la eficacia de los agentes de codificación en mejora de modelos de ML en contexto científico, señalando sus avances y limitaciones.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.28763",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "ciencia",
+            "ML"
+          ],
+          "what_changed": "Una nueva plataforma de pruebas para agentes en ciencia.",
+          "why_it_matters": "Mide las capacidades de los agentes en mejorar modelos científicos existentes.",
+          "sector_impact": "Contribuciones significativas a la investigación científica."
+        },
+        {
+          "title": "Evaluación de Agentes de Codificación en Conversaciones Dinámicas",
+          "summary": "UserSWE permite evaluar agentes de codificación en interacciones de múltiples turnos, abordando problemas comunes en la evaluación actual.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.29822",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "interacción"
+          ],
+          "what_changed": "Nueva metodología para evaluar agentes de codificación.",
+          "why_it_matters": "Mejora la precisión en la identificación de la capacidad de resolución de errores.",
+          "sector_impact": "Perfeccionamiento del desarrollo de software mediante mejores evaluaciones."
+        },
+        {
+          "title": "MemoryTax: Lección Dolorosa de la Memoria de Agentes",
+          "summary": "Este estudio explora el costo de los sistemas de memoria de agentes, destacando sus limitaciones en la precisión de recuperación de información.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.29823",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "agentes"
+          ],
+          "what_changed": "Evaluación del rendimiento de varios métodos de memoria.",
+          "why_it_matters": "Este estudio explora el costo de los sistemas de memoria de agentes, destacando sus limitaciones en la precisión de recuperación de información.",
+          "sector_impact": "Mejora la comprensión de la integración de memoria en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-10-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -745,148 +864,6 @@
           "what_changed": "Lanzamiento de agentes rápidos y privados en el dispositivo.",
           "why_it_matters": "Facilita la privacidad y el rendimiento local.",
           "sector_impact": "Tecnología de IA"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "executive_title": "Radar diario de IA",
-      "items": [
-        {
-          "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
-          "summary": "Introducimos INFUSE, un benchmark que evalúa la inyección de mensajes maliciosos en flujos de trabajo de agentes. Se evalúan 19 LLMs y se presentan 40 tareas realistas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.20776",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "seguridad",
-            "agentes"
-          ],
-          "what_changed": "Se presenta un enfoque más integral para evaluar la inyección de mensajes maliciosos.",
-          "why_it_matters": "Mejora la seguridad de los modelos de IA al proporcionar una evaluación más realista de la inyección de comandos.",
-          "sector_impact": "Impacto en la evaluación de seguridad de sistemas de IA."
-        },
-        {
-          "title": "TRACER: Trajectory-Aware Tool Retrieval for LLM Agents",
-          "summary": "TRACER mejora la precisión de selección de herramientas de agentes LLM al indexar secuencias de llamadas a herramientas y reducir la cantidad de tokens usados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.21267",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "optimización",
-            "agentes"
-          ],
-          "what_changed": "Mejora la precisión en la selección de herramientas y reduce el uso de tokens.",
-          "why_it_matters": "Optimiza el rendimiento de los agentes LLM en entornos complejos al ser más eficiente en el uso de recursos.",
-          "sector_impact": "Aplicable en desarrollo de software y automatización de tareas."
-        },
-        {
-          "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
-          "summary": "SkillNEO permite a los agentes LLM evolucionar habilidades mediante optimización no elitista, mejorando su rendimiento en múltiples tareas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.20926",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "framework",
-            "optimización",
-            "habilidades"
-          ],
-          "what_changed": "Introduce un enfoque no elitista para la evolución de habilidades en agentes.",
-          "why_it_matters": "Permite una mejora continua de habilidades, beneficiando tanto a modelos más débiles como fuertes.",
-          "sector_impact": "Transición hacia la automatización en desarrollo de software y tareas de oficina."
-        },
-        {
-          "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
-          "summary": "Athanor permite a agentes realizar investigación post-entrenamiento de manera autónoma, mejorando su capacidad de auto-mejora.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.21055",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "investigación",
-            "agentes"
-          ],
-          "what_changed": "Implementa un sistema autónomo de investigación post-entrenamiento.",
-          "why_it_matters": "Muestra el potencial de la inteligencia artificial para mejorar modelos existentes de forma autónoma.",
-          "sector_impact": "Revoluciona el enfoque de la investigación en IA y el autoaprendizaje."
-        },
-        {
-          "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces",
-          "summary": "Los Librarian Agents organizan documentos en un sistema de archivos, preparando un espacio de trabajo para futuros requerimientos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.22273",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "organización",
-            "agentes"
-          ],
-          "what_changed": "Transforma documentos en un archivo jerárquico para mejorar la respuesta sobre consultas futuras.",
-          "why_it_matters": "Optimiza el uso de LLM al permitir curación anticipada de información.",
-          "sector_impact": "Aplicaciones en gestión del conocimiento y soporte en la toma de decisiones."
-        },
-        {
-          "title": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
-          "summary": "RSIFlow integra flujos de trabajo de auto-mejora con evolución de capacidades en agentes, mejorando su orquestación de tareas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.21791",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "framework",
-            "mejora",
-            "agentes"
-          ],
-          "what_changed": "Optimiza la orquestación de flujos de trabajo mediante un marco de auto-mejora recursiva.",
-          "why_it_matters": "Permite una mejora constante en la eficacia de los agentes en diversas tareas.",
-          "sector_impact": "Impulsa la productividad en entornos de trabajo automatizados."
-        },
-        {
-          "title": "MegaMem: A Retrieval Solution for Ultra-Large Context Windows",
-          "summary": "MegaMem es un sistema de recuperación que gestiona grandes contextos de memoria, separando el acceso semántico de la evidencia generativa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.22137",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "memoria",
-            "recuperación"
-          ],
-          "what_changed": "Permite un almacenamiento persistente a gran escala con alta precisión en la recuperación.",
-          "why_it_matters": "Mejora significativamente la precisión de recuperación en modelos de IA avanzados.",
-          "sector_impact": "Beneficios en múltiples industrias que gestionan grandes volúmenes de datos."
-        },
-        {
-          "title": "AutoOnboarder: Autonomously Onboarding LLM Agents",
-          "summary": "AutoOnboarder adapta agentes a tareas de manera autónoma, emulando el proceso de integración de nuevos empleados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.21218",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "herramientas",
-            "integración",
-            "agentes"
-          ],
-          "what_changed": "Implementa un proceso de integración autónoma para mejorar la capacidad de los agentes.",
-          "why_it_matters": "Fomenta el auto-aprendizaje en la IA, reduciendo costos operativos.",
-          "sector_impact": "Innovación en la gestión de recursos humanos y formación motivacional a través de IA."
         }
       ]
     }
