@@ -1,6 +1,142 @@
 {
   "days": [
     {
+      "date": "2026-10-24",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Claude Duet app is Anthropic’s bet on agents",
+          "summary": "Claude Duet está disponible para usuarios de Pro y Max a través de lista de espera.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "agents"
+          ],
+          "what_changed": "Lanzamiento de una aplicación dedicada a agentes.",
+          "why_it_matters": "Impulsa la adopción de agentes en el espacio empresarial.",
+          "sector_impact": "Mejora en la integración de agentes en tareas cotidianas."
+        },
+        {
+          "title": "Uber puts all 30,000 employees on ChatGPT Work",
+          "summary": "Uber implementa ChatGPT Work a gran escala en su organización.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "automatización"
+          ],
+          "what_changed": "Despliegue de ChatGPT a todos los empleados.",
+          "why_it_matters": "Aumenta la eficiencia y efectividad en la gestión de tareas.",
+          "sector_impact": "Transformación digital en las operaciones de Uber."
+        },
+        {
+          "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+          "summary": "Nuevas funciones que permiten a los agentes iniciar sesión sin exponer credenciales.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agents"
+          ],
+          "what_changed": "Innovación en la seguridad de inicios de sesión.",
+          "why_it_matters": "Protección mejorada de la privacidad del usuario.",
+          "sector_impact": "Aumento en la confianza del usuario en soluciones de automatización."
+        },
+        {
+          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+          "summary": "OpenAI lanza su modelo competidor de decisiones al mercado.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "modelos"
+          ],
+          "what_changed": "Disponibilidad ampliada de un nuevo modelo de decisiones.",
+          "why_it_matters": "Compite en un mercado en rápido desarrollo.",
+          "sector_impact": "Incremento de opciones en modelos de decisión."
+        },
+        {
+          "title": "Canva releases its first image generation model",
+          "summary": "Canva lanza un modelo de generación de imágenes que promete mejor rendimiento.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Canva",
+            "imagen"
+          ],
+          "what_changed": "Introducción de un nuevo modelo para la creación de imágenes.",
+          "why_it_matters": "Mayor personalización y costo reducido para los usuarios.",
+          "sector_impact": "Revoluciona el diseño gráfico en plataformas digitales."
+        },
+        {
+          "title": "Spotify’s current AI bet is about being the music service that agents choose",
+          "summary": "Spotify busca ser la plataforma de música elegida por los agentes de IA.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Spotify",
+            "musica",
+            "agents"
+          ],
+          "what_changed": "Estratégia para atraer agentes de IA hacia su servicio.",
+          "why_it_matters": "Potencia el alcance y uso de la plataforma.",
+          "sector_impact": "Transformación en la forma en que se consume música."
+        },
+        {
+          "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+          "summary": "",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "RL",
+            "ThinkingBox"
+          ],
+          "what_changed": "Innovaciones en el entrenamiento de agentes.",
+          "why_it_matters": "Optimiza el desempeño de modelos post-entrenamiento.",
+          "sector_impact": "Incremento en la eficacia de aplicaciones de IA."
+        },
+        {
+          "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+          "summary": "Un sistema de IA de Microsoft supera a médicos en casos clínicos difíciles.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Microsoft",
+            "salud",
+            "modelos"
+          ],
+          "what_changed": "Demostración del potencial de IA en diagnósticos complejos.",
+          "why_it_matters": "Puede cambiar el paradigma de la atención médica.",
+          "sector_impact": "Mejora en diagnósticos y tratamientos en salud."
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -723,147 +859,6 @@
           "what_changed": "Reportes de brechas de seguridad por actividad AI no autorizada.",
           "why_it_matters": "Destaca la necesidad de mejorar la ciberseguridad en entornos AI.",
           "sector_impact": "Llama la atención sobre la seguridad en el desarrollo de AI."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Google’s Universal Cart shopping tool launches in the US",
-          "summary": "La nueva herramienta de compras está disponible en los EE.UU. a través de Google Search y la aplicación Gemini.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-          "relevance_score": 13,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Gemini",
-            "shopping"
-          ],
-          "what_changed": "Lanzamiento de una herramienta de carrito universal.",
-          "why_it_matters": "Facilita la experiencia de compra en línea.",
-          "sector_impact": "Comercio electrónico"
-        },
-        {
-          "title": "Elorian’s first AI model wants to reason with images, not just about them",
-          "summary": "El modelo Glimpse de Elorian supera incluso a GPT-6 Astra en razonamiento sobre gráficos científicos y subtitulación de videos.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "Elorian",
-            "AI model",
-            "image reasoning"
-          ],
-          "what_changed": "Lanzamiento del modelo que razona con imágenes.",
-          "why_it_matters": "Mejora la comprensión visual y la interacción con los usuarios.",
-          "sector_impact": "Tecnología visual"
-        },
-        {
-          "title": "Jev is Vercel’s fastest-adopted AI model ever",
-          "summary": "Los datos provienen del gateway de IA de Vercel, un servicio API unificado similar a OpenRouter.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Vercel",
-            "AI model",
-            "API"
-          ],
-          "what_changed": "La adopción rápida de un nuevo modelo de IA.",
-          "why_it_matters": "Muestra el enfoque innovador de Vercel en la adopción de IA.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "Meta launches an open-weight AI model that runs on Macs",
-          "summary": "Meta y Apple lanzan Modelo Muse Spark Open, que funcionará localmente en silicio de Apple.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "Apple",
-            "open-weight model"
-          ],
-          "what_changed": "Lanzamiento de un modelo de IA de código abierto para Macs.",
-          "why_it_matters": "Aumenta las capacidades de IA en dispositivos locales.",
-          "sector_impact": "Tecnología de consumo"
-        },
-        {
-          "title": "AI agents are coming to Rivian’s cars",
-          "summary": "Los agentes de IA estarán presentes en los autos de Rivian, con más detalles en el próximo evento de 'AI & Autonomy Day'.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Rivian",
-            "AI agents",
-            "automotive"
-          ],
-          "what_changed": "Introducción de agentes de IA en vehículos.",
-          "why_it_matters": "Revoluciona la experiencia del usuario en automóviles.",
-          "sector_impact": "Automotriz"
-        },
-        {
-          "title": "Figma announces new features to define how agents work on its platform",
-          "summary": "Figma lanzará su función de capas de código en beta abierta.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Figma",
-            "agents",
-            "features"
-          ],
-          "what_changed": "Nuevas características para gestionar agentes en la plataforma.",
-          "why_it_matters": "Facilita el trabajo colaborativo y la eficiencia en diseño.",
-          "sector_impact": "Diseño digital"
-        },
-        {
-          "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-          "summary": "El CEO de Replit visualiza un futuro donde los agentes de IA gestionan tareas diarias.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Replit",
-            "self-driving company",
-            "future of work"
-          ],
-          "what_changed": "Visión del reconocimiento de empresas autónomas.",
-          "why_it_matters": "Transforma cómo se percibe el trabajo y la gestión empresarial.",
-          "sector_impact": "Tecnología laboral"
-        },
-        {
-          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-          "summary": "",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "private agents"
-          ],
-          "what_changed": "Lanzamiento de agentes rápidos y privados en el dispositivo.",
-          "why_it_matters": "Facilita la privacidad y el rendimiento local.",
-          "sector_impact": "Tecnología de IA"
         }
       ]
     }

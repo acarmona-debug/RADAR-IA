@@ -1,121 +1,138 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Se presentan las últimas innovaciones y herramientas en el campo de la inteligencia artificial, priorizando desarrollos cruciales para desarrolladores.",
-  "opening_message": "A continuación, un resumen de avances significativos en herramientas, modelos, y métodos de automatización en inteligencia artificial.",
+  "intro_message": "Las tendencias y desarrollos más recientes en herramientas y agentes de inteligencia artificial.",
+  "opening_message": "Descubre las innovaciones clave que están dando forma al futuro de la inteligencia artificial.",
   "items": [
     {
-      "title": "CORE: Optimización de Clasificación en Motores de Búsqueda Basados en LLM",
-      "summary": "CORE propone un nuevo método para controlar las clasificaciones de salida en motores de búsqueda generativos, mejorando la visibilidad de negocios pequeños.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.03608",
-      "relevance_score": 8,
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "summary": "Claude Duet está disponible para usuarios de Pro y Max a través de lista de espera.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "optimización",
-        "LLM",
-        "búsqueda"
+        "Claude",
+        "agents"
       ],
-      "what_changed": "Introducción de un nuevo método de optimización.",
-      "why_it_matters": "Facilita un mejor acceso a productos, especialmente para pequeñas empresas.",
-      "sector_impact": "Aumento en la diversidad de productos visibles en plataformas de búsqueda."
+      "what_changed": "Lanzamiento de una aplicación dedicada a agentes.",
+      "why_it_matters": "Impulsa la adopción de agentes en el espacio empresarial.",
+      "sector_impact": "Mejora en la integración de agentes en tareas cotidianas."
     },
     {
-      "title": "Quality-Diversity Red-Teaming para Modelos de Lenguaje Grande",
-      "summary": "Introduce un nuevo marco para generar atacantes diversos y efectivos, mejorando la seguridad de los LLM.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2506.07121",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "summary": "Uber implementa ChatGPT Work a gran escala en su organización.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "ChatGPT",
+        "automatización"
+      ],
+      "what_changed": "Despliegue de ChatGPT a todos los empleados.",
+      "why_it_matters": "Aumenta la eficiencia y efectividad en la gestión de tareas.",
+      "sector_impact": "Transformación digital en las operaciones de Uber."
+    },
+    {
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "summary": "Nuevas funciones que permiten a los agentes iniciar sesión sin exponer credenciales.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "seguridad",
-        "red-teaming"
+        "agents"
       ],
-      "what_changed": "Desarrollo de un marco eficaz para red-teaming.",
-      "why_it_matters": "Aumenta la robustez de los modelos de lenguaje al identificar posibles vulnerabilidades.",
-      "sector_impact": "Mejor calidad en la seguridad del IA en producción."
+      "what_changed": "Innovación en la seguridad de inicios de sesión.",
+      "why_it_matters": "Protección mejorada de la privacidad del usuario.",
+      "sector_impact": "Aumento en la confianza del usuario en soluciones de automatización."
     },
     {
-      "title": "Decision Language Models como Alternativa a Jueces LLM en IA Clínica",
-      "summary": "Jev, un modelo de lenguaje de decisión, se presenta como una alternativa económica y rápida frente a jueces de LLM para la evaluación clínica.",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "summary": "OpenAI lanza su modelo competidor de decisiones al mercado.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.28826",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "evaluación",
-        "IA clínica"
+        "OpenAI",
+        "modelos"
       ],
-      "what_changed": "Compara un nuevo modelo con LLM existentes.",
-      "why_it_matters": "Permite evaluaciones clínicas más rápidas y económicas.",
-      "sector_impact": "Eficiencia mejorada en estudios clínicos y diagnósticos."
+      "what_changed": "Disponibilidad ampliada de un nuevo modelo de decisiones.",
+      "why_it_matters": "Compite en un mercado en rápido desarrollo.",
+      "sector_impact": "Incremento de opciones en modelos de decisión."
     },
     {
-      "title": "PAUSE: Direccionamiento Sin Búsqueda para Agentes de Codificación",
-      "summary": "PAUSE introduce un marco para dirigir agentes de codificación antes de su primera edición de código, mejorando la resolución de errores.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.29870",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "codificación",
-        "agentes"
-      ],
-      "what_changed": "Nuevos métodos de direccionamiento para mejoras de agente.",
-      "why_it_matters": "Aumenta la efectividad de cambios de código en tiempo real.",
-      "sector_impact": "Mejora la productividad de equipos de desarrollo."
-    },
-    {
-      "title": "Agent4Sci: Mejorando Modelos Científicos con Agentes Automatizados",
-      "summary": "Agent4Sci evalúa la eficacia de los agentes de codificación en mejora de modelos de ML en contexto científico, señalando sus avances y limitaciones.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.28763",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "ciencia",
-        "ML"
-      ],
-      "what_changed": "Una nueva plataforma de pruebas para agentes en ciencia.",
-      "why_it_matters": "Mide las capacidades de los agentes en mejorar modelos científicos existentes.",
-      "sector_impact": "Contribuciones significativas a la investigación científica."
-    },
-    {
-      "title": "Evaluación de Agentes de Codificación en Conversaciones Dinámicas",
-      "summary": "UserSWE permite evaluar agentes de codificación en interacciones de múltiples turnos, abordando problemas comunes en la evaluación actual.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.29822",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "evaluación",
-        "interacción"
-      ],
-      "what_changed": "Nueva metodología para evaluar agentes de codificación.",
-      "why_it_matters": "Mejora la precisión en la identificación de la capacidad de resolución de errores.",
-      "sector_impact": "Perfeccionamiento del desarrollo de software mediante mejores evaluaciones."
-    },
-    {
-      "title": "MemoryTax: Lección Dolorosa de la Memoria de Agentes",
-      "summary": "Este estudio explora el costo de los sistemas de memoria de agentes, destacando sus limitaciones en la precisión de recuperación de información.",
+      "title": "Canva releases its first image generation model",
+      "summary": "Canva lanza un modelo de generación de imágenes que promete mejor rendimiento.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.29823",
-      "relevance_score": 5,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "memoria",
-        "agentes"
+        "Canva",
+        "imagen"
       ],
-      "what_changed": "Evaluación del rendimiento de varios métodos de memoria.",
-      "why_it_matters": "Este estudio explora el costo de los sistemas de memoria de agentes, destacando sus limitaciones en la precisión de recuperación de información.",
-      "sector_impact": "Mejora la comprensión de la integración de memoria en IA."
+      "what_changed": "Introducción de un nuevo modelo para la creación de imágenes.",
+      "why_it_matters": "Mayor personalización y costo reducido para los usuarios.",
+      "sector_impact": "Revoluciona el diseño gráfico en plataformas digitales."
+    },
+    {
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "summary": "Spotify busca ser la plataforma de música elegida por los agentes de IA.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Spotify",
+        "musica",
+        "agents"
+      ],
+      "what_changed": "Estratégia para atraer agentes de IA hacia su servicio.",
+      "why_it_matters": "Potencia el alcance y uso de la plataforma.",
+      "sector_impact": "Transformación en la forma en que se consume música."
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "summary": "",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "RL",
+        "ThinkingBox"
+      ],
+      "what_changed": "Innovaciones en el entrenamiento de agentes.",
+      "why_it_matters": "Optimiza el desempeño de modelos post-entrenamiento.",
+      "sector_impact": "Incremento en la eficacia de aplicaciones de IA."
+    },
+    {
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "summary": "Un sistema de IA de Microsoft supera a médicos en casos clínicos difíciles.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Microsoft",
+        "salud",
+        "modelos"
+      ],
+      "what_changed": "Demostración del potencial de IA en diagnósticos complejos.",
+      "why_it_matters": "Puede cambiar el paradigma de la atención médica.",
+      "sector_impact": "Mejora en diagnósticos y tratamientos en salud."
     }
   ]
 }
