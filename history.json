@@ -1,6 +1,130 @@
 {
   "days": [
     {
+      "date": "2026-10-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Aquí están los principales agentes de IA que pueden vivir en tus mensajes de texto",
+          "summary": "Lista de los agentes de IA más notables que pueden integrarse en tus mensajes de texto, desde asistentes generales hasta agentes diseñados para familias y trabajo.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "AI agents",
+            "text messaging",
+            "integration"
+          ],
+          "what_changed": "Presentación de una lista extensa de agentes IA que pueden mejorar la comunicación.",
+          "why_it_matters": "Facilita la interacción diaria y mejora la productividad en la mensajería.",
+          "sector_impact": "Transformación en la manera de comunicarse y organizar tareas."
+        },
+        {
+          "title": "Los agentes de IA empezaron a jugar",
+          "summary": "Investigadores del MIT dejaron 13 AIs en una isla virtual, donde comenzaron a inventar juegos, lo que mejó la eficiencia en sus tareas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "AI behavior",
+            "game creation",
+            "efficiency"
+          ],
+          "what_changed": "Los AIs mostraron innovación al desarrollar juegos de forma autónoma.",
+          "why_it_matters": "Ilustra la capacidad de los agentes IA para evolucionar y adaptarse.",
+          "sector_impact": "Potencial mejora en la eficacia de los sistemas inteligentes."
+        },
+        {
+          "title": "Modelo de voz de Block suena inquietantemente humano",
+          "summary": "Block lanzó un nuevo modelo de voz que puede ejecutarse localmente en un MacBook M4 Max.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "voice model",
+            "AI",
+            "local execution"
+          ],
+          "what_changed": "Lanzamiento de un modelo de voz más natural y accesible.",
+          "why_it_matters": "Mejora la interactividad y el rango de aplicaciones de voz en IA.",
+          "sector_impact": "Revoluciona la atención al cliente y asistentes personales."
+        },
+        {
+          "title": "Pronóstico conjunto con modelos de series temporales Granite de IBM",
+          "summary": "Investigación sobre los modelos de series temporales que pueden mejorar la precisión en el pronóstico.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "forecasting",
+            "time series",
+            "IBM"
+          ],
+          "what_changed": "Demostración de un enfoque sinérgico en pronósticos.",
+          "why_it_matters": "Ofrece nuevas herramientas para la toma de decisiones basada en datos.",
+          "sector_impact": "Optimización de procesos en diversas industrias."
+        },
+        {
+          "title": "Kumo Relational de NVIDIA supera el aprendizaje automático supervisado",
+          "summary": "Kumo Relational ofrece un enfoque sin entrenamiento para el manejo de datos relacionales.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "NVIDIA",
+            "relational data",
+            "no training"
+          ],
+          "what_changed": "Innovación en la manipulación de datos relacionales sin necesidad de entrenamiento.",
+          "why_it_matters": "Reduce costos y recursos necesarios para el análisis de datos.",
+          "sector_impact": "Facilita el acceso a soluciones avanzadas en análisis de datos."
+        },
+        {
+          "title": "Automatización con agentes IA",
+          "summary": "Desarrollo de soluciones automatizadas utilizando agentes de IA para optimizar operaciones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/24/automation-with-ai-agents/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automation",
+            "AI agents"
+          ],
+          "what_changed": "Se introduce un enfoque más accesible para la automatización utilizando IA.",
+          "why_it_matters": "Permite a las empresas optimizar recursos y mejorar la eficiencia.",
+          "sector_impact": "Aumento en la productividad y reducción de costos operativos."
+        },
+        {
+          "title": "Nuevos lanzamientos para desarrolladores de OpenAI",
+          "summary": "OpenAI anuncia nuevas características y actualizaciones para mejorar la experiencia de los desarrolladores.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/22/openai-developer-updates/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "developers",
+            "updates"
+          ],
+          "what_changed": "Se facilitan nuevas herramientas para desarrolladores en la plataforma de OpenAI.",
+          "why_it_matters": "Mejorar la accesibilidad y funcionalidad para los desarrolladores.",
+          "sector_impact": "Estimula la innovación y creación de aplicaciones en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-10-24",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -751,114 +875,6 @@
           "what_changed": "Desarrollo de una herramienta para evaluar la inteligencia adaptativa de los modelos.",
           "why_it_matters": "Permite un mejor entendimiento de la efectividad de los modelos en contextos reales.",
           "sector_impact": "Aumenta el valor práctico de LLMs al mejorar la interacción con los usuarios."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "executive_title": "Radar Diario de IA - 17 de Octubre de 2026",
-      "items": [
-        {
-          "title": "Replit hace de OpenAI su modelo predeterminado",
-          "summary": "Replit ha decidido reemplazar a Anthropic con OpenAI como su proveedor de modelos predeterminado, aunque Claude seguirá disponible.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "Replit",
-            "Claude"
-          ],
-          "what_changed": "Cambio en proveedor de modelos en Replit.",
-          "why_it_matters": "Resalta la confianza en OpenAI y su popularidad en plataformas de desarrollo.",
-          "sector_impact": "Mejoras en la integración de modelos en herramientas de desarrollo."
-        },
-        {
-          "title": "Amazon prevé un futuro dominado por dispositivos AI",
-          "summary": "Panos Panay, jefe de dispositivos de Amazon, visualiza un futuro en el que los dispositivos de AI anticipan las necesidades de los usuarios sin necesidad de comandos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "AI",
-            "dispositivos",
-            "automatización"
-          ],
-          "what_changed": "Predicción sobre la evolución de los dispositivos de AI.",
-          "why_it_matters": "Indica una dirección hacia la automatización y gadgets inteligentes.",
-          "sector_impact": "Transformará cómo interactuamos con la tecnología en la vida diaria."
-        },
-        {
-          "title": "Bluesky lanza Attie, una app AI para creación de contenido",
-          "summary": "Bluesky permite a los usuarios crear juegos, sitios web y más con su app Attie, impulsada por inteligencia artificial.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "AI",
-            "creación de contenido",
-            "tools"
-          ],
-          "what_changed": "Expansión de la funcionalidad de la app Attie.",
-          "why_it_matters": "Facilita la creación de contenido sin necesidad de habilidades técnicas avanzadas.",
-          "sector_impact": "Promueve la democratización de la creación digital."
-        },
-        {
-          "title": "Meta actualiza términos sobre scraping y entrenamiento de AI",
-          "summary": "Meta ha eliminado el lenguaje que generaba preocupaciones sobre scraping y el entrenamiento de modelos AI.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "scraping",
-            "AI"
-          ],
-          "what_changed": "Modificación de los términos de uso en su plataforma.",
-          "why_it_matters": "Busca aclarar y mejorar la percepción pública sobre sus prácticas.",
-          "sector_impact": "Afecta la legitimidad y el desarrollo de futuros modelos AI."
-        },
-        {
-          "title": "Antropic proporciona acceso a investigaciones sobre riesgos AI",
-          "summary": "Anthropic permite a los investigadores de METR evaluar sus prácticas, renunciando a su derecho de veto.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Anthropic",
-            "investigación",
-            "prácticas"
-          ],
-          "what_changed": "Mayor transparencia en la evaluación de riesgos.",
-          "why_it_matters": "Fomenta la confianza en el desarrollo de modelos AI responsables.",
-          "sector_impact": "Aumenta la seguridad y la ética en el uso de AI."
-        },
-        {
-          "title": "India informa sobre actividad de agentes AI no autorizados",
-          "summary": "Se ha reportado que agentes AI han accedido a sistemas a través de configuraciones expuestas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "AI",
-            "seguridad",
-            "agentes"
-          ],
-          "what_changed": "Reportes de brechas de seguridad por actividad AI no autorizada.",
-          "why_it_matters": "Destaca la necesidad de mejorar la ciberseguridad en entornos AI.",
-          "sector_impact": "Llama la atención sobre la seguridad en el desarrollo de AI."
         }
       ]
     }

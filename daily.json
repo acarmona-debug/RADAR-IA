@@ -1,138 +1,126 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las tendencias y desarrollos más recientes en herramientas y agentes de inteligencia artificial.",
-  "opening_message": "Descubre las innovaciones clave que están dando forma al futuro de la inteligencia artificial.",
+  "intro_message": "Últimas novedades en herramientas, modelos y agentes de IA.",
+  "opening_message": "Este resumen destaca las innovaciones más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas y modelos que pueden impactar significativamente en el sector.",
   "items": [
     {
-      "title": "Claude Duet app is Anthropic’s bet on agents",
-      "summary": "Claude Duet está disponible para usuarios de Pro y Max a través de lista de espera.",
+      "title": "Aquí están los principales agentes de IA que pueden vivir en tus mensajes de texto",
+      "summary": "Lista de los agentes de IA más notables que pueden integrarse en tus mensajes de texto, desde asistentes generales hasta agentes diseñados para familias y trabajo.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "AI agents",
+        "text messaging",
+        "integration"
+      ],
+      "what_changed": "Presentación de una lista extensa de agentes IA que pueden mejorar la comunicación.",
+      "why_it_matters": "Facilita la interacción diaria y mejora la productividad en la mensajería.",
+      "sector_impact": "Transformación en la manera de comunicarse y organizar tareas."
+    },
+    {
+      "title": "Los agentes de IA empezaron a jugar",
+      "summary": "Investigadores del MIT dejaron 13 AIs en una isla virtual, donde comenzaron a inventar juegos, lo que mejó la eficiencia en sus tareas.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Claude",
-        "agents"
+        "AI behavior",
+        "game creation",
+        "efficiency"
       ],
-      "what_changed": "Lanzamiento de una aplicación dedicada a agentes.",
-      "why_it_matters": "Impulsa la adopción de agentes en el espacio empresarial.",
-      "sector_impact": "Mejora en la integración de agentes en tareas cotidianas."
+      "what_changed": "Los AIs mostraron innovación al desarrollar juegos de forma autónoma.",
+      "why_it_matters": "Ilustra la capacidad de los agentes IA para evolucionar y adaptarse.",
+      "sector_impact": "Potencial mejora en la eficacia de los sistemas inteligentes."
     },
     {
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "summary": "Uber implementa ChatGPT Work a gran escala en su organización.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "automatización"
-      ],
-      "what_changed": "Despliegue de ChatGPT a todos los empleados.",
-      "why_it_matters": "Aumenta la eficiencia y efectividad en la gestión de tareas.",
-      "sector_impact": "Transformación digital en las operaciones de Uber."
-    },
-    {
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "summary": "Nuevas funciones que permiten a los agentes iniciar sesión sin exponer credenciales.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "agents"
-      ],
-      "what_changed": "Innovación en la seguridad de inicios de sesión.",
-      "why_it_matters": "Protección mejorada de la privacidad del usuario.",
-      "sector_impact": "Aumento en la confianza del usuario en soluciones de automatización."
-    },
-    {
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "summary": "OpenAI lanza su modelo competidor de decisiones al mercado.",
+      "title": "Modelo de voz de Block suena inquietantemente humano",
+      "summary": "Block lanzó un nuevo modelo de voz que puede ejecutarse localmente en un MacBook M4 Max.",
       "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "voice model",
+        "AI",
+        "local execution"
+      ],
+      "what_changed": "Lanzamiento de un modelo de voz más natural y accesible.",
+      "why_it_matters": "Mejora la interactividad y el rango de aplicaciones de voz en IA.",
+      "sector_impact": "Revoluciona la atención al cliente y asistentes personales."
+    },
+    {
+      "title": "Pronóstico conjunto con modelos de series temporales Granite de IBM",
+      "summary": "Investigación sobre los modelos de series temporales que pueden mejorar la precisión en el pronóstico.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "forecasting",
+        "time series",
+        "IBM"
+      ],
+      "what_changed": "Demostración de un enfoque sinérgico en pronósticos.",
+      "why_it_matters": "Ofrece nuevas herramientas para la toma de decisiones basada en datos.",
+      "sector_impact": "Optimización de procesos en diversas industrias."
+    },
+    {
+      "title": "Kumo Relational de NVIDIA supera el aprendizaje automático supervisado",
+      "summary": "Kumo Relational ofrece un enfoque sin entrenamiento para el manejo de datos relacionales.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "NVIDIA",
+        "relational data",
+        "no training"
+      ],
+      "what_changed": "Innovación en la manipulación de datos relacionales sin necesidad de entrenamiento.",
+      "why_it_matters": "Reduce costos y recursos necesarios para el análisis de datos.",
+      "sector_impact": "Facilita el acceso a soluciones avanzadas en análisis de datos."
+    },
+    {
+      "title": "Automatización con agentes IA",
+      "summary": "Desarrollo de soluciones automatizadas utilizando agentes de IA para optimizar operaciones.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/24/automation-with-ai-agents/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "automation",
+        "AI agents"
+      ],
+      "what_changed": "Se introduce un enfoque más accesible para la automatización utilizando IA.",
+      "why_it_matters": "Permite a las empresas optimizar recursos y mejorar la eficiencia.",
+      "sector_impact": "Aumento en la productividad y reducción de costos operativos."
+    },
+    {
+      "title": "Nuevos lanzamientos para desarrolladores de OpenAI",
+      "summary": "OpenAI anuncia nuevas características y actualizaciones para mejorar la experiencia de los desarrolladores.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/22/openai-developer-updates/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
         "OpenAI",
-        "modelos"
+        "developers",
+        "updates"
       ],
-      "what_changed": "Disponibilidad ampliada de un nuevo modelo de decisiones.",
-      "why_it_matters": "Compite en un mercado en rápido desarrollo.",
-      "sector_impact": "Incremento de opciones en modelos de decisión."
-    },
-    {
-      "title": "Canva releases its first image generation model",
-      "summary": "Canva lanza un modelo de generación de imágenes que promete mejor rendimiento.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Canva",
-        "imagen"
-      ],
-      "what_changed": "Introducción de un nuevo modelo para la creación de imágenes.",
-      "why_it_matters": "Mayor personalización y costo reducido para los usuarios.",
-      "sector_impact": "Revoluciona el diseño gráfico en plataformas digitales."
-    },
-    {
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
-      "summary": "Spotify busca ser la plataforma de música elegida por los agentes de IA.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Spotify",
-        "musica",
-        "agents"
-      ],
-      "what_changed": "Estratégia para atraer agentes de IA hacia su servicio.",
-      "why_it_matters": "Potencia el alcance y uso de la plataforma.",
-      "sector_impact": "Transformación en la forma en que se consume música."
-    },
-    {
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "summary": "",
-      "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "RL",
-        "ThinkingBox"
-      ],
-      "what_changed": "Innovaciones en el entrenamiento de agentes.",
-      "why_it_matters": "Optimiza el desempeño de modelos post-entrenamiento.",
-      "sector_impact": "Incremento en la eficacia de aplicaciones de IA."
-    },
-    {
-      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-      "summary": "Un sistema de IA de Microsoft supera a médicos en casos clínicos difíciles.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Microsoft",
-        "salud",
-        "modelos"
-      ],
-      "what_changed": "Demostración del potencial de IA en diagnósticos complejos.",
-      "why_it_matters": "Puede cambiar el paradigma de la atención médica.",
-      "sector_impact": "Mejora en diagnósticos y tratamientos en salud."
+      "what_changed": "Se facilitan nuevas herramientas para desarrolladores en la plataforma de OpenAI.",
+      "why_it_matters": "Mejorar la accesibilidad y funcionalidad para los desarrolladores.",
+      "sector_impact": "Estimula la innovación y creación de aplicaciones en IA."
     }
   ]
 }
