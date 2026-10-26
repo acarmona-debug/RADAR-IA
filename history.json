@@ -1,6 +1,123 @@
 {
   "days": [
     {
+      "date": "2026-10-26",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "SolveBind para Agentes GUI",
+          "summary": "Introduce un marco que combina la resolución jerárquica con supervisión en tiempo real para agentes que operan en entornos protegidos por verificación.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.32223",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un nuevo marco que mejora la ejecución de agentes en entornos con CAPTCHA.",
+          "why_it_matters": "Aumenta la tasa de éxito de los agentes en tareas de verificación y mejora la adaptabilidad en tiempo real.",
+          "sector_impact": "Transforma como los agentes manejan interacciones en interfaces protegidas."
+        },
+        {
+          "title": "MCPHunt: Marco Evaluativo para Agentes MCP",
+          "summary": "Presenta un benchmark controlado para aislar la propagación de credenciales no maliciosas entre servidores MCP.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2604.27819",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes"
+          ],
+          "what_changed": "Propuesta de un benchmark para evaluar la propagación de credenciales entre servidores.",
+          "why_it_matters": "Ayuda a mitigar riesgos relacionados con la seguridad en flujos de información.",
+          "sector_impact": "Beneficia la seguridad en sistemas distribuidos."
+        },
+        {
+          "title": "Phronix: Paradigma de Aprendizaje Centrado en Capacidades",
+          "summary": "Introduce un nuevo paradigma para que los agentes adquieran y refinan capacidades reutilizables de sus propias ejecuciones.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.31789",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "aprendizaje",
+            "optimización"
+          ],
+          "what_changed": "Permite a los agentes automejorarse a partir de experiencias pasadas.",
+          "why_it_matters": "Significativa mejora en la eficiencia en la resolución de tareas a lo largo del tiempo.",
+          "sector_impact": "Optimiza procesos en ingeniería científica."
+        },
+        {
+          "title": "POSEIDON: Entornos de Entrenamiento para Agentes Científicos",
+          "summary": "Automatiza la generación de entornos de entrenamiento diversificados y verificables a partir de repositorios de código científico.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.32448",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "entrenamiento",
+            "agentes"
+          ],
+          "what_changed": "Creación del sistema Poseidon para generar entornos de entrenamiento masivos.",
+          "why_it_matters": "Facilita el descubrimiento científico automatizado mediante entornos de entrenamiento más accesibles.",
+          "sector_impact": "Amplía el alcance de la investigación científica a través de IA."
+        },
+        {
+          "title": "Reimaginando RAG para Sistemas Multi-Agente",
+          "summary": "Propone una capa de conocimiento que organiza antes de recuperar información en sistemas multi-agente.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.32851",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "organización",
+            "RAG"
+          ],
+          "what_changed": "Introducción de una nueva capa de conocimiento en entornos de trabajo con múltiples agentes.",
+          "why_it_matters": "Mejora la gestión del conocimiento en entornos complejos de software.",
+          "sector_impact": "Aumenta la efectividad en el ciclo de vida de desarrollo de software."
+        },
+        {
+          "title": "Tool-Calling LLM Agents y Errores en MCP",
+          "summary": "Evalúa la resiliencia de los agentes LLM ante fallas en herramientas utilizadas a través del Protocolo de Contexto de Modelo (MCP).",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.32555",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "MCP",
+            "resiliencia"
+          ],
+          "what_changed": "Identificación de que la escala no garantiza tolerancia a errores en herramientas usadas por agentes.",
+          "why_it_matters": "Impulsa la mejora de sistemas LLM en escenarios de fallos reales.",
+          "sector_impact": "Fortalece la fiabilidad de implementaciones de inteligencia artificial."
+        },
+        {
+          "title": "DeepSafe-SciHazard: Medición de Riesgos de Seguridad Científica",
+          "summary": "Benchmark que evalúa los riesgos de seguridad científica a través de scoring de daño descompuesto.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.18665",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "evaluación"
+          ],
+          "what_changed": "Establece un marco para evaluar el daño potencial de modelos en contextos científicos.",
+          "why_it_matters": "Mejora la seguridad y confiabilidad en el uso de modelos de IA en ciencias.",
+          "sector_impact": "Protege contra mal uso en aplicaciones científicas."
+        }
+      ]
+    },
+    {
       "date": "2026-10-25",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -750,131 +867,6 @@
           "what_changed": "Implementación de pruebas rigurosas para tecnología de IA",
           "why_it_matters": "Startup que usa agentes IA para probar robots y vehículos autónomos antes de su lanzamiento, asegurando su eficacia y seguridad.",
           "sector_impact": "Influencia en la regulación y despliegue de tecnologías autónomas."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "WebCoder: Scaling General Frontend Development",
-          "summary": "WebCoder es un agente de desarrollo frontend que utiliza aprendizaje por refuerzo basado en artefactos para mejorar la creación y mantenimiento de aplicaciones.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.23104",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "frontend",
-            "reinforcement learning",
-            "development"
-          ],
-          "what_changed": "Introducción de un agente de desarrollo optimizado para la creación de aplicaciones frontend.",
-          "why_it_matters": "Ofrece una mejora en la composición y modificación de aplicaciones en entornos en evolución.",
-          "sector_impact": "Puede incrementar significativamente la eficiencia en el desarrollo de software."
-        },
-        {
-          "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
-          "summary": "HDA evalúa las mejoras obtenidas en sistemas de agentes al optimizar sus mecanismos de operación sin cambiar los pesos del modelo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.22466",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluation",
-            "agents",
-            "optimization"
-          ],
-          "what_changed": "Creación de un protocolo de evaluación que descompone las mejoras de evolución de agentes.",
-          "why_it_matters": "Proporciona información clara sobre cómo las mejoras afectan el rendimiento de los sistemas.",
-          "sector_impact": "Facilita la comprensión del rendimiento de agentes en diversas aplicaciones."
-        },
-        {
-          "title": "Veri-Sure: Multi-Agent RTL Code Generation",
-          "summary": "Veri-Sure es un marco de agente múltiple que genera código RTL con verificación temporal y formal.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.19747",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "RTL",
-            "EDA",
-            "code generation"
-          ],
-          "what_changed": "Integración de verificación formal en la generación de código RTL.",
-          "why_it_matters": "Mejora la robustez y confiabilidad del código en entornos de diseño electrónico.",
-          "sector_impact": "Transforma el enfoque de generación de código en la automatización de diseños electrónicos."
-        },
-        {
-          "title": "Q-Reflector: Learning GUI Action Reflection",
-          "summary": "Q-Reflector aprende la reflexión de acciones GUI como predicción estructurada, mejorando la ejecución de agentes móviles.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2608.05587",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "GUI",
-            "agents",
-            "reflection"
-          ],
-          "what_changed": "Desarrollo de un reflector autónomo basado en el aprendizaje supervisado.",
-          "why_it_matters": "Aumenta la capacidad de los agentes móviles para ejecutar tareas de largo plazo con precisión.",
-          "sector_impact": "Mejora la efectividad de aplicaciones móviles y automáticas."
-        },
-        {
-          "title": "Self-Reflective Chain-of-Thought (SRCoT)",
-          "summary": "SRCoT organiza la generación de texto en un ciclo cerrado que permite revisiones documentadas y claridad en la información.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.23311",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "text generation",
-            "LLMs",
-            "feedback"
-          ],
-          "what_changed": "Introducción de un enfoque modular en la generación de texto.",
-          "why_it_matters": "Promueve la transparencia y la validación de los datos generados.",
-          "sector_impact": "Impacta la construcción de modelos de generación de texto más robustos."
-        },
-        {
-          "title": "QEMem: Rethinking Memory Utilization in LLM Agents",
-          "summary": "QEMem optimiza la utilización de la memoria en agentes LLM para mejorar la precisión y la cobertura de la evidencia.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.22668",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "LLMs",
-            "memory",
-            "evidence"
-          ],
-          "what_changed": "Reformulación de cómo se construyen los conjuntos de evidencia a partir de la memoria.",
-          "why_it_matters": "Aumenta la efectividad de los agentes en tareas que requieren integración de evidencias.",
-          "sector_impact": "Mejora significativamente el rendimiento de aplicaciones LLM en tareas complejas."
-        },
-        {
-          "title": "PresenceBench: Evaluation of LLM Adaptation to User State",
-          "summary": "PresenceBench mide la adaptación de los modelos LLM al estado funcional del usuario, evaluando su capacidad de respuesta.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.23625",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "evaluation",
-            "user states",
-            "LLMs"
-          ],
-          "what_changed": "Desarrollo de una herramienta para evaluar la inteligencia adaptativa de los modelos.",
-          "why_it_matters": "Permite un mejor entendimiento de la efectividad de los modelos en contextos reales.",
-          "sector_impact": "Aumenta el valor práctico de LLMs al mejorar la interacción con los usuarios."
         }
       ]
     }

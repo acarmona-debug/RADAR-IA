@@ -1,126 +1,119 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades en herramientas, modelos y agentes de IA.",
-  "opening_message": "Este resumen destaca las innovaciones más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas y modelos que pueden impactar significativamente en el sector.",
+  "intro_message": "Este radar resalta innovaciones clave y desarrollos en herramientas, modelos y frameworks de inteligencia artificial.",
+  "opening_message": "A continuación, se presentan los avances más relevantes del día en el ámbito de la inteligencia artificial, priorizando herramientas, modelos y nuevas integraciones.",
   "items": [
     {
-      "title": "Aquí están los principales agentes de IA que pueden vivir en tus mensajes de texto",
-      "summary": "Lista de los agentes de IA más notables que pueden integrarse en tus mensajes de texto, desde asistentes generales hasta agentes diseñados para familias y trabajo.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "SolveBind para Agentes GUI",
+      "summary": "Introduce un marco que combina la resolución jerárquica con supervisión en tiempo real para agentes que operan en entornos protegidos por verificación.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.32223",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "AI agents",
-        "text messaging",
-        "integration"
+        "automación",
+        "agentes"
       ],
-      "what_changed": "Presentación de una lista extensa de agentes IA que pueden mejorar la comunicación.",
-      "why_it_matters": "Facilita la interacción diaria y mejora la productividad en la mensajería.",
-      "sector_impact": "Transformación en la manera de comunicarse y organizar tareas."
+      "what_changed": "Desarrollo de un nuevo marco que mejora la ejecución de agentes en entornos con CAPTCHA.",
+      "why_it_matters": "Aumenta la tasa de éxito de los agentes en tareas de verificación y mejora la adaptabilidad en tiempo real.",
+      "sector_impact": "Transforma como los agentes manejan interacciones en interfaces protegidas."
     },
     {
-      "title": "Los agentes de IA empezaron a jugar",
-      "summary": "Investigadores del MIT dejaron 13 AIs en una isla virtual, donde comenzaron a inventar juegos, lo que mejó la eficiencia en sus tareas.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "title": "MCPHunt: Marco Evaluativo para Agentes MCP",
+      "summary": "Presenta un benchmark controlado para aislar la propagación de credenciales no maliciosas entre servidores MCP.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.27819",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "AI behavior",
-        "game creation",
-        "efficiency"
+        "agentes"
       ],
-      "what_changed": "Los AIs mostraron innovación al desarrollar juegos de forma autónoma.",
-      "why_it_matters": "Ilustra la capacidad de los agentes IA para evolucionar y adaptarse.",
-      "sector_impact": "Potencial mejora en la eficacia de los sistemas inteligentes."
+      "what_changed": "Propuesta de un benchmark para evaluar la propagación de credenciales entre servidores.",
+      "why_it_matters": "Ayuda a mitigar riesgos relacionados con la seguridad en flujos de información.",
+      "sector_impact": "Beneficia la seguridad en sistemas distribuidos."
     },
     {
-      "title": "Modelo de voz de Block suena inquietantemente humano",
-      "summary": "Block lanzó un nuevo modelo de voz que puede ejecutarse localmente en un MacBook M4 Max.",
+      "title": "Phronix: Paradigma de Aprendizaje Centrado en Capacidades",
+      "summary": "Introduce un nuevo paradigma para que los agentes adquieran y refinan capacidades reutilizables de sus propias ejecuciones.",
       "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "relevance_score": 7,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.31789",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "voice model",
-        "AI",
-        "local execution"
+        "aprendizaje",
+        "optimización"
       ],
-      "what_changed": "Lanzamiento de un modelo de voz más natural y accesible.",
-      "why_it_matters": "Mejora la interactividad y el rango de aplicaciones de voz en IA.",
-      "sector_impact": "Revoluciona la atención al cliente y asistentes personales."
+      "what_changed": "Permite a los agentes automejorarse a partir de experiencias pasadas.",
+      "why_it_matters": "Significativa mejora en la eficiencia en la resolución de tareas a lo largo del tiempo.",
+      "sector_impact": "Optimiza procesos en ingeniería científica."
     },
     {
-      "title": "Pronóstico conjunto con modelos de series temporales Granite de IBM",
-      "summary": "Investigación sobre los modelos de series temporales que pueden mejorar la precisión en el pronóstico.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "forecasting",
-        "time series",
-        "IBM"
-      ],
-      "what_changed": "Demostración de un enfoque sinérgico en pronósticos.",
-      "why_it_matters": "Ofrece nuevas herramientas para la toma de decisiones basada en datos.",
-      "sector_impact": "Optimización de procesos en diversas industrias."
-    },
-    {
-      "title": "Kumo Relational de NVIDIA supera el aprendizaje automático supervisado",
-      "summary": "Kumo Relational ofrece un enfoque sin entrenamiento para el manejo de datos relacionales.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "NVIDIA",
-        "relational data",
-        "no training"
-      ],
-      "what_changed": "Innovación en la manipulación de datos relacionales sin necesidad de entrenamiento.",
-      "why_it_matters": "Reduce costos y recursos necesarios para el análisis de datos.",
-      "sector_impact": "Facilita el acceso a soluciones avanzadas en análisis de datos."
-    },
-    {
-      "title": "Automatización con agentes IA",
-      "summary": "Desarrollo de soluciones automatizadas utilizando agentes de IA para optimizar operaciones.",
+      "title": "POSEIDON: Entornos de Entrenamiento para Agentes Científicos",
+      "summary": "Automatiza la generación de entornos de entrenamiento diversificados y verificables a partir de repositorios de código científico.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/24/automation-with-ai-agents/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.32448",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "automation",
-        "AI agents"
+        "entrenamiento",
+        "agentes"
       ],
-      "what_changed": "Se introduce un enfoque más accesible para la automatización utilizando IA.",
-      "why_it_matters": "Permite a las empresas optimizar recursos y mejorar la eficiencia.",
-      "sector_impact": "Aumento en la productividad y reducción de costos operativos."
+      "what_changed": "Creación del sistema Poseidon para generar entornos de entrenamiento masivos.",
+      "why_it_matters": "Facilita el descubrimiento científico automatizado mediante entornos de entrenamiento más accesibles.",
+      "sector_impact": "Amplía el alcance de la investigación científica a través de IA."
     },
     {
-      "title": "Nuevos lanzamientos para desarrolladores de OpenAI",
-      "summary": "OpenAI anuncia nuevas características y actualizaciones para mejorar la experiencia de los desarrolladores.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/22/openai-developer-updates/",
+      "title": "Reimaginando RAG para Sistemas Multi-Agente",
+      "summary": "Propone una capa de conocimiento que organiza antes de recuperar información en sistemas multi-agente.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.32851",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "developers",
-        "updates"
+        "organización",
+        "RAG"
       ],
-      "what_changed": "Se facilitan nuevas herramientas para desarrolladores en la plataforma de OpenAI.",
-      "why_it_matters": "Mejorar la accesibilidad y funcionalidad para los desarrolladores.",
-      "sector_impact": "Estimula la innovación y creación de aplicaciones en IA."
+      "what_changed": "Introducción de una nueva capa de conocimiento en entornos de trabajo con múltiples agentes.",
+      "why_it_matters": "Mejora la gestión del conocimiento en entornos complejos de software.",
+      "sector_impact": "Aumenta la efectividad en el ciclo de vida de desarrollo de software."
+    },
+    {
+      "title": "Tool-Calling LLM Agents y Errores en MCP",
+      "summary": "Evalúa la resiliencia de los agentes LLM ante fallas en herramientas utilizadas a través del Protocolo de Contexto de Modelo (MCP).",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.32555",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "MCP",
+        "resiliencia"
+      ],
+      "what_changed": "Identificación de que la escala no garantiza tolerancia a errores en herramientas usadas por agentes.",
+      "why_it_matters": "Impulsa la mejora de sistemas LLM en escenarios de fallos reales.",
+      "sector_impact": "Fortalece la fiabilidad de implementaciones de inteligencia artificial."
+    },
+    {
+      "title": "DeepSafe-SciHazard: Medición de Riesgos de Seguridad Científica",
+      "summary": "Benchmark que evalúa los riesgos de seguridad científica a través de scoring de daño descompuesto.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.18665",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "evaluación"
+      ],
+      "what_changed": "Establece un marco para evaluar el daño potencial de modelos en contextos científicos.",
+      "why_it_matters": "Mejora la seguridad y confiabilidad en el uso de modelos de IA en ciencias.",
+      "sector_impact": "Protege contra mal uso en aplicaciones científicas."
     }
   ]
 }
