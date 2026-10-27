@@ -1,119 +1,136 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Este radar resalta innovaciones clave y desarrollos en herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "A continuación, se presentan los avances más relevantes del día en el ámbito de la inteligencia artificial, priorizando herramientas, modelos y nuevas integraciones.",
+  "intro_message": "Resumen de las herramientas y modelos más relevantes en inteligencia artificial y automatización.",
+  "opening_message": "A continuación se presenta una selección de las notas más destacadas en el ámbito de la inteligencia artificial, con un enfoque en herramientas y modelos innovadores.",
   "items": [
     {
-      "title": "SolveBind para Agentes GUI",
-      "summary": "Introduce un marco que combina la resolución jerárquica con supervisión en tiempo real para agentes que operan en entornos protegidos por verificación.",
+      "title": "GraphDancer: Entrenamiento de LLMs para Explorar y Razonar sobre Grafos",
+      "summary": "GraphDancer enseña a los LLMs a navegar por grafos usando un enfoque de aprendizaje por refuerzo. Mejora las capacidades de razonamiento en dominios no vistos.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.32223",
+      "source_url": "https://arxiv.org/abs/2602.02518",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "automación",
-        "agentes"
+        "Longitud de contexto",
+        "Navegación de grafos"
       ],
-      "what_changed": "Desarrollo de un nuevo marco que mejora la ejecución de agentes en entornos con CAPTCHA.",
-      "why_it_matters": "Aumenta la tasa de éxito de los agentes en tareas de verificación y mejora la adaptabilidad en tiempo real.",
-      "sector_impact": "Transforma como los agentes manejan interacciones en interfaces protegidas."
+      "what_changed": "Introducción de un enfoque curriculado para el entrenamiento de capacidades de navegación.",
+      "why_it_matters": "Aumenta la precisión en la recuperación de información compleja a partir de grafos.",
+      "sector_impact": "Aplicaciones potenciales en bases de datos y sistemas de información."
     },
     {
-      "title": "MCPHunt: Marco Evaluativo para Agentes MCP",
-      "summary": "Presenta un benchmark controlado para aislar la propagación de credenciales no maliciosas entre servidores MCP.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.27819",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes"
-      ],
-      "what_changed": "Propuesta de un benchmark para evaluar la propagación de credenciales entre servidores.",
-      "why_it_matters": "Ayuda a mitigar riesgos relacionados con la seguridad en flujos de información.",
-      "sector_impact": "Beneficia la seguridad en sistemas distribuidos."
-    },
-    {
-      "title": "Phronix: Paradigma de Aprendizaje Centrado en Capacidades",
-      "summary": "Introduce un nuevo paradigma para que los agentes adquieran y refinan capacidades reutilizables de sus propias ejecuciones.",
+      "title": "Terminus-4B: Un Modelo Más Pequeño para Tareas de Ejecución Agente",
+      "summary": "Terminus-4B utiliza un modelo pequeño optimizado para ejecutar tareas especiales en sistemas de agentes, logrando buena eficiencia sin sacrificar el rendimiento.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.31789",
+      "source_url": "https://arxiv.org/abs/2605.03195",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "aprendizaje",
-        "optimización"
+        "Ejecución",
+        "Optimización"
       ],
-      "what_changed": "Permite a los agentes automejorarse a partir de experiencias pasadas.",
-      "why_it_matters": "Significativa mejora en la eficiencia en la resolución de tareas a lo largo del tiempo.",
-      "sector_impact": "Optimiza procesos en ingeniería científica."
+      "what_changed": "Reducción del uso de tokens en comparación con modelos más grandes.",
+      "why_it_matters": "Mejora esencial en la eficiencia de recursos en tareas de ejecución.",
+      "sector_impact": "Beneficioso para aplicaciones en desarrollo de software y automación."
     },
     {
-      "title": "POSEIDON: Entornos de Entrenamiento para Agentes Científicos",
-      "summary": "Automatiza la generación de entornos de entrenamiento diversificados y verificables a partir de repositorios de código científico.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.32448",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "entrenamiento",
-        "agentes"
-      ],
-      "what_changed": "Creación del sistema Poseidon para generar entornos de entrenamiento masivos.",
-      "why_it_matters": "Facilita el descubrimiento científico automatizado mediante entornos de entrenamiento más accesibles.",
-      "sector_impact": "Amplía el alcance de la investigación científica a través de IA."
-    },
-    {
-      "title": "Reimaginando RAG para Sistemas Multi-Agente",
-      "summary": "Propone una capa de conocimiento que organiza antes de recuperar información en sistemas multi-agente.",
+      "title": "RoboGene: Generación de Tareas Agentes Basadas en Diversidad",
+      "summary": "RoboGene es un marco para la creación de tareas de manipulación robótica que mejora la diversidad y eficiencia en la recolección de datos.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.32851",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2602.16444",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "organización",
-        "RAG"
+        "Robótica",
+        "Generación de tareas"
       ],
-      "what_changed": "Introducción de una nueva capa de conocimiento en entornos de trabajo con múltiples agentes.",
-      "why_it_matters": "Mejora la gestión del conocimiento en entornos complejos de software.",
-      "sector_impact": "Aumenta la efectividad en el ciclo de vida de desarrollo de software."
+      "what_changed": "Introducción de un enfoque de muestreo impulsado por la diversidad.",
+      "why_it_matters": "Facilita la recolección de datos útiles para entrenar modelos robóticos.",
+      "sector_impact": "Impacto significativo en investigación y desarrollo en robótica."
     },
     {
-      "title": "Tool-Calling LLM Agents y Errores en MCP",
-      "summary": "Evalúa la resiliencia de los agentes LLM ante fallas en herramientas utilizadas a través del Protocolo de Contexto de Modelo (MCP).",
+      "title": "CACHELINT: Detección de Errores en Integración de Caching en LLMs",
+      "summary": "CACHELINT proporciona un modo de detectar errores en el caching de prompts para integrar adecuadamente los LLMs en aplicaciones.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.32555",
+      "source_url": "https://arxiv.org/abs/2610.34817",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "MCP",
-        "resiliencia"
+        "Integración",
+        "Optimización"
       ],
-      "what_changed": "Identificación de que la escala no garantiza tolerancia a errores en herramientas usadas por agentes.",
-      "why_it_matters": "Impulsa la mejora de sistemas LLM en escenarios de fallos reales.",
-      "sector_impact": "Fortalece la fiabilidad de implementaciones de inteligencia artificial."
+      "what_changed": "Desarrollo de una herramienta para identificar -y corregir- errores de integración silenciosos.",
+      "why_it_matters": "Ayuda a mejorar la eficiencia y rendimiento de las aplicaciones que utilizan LLMs.",
+      "sector_impact": "Efecto positivo en la operativa de sistemas que dependen de modelos de lenguaje."
     },
     {
-      "title": "DeepSafe-SciHazard: Medición de Riesgos de Seguridad Científica",
-      "summary": "Benchmark que evalúa los riesgos de seguridad científica a través de scoring de daño descompuesto.",
+      "title": "AIPC: Flujos de Trabajo Basados en Evidencias para Despliegue de Proyectos PyTorch",
+      "summary": "AIPC organiza y optimiza el proceso de despliegue de proyectos de inferencia PyTorch utilizando métodos de agentes.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.18665",
+      "source_url": "https://arxiv.org/abs/2610.34890",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Despliegue",
+        "Optimización"
+      ],
+      "what_changed": "Unificación de múltiples procesos en un flujo de trabajo eficiente y adaptativo.",
+      "why_it_matters": "Mejora la efectividad del trabajo en proyectos de inteligencia artificial.",
+      "sector_impact": "Impacto significativo en el desarrollo de software y sistemas de IA en tiempo real."
+    },
+    {
+      "title": "InferPriv: Evaluación de Filtraciones de Privacidad Inferencial en Asistentes LLM",
+      "summary": "InferPriv evalúa el riesgo de filtraciones de privacidad en modelos LLM que manejan información sensible de usuarios.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.34640",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "seguridad",
-        "evaluación"
+        "Privacidad",
+        "Evaluación"
       ],
-      "what_changed": "Establece un marco para evaluar el daño potencial de modelos en contextos científicos.",
-      "why_it_matters": "Mejora la seguridad y confiabilidad en el uso de modelos de IA en ciencias.",
-      "sector_impact": "Protege contra mal uso en aplicaciones científicas."
+      "what_changed": "Introducción de un nuevo marco para detectar filtraciones inferenciales.",
+      "why_it_matters": "Aborda preocupaciones críticas sobre la privacidad en sistemas LLM.",
+      "sector_impact": "Esencial para la industria de la privacidad de datos y tecnologías de información."
+    },
+    {
+      "title": "Silent and Costly: Detección de Problemas de Integración en Agentes LLM",
+      "summary": "Estudio sobre errores silentes en la integración de servicios de caching en modelos de lenguaje.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.34817",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Integración",
+        "Eficiencia"
+      ],
+      "what_changed": "Detección y análisis de problemas en la integración de servicios.",
+      "why_it_matters": "Mejora la calidad del despliegue de modelos en sistemas operativos.",
+      "sector_impact": "Importante para el desarrollo eficiente de software basado en LLMs."
+    },
+    {
+      "title": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+      "summary": "SecPRBench evalúa la efectividad de revisiones de código automatizadas centradas en encontrar vulnerabilidades.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.33509",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Seguridad",
+        "Revisión de código"
+      ],
+      "what_changed": "Implementación de una nueva evaluación para la revisión de código automatizada.",
+      "why_it_matters": "Contribuye significativamente a la seguridad de software y desarrollo ágil.",
+      "sector_impact": "Impacto en la seguridad del software en diversas industrias."
     }
   ]
 }
