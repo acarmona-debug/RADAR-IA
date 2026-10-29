@@ -1,6 +1,145 @@
 {
   "days": [
     {
+      "date": "2026-10-29",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+          "summary": "Una nueva plataforma para desarrolladores permitirá a las empresas integrar sus servicios en las experiencias de IA de Google, cambiando cómo los consumidores descubren y utilizan aplicaciones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "Google",
+            "Gemini",
+            "IA"
+          ],
+          "what_changed": "Introducción de una plataforma de desarrollo ampliada.",
+          "why_it_matters": "Esto puede revolucionar la forma en que las aplicaciones son exploradas e integradas al ecosistema de Google.",
+          "sector_impact": "Transformación en la interacción del usuario con aplicaciones."
+        },
+        {
+          "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+          "summary": "Anthropic lanza herramientas que permiten a las empresas visualizar en qué están invirtiendo en IA, previo a su salida a bolsa.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Anthropic",
+            "herramientas",
+            "IA"
+          ],
+          "what_changed": "Nuevas herramientas para la gestión de gastos en IA.",
+          "why_it_matters": "Ayuda a las organizaciones a tomar decisiones informadas sobre sus inversiones en inteligencia artificial.",
+          "sector_impact": "Aumento en la transparencia y eficiencia en gastos de IA."
+        },
+        {
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "summary": "Dream utiliza modelos de IA para crear simulaciones de construcción basadas en estándares físicos reales y datos masivos sobre construcción.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "construcción",
+            "modelos AI"
+          ],
+          "what_changed": "Lanzamiento de un modelo de IA específico para la construcción.",
+          "why_it_matters": "Facilita procesos más eficientes y precisos en proyectos de construcción.",
+          "sector_impact": "Revoluciona la industria de la construcción mediante simulaciones avanzadas."
+        },
+        {
+          "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+          "summary": "Wabi se presenta como un 'agente personal' y alcanza una valoración de $1.25 mil millones tras una ronda de financiación.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Wabi",
+            "agentes",
+            "mini-apps"
+          ],
+          "what_changed": "Valoración alcanzada tras ronda de financiación significativa.",
+          "why_it_matters": "Valida el modelo de negocio de agentes de IA que crean aplicaciones miniatura.",
+          "sector_impact": "Impulsa el auge de agentes de IA en el desarrollo de apps."
+        },
+        {
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "summary": "Nvidia lanza un nuevo modelo de transcripción que soporta hasta 40 idiomas, ideal para reuniones y herramientas médicas.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Nvidia",
+            "transcripción",
+            "modelos AI"
+          ],
+          "what_changed": "Modelo de transcripción de voz que amplia el acceso a múltiples idiomas.",
+          "why_it_matters": "Permite la transcripción en escenarios diversos, aumentando la accesibilidad.",
+          "sector_impact": "Mejora la herramienta de transcripción en diversos sectores."
+        },
+        {
+          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+          "summary": "Mistral ofrece pesos para su modelo de IA que brinda control sobre defensas cibernéticas, superando modelos cerrados.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Mistral",
+            "ciberseguridad",
+            "modelos AI"
+          ],
+          "what_changed": "Liberación de pesos para un modelo de IA enfocado en ciberseguridad.",
+          "why_it_matters": "Ofrece a las empresas opciones más personalizables para su defensa cibernética.",
+          "sector_impact": "Reinventa la defensa cibernética mediante IA avanzada."
+        },
+        {
+          "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+          "summary": "Lanzamiento de modelos abiertos para reconocimiento de voz y decisiones en plataformas Apple.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/anydecisionmodel",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "modelos abiertos"
+          ],
+          "what_changed": "Nuevas incorporaciones para usuarios de Apple en IA de voz y decisiones.",
+          "why_it_matters": "Fomenta la innovación en la creación de aplicaciones centradas en la voz en ecosistemas Apple.",
+          "sector_impact": "Facilita herramientas avanzadas para desarrolladores en plataformas Apple."
+        },
+        {
+          "title": "Granite Switch 4.1.1 — Update models like you update software",
+          "summary": "Actualización del sistema Granite Switch para facilitar la actualización de modelos.",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "framework"
+          ],
+          "what_changed": "Mejora en la actualización de modelos AI.",
+          "why_it_matters": "Simplifica la administración de modelos dentro de herramientas de desarrollo.",
+          "sector_impact": "Optimiza flujos de trabajo para desarrolladores."
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -751,131 +890,6 @@
           "what_changed": "Evaluación del rendimiento de varios métodos de memoria.",
           "why_it_matters": "Este estudio explora el costo de los sistemas de memoria de agentes, destacando sus limitaciones en la precisión de recuperación de información.",
           "sector_impact": "Mejora la comprensión de la integración de memoria en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "MADDIE: Multi-Agent Drug Discovery Engine",
-          "summary": "Presentamos MADDIE, un motor de descubrimiento de fármacos que incorpora múltiples agentes para optimizar el proceso de descubrimiento a través de flujos de trabajo flexibles.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.16975",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "drug discovery",
-            "multi-agent",
-            "automation"
-          ],
-          "what_changed": "Se proporciona un enfoque integral de colaboración entre agentes en el descubrimiento de fármacos.",
-          "why_it_matters": "MADDIE mejora la eficiencia en la investigación de nuevos medicamentos, permitiendo una reducción significativa en costos y tiempo.",
-          "sector_impact": "Salud y farmacéutica."
-        },
-        {
-          "title": "AM-Bench: Taxonomía y Evaluación para la Desalineación Agente",
-          "summary": "AM-Bench propone una taxonomía unificada y un conjunto de evaluación para medir y mitigar la desalineación en agentes de IA.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.24264",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "alignment",
-            "safety",
-            "evaluation"
-          ],
-          "what_changed": "Introducción de un marco para evaluar la desalineación en diversos sectores.",
-          "why_it_matters": "Aborda la crítica problemática de la seguridad en la IA al evaluar y prevenir acciones dañinas por parte de agentes.",
-          "sector_impact": "Tecnología y seguridad."
-        },
-        {
-          "title": "How Intervention History Changes AI Agent Sabotage",
-          "summary": "Un estudio sobre cómo la historia de intervenciones previas influye en el comportamiento de sabotaje de los agentes de IA.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.26935",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "AI behavior",
-            "sabotage",
-            "intervention"
-          ],
-          "what_changed": "Se evalúa el impacto de la memoria de intervenciones en la capacidad de sabotaje de los agentes de IA.",
-          "why_it_matters": "Proporciona información crucial para el diseño de agentes que evitan comportamientos dañinos.",
-          "sector_impact": "Tecnología y seguridad."
-        },
-        {
-          "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
-          "summary": "TURTLE es una metodología para evolucionar tareas de uso de herramientas en IA a través de agentes LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.27307",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "tool use",
-            "benchmark",
-            "AI"
-          ],
-          "what_changed": "Se presenta un enfoque escalar para generar pruebas de uso de herramientas sin supervisión.",
-          "why_it_matters": "Mejora significativamente las capacidades de IA para interactuar con aplicaciones y herramientas reales.",
-          "sector_impact": "Tecnología y software."
-        },
-        {
-          "title": "GBClaw: Un marco agente para investigación en límites de grano",
-          "summary": "GBClaw integra modelos LLM en un marco para investigar estructuras y deformaciones en materiales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.28629",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "materials",
-            "AI",
-            "mechanics"
-          ],
-          "what_changed": "Desarrollo de un marco modular para conectar simulaciones con análisis mecanicistas.",
-          "why_it_matters": "Facilita el descubrimiento y diseño de nuevos materiales a través de un análisis profundo.",
-          "sector_impact": "Materiales y manufactura."
-        },
-        {
-          "title": "MAS-Guard: Guardrails Unificados para Agentes",
-          "summary": "MAS-Guard cierra la brecha de seguridad en sistemas de IA mediante un marco unificado para aplicar salvaguardias.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.28397",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "safety",
-            "AI",
-            "framework"
-          ],
-          "what_changed": "Implementación de estructuras de seguridad tanto a nivel local como de sistema.",
-          "why_it_matters": "Refuerza la seguridad en sistemas de IA, reduciendo la probabilidad de acciones dañinas.",
-          "sector_impact": "Tecnología y seguridad."
-        },
-        {
-          "title": "Probe, Don't Prompt: Un Probing Oculto para Filtrado de Metadatos",
-          "summary": "Se presenta un nuevo método para mejorar el filtrado de metadatos en la recuperación orientada a múltiples pasos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.03929",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "retrieval",
-            "metadata",
-            "AI"
-          ],
-          "what_changed": "Se sustituyó un aspecto del sistema de extracción por un filtrado determinista local.",
-          "why_it_matters": "Mejora la precisión y efectividad en la recuperación de información.",
-          "sector_impact": "Información y búsqueda."
         }
       ]
     }

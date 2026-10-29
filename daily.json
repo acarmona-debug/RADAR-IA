@@ -1,126 +1,141 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones del ecosistema de inteligencia artificial.",
-  "opening_message": "Recopilación de innovaciones y desarrollos clave en herramientas y modelos de IA.",
+  "intro_message": "Últimas novedades en herramientas, modelos y tendencias de inteligencia artificial.",
+  "opening_message": "Explora los avances y lanzamientos más recientes que están dando forma al futuro de la IA, priorizando la innovación y la operatividad.",
   "items": [
     {
-      "title": "Re4: Scientific Computing Agent with Rewriting, Resolution, Review and Revision",
-      "summary": "Nuevo marco para la generación autónoma de códigos en ciencias científicas integrando LLMs colaborativos.",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "summary": "Una nueva plataforma para desarrolladores permitirá a las empresas integrar sus servicios en las experiencias de IA de Google, cambiando cómo los consumidores descubren y utilizan aplicaciones.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2508.20729",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "relevance_score": 9,
       "status": "new",
       "tags": [
-        "ciencia",
-        "código",
-        "automático"
+        "Google",
+        "Gemini",
+        "IA"
       ],
-      "what_changed": "Marco colaborativo para la resolución de problemas científicos.",
-      "why_it_matters": "Mejora la tasa de éxito y calidad en la generación de código.",
-      "sector_impact": "Transformación en la computación científica."
+      "what_changed": "Introducción de una plataforma de desarrollo ampliada.",
+      "why_it_matters": "Esto puede revolucionar la forma en que las aplicaciones son exploradas e integradas al ecosistema de Google.",
+      "sector_impact": "Transformación en la interacción del usuario con aplicaciones."
     },
     {
-      "title": "Concordat: Typed Sessions for LLM Agents",
-      "summary": "Biblioteca en Python que asegura que los agentes LLM sigan protocolos definidos en tiempo real.",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "summary": "Anthropic lanza herramientas que permiten a las empresas visualizar en qué están invirtiendo en IA, previo a su salida a bolsa.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.37461",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "agentes",
-        "protocolos"
+        "Anthropic",
+        "herramientas",
+        "IA"
       ],
-      "what_changed": "Implementación de protocolos finitos para controlar la interacción del agente.",
-      "why_it_matters": "Asegura que los agentes actúan dentro de límites aceptables.",
-      "sector_impact": "Mejores interacciones en sistemas automatizados."
+      "what_changed": "Nuevas herramientas para la gestión de gastos en IA.",
+      "why_it_matters": "Ayuda a las organizaciones a tomar decisiones informadas sobre sus inversiones en inteligencia artificial.",
+      "sector_impact": "Aumento en la transparencia y eficiencia en gastos de IA."
     },
     {
-      "title": "LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction",
-      "summary": "Sistema multi-agente ligero para automatizar la generación de boletines de seguridad diaria en la construcción.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.36433",
-      "relevance_score": 7,
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "summary": "Dream utiliza modelos de IA para crear simulaciones de construcción basadas en estándares físicos reales y datos masivos sobre construcción.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
         "construcción",
-        "seguridad",
-        "automatización"
+        "modelos AI"
       ],
-      "what_changed": "Integración de RAG y LLM para crear boletines de seguridad.",
-      "why_it_matters": "Reduce el tiempo de producción y mejora la calidad de los boletines.",
-      "sector_impact": "Avance en la gestión de seguridad en entornos de construcción."
+      "what_changed": "Lanzamiento de un modelo de IA específico para la construcción.",
+      "why_it_matters": "Facilita procesos más eficientes y precisos en proyectos de construcción.",
+      "sector_impact": "Revoluciona la industria de la construcción mediante simulaciones avanzadas."
     },
     {
-      "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
-      "summary": "Framework para aprender y mejorar habilidades específicas de repositorios a través de flujos de PR.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.36188",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "PR",
-        "aprendizaje",
-        "mejora"
-      ],
-      "what_changed": "Creación de un sistema de habilidades que evoluciona con cada PR.",
-      "why_it_matters": "Facilita el mantenimiento y la actualización continua de repositorios.",
-      "sector_impact": "Mejoras en la eficiencia del desarrollo de software."
-    },
-    {
-      "title": "From Legacy Fortran to Portable Kokkos: An Autonomous Agentic AI Workflow",
-      "summary": "Flujo de trabajo autónomo para la modernización de códigos Fortran a Kokkos utilizando LLMs.",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "summary": "Wabi se presenta como un 'agente personal' y alcanza una valoración de $1.25 mil millones tras una ronda de financiación.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2509.12443",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Wabi",
+        "agentes",
+        "mini-apps"
+      ],
+      "what_changed": "Valoración alcanzada tras ronda de financiación significativa.",
+      "why_it_matters": "Valida el modelo de negocio de agentes de IA que crean aplicaciones miniatura.",
+      "sector_impact": "Impulsa el auge de agentes de IA en el desarrollo de apps."
+    },
+    {
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "summary": "Nvidia lanza un nuevo modelo de transcripción que soporta hasta 40 idiomas, ideal para reuniones y herramientas médicas.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "HPC",
-        "modernización",
-        "Fortran"
+        "Nvidia",
+        "transcripción",
+        "modelos AI"
       ],
-      "what_changed": "Automatización en la conversión de código de Fortran a C++.",
-      "why_it_matters": "Mejora la portabilidad de aplicaciones científicas.",
-      "sector_impact": "Facilita el avance en computación de alto rendimiento."
+      "what_changed": "Modelo de transcripción de voz que amplia el acceso a múltiples idiomas.",
+      "why_it_matters": "Permite la transcripción en escenarios diversos, aumentando la accesibilidad.",
+      "sector_impact": "Mejora la herramienta de transcripción en diversos sectores."
     },
     {
-      "title": "MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge",
-      "summary": "Prototipo modular que mejora la evaluación de la calidad de requisitos en ingeniería de sistemas a través de LLMs.",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "summary": "Mistral ofrece pesos para su modelo de IA que brinda control sobre defensas cibernéticas, superando modelos cerrados.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Mistral",
+        "ciberseguridad",
+        "modelos AI"
+      ],
+      "what_changed": "Liberación de pesos para un modelo de IA enfocado en ciberseguridad.",
+      "why_it_matters": "Ofrece a las empresas opciones más personalizables para su defensa cibernética.",
+      "sector_impact": "Reinventa la defensa cibernética mediante IA avanzada."
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "summary": "Lanzamiento de modelos abiertos para reconocimiento de voz y decisiones en plataformas Apple.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/anydecisionmodel",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Hugging Face",
+        "modelos abiertos"
+      ],
+      "what_changed": "Nuevas incorporaciones para usuarios de Apple en IA de voz y decisiones.",
+      "why_it_matters": "Fomenta la innovación en la creación de aplicaciones centradas en la voz en ecosistemas Apple.",
+      "sector_impact": "Facilita herramientas avanzadas para desarrolladores en plataformas Apple."
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "summary": "Actualización del sistema Granite Switch para facilitar la actualización de modelos.",
       "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.36234",
-      "relevance_score": 7,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "calidad",
-        "evaluación",
-        "requisitos"
+        "Hugging Face",
+        "framework"
       ],
-      "what_changed": "Incorporación de conocimientos de ingeniería de sistemas en la evaluación.",
-      "why_it_matters": "Aumenta la detección de defectos en requisitos.",
-      "sector_impact": "Mejora la calidad de proyectos en ingeniería."
-    },
-    {
-      "title": "Executable Archaeology of Programs That Model Programming",
-      "summary": "Reanimación de programas históricos que modelan la programación y su comparación con herramientas modernas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.36341",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "historia",
-        "programación",
-        "IA"
-      ],
-      "what_changed": "Reanimación de teorías de programación de programas antiguos.",
-      "why_it_matters": "Proporciona insights sobre la evolución de herramientas de programación.",
-      "sector_impact": "Impacto en la comprensión de la programación automática."
+      "what_changed": "Mejora en la actualización de modelos AI.",
+      "why_it_matters": "Simplifica la administración de modelos dentro de herramientas de desarrollo.",
+      "sector_impact": "Optimiza flujos de trabajo para desarrolladores."
     }
   ]
 }
