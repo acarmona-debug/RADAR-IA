@@ -1,141 +1,121 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-31",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades en herramientas, modelos y tendencias de inteligencia artificial.",
-  "opening_message": "Explora los avances y lanzamientos más recientes que están dando forma al futuro de la IA, priorizando la innovación y la operatividad.",
+  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas y modelos de IA.",
+  "opening_message": "A continuación, se presentan las actualizaciones más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas, modelos, frameworks e integraciones útiles.",
   "items": [
     {
-      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "summary": "Una nueva plataforma para desarrolladores permitirá a las empresas integrar sus servicios en las experiencias de IA de Google, cambiando cómo los consumidores descubren y utilizan aplicaciones.",
+      "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
+      "summary": "Presenta un marco para evaluar cómo los agentes de LLM diseñan y validan algoritmos de descomposición, mostrando un alto potencial de éxito en la implementación automática.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-      "relevance_score": 9,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.38175",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
-        "Gemini",
-        "IA"
-      ],
-      "what_changed": "Introducción de una plataforma de desarrollo ampliada.",
-      "why_it_matters": "Esto puede revolucionar la forma en que las aplicaciones son exploradas e integradas al ecosistema de Google.",
-      "sector_impact": "Transformación en la interacción del usuario con aplicaciones."
-    },
-    {
-      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-      "summary": "Anthropic lanza herramientas que permiten a las empresas visualizar en qué están invirtiendo en IA, previo a su salida a bolsa.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "herramientas",
-        "IA"
-      ],
-      "what_changed": "Nuevas herramientas para la gestión de gastos en IA.",
-      "why_it_matters": "Ayuda a las organizaciones a tomar decisiones informadas sobre sus inversiones en inteligencia artificial.",
-      "sector_impact": "Aumento en la transparencia y eficiencia en gastos de IA."
-    },
-    {
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "summary": "Dream utiliza modelos de IA para crear simulaciones de construcción basadas en estándares físicos reales y datos masivos sobre construcción.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "construcción",
-        "modelos AI"
-      ],
-      "what_changed": "Lanzamiento de un modelo de IA específico para la construcción.",
-      "why_it_matters": "Facilita procesos más eficientes y precisos en proyectos de construcción.",
-      "sector_impact": "Revoluciona la industria de la construcción mediante simulaciones avanzadas."
-    },
-    {
-      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-      "summary": "Wabi se presenta como un 'agente personal' y alcanza una valoración de $1.25 mil millones tras una ronda de financiación.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "Wabi",
         "agentes",
-        "mini-apps"
+        "automatización"
       ],
-      "what_changed": "Valoración alcanzada tras ronda de financiación significativa.",
-      "why_it_matters": "Valida el modelo de negocio de agentes de IA que crean aplicaciones miniatura.",
-      "sector_impact": "Impulsa el auge de agentes de IA en el desarrollo de apps."
+      "what_changed": "Introducción de un banco de pruebas para medir la efectividad de varios modelos.",
+      "why_it_matters": "Permite mejorar la implementación de algoritmos complejos de manera automatizada.",
+      "sector_impact": "Optimización de procesos en matemáticas aplicadas y algoritmos."
     },
     {
-      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-      "summary": "Nvidia lanza un nuevo modelo de transcripción que soporta hasta 40 idiomas, ideal para reuniones y herramientas médicas.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "title": "TreasuryQA Bench: Can AI Agents Work an Archive of Scanned Financial Records?",
+      "summary": "Un nuevo benchmark que evalúa la capacidad de los agentes de IA para buscar y analizar documentos financieros escaneados.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.38924",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Nvidia",
-        "transcripción",
-        "modelos AI"
+        "agentes",
+        "finanzas"
       ],
-      "what_changed": "Modelo de transcripción de voz que amplia el acceso a múltiples idiomas.",
-      "why_it_matters": "Permite la transcripción en escenarios diversos, aumentando la accesibilidad.",
-      "sector_impact": "Mejora la herramienta de transcripción en diversos sectores."
+      "what_changed": "Desarrollo de un conjunto de preguntas que exige una búsqueda activa y lectura de documentos escaneados.",
+      "why_it_matters": "Relevante para restaurar y evaluar archivos financieros históricos.",
+      "sector_impact": "Mejora en la eficiencia de auditorías y trabajos contables."
     },
     {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "summary": "Mistral ofrece pesos para su modelo de IA que brinda control sobre defensas cibernéticas, superando modelos cerrados.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+      "summary": "Benchmark para evaluar modelos de agentes de IA en análisis de inversiones y calidad de investigación financiera.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.38342",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Mistral",
-        "ciberseguridad",
-        "modelos AI"
+        "agentes",
+        "finance",
+        "evaluación"
       ],
-      "what_changed": "Liberación de pesos para un modelo de IA enfocado en ciberseguridad.",
-      "why_it_matters": "Ofrece a las empresas opciones más personalizables para su defensa cibernética.",
-      "sector_impact": "Reinventa la defensa cibernética mediante IA avanzada."
+      "what_changed": "Creación de un marco exhaustivo para analizar el rendimiento de los agentes en finanzas.",
+      "why_it_matters": "Brinda un enfoque estructurado para entrenar y evaluar modelos en finanzas.",
+      "sector_impact": "Impulsa la calidad en decisiones de inversión."
     },
     {
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "summary": "Lanzamiento de modelos abiertos para reconocimiento de voz y decisiones en plataformas Apple.",
+      "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
+      "summary": "Investigación sobre la vulnerabilidad de agentes de IA frente a ataques de inyección y cómo su ubicación afecta la seguridad.",
       "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/anydecisionmodel",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.38867",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Hugging Face",
-        "modelos abiertos"
+        "seguridad",
+        "agentes"
       ],
-      "what_changed": "Nuevas incorporaciones para usuarios de Apple en IA de voz y decisiones.",
-      "why_it_matters": "Fomenta la innovación en la creación de aplicaciones centradas en la voz en ecosistemas Apple.",
-      "sector_impact": "Facilita herramientas avanzadas para desarrolladores en plataformas Apple."
+      "what_changed": "Identificación de cómo la ubicación de inyecciones afecta la confianza en los agentes.",
+      "why_it_matters": "Proporciona información esencial para el diseño de defensas y ataques en IA.",
+      "sector_impact": "Mejora la seguridad de entornos de IA."
     },
     {
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "summary": "Actualización del sistema Granite Switch para facilitar la actualización de modelos.",
+      "title": "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference",
+      "summary": "Presenta un marco para mejorar la programación de modelos de lenguaje multimodal, optimizando la utilización de recursos.",
       "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2603.26498",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Hugging Face",
-        "framework"
+        "modelos",
+        "eficiencia"
       ],
-      "what_changed": "Mejora en la actualización de modelos AI.",
-      "why_it_matters": "Simplifica la administración de modelos dentro de herramientas de desarrollo.",
-      "sector_impact": "Optimiza flujos de trabajo para desarrolladores."
+      "what_changed": "Implementación de una nueva arquitectura para la programación de tareas entre diferentes modalidades.",
+      "why_it_matters": "Optimiza el rendimiento y respuesta en aplicaciones multimodales.",
+      "sector_impact": "Aumenta la eficiencia en entornos que manejan múltiples tipos de datos."
+    },
+    {
+      "title": "Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors",
+      "summary": "Una nueva arena de evaluación que analiza cómo la calidad de las herramientas de pronóstico impacta el rendimiento de los agentes de LLM.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.38292",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "agentes",
+        "negocios"
+      ],
+      "what_changed": "Ofrece un marco para medir y ajustar la calidad de herramientas utilizadas por agentes de LLM.",
+      "why_it_matters": "Mejora la precisión y efectividad en negociaciones automatizadas.",
+      "sector_impact": "Aumenta la inversión en herramientas de negociación LLM."
+    },
+    {
+      "title": "Adaptive Query Routing: A Tier-Based Framework for Hybrid Retrieval",
+      "summary": "Framework que mejora la recuperación híbrida de documentos financieros, legales y médicos a través de consultas adaptativas.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2604.14222",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "recuperación",
+        "documentos"
+      ],
+      "what_changed": "Introducción de un sistema de consultas por niveles para optimizar la recuperación de documentos.",
+      "why_it_matters": "Facilita un acceso más eficiente a información valiosa en diversas industrias.",
+      "sector_impact": "Aligera procesos en consultas legales y financieras."
     }
   ]
 }
