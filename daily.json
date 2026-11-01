@@ -1,121 +1,127 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones y desarrollos en herramientas y modelos de IA.",
-  "opening_message": "A continuación, se presentan las actualizaciones más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas, modelos, frameworks e integraciones útiles.",
+  "intro_message": "Las últimas innovaciones y desarrollos en el campo de la inteligencia artificial.",
+  "opening_message": "Aquí están los recientes avances que están dando forma al futuro de la IA.",
   "items": [
     {
-      "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
-      "summary": "Presenta un marco para evaluar cómo los agentes de LLM diseñan y validan algoritmos de descomposición, mostrando un alto potencial de éxito en la implementación automática.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.38175",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "automatización"
-      ],
-      "what_changed": "Introducción de un banco de pruebas para medir la efectividad de varios modelos.",
-      "why_it_matters": "Permite mejorar la implementación de algoritmos complejos de manera automatizada.",
-      "sector_impact": "Optimización de procesos en matemáticas aplicadas y algoritmos."
-    },
-    {
-      "title": "TreasuryQA Bench: Can AI Agents Work an Archive of Scanned Financial Records?",
-      "summary": "Un nuevo benchmark que evalúa la capacidad de los agentes de IA para buscar y analizar documentos financieros escaneados.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.38924",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "finanzas"
-      ],
-      "what_changed": "Desarrollo de un conjunto de preguntas que exige una búsqueda activa y lectura de documentos escaneados.",
-      "why_it_matters": "Relevante para restaurar y evaluar archivos financieros históricos.",
-      "sector_impact": "Mejora en la eficiencia de auditorías y trabajos contables."
-    },
-    {
-      "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
-      "summary": "Benchmark para evaluar modelos de agentes de IA en análisis de inversiones y calidad de investigación financiera.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.38342",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "finance",
-        "evaluación"
-      ],
-      "what_changed": "Creación de un marco exhaustivo para analizar el rendimiento de los agentes en finanzas.",
-      "why_it_matters": "Brinda un enfoque estructurado para entrenar y evaluar modelos en finanzas.",
-      "sector_impact": "Impulsa la calidad en decisiones de inversión."
-    },
-    {
-      "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
-      "summary": "Investigación sobre la vulnerabilidad de agentes de IA frente a ataques de inyección y cómo su ubicación afecta la seguridad.",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "summary": "El primer TPU en el espacio está corriendo un modelo de Google DeepMind Gemma 4 y escribiendo poesía.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.38867",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "seguridad",
-        "agentes"
+        "Google",
+        "DeepMind",
+        "satellite"
       ],
-      "what_changed": "Identificación de cómo la ubicación de inyecciones afecta la confianza en los agentes.",
-      "why_it_matters": "Proporciona información esencial para el diseño de defensas y ataques en IA.",
-      "sector_impact": "Mejora la seguridad de entornos de IA."
+      "what_changed": "Se ha lanzado el primer TPU en el espacio que ejecuta un modelo de IA.",
+      "why_it_matters": "Este desarrollo podría expandir las aplicaciones de IA en entornos inusuales y abiertos.",
+      "sector_impact": "Alta innovación en IA espacial y desarrollo de modelos."
     },
     {
-      "title": "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference",
-      "summary": "Presenta un marco para mejorar la programación de modelos de lenguaje multimodal, optimizando la utilización de recursos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.26498",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "modelos",
-        "eficiencia"
-      ],
-      "what_changed": "Implementación de una nueva arquitectura para la programación de tareas entre diferentes modalidades.",
-      "why_it_matters": "Optimiza el rendimiento y respuesta en aplicaciones multimodales.",
-      "sector_impact": "Aumenta la eficiencia en entornos que manejan múltiples tipos de datos."
-    },
-    {
-      "title": "Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors",
-      "summary": "Una nueva arena de evaluación que analiza cómo la calidad de las herramientas de pronóstico impacta el rendimiento de los agentes de LLM.",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "summary": "El nuevo conserje de IA de Zest puede encontrar restaurantes y realizar reservas a través de mensajes de texto.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.38292",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "agentes",
-        "negocios"
+        "reservaciones",
+        "IA",
+        "Zest"
       ],
-      "what_changed": "Ofrece un marco para medir y ajustar la calidad de herramientas utilizadas por agentes de LLM.",
-      "why_it_matters": "Mejora la precisión y efectividad en negociaciones automatizadas.",
-      "sector_impact": "Aumenta la inversión en herramientas de negociación LLM."
+      "what_changed": "Introducción de un agente que mejora la experiencia de encontrar restaurantes.",
+      "why_it_matters": "Facilita la planificación social y mejora la experiencia del usuario.",
+      "sector_impact": "Impacto positivo en la industria de servicios y hospitalidad."
     },
     {
-      "title": "Adaptive Query Routing: A Tier-Based Framework for Hybrid Retrieval",
-      "summary": "Framework que mejora la recuperación híbrida de documentos financieros, legales y médicos a través de consultas adaptativas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2604.14222",
-      "relevance_score": 7,
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "summary": "DoorDash está abierto a trabajar con creadores de agentes de terceros después de recibir pocas órdenes de agentes de IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "recuperación",
-        "documentos"
+        "DoorDash",
+        "IA",
+        "ordenes"
       ],
-      "what_changed": "Introducción de un sistema de consultas por niveles para optimizar la recuperación de documentos.",
-      "why_it_matters": "Facilita un acceso más eficiente a información valiosa en diversas industrias.",
-      "sector_impact": "Aligera procesos en consultas legales y financieras."
+      "what_changed": "Reconocimiento de un nuevo canal de pedidos mediante IA.",
+      "why_it_matters": "Indica potencial para mejorar la eficiencia en entregas y pedidos.",
+      "sector_impact": "Cambio en el enfoque de la logística y delivery."
+    },
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "Nvidia está considerando co-firmar un préstamo para un nuevo centro de datos de IA en Virginia Occidental.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Nvidia",
+        "centros de datos",
+        "IA"
+      ],
+      "what_changed": "Potencial co-financiamiento de infraestructura crítica para IA.",
+      "why_it_matters": "Refuerza la importancia de la infraestructura para el crecimiento del sector.",
+      "sector_impact": "Impacto significativo en el desarrollo de la infraestructura de IA."
+    },
+    {
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "summary": "Runware está construyendo una fábrica para producir centros de datos de IA prefabricados en línea de montaje.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "centros de datos",
+        "IA",
+        "fabricación"
+      ],
+      "what_changed": "Propuesta innovadora para la producción masiva de centros de datos.",
+      "why_it_matters": "Podría revolucionar la forma en que se construye la infraestructura de IA.",
+      "sector_impact": "Cambio en la dinámica de la producción y costos operativos."
+    },
+    {
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "summary": "Se prevé que Anthropic reciba una alta calificación de 'chatarra' según informes, lo que podría dificultar su financiamiento.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Anthropic",
+        "financiamiento",
+        "calificación"
+      ],
+      "what_changed": "Previsión de dificultades financieras para Anthropic tras su IPO.",
+      "why_it_matters": "Puede afectar el desarrollo de modelos y herramientas en IA.",
+      "sector_impact": "Impacto en la percepción de riesgo en el sector de IA."
+    },
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "summary": "La última ronda de financiación de OpenAI no cumple con las expectativas iniciales.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "OpenAI",
+        "financiación",
+        "rondas"
+      ],
+      "what_changed": "Ajuste en las metas de financiamiento que podría afectar operaciones.",
+      "why_it_matters": "Refleja la presión económica en el sector de IA.",
+      "sector_impact": "Implicaciones para startups y financiamiento de nueva tecnología."
     }
   ]
 }

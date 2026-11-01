@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-11-01",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Google’s first data center satellite is online and writing poetry",
+          "summary": "El primer TPU en el espacio está corriendo un modelo de Google DeepMind Gemma 4 y escribiendo poesía.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Google",
+            "DeepMind",
+            "satellite"
+          ],
+          "what_changed": "Se ha lanzado el primer TPU en el espacio que ejecuta un modelo de IA.",
+          "why_it_matters": "Este desarrollo podría expandir las aplicaciones de IA en entornos inusuales y abiertos.",
+          "sector_impact": "Alta innovación en IA espacial y desarrollo de modelos."
+        },
+        {
+          "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+          "summary": "El nuevo conserje de IA de Zest puede encontrar restaurantes y realizar reservas a través de mensajes de texto.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "reservaciones",
+            "IA",
+            "Zest"
+          ],
+          "what_changed": "Introducción de un agente que mejora la experiencia de encontrar restaurantes.",
+          "why_it_matters": "Facilita la planificación social y mejora la experiencia del usuario.",
+          "sector_impact": "Impacto positivo en la industria de servicios y hospitalidad."
+        },
+        {
+          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+          "summary": "DoorDash está abierto a trabajar con creadores de agentes de terceros después de recibir pocas órdenes de agentes de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "DoorDash",
+            "IA",
+            "ordenes"
+          ],
+          "what_changed": "Reconocimiento de un nuevo canal de pedidos mediante IA.",
+          "why_it_matters": "Indica potencial para mejorar la eficiencia en entregas y pedidos.",
+          "sector_impact": "Cambio en el enfoque de la logística y delivery."
+        },
+        {
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "summary": "Nvidia está considerando co-firmar un préstamo para un nuevo centro de datos de IA en Virginia Occidental.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Nvidia",
+            "centros de datos",
+            "IA"
+          ],
+          "what_changed": "Potencial co-financiamiento de infraestructura crítica para IA.",
+          "why_it_matters": "Refuerza la importancia de la infraestructura para el crecimiento del sector.",
+          "sector_impact": "Impacto significativo en el desarrollo de la infraestructura de IA."
+        },
+        {
+          "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+          "summary": "Runware está construyendo una fábrica para producir centros de datos de IA prefabricados en línea de montaje.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "centros de datos",
+            "IA",
+            "fabricación"
+          ],
+          "what_changed": "Propuesta innovadora para la producción masiva de centros de datos.",
+          "why_it_matters": "Podría revolucionar la forma en que se construye la infraestructura de IA.",
+          "sector_impact": "Cambio en la dinámica de la producción y costos operativos."
+        },
+        {
+          "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+          "summary": "Se prevé que Anthropic reciba una alta calificación de 'chatarra' según informes, lo que podría dificultar su financiamiento.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Anthropic",
+            "financiamiento",
+            "calificación"
+          ],
+          "what_changed": "Previsión de dificultades financieras para Anthropic tras su IPO.",
+          "why_it_matters": "Puede afectar el desarrollo de modelos y herramientas en IA.",
+          "sector_impact": "Impacto en la percepción de riesgo en el sector de IA."
+        },
+        {
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "summary": "La última ronda de financiación de OpenAI no cumple con las expectativas iniciales.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "financiación",
+            "rondas"
+          ],
+          "what_changed": "Ajuste en las metas de financiamiento que podría afectar operaciones.",
+          "why_it_matters": "Refleja la presión económica en el sector de IA.",
+          "sector_impact": "Implicaciones para startups y financiamiento de nueva tecnología."
+        }
+      ]
+    },
+    {
       "date": "2026-10-31",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -754,142 +879,6 @@
           "what_changed": "Se facilitan nuevas herramientas para desarrolladores en la plataforma de OpenAI.",
           "why_it_matters": "Mejorar la accesibilidad y funcionalidad para los desarrolladores.",
           "sector_impact": "Estimula la innovación y creación de aplicaciones en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Claude Duet app is Anthropic’s bet on agents",
-          "summary": "Claude Duet está disponible para usuarios de Pro y Max a través de lista de espera.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "agents"
-          ],
-          "what_changed": "Lanzamiento de una aplicación dedicada a agentes.",
-          "why_it_matters": "Impulsa la adopción de agentes en el espacio empresarial.",
-          "sector_impact": "Mejora en la integración de agentes en tareas cotidianas."
-        },
-        {
-          "title": "Uber puts all 30,000 employees on ChatGPT Work",
-          "summary": "Uber implementa ChatGPT Work a gran escala en su organización.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "automatización"
-          ],
-          "what_changed": "Despliegue de ChatGPT a todos los empleados.",
-          "why_it_matters": "Aumenta la eficiencia y efectividad en la gestión de tareas.",
-          "sector_impact": "Transformación digital en las operaciones de Uber."
-        },
-        {
-          "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-          "summary": "Nuevas funciones que permiten a los agentes iniciar sesión sin exponer credenciales.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agents"
-          ],
-          "what_changed": "Innovación en la seguridad de inicios de sesión.",
-          "why_it_matters": "Protección mejorada de la privacidad del usuario.",
-          "sector_impact": "Aumento en la confianza del usuario en soluciones de automatización."
-        },
-        {
-          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-          "summary": "OpenAI lanza su modelo competidor de decisiones al mercado.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "modelos"
-          ],
-          "what_changed": "Disponibilidad ampliada de un nuevo modelo de decisiones.",
-          "why_it_matters": "Compite en un mercado en rápido desarrollo.",
-          "sector_impact": "Incremento de opciones en modelos de decisión."
-        },
-        {
-          "title": "Canva releases its first image generation model",
-          "summary": "Canva lanza un modelo de generación de imágenes que promete mejor rendimiento.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Canva",
-            "imagen"
-          ],
-          "what_changed": "Introducción de un nuevo modelo para la creación de imágenes.",
-          "why_it_matters": "Mayor personalización y costo reducido para los usuarios.",
-          "sector_impact": "Revoluciona el diseño gráfico en plataformas digitales."
-        },
-        {
-          "title": "Spotify’s current AI bet is about being the music service that agents choose",
-          "summary": "Spotify busca ser la plataforma de música elegida por los agentes de IA.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Spotify",
-            "musica",
-            "agents"
-          ],
-          "what_changed": "Estratégia para atraer agentes de IA hacia su servicio.",
-          "why_it_matters": "Potencia el alcance y uso de la plataforma.",
-          "sector_impact": "Transformación en la forma en que se consume música."
-        },
-        {
-          "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-          "summary": "",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "RL",
-            "ThinkingBox"
-          ],
-          "what_changed": "Innovaciones en el entrenamiento de agentes.",
-          "why_it_matters": "Optimiza el desempeño de modelos post-entrenamiento.",
-          "sector_impact": "Incremento en la eficacia de aplicaciones de IA."
-        },
-        {
-          "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-          "summary": "Un sistema de IA de Microsoft supera a médicos en casos clínicos difíciles.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Microsoft",
-            "salud",
-            "modelos"
-          ],
-          "what_changed": "Demostración del potencial de IA en diagnósticos complejos.",
-          "why_it_matters": "Puede cambiar el paradigma de la atención médica.",
-          "sector_impact": "Mejora en diagnósticos y tratamientos en salud."
         }
       ]
     }
