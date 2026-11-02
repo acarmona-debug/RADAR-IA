@@ -1,127 +1,106 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Las últimas innovaciones y desarrollos en el campo de la inteligencia artificial.",
-  "opening_message": "Aquí están los recientes avances que están dando forma al futuro de la IA.",
+  "intro_message": "Últimas novedades y avances en herramientas y modelos de inteligencia artificial.",
+  "opening_message": "Aquí están las actualizaciones más relevantes en el ecosistema de IA que no te puedes perder.",
   "items": [
     {
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "summary": "El primer TPU en el espacio está corriendo un modelo de Google DeepMind Gemma 4 y escribiendo poesía.",
-      "category": "model",
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "summary": "OpenAI ha anunciado que ChatGPT y Codex compartirán la misma asignación de uso tras la fusión de las pestañas de chat y trabajo.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Google",
-        "DeepMind",
-        "satellite"
+        "ChatGPT",
+        "OpenAI"
       ],
-      "what_changed": "Se ha lanzado el primer TPU en el espacio que ejecuta un modelo de IA.",
-      "why_it_matters": "Este desarrollo podría expandir las aplicaciones de IA en entornos inusuales y abiertos.",
-      "sector_impact": "Alta innovación en IA espacial y desarrollo de modelos."
+      "what_changed": "Fusión de funcionalidades en ChatGPT.",
+      "why_it_matters": "Mejorará la experiencia del usuario al unificar herramientas.",
+      "sector_impact": "Aumenta la eficiencia en el uso de herramientas de IA."
     },
     {
-      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "summary": "El nuevo conserje de IA de Zest puede encontrar restaurantes y realizar reservas a través de mensajes de texto.",
-      "category": "tool",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "summary": "42AI ha recaudado $62.5 millones para un modelo que puede predecir el comportamiento humano.",
+      "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "reservaciones",
-        "IA",
-        "Zest"
+        "model",
+        "behavior prediction"
       ],
-      "what_changed": "Introducción de un agente que mejora la experiencia de encontrar restaurantes.",
-      "why_it_matters": "Facilita la planificación social y mejora la experiencia del usuario.",
-      "sector_impact": "Impacto positivo en la industria de servicios y hospitalidad."
+      "what_changed": "Lanzamiento de un modelo innovador.",
+      "why_it_matters": "Puede revolucionar la interacción entre humanos y máquinas.",
+      "sector_impact": "Transformación en análisis de datos y marketing."
     },
     {
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "summary": "DoorDash está abierto a trabajar con creadores de agentes de terceros después de recibir pocas órdenes de agentes de IA.",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "summary": "Omen AI se asocia con Aquatic Labs en una adquisición de $16 millones para abordar problemas de agua en centros de datos.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "source_url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "DoorDash",
-        "IA",
-        "ordenes"
+        "AI",
+        "acquisition",
+        "data centers"
       ],
-      "what_changed": "Reconocimiento de un nuevo canal de pedidos mediante IA.",
-      "why_it_matters": "Indica potencial para mejorar la eficiencia en entregas y pedidos.",
-      "sector_impact": "Cambio en el enfoque de la logística y delivery."
+      "what_changed": "Adquisición para mejorar la sostenibilidad.",
+      "why_it_matters": "Aborda cuestiones críticas sobre el uso eficiente de recursos.",
+      "sector_impact": "Impacta en la infraestructura de centros de datos."
     },
     {
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "summary": "Nvidia está considerando co-firmar un préstamo para un nuevo centro de datos de IA en Virginia Occidental.",
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "summary": "Elon Musk limita el uso de Grok Bot debido a costos insostenibles, a pesar de su rápida adopción.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "relevance_score": 6,
+      "source_url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Nvidia",
-        "centros de datos",
-        "IA"
+        "Grok Bot",
+        "Elon Musk"
       ],
-      "what_changed": "Potencial co-financiamiento de infraestructura crítica para IA.",
-      "why_it_matters": "Refuerza la importancia de la infraestructura para el crecimiento del sector.",
-      "sector_impact": "Impacto significativo en el desarrollo de la infraestructura de IA."
+      "what_changed": "Limitaciones en el uso de Grok Bot.",
+      "why_it_matters": "Indica los desafíos financieros en el desarrollo de IA.",
+      "sector_impact": "Consecuencias para la sostenibilidad de productos de IA."
     },
     {
-      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-      "summary": "Runware está construyendo una fábrica para producir centros de datos de IA prefabricados en línea de montaje.",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "OpenAI considera renombrar sus centros de datos como 'campus de computación de IA' para mejorar su imagen.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "centros de datos",
-        "IA",
-        "fabricación"
-      ],
-      "what_changed": "Propuesta innovadora para la producción masiva de centros de datos.",
-      "why_it_matters": "Podría revolucionar la forma en que se construye la infraestructura de IA.",
-      "sector_impact": "Cambio en la dinámica de la producción y costos operativos."
-    },
-    {
-      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-      "summary": "Se prevé que Anthropic reciba una alta calificación de 'chatarra' según informes, lo que podría dificultar su financiamiento.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Anthropic",
-        "financiamiento",
-        "calificación"
-      ],
-      "what_changed": "Previsión de dificultades financieras para Anthropic tras su IPO.",
-      "why_it_matters": "Puede afectar el desarrollo de modelos y herramientas en IA.",
-      "sector_impact": "Impacto en la percepción de riesgo en el sector de IA."
-    },
-    {
-      "title": "OpenAI reportedly lowers funding target for new round",
-      "summary": "La última ronda de financiación de OpenAI no cumple con las expectativas iniciales.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-      "relevance_score": 5,
+      "source_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
         "OpenAI",
-        "financiación",
-        "rondas"
+        "data centers"
       ],
-      "what_changed": "Ajuste en las metas de financiamiento que podría afectar operaciones.",
-      "why_it_matters": "Refleja la presión económica en el sector de IA.",
-      "sector_impact": "Implicaciones para startups y financiamiento de nueva tecnología."
+      "what_changed": "Cambio de imagen propuesto para centros de datos.",
+      "why_it_matters": "Puede mejorar la percepción pública de la infraestructura.",
+      "sector_impact": "Impacto en la opinión sobre el ecosistema de IA."
+    },
+    {
+      "title": "Google’s latest AI updates from October 2026",
+      "summary": "Resumen de las últimas actualizaciones de Google en inteligencia artificial anunciadas en octubre de 2026.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Google",
+        "updates",
+        "AI"
+      ],
+      "what_changed": "Actualizaciones significativas en IA.",
+      "why_it_matters": "Refleja el compromiso continuo de Google con la innovación.",
+      "sector_impact": "Afecta a diversas aplicaciones de IA en su ecosistema."
     }
   ]
 }
