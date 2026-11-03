@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-11-03",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "DeFT-RAG: Un marco RAG para preguntas de múltiples saltos",
+          "summary": "DeFT-RAG mejora la generación aumentada por recuperación (RAG) al descomponer preguntas en subtareas auto-contenidas.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.37826",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "RAG",
+            "LLM",
+            "IA"
+          ],
+          "what_changed": "Introducción de un enfoque innovador para manejar preguntas complejas.",
+          "why_it_matters": "Optimiza la recuperación de información en modelos de lenguaje, mejorando la precisión y eficiencia.",
+          "sector_impact": "Mejora en aplicaciones de IA donde se requieren respuestas precisas a preguntas complejas."
+        },
+        {
+          "title": "RECAST: Reconstrucción de cadena de pensamiento",
+          "summary": "RECAST permite la reconstrucción de razonamientos intermedios en modelos cerrados como Claude y GPT.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.41813",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "razonamiento",
+            "IA"
+          ],
+          "what_changed": "Primera herramienta de su tipo para reconstruir cadenas de pensamiento desde modelos de caja negra.",
+          "why_it_matters": "Facilita la transparencia en el razonamiento de los modelos de IA, crucial para auditorías y mejoras.",
+          "sector_impact": "Impulsa la confianza en sistemas de IA al hacer más comprensibles sus inferencias."
+        },
+        {
+          "title": "Benchmarking Agents de Pronóstico",
+          "summary": "FABench es un entorno de backtesting escalable que pone a prueba a los agentes de pronóstico en múltiples dominios.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.40940",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmarking",
+            "agentes",
+            "IA"
+          ],
+          "what_changed": "Introducción de un sistema que permite evaluar agentes en datos históricos.",
+          "why_it_matters": "Aumenta la precisión de los modelos de pronóstico mediante el acceso a datos en tiempo real.",
+          "sector_impact": "Transforma la manera en que se verifica y valida el rendimiento de los modelos de IA en previsiones."
+        },
+        {
+          "title": "Lanzamiento de ROSTrans para migración de ROS",
+          "summary": "ROSTrans proporciona un marco de evaluación para la migración de ROS1 a ROS2, abordando desafíos únicos en desarrollo robótico.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.41168",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "robotica",
+            "migracion",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un conjunto de pruebas para evaluar la migración de código en robótica.",
+          "why_it_matters": "Mejora la capacidad de los modelos para gestionar etapas complejas en el desarrollo de software robótico.",
+          "sector_impact": "Impulsa la adopción de nuevas tecnologías en robótica, mejorando la interoperabilidad de sistemas."
+        },
+        {
+          "title": "SoK: Arquitecturas y direcciones de investigación en RAG",
+          "summary": "Este trabajo proporciona una taxonomía de sistemas RAG autónomos, identificando limitaciones y riesgos inherentes.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2603.07379",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "RAG",
+            "investigacion"
+          ],
+          "what_changed": "Formalización de bucles de RAG como procesos de decisión.",
+          "why_it_matters": "Ofrece un marco unificado para entender y mejorar los sistemas RAG.",
+          "sector_impact": "Permite avanzar en la investigación y desarrollo de sistemas autónomos más confiables."
+        },
+        {
+          "title": "Context as Infrastructure: Compilación de conocimiento",
+          "summary": "Se propone un sistema de compilación de conocimiento para mejorar la generación aumentada por recuperación en sistemas de agentes.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.41172",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "IA",
+            "RAG",
+            "conocimiento"
+          ],
+          "what_changed": "Introducción de un sistema de ingesta configurable para mejorar la precisión de la recuperación.",
+          "why_it_matters": "Mejora la calidad y relevancia de los datos presentados a los modelos.",
+          "sector_impact": "Aumenta la eficiencia en la búsqueda y recuperación de información."
+        },
+        {
+          "title": "Ax-Prover: Un marco de razonamiento profundo para la prueba de teoremas",
+          "summary": "Ax-Prover es un sistema multi-agente para la prueba de teoremas en matemáticas y física cuántica.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2510.12787",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "teoremas",
+            "matematicas",
+            "IA"
+          ],
+          "what_changed": "Desarrollo de un enfoque multi-agente para resolver problemas complejos en matemáticas.",
+          "why_it_matters": "Aumenta la capacidad de los modelos para operar en dominios científicamente rigurosos.",
+          "sector_impact": "Contribuye al avance de la investigación matemática y de la física a través de la automatización."
+        }
+      ]
+    },
+    {
       "date": "2026-11-02",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -742,123 +867,6 @@
           "what_changed": "Implementación de una nueva evaluación para la revisión de código automatizada.",
           "why_it_matters": "Contribuye significativamente a la seguridad de software y desarrollo ágil.",
           "sector_impact": "Impacto en la seguridad del software en diversas industrias."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "SolveBind para Agentes GUI",
-          "summary": "Introduce un marco que combina la resolución jerárquica con supervisión en tiempo real para agentes que operan en entornos protegidos por verificación.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.32223",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automación",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un nuevo marco que mejora la ejecución de agentes en entornos con CAPTCHA.",
-          "why_it_matters": "Aumenta la tasa de éxito de los agentes en tareas de verificación y mejora la adaptabilidad en tiempo real.",
-          "sector_impact": "Transforma como los agentes manejan interacciones en interfaces protegidas."
-        },
-        {
-          "title": "MCPHunt: Marco Evaluativo para Agentes MCP",
-          "summary": "Presenta un benchmark controlado para aislar la propagación de credenciales no maliciosas entre servidores MCP.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.27819",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes"
-          ],
-          "what_changed": "Propuesta de un benchmark para evaluar la propagación de credenciales entre servidores.",
-          "why_it_matters": "Ayuda a mitigar riesgos relacionados con la seguridad en flujos de información.",
-          "sector_impact": "Beneficia la seguridad en sistemas distribuidos."
-        },
-        {
-          "title": "Phronix: Paradigma de Aprendizaje Centrado en Capacidades",
-          "summary": "Introduce un nuevo paradigma para que los agentes adquieran y refinan capacidades reutilizables de sus propias ejecuciones.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.31789",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "aprendizaje",
-            "optimización"
-          ],
-          "what_changed": "Permite a los agentes automejorarse a partir de experiencias pasadas.",
-          "why_it_matters": "Significativa mejora en la eficiencia en la resolución de tareas a lo largo del tiempo.",
-          "sector_impact": "Optimiza procesos en ingeniería científica."
-        },
-        {
-          "title": "POSEIDON: Entornos de Entrenamiento para Agentes Científicos",
-          "summary": "Automatiza la generación de entornos de entrenamiento diversificados y verificables a partir de repositorios de código científico.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.32448",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "entrenamiento",
-            "agentes"
-          ],
-          "what_changed": "Creación del sistema Poseidon para generar entornos de entrenamiento masivos.",
-          "why_it_matters": "Facilita el descubrimiento científico automatizado mediante entornos de entrenamiento más accesibles.",
-          "sector_impact": "Amplía el alcance de la investigación científica a través de IA."
-        },
-        {
-          "title": "Reimaginando RAG para Sistemas Multi-Agente",
-          "summary": "Propone una capa de conocimiento que organiza antes de recuperar información en sistemas multi-agente.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.32851",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "organización",
-            "RAG"
-          ],
-          "what_changed": "Introducción de una nueva capa de conocimiento en entornos de trabajo con múltiples agentes.",
-          "why_it_matters": "Mejora la gestión del conocimiento en entornos complejos de software.",
-          "sector_impact": "Aumenta la efectividad en el ciclo de vida de desarrollo de software."
-        },
-        {
-          "title": "Tool-Calling LLM Agents y Errores en MCP",
-          "summary": "Evalúa la resiliencia de los agentes LLM ante fallas en herramientas utilizadas a través del Protocolo de Contexto de Modelo (MCP).",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.32555",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "MCP",
-            "resiliencia"
-          ],
-          "what_changed": "Identificación de que la escala no garantiza tolerancia a errores en herramientas usadas por agentes.",
-          "why_it_matters": "Impulsa la mejora de sistemas LLM en escenarios de fallos reales.",
-          "sector_impact": "Fortalece la fiabilidad de implementaciones de inteligencia artificial."
-        },
-        {
-          "title": "DeepSafe-SciHazard: Medición de Riesgos de Seguridad Científica",
-          "summary": "Benchmark que evalúa los riesgos de seguridad científica a través de scoring de daño descompuesto.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.18665",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "evaluación"
-          ],
-          "what_changed": "Establece un marco para evaluar el daño potencial de modelos en contextos científicos.",
-          "why_it_matters": "Mejora la seguridad y confiabilidad en el uso de modelos de IA en ciencias.",
-          "sector_impact": "Protege contra mal uso en aplicaciones científicas."
         }
       ]
     }
