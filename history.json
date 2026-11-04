@@ -1,6 +1,147 @@
 {
   "days": [
     {
+      "date": "2026-11-04",
+      "executive_title": "Radar diario de IA",
+      "items": [
+        {
+          "title": "Anthropic trabaja en FlashProve para validar modelos de IA",
+          "summary": "Un sistema que permite verificar que una respuesta de IA proviene realmente del modelo que dice ser.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "validación",
+            "IA",
+            "modelos"
+          ],
+          "what_changed": "Introducción de FlashProve como nueva herramienta.",
+          "why_it_matters": "Proporciona confianza en la identificación de respuestas generadas por IA.",
+          "sector_impact": "Aumenta la transparencia en el uso de modelos de IA."
+        },
+        {
+          "title": "Y Combinator adopta agentes de IA a gran escala",
+          "summary": "Garry Tan gasta hasta $200K al año en tokens para interactuar con agentes de IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "gastos",
+            "interacción"
+          ],
+          "what_changed": "Reconocimiento del uso intensivo de agentes de IA.",
+          "why_it_matters": "Demuestra la creciente dependencia de la IA en el negocio.",
+          "sector_impact": "Impulsa la inversión en herramientas y plataformas de IA."
+        },
+        {
+          "title": "Apple inicia beta de características de IA en Apple Watch",
+          "summary": "Nuevas funciones de Audio Intelligence permiten recordar y tomar notas de conversaciones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recaps/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Apple Watch",
+            "IA",
+            "funcionalidades"
+          ],
+          "what_changed": "Lanzamiento de funciones de IA para ayudar en la comunicación.",
+          "why_it_matters": "Mejora la usabilidad y experiencia del usuario en wearables.",
+          "sector_impact": "Revoluciona la forma en que interactuamos con dispositivos portátiles."
+        },
+        {
+          "title": "Integración de modelos de Transformers en Hugging Face",
+          "summary": "Nuevos contratos de integración para modelos de Transformers.",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/transformers-mic",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Transformers",
+            "integraciones",
+            "modelos"
+          ],
+          "what_changed": "Mejoras en la interoperabilidad de modelos.",
+          "why_it_matters": "Facilita el uso de modelos avanzados en diferentes aplicaciones.",
+          "sector_impact": "Aumenta la adopción de IA en desarrollos software."
+        },
+        {
+          "title": "StateBench: Evaluación de modelos de lenguaje",
+          "summary": "Prueba cómo los modelos de lenguaje manejan cambios de estado en documentos largos.",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/allenai/statebench",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "modelos de lenguaje"
+          ],
+          "what_changed": "Introducción de un nuevo marco para evaluar modelos.",
+          "why_it_matters": "Mejor análisis del rendimiento de modelos complejos.",
+          "sector_impact": "Refina la forma en que se desarrollan y emplean modelos de IA."
+        },
+        {
+          "title": "Dharma Field Extractor: Conversión de documentos a JSON",
+          "summary": "Herramienta que convierte cualquier documento en campos estructurados en JSON.",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "extracción",
+            "JSON",
+            "documentación"
+          ],
+          "what_changed": "Lanzamiento de una herramienta de extracción innovadora.",
+          "why_it_matters": "Facilita el manejo y análisis de datos no estructurados.",
+          "sector_impact": "Transforma el acceso y la utilización de datos en diversos campos."
+        },
+        {
+          "title": "Nuevas oportunidades en aplicaciones de IA de Apple",
+          "summary": "Apple busca aumentar sus ingresos mediante nuevas oportunidades en aplicaciones de IA.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "revenue",
+            "IA",
+            "apple"
+          ],
+          "what_changed": "Exploración de nuevas avenidas de ingresos.",
+          "why_it_matters": "Indica un enfoque proactivo de Apple hacia el futuro de la IA.",
+          "sector_impact": "Puede influir en el desarrollo de aplicaciones de IA en el ecosistema de Apple."
+        },
+        {
+          "title": "Apple presenta Siri Recaps, funciones innovadoras de IA",
+          "summary": "Las nuevas funciones de Siri demuestran ser útiles, aunque con preocupaciones sobre la privacidad.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Siri",
+            "IA",
+            "funciones"
+          ],
+          "what_changed": "Introducción de características que mejoran la experiencia del usuario.",
+          "why_it_matters": "Resalta el potencial de IA para personalizar experiencias.",
+          "sector_impact": "Aumenta la competencia en asistentes virtuales."
+        }
+      ]
+    },
+    {
       "date": "2026-11-03",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -733,140 +874,6 @@
           "what_changed": "Reanimación de teorías de programación de programas antiguos.",
           "why_it_matters": "Proporciona insights sobre la evolución de herramientas de programación.",
           "sector_impact": "Impacto en la comprensión de la programación automática."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "GraphDancer: Entrenamiento de LLMs para Explorar y Razonar sobre Grafos",
-          "summary": "GraphDancer enseña a los LLMs a navegar por grafos usando un enfoque de aprendizaje por refuerzo. Mejora las capacidades de razonamiento en dominios no vistos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.02518",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Longitud de contexto",
-            "Navegación de grafos"
-          ],
-          "what_changed": "Introducción de un enfoque curriculado para el entrenamiento de capacidades de navegación.",
-          "why_it_matters": "Aumenta la precisión en la recuperación de información compleja a partir de grafos.",
-          "sector_impact": "Aplicaciones potenciales en bases de datos y sistemas de información."
-        },
-        {
-          "title": "Terminus-4B: Un Modelo Más Pequeño para Tareas de Ejecución Agente",
-          "summary": "Terminus-4B utiliza un modelo pequeño optimizado para ejecutar tareas especiales en sistemas de agentes, logrando buena eficiencia sin sacrificar el rendimiento.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2605.03195",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Ejecución",
-            "Optimización"
-          ],
-          "what_changed": "Reducción del uso de tokens en comparación con modelos más grandes.",
-          "why_it_matters": "Mejora esencial en la eficiencia de recursos en tareas de ejecución.",
-          "sector_impact": "Beneficioso para aplicaciones en desarrollo de software y automación."
-        },
-        {
-          "title": "RoboGene: Generación de Tareas Agentes Basadas en Diversidad",
-          "summary": "RoboGene es un marco para la creación de tareas de manipulación robótica que mejora la diversidad y eficiencia en la recolección de datos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.16444",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Robótica",
-            "Generación de tareas"
-          ],
-          "what_changed": "Introducción de un enfoque de muestreo impulsado por la diversidad.",
-          "why_it_matters": "Facilita la recolección de datos útiles para entrenar modelos robóticos.",
-          "sector_impact": "Impacto significativo en investigación y desarrollo en robótica."
-        },
-        {
-          "title": "CACHELINT: Detección de Errores en Integración de Caching en LLMs",
-          "summary": "CACHELINT proporciona un modo de detectar errores en el caching de prompts para integrar adecuadamente los LLMs en aplicaciones.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.34817",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Integración",
-            "Optimización"
-          ],
-          "what_changed": "Desarrollo de una herramienta para identificar -y corregir- errores de integración silenciosos.",
-          "why_it_matters": "Ayuda a mejorar la eficiencia y rendimiento de las aplicaciones que utilizan LLMs.",
-          "sector_impact": "Efecto positivo en la operativa de sistemas que dependen de modelos de lenguaje."
-        },
-        {
-          "title": "AIPC: Flujos de Trabajo Basados en Evidencias para Despliegue de Proyectos PyTorch",
-          "summary": "AIPC organiza y optimiza el proceso de despliegue de proyectos de inferencia PyTorch utilizando métodos de agentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.34890",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Despliegue",
-            "Optimización"
-          ],
-          "what_changed": "Unificación de múltiples procesos en un flujo de trabajo eficiente y adaptativo.",
-          "why_it_matters": "Mejora la efectividad del trabajo en proyectos de inteligencia artificial.",
-          "sector_impact": "Impacto significativo en el desarrollo de software y sistemas de IA en tiempo real."
-        },
-        {
-          "title": "InferPriv: Evaluación de Filtraciones de Privacidad Inferencial en Asistentes LLM",
-          "summary": "InferPriv evalúa el riesgo de filtraciones de privacidad en modelos LLM que manejan información sensible de usuarios.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.34640",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Privacidad",
-            "Evaluación"
-          ],
-          "what_changed": "Introducción de un nuevo marco para detectar filtraciones inferenciales.",
-          "why_it_matters": "Aborda preocupaciones críticas sobre la privacidad en sistemas LLM.",
-          "sector_impact": "Esencial para la industria de la privacidad de datos y tecnologías de información."
-        },
-        {
-          "title": "Silent and Costly: Detección de Problemas de Integración en Agentes LLM",
-          "summary": "Estudio sobre errores silentes en la integración de servicios de caching en modelos de lenguaje.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.34817",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Integración",
-            "Eficiencia"
-          ],
-          "what_changed": "Detección y análisis de problemas en la integración de servicios.",
-          "why_it_matters": "Mejora la calidad del despliegue de modelos en sistemas operativos.",
-          "sector_impact": "Importante para el desarrollo eficiente de software basado en LLMs."
-        },
-        {
-          "title": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
-          "summary": "SecPRBench evalúa la efectividad de revisiones de código automatizadas centradas en encontrar vulnerabilidades.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.33509",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Seguridad",
-            "Revisión de código"
-          ],
-          "what_changed": "Implementación de una nueva evaluación para la revisión de código automatizada.",
-          "why_it_matters": "Contribuye significativamente a la seguridad de software y desarrollo ágil.",
-          "sector_impact": "Impacto en la seguridad del software en diversas industrias."
         }
       ]
     }

@@ -1,127 +1,143 @@
 {
-  "date": "2026-11-03",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Descubre las últimas innovaciones y desarrollos en el mundo de la inteligencia artificial, priorizando herramientas, modelos y frameworks que transforman el paisaje de la tecnología.",
-  "opening_message": "Las nuevas herramientas y modelos de IA están cambiando la forma en que interactuamos con la tecnología. Aquí están las actualizaciones más relevantes del día.",
+  "date": "2026-11-04",
+  "executive_title": "Radar diario de IA",
+  "intro_message": "Bienvenido al radar diario de IA, donde recopilamos las últimas novedades del sector enfocándonos en herramientas, modelos e integraciones relevantes.",
+  "opening_message": "Aquí están las actualizaciones más importantes de hoy:",
   "items": [
     {
-      "title": "DeFT-RAG: Un marco RAG para preguntas de múltiples saltos",
-      "summary": "DeFT-RAG mejora la generación aumentada por recuperación (RAG) al descomponer preguntas en subtareas auto-contenidas.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.37826",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "RAG",
-        "LLM",
-        "IA"
-      ],
-      "what_changed": "Introducción de un enfoque innovador para manejar preguntas complejas.",
-      "why_it_matters": "Optimiza la recuperación de información en modelos de lenguaje, mejorando la precisión y eficiencia.",
-      "sector_impact": "Mejora en aplicaciones de IA donde se requieren respuestas precisas a preguntas complejas."
-    },
-    {
-      "title": "RECAST: Reconstrucción de cadena de pensamiento",
-      "summary": "RECAST permite la reconstrucción de razonamientos intermedios en modelos cerrados como Claude y GPT.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.41813",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "modelo",
-        "razonamiento",
-        "IA"
-      ],
-      "what_changed": "Primera herramienta de su tipo para reconstruir cadenas de pensamiento desde modelos de caja negra.",
-      "why_it_matters": "Facilita la transparencia en el razonamiento de los modelos de IA, crucial para auditorías y mejoras.",
-      "sector_impact": "Impulsa la confianza en sistemas de IA al hacer más comprensibles sus inferencias."
-    },
-    {
-      "title": "Benchmarking Agents de Pronóstico",
-      "summary": "FABench es un entorno de backtesting escalable que pone a prueba a los agentes de pronóstico en múltiples dominios.",
+      "title": "Anthropic trabaja en FlashProve para validar modelos de IA",
+      "summary": "Un sistema que permite verificar que una respuesta de IA proviene realmente del modelo que dice ser.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.40940",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "validación",
+        "IA",
+        "modelos"
+      ],
+      "what_changed": "Introducción de FlashProve como nueva herramienta.",
+      "why_it_matters": "Proporciona confianza en la identificación de respuestas generadas por IA.",
+      "sector_impact": "Aumenta la transparencia en el uso de modelos de IA."
+    },
+    {
+      "title": "Y Combinator adopta agentes de IA a gran escala",
+      "summary": "Garry Tan gasta hasta $200K al año en tokens para interactuar con agentes de IA.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "benchmarking",
         "agentes",
-        "IA"
+        "gastos",
+        "interacción"
       ],
-      "what_changed": "Introducción de un sistema que permite evaluar agentes en datos históricos.",
-      "why_it_matters": "Aumenta la precisión de los modelos de pronóstico mediante el acceso a datos en tiempo real.",
-      "sector_impact": "Transforma la manera en que se verifica y valida el rendimiento de los modelos de IA en previsiones."
+      "what_changed": "Reconocimiento del uso intensivo de agentes de IA.",
+      "why_it_matters": "Demuestra la creciente dependencia de la IA en el negocio.",
+      "sector_impact": "Impulsa la inversión en herramientas y plataformas de IA."
     },
     {
-      "title": "Lanzamiento de ROSTrans para migración de ROS",
-      "summary": "ROSTrans proporciona un marco de evaluación para la migración de ROS1 a ROS2, abordando desafíos únicos en desarrollo robótico.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.41168",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "robotica",
-        "migracion",
-        "IA"
-      ],
-      "what_changed": "Desarrollo de un conjunto de pruebas para evaluar la migración de código en robótica.",
-      "why_it_matters": "Mejora la capacidad de los modelos para gestionar etapas complejas en el desarrollo de software robótico.",
-      "sector_impact": "Impulsa la adopción de nuevas tecnologías en robótica, mejorando la interoperabilidad de sistemas."
-    },
-    {
-      "title": "SoK: Arquitecturas y direcciones de investigación en RAG",
-      "summary": "Este trabajo proporciona una taxonomía de sistemas RAG autónomos, identificando limitaciones y riesgos inherentes.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2603.07379",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "IA",
-        "RAG",
-        "investigacion"
-      ],
-      "what_changed": "Formalización de bucles de RAG como procesos de decisión.",
-      "why_it_matters": "Ofrece un marco unificado para entender y mejorar los sistemas RAG.",
-      "sector_impact": "Permite avanzar en la investigación y desarrollo de sistemas autónomos más confiables."
-    },
-    {
-      "title": "Context as Infrastructure: Compilación de conocimiento",
-      "summary": "Se propone un sistema de compilación de conocimiento para mejorar la generación aumentada por recuperación en sistemas de agentes.",
+      "title": "Apple inicia beta de características de IA en Apple Watch",
+      "summary": "Nuevas funciones de Audio Intelligence permiten recordar y tomar notas de conversaciones.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.41172",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recaps/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
+        "Apple Watch",
         "IA",
-        "RAG",
-        "conocimiento"
+        "funcionalidades"
       ],
-      "what_changed": "Introducción de un sistema de ingesta configurable para mejorar la precisión de la recuperación.",
-      "why_it_matters": "Mejora la calidad y relevancia de los datos presentados a los modelos.",
-      "sector_impact": "Aumenta la eficiencia en la búsqueda y recuperación de información."
+      "what_changed": "Lanzamiento de funciones de IA para ayudar en la comunicación.",
+      "why_it_matters": "Mejora la usabilidad y experiencia del usuario en wearables.",
+      "sector_impact": "Revoluciona la forma en que interactuamos con dispositivos portátiles."
     },
     {
-      "title": "Ax-Prover: Un marco de razonamiento profundo para la prueba de teoremas",
-      "summary": "Ax-Prover es un sistema multi-agente para la prueba de teoremas en matemáticas y física cuántica.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2510.12787",
-      "relevance_score": 7,
+      "title": "Integración de modelos de Transformers en Hugging Face",
+      "summary": "Nuevos contratos de integración para modelos de Transformers.",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/transformers-mic",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "teoremas",
-        "matematicas",
-        "IA"
+        "Transformers",
+        "integraciones",
+        "modelos"
       ],
-      "what_changed": "Desarrollo de un enfoque multi-agente para resolver problemas complejos en matemáticas.",
-      "why_it_matters": "Aumenta la capacidad de los modelos para operar en dominios científicamente rigurosos.",
-      "sector_impact": "Contribuye al avance de la investigación matemática y de la física a través de la automatización."
+      "what_changed": "Mejoras en la interoperabilidad de modelos.",
+      "why_it_matters": "Facilita el uso de modelos avanzados en diferentes aplicaciones.",
+      "sector_impact": "Aumenta la adopción de IA en desarrollos software."
+    },
+    {
+      "title": "StateBench: Evaluación de modelos de lenguaje",
+      "summary": "Prueba cómo los modelos de lenguaje manejan cambios de estado en documentos largos.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/statebench",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "evaluación",
+        "modelos de lenguaje"
+      ],
+      "what_changed": "Introducción de un nuevo marco para evaluar modelos.",
+      "why_it_matters": "Mejor análisis del rendimiento de modelos complejos.",
+      "sector_impact": "Refina la forma en que se desarrollan y emplean modelos de IA."
+    },
+    {
+      "title": "Dharma Field Extractor: Conversión de documentos a JSON",
+      "summary": "Herramienta que convierte cualquier documento en campos estructurados en JSON.",
+      "category": "tool",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "extracción",
+        "JSON",
+        "documentación"
+      ],
+      "what_changed": "Lanzamiento de una herramienta de extracción innovadora.",
+      "why_it_matters": "Facilita el manejo y análisis de datos no estructurados.",
+      "sector_impact": "Transforma el acceso y la utilización de datos en diversos campos."
+    },
+    {
+      "title": "Nuevas oportunidades en aplicaciones de IA de Apple",
+      "summary": "Apple busca aumentar sus ingresos mediante nuevas oportunidades en aplicaciones de IA.",
+      "category": "framework",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "revenue",
+        "IA",
+        "apple"
+      ],
+      "what_changed": "Exploración de nuevas avenidas de ingresos.",
+      "why_it_matters": "Indica un enfoque proactivo de Apple hacia el futuro de la IA.",
+      "sector_impact": "Puede influir en el desarrollo de aplicaciones de IA en el ecosistema de Apple."
+    },
+    {
+      "title": "Apple presenta Siri Recaps, funciones innovadoras de IA",
+      "summary": "Las nuevas funciones de Siri demuestran ser útiles, aunque con preocupaciones sobre la privacidad.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "Siri",
+        "IA",
+        "funciones"
+      ],
+      "what_changed": "Introducción de características que mejoran la experiencia del usuario.",
+      "why_it_matters": "Resalta el potencial de IA para personalizar experiencias.",
+      "sector_impact": "Aumenta la competencia en asistentes virtuales."
     }
   ]
 }
