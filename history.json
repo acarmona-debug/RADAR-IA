@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-11-06",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup",
+          "summary": "Un enfoque híbrido de apilamiento AI que reduce costos ineficaces en el desarrollo de software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.08116",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "AI",
+            "startups",
+            "self-hosted"
+          ],
+          "what_changed": "Uso de un enfoque híbrido para manejar tareas complejas y simples.",
+          "why_it_matters": "Reduce significativamente los costos de uso de agent comerciales.",
+          "sector_impact": "Mejora la eficiencia en startups tecnológicas."
+        },
+        {
+          "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+          "summary": "Presenta primitivos nativos de agente para abordar tareas del mundo real con mayor eficacia.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.07461",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "AGI",
+            "primitives",
+            "agent"
+          ],
+          "what_changed": "Introducción de primitivos que permiten una aplicación contextual más efectiva.",
+          "why_it_matters": "Aumenta la tasa de éxito en tareas del mundo real.",
+          "sector_impact": "Impacto en frentes de desarrollo ágil y automatización."
+        },
+        {
+          "title": "EnvOpt: Automated Optimization for Agent Environments",
+          "summary": "Un método que optimiza ambientes estacionarios para mejorar el rendimiento de agentes LLM.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.07372",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "optimization",
+            "agent",
+            "automation"
+          ],
+          "what_changed": "Aparición de una nueva metodología para evaluar ambientes de trabajo.",
+          "why_it_matters": "Reducir costos operativos y aumentar la eficacia de los agentes.",
+          "sector_impact": "Transforma operaciones en entornos laborales complejos."
+        },
+        {
+          "title": "Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment",
+          "summary": "Analiza la eficacia del monitoreo de pensamiento encadenado en la detección de desalineaciones.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.07586",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "monitoring",
+            "safety",
+            "AI"
+          ],
+          "what_changed": "Establecimiento de un marco de pruebas para monitorear el proceso de pensamiento.",
+          "why_it_matters": "Refuerza las medidas de seguridad en sistemas autónomos.",
+          "sector_impact": "Mejora la confianza en la IA autónoma."
+        },
+        {
+          "title": "Leveraging ChatGPT's Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level",
+          "summary": "Uso de capacidades multimodales de ChatGPT para clasificar imágenes satelitales basado en niveles de pobreza.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2501.14546",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "multimodal",
+            "ChatGPT",
+            "vision"
+          ],
+          "what_changed": "Aplicación innovadora de modelos LLM a objetivos sociales.",
+          "why_it_matters": "Ofrece nuevas formas de investigar la pobreza social.",
+          "sector_impact": ""
+        },
+        {
+          "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs",
+          "summary": "Evalúa modelos LLM mediante gráficos de conocimiento para mejorar el razonamiento.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.08315",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "benchmarking",
+            "knowledge graphs",
+            "LLM"
+          ],
+          "what_changed": "Introducción de medidas para mitigar alucinaciones en modelos LLM.",
+          "why_it_matters": "Aumenta la fiabilidad en aplicaciones biomédicas.",
+          "sector_impact": "Optimiza investigación médica y cognitiva."
+        },
+        {
+          "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
+          "summary": "Estudia cómo los agentes LLM comparten información en entornos económicos.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.07667",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "multi-agent",
+            "information design",
+            "economics"
+          ],
+          "what_changed": "Formulación de políticas de divulgación de información en sistemas de LLM.",
+          "why_it_matters": "Optimiza la eficiencia en interacciones entre agentes.",
+          "sector_impact": "Transforma dinámicas económicas en entornos LLM."
+        }
+      ]
+    },
+    {
       "date": "2026-11-05",
       "executive_title": "Radar IA del día",
       "items": [
@@ -721,145 +846,6 @@
           "what_changed": "Introducción de un sistema de consultas por niveles para optimizar la recuperación de documentos.",
           "why_it_matters": "Facilita un acceso más eficiente a información valiosa en diversas industrias.",
           "sector_impact": "Aligera procesos en consultas legales y financieras."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-          "summary": "Una nueva plataforma para desarrolladores permitirá a las empresas integrar sus servicios en las experiencias de IA de Google, cambiando cómo los consumidores descubren y utilizan aplicaciones.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Gemini",
-            "IA"
-          ],
-          "what_changed": "Introducción de una plataforma de desarrollo ampliada.",
-          "why_it_matters": "Esto puede revolucionar la forma en que las aplicaciones son exploradas e integradas al ecosistema de Google.",
-          "sector_impact": "Transformación en la interacción del usuario con aplicaciones."
-        },
-        {
-          "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-          "summary": "Anthropic lanza herramientas que permiten a las empresas visualizar en qué están invirtiendo en IA, previo a su salida a bolsa.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Anthropic",
-            "herramientas",
-            "IA"
-          ],
-          "what_changed": "Nuevas herramientas para la gestión de gastos en IA.",
-          "why_it_matters": "Ayuda a las organizaciones a tomar decisiones informadas sobre sus inversiones en inteligencia artificial.",
-          "sector_impact": "Aumento en la transparencia y eficiencia en gastos de IA."
-        },
-        {
-          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-          "summary": "Dream utiliza modelos de IA para crear simulaciones de construcción basadas en estándares físicos reales y datos masivos sobre construcción.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "construcción",
-            "modelos AI"
-          ],
-          "what_changed": "Lanzamiento de un modelo de IA específico para la construcción.",
-          "why_it_matters": "Facilita procesos más eficientes y precisos en proyectos de construcción.",
-          "sector_impact": "Revoluciona la industria de la construcción mediante simulaciones avanzadas."
-        },
-        {
-          "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-          "summary": "Wabi se presenta como un 'agente personal' y alcanza una valoración de $1.25 mil millones tras una ronda de financiación.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Wabi",
-            "agentes",
-            "mini-apps"
-          ],
-          "what_changed": "Valoración alcanzada tras ronda de financiación significativa.",
-          "why_it_matters": "Valida el modelo de negocio de agentes de IA que crean aplicaciones miniatura.",
-          "sector_impact": "Impulsa el auge de agentes de IA en el desarrollo de apps."
-        },
-        {
-          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-          "summary": "Nvidia lanza un nuevo modelo de transcripción que soporta hasta 40 idiomas, ideal para reuniones y herramientas médicas.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Nvidia",
-            "transcripción",
-            "modelos AI"
-          ],
-          "what_changed": "Modelo de transcripción de voz que amplia el acceso a múltiples idiomas.",
-          "why_it_matters": "Permite la transcripción en escenarios diversos, aumentando la accesibilidad.",
-          "sector_impact": "Mejora la herramienta de transcripción en diversos sectores."
-        },
-        {
-          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-          "summary": "Mistral ofrece pesos para su modelo de IA que brinda control sobre defensas cibernéticas, superando modelos cerrados.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Mistral",
-            "ciberseguridad",
-            "modelos AI"
-          ],
-          "what_changed": "Liberación de pesos para un modelo de IA enfocado en ciberseguridad.",
-          "why_it_matters": "Ofrece a las empresas opciones más personalizables para su defensa cibernética.",
-          "sector_impact": "Reinventa la defensa cibernética mediante IA avanzada."
-        },
-        {
-          "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-          "summary": "Lanzamiento de modelos abiertos para reconocimiento de voz y decisiones en plataformas Apple.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/anydecisionmodel",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "modelos abiertos"
-          ],
-          "what_changed": "Nuevas incorporaciones para usuarios de Apple en IA de voz y decisiones.",
-          "why_it_matters": "Fomenta la innovación en la creación de aplicaciones centradas en la voz en ecosistemas Apple.",
-          "sector_impact": "Facilita herramientas avanzadas para desarrolladores en plataformas Apple."
-        },
-        {
-          "title": "Granite Switch 4.1.1 — Update models like you update software",
-          "summary": "Actualización del sistema Granite Switch para facilitar la actualización de modelos.",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "framework"
-          ],
-          "what_changed": "Mejora en la actualización de modelos AI.",
-          "why_it_matters": "Simplifica la administración de modelos dentro de herramientas de desarrollo.",
-          "sector_impact": "Optimiza flujos de trabajo para desarrolladores."
         }
       ]
     }

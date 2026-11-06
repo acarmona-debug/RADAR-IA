@@ -1,112 +1,127 @@
 {
-  "date": "2026-11-05",
-  "executive_title": "Radar IA del día",
-  "intro_message": "Resumen automático del ecosistema de IA.",
-  "opening_message": "Estas son las señales más relevantes detectadas hoy en herramientas, modelos y frameworks de IA.",
+  "date": "2026-11-06",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Actualizaciones clave sobre herramientas, modelos y características emergentes en IA.",
+  "opening_message": "Aquí tienes lo último y más relevante en IA, priorizando innovaciones y desarrollos técnicos.",
   "items": [
     {
-      "title": "When File Ingestion Misleads Language Models: Measuring and Mitigating Divergences in Office Documents",
-      "summary": "arXiv:2611.05806v1 Announce Type: cross Abstract: Office documents are now routinely uploaded to large language models (LLMs) for processing. However, an LLM does not always see what a human sees, because it typically reads the text that an extractor produces from the document's underlying Office Open XML (OOXML) files. Depending on the implementation, extractors differ in which OOXML parts they read and how they interpret them, so their output can differ from what Office applications display. For example, by slightly shifting the positions of text boxes on a slide, an adversary can swap the order in which the model reads them while the slide looks unchanged. We show that this extraction divergence is an attack surface for LLM applications. In this work, we first measure what an adversary can exploit by analyzing the widely used extractors that LLM applications rely on. By combining static source code analysis with dynamic analysis, we identify 19 OOXML channels where extractors read content a human cannot see and 12 where they drop content a human can. We also find that widely used extractors ignore display formatting and reading order, so even visible content reaches the model in a different form. Building on these findings, we construct five attacks that lead the model to interpret a document differently from a human reviewer, without injecting any instruction. We test the attacks on four major chat assistants (ChatGPT, Claude, Gemini, and Microsoft 365 Copilot) and four coding agents (Codex, Claude Code, Antigravity, and GitHub Copilot CLI), and every one of them is misled by at least one attack. Finally, we propose Prism, a lightweight defense that reconstructs the human view from the OOXML specification before passing the text to the model. Prism also generalizes to unseen attack payloads.",
-      "category": "labs",
+      "title": "Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup",
+      "summary": "Un enfoque híbrido de apilamiento AI que reduce costos ineficaces en el desarrollo de software.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.05806",
-      "relevance_score": 46,
+      "source_url": "https://arxiv.org/abs/2611.08116",
+      "relevance_score": 7,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "AI",
+        "startups",
+        "self-hosted"
+      ],
+      "what_changed": "Uso de un enfoque híbrido para manejar tareas complejas y simples.",
+      "why_it_matters": "Reduce significativamente los costos de uso de agent comerciales.",
+      "sector_impact": "Mejora la eficiencia en startups tecnológicas."
     },
     {
-      "title": "AutoBCI: Forecast-Guided Agentic Neural Architecture Discovery for EEG-Based Brain-Computer Interfaces",
-      "summary": "arXiv:2609.35456v2 Announce Type: replace Abstract: EEG-based brain-computer interfaces support a broad range of applications, yet designing decoding architectures that perform well across diverse tasks remains challenging. We introduce AutoBCI, an agentic framework in which a Designer Agent and a Forecaster Agent support the discovery and selection of EEG decoding architectures across tasks. The Designer Agent performs Pool-Guided Architecture Discovery (PGAD), generating and refining architectures through training and validation across multiple EEG tasks, such as emotion recognition, motor imagery, and sleep staging. The Forecaster Agent performs Performance Estimation from Early Knowledge (PEEK), using architecture code, the training protocol, and early learning curves to predict full-budget validation performance and select promising candidates for continued training. Across 14 EEG datasets spanning motor imagery, emotion recognition, and sleep staging, we evaluate AutoBCI with six LLMs, including Opus 5.5 and GPT 5.6 Sol, and compare the architectures selected by the search procedure against ten baselines: six conventional EEG models and four foundation models. The architecture discovered by AutoBCI with Claude Opus 5.5 achieves 64.16% average test balanced accuracy (bAcc), compared with 63.87% for REVE, the strongest baseline on this metric. Using ten observed epochs, PEEK reduces mean absolute error in predicting average validation bAcc from 2.20 to 1.36 percentage points, a 38.1% reduction relative to the best-observed-score baseline. Code is available at https://github.com/Jiang-Muyun/AutoBCI",
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "summary": "Presenta primitivos nativos de agente para abordar tareas del mundo real con mayor eficacia.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.35456",
-      "relevance_score": 32,
+      "source_url": "https://arxiv.org/abs/2611.07461",
+      "relevance_score": 8,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "AGI",
+        "primitives",
+        "agent"
+      ],
+      "what_changed": "Introducción de primitivos que permiten una aplicación contextual más efectiva.",
+      "why_it_matters": "Aumenta la tasa de éxito en tareas del mundo real.",
+      "sector_impact": "Impacto en frentes de desarrollo ágil y automatización."
     },
     {
-      "title": "Trustworthy RAG: An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Generative AI Systems",
-      "summary": "arXiv:2608.21095v2 Announce Type: replace-cross Abstract: Retrieval-Augmented Generation (RAG) grounds Large Language Model (LLM) outputs in external knowledge, but RAG systems usually trust whatever they retrieve, creating a Security-Reliability Gap: high semantic relevance does not guarantee factual truth. Adversaries exploit this through knowledge poisoning, inserting malicious documents to cause targeted misinformation. We propose an Evaluation Agent, middleware that combines Natural Language Inference (NLI) factual verification, a five-signal poison detector with relevance-weighted aggregation, and a Trust Index T = 0.4 F + 0.35 C + 0.25 (1 - P ) with a non-linear dampener for high-contamination contexts. On TruthfulQA with Llama 3.3 70B, the agent reaches 91% accuracy and 100% precision, with 100% recall on instruction injection, while in-place edits, such as entity swaps, remain hard to detect. Across three LLMs the Trust Index stays discriminative, with a Receiver Operating Characteristic Area Under the Curve (ROC-AUC) of 0.73 to 0.81; generation style matters more than model size, and per-LLM threshold calibration restores baseline competitive accuracy, whereas a weaker FEVER result shows that cross-dataset generalization requires domain-specific calibration. In a software-engineering use case, a secure-coding assistant over guidance from the Open Worldwide Application Security Project (OWASP) Top 10 and the Common Weakness Enumeration (CWE), the agent reliably blocks instruction injection of unsafe advice (F1 92%), while contradiction and subtle semantic weakening remain hard. Throughout, the agent measures detection of poisoned context before generation, not whether the LLM adopts the injected misinformation. We release the proposed approach, attack generator, and experimental artifacts at the link: https://github.com/GPT-Laboratory/TrustworthyRAG.",
+      "title": "EnvOpt: Automated Optimization for Agent Environments",
+      "summary": "Un método que optimiza ambientes estacionarios para mejorar el rendimiento de agentes LLM.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.07372",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "optimization",
+        "agent",
+        "automation"
+      ],
+      "what_changed": "Aparición de una nueva metodología para evaluar ambientes de trabajo.",
+      "why_it_matters": "Reducir costos operativos y aumentar la eficacia de los agentes.",
+      "sector_impact": "Transforma operaciones en entornos laborales complejos."
+    },
+    {
+      "title": "Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment",
+      "summary": "Analiza la eficacia del monitoreo de pensamiento encadenado en la detección de desalineaciones.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2608.21095",
-      "relevance_score": 29,
+      "source_url": "https://arxiv.org/abs/2611.07586",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "monitoring",
+        "safety",
+        "AI"
+      ],
+      "what_changed": "Establecimiento de un marco de pruebas para monitorear el proceso de pensamiento.",
+      "why_it_matters": "Refuerza las medidas de seguridad en sistemas autónomos.",
+      "sector_impact": "Mejora la confianza en la IA autónoma."
     },
     {
-      "title": "Iterated creation, grading, and revision of data science projects by language models",
-      "summary": "arXiv:2611.05548v1 Announce Type: new Abstract: We evaluate the extent to which agentic AI models can complete an end-to-end data science project, and how this improves with feedback. A 'writer' model with specific tools creates a complete data science project including downloading, cleaning, and analyzing a dataset, and writing a short paper about it. The project is executed and a 'grader' model evaluates it. The writer can then revise its submission, and this repeats for a total of three rounds. We consider seven models from five developers: Anthropic, OpenAI, Google, DeepSeek, and Z.AI. Each model is both a writer and a grader, so there are 49 writer-grader pairs and we run each pair three times. Of the 147 initial submissions, 107 run and render, and the average score increases from 59 per cent to 76 per cent after the final round of feedback. By writer the extent of the increase ranges from 3 percentage points for Anthropic's Opus 5.5 to 46 percentage points for Anthropic's Haiku 4.5, and by grader it ranges from 13 percentage points for Google's Gemini 3.8 Flash to 32 percentage points for Anthropic's Haiku 4.5. When a model grades its own writing the score tends to be about 9 percentage points higher than the average of what the other models give it. About half of the difference that we see from round to round is within the grader's own noise. Feedback generally results in the highest marks, but even just having the chance to revise, or having the additional budget, in terms of time or tool calls, without any feedback, results in considerable increases for some of the models but not for others. We find that how much such a loop helps depends on which model plays which role, but weaker models generally do not improve stronger models.",
-      "category": "labs",
+      "title": "Leveraging ChatGPT's Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level",
+      "summary": "Uso de capacidades multimodales de ChatGPT para clasificar imágenes satelitales basado en niveles de pobreza.",
+      "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.05548",
-      "relevance_score": 28,
+      "source_url": "https://arxiv.org/abs/2501.14546",
+      "relevance_score": 6,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "multimodal",
+        "ChatGPT",
+        "vision"
+      ],
+      "what_changed": "Aplicación innovadora de modelos LLM a objetivos sociales.",
+      "why_it_matters": "Ofrece nuevas formas de investigar la pobreza social.",
+      "sector_impact": ""
     },
     {
-      "title": "Smartphone-Aided VR Exergames for HIIT: Gamifying Fitness with Real-Time Pose Estimation",
-      "summary": "arXiv:2611.06734v1 Announce Type: cross Abstract: This paper introduces an innovative virtual reality (VR) exergame system designed to gamify High-Intensity Interval Training (HIIT) workouts through 11 predefined combo moves, including squat-punch combinations, bilateral arm strikes, and diagonal stretch combos. Unlike conventional tracking methods that often rely on wearable motion capture suits or limited headset-based sensors, our system uses a standard smartphone camera placed on a tripod to capture full-body movement. This approach offers a cost-effective and scalable alternative, particularly well-suited to the fast, dynamic motions typical of HIIT routines. The smartphone footage is processed in real time using a pose estimation algorithm, with extracted biomechanical data analyzed by a backend server built on the Model Context Protocol (MCP), Anthropic's open standard for connecting AI models to structured data sources and tools, and a GPT-4o large language model. The system generates personalized assessments of form accuracy, movement efficiency, exercise intensity, and potential injury risks, tailored specifically to high-impact, time-sensitive exercises. A within-subject study involving 20 participants (ages 18-25) compared experiences in VR and Non-VR HIIT sessions. Results indicated significantly higher enjoyment (Mean = 3.5 vs 2.8, p = 0.02), improved immersion/focus (Mean = 3.2 vs 2.8, p = 0.03), and increased likelihood to recommend (Mean = 3.2 vs 2.7, p = 0.04) under the VR condition. Confidence to continue did not differ significantly between conditions (p = 0.15), while perceived intensity remained comparable. The MCP system showed strong agreement with expert evaluation (87.5%, N = 10 sessions, one certified trainer), supporting its reliability as a feedback tool.",
-      "category": "labs",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.06734",
-      "relevance_score": 27,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-      "summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures while the model choosing the next action does not. We call this gap operational blindness. We introduce Agent Harness Awareness, a trust-separated design in which the host supplies a small, fresh, verified state snapshot before a consequential action while retaining measurement, enforcement, evaluation, and final dispatch authority. We test its tools-and-network instance with ToolRoute, a controlled isolation benchmark that holds the task and candidate semantics constant and varies the operational information available to the model. In a 216-decision ablation across GPT-5.6 Sol, Claude Sonnet 5, and Gemini 3.7 Flash, verified tool-health state reduced mean observable policy regret by 96.9% against a same-shape neutral control (4,252 ms to 131 ms) and raised single-dispatch completion from 69.4% to 95.8%. In a separate 27-decision end-to-end replication with live local TCP/HTTP execution, OpenTelemetry client spans, and Toxiproxy-injected faults, verified state reduced mean regret from 8,956 ms to 0 ms (zero excess observable operational cost) and completed the live action in 9/9 model-by-fault cases versus 5/9 for the neutral control. These studies establish the tools-and-network instance of Agent Harness Awareness: selected host telemetry materially improves pre-dispatch operational choice. Runtime state, hardware pressure, economics, retry-aware recovery, and heterogeneous selection remain open empirical extensions of the same architecture.",
+      "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs",
+      "summary": "Evalúa modelos LLM mediante gráficos de conocimiento para mejorar el razonamiento.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.05391",
-      "relevance_score": 26,
+      "source_url": "https://arxiv.org/abs/2611.08315",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "benchmarking",
+        "knowledge graphs",
+        "LLM"
+      ],
+      "what_changed": "Introducción de medidas para mitigar alucinaciones en modelos LLM.",
+      "why_it_matters": "Aumenta la fiabilidad en aplicaciones biomédicas.",
+      "sector_impact": "Optimiza investigación médica y cognitiva."
     },
     {
-      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
-      "summary": "arXiv:2611.05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting. We argue that a key limitation is that existing systems select experts and retrieve knowledge from the question alone, rather than from gaps that emerge during reasoning. We propose challenge-aware adaptive recruitment: an external CHALLENGER inspects the evolving reasoning trace and identifies specific factual or expertise gaps. These signals trigger targeted knowledge retrieval or mid-discussion specialist recruitment. On the MEDAGENTSBENCH hard subset (862 questions across nine biomedical datasets), upfront retrieval provides little benefit, while challenge-aware in-between retrieval performs better; on a multi-specialist backbone it improves accuracy on 8 of 9 datasets and adds 6 percentage points over Challenger Only. Ablations indicate benefits from both retrieval timing and gap-specific query signals, and a live web-search experiment shows that the timing advantage persists across retrieval backends. For specialist recruitment, self-triggered adaptation is unreliable, whereas Challenger-triggered recruitment raises GPT-4.1-mini MedQA accuracy from 46% to 54%, with positive direction on all tested generalization datasets. Naively combining retrieval and specialist recruitment degrades performance, highlighting the need to coordinate adaptive intervention channels. These results show that when and why external resources are recruited is a key design choice in multi-agent medical reasoning.",
-      "category": "labs",
+      "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
+      "summary": "Estudia cómo los agentes LLM comparten información en entornos económicos.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.05393",
-      "relevance_score": 26,
+      "source_url": "https://arxiv.org/abs/2611.07667",
+      "relevance_score": 5,
       "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
-    },
-    {
-      "title": "Computational Phenomenology of Borderline Personality Disorder: A Comparative Evaluation of LLM-Simulated Expert Personas and Human Clinical Experts",
-      "summary": "arXiv:2508.19008v4 Announce Type: replace Abstract: Building on a human-led thematic analysis of clinical life-story interviews (> 150,000 words) with inpatients with Borderline Personality Disorder, this study examines the capacity of large language models (OpenAI's GPT, Google's Gemini, and Anthropic's Claude) to support qualitative clinical analysis. The models' interpretative potential was evaluated using a mixed-methods approach. Study A involved blinded and non-blinded judges in phenomenology and clinical psychology. The experts assessed the validity of AI-generated content using semantic congruence, Jaccard coefficients, and multidimensional validity ratings, including credibility, coherence, the substantiveness of results, and grounding in qualitative data. In Study B, neural methods were used to embed human- and model-generated theme descriptions in a multidimensional vector space. This approach provided an objectified computational measure of the difference between human and model semantics and linguistic style. In Study C, complementary non-expert evaluations were conducted (N=115) to examine the influence of thematic verbosity on the perception of human authorship and content validity. Overall, the results of AI analysis showed a highly variable overlap (0-58%) with the human interpretation, while all models identified themes originally omitted by human researchers, proving their capacity to mitigate human bias. At the thematic level, external evaluators were unable to reliably distinguish human-authored themes from those generated by AI. In terms of content validity assessed against raw data by high-level experts in the blinded mode, the performance of Gemini 2.5 Pro was indistinguishable from that of humans. The comparison of semantic vector embeddings showed that its style was also the closest to humans.",
-      "category": "labs",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2508.19008",
-      "relevance_score": 26,
-      "status": "new",
-      "tags": [],
-      "what_changed": "Nueva señal detectada.",
-      "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
-      "sector_impact": "Relevante para el ecosistema de IA aplicada."
+      "tags": [
+        "multi-agent",
+        "information design",
+        "economics"
+      ],
+      "what_changed": "Formulación de políticas de divulgación de información en sistemas de LLM.",
+      "why_it_matters": "Optimiza la eficiencia en interacciones entre agentes.",
+      "sector_impact": "Transforma dinámicas económicas en entornos LLM."
     }
   ]
 }
