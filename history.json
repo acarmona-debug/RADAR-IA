@@ -1,6 +1,149 @@
 {
   "days": [
     {
+      "date": "2026-11-08",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "summary": "Gemini Omni 1.2 Flash trae generación y edición de video nativo de 15 segundos, mayor consistencia y precios un 30% más bajos.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "video",
+            "edición"
+          ],
+          "what_changed": "Mejoras en la generación y edición de video.",
+          "why_it_matters": "Permite a los desarrolladores crear contenido más eficiente y accesible.",
+          "sector_impact": "Transforma el contenido digital y el marketing."
+        },
+        {
+          "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+          "summary": "Spaces promete ser una nueva forma de interactuar con los agentes IA de Meta.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "colaboración",
+            "agentes"
+          ],
+          "what_changed": "Introducción de nuevas funciones para colaboración.",
+          "why_it_matters": "Revoluciona cómo los usuarios interactúan con agentes de IA.",
+          "sector_impact": "Aumenta la eficiencia en el trabajo colaborativo."
+        },
+        {
+          "title": "Claude can now analyze your spending with its new Personal Finance tool",
+          "summary": "Con Personal Finance, los usuarios pueden conectar sus cuentas bancarias y hacer preguntas sobre sus finanzas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "finanzas",
+            "herramienta"
+          ],
+          "what_changed": "Se añaden funciones de análisis financiero.",
+          "why_it_matters": "Facilita la gestión financiera personal.",
+          "sector_impact": "Impulsa el uso de IA en el ámbito financiero."
+        },
+        {
+          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+          "summary": "El agente de IA ayudará a los viajeros a planificar viajes, comparar opciones y gestionar reservas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Airbnb",
+            "agente de viaje",
+            "IA"
+          ],
+          "what_changed": "Lanzamiento de un agente de IA para asistencia en viajes.",
+          "why_it_matters": "Transforma la experiencia de planificación de viajes.",
+          "sector_impact": "Revoluciona la industria del turismo."
+        },
+        {
+          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+          "summary": "Se encontraron servidores que alojan la herramienta de pruebas de penetración Artex expuestos a internet.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "hacking",
+            "Artex"
+          ],
+          "what_changed": "Exposición pública de herramientas de hacking.",
+          "why_it_matters": "Plantea serias preocupaciones de seguridad.",
+          "sector_impact": "Impacta la seguridad cibernética global."
+        },
+        {
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "summary": "El nuevo modelo de ciberseguridad de OpenAI llega en un momento crítico para proteger la infraestructura digital.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "ciberseguridad",
+            "modelo"
+          ],
+          "what_changed": "Nuevo enfoque en la protección de infraestructura digital.",
+          "why_it_matters": "Es crucial para afrontar las crecientes amenazas cibernéticas.",
+          "sector_impact": "Fortalece la seguridad en el ámbito tecnológico."
+        },
+        {
+          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+          "summary": "Clutch, que está respaldado por Lightspeed y SignalFire, fue valorado en $85 millones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Palo Alto",
+            "Clutch",
+            "seguridad",
+            "IA"
+          ],
+          "what_changed": "Adquisición de una startup de seguridad en IA.",
+          "why_it_matters": "Refuerza la jugada de Palo Alto en el mercado de seguridad.",
+          "sector_impact": "Aumenta la competitividad en el sector de seguridad cibernética."
+        },
+        {
+          "title": "Underdog shows off a 32MB speech model in new demo",
+          "summary": "El nuevo modelo de Underdog puede generar tanto discurso como música a pesar de su tamaño compacto.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Underdog",
+            "modelo de voz",
+            "IA"
+          ],
+          "what_changed": "Demostración de un modelo de voz innovador.",
+          "why_it_matters": "Amplía las capacidades de producción de audio con IA.",
+          "sector_impact": "Transforma la creación de contenido multimedia."
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -727,125 +870,6 @@
           "what_changed": "Ajuste en las metas de financiamiento que podría afectar operaciones.",
           "why_it_matters": "Refleja la presión económica en el sector de IA.",
           "sector_impact": "Implicaciones para startups y financiamiento de nueva tecnología."
-        }
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
-          "summary": "Presenta un marco para evaluar cómo los agentes de LLM diseñan y validan algoritmos de descomposición, mostrando un alto potencial de éxito en la implementación automática.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.38175",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "automatización"
-          ],
-          "what_changed": "Introducción de un banco de pruebas para medir la efectividad de varios modelos.",
-          "why_it_matters": "Permite mejorar la implementación de algoritmos complejos de manera automatizada.",
-          "sector_impact": "Optimización de procesos en matemáticas aplicadas y algoritmos."
-        },
-        {
-          "title": "TreasuryQA Bench: Can AI Agents Work an Archive of Scanned Financial Records?",
-          "summary": "Un nuevo benchmark que evalúa la capacidad de los agentes de IA para buscar y analizar documentos financieros escaneados.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.38924",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "finanzas"
-          ],
-          "what_changed": "Desarrollo de un conjunto de preguntas que exige una búsqueda activa y lectura de documentos escaneados.",
-          "why_it_matters": "Relevante para restaurar y evaluar archivos financieros históricos.",
-          "sector_impact": "Mejora en la eficiencia de auditorías y trabajos contables."
-        },
-        {
-          "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
-          "summary": "Benchmark para evaluar modelos de agentes de IA en análisis de inversiones y calidad de investigación financiera.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.38342",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "finance",
-            "evaluación"
-          ],
-          "what_changed": "Creación de un marco exhaustivo para analizar el rendimiento de los agentes en finanzas.",
-          "why_it_matters": "Brinda un enfoque estructurado para entrenar y evaluar modelos en finanzas.",
-          "sector_impact": "Impulsa la calidad en decisiones de inversión."
-        },
-        {
-          "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
-          "summary": "Investigación sobre la vulnerabilidad de agentes de IA frente a ataques de inyección y cómo su ubicación afecta la seguridad.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.38867",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agentes"
-          ],
-          "what_changed": "Identificación de cómo la ubicación de inyecciones afecta la confianza en los agentes.",
-          "why_it_matters": "Proporciona información esencial para el diseño de defensas y ataques en IA.",
-          "sector_impact": "Mejora la seguridad de entornos de IA."
-        },
-        {
-          "title": "Rocks, Pebbles and Sand: Modality-aware Scheduling for Multimodal Large Language Model Inference",
-          "summary": "Presenta un marco para mejorar la programación de modelos de lenguaje multimodal, optimizando la utilización de recursos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.26498",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "modelos",
-            "eficiencia"
-          ],
-          "what_changed": "Implementación de una nueva arquitectura para la programación de tareas entre diferentes modalidades.",
-          "why_it_matters": "Optimiza el rendimiento y respuesta en aplicaciones multimodales.",
-          "sector_impact": "Aumenta la eficiencia en entornos que manejan múltiples tipos de datos."
-        },
-        {
-          "title": "Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors",
-          "summary": "Una nueva arena de evaluación que analiza cómo la calidad de las herramientas de pronóstico impacta el rendimiento de los agentes de LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.38292",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "negocios"
-          ],
-          "what_changed": "Ofrece un marco para medir y ajustar la calidad de herramientas utilizadas por agentes de LLM.",
-          "why_it_matters": "Mejora la precisión y efectividad en negociaciones automatizadas.",
-          "sector_impact": "Aumenta la inversión en herramientas de negociación LLM."
-        },
-        {
-          "title": "Adaptive Query Routing: A Tier-Based Framework for Hybrid Retrieval",
-          "summary": "Framework que mejora la recuperación híbrida de documentos financieros, legales y médicos a través de consultas adaptativas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2604.14222",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "recuperación",
-            "documentos"
-          ],
-          "what_changed": "Introducción de un sistema de consultas por niveles para optimizar la recuperación de documentos.",
-          "why_it_matters": "Facilita un acceso más eficiente a información valiosa en diversas industrias.",
-          "sector_impact": "Aligera procesos en consultas legales y financieras."
         }
       ]
     }

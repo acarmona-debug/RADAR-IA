@@ -1,127 +1,145 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-08",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre herramientas, modelos y características emergentes en IA.",
-  "opening_message": "Aquí tienes lo último y más relevante en IA, priorizando innovaciones y desarrollos técnicos.",
+  "intro_message": "Resumen de las últimas innovaciones en herramientas y modelos de inteligencia artificial.",
+  "opening_message": "Aquí están los desarrollos más relevantes en el campo de la IA para hoy.",
   "items": [
     {
-      "title": "Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup",
-      "summary": "Un enfoque híbrido de apilamiento AI que reduce costos ineficaces en el desarrollo de software.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.08116",
-      "relevance_score": 7,
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "Gemini Omni 1.2 Flash trae generación y edición de video nativo de 15 segundos, mayor consistencia y precios un 30% más bajos.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "relevance_score": 9,
       "status": "new",
       "tags": [
-        "AI",
-        "startups",
-        "self-hosted"
+        "Gemini",
+        "video",
+        "edición"
       ],
-      "what_changed": "Uso de un enfoque híbrido para manejar tareas complejas y simples.",
-      "why_it_matters": "Reduce significativamente los costos de uso de agent comerciales.",
-      "sector_impact": "Mejora la eficiencia en startups tecnológicas."
+      "what_changed": "Mejoras en la generación y edición de video.",
+      "why_it_matters": "Permite a los desarrolladores crear contenido más eficiente y accesible.",
+      "sector_impact": "Transforma el contenido digital y el marketing."
     },
     {
-      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-      "summary": "Presenta primitivos nativos de agente para abordar tareas del mundo real con mayor eficacia.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.07461",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "summary": "Spaces promete ser una nueva forma de interactuar con los agentes IA de Meta.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "AGI",
-        "primitives",
-        "agent"
+        "Meta",
+        "colaboración",
+        "agentes"
       ],
-      "what_changed": "Introducción de primitivos que permiten una aplicación contextual más efectiva.",
-      "why_it_matters": "Aumenta la tasa de éxito en tareas del mundo real.",
-      "sector_impact": "Impacto en frentes de desarrollo ágil y automatización."
+      "what_changed": "Introducción de nuevas funciones para colaboración.",
+      "why_it_matters": "Revoluciona cómo los usuarios interactúan con agentes de IA.",
+      "sector_impact": "Aumenta la eficiencia en el trabajo colaborativo."
     },
     {
-      "title": "EnvOpt: Automated Optimization for Agent Environments",
-      "summary": "Un método que optimiza ambientes estacionarios para mejorar el rendimiento de agentes LLM.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.07372",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "summary": "Con Personal Finance, los usuarios pueden conectar sus cuentas bancarias y hacer preguntas sobre sus finanzas.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "optimization",
-        "agent",
-        "automation"
+        "Claude",
+        "finanzas",
+        "herramienta"
       ],
-      "what_changed": "Aparición de una nueva metodología para evaluar ambientes de trabajo.",
-      "why_it_matters": "Reducir costos operativos y aumentar la eficacia de los agentes.",
-      "sector_impact": "Transforma operaciones en entornos laborales complejos."
+      "what_changed": "Se añaden funciones de análisis financiero.",
+      "why_it_matters": "Facilita la gestión financiera personal.",
+      "sector_impact": "Impulsa el uso de IA en el ámbito financiero."
     },
     {
-      "title": "Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment",
-      "summary": "Analiza la eficacia del monitoreo de pensamiento encadenado en la detección de desalineaciones.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.07586",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "monitoring",
-        "safety",
-        "AI"
-      ],
-      "what_changed": "Establecimiento de un marco de pruebas para monitorear el proceso de pensamiento.",
-      "why_it_matters": "Refuerza las medidas de seguridad en sistemas autónomos.",
-      "sector_impact": "Mejora la confianza en la IA autónoma."
-    },
-    {
-      "title": "Leveraging ChatGPT's Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level",
-      "summary": "Uso de capacidades multimodales de ChatGPT para clasificar imágenes satelitales basado en niveles de pobreza.",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "summary": "El agente de IA ayudará a los viajeros a planificar viajes, comparar opciones y gestionar reservas.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2501.14546",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Airbnb",
+        "agente de viaje",
+        "IA"
+      ],
+      "what_changed": "Lanzamiento de un agente de IA para asistencia en viajes.",
+      "why_it_matters": "Transforma la experiencia de planificación de viajes.",
+      "sector_impact": "Revoluciona la industria del turismo."
+    },
+    {
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "summary": "Se encontraron servidores que alojan la herramienta de pruebas de penetración Artex expuestos a internet.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "multimodal",
-        "ChatGPT",
-        "vision"
+        "seguridad",
+        "hacking",
+        "Artex"
       ],
-      "what_changed": "Aplicación innovadora de modelos LLM a objetivos sociales.",
-      "why_it_matters": "Ofrece nuevas formas de investigar la pobreza social.",
-      "sector_impact": ""
+      "what_changed": "Exposición pública de herramientas de hacking.",
+      "why_it_matters": "Plantea serias preocupaciones de seguridad.",
+      "sector_impact": "Impacta la seguridad cibernética global."
     },
     {
-      "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs",
-      "summary": "Evalúa modelos LLM mediante gráficos de conocimiento para mejorar el razonamiento.",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "summary": "El nuevo modelo de ciberseguridad de OpenAI llega en un momento crítico para proteger la infraestructura digital.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.08315",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "OpenAI",
+        "ciberseguridad",
+        "modelo"
+      ],
+      "what_changed": "Nuevo enfoque en la protección de infraestructura digital.",
+      "why_it_matters": "Es crucial para afrontar las crecientes amenazas cibernéticas.",
+      "sector_impact": "Fortalece la seguridad en el ámbito tecnológico."
+    },
+    {
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "summary": "Clutch, que está respaldado por Lightspeed y SignalFire, fue valorado en $85 millones.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "benchmarking",
-        "knowledge graphs",
-        "LLM"
+        "Palo Alto",
+        "Clutch",
+        "seguridad",
+        "IA"
       ],
-      "what_changed": "Introducción de medidas para mitigar alucinaciones en modelos LLM.",
-      "why_it_matters": "Aumenta la fiabilidad en aplicaciones biomédicas.",
-      "sector_impact": "Optimiza investigación médica y cognitiva."
+      "what_changed": "Adquisición de una startup de seguridad en IA.",
+      "why_it_matters": "Refuerza la jugada de Palo Alto en el mercado de seguridad.",
+      "sector_impact": "Aumenta la competitividad en el sector de seguridad cibernética."
     },
     {
-      "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
-      "summary": "Estudia cómo los agentes LLM comparten información en entornos económicos.",
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "summary": "El nuevo modelo de Underdog puede generar tanto discurso como música a pesar de su tamaño compacto.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.07667",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "multi-agent",
-        "information design",
-        "economics"
+        "Underdog",
+        "modelo de voz",
+        "IA"
       ],
-      "what_changed": "Formulación de políticas de divulgación de información en sistemas de LLM.",
-      "why_it_matters": "Optimiza la eficiencia en interacciones entre agentes.",
-      "sector_impact": "Transforma dinámicas económicas en entornos LLM."
+      "what_changed": "Demostración de un modelo de voz innovador.",
+      "why_it_matters": "Amplía las capacidades de producción de audio con IA.",
+      "sector_impact": "Transforma la creación de contenido multimedia."
     }
   ]
 }
