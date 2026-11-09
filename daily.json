@@ -1,145 +1,104 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones en herramientas y modelos de inteligencia artificial.",
-  "opening_message": "Aquí están los desarrollos más relevantes en el campo de la IA para hoy.",
+  "intro_message": "Últimas novedades en herramientas, modelos y frameworks de IA",
+  "opening_message": "Aquí te presentamos los desarrollos más relevantes en el ámbito de inteligencia artificial, enfocados en herramientas, modelos y automatización.",
   "items": [
     {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "summary": "Gemini Omni 1.2 Flash trae generación y edición de video nativo de 15 segundos, mayor consistencia y precios un 30% más bajos.",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "summary": "Anthropic presenta nuevos modelos con mejoras en programación, razonamiento y comunicación clara.",
       "category": "model",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "video",
-        "edición"
-      ],
-      "what_changed": "Mejoras en la generación y edición de video.",
-      "why_it_matters": "Permite a los desarrolladores crear contenido más eficiente y accesible.",
-      "sector_impact": "Transforma el contenido digital y el marketing."
-    },
-    {
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "summary": "Spaces promete ser una nueva forma de interactuar con los agentes IA de Meta.",
-      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "source_url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Meta",
-        "colaboración",
-        "agentes"
+        "model",
+        "Anthropic"
       ],
-      "what_changed": "Introducción de nuevas funciones para colaboración.",
-      "why_it_matters": "Revoluciona cómo los usuarios interactúan con agentes de IA.",
-      "sector_impact": "Aumenta la eficiencia en el trabajo colaborativo."
+      "what_changed": "Lanzamiento de dos nuevos modelos de IA.",
+      "why_it_matters": "Mejoras en la comunicación y capacidades técnicas son clave para aplicaciones prácticas.",
+      "sector_impact": "Impacto significativo en la eficiencia de tareas automatizadas."
     },
     {
-      "title": "Claude can now analyze your spending with its new Personal Finance tool",
-      "summary": "Con Personal Finance, los usuarios pueden conectar sus cuentas bancarias y hacer preguntas sobre sus finanzas.",
-      "category": "tool",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "summary": "Muse Ember ofrece un costo significativamente más bajo en comparación con competidores.",
+      "category": "model",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Claude",
-        "finanzas",
-        "herramienta"
+        "model",
+        "Meta"
       ],
-      "what_changed": "Se añaden funciones de análisis financiero.",
-      "why_it_matters": "Facilita la gestión financiera personal.",
-      "sector_impact": "Impulsa el uso de IA en el ámbito financiero."
+      "what_changed": "Lanzamiento de un modelo ligero y económico.",
+      "why_it_matters": "Facilita la accesibilidad para desarrolladores e implementaciones en servicios.",
+      "sector_impact": "Aumenta la competitividad entre modelos de IA."
     },
     {
-      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-      "summary": "El agente de IA ayudará a los viajeros a planificar viajes, comparar opciones y gestionar reservas.",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "summary": "Automattic lanza una plataforma para desarrollo de aplicaciones de vibe-coding.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Airbnb",
-        "agente de viaje",
-        "IA"
-      ],
-      "what_changed": "Lanzamiento de un agente de IA para asistencia en viajes.",
-      "why_it_matters": "Transforma la experiencia de planificación de viajes.",
-      "sector_impact": "Revoluciona la industria del turismo."
-    },
-    {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "summary": "Se encontraron servidores que alojan la herramienta de pruebas de penetración Artex expuestos a internet.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "source_url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "seguridad",
-        "hacking",
-        "Artex"
+        "tool",
+        "Automattic"
       ],
-      "what_changed": "Exposición pública de herramientas de hacking.",
-      "why_it_matters": "Plantea serias preocupaciones de seguridad.",
-      "sector_impact": "Impacta la seguridad cibernética global."
+      "what_changed": "Introducción de una nueva plataforma de desarrollo.",
+      "why_it_matters": "Competitividad en el mercado de aplicaciones de programación.",
+      "sector_impact": "Impulsa la innovación en la creación de aplicaciones."
     },
     {
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "summary": "El nuevo modelo de ciberseguridad de OpenAI llega en un momento crítico para proteger la infraestructura digital.",
-      "category": "model",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "summary": "OpenAI asegura financiación adicional en un momento crítico.",
+      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "OpenAI",
-        "ciberseguridad",
-        "modelo"
+        "funding",
+        "OpenAI"
       ],
-      "what_changed": "Nuevo enfoque en la protección de infraestructura digital.",
-      "why_it_matters": "Es crucial para afrontar las crecientes amenazas cibernéticas.",
-      "sector_impact": "Fortalece la seguridad en el ámbito tecnológico."
+      "what_changed": "Aumento significativo en la valoración y financiamiento.",
+      "why_it_matters": "Permite a OpenAI seguir innovando y desarrollando nuevas tecnologías.",
+      "sector_impact": "Refuerza el ecosistema de IA con nuevas capacidades."
     },
     {
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "summary": "Clutch, que está respaldado por Lightspeed y SignalFire, fue valorado en $85 millones.",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "summary": "Se observa una desaceleración en el gasto en IA mientras Anthropic se aproxima a su IPO.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "spending",
+        "Anthropic"
+      ],
+      "what_changed": "Análisis de la tendencia del gasto en IA.",
+      "why_it_matters": "Puede afectar la percepción del crecimiento futuro del mercado de IA.",
+      "sector_impact": "Desafíos para inversores y desarrolladores en el ecosistema."
+    },
+    {
+      "title": "Amazon now lets users text Alexa to help them shop",
+      "summary": "Amazon introduce una nueva funcionalidad para interacción con Alexa.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "source_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Palo Alto",
-        "Clutch",
-        "seguridad",
-        "IA"
+        "tool",
+        "Amazon"
       ],
-      "what_changed": "Adquisición de una startup de seguridad en IA.",
-      "why_it_matters": "Refuerza la jugada de Palo Alto en el mercado de seguridad.",
-      "sector_impact": "Aumenta la competitividad en el sector de seguridad cibernética."
-    },
-    {
-      "title": "Underdog shows off a 32MB speech model in new demo",
-      "summary": "El nuevo modelo de Underdog puede generar tanto discurso como música a pesar de su tamaño compacto.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Underdog",
-        "modelo de voz",
-        "IA"
-      ],
-      "what_changed": "Demostración de un modelo de voz innovador.",
-      "why_it_matters": "Amplía las capacidades de producción de audio con IA.",
-      "sector_impact": "Transforma la creación de contenido multimedia."
+      "what_changed": "Implementación de mensajería para mejorar la experiencia de compra.",
+      "why_it_matters": "Aumenta la conveniencia y eficiencia para los usuarios.",
+      "sector_impact": "Mejora la competitividad en el mercado de asistentes virtuales."
     }
   ]
 }

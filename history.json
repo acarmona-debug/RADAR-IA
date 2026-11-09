@@ -1,6 +1,108 @@
 {
   "days": [
     {
+      "date": "2026-11-09",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "summary": "Anthropic presenta nuevos modelos con mejoras en programación, razonamiento y comunicación clara.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "model",
+            "Anthropic"
+          ],
+          "what_changed": "Lanzamiento de dos nuevos modelos de IA.",
+          "why_it_matters": "Mejoras en la comunicación y capacidades técnicas son clave para aplicaciones prácticas.",
+          "sector_impact": "Impacto significativo en la eficiencia de tareas automatizadas."
+        },
+        {
+          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+          "summary": "Muse Ember ofrece un costo significativamente más bajo en comparación con competidores.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "model",
+            "Meta"
+          ],
+          "what_changed": "Lanzamiento de un modelo ligero y económico.",
+          "why_it_matters": "Facilita la accesibilidad para desarrolladores e implementaciones en servicios.",
+          "sector_impact": "Aumenta la competitividad entre modelos de IA."
+        },
+        {
+          "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+          "summary": "Automattic lanza una plataforma para desarrollo de aplicaciones de vibe-coding.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "tool",
+            "Automattic"
+          ],
+          "what_changed": "Introducción de una nueva plataforma de desarrollo.",
+          "why_it_matters": "Competitividad en el mercado de aplicaciones de programación.",
+          "sector_impact": "Impulsa la innovación en la creación de aplicaciones."
+        },
+        {
+          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+          "summary": "OpenAI asegura financiación adicional en un momento crítico.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "funding",
+            "OpenAI"
+          ],
+          "what_changed": "Aumento significativo en la valoración y financiamiento.",
+          "why_it_matters": "Permite a OpenAI seguir innovando y desarrollando nuevas tecnologías.",
+          "sector_impact": "Refuerza el ecosistema de IA con nuevas capacidades."
+        },
+        {
+          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+          "summary": "Se observa una desaceleración en el gasto en IA mientras Anthropic se aproxima a su IPO.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "spending",
+            "Anthropic"
+          ],
+          "what_changed": "Análisis de la tendencia del gasto en IA.",
+          "why_it_matters": "Puede afectar la percepción del crecimiento futuro del mercado de IA.",
+          "sector_impact": "Desafíos para inversores y desarrolladores en el ecosistema."
+        },
+        {
+          "title": "Amazon now lets users text Alexa to help them shop",
+          "summary": "Amazon introduce una nueva funcionalidad para interacción con Alexa.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "tool",
+            "Amazon"
+          ],
+          "what_changed": "Implementación de mensajería para mejorar la experiencia de compra.",
+          "why_it_matters": "Aumenta la conveniencia y eficiencia para los usuarios.",
+          "sector_impact": "Mejora la competitividad en el mercado de asistentes virtuales."
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -745,131 +847,6 @@
           "what_changed": "Actualizaciones significativas en IA.",
           "why_it_matters": "Refleja el compromiso continuo de Google con la innovación.",
           "sector_impact": "Afecta a diversas aplicaciones de IA en su ecosistema."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Google’s first data center satellite is online and writing poetry",
-          "summary": "El primer TPU en el espacio está corriendo un modelo de Google DeepMind Gemma 4 y escribiendo poesía.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Google",
-            "DeepMind",
-            "satellite"
-          ],
-          "what_changed": "Se ha lanzado el primer TPU en el espacio que ejecuta un modelo de IA.",
-          "why_it_matters": "Este desarrollo podría expandir las aplicaciones de IA en entornos inusuales y abiertos.",
-          "sector_impact": "Alta innovación en IA espacial y desarrollo de modelos."
-        },
-        {
-          "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-          "summary": "El nuevo conserje de IA de Zest puede encontrar restaurantes y realizar reservas a través de mensajes de texto.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "reservaciones",
-            "IA",
-            "Zest"
-          ],
-          "what_changed": "Introducción de un agente que mejora la experiencia de encontrar restaurantes.",
-          "why_it_matters": "Facilita la planificación social y mejora la experiencia del usuario.",
-          "sector_impact": "Impacto positivo en la industria de servicios y hospitalidad."
-        },
-        {
-          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-          "summary": "DoorDash está abierto a trabajar con creadores de agentes de terceros después de recibir pocas órdenes de agentes de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "DoorDash",
-            "IA",
-            "ordenes"
-          ],
-          "what_changed": "Reconocimiento de un nuevo canal de pedidos mediante IA.",
-          "why_it_matters": "Indica potencial para mejorar la eficiencia en entregas y pedidos.",
-          "sector_impact": "Cambio en el enfoque de la logística y delivery."
-        },
-        {
-          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "summary": "Nvidia está considerando co-firmar un préstamo para un nuevo centro de datos de IA en Virginia Occidental.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Nvidia",
-            "centros de datos",
-            "IA"
-          ],
-          "what_changed": "Potencial co-financiamiento de infraestructura crítica para IA.",
-          "why_it_matters": "Refuerza la importancia de la infraestructura para el crecimiento del sector.",
-          "sector_impact": "Impacto significativo en el desarrollo de la infraestructura de IA."
-        },
-        {
-          "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-          "summary": "Runware está construyendo una fábrica para producir centros de datos de IA prefabricados en línea de montaje.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "centros de datos",
-            "IA",
-            "fabricación"
-          ],
-          "what_changed": "Propuesta innovadora para la producción masiva de centros de datos.",
-          "why_it_matters": "Podría revolucionar la forma en que se construye la infraestructura de IA.",
-          "sector_impact": "Cambio en la dinámica de la producción y costos operativos."
-        },
-        {
-          "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-          "summary": "Se prevé que Anthropic reciba una alta calificación de 'chatarra' según informes, lo que podría dificultar su financiamiento.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Anthropic",
-            "financiamiento",
-            "calificación"
-          ],
-          "what_changed": "Previsión de dificultades financieras para Anthropic tras su IPO.",
-          "why_it_matters": "Puede afectar el desarrollo de modelos y herramientas en IA.",
-          "sector_impact": "Impacto en la percepción de riesgo en el sector de IA."
-        },
-        {
-          "title": "OpenAI reportedly lowers funding target for new round",
-          "summary": "La última ronda de financiación de OpenAI no cumple con las expectativas iniciales.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "financiación",
-            "rondas"
-          ],
-          "what_changed": "Ajuste en las metas de financiamiento que podría afectar operaciones.",
-          "why_it_matters": "Refleja la presión económica en el sector de IA.",
-          "sector_impact": "Implicaciones para startups y financiamiento de nueva tecnología."
         }
       ]
     }
