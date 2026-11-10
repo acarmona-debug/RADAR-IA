@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-11-10",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Integración de herramientas creativas de Adobe en Google Apps",
+          "summary": "Google y Adobe están integrando herramientas de productividad y creatividad. Se pueden editar PDFs en Drive y usar Adobe AI en Gemini.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+          "relevance_score": 9,
+          "status": "new",
+          "tags": [
+            "integración",
+            "herramientas",
+            "Adobe"
+          ],
+          "what_changed": "Integración de funciones de Adobe en Google Apps.",
+          "why_it_matters": "Mejoras en la productividad y creatividad a través de la automatización.",
+          "sector_impact": "Aumenta la eficiencia en entornos laborales."
+        },
+        {
+          "title": "Claude Meetings de Anthropic",
+          "summary": "Claude puede redactar planes durante reuniones, mapear cronogramas y responder preguntas en tiempo real.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "automatización",
+            "reuniones"
+          ],
+          "what_changed": "Implementación de una función de planificación automática.",
+          "why_it_matters": "Facilita la gestión de tareas y mejora la colaboración.",
+          "sector_impact": "Transforma la dinámica en entornos laborales."
+        },
+        {
+          "title": "Nuevos perfiles de negocio en ChatGPT",
+          "summary": "OpenAI lanza nuevas funciones para hacer ChatGPT un motor de descubrimiento más robusto para empresas.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "ChatGPT",
+            "modelos",
+            "negocios"
+          ],
+          "what_changed": "Características nuevas para mejorar la interacción empresarial.",
+          "why_it_matters": "Empodera a las empresas para llegar a sus clientes de manera más efectiva.",
+          "sector_impact": "Crea nuevas oportunidades de mercado."
+        },
+        {
+          "title": "AI agents y nuevas herramientas creativas de Adobe",
+          "summary": "Adobe introduce agentes AI y herramientas en Photoshop, Premiere y Firefly.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Adobe",
+            "herramientas",
+            "IA"
+          ],
+          "what_changed": "Lanzamiento de nuevas herramientas creativas y agentes AI.",
+          "why_it_matters": "Enriquece las capacidades creativas de los usuarios.",
+          "sector_impact": "Mejora la competitividad en el sector creativo."
+        },
+        {
+          "title": "Lanzamiento de Gemini para el sector de salud",
+          "summary": "Google Cloud presenta Gemini para unificar datos clínicos y automatizar flujos de trabajo en salud.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Google",
+            "salud",
+            "automatización"
+          ],
+          "what_changed": "Automatización de flujos de trabajo clínicos.",
+          "why_it_matters": "Reduce la carga administrativa en el sector salud.",
+          "sector_impact": "Aumenta la eficiencia en servicios de salud."
+        },
+        {
+          "title": "Kora: un nuevo sistema operativo para la era de IA",
+          "summary": "Kora se lanzará como una alternativa gratuita a Windows, enfocándose en modelos e agentes de IA.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Kora",
+            "sistema operativo",
+            "IA"
+          ],
+          "what_changed": "Creación de un nuevo sistema operativo centrado en IA.",
+          "why_it_matters": "Proporciona a los usuarios más opciones en su software.",
+          "sector_impact": "Introducir competencia en el mercado de sistemas operativos."
+        },
+        {
+          "title": "Muse de Meta llega a Apple Watch y Android Wear",
+          "summary": "El asistente AI de Meta ahora permite interacción a través de llamadas y mensajes en dispositivos wearable.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "agentes",
+            "wearable"
+          ],
+          "what_changed": "Mayor accesibilidad de agentes AI en dispositivos portátiles.",
+          "why_it_matters": "Mejora la conectividad y funcionalidad del asistente AI.",
+          "sector_impact": "Impulsa el uso de tecnología wearable."
+        },
+        {
+          "title": "Nuevos chips TPUs de Google",
+          "summary": "Google expande su portafolio de hardware AI con nuevos chips especializados para entrenamiento de modelos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Google",
+            "hardware",
+            "TPUs"
+          ],
+          "what_changed": "Lanzamiento de nuevos TPUs con más capacidades.",
+          "why_it_matters": "Mejora el rendimiento y la seguridad en el entrenamiento de IA.",
+          "sector_impact": "Extiende las capacidades de los desarrolladores en IA."
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -743,110 +885,6 @@
           "what_changed": "Desarrollo de un enfoque multi-agente para resolver problemas complejos en matemáticas.",
           "why_it_matters": "Aumenta la capacidad de los modelos para operar en dominios científicamente rigurosos.",
           "sector_impact": "Contribuye al avance de la investigación matemática y de la física a través de la automatización."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
-          "summary": "OpenAI ha anunciado que ChatGPT y Codex compartirán la misma asignación de uso tras la fusión de las pestañas de chat y trabajo.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "OpenAI"
-          ],
-          "what_changed": "Fusión de funcionalidades en ChatGPT.",
-          "why_it_matters": "Mejorará la experiencia del usuario al unificar herramientas.",
-          "sector_impact": "Aumenta la eficiencia en el uso de herramientas de IA."
-        },
-        {
-          "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-          "summary": "42AI ha recaudado $62.5 millones para un modelo que puede predecir el comportamiento humano.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "model",
-            "behavior prediction"
-          ],
-          "what_changed": "Lanzamiento de un modelo innovador.",
-          "why_it_matters": "Puede revolucionar la interacción entre humanos y máquinas.",
-          "sector_impact": "Transformación en análisis de datos y marketing."
-        },
-        {
-          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-          "summary": "Omen AI se asocia con Aquatic Labs en una adquisición de $16 millones para abordar problemas de agua en centros de datos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "AI",
-            "acquisition",
-            "data centers"
-          ],
-          "what_changed": "Adquisición para mejorar la sostenibilidad.",
-          "why_it_matters": "Aborda cuestiones críticas sobre el uso eficiente de recursos.",
-          "sector_impact": "Impacta en la infraestructura de centros de datos."
-        },
-        {
-          "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-          "summary": "Elon Musk limita el uso de Grok Bot debido a costos insostenibles, a pesar de su rápida adopción.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Grok Bot",
-            "Elon Musk"
-          ],
-          "what_changed": "Limitaciones en el uso de Grok Bot.",
-          "why_it_matters": "Indica los desafíos financieros en el desarrollo de IA.",
-          "sector_impact": "Consecuencias para la sostenibilidad de productos de IA."
-        },
-        {
-          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-          "summary": "OpenAI considera renombrar sus centros de datos como 'campus de computación de IA' para mejorar su imagen.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "data centers"
-          ],
-          "what_changed": "Cambio de imagen propuesto para centros de datos.",
-          "why_it_matters": "Puede mejorar la percepción pública de la infraestructura.",
-          "sector_impact": "Impacto en la opinión sobre el ecosistema de IA."
-        },
-        {
-          "title": "Google’s latest AI updates from October 2026",
-          "summary": "Resumen de las últimas actualizaciones de Google en inteligencia artificial anunciadas en octubre de 2026.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Google",
-            "updates",
-            "AI"
-          ],
-          "what_changed": "Actualizaciones significativas en IA.",
-          "why_it_matters": "Refleja el compromiso continuo de Google con la innovación.",
-          "sector_impact": "Afecta a diversas aplicaciones de IA en su ecosistema."
         }
       ]
     }

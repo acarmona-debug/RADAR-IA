@@ -1,104 +1,144 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades en herramientas, modelos y frameworks de IA",
-  "opening_message": "Aquí te presentamos los desarrollos más relevantes en el ámbito de inteligencia artificial, enfocados en herramientas, modelos y automatización.",
+  "intro_message": "Actualizaciones clave sobre herramientas, modelos y avances en IA.",
+  "opening_message": "Aquí están las últimas novedades que impactan directamente en el ecosistema de IA.",
   "items": [
     {
-      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "summary": "Anthropic presenta nuevos modelos con mejoras en programación, razonamiento y comunicación clara.",
-      "category": "model",
+      "title": "Integración de herramientas creativas de Adobe en Google Apps",
+      "summary": "Google y Adobe están integrando herramientas de productividad y creatividad. Se pueden editar PDFs en Drive y usar Adobe AI en Gemini.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "relevance_score": 9,
+      "status": "new",
+      "tags": [
+        "integración",
+        "herramientas",
+        "Adobe"
+      ],
+      "what_changed": "Integración de funciones de Adobe en Google Apps.",
+      "why_it_matters": "Mejoras en la productividad y creatividad a través de la automatización.",
+      "sector_impact": "Aumenta la eficiencia en entornos laborales."
+    },
+    {
+      "title": "Claude Meetings de Anthropic",
+      "summary": "Claude puede redactar planes durante reuniones, mapear cronogramas y responder preguntas en tiempo real.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "model",
-        "Anthropic"
+        "agentes",
+        "automatización",
+        "reuniones"
       ],
-      "what_changed": "Lanzamiento de dos nuevos modelos de IA.",
-      "why_it_matters": "Mejoras en la comunicación y capacidades técnicas son clave para aplicaciones prácticas.",
-      "sector_impact": "Impacto significativo en la eficiencia de tareas automatizadas."
+      "what_changed": "Implementación de una función de planificación automática.",
+      "why_it_matters": "Facilita la gestión de tareas y mejora la colaboración.",
+      "sector_impact": "Transforma la dinámica en entornos laborales."
     },
     {
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "summary": "Muse Ember ofrece un costo significativamente más bajo en comparación con competidores.",
-      "category": "model",
+      "title": "Nuevos perfiles de negocio en ChatGPT",
+      "summary": "OpenAI lanza nuevas funciones para hacer ChatGPT un motor de descubrimiento más robusto para empresas.",
+      "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source_url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "ChatGPT",
+        "modelos",
+        "negocios"
+      ],
+      "what_changed": "Características nuevas para mejorar la interacción empresarial.",
+      "why_it_matters": "Empodera a las empresas para llegar a sus clientes de manera más efectiva.",
+      "sector_impact": "Crea nuevas oportunidades de mercado."
+    },
+    {
+      "title": "AI agents y nuevas herramientas creativas de Adobe",
+      "summary": "Adobe introduce agentes AI y herramientas en Photoshop, Premiere y Firefly.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "model",
-        "Meta"
+        "Adobe",
+        "herramientas",
+        "IA"
       ],
-      "what_changed": "Lanzamiento de un modelo ligero y económico.",
-      "why_it_matters": "Facilita la accesibilidad para desarrolladores e implementaciones en servicios.",
-      "sector_impact": "Aumenta la competitividad entre modelos de IA."
+      "what_changed": "Lanzamiento de nuevas herramientas creativas y agentes AI.",
+      "why_it_matters": "Enriquece las capacidades creativas de los usuarios.",
+      "sector_impact": "Mejora la competitividad en el sector creativo."
     },
     {
-      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
-      "summary": "Automattic lanza una plataforma para desarrollo de aplicaciones de vibe-coding.",
+      "title": "Lanzamiento de Gemini para el sector de salud",
+      "summary": "Google Cloud presenta Gemini para unificar datos clínicos y automatizar flujos de trabajo en salud.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Google",
+        "salud",
+        "automatización"
+      ],
+      "what_changed": "Automatización de flujos de trabajo clínicos.",
+      "why_it_matters": "Reduce la carga administrativa en el sector salud.",
+      "sector_impact": "Aumenta la eficiencia en servicios de salud."
+    },
+    {
+      "title": "Kora: un nuevo sistema operativo para la era de IA",
+      "summary": "Kora se lanzará como una alternativa gratuita a Windows, enfocándose en modelos e agentes de IA.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Kora",
+        "sistema operativo",
+        "IA"
+      ],
+      "what_changed": "Creación de un nuevo sistema operativo centrado en IA.",
+      "why_it_matters": "Proporciona a los usuarios más opciones en su software.",
+      "sector_impact": "Introducir competencia en el mercado de sistemas operativos."
+    },
+    {
+      "title": "Muse de Meta llega a Apple Watch y Android Wear",
+      "summary": "El asistente AI de Meta ahora permite interacción a través de llamadas y mensajes en dispositivos wearable.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "source_url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "tool",
-        "Automattic"
+        "Meta",
+        "agentes",
+        "wearable"
       ],
-      "what_changed": "Introducción de una nueva plataforma de desarrollo.",
-      "why_it_matters": "Competitividad en el mercado de aplicaciones de programación.",
-      "sector_impact": "Impulsa la innovación en la creación de aplicaciones."
+      "what_changed": "Mayor accesibilidad de agentes AI en dispositivos portátiles.",
+      "why_it_matters": "Mejora la conectividad y funcionalidad del asistente AI.",
+      "sector_impact": "Impulsa el uso de tecnología wearable."
     },
     {
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "summary": "OpenAI asegura financiación adicional en un momento crítico.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "funding",
-        "OpenAI"
-      ],
-      "what_changed": "Aumento significativo en la valoración y financiamiento.",
-      "why_it_matters": "Permite a OpenAI seguir innovando y desarrollando nuevas tecnologías.",
-      "sector_impact": "Refuerza el ecosistema de IA con nuevas capacidades."
-    },
-    {
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "summary": "Se observa una desaceleración en el gasto en IA mientras Anthropic se aproxima a su IPO.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "spending",
-        "Anthropic"
-      ],
-      "what_changed": "Análisis de la tendencia del gasto en IA.",
-      "why_it_matters": "Puede afectar la percepción del crecimiento futuro del mercado de IA.",
-      "sector_impact": "Desafíos para inversores y desarrolladores en el ecosistema."
-    },
-    {
-      "title": "Amazon now lets users text Alexa to help them shop",
-      "summary": "Amazon introduce una nueva funcionalidad para interacción con Alexa.",
+      "title": "Nuevos chips TPUs de Google",
+      "summary": "Google expande su portafolio de hardware AI con nuevos chips especializados para entrenamiento de modelos.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "source_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "tool",
-        "Amazon"
+        "Google",
+        "hardware",
+        "TPUs"
       ],
-      "what_changed": "Implementación de mensajería para mejorar la experiencia de compra.",
-      "why_it_matters": "Aumenta la conveniencia y eficiencia para los usuarios.",
-      "sector_impact": "Mejora la competitividad en el mercado de asistentes virtuales."
+      "what_changed": "Lanzamiento de nuevos TPUs con más capacidades.",
+      "why_it_matters": "Mejora el rendimiento y la seguridad en el entrenamiento de IA.",
+      "sector_impact": "Extiende las capacidades de los desarrolladores en IA."
     }
   ]
 }
