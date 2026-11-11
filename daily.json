@@ -1,144 +1,127 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Actualizaciones clave sobre herramientas, modelos y avances en IA.",
-  "opening_message": "Aquí están las últimas novedades que impactan directamente en el ecosistema de IA.",
+  "intro_message": "Novedades importantes en herramientas, modelos y automatización para maximizar tu productividad y favorecer la innovación.",
+  "opening_message": "Descubre las últimas innovaciones y características en inteligencia artificial que pueden transformar tus flujos de trabajo diarios.",
   "items": [
     {
-      "title": "Integración de herramientas creativas de Adobe en Google Apps",
-      "summary": "Google y Adobe están integrando herramientas de productividad y creatividad. Se pueden editar PDFs en Drive y usar Adobe AI en Gemini.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "relevance_score": 9,
-      "status": "new",
-      "tags": [
-        "integración",
-        "herramientas",
-        "Adobe"
-      ],
-      "what_changed": "Integración de funciones de Adobe en Google Apps.",
-      "why_it_matters": "Mejoras en la productividad y creatividad a través de la automatización.",
-      "sector_impact": "Aumenta la eficiencia en entornos laborales."
-    },
-    {
-      "title": "Claude Meetings de Anthropic",
-      "summary": "Claude puede redactar planes durante reuniones, mapear cronogramas y responder preguntas en tiempo real.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "agentes",
-        "automatización",
-        "reuniones"
-      ],
-      "what_changed": "Implementación de una función de planificación automática.",
-      "why_it_matters": "Facilita la gestión de tareas y mejora la colaboración.",
-      "sector_impact": "Transforma la dinámica en entornos laborales."
-    },
-    {
-      "title": "Nuevos perfiles de negocio en ChatGPT",
-      "summary": "OpenAI lanza nuevas funciones para hacer ChatGPT un motor de descubrimiento más robusto para empresas.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "ChatGPT",
-        "modelos",
-        "negocios"
-      ],
-      "what_changed": "Características nuevas para mejorar la interacción empresarial.",
-      "why_it_matters": "Empodera a las empresas para llegar a sus clientes de manera más efectiva.",
-      "sector_impact": "Crea nuevas oportunidades de mercado."
-    },
-    {
-      "title": "AI agents y nuevas herramientas creativas de Adobe",
-      "summary": "Adobe introduce agentes AI y herramientas en Photoshop, Premiere y Firefly.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "title": "Student-Aware Skill Transfer for LLM Agents",
+      "summary": "Se introduce el modelo que mejora la enseñanza entre modelos de lenguaje, generando mejores resultados de enseñanza.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.13144",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Adobe",
-        "herramientas",
-        "IA"
+        "LLM",
+        "educación",
+        "transferencia de habilidades"
       ],
-      "what_changed": "Lanzamiento de nuevas herramientas creativas y agentes AI.",
-      "why_it_matters": "Enriquece las capacidades creativas de los usuarios.",
-      "sector_impact": "Mejora la competitividad en el sector creativo."
+      "what_changed": "Mejora en el procedimiento de enseñanza de modelos entre LLMs.",
+      "why_it_matters": "Optimiza la enseñanza de agentes de IA, mejorando su utilidad en tareas complejas.",
+      "sector_impact": "Educación y software AI"
     },
     {
-      "title": "Lanzamiento de Gemini para el sector de salud",
-      "summary": "Google Cloud presenta Gemini para unificar datos clínicos y automatizar flujos de trabajo en salud.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "title": "Composable Agentic Workflows",
+      "summary": "Nuevas formas de combinar BPMN y agentes para optimizar flujos de trabajo en entornos empresariales.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.13196",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
-        "salud",
-        "automatización"
+        "flujos de trabajo",
+        "BPMN",
+        "agentes"
       ],
-      "what_changed": "Automatización de flujos de trabajo clínicos.",
-      "why_it_matters": "Reduce la carga administrativa en el sector salud.",
-      "sector_impact": "Aumenta la eficiencia en servicios de salud."
+      "what_changed": "Se presenta un enfoque para hacer que los procesos empresariales sean más comprensibles y manejables.",
+      "why_it_matters": "Aumenta la eficiencia en el uso de herramientas de IA en la gestión de procesos.",
+      "sector_impact": "Gestión empresarial"
     },
     {
-      "title": "Kora: un nuevo sistema operativo para la era de IA",
-      "summary": "Kora se lanzará como una alternativa gratuita a Windows, enfocándose en modelos e agentes de IA.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "title": "Automatización del Renombramiento Coordinado en Software",
+      "summary": "Un marco multi-agente para simplificar el proceso de renombrado en software.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2601.00482",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Kora",
-        "sistema operativo",
-        "IA"
+        "renombramiento",
+        "software",
+        "agentes"
       ],
-      "what_changed": "Creación de un nuevo sistema operativo centrado en IA.",
-      "why_it_matters": "Proporciona a los usuarios más opciones en su software.",
-      "sector_impact": "Introducir competencia en el mercado de sistemas operativos."
+      "what_changed": "Automatiza el renombramiento coordinado a través de un marco multi-agente.",
+      "why_it_matters": "Reduce la carga del desarrollador al realizar tareas repetitivas.",
+      "sector_impact": "Desarrollo de software"
     },
     {
-      "title": "Muse de Meta llega a Apple Watch y Android Wear",
-      "summary": "El asistente AI de Meta ahora permite interacción a través de llamadas y mensajes en dispositivos wearable.",
+      "title": "ExpertCrowd-SWE: Benchmark para Agentes de Codificación",
+      "summary": "Referencias para evaluar agentes de codificación autónoma en tareas complejas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.13246",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Meta",
-        "agentes",
-        "wearable"
+        "benchmark",
+        "codificación",
+        "evaluación"
       ],
-      "what_changed": "Mayor accesibilidad de agentes AI en dispositivos portátiles.",
-      "why_it_matters": "Mejora la conectividad y funcionalidad del asistente AI.",
-      "sector_impact": "Impulsa el uso de tecnología wearable."
+      "what_changed": "Introducción de 100 tareas para evaluar modelos de lenguaje en programación.",
+      "why_it_matters": "Evalúa efectividad de modelos de IA en contextos de programación reales.",
+      "sector_impact": "Desarrollo de software"
     },
     {
-      "title": "Nuevos chips TPUs de Google",
-      "summary": "Google expande su portafolio de hardware AI con nuevos chips especializados para entrenamiento de modelos.",
+      "title": "Dr. RTL: Optimización de Diseño de Hardware",
+      "summary": "Marco de agente multi para optimización y análisis crítico en diseño RTL.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.13713",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Google",
         "hardware",
-        "TPUs"
+        "optimización",
+        "diseño"
       ],
-      "what_changed": "Lanzamiento de nuevos TPUs con más capacidades.",
-      "why_it_matters": "Mejora el rendimiento y la seguridad en el entrenamiento de IA.",
-      "sector_impact": "Extiende las capacidades de los desarrolladores en IA."
+      "what_changed": "Se automatiza la evaluación y reescritura de RTL con mejora continua.",
+      "why_it_matters": "Aumenta la eficiencia en el diseño de hardware mejorando procesos críticos.",
+      "sector_impact": "Diseño de hardware"
+    },
+    {
+      "title": "ChipOmni: Agente de IA para Automatización de Diseño Electrónico",
+      "summary": "Un sistema autónomo que integra múltiples tareas en el diseño electrónico.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.13020",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "EDI",
+        "diseño",
+        "agentes"
+      ],
+      "what_changed": "Integración de procesos de diseño en un único sistema autónomo.",
+      "why_it_matters": "Facilita la coordinación en tareas de diseño, mejorando la eficiencia.",
+      "sector_impact": "Diseño electrónico"
+    },
+    {
+      "title": "TreeAgent: Agente de Memoria Estructural",
+      "summary": "Agente que procesa datos jerárquicos de manera más efectiva.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.13946",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "memoria",
+        "data",
+        "agentes"
+      ],
+      "what_changed": "Desarrollo de un nuevo agente que procesa información jerárquica.",
+      "why_it_matters": "Mejora el procesamiento de conversaciones y documentos largos.",
+      "sector_impact": "Aplicaciones web"
     }
   ]
 }

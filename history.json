@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-11-11",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Student-Aware Skill Transfer for LLM Agents",
+          "summary": "Se introduce el modelo que mejora la enseñanza entre modelos de lenguaje, generando mejores resultados de enseñanza.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.13144",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "LLM",
+            "educación",
+            "transferencia de habilidades"
+          ],
+          "what_changed": "Mejora en el procedimiento de enseñanza de modelos entre LLMs.",
+          "why_it_matters": "Optimiza la enseñanza de agentes de IA, mejorando su utilidad en tareas complejas.",
+          "sector_impact": "Educación y software AI"
+        },
+        {
+          "title": "Composable Agentic Workflows",
+          "summary": "Nuevas formas de combinar BPMN y agentes para optimizar flujos de trabajo en entornos empresariales.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.13196",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "flujos de trabajo",
+            "BPMN",
+            "agentes"
+          ],
+          "what_changed": "Se presenta un enfoque para hacer que los procesos empresariales sean más comprensibles y manejables.",
+          "why_it_matters": "Aumenta la eficiencia en el uso de herramientas de IA en la gestión de procesos.",
+          "sector_impact": "Gestión empresarial"
+        },
+        {
+          "title": "Automatización del Renombramiento Coordinado en Software",
+          "summary": "Un marco multi-agente para simplificar el proceso de renombrado en software.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2601.00482",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "renombramiento",
+            "software",
+            "agentes"
+          ],
+          "what_changed": "Automatiza el renombramiento coordinado a través de un marco multi-agente.",
+          "why_it_matters": "Reduce la carga del desarrollador al realizar tareas repetitivas.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "ExpertCrowd-SWE: Benchmark para Agentes de Codificación",
+          "summary": "Referencias para evaluar agentes de codificación autónoma en tareas complejas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.13246",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "codificación",
+            "evaluación"
+          ],
+          "what_changed": "Introducción de 100 tareas para evaluar modelos de lenguaje en programación.",
+          "why_it_matters": "Evalúa efectividad de modelos de IA en contextos de programación reales.",
+          "sector_impact": "Desarrollo de software"
+        },
+        {
+          "title": "Dr. RTL: Optimización de Diseño de Hardware",
+          "summary": "Marco de agente multi para optimización y análisis crítico en diseño RTL.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.13713",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "hardware",
+            "optimización",
+            "diseño"
+          ],
+          "what_changed": "Se automatiza la evaluación y reescritura de RTL con mejora continua.",
+          "why_it_matters": "Aumenta la eficiencia en el diseño de hardware mejorando procesos críticos.",
+          "sector_impact": "Diseño de hardware"
+        },
+        {
+          "title": "ChipOmni: Agente de IA para Automatización de Diseño Electrónico",
+          "summary": "Un sistema autónomo que integra múltiples tareas en el diseño electrónico.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.13020",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "EDI",
+            "diseño",
+            "agentes"
+          ],
+          "what_changed": "Integración de procesos de diseño en un único sistema autónomo.",
+          "why_it_matters": "Facilita la coordinación en tareas de diseño, mejorando la eficiencia.",
+          "sector_impact": "Diseño electrónico"
+        },
+        {
+          "title": "TreeAgent: Agente de Memoria Estructural",
+          "summary": "Agente que procesa datos jerárquicos de manera más efectiva.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.13946",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "data",
+            "agentes"
+          ],
+          "what_changed": "Desarrollo de un nuevo agente que procesa información jerárquica.",
+          "why_it_matters": "Mejora el procesamiento de conversaciones y documentos largos.",
+          "sector_impact": "Aplicaciones web"
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -760,131 +885,6 @@
           "what_changed": "Introducción de características que mejoran la experiencia del usuario.",
           "why_it_matters": "Resalta el potencial de IA para personalizar experiencias.",
           "sector_impact": "Aumenta la competencia en asistentes virtuales."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "DeFT-RAG: Un marco RAG para preguntas de múltiples saltos",
-          "summary": "DeFT-RAG mejora la generación aumentada por recuperación (RAG) al descomponer preguntas en subtareas auto-contenidas.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.37826",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "RAG",
-            "LLM",
-            "IA"
-          ],
-          "what_changed": "Introducción de un enfoque innovador para manejar preguntas complejas.",
-          "why_it_matters": "Optimiza la recuperación de información en modelos de lenguaje, mejorando la precisión y eficiencia.",
-          "sector_impact": "Mejora en aplicaciones de IA donde se requieren respuestas precisas a preguntas complejas."
-        },
-        {
-          "title": "RECAST: Reconstrucción de cadena de pensamiento",
-          "summary": "RECAST permite la reconstrucción de razonamientos intermedios en modelos cerrados como Claude y GPT.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.41813",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "modelo",
-            "razonamiento",
-            "IA"
-          ],
-          "what_changed": "Primera herramienta de su tipo para reconstruir cadenas de pensamiento desde modelos de caja negra.",
-          "why_it_matters": "Facilita la transparencia en el razonamiento de los modelos de IA, crucial para auditorías y mejoras.",
-          "sector_impact": "Impulsa la confianza en sistemas de IA al hacer más comprensibles sus inferencias."
-        },
-        {
-          "title": "Benchmarking Agents de Pronóstico",
-          "summary": "FABench es un entorno de backtesting escalable que pone a prueba a los agentes de pronóstico en múltiples dominios.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.40940",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmarking",
-            "agentes",
-            "IA"
-          ],
-          "what_changed": "Introducción de un sistema que permite evaluar agentes en datos históricos.",
-          "why_it_matters": "Aumenta la precisión de los modelos de pronóstico mediante el acceso a datos en tiempo real.",
-          "sector_impact": "Transforma la manera en que se verifica y valida el rendimiento de los modelos de IA en previsiones."
-        },
-        {
-          "title": "Lanzamiento de ROSTrans para migración de ROS",
-          "summary": "ROSTrans proporciona un marco de evaluación para la migración de ROS1 a ROS2, abordando desafíos únicos en desarrollo robótico.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.41168",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "robotica",
-            "migracion",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un conjunto de pruebas para evaluar la migración de código en robótica.",
-          "why_it_matters": "Mejora la capacidad de los modelos para gestionar etapas complejas en el desarrollo de software robótico.",
-          "sector_impact": "Impulsa la adopción de nuevas tecnologías en robótica, mejorando la interoperabilidad de sistemas."
-        },
-        {
-          "title": "SoK: Arquitecturas y direcciones de investigación en RAG",
-          "summary": "Este trabajo proporciona una taxonomía de sistemas RAG autónomos, identificando limitaciones y riesgos inherentes.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2603.07379",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "RAG",
-            "investigacion"
-          ],
-          "what_changed": "Formalización de bucles de RAG como procesos de decisión.",
-          "why_it_matters": "Ofrece un marco unificado para entender y mejorar los sistemas RAG.",
-          "sector_impact": "Permite avanzar en la investigación y desarrollo de sistemas autónomos más confiables."
-        },
-        {
-          "title": "Context as Infrastructure: Compilación de conocimiento",
-          "summary": "Se propone un sistema de compilación de conocimiento para mejorar la generación aumentada por recuperación en sistemas de agentes.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.41172",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "IA",
-            "RAG",
-            "conocimiento"
-          ],
-          "what_changed": "Introducción de un sistema de ingesta configurable para mejorar la precisión de la recuperación.",
-          "why_it_matters": "Mejora la calidad y relevancia de los datos presentados a los modelos.",
-          "sector_impact": "Aumenta la eficiencia en la búsqueda y recuperación de información."
-        },
-        {
-          "title": "Ax-Prover: Un marco de razonamiento profundo para la prueba de teoremas",
-          "summary": "Ax-Prover es un sistema multi-agente para la prueba de teoremas en matemáticas y física cuántica.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2510.12787",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "teoremas",
-            "matematicas",
-            "IA"
-          ],
-          "what_changed": "Desarrollo de un enfoque multi-agente para resolver problemas complejos en matemáticas.",
-          "why_it_matters": "Aumenta la capacidad de los modelos para operar en dominios científicamente rigurosos.",
-          "sector_impact": "Contribuye al avance de la investigación matemática y de la física a través de la automatización."
         }
       ]
     }
