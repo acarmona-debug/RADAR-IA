@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-11-12",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "summary": "Presentamos la API Gemini Decisions, impulsada por nuestro modelo de vanguardia, para decisiones multimodales rápidas y calibradas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "API",
+            "decisiones"
+          ],
+          "what_changed": "Lanzamiento de la API para decisiones multimodales.",
+          "why_it_matters": "Permite decisiones más rápidas y precisas en aplicaciones diversa.",
+          "sector_impact": "Transforma cómo las empresas toman decisiones estratégicas."
+        },
+        {
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "summary": "Lanzamos Gemini 4 Hydrogen para mejorar la búsqueda en Google con respuestas más intuitivas y visuales.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "búsqueda",
+            "actualización"
+          ],
+          "what_changed": "Actualización mayor en Google Search.",
+          "why_it_matters": "Mejora la experiencia del usuario en la búsqueda online.",
+          "sector_impact": "Optimiza el acceso a la información para todos."
+        },
+        {
+          "title": "Gemini Intelligence: New features, on more devices",
+          "summary": "Gemini Intelligence se está implementando en más dispositivos, ofreciendo capacidades ampliadas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "inteligencia",
+            "dispositivos"
+          ],
+          "what_changed": "Implementación en más dispositivos.",
+          "why_it_matters": "Permite una mayor versatilidad y uso de la inteligencia.",
+          "sector_impact": "Aumenta la accesibilidad de herramientas avanzadas."
+        },
+        {
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "summary": "El nuevo agente de IA de Nectar automatiza el marketing de influencers, ayudando a las marcas a descubrir y gestionar creadores.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Nectar",
+            "agente de IA",
+            "marketing"
+          ],
+          "what_changed": "Lanzamiento de un agente de IA para marketing automatizado.",
+          "why_it_matters": "Facilita la gestión de campañas de marketing de influencia.",
+          "sector_impact": "Revoluciona el sector del marketing digital."
+        },
+        {
+          "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+          "summary": "Phota Labs utiliza IA para automatizar el proceso de edición y transformar fotos cotidianas en imágenes de aspecto profesional.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Phota Labs",
+            "edición de fotos",
+            "IA"
+          ],
+          "what_changed": "Implementación de IA en la edición fotográfica.",
+          "why_it_matters": "Permite a los usuarios obtener resultados profesionales sin experiencia.",
+          "sector_impact": "Democratiza la fotografía de calidad."
+        },
+        {
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "summary": "",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/qvac/botpsy",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "BotPsy",
+            "asistente personal",
+            "modelo de lenguaje"
+          ],
+          "what_changed": "Lanzamiento del asistente personal en dispositivo.",
+          "why_it_matters": "Proporciona mayor privacidad al procesar datos localmente.",
+          "sector_impact": "Revoluciona la asistencia personal en dispositivos."
+        },
+        {
+          "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "summary": "",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/token-pooling",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "entrenamiento",
+            "embeddings",
+            "modelo"
+          ],
+          "what_changed": "Nuevas técnicas para modelos de embeddings multivectoriales.",
+          "why_it_matters": "Mejora la eficiencia del entrenamiento de modelos de IA.",
+          "sector_impact": "Impulsa la investigación y desarrollo en IA."
+        },
+        {
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1",
+          "summary": "",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "LLMON",
+            "lenguaje de marcado",
+            "IA"
+          ],
+          "what_changed": "Introducción de un nuevo lenguaje de marcado nativo para LLM.",
+          "why_it_matters": "Facilita la integración de modelos de lenguaje en aplicaciones.",
+          "sector_impact": "Mejora la interoperabilidad en el desarrollo de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -744,147 +886,6 @@
           "what_changed": "Nueva señal detectada.",
           "why_it_matters": "Puede impactar desarrollo, automatización o trabajo con IA.",
           "sector_impact": "Relevante para el ecosistema de IA aplicada."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "executive_title": "Radar diario de IA",
-      "items": [
-        {
-          "title": "Anthropic trabaja en FlashProve para validar modelos de IA",
-          "summary": "Un sistema que permite verificar que una respuesta de IA proviene realmente del modelo que dice ser.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "validación",
-            "IA",
-            "modelos"
-          ],
-          "what_changed": "Introducción de FlashProve como nueva herramienta.",
-          "why_it_matters": "Proporciona confianza en la identificación de respuestas generadas por IA.",
-          "sector_impact": "Aumenta la transparencia en el uso de modelos de IA."
-        },
-        {
-          "title": "Y Combinator adopta agentes de IA a gran escala",
-          "summary": "Garry Tan gasta hasta $200K al año en tokens para interactuar con agentes de IA.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "gastos",
-            "interacción"
-          ],
-          "what_changed": "Reconocimiento del uso intensivo de agentes de IA.",
-          "why_it_matters": "Demuestra la creciente dependencia de la IA en el negocio.",
-          "sector_impact": "Impulsa la inversión en herramientas y plataformas de IA."
-        },
-        {
-          "title": "Apple inicia beta de características de IA en Apple Watch",
-          "summary": "Nuevas funciones de Audio Intelligence permiten recordar y tomar notas de conversaciones.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recaps/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Apple Watch",
-            "IA",
-            "funcionalidades"
-          ],
-          "what_changed": "Lanzamiento de funciones de IA para ayudar en la comunicación.",
-          "why_it_matters": "Mejora la usabilidad y experiencia del usuario en wearables.",
-          "sector_impact": "Revoluciona la forma en que interactuamos con dispositivos portátiles."
-        },
-        {
-          "title": "Integración de modelos de Transformers en Hugging Face",
-          "summary": "Nuevos contratos de integración para modelos de Transformers.",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/transformers-mic",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Transformers",
-            "integraciones",
-            "modelos"
-          ],
-          "what_changed": "Mejoras en la interoperabilidad de modelos.",
-          "why_it_matters": "Facilita el uso de modelos avanzados en diferentes aplicaciones.",
-          "sector_impact": "Aumenta la adopción de IA en desarrollos software."
-        },
-        {
-          "title": "StateBench: Evaluación de modelos de lenguaje",
-          "summary": "Prueba cómo los modelos de lenguaje manejan cambios de estado en documentos largos.",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/allenai/statebench",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "modelos de lenguaje"
-          ],
-          "what_changed": "Introducción de un nuevo marco para evaluar modelos.",
-          "why_it_matters": "Mejor análisis del rendimiento de modelos complejos.",
-          "sector_impact": "Refina la forma en que se desarrollan y emplean modelos de IA."
-        },
-        {
-          "title": "Dharma Field Extractor: Conversión de documentos a JSON",
-          "summary": "Herramienta que convierte cualquier documento en campos estructurados en JSON.",
-          "category": "tool",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "extracción",
-            "JSON",
-            "documentación"
-          ],
-          "what_changed": "Lanzamiento de una herramienta de extracción innovadora.",
-          "why_it_matters": "Facilita el manejo y análisis de datos no estructurados.",
-          "sector_impact": "Transforma el acceso y la utilización de datos en diversos campos."
-        },
-        {
-          "title": "Nuevas oportunidades en aplicaciones de IA de Apple",
-          "summary": "Apple busca aumentar sus ingresos mediante nuevas oportunidades en aplicaciones de IA.",
-          "category": "framework",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "revenue",
-            "IA",
-            "apple"
-          ],
-          "what_changed": "Exploración de nuevas avenidas de ingresos.",
-          "why_it_matters": "Indica un enfoque proactivo de Apple hacia el futuro de la IA.",
-          "sector_impact": "Puede influir en el desarrollo de aplicaciones de IA en el ecosistema de Apple."
-        },
-        {
-          "title": "Apple presenta Siri Recaps, funciones innovadoras de IA",
-          "summary": "Las nuevas funciones de Siri demuestran ser útiles, aunque con preocupaciones sobre la privacidad.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-          "relevance_score": 4,
-          "status": "new",
-          "tags": [
-            "Siri",
-            "IA",
-            "funciones"
-          ],
-          "what_changed": "Introducción de características que mejoran la experiencia del usuario.",
-          "why_it_matters": "Resalta el potencial de IA para personalizar experiencias.",
-          "sector_impact": "Aumenta la competencia en asistentes virtuales."
         }
       ]
     }

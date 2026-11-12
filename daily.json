@@ -1,127 +1,144 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Novedades importantes en herramientas, modelos y automatización para maximizar tu productividad y favorecer la innovación.",
-  "opening_message": "Descubre las últimas innovaciones y características en inteligencia artificial que pueden transformar tus flujos de trabajo diarios.",
+  "intro_message": "Bienvenido al radar diario de inteligencia artificial, donde destacamos las últimas herramientas y tecnologías que están transformando el sector.",
+  "opening_message": "Aquí tienes las noticias más relevantes del día en el mundo de la inteligencia artificial.",
   "items": [
     {
-      "title": "Student-Aware Skill Transfer for LLM Agents",
-      "summary": "Se introduce el modelo que mejora la enseñanza entre modelos de lenguaje, generando mejores resultados de enseñanza.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.13144",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Presentamos la API Gemini Decisions, impulsada por nuestro modelo de vanguardia, para decisiones multimodales rápidas y calibradas.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Gemini",
+        "API",
+        "decisiones"
+      ],
+      "what_changed": "Lanzamiento de la API para decisiones multimodales.",
+      "why_it_matters": "Permite decisiones más rápidas y precisas en aplicaciones diversa.",
+      "sector_impact": "Transforma cómo las empresas toman decisiones estratégicas."
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary": "Lanzamos Gemini 4 Hydrogen para mejorar la búsqueda en Google con respuestas más intuitivas y visuales.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "LLM",
-        "educación",
-        "transferencia de habilidades"
+        "Gemini",
+        "búsqueda",
+        "actualización"
       ],
-      "what_changed": "Mejora en el procedimiento de enseñanza de modelos entre LLMs.",
-      "why_it_matters": "Optimiza la enseñanza de agentes de IA, mejorando su utilidad en tareas complejas.",
-      "sector_impact": "Educación y software AI"
+      "what_changed": "Actualización mayor en Google Search.",
+      "why_it_matters": "Mejora la experiencia del usuario en la búsqueda online.",
+      "sector_impact": "Optimiza el acceso a la información para todos."
     },
     {
-      "title": "Composable Agentic Workflows",
-      "summary": "Nuevas formas de combinar BPMN y agentes para optimizar flujos de trabajo en entornos empresariales.",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "summary": "Gemini Intelligence se está implementando en más dispositivos, ofreciendo capacidades ampliadas.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Gemini",
+        "inteligencia",
+        "dispositivos"
+      ],
+      "what_changed": "Implementación en más dispositivos.",
+      "why_it_matters": "Permite una mayor versatilidad y uso de la inteligencia.",
+      "sector_impact": "Aumenta la accesibilidad de herramientas avanzadas."
+    },
+    {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "summary": "El nuevo agente de IA de Nectar automatiza el marketing de influencers, ayudando a las marcas a descubrir y gestionar creadores.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Nectar",
+        "agente de IA",
+        "marketing"
+      ],
+      "what_changed": "Lanzamiento de un agente de IA para marketing automatizado.",
+      "why_it_matters": "Facilita la gestión de campañas de marketing de influencia.",
+      "sector_impact": "Revoluciona el sector del marketing digital."
+    },
+    {
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "summary": "Phota Labs utiliza IA para automatizar el proceso de edición y transformar fotos cotidianas en imágenes de aspecto profesional.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Phota Labs",
+        "edición de fotos",
+        "IA"
+      ],
+      "what_changed": "Implementación de IA en la edición fotográfica.",
+      "why_it_matters": "Permite a los usuarios obtener resultados profesionales sin experiencia.",
+      "sector_impact": "Democratiza la fotografía de calidad."
+    },
+    {
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "summary": "",
+      "category": "tool",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/qvac/botpsy",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "BotPsy",
+        "asistente personal",
+        "modelo de lenguaje"
+      ],
+      "what_changed": "Lanzamiento del asistente personal en dispositivo.",
+      "why_it_matters": "Proporciona mayor privacidad al procesar datos localmente.",
+      "sector_impact": "Revoluciona la asistencia personal en dispositivos."
+    },
+    {
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "summary": "",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/token-pooling",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "entrenamiento",
+        "embeddings",
+        "modelo"
+      ],
+      "what_changed": "Nuevas técnicas para modelos de embeddings multivectoriales.",
+      "why_it_matters": "Mejora la eficiencia del entrenamiento de modelos de IA.",
+      "sector_impact": "Impulsa la investigación y desarrollo en IA."
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1",
+      "summary": "",
       "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.13196",
-      "relevance_score": 7,
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "relevance_score": 4,
       "status": "new",
       "tags": [
-        "flujos de trabajo",
-        "BPMN",
-        "agentes"
+        "LLMON",
+        "lenguaje de marcado",
+        "IA"
       ],
-      "what_changed": "Se presenta un enfoque para hacer que los procesos empresariales sean más comprensibles y manejables.",
-      "why_it_matters": "Aumenta la eficiencia en el uso de herramientas de IA en la gestión de procesos.",
-      "sector_impact": "Gestión empresarial"
-    },
-    {
-      "title": "Automatización del Renombramiento Coordinado en Software",
-      "summary": "Un marco multi-agente para simplificar el proceso de renombrado en software.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2601.00482",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "renombramiento",
-        "software",
-        "agentes"
-      ],
-      "what_changed": "Automatiza el renombramiento coordinado a través de un marco multi-agente.",
-      "why_it_matters": "Reduce la carga del desarrollador al realizar tareas repetitivas.",
-      "sector_impact": "Desarrollo de software"
-    },
-    {
-      "title": "ExpertCrowd-SWE: Benchmark para Agentes de Codificación",
-      "summary": "Referencias para evaluar agentes de codificación autónoma en tareas complejas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.13246",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "codificación",
-        "evaluación"
-      ],
-      "what_changed": "Introducción de 100 tareas para evaluar modelos de lenguaje en programación.",
-      "why_it_matters": "Evalúa efectividad de modelos de IA en contextos de programación reales.",
-      "sector_impact": "Desarrollo de software"
-    },
-    {
-      "title": "Dr. RTL: Optimización de Diseño de Hardware",
-      "summary": "Marco de agente multi para optimización y análisis crítico en diseño RTL.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.13713",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "hardware",
-        "optimización",
-        "diseño"
-      ],
-      "what_changed": "Se automatiza la evaluación y reescritura de RTL con mejora continua.",
-      "why_it_matters": "Aumenta la eficiencia en el diseño de hardware mejorando procesos críticos.",
-      "sector_impact": "Diseño de hardware"
-    },
-    {
-      "title": "ChipOmni: Agente de IA para Automatización de Diseño Electrónico",
-      "summary": "Un sistema autónomo que integra múltiples tareas en el diseño electrónico.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.13020",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "EDI",
-        "diseño",
-        "agentes"
-      ],
-      "what_changed": "Integración de procesos de diseño en un único sistema autónomo.",
-      "why_it_matters": "Facilita la coordinación en tareas de diseño, mejorando la eficiencia.",
-      "sector_impact": "Diseño electrónico"
-    },
-    {
-      "title": "TreeAgent: Agente de Memoria Estructural",
-      "summary": "Agente que procesa datos jerárquicos de manera más efectiva.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.13946",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "memoria",
-        "data",
-        "agentes"
-      ],
-      "what_changed": "Desarrollo de un nuevo agente que procesa información jerárquica.",
-      "why_it_matters": "Mejora el procesamiento de conversaciones y documentos largos.",
-      "sector_impact": "Aplicaciones web"
+      "what_changed": "Introducción de un nuevo lenguaje de marcado nativo para LLM.",
+      "why_it_matters": "Facilita la integración de modelos de lenguaje en aplicaciones.",
+      "sector_impact": "Mejora la interoperabilidad en el desarrollo de IA."
     }
   ]
 }
