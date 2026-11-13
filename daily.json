@@ -1,144 +1,144 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Bienvenido al radar diario de inteligencia artificial, donde destacamos las últimas herramientas y tecnologías que están transformando el sector.",
-  "opening_message": "Aquí tienes las noticias más relevantes del día en el mundo de la inteligencia artificial.",
+  "intro_message": "Descubre las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial.",
+  "opening_message": "A continuación te presentamos un resumen de los desarrollos más relevantes en IA, con un enfoque en herramientas, modelos, frameworks y automatización.",
   "items": [
     {
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "summary": "Presentamos la API Gemini Decisions, impulsada por nuestro modelo de vanguardia, para decisiones multimodales rápidas y calibradas.",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "summary": "ChatGPT Wallet permite a los agentes de IA comprar y realizar pagos en nombre de los usuarios, comenzando con una implementación limitada para suscriptores Pro en EE. UU.",
       "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Gemini",
-        "API",
-        "decisiones"
+        "ChatGPT",
+        "AI Wallet",
+        "Agentes"
       ],
-      "what_changed": "Lanzamiento de la API para decisiones multimodales.",
-      "why_it_matters": "Permite decisiones más rápidas y precisas en aplicaciones diversa.",
-      "sector_impact": "Transforma cómo las empresas toman decisiones estratégicas."
+      "what_changed": "Lanzamiento de una nueva herramienta de gestión de compras.",
+      "why_it_matters": "Facilita la vida de los usuarios al permitirles realizar compras automatizadas.",
+      "sector_impact": "Mejora la experiencia del consumidor a través de la automatización."
     },
     {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary": "Lanzamos Gemini 4 Hydrogen para mejorar la búsqueda en Google con respuestas más intuitivas y visuales.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "búsqueda",
-        "actualización"
-      ],
-      "what_changed": "Actualización mayor en Google Search.",
-      "why_it_matters": "Mejora la experiencia del usuario en la búsqueda online.",
-      "sector_impact": "Optimiza el acceso a la información para todos."
-    },
-    {
-      "title": "Gemini Intelligence: New features, on more devices",
-      "summary": "Gemini Intelligence se está implementando en más dispositivos, ofreciendo capacidades ampliadas.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "inteligencia",
-        "dispositivos"
-      ],
-      "what_changed": "Implementación en más dispositivos.",
-      "why_it_matters": "Permite una mayor versatilidad y uso de la inteligencia.",
-      "sector_impact": "Aumenta la accesibilidad de herramientas avanzadas."
-    },
-    {
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "summary": "El nuevo agente de IA de Nectar automatiza el marketing de influencers, ayudando a las marcas a descubrir y gestionar creadores.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Nectar",
-        "agente de IA",
-        "marketing"
-      ],
-      "what_changed": "Lanzamiento de un agente de IA para marketing automatizado.",
-      "why_it_matters": "Facilita la gestión de campañas de marketing de influencia.",
-      "sector_impact": "Revoluciona el sector del marketing digital."
-    },
-    {
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "summary": "Phota Labs utiliza IA para automatizar el proceso de edición y transformar fotos cotidianas en imágenes de aspecto profesional.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "Phota Labs",
-        "edición de fotos",
-        "IA"
-      ],
-      "what_changed": "Implementación de IA en la edición fotográfica.",
-      "why_it_matters": "Permite a los usuarios obtener resultados profesionales sin experiencia.",
-      "sector_impact": "Democratiza la fotografía de calidad."
-    },
-    {
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "summary": "",
-      "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/qvac/botpsy",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "BotPsy",
-        "asistente personal",
-        "modelo de lenguaje"
-      ],
-      "what_changed": "Lanzamiento del asistente personal en dispositivo.",
-      "why_it_matters": "Proporciona mayor privacidad al procesar datos localmente.",
-      "sector_impact": "Revoluciona la asistencia personal en dispositivos."
-    },
-    {
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "summary": "",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "summary": "Potenciado por Gemini 4 Hydrogen, el Modo IA de Google mejora la comprensión de consultas complejas, proporcionando enlaces relevantes y respuestas visuales enriquecidas.",
       "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/token-pooling",
-      "relevance_score": 5,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "entrenamiento",
-        "embeddings",
-        "modelo"
+        "Gemini",
+        "Búsqueda",
+        "AI"
       ],
-      "what_changed": "Nuevas técnicas para modelos de embeddings multivectoriales.",
-      "why_it_matters": "Mejora la eficiencia del entrenamiento de modelos de IA.",
-      "sector_impact": "Impulsa la investigación y desarrollo en IA."
+      "what_changed": "Actualización del sistema de búsqueda de Google.",
+      "why_it_matters": "Permite a los usuarios resolver problemas complejos de manera más eficaz.",
+      "sector_impact": "Impacta positivamente en la búsqueda y acceso a información en línea."
     },
     {
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "summary": "ElevenAI es una nueva aplicación de toma de notas y dictado de reuniones dirigida a equipos y empresas.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "ElevenLabs",
+        "Aplicación",
+        "Automatización"
+      ],
+      "what_changed": "Lanzamiento de una herramienta integral para la gestión de reuniones.",
+      "why_it_matters": "Facilita la organización y el seguimiento de reuniones para los equipos.",
+      "sector_impact": "Aumenta la productividad en entornos colaborativos."
+    },
+    {
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "summary": "Tabletop es un nuevo experimento de Google Labs para la colaboración grupal. Crea itinerarios interactivos, encuestas y más con tu equipo. Únete a la lista de espera.",
+      "category": "tool",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "Google",
+        "Colaboración",
+        "Herramienta"
+      ],
+      "what_changed": "Presentación de una herramienta para colaboración en grupo.",
+      "why_it_matters": "Fomenta la colaboración efectiva y la creatividad en equipos.",
+      "sector_impact": "Transforma la forma en que los equipos colaboran y organizan proyectos."
+    },
+    {
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "summary": "",
       "category": "framework",
       "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "relevance_score": 4,
+      "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "LLMON",
-        "lenguaje de marcado",
+        "Hugging Face",
+        "Framework",
+        "Ecosistema"
+      ],
+      "what_changed": "Lanzamiento de un nuevo framework para el ecosistema de IA.",
+      "why_it_matters": "Mejora las capacidades de desarrollo local en IA.",
+      "sector_impact": "Fortalece el desarrollo de modelos de IA en plataformas locales."
+    },
+    {
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "summary": "",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Hugging Face",
+        "Guía",
+        "Modelos 3D"
+      ],
+      "what_changed": "Publicación de una guía definitiva para ajuste fino de modelos de generación 3D.",
+      "why_it_matters": "Ayuda a desarrolladores a optimizar modelos 3D.",
+      "sector_impact": "Impacta la calidad y eficiencia de la generación 3D en aplicaciones."
+    },
+    {
+      "title": "Decision Models in Hugging Face",
+      "summary": "",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/decision",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Hugging Face",
+        "Modelos",
+        "Toma de Decisiones"
+      ],
+      "what_changed": "Introducción de nuevos modelos de decisión en Hugging Face.",
+      "why_it_matters": "Ofrece soluciones avanzadas para modelos de toma de decisiones.",
+      "sector_impact": "Enriquece la gama de herramientas disponibles para IA."
+    },
+    {
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
+      "summary": "Nueva investigación muestra que los modelos de IA más avanzados de China fueron entrenados con chips de Nvidia prohibidos.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Nvidia",
+        "Modelos",
         "IA"
       ],
-      "what_changed": "Introducción de un nuevo lenguaje de marcado nativo para LLM.",
-      "why_it_matters": "Facilita la integración de modelos de lenguaje en aplicaciones.",
-      "sector_impact": "Mejora la interoperabilidad en el desarrollo de IA."
+      "what_changed": "Revelación sobre el uso de tecnología prohibida en modelos de IA.",
+      "why_it_matters": "Plantea preocupaciones de seguridad y competencia en IA.",
+      "sector_impact": "Puede afectar la regulación y el desarrollo de la tecnología de IA globalmente."
     }
   ]
 }
