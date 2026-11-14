@@ -1,144 +1,127 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Descubre las últimas innovaciones y herramientas en el ámbito de la inteligencia artificial.",
-  "opening_message": "A continuación te presentamos un resumen de los desarrollos más relevantes en IA, con un enfoque en herramientas, modelos, frameworks y automatización.",
+  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y frameworks de inteligencia artificial.",
+  "opening_message": "Aquí tienes los desarrollos más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas y modelos que pueden transformar la automatización y la creación de nuevas características.",
   "items": [
     {
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "summary": "ChatGPT Wallet permite a los agentes de IA comprar y realizar pagos en nombre de los usuarios, comenzando con una implementación limitada para suscriptores Pro en EE. UU.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "title": "Multi-Task Self-Evolving Harnesses with the Agent as Its Own Optimizer",
+      "summary": "Propuesta de un framework que permite a los agentes mejorar sus propios harnesses mediante un proceso de evolución recursiva.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.38372",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "ChatGPT",
-        "AI Wallet",
-        "Agentes"
+        "evolución",
+        "agentes",
+        "optimización"
       ],
-      "what_changed": "Lanzamiento de una nueva herramienta de gestión de compras.",
-      "why_it_matters": "Facilita la vida de los usuarios al permitirles realizar compras automatizadas.",
-      "sector_impact": "Mejora la experiencia del consumidor a través de la automatización."
+      "what_changed": "Introducción de un sistema de auto-evolución para agentes AI.",
+      "why_it_matters": "Permite que los modelos mejoren de manera autónoma, aumentando la efectividad en tareas diversas.",
+      "sector_impact": "Potencial ampliación en la eficiencia de la resolución de tareas en múltiples dominios."
     },
     {
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "summary": "Potenciado por Gemini 4 Hydrogen, el Modo IA de Google mejora la comprensión de consultas complejas, proporcionando enlaces relevantes y respuestas visuales enriquecidas.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "title": "BELLS-O: Evaluating the Operational Trade-offs of LLM Supervision Systems",
+      "summary": "Un benchmark independiente que evalúa 33 sistemas de supervisión LLM en cuanto a eficiencia operacional y costos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.20668",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Gemini",
-        "Búsqueda",
-        "AI"
+        "supervisión",
+        "evaluación",
+        "costos"
       ],
-      "what_changed": "Actualización del sistema de búsqueda de Google.",
-      "why_it_matters": "Permite a los usuarios resolver problemas complejos de manera más eficaz.",
-      "sector_impact": "Impacta positivamente en la búsqueda y acceso a información en línea."
+      "what_changed": "Desarrollo de un marco operativo para evaluar sistemas de supervisión de LLM.",
+      "why_it_matters": "Ofrece herramientas precisas para seleccionar supervisores adecuados en AI aplicada.",
+      "sector_impact": "Impacto directo en la gestión de la seguridad en aplicaciones AI."
     },
     {
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "summary": "ElevenAI es una nueva aplicación de toma de notas y dictado de reuniones dirigida a equipos y empresas.",
+      "title": "ADAPT: Agentic Diff-Aware Patch Testing for Pull Requests",
+      "summary": "Propuesta de un enfoque de generación de pruebas que utiliza agentes autónomos para producir pruebas enfocadas en cambios para PRs.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.16114",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "pruebas",
+        "agentes",
+        "software"
+      ],
+      "what_changed": "Introducción de un agente que genera pruebas específicas para cambios en PRs.",
+      "why_it_matters": "Mejora la calidad y cobertura de las pruebas en el proceso de desarrollo de software.",
+      "sector_impact": "Optimización en la entrega de software más seguro y efectivo."
+    },
+    {
+      "title": "The Impact of Large Language Models (LLMs) on Code Review Process",
+      "summary": "Estudio que investiga el efecto de los LLM en la eficiencia del proceso de revisión de código en GitHub.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2508.11034",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "revisión de código",
+        "productividad",
+        "GPT"
+      ],
+      "what_changed": "Detección de cómo GPT acelera los tiempos de revisión de PR.",
+      "why_it_matters": "Demuestra cómo la AI puede reducir significativamente el tiempo de resolución en revisiones de código.",
+      "sector_impact": "Aumento en la efectividad de equipos de desarrollo y colaboración."
+    },
+    {
+      "title": "Whose Agent Are You? Multi-Layer Fingerprinting and Attribution of Autonomous Web Agents",
+      "summary": "Investigación sobre métodos para distinguir entre agentes web AI y usuarios humanos utilizando huellas multi-capa.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.20910",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "ElevenLabs",
-        "Aplicación",
-        "Automatización"
+        "seguridad",
+        "agentes web",
+        "huellas"
       ],
-      "what_changed": "Lanzamiento de una herramienta integral para la gestión de reuniones.",
-      "why_it_matters": "Facilita la organización y el seguimiento de reuniones para los equipos.",
-      "sector_impact": "Aumenta la productividad en entornos colaborativos."
+      "what_changed": "Desarrollo de un marco para identificar arquitecturas de agentes web.",
+      "why_it_matters": "Aumenta la protección de contenido y políticas de seguridad web.",
+      "sector_impact": "Mejora la seguridad en aplicaciones web que utilizan agentes autónomos."
     },
     {
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "summary": "Tabletop es un nuevo experimento de Google Labs para la colaboración grupal. Crea itinerarios interactivos, encuestas y más con tu equipo. Únete a la lista de espera.",
+      "title": "Can LLMs Fix It Without Code? Toward Automated Verification of No-Code Bug Fixes",
+      "summary": "Evaluación automatizada de arreglos de bugs sin código generados por LLMs en un entorno real de navegador.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.11963",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "verificación",
+        "sin código",
+        "bugs"
+      ],
+      "what_changed": "Implementación de un pipeline automatizado para evaluar arreglos de bugs no codificados generados por LLM.",
+      "why_it_matters": "Reduce el tiempo de verificación y validación de soluciones propuestas.",
+      "sector_impact": "Mejora la eficiencia en la gestión de problemas de software."
+    },
+    {
+      "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
+      "summary": "Sistema de IA para ayudar a educadores a crear simulaciones educativas adaptativas.",
       "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.16986",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Google",
-        "Colaboración",
-        "Herramienta"
-      ],
-      "what_changed": "Presentación de una herramienta para colaboración en grupo.",
-      "why_it_matters": "Fomenta la colaboración efectiva y la creatividad en equipos.",
-      "sector_impact": "Transforma la forma en que los equipos colaboran y organizan proyectos."
-    },
-    {
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "summary": "",
-      "category": "framework",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Hugging Face",
-        "Framework",
-        "Ecosistema"
-      ],
-      "what_changed": "Lanzamiento de un nuevo framework para el ecosistema de IA.",
-      "why_it_matters": "Mejora las capacidades de desarrollo local en IA.",
-      "sector_impact": "Fortalece el desarrollo de modelos de IA en plataformas locales."
-    },
-    {
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "summary": "",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/3d-lora-finetuning",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Hugging Face",
-        "Guía",
-        "Modelos 3D"
-      ],
-      "what_changed": "Publicación de una guía definitiva para ajuste fino de modelos de generación 3D.",
-      "why_it_matters": "Ayuda a desarrolladores a optimizar modelos 3D.",
-      "sector_impact": "Impacta la calidad y eficiencia de la generación 3D en aplicaciones."
-    },
-    {
-      "title": "Decision Models in Hugging Face",
-      "summary": "",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/decision",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Hugging Face",
-        "Modelos",
-        "Toma de Decisiones"
-      ],
-      "what_changed": "Introducción de nuevos modelos de decisión en Hugging Face.",
-      "why_it_matters": "Ofrece soluciones avanzadas para modelos de toma de decisiones.",
-      "sector_impact": "Enriquece la gama de herramientas disponibles para IA."
-    },
-    {
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
-      "summary": "Nueva investigación muestra que los modelos de IA más avanzados de China fueron entrenados con chips de Nvidia prohibidos.",
-      "category": "model",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Nvidia",
-        "Modelos",
+        "educación",
+        "simulación",
         "IA"
       ],
-      "what_changed": "Revelación sobre el uso de tecnología prohibida en modelos de IA.",
-      "why_it_matters": "Plantea preocupaciones de seguridad y competencia en IA.",
-      "sector_impact": "Puede afectar la regulación y el desarrollo de la tecnología de IA globalmente."
+      "what_changed": "Introducción de un sistema que permite a los educadores crear simulaciones fácilmente.",
+      "why_it_matters": "Facilita la creación de experiencias de aprendizaje eficaces y contextualizadas.",
+      "sector_impact": "Impulsa nuevas formas de enseñanza y aprendizaje en el ámbito educativo."
     }
   ]
 }

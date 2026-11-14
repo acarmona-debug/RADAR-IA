@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-11-14",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Multi-Task Self-Evolving Harnesses with the Agent as Its Own Optimizer",
+          "summary": "Propuesta de un framework que permite a los agentes mejorar sus propios harnesses mediante un proceso de evolución recursiva.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38372",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "evolución",
+            "agentes",
+            "optimización"
+          ],
+          "what_changed": "Introducción de un sistema de auto-evolución para agentes AI.",
+          "why_it_matters": "Permite que los modelos mejoren de manera autónoma, aumentando la efectividad en tareas diversas.",
+          "sector_impact": "Potencial ampliación en la eficiencia de la resolución de tareas en múltiples dominios."
+        },
+        {
+          "title": "BELLS-O: Evaluating the Operational Trade-offs of LLM Supervision Systems",
+          "summary": "Un benchmark independiente que evalúa 33 sistemas de supervisión LLM en cuanto a eficiencia operacional y costos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.20668",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "supervisión",
+            "evaluación",
+            "costos"
+          ],
+          "what_changed": "Desarrollo de un marco operativo para evaluar sistemas de supervisión de LLM.",
+          "why_it_matters": "Ofrece herramientas precisas para seleccionar supervisores adecuados en AI aplicada.",
+          "sector_impact": "Impacto directo en la gestión de la seguridad en aplicaciones AI."
+        },
+        {
+          "title": "ADAPT: Agentic Diff-Aware Patch Testing for Pull Requests",
+          "summary": "Propuesta de un enfoque de generación de pruebas que utiliza agentes autónomos para producir pruebas enfocadas en cambios para PRs.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.16114",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "pruebas",
+            "agentes",
+            "software"
+          ],
+          "what_changed": "Introducción de un agente que genera pruebas específicas para cambios en PRs.",
+          "why_it_matters": "Mejora la calidad y cobertura de las pruebas en el proceso de desarrollo de software.",
+          "sector_impact": "Optimización en la entrega de software más seguro y efectivo."
+        },
+        {
+          "title": "The Impact of Large Language Models (LLMs) on Code Review Process",
+          "summary": "Estudio que investiga el efecto de los LLM en la eficiencia del proceso de revisión de código en GitHub.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2508.11034",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "revisión de código",
+            "productividad",
+            "GPT"
+          ],
+          "what_changed": "Detección de cómo GPT acelera los tiempos de revisión de PR.",
+          "why_it_matters": "Demuestra cómo la AI puede reducir significativamente el tiempo de resolución en revisiones de código.",
+          "sector_impact": "Aumento en la efectividad de equipos de desarrollo y colaboración."
+        },
+        {
+          "title": "Whose Agent Are You? Multi-Layer Fingerprinting and Attribution of Autonomous Web Agents",
+          "summary": "Investigación sobre métodos para distinguir entre agentes web AI y usuarios humanos utilizando huellas multi-capa.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.20910",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes web",
+            "huellas"
+          ],
+          "what_changed": "Desarrollo de un marco para identificar arquitecturas de agentes web.",
+          "why_it_matters": "Aumenta la protección de contenido y políticas de seguridad web.",
+          "sector_impact": "Mejora la seguridad en aplicaciones web que utilizan agentes autónomos."
+        },
+        {
+          "title": "Can LLMs Fix It Without Code? Toward Automated Verification of No-Code Bug Fixes",
+          "summary": "Evaluación automatizada de arreglos de bugs sin código generados por LLMs en un entorno real de navegador.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.11963",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "verificación",
+            "sin código",
+            "bugs"
+          ],
+          "what_changed": "Implementación de un pipeline automatizado para evaluar arreglos de bugs no codificados generados por LLM.",
+          "why_it_matters": "Reduce el tiempo de verificación y validación de soluciones propuestas.",
+          "sector_impact": "Mejora la eficiencia en la gestión de problemas de software."
+        },
+        {
+          "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
+          "summary": "Sistema de IA para ayudar a educadores a crear simulaciones educativas adaptativas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.16986",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "educación",
+            "simulación",
+            "IA"
+          ],
+          "what_changed": "Introducción de un sistema que permite a los educadores crear simulaciones fácilmente.",
+          "why_it_matters": "Facilita la creación de experiencias de aprendizaje eficaces y contextualizadas.",
+          "sector_impact": "Impulsa nuevas formas de enseñanza y aprendizaje en el ámbito educativo."
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -793,131 +918,6 @@
           "what_changed": "Demostración de un modelo de voz innovador.",
           "why_it_matters": "Amplía las capacidades de producción de audio con IA.",
           "sector_impact": "Transforma la creación de contenido multimedia."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup",
-          "summary": "Un enfoque híbrido de apilamiento AI que reduce costos ineficaces en el desarrollo de software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.08116",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "AI",
-            "startups",
-            "self-hosted"
-          ],
-          "what_changed": "Uso de un enfoque híbrido para manejar tareas complejas y simples.",
-          "why_it_matters": "Reduce significativamente los costos de uso de agent comerciales.",
-          "sector_impact": "Mejora la eficiencia en startups tecnológicas."
-        },
-        {
-          "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-          "summary": "Presenta primitivos nativos de agente para abordar tareas del mundo real con mayor eficacia.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.07461",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "AGI",
-            "primitives",
-            "agent"
-          ],
-          "what_changed": "Introducción de primitivos que permiten una aplicación contextual más efectiva.",
-          "why_it_matters": "Aumenta la tasa de éxito en tareas del mundo real.",
-          "sector_impact": "Impacto en frentes de desarrollo ágil y automatización."
-        },
-        {
-          "title": "EnvOpt: Automated Optimization for Agent Environments",
-          "summary": "Un método que optimiza ambientes estacionarios para mejorar el rendimiento de agentes LLM.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.07372",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "optimization",
-            "agent",
-            "automation"
-          ],
-          "what_changed": "Aparición de una nueva metodología para evaluar ambientes de trabajo.",
-          "why_it_matters": "Reducir costos operativos y aumentar la eficacia de los agentes.",
-          "sector_impact": "Transforma operaciones en entornos laborales complejos."
-        },
-        {
-          "title": "Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment",
-          "summary": "Analiza la eficacia del monitoreo de pensamiento encadenado en la detección de desalineaciones.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.07586",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "monitoring",
-            "safety",
-            "AI"
-          ],
-          "what_changed": "Establecimiento de un marco de pruebas para monitorear el proceso de pensamiento.",
-          "why_it_matters": "Refuerza las medidas de seguridad en sistemas autónomos.",
-          "sector_impact": "Mejora la confianza en la IA autónoma."
-        },
-        {
-          "title": "Leveraging ChatGPT's Multimodal Vision Capabilities to Rank Satellite Images by Poverty Level",
-          "summary": "Uso de capacidades multimodales de ChatGPT para clasificar imágenes satelitales basado en niveles de pobreza.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2501.14546",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "multimodal",
-            "ChatGPT",
-            "vision"
-          ],
-          "what_changed": "Aplicación innovadora de modelos LLM a objetivos sociales.",
-          "why_it_matters": "Ofrece nuevas formas de investigar la pobreza social.",
-          "sector_impact": ""
-        },
-        {
-          "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs",
-          "summary": "Evalúa modelos LLM mediante gráficos de conocimiento para mejorar el razonamiento.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.08315",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "benchmarking",
-            "knowledge graphs",
-            "LLM"
-          ],
-          "what_changed": "Introducción de medidas para mitigar alucinaciones en modelos LLM.",
-          "why_it_matters": "Aumenta la fiabilidad en aplicaciones biomédicas.",
-          "sector_impact": "Optimiza investigación médica y cognitiva."
-        },
-        {
-          "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
-          "summary": "Estudia cómo los agentes LLM comparten información en entornos económicos.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.07667",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "multi-agent",
-            "information design",
-            "economics"
-          ],
-          "what_changed": "Formulación de políticas de divulgación de información en sistemas de LLM.",
-          "why_it_matters": "Optimiza la eficiencia en interacciones entre agentes.",
-          "sector_impact": "Transforma dinámicas económicas en entornos LLM."
         }
       ]
     }
