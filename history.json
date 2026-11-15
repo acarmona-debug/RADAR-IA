@@ -1,6 +1,80 @@
 {
   "days": [
     {
+      "date": "2026-11-15",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "AI agent startup LangChain hits $3B valuation",
+          "summary": "LangChain ahora cuenta con 7,000 clientes de su herramienta de gestión de agentes, LangSmith.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "LangChain",
+            "gestión de agentes",
+            "startup"
+          ],
+          "what_changed": "Valuación de $3B y aumento en la base de clientes.",
+          "why_it_matters": "El crecimiento de LangChain señala una creciente demanda de herramientas de gestión de agentes en IA.",
+          "sector_impact": "Impulsa la adopción de modelos de IA en diferentes industrias."
+        },
+        {
+          "title": "Muse can now place calls to US businesses — if you pay",
+          "summary": "Muse puede ahora realizar llamadas salientes a empresas en EE. UU. con un costo asociado.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Muse",
+            "llamadas",
+            "AI"
+          ],
+          "what_changed": "Introducción de un nuevo servicio de llamadas.",
+          "why_it_matters": "Permite la interacción directa entre IA y empresas, potenciando la automatización.",
+          "sector_impact": "Beneficia a sectores que requieren comunicación continua, como ventas y soporte."
+        },
+        {
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "summary": "El CEO de Hugging Face se compromete a continuar apoyando la IA de código abierto tras la salida de Huang.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "código abierto",
+            "IA"
+          ],
+          "what_changed": "Reafirmación del compromiso con el código abierto.",
+          "why_it_matters": "El código abierto es fundamental para la innovación y colaboración en IA.",
+          "sector_impact": "Fomenta un ecosistema de desarrollo más inclusivo."
+        },
+        {
+          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+          "summary": "Nebius planea financiar una expansión de infraestructura de IA de $40 mil millones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Nebius",
+            "infraestructura",
+            "neocloud"
+          ],
+          "what_changed": "Plan de inversión significativa en infraestructura de IA.",
+          "why_it_matters": "Un impulso masivo a la infraestructura de IA puede acelerar la adopción de tecnologías avanzadas.",
+          "sector_impact": "Impacto directo en la capacidad de las empresas para implementar soluciones de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-11-14",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -775,149 +849,6 @@
           "what_changed": "Implementación de mensajería para mejorar la experiencia de compra.",
           "why_it_matters": "Aumenta la conveniencia y eficiencia para los usuarios.",
           "sector_impact": "Mejora la competitividad en el mercado de asistentes virtuales."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-          "summary": "Gemini Omni 1.2 Flash trae generación y edición de video nativo de 15 segundos, mayor consistencia y precios un 30% más bajos.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "Gemini",
-            "video",
-            "edición"
-          ],
-          "what_changed": "Mejoras en la generación y edición de video.",
-          "why_it_matters": "Permite a los desarrolladores crear contenido más eficiente y accesible.",
-          "sector_impact": "Transforma el contenido digital y el marketing."
-        },
-        {
-          "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-          "summary": "Spaces promete ser una nueva forma de interactuar con los agentes IA de Meta.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "colaboración",
-            "agentes"
-          ],
-          "what_changed": "Introducción de nuevas funciones para colaboración.",
-          "why_it_matters": "Revoluciona cómo los usuarios interactúan con agentes de IA.",
-          "sector_impact": "Aumenta la eficiencia en el trabajo colaborativo."
-        },
-        {
-          "title": "Claude can now analyze your spending with its new Personal Finance tool",
-          "summary": "Con Personal Finance, los usuarios pueden conectar sus cuentas bancarias y hacer preguntas sobre sus finanzas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Claude",
-            "finanzas",
-            "herramienta"
-          ],
-          "what_changed": "Se añaden funciones de análisis financiero.",
-          "why_it_matters": "Facilita la gestión financiera personal.",
-          "sector_impact": "Impulsa el uso de IA en el ámbito financiero."
-        },
-        {
-          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-          "summary": "El agente de IA ayudará a los viajeros a planificar viajes, comparar opciones y gestionar reservas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Airbnb",
-            "agente de viaje",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de un agente de IA para asistencia en viajes.",
-          "why_it_matters": "Transforma la experiencia de planificación de viajes.",
-          "sector_impact": "Revoluciona la industria del turismo."
-        },
-        {
-          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-          "summary": "Se encontraron servidores que alojan la herramienta de pruebas de penetración Artex expuestos a internet.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "hacking",
-            "Artex"
-          ],
-          "what_changed": "Exposición pública de herramientas de hacking.",
-          "why_it_matters": "Plantea serias preocupaciones de seguridad.",
-          "sector_impact": "Impacta la seguridad cibernética global."
-        },
-        {
-          "title": "OpenAI released a new cybersecurity model. Is that enough?",
-          "summary": "El nuevo modelo de ciberseguridad de OpenAI llega en un momento crítico para proteger la infraestructura digital.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "OpenAI",
-            "ciberseguridad",
-            "modelo"
-          ],
-          "what_changed": "Nuevo enfoque en la protección de infraestructura digital.",
-          "why_it_matters": "Es crucial para afrontar las crecientes amenazas cibernéticas.",
-          "sector_impact": "Fortalece la seguridad en el ámbito tecnológico."
-        },
-        {
-          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-          "summary": "Clutch, que está respaldado por Lightspeed y SignalFire, fue valorado en $85 millones.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Palo Alto",
-            "Clutch",
-            "seguridad",
-            "IA"
-          ],
-          "what_changed": "Adquisición de una startup de seguridad en IA.",
-          "why_it_matters": "Refuerza la jugada de Palo Alto en el mercado de seguridad.",
-          "sector_impact": "Aumenta la competitividad en el sector de seguridad cibernética."
-        },
-        {
-          "title": "Underdog shows off a 32MB speech model in new demo",
-          "summary": "El nuevo modelo de Underdog puede generar tanto discurso como música a pesar de su tamaño compacto.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Underdog",
-            "modelo de voz",
-            "IA"
-          ],
-          "what_changed": "Demostración de un modelo de voz innovador.",
-          "why_it_matters": "Amplía las capacidades de producción de audio con IA.",
-          "sector_impact": "Transforma la creación de contenido multimedia."
         }
       ]
     }

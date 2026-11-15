@@ -1,127 +1,76 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas actualizaciones sobre herramientas, modelos y frameworks de inteligencia artificial.",
-  "opening_message": "Aquí tienes los desarrollos más relevantes en el ámbito de la inteligencia artificial, priorizando herramientas y modelos que pueden transformar la automatización y la creación de nuevas características.",
+  "intro_message": "Bienvenidos al radar de innovación en inteligencia artificial, donde destacamos las herramientas y modelos más cruciales del momento.",
+  "opening_message": "Este informe se centra en las últimas herramientas, modelos y características que están transformando el panorama de la inteligencia artificial.",
   "items": [
     {
-      "title": "Multi-Task Self-Evolving Harnesses with the Agent as Its Own Optimizer",
-      "summary": "Propuesta de un framework que permite a los agentes mejorar sus propios harnesses mediante un proceso de evolución recursiva.",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "summary": "LangChain ahora cuenta con 7,000 clientes de su herramienta de gestión de agentes, LangSmith.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "LangChain",
+        "gestión de agentes",
+        "startup"
+      ],
+      "what_changed": "Valuación de $3B y aumento en la base de clientes.",
+      "why_it_matters": "El crecimiento de LangChain señala una creciente demanda de herramientas de gestión de agentes en IA.",
+      "sector_impact": "Impulsa la adopción de modelos de IA en diferentes industrias."
+    },
+    {
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "summary": "Muse puede ahora realizar llamadas salientes a empresas en EE. UU. con un costo asociado.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "Muse",
+        "llamadas",
+        "AI"
+      ],
+      "what_changed": "Introducción de un nuevo servicio de llamadas.",
+      "why_it_matters": "Permite la interacción directa entre IA y empresas, potenciando la automatización.",
+      "sector_impact": "Beneficia a sectores que requieren comunicación continua, como ventas y soporte."
+    },
+    {
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "summary": "El CEO de Hugging Face se compromete a continuar apoyando la IA de código abierto tras la salida de Huang.",
       "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38372",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "evolución",
-        "agentes",
-        "optimización"
-      ],
-      "what_changed": "Introducción de un sistema de auto-evolución para agentes AI.",
-      "why_it_matters": "Permite que los modelos mejoren de manera autónoma, aumentando la efectividad en tareas diversas.",
-      "sector_impact": "Potencial ampliación en la eficiencia de la resolución de tareas en múltiples dominios."
-    },
-    {
-      "title": "BELLS-O: Evaluating the Operational Trade-offs of LLM Supervision Systems",
-      "summary": "Un benchmark independiente que evalúa 33 sistemas de supervisión LLM en cuanto a eficiencia operacional y costos.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.20668",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "supervisión",
-        "evaluación",
-        "costos"
-      ],
-      "what_changed": "Desarrollo de un marco operativo para evaluar sistemas de supervisión de LLM.",
-      "why_it_matters": "Ofrece herramientas precisas para seleccionar supervisores adecuados en AI aplicada.",
-      "sector_impact": "Impacto directo en la gestión de la seguridad en aplicaciones AI."
-    },
-    {
-      "title": "ADAPT: Agentic Diff-Aware Patch Testing for Pull Requests",
-      "summary": "Propuesta de un enfoque de generación de pruebas que utiliza agentes autónomos para producir pruebas enfocadas en cambios para PRs.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.16114",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "pruebas",
-        "agentes",
-        "software"
-      ],
-      "what_changed": "Introducción de un agente que genera pruebas específicas para cambios en PRs.",
-      "why_it_matters": "Mejora la calidad y cobertura de las pruebas en el proceso de desarrollo de software.",
-      "sector_impact": "Optimización en la entrega de software más seguro y efectivo."
-    },
-    {
-      "title": "The Impact of Large Language Models (LLMs) on Code Review Process",
-      "summary": "Estudio que investiga el efecto de los LLM en la eficiencia del proceso de revisión de código en GitHub.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2508.11034",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "revisión de código",
-        "productividad",
-        "GPT"
-      ],
-      "what_changed": "Detección de cómo GPT acelera los tiempos de revisión de PR.",
-      "why_it_matters": "Demuestra cómo la AI puede reducir significativamente el tiempo de resolución en revisiones de código.",
-      "sector_impact": "Aumento en la efectividad de equipos de desarrollo y colaboración."
-    },
-    {
-      "title": "Whose Agent Are You? Multi-Layer Fingerprinting and Attribution of Autonomous Web Agents",
-      "summary": "Investigación sobre métodos para distinguir entre agentes web AI y usuarios humanos utilizando huellas multi-capa.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.20910",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "seguridad",
-        "agentes web",
-        "huellas"
-      ],
-      "what_changed": "Desarrollo de un marco para identificar arquitecturas de agentes web.",
-      "why_it_matters": "Aumenta la protección de contenido y políticas de seguridad web.",
-      "sector_impact": "Mejora la seguridad en aplicaciones web que utilizan agentes autónomos."
-    },
-    {
-      "title": "Can LLMs Fix It Without Code? Toward Automated Verification of No-Code Bug Fixes",
-      "summary": "Evaluación automatizada de arreglos de bugs sin código generados por LLMs en un entorno real de navegador.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.11963",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "verificación",
-        "sin código",
-        "bugs"
-      ],
-      "what_changed": "Implementación de un pipeline automatizado para evaluar arreglos de bugs no codificados generados por LLM.",
-      "why_it_matters": "Reduce el tiempo de verificación y validación de soluciones propuestas.",
-      "sector_impact": "Mejora la eficiencia en la gestión de problemas de software."
-    },
-    {
-      "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
-      "summary": "Sistema de IA para ayudar a educadores a crear simulaciones educativas adaptativas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.16986",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "educación",
-        "simulación",
+        "Hugging Face",
+        "código abierto",
         "IA"
       ],
-      "what_changed": "Introducción de un sistema que permite a los educadores crear simulaciones fácilmente.",
-      "why_it_matters": "Facilita la creación de experiencias de aprendizaje eficaces y contextualizadas.",
-      "sector_impact": "Impulsa nuevas formas de enseñanza y aprendizaje en el ámbito educativo."
+      "what_changed": "Reafirmación del compromiso con el código abierto.",
+      "why_it_matters": "El código abierto es fundamental para la innovación y colaboración en IA.",
+      "sector_impact": "Fomenta un ecosistema de desarrollo más inclusivo."
+    },
+    {
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "summary": "Nebius planea financiar una expansión de infraestructura de IA de $40 mil millones.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Nebius",
+        "infraestructura",
+        "neocloud"
+      ],
+      "what_changed": "Plan de inversión significativa en infraestructura de IA.",
+      "why_it_matters": "Un impulso masivo a la infraestructura de IA puede acelerar la adopción de tecnologías avanzadas.",
+      "sector_impact": "Impacto directo en la capacidad de las empresas para implementar soluciones de IA."
     }
   ]
 }
