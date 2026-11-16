@@ -1,76 +1,120 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Bienvenidos al radar de innovación en inteligencia artificial, donde destacamos las herramientas y modelos más cruciales del momento.",
-  "opening_message": "Este informe se centra en las últimas herramientas, modelos y características que están transformando el panorama de la inteligencia artificial.",
+  "intro_message": "Resumen de las últimas innovaciones en herramientas y modelos de IA.",
+  "opening_message": "A continuación, se presentan los lanzamientos más relevantes para desarrolladores y automatización en el ámbito de la inteligencia artificial.",
   "items": [
     {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "summary": "LangChain ahora cuenta con 7,000 clientes de su herramienta de gestión de agentes, LangSmith.",
+      "title": "WebArena-Pro: Un nuevo benchmark para Web Agents multimodales",
+      "summary": "Benchmark que evalúa agentes web que utilizan modelos de lenguaje y visión, abarcando 300 tareas a través de 20 aplicaciones web.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.17955",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "LangChain",
-        "gestión de agentes",
-        "startup"
+        "benchmark",
+        "web agents"
       ],
-      "what_changed": "Valuación de $3B y aumento en la base de clientes.",
-      "why_it_matters": "El crecimiento de LangChain señala una creciente demanda de herramientas de gestión de agentes en IA.",
-      "sector_impact": "Impulsa la adopción de modelos de IA en diferentes industrias."
+      "what_changed": "Se incorpora soporte multimodal para audio y video en la evaluación de agentes web.",
+      "why_it_matters": "Brinda una cobertura amplia y aplicable para evaluar el rendimiento de agentes en escenarios reales.",
+      "sector_impact": "Mejora la evaluación de tecnologías que integran múltiples formas de contenido en entornos web."
     },
     {
-      "title": "Muse can now place calls to US businesses — if you pay",
-      "summary": "Muse puede ahora realizar llamadas salientes a empresas en EE. UU. con un costo asociado.",
+      "title": "AgenticPay: Benchmark para negociaciones multimodales",
+      "summary": "Nueva prueba que permite evaluar la capacidad de agentes multimodales para negociar en mercados realistas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.06008",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "negociación",
+        "multimodal"
+      ],
+      "what_changed": "Se integran 160 tareas en varios escenarios de negocio.",
+      "why_it_matters": "Permite a los investigadores probar la eficacia de agentes en entornos de comercio competitivos.",
+      "sector_impact": "Facilita el desarrollo de agentes capaces de negociar de manera efectiva en negocios."
+    },
+    {
+      "title": "G-CAST: Sistema de autoentrenamiento continuo para agentes de comercio electrónico",
+      "summary": "Nuevo enfoque para adaptar agentes a demandas cambiantes mediante autoentrenamiento gobernado.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.17814",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Muse",
-        "llamadas",
-        "AI"
+        "autoentrenamiento",
+        "e-commerce"
       ],
-      "what_changed": "Introducción de un nuevo servicio de llamadas.",
-      "why_it_matters": "Permite la interacción directa entre IA y empresas, potenciando la automatización.",
-      "sector_impact": "Beneficia a sectores que requieren comunicación continua, como ventas y soporte."
+      "what_changed": "Mejora el uso de nuevos comportamientos sin perder capacidades previas.",
+      "why_it_matters": "Aumenta la capacidad de los agentes para adaptarse a condiciones cambiantes en el comercio.",
+      "sector_impact": "Transforma cómo los agentes de IA interactúan en el comercio electrónico."
     },
     {
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "summary": "El CEO de Hugging Face se compromete a continuar apoyando la IA de código abierto tras la salida de Huang.",
-      "category": "framework",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "title": "WeightBench: Evaluación de modelos de lenguaje como programadores en espacio de pesos",
+      "summary": "Benchmark que evalúa la capacidad de modelos de lenguaje para editar directamente parámetros de redes neuronales.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.18553",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "benchmark",
+        "modelos de lenguaje"
+      ],
+      "what_changed": "Introduce tareas de programación en espacio de pesos para modelos de lenguaje.",
+      "why_it_matters": "Abre nuevas posibilidades para la interacción y edición en redes neuronales.",
+      "sector_impact": "Posibilita la mejora de modelos de IA mediante ajustes directos de sus parámetros."
+    },
+    {
+      "title": "LuthorSQL: Modelo Text-to-SQL no autoregresivo",
+      "summary": "Modelo diseñado para mejorar la velocidad y eficiencia de consultas SQL desde un entorno local.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.17780",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "SQL",
+        "modelo"
+      ],
+      "what_changed": "Optimiza las consultas SQL reduciendo costos y tiempo de procesamiento.",
+      "why_it_matters": "Facilita el uso de bases de datos sin dependencia de servicios externos costosos.",
+      "sector_impact": "Transforma la forma en que los agentes interactúan con bases de datos."
+    },
+    {
+      "title": "CoffeeBench: Evaluación de agentes en economías de múltiples agentes",
+      "summary": "Benchmark que simula un mercado de café para evaluar el desempeño de agentes LLM en entornos económicos.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2606.16613",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Hugging Face",
-        "código abierto",
-        "IA"
+        "benchmark",
+        "agentes"
       ],
-      "what_changed": "Reafirmación del compromiso con el código abierto.",
-      "why_it_matters": "El código abierto es fundamental para la innovación y colaboración en IA.",
-      "sector_impact": "Fomenta un ecosistema de desarrollo más inclusivo."
+      "what_changed": "Mide el ingreso neto de agentes operando en un entorno simulado.",
+      "why_it_matters": "Proporciona un entorno de prueba realista para el desarrollo de IA en finanzas y comercio.",
+      "sector_impact": "Ayuda a entender el rendimiento de agentes en escenarios comerciales complejos."
     },
     {
-      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-      "summary": "Nebius planea financiar una expansión de infraestructura de IA de $40 mil millones.",
+      "title": "ScrapeGraphAI-100k: Dataset para generación LLM con restricciones de esquema",
+      "summary": "Introduce un conjunto de datos para extracción estructurada que empareja contenido real con las peticiones y esquemas.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2602.15189",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "Nebius",
-        "infraestructura",
-        "neocloud"
+        "dataset",
+        "generación"
       ],
-      "what_changed": "Plan de inversión significativa en infraestructura de IA.",
-      "why_it_matters": "Un impulso masivo a la infraestructura de IA puede acelerar la adopción de tecnologías avanzadas.",
-      "sector_impact": "Impacto directo en la capacidad de las empresas para implementar soluciones de IA."
+      "what_changed": "Se centra en la generación de salida conforme a un esquema JSON específico.",
+      "why_it_matters": "Mejora el entrenamiento y la evaluación de modelos de generación de contenido estructurado.",
+      "sector_impact": "Revoluciona el desarrollo de herramientas de IA para la extracción de datos."
     }
   ]
 }

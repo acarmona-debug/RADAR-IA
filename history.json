@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-11-16",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "WebArena-Pro: Un nuevo benchmark para Web Agents multimodales",
+          "summary": "Benchmark que evalúa agentes web que utilizan modelos de lenguaje y visión, abarcando 300 tareas a través de 20 aplicaciones web.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.17955",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "web agents"
+          ],
+          "what_changed": "Se incorpora soporte multimodal para audio y video en la evaluación de agentes web.",
+          "why_it_matters": "Brinda una cobertura amplia y aplicable para evaluar el rendimiento de agentes en escenarios reales.",
+          "sector_impact": "Mejora la evaluación de tecnologías que integran múltiples formas de contenido en entornos web."
+        },
+        {
+          "title": "AgenticPay: Benchmark para negociaciones multimodales",
+          "summary": "Nueva prueba que permite evaluar la capacidad de agentes multimodales para negociar en mercados realistas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.06008",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "negociación",
+            "multimodal"
+          ],
+          "what_changed": "Se integran 160 tareas en varios escenarios de negocio.",
+          "why_it_matters": "Permite a los investigadores probar la eficacia de agentes en entornos de comercio competitivos.",
+          "sector_impact": "Facilita el desarrollo de agentes capaces de negociar de manera efectiva en negocios."
+        },
+        {
+          "title": "G-CAST: Sistema de autoentrenamiento continuo para agentes de comercio electrónico",
+          "summary": "Nuevo enfoque para adaptar agentes a demandas cambiantes mediante autoentrenamiento gobernado.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.17814",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "autoentrenamiento",
+            "e-commerce"
+          ],
+          "what_changed": "Mejora el uso de nuevos comportamientos sin perder capacidades previas.",
+          "why_it_matters": "Aumenta la capacidad de los agentes para adaptarse a condiciones cambiantes en el comercio.",
+          "sector_impact": "Transforma cómo los agentes de IA interactúan en el comercio electrónico."
+        },
+        {
+          "title": "WeightBench: Evaluación de modelos de lenguaje como programadores en espacio de pesos",
+          "summary": "Benchmark que evalúa la capacidad de modelos de lenguaje para editar directamente parámetros de redes neuronales.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.18553",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "modelos de lenguaje"
+          ],
+          "what_changed": "Introduce tareas de programación en espacio de pesos para modelos de lenguaje.",
+          "why_it_matters": "Abre nuevas posibilidades para la interacción y edición en redes neuronales.",
+          "sector_impact": "Posibilita la mejora de modelos de IA mediante ajustes directos de sus parámetros."
+        },
+        {
+          "title": "LuthorSQL: Modelo Text-to-SQL no autoregresivo",
+          "summary": "Modelo diseñado para mejorar la velocidad y eficiencia de consultas SQL desde un entorno local.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.17780",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "SQL",
+            "modelo"
+          ],
+          "what_changed": "Optimiza las consultas SQL reduciendo costos y tiempo de procesamiento.",
+          "why_it_matters": "Facilita el uso de bases de datos sin dependencia de servicios externos costosos.",
+          "sector_impact": "Transforma la forma en que los agentes interactúan con bases de datos."
+        },
+        {
+          "title": "CoffeeBench: Evaluación de agentes en economías de múltiples agentes",
+          "summary": "Benchmark que simula un mercado de café para evaluar el desempeño de agentes LLM en entornos económicos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2606.16613",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "agentes"
+          ],
+          "what_changed": "Mide el ingreso neto de agentes operando en un entorno simulado.",
+          "why_it_matters": "Proporciona un entorno de prueba realista para el desarrollo de IA en finanzas y comercio.",
+          "sector_impact": "Ayuda a entender el rendimiento de agentes en escenarios comerciales complejos."
+        },
+        {
+          "title": "ScrapeGraphAI-100k: Dataset para generación LLM con restricciones de esquema",
+          "summary": "Introduce un conjunto de datos para extracción estructurada que empareja contenido real con las peticiones y esquemas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2602.15189",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "dataset",
+            "generación"
+          ],
+          "what_changed": "Se centra en la generación de salida conforme a un esquema JSON específico.",
+          "why_it_matters": "Mejora el entrenamiento y la evaluación de modelos de generación de contenido estructurado.",
+          "sector_impact": "Revoluciona el desarrollo de herramientas de IA para la extracción de datos."
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -747,108 +865,6 @@
           "what_changed": "Lanzamiento de nuevos TPUs con más capacidades.",
           "why_it_matters": "Mejora el rendimiento y la seguridad en el entrenamiento de IA.",
           "sector_impact": "Extiende las capacidades de los desarrolladores en IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "summary": "Anthropic presenta nuevos modelos con mejoras en programación, razonamiento y comunicación clara.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "model",
-            "Anthropic"
-          ],
-          "what_changed": "Lanzamiento de dos nuevos modelos de IA.",
-          "why_it_matters": "Mejoras en la comunicación y capacidades técnicas son clave para aplicaciones prácticas.",
-          "sector_impact": "Impacto significativo en la eficiencia de tareas automatizadas."
-        },
-        {
-          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-          "summary": "Muse Ember ofrece un costo significativamente más bajo en comparación con competidores.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "model",
-            "Meta"
-          ],
-          "what_changed": "Lanzamiento de un modelo ligero y económico.",
-          "why_it_matters": "Facilita la accesibilidad para desarrolladores e implementaciones en servicios.",
-          "sector_impact": "Aumenta la competitividad entre modelos de IA."
-        },
-        {
-          "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
-          "summary": "Automattic lanza una plataforma para desarrollo de aplicaciones de vibe-coding.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "tool",
-            "Automattic"
-          ],
-          "what_changed": "Introducción de una nueva plataforma de desarrollo.",
-          "why_it_matters": "Competitividad en el mercado de aplicaciones de programación.",
-          "sector_impact": "Impulsa la innovación en la creación de aplicaciones."
-        },
-        {
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-          "summary": "OpenAI asegura financiación adicional en un momento crítico.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "funding",
-            "OpenAI"
-          ],
-          "what_changed": "Aumento significativo en la valoración y financiamiento.",
-          "why_it_matters": "Permite a OpenAI seguir innovando y desarrollando nuevas tecnologías.",
-          "sector_impact": "Refuerza el ecosistema de IA con nuevas capacidades."
-        },
-        {
-          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-          "summary": "Se observa una desaceleración en el gasto en IA mientras Anthropic se aproxima a su IPO.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "spending",
-            "Anthropic"
-          ],
-          "what_changed": "Análisis de la tendencia del gasto en IA.",
-          "why_it_matters": "Puede afectar la percepción del crecimiento futuro del mercado de IA.",
-          "sector_impact": "Desafíos para inversores y desarrolladores en el ecosistema."
-        },
-        {
-          "title": "Amazon now lets users text Alexa to help them shop",
-          "summary": "Amazon introduce una nueva funcionalidad para interacción con Alexa.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "tool",
-            "Amazon"
-          ],
-          "what_changed": "Implementación de mensajería para mejorar la experiencia de compra.",
-          "why_it_matters": "Aumenta la conveniencia y eficiencia para los usuarios.",
-          "sector_impact": "Mejora la competitividad en el mercado de asistentes virtuales."
         }
       ]
     }
