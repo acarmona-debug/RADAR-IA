@@ -1,120 +1,121 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de las últimas innovaciones en herramientas y modelos de IA.",
-  "opening_message": "A continuación, se presentan los lanzamientos más relevantes para desarrolladores y automatización en el ámbito de la inteligencia artificial.",
+  "intro_message": "Bienvenido al radar diario de IA, donde destacamos las últimas novedades en herramientas, modelos, y automatización.",
+  "opening_message": "Explore las innovaciones más relevantes en inteligencia artificial y automatización del día.",
   "items": [
     {
-      "title": "WebArena-Pro: Un nuevo benchmark para Web Agents multimodales",
-      "summary": "Benchmark que evalúa agentes web que utilizan modelos de lenguaje y visión, abarcando 300 tareas a través de 20 aplicaciones web.",
+      "title": "Proton’s Lumo, una alternativa centrada en la privacidad a ChatGPT y Claude, llega a escritorio",
+      "summary": "La nueva app de escritorio de Proton permite a los usuarios automatizar tareas con controles granulares sobre lo que la IA puede acceder.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.17955",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "benchmark",
-        "web agents"
+        "automación",
+        "privacidad"
       ],
-      "what_changed": "Se incorpora soporte multimodal para audio y video en la evaluación de agentes web.",
-      "why_it_matters": "Brinda una cobertura amplia y aplicable para evaluar el rendimiento de agentes en escenarios reales.",
-      "sector_impact": "Mejora la evaluación de tecnologías que integran múltiples formas de contenido en entornos web."
+      "what_changed": "Lanzamiento de una nueva aplicación de escritorio.",
+      "why_it_matters": "Ofrece una alternativa segura a los populares modelos de IA actuales.",
+      "sector_impact": "Mejora la automatización y seguridad en tareas diarias."
     },
     {
-      "title": "AgenticPay: Benchmark para negociaciones multimodales",
-      "summary": "Nueva prueba que permite evaluar la capacidad de agentes multimodales para negociar en mercados realistas.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.06008",
+      "title": "Gemini ahora disponible para ayudarte en varias tareas",
+      "summary": "Nueva integración de Gemini en Google Workspace, ayudando en coordinación de llamadas y compras.",
+      "category": "model",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "negociación",
-        "multimodal"
+        "automatización",
+        "integración"
       ],
-      "what_changed": "Se integran 160 tareas en varios escenarios de negocio.",
-      "why_it_matters": "Permite a los investigadores probar la eficacia de agentes en entornos de comercio competitivos.",
-      "sector_impact": "Facilita el desarrollo de agentes capaces de negociar de manera efectiva en negocios."
+      "what_changed": "Funciones de Gemini se amplían y vuelven gratuitas en seis países.",
+      "why_it_matters": "Aumenta la eficiencia y permite a los usuarios delegar tareas repetitivas.",
+      "sector_impact": "Transforma el manejo de tareas en entornos laborales."
     },
     {
-      "title": "G-CAST: Sistema de autoentrenamiento continuo para agentes de comercio electrónico",
-      "summary": "Nuevo enfoque para adaptar agentes a demandas cambiantes mediante autoentrenamiento gobernado.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.17814",
+      "title": "Model ML recauda $250M para automatizar el trabajo pesado en banca de inversión",
+      "summary": "La startup asegura que sus agentes comprenden el contexto completo de los acuerdos y actualizan automáticamente los modelos financieros.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "autoentrenamiento",
-        "e-commerce"
+        "automatización",
+        "finanzas"
       ],
-      "what_changed": "Mejora el uso de nuevos comportamientos sin perder capacidades previas.",
-      "why_it_matters": "Aumenta la capacidad de los agentes para adaptarse a condiciones cambiantes en el comercio.",
-      "sector_impact": "Transforma cómo los agentes de IA interactúan en el comercio electrónico."
+      "what_changed": "Financiamiento significativo para potenciar su tecnología.",
+      "why_it_matters": "Reduce la carga de trabajo en áreas críticas y mejora la precisión.",
+      "sector_impact": "Revoluciona la eficiencia en la banca de inversión."
     },
     {
-      "title": "WeightBench: Evaluación de modelos de lenguaje como programadores en espacio de pesos",
-      "summary": "Benchmark que evalúa la capacidad de modelos de lenguaje para editar directamente parámetros de redes neuronales.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.18553",
+      "title": "Gemini Tasks se expande para ayudar en llamadas y compras",
+      "summary": "La nueva manera de Gemini ayuda a coordinar tareas de llamadas y hacer compras en nombre del usuario.",
+      "category": "model",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "benchmark",
-        "modelos de lenguaje"
+        "automatización",
+        "asistente"
       ],
-      "what_changed": "Introduce tareas de programación en espacio de pesos para modelos de lenguaje.",
-      "why_it_matters": "Abre nuevas posibilidades para la interacción y edición en redes neuronales.",
-      "sector_impact": "Posibilita la mejora de modelos de IA mediante ajustes directos de sus parámetros."
+      "what_changed": "Funciones expandidas para mayor facilidad en tareas diarias.",
+      "why_it_matters": "Agiliza el manejo de tareas cotidianas.",
+      "sector_impact": "Mejora la productividad personal y profesional."
     },
     {
-      "title": "LuthorSQL: Modelo Text-to-SQL no autoregresivo",
-      "summary": "Modelo diseñado para mejorar la velocidad y eficiencia de consultas SQL desde un entorno local.",
+      "title": "Pedestal AI recauda $4.7 millones para ‘agentificar’ la cadena de suministro",
+      "summary": "La compañía utiliza IA agencial para hacer que las cadenas de suministro sean más rápidas y confiables.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.17780",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "SQL",
-        "modelo"
+        "cadena de suministro",
+        "automatización"
       ],
-      "what_changed": "Optimiza las consultas SQL reduciendo costos y tiempo de procesamiento.",
-      "why_it_matters": "Facilita el uso de bases de datos sin dependencia de servicios externos costosos.",
-      "sector_impact": "Transforma la forma en que los agentes interactúan con bases de datos."
+      "what_changed": "Inversión para desarrollar capacidades de automatización.",
+      "why_it_matters": "Aumenta la eficiencia y reduce retrasos en la producción.",
+      "sector_impact": "Transforma la logística y entrega en negocios."
     },
     {
-      "title": "CoffeeBench: Evaluación de agentes en economías de múltiples agentes",
-      "summary": "Benchmark que simula un mercado de café para evaluar el desempeño de agentes LLM en entornos económicos.",
+      "title": "Daydream presenta un nuevo agente de IA que actúa como estilista personal",
+      "summary": "Este agente de compras puede recordar tu estilo y realizar compras en tu nombre.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2606.16613",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "benchmark",
-        "agentes"
+        "moda",
+        "compras",
+        "automatización"
       ],
-      "what_changed": "Mide el ingreso neto de agentes operando en un entorno simulado.",
-      "why_it_matters": "Proporciona un entorno de prueba realista para el desarrollo de IA en finanzas y comercio.",
-      "sector_impact": "Ayuda a entender el rendimiento de agentes en escenarios comerciales complejos."
+      "what_changed": "Innovación en asistentes de compra personalizados.",
+      "why_it_matters": "Facilita la experiencia de compra individualizada.",
+      "sector_impact": "Revoluciona la forma en que los consumidores interactúan con la moda."
     },
     {
-      "title": "ScrapeGraphAI-100k: Dataset para generación LLM con restricciones de esquema",
-      "summary": "Introduce un conjunto de datos para extracción estructurada que empareja contenido real con las peticiones y esquemas.",
+      "title": "Voyage Labs recauda $12 millones para un asistente de viaje especializado",
+      "summary": "Atlas, su producto insignia, funcionará como asistente personal para la planificación de viajes.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2602.15189",
-      "relevance_score": 6,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "dataset",
-        "generación"
+        "viajes",
+        "automatización"
       ],
-      "what_changed": "Se centra en la generación de salida conforme a un esquema JSON específico.",
-      "why_it_matters": "Mejora el entrenamiento y la evaluación de modelos de generación de contenido estructurado.",
-      "sector_impact": "Revoluciona el desarrollo de herramientas de IA para la extracción de datos."
+      "what_changed": "Financiamiento para el desarrollo de un asistente de viaje AI.",
+      "why_it_matters": "Optimiza la manera en que planificamos nuestros viajes.",
+      "sector_impact": "Facilita el turismo y la exploración."
     }
   ]
 }

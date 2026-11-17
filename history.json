@@ -1,6 +1,125 @@
 {
   "days": [
     {
+      "date": "2026-11-17",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Proton’s Lumo, una alternativa centrada en la privacidad a ChatGPT y Claude, llega a escritorio",
+          "summary": "La nueva app de escritorio de Proton permite a los usuarios automatizar tareas con controles granulares sobre lo que la IA puede acceder.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "privacidad"
+          ],
+          "what_changed": "Lanzamiento de una nueva aplicación de escritorio.",
+          "why_it_matters": "Ofrece una alternativa segura a los populares modelos de IA actuales.",
+          "sector_impact": "Mejora la automatización y seguridad en tareas diarias."
+        },
+        {
+          "title": "Gemini ahora disponible para ayudarte en varias tareas",
+          "summary": "Nueva integración de Gemini en Google Workspace, ayudando en coordinación de llamadas y compras.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "integración"
+          ],
+          "what_changed": "Funciones de Gemini se amplían y vuelven gratuitas en seis países.",
+          "why_it_matters": "Aumenta la eficiencia y permite a los usuarios delegar tareas repetitivas.",
+          "sector_impact": "Transforma el manejo de tareas en entornos laborales."
+        },
+        {
+          "title": "Model ML recauda $250M para automatizar el trabajo pesado en banca de inversión",
+          "summary": "La startup asegura que sus agentes comprenden el contexto completo de los acuerdos y actualizan automáticamente los modelos financieros.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "finanzas"
+          ],
+          "what_changed": "Financiamiento significativo para potenciar su tecnología.",
+          "why_it_matters": "Reduce la carga de trabajo en áreas críticas y mejora la precisión.",
+          "sector_impact": "Revoluciona la eficiencia en la banca de inversión."
+        },
+        {
+          "title": "Gemini Tasks se expande para ayudar en llamadas y compras",
+          "summary": "La nueva manera de Gemini ayuda a coordinar tareas de llamadas y hacer compras en nombre del usuario.",
+          "category": "model",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "asistente"
+          ],
+          "what_changed": "Funciones expandidas para mayor facilidad en tareas diarias.",
+          "why_it_matters": "Agiliza el manejo de tareas cotidianas.",
+          "sector_impact": "Mejora la productividad personal y profesional."
+        },
+        {
+          "title": "Pedestal AI recauda $4.7 millones para ‘agentificar’ la cadena de suministro",
+          "summary": "La compañía utiliza IA agencial para hacer que las cadenas de suministro sean más rápidas y confiables.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "cadena de suministro",
+            "automatización"
+          ],
+          "what_changed": "Inversión para desarrollar capacidades de automatización.",
+          "why_it_matters": "Aumenta la eficiencia y reduce retrasos en la producción.",
+          "sector_impact": "Transforma la logística y entrega en negocios."
+        },
+        {
+          "title": "Daydream presenta un nuevo agente de IA que actúa como estilista personal",
+          "summary": "Este agente de compras puede recordar tu estilo y realizar compras en tu nombre.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "moda",
+            "compras",
+            "automatización"
+          ],
+          "what_changed": "Innovación en asistentes de compra personalizados.",
+          "why_it_matters": "Facilita la experiencia de compra individualizada.",
+          "sector_impact": "Revoluciona la forma en que los consumidores interactúan con la moda."
+        },
+        {
+          "title": "Voyage Labs recauda $12 millones para un asistente de viaje especializado",
+          "summary": "Atlas, su producto insignia, funcionará como asistente personal para la planificación de viajes.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "viajes",
+            "automatización"
+          ],
+          "what_changed": "Financiamiento para el desarrollo de un asistente de viaje AI.",
+          "why_it_matters": "Optimiza la manera en que planificamos nuestros viajes.",
+          "sector_impact": "Facilita el turismo y la exploración."
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -723,148 +842,6 @@
           "what_changed": "Desarrollo de un nuevo agente que procesa información jerárquica.",
           "why_it_matters": "Mejora el procesamiento de conversaciones y documentos largos.",
           "sector_impact": "Aplicaciones web"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Integración de herramientas creativas de Adobe en Google Apps",
-          "summary": "Google y Adobe están integrando herramientas de productividad y creatividad. Se pueden editar PDFs en Drive y usar Adobe AI en Gemini.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-          "relevance_score": 9,
-          "status": "new",
-          "tags": [
-            "integración",
-            "herramientas",
-            "Adobe"
-          ],
-          "what_changed": "Integración de funciones de Adobe en Google Apps.",
-          "why_it_matters": "Mejoras en la productividad y creatividad a través de la automatización.",
-          "sector_impact": "Aumenta la eficiencia en entornos laborales."
-        },
-        {
-          "title": "Claude Meetings de Anthropic",
-          "summary": "Claude puede redactar planes durante reuniones, mapear cronogramas y responder preguntas en tiempo real.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "agentes",
-            "automatización",
-            "reuniones"
-          ],
-          "what_changed": "Implementación de una función de planificación automática.",
-          "why_it_matters": "Facilita la gestión de tareas y mejora la colaboración.",
-          "sector_impact": "Transforma la dinámica en entornos laborales."
-        },
-        {
-          "title": "Nuevos perfiles de negocio en ChatGPT",
-          "summary": "OpenAI lanza nuevas funciones para hacer ChatGPT un motor de descubrimiento más robusto para empresas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "modelos",
-            "negocios"
-          ],
-          "what_changed": "Características nuevas para mejorar la interacción empresarial.",
-          "why_it_matters": "Empodera a las empresas para llegar a sus clientes de manera más efectiva.",
-          "sector_impact": "Crea nuevas oportunidades de mercado."
-        },
-        {
-          "title": "AI agents y nuevas herramientas creativas de Adobe",
-          "summary": "Adobe introduce agentes AI y herramientas en Photoshop, Premiere y Firefly.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Adobe",
-            "herramientas",
-            "IA"
-          ],
-          "what_changed": "Lanzamiento de nuevas herramientas creativas y agentes AI.",
-          "why_it_matters": "Enriquece las capacidades creativas de los usuarios.",
-          "sector_impact": "Mejora la competitividad en el sector creativo."
-        },
-        {
-          "title": "Lanzamiento de Gemini para el sector de salud",
-          "summary": "Google Cloud presenta Gemini para unificar datos clínicos y automatizar flujos de trabajo en salud.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Google",
-            "salud",
-            "automatización"
-          ],
-          "what_changed": "Automatización de flujos de trabajo clínicos.",
-          "why_it_matters": "Reduce la carga administrativa en el sector salud.",
-          "sector_impact": "Aumenta la eficiencia en servicios de salud."
-        },
-        {
-          "title": "Kora: un nuevo sistema operativo para la era de IA",
-          "summary": "Kora se lanzará como una alternativa gratuita a Windows, enfocándose en modelos e agentes de IA.",
-          "category": "sector",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Kora",
-            "sistema operativo",
-            "IA"
-          ],
-          "what_changed": "Creación de un nuevo sistema operativo centrado en IA.",
-          "why_it_matters": "Proporciona a los usuarios más opciones en su software.",
-          "sector_impact": "Introducir competencia en el mercado de sistemas operativos."
-        },
-        {
-          "title": "Muse de Meta llega a Apple Watch y Android Wear",
-          "summary": "El asistente AI de Meta ahora permite interacción a través de llamadas y mensajes en dispositivos wearable.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Meta",
-            "agentes",
-            "wearable"
-          ],
-          "what_changed": "Mayor accesibilidad de agentes AI en dispositivos portátiles.",
-          "why_it_matters": "Mejora la conectividad y funcionalidad del asistente AI.",
-          "sector_impact": "Impulsa el uso de tecnología wearable."
-        },
-        {
-          "title": "Nuevos chips TPUs de Google",
-          "summary": "Google expande su portafolio de hardware AI con nuevos chips especializados para entrenamiento de modelos.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Google",
-            "hardware",
-            "TPUs"
-          ],
-          "what_changed": "Lanzamiento de nuevos TPUs con más capacidades.",
-          "why_it_matters": "Mejora el rendimiento y la seguridad en el entrenamiento de IA.",
-          "sector_impact": "Extiende las capacidades de los desarrolladores en IA."
         }
       ]
     }
