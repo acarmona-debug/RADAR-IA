@@ -1,6 +1,141 @@
 {
   "days": [
     {
+      "date": "2026-11-18",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
+          "summary": "Un sistema que atribuye cada salida de una sesión de agente a sus entradas, mejorando la interpretabilidad de procesos de decisión.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.22511",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "interpretabilidad",
+            "LLM",
+            "governanza"
+          ],
+          "what_changed": "Presenta un sistema de gobernanza del contexto y la línea de contenido para agentes LLM.",
+          "why_it_matters": "Mejora la transparencia en la toma de decisiones de los agentes LLM.",
+          "sector_impact": "Aumenta la confiabilidad en aplicaciones que utilizan LLMs en contextos críticos."
+        },
+        {
+          "title": "RLDE: A Reinforcement Learning Framework for Interpretable Iterative Document Editing",
+          "summary": "Introducción de un marco de aprendizaje por refuerzo para la edición de documentos que hace que el proceso de edición sea interpretable y eficiente.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.22039",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "aprendizaje por refuerzo",
+            "edición de documentos"
+          ],
+          "what_changed": "Propone un enfoque de MDP para la revisión de documentos.",
+          "why_it_matters": "Permite ediciones más precisas y claras en documentos largos.",
+          "sector_impact": "Aumenta la eficiencia en la redacción y revisión documentaria, clave para el sector educativo y empresarial."
+        },
+        {
+          "title": "Evolution Under Fire: Evolving Agent Safety Harnesses",
+          "summary": "Un marco que mejora la seguridad de los agentes mediante la evolución adaptativa de arneses de seguridad.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.22583",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "agentes"
+          ],
+          "what_changed": "Introduce la evolución adaptativa de arneses de seguridad para agentes.",
+          "why_it_matters": "Permite que los agentes operen de manera más segura en entornos no confiables.",
+          "sector_impact": "Mejora la resiliencia y seguridad en aplicaciones de agentes en sectores críticos."
+        },
+        {
+          "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution",
+          "summary": "Una nueva arquitectura para la creación, alojamiento y ejecución de agentes que fomenta la interoperabilidad.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.21978",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "arquitectura",
+            "agentes"
+          ],
+          "what_changed": "Descompone roles en la creación y ejecución de agentes.",
+          "why_it_matters": "Facilita un ecosistema de agentes autónomos y servicios independientes.",
+          "sector_impact": "Permite la creación de un nuevo ecosistema de agentes en la web."
+        },
+        {
+          "title": "MatOS: An Agent Operating System for Materials Research",
+          "summary": "Un sistema operativo para agentes que mejora la investigación de materiales mediante la administración adaptable de recursos.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2610.34203",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "investigación",
+            "materiales"
+          ],
+          "what_changed": "Introducción de un sistema adaptativo para gestionar la investigación de materiales.",
+          "why_it_matters": "Incrementa la eficacia en la identificación y desarrollo de nuevos materiales.",
+          "sector_impact": "Revoluciona la investigación de materiales mediante la automatización."
+        },
+        {
+          "title": "Chaining AI Tasks with OverServe: Amplifying Resource Attacks on SaaS Agents",
+          "summary": "Un marco que incluye ataques de amplificación de recursos en agentes SaaS mediante un diseño conjunto de herramientas y prompts.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.14808",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "SaaS",
+            "seguridad"
+          ],
+          "what_changed": "Permite el diseño de ataques que consumen recursos en servicios SaaS.",
+          "why_it_matters": "Aborda preocupaciones sobre la seguridad operativa en entornos SaaS.",
+          "sector_impact": "Mejora la resiliencia en implementaciones SaaS al desafiar vulnerabilidades."
+        },
+        {
+          "title": "Reliable Evaluation of AI Agents for Investment Research",
+          "summary": "Marco para evaluar la calidad y validez de los agentes de IA en tareas de investigación financiera.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.22338",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "investigación financiera"
+          ],
+          "what_changed": "Distancia entre calidad del resultado y calidad del proceso de ejecución.",
+          "why_it_matters": "Mejora la precisión en la evaluación de agentes para investigación financiera.",
+          "sector_impact": "Aumenta la fiabilidad en el uso de IA para decisiones de inversión."
+        },
+        {
+          "title": "ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments",
+          "summary": "Un banco de pruebas con tareas de inversión bancaria que evalúa la desempeño de agentes de IA.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.22085",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "banco",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un banco de pruebas realista para evaluar tareas en un entorno bancario.",
+          "why_it_matters": "Facilita la comparación de agentes en situaciones del mundo real.",
+          "sector_impact": "Impacta el sector financiero al mejorar la calidad de los agentes de análisis."
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -717,131 +852,6 @@
           "what_changed": "Introducción de un nuevo lenguaje de marcado nativo para LLM.",
           "why_it_matters": "Facilita la integración de modelos de lenguaje en aplicaciones.",
           "sector_impact": "Mejora la interoperabilidad en el desarrollo de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Student-Aware Skill Transfer for LLM Agents",
-          "summary": "Se introduce el modelo que mejora la enseñanza entre modelos de lenguaje, generando mejores resultados de enseñanza.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.13144",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "LLM",
-            "educación",
-            "transferencia de habilidades"
-          ],
-          "what_changed": "Mejora en el procedimiento de enseñanza de modelos entre LLMs.",
-          "why_it_matters": "Optimiza la enseñanza de agentes de IA, mejorando su utilidad en tareas complejas.",
-          "sector_impact": "Educación y software AI"
-        },
-        {
-          "title": "Composable Agentic Workflows",
-          "summary": "Nuevas formas de combinar BPMN y agentes para optimizar flujos de trabajo en entornos empresariales.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.13196",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "flujos de trabajo",
-            "BPMN",
-            "agentes"
-          ],
-          "what_changed": "Se presenta un enfoque para hacer que los procesos empresariales sean más comprensibles y manejables.",
-          "why_it_matters": "Aumenta la eficiencia en el uso de herramientas de IA en la gestión de procesos.",
-          "sector_impact": "Gestión empresarial"
-        },
-        {
-          "title": "Automatización del Renombramiento Coordinado en Software",
-          "summary": "Un marco multi-agente para simplificar el proceso de renombrado en software.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2601.00482",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "renombramiento",
-            "software",
-            "agentes"
-          ],
-          "what_changed": "Automatiza el renombramiento coordinado a través de un marco multi-agente.",
-          "why_it_matters": "Reduce la carga del desarrollador al realizar tareas repetitivas.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "ExpertCrowd-SWE: Benchmark para Agentes de Codificación",
-          "summary": "Referencias para evaluar agentes de codificación autónoma en tareas complejas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.13246",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "codificación",
-            "evaluación"
-          ],
-          "what_changed": "Introducción de 100 tareas para evaluar modelos de lenguaje en programación.",
-          "why_it_matters": "Evalúa efectividad de modelos de IA en contextos de programación reales.",
-          "sector_impact": "Desarrollo de software"
-        },
-        {
-          "title": "Dr. RTL: Optimización de Diseño de Hardware",
-          "summary": "Marco de agente multi para optimización y análisis crítico en diseño RTL.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.13713",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "hardware",
-            "optimización",
-            "diseño"
-          ],
-          "what_changed": "Se automatiza la evaluación y reescritura de RTL con mejora continua.",
-          "why_it_matters": "Aumenta la eficiencia en el diseño de hardware mejorando procesos críticos.",
-          "sector_impact": "Diseño de hardware"
-        },
-        {
-          "title": "ChipOmni: Agente de IA para Automatización de Diseño Electrónico",
-          "summary": "Un sistema autónomo que integra múltiples tareas en el diseño electrónico.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.13020",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "EDI",
-            "diseño",
-            "agentes"
-          ],
-          "what_changed": "Integración de procesos de diseño en un único sistema autónomo.",
-          "why_it_matters": "Facilita la coordinación en tareas de diseño, mejorando la eficiencia.",
-          "sector_impact": "Diseño electrónico"
-        },
-        {
-          "title": "TreeAgent: Agente de Memoria Estructural",
-          "summary": "Agente que procesa datos jerárquicos de manera más efectiva.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.13946",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "data",
-            "agentes"
-          ],
-          "what_changed": "Desarrollo de un nuevo agente que procesa información jerárquica.",
-          "why_it_matters": "Mejora el procesamiento de conversaciones y documentos largos.",
-          "sector_impact": "Aplicaciones web"
         }
       ]
     }
