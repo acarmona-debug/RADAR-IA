@@ -1,137 +1,110 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Aquí tienes las últimas novedades más relevantes en herramientas, modelos y marcos para desarrolladores de IA.",
-  "opening_message": "Este radar incluye un resumen de los desarrollos más significativos en la industria de la inteligencia artificial, priorizando integraciones, automatización y características nuevas.",
+  "intro_message": "Resumen diario de las innovaciones más relevantes en herramientas y modelos de IA.",
+  "opening_message": "Este radar destaca las principales actualizaciones en la tecnología de IA, enfocándose en nuevas herramientas, modelos y características que impactan a desarrolladores y empresas.",
   "items": [
     {
-      "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
-      "summary": "Un sistema que atribuye cada salida de una sesión de agente a sus entradas, mejorando la interpretabilidad de procesos de decisión.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22511",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "interpretabilidad",
-        "LLM",
-        "governanza"
-      ],
-      "what_changed": "Presenta un sistema de gobernanza del contexto y la línea de contenido para agentes LLM.",
-      "why_it_matters": "Mejora la transparencia en la toma de decisiones de los agentes LLM.",
-      "sector_impact": "Aumenta la confiabilidad en aplicaciones que utilizan LLMs en contextos críticos."
-    },
-    {
-      "title": "RLDE: A Reinforcement Learning Framework for Interpretable Iterative Document Editing",
-      "summary": "Introducción de un marco de aprendizaje por refuerzo para la edición de documentos que hace que el proceso de edición sea interpretable y eficiente.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22039",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "aprendizaje por refuerzo",
-        "edición de documentos"
-      ],
-      "what_changed": "Propone un enfoque de MDP para la revisión de documentos.",
-      "why_it_matters": "Permite ediciones más precisas y claras en documentos largos.",
-      "sector_impact": "Aumenta la eficiencia en la redacción y revisión documentaria, clave para el sector educativo y empresarial."
-    },
-    {
-      "title": "Evolution Under Fire: Evolving Agent Safety Harnesses",
-      "summary": "Un marco que mejora la seguridad de los agentes mediante la evolución adaptativa de arneses de seguridad.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22583",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "seguridad",
-        "agentes"
-      ],
-      "what_changed": "Introduce la evolución adaptativa de arneses de seguridad para agentes.",
-      "why_it_matters": "Permite que los agentes operen de manera más segura en entornos no confiables.",
-      "sector_impact": "Mejora la resiliencia y seguridad en aplicaciones de agentes en sectores críticos."
-    },
-    {
-      "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution",
-      "summary": "Una nueva arquitectura para la creación, alojamiento y ejecución de agentes que fomenta la interoperabilidad.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.21978",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "arquitectura",
-        "agentes"
-      ],
-      "what_changed": "Descompone roles en la creación y ejecución de agentes.",
-      "why_it_matters": "Facilita un ecosistema de agentes autónomos y servicios independientes.",
-      "sector_impact": "Permite la creación de un nuevo ecosistema de agentes en la web."
-    },
-    {
-      "title": "MatOS: An Agent Operating System for Materials Research",
-      "summary": "Un sistema operativo para agentes que mejora la investigación de materiales mediante la administración adaptable de recursos.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.34203",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "investigación",
-        "materiales"
-      ],
-      "what_changed": "Introducción de un sistema adaptativo para gestionar la investigación de materiales.",
-      "why_it_matters": "Incrementa la eficacia en la identificación y desarrollo de nuevos materiales.",
-      "sector_impact": "Revoluciona la investigación de materiales mediante la automatización."
-    },
-    {
-      "title": "Chaining AI Tasks with OverServe: Amplifying Resource Attacks on SaaS Agents",
-      "summary": "Un marco que incluye ataques de amplificación de recursos en agentes SaaS mediante un diseño conjunto de herramientas y prompts.",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "summary": "Dale a tus agentes acceso a cientos de herramientas mientras usas menos tokens con Tool Retrieval, ahora en vista previa en la API de Gemini.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.14808",
-      "relevance_score": 7,
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "SaaS",
-        "seguridad"
+        "Gemini",
+        "API",
+        "herramientas"
       ],
-      "what_changed": "Permite el diseño de ataques que consumen recursos en servicios SaaS.",
-      "why_it_matters": "Aborda preocupaciones sobre la seguridad operativa en entornos SaaS.",
-      "sector_impact": "Mejora la resiliencia en implementaciones SaaS al desafiar vulnerabilidades."
+      "what_changed": "Se introdujo una nueva funcionalidad en la API para acceso a herramientas.",
+      "why_it_matters": "Optimiza el uso de tokens y aumenta la eficiencia de los agentes.",
+      "sector_impact": "Desarrollo de software"
     },
     {
-      "title": "Reliable Evaluation of AI Agents for Investment Research",
-      "summary": "Marco para evaluar la calidad y validez de los agentes de IA en tareas de investigación financiera.",
+      "title": "Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery",
+      "summary": "Presentamos Inventa, un marco para el descubrimiento científico automatizado que utiliza unidades de investigación autónomas y conocimiento verificado.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22338",
+      "source_url": "https://arxiv.org/abs/2611.21847",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "evaluación",
-        "investigación financiera"
+        "autonomía",
+        "descubrimiento",
+        "IA"
       ],
-      "what_changed": "Distancia entre calidad del resultado y calidad del proceso de ejecución.",
-      "why_it_matters": "Mejora la precisión en la evaluación de agentes para investigación financiera.",
-      "sector_impact": "Aumenta la fiabilidad en el uso de IA para decisiones de inversión."
+      "what_changed": "Creación de un marco que mejora la generación de ideas científicas.",
+      "why_it_matters": "Promueve la diversidad de ideas y la innovación en la investigación.",
+      "sector_impact": "Investigación científica"
     },
     {
-      "title": "ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments",
-      "summary": "Un banco de pruebas con tareas de inversión bancaria que evalúa la desempeño de agentes de IA.",
-      "category": "tool",
+      "title": "Verifying Agents in Rubric-Graded Environments",
+      "summary": "Estudio sistemático de verificadores en entornos de agentes evaluados por rúbrica y la introducción de BankerVerifierBench.",
+      "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22085",
+      "source_url": "https://arxiv.org/abs/2611.22841",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "verificación",
+        "agentes",
+        "evaluation"
+      ],
+      "what_changed": "Desarrollo de un conjunto de evaluación para tareas bancarias.",
+      "why_it_matters": "Mejora los protocolos de verificación de resultados de agentes de IA.",
+      "sector_impact": "Finanzas"
+    },
+    {
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "summary": "Estudio sobre cómo la gestión de contexto afecta la precisión de los agentes LLM al usar herramientas de simulación.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2610.26836",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "banco",
-        "agentes"
+        "LLM",
+        "simulación",
+        "precisión"
       ],
-      "what_changed": "Introducción de un banco de pruebas realista para evaluar tareas en un entorno bancario.",
-      "why_it_matters": "Facilita la comparación de agentes en situaciones del mundo real.",
-      "sector_impact": "Impacta el sector financiero al mejorar la calidad de los agentes de análisis."
+      "what_changed": "Identificación de pérdidas de precisión debido a la falta de contexto.",
+      "why_it_matters": "Ofrece insights sobre cómo mejorar la efectividad de los agentes de IA.",
+      "sector_impact": "Ciencia de datos"
+    },
+    {
+      "title": "CueClash: Frontier Vision-Language Models Judge 3-D Relations Close to the Picture Plane",
+      "summary": "Modelo de visión-lenguaje que evalúa relaciones en 3D en imágenes, revelando falencias en los actuales modelos.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.22180",
+      "relevance_score": 6,
+      "status": "new",
+      "tags": [
+        "visión",
+        "lenguaje",
+        "3D"
+      ],
+      "what_changed": "Separación de cue 2D y 3D para evaluación más precisa.",
+      "why_it_matters": "Aumenta la precisión de modelos de visión en la interpretación de escenas complejas.",
+      "sector_impact": "Visión por computadora"
+    },
+    {
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "summary": "Investigación sobre la capacidad de los agentes LLM para crear algoritmos de auto-mejoramiento sin guía externa.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.23219",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "auto-mejoramiento",
+        "LLM",
+        "IA"
+      ],
+      "what_changed": "Demostración de auto-aprendizaje en ambientes restrictivos de recursos.",
+      "why_it_matters": "Opera un cambio en cómo concebimos el aprendizaje automatizado en modelos de IA.",
+      "sector_impact": "Desarrollo de software"
     }
   ]
 }
