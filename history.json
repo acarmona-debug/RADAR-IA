@@ -1,6 +1,148 @@
 {
   "days": [
     {
+      "date": "2026-11-20",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds",
+          "summary": "Un marco que automatiza la construcción de entornos de ejecución para repositorios, mejorando la orquestación de agentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.23258",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "automación",
+            "entornos",
+            "agentes"
+          ],
+          "what_changed": "Presenta un enfoque integrado para la construcción de entornos científicos.",
+          "why_it_matters": "Reduce significativamente el esfuerzo manual en configuraciones complejas.",
+          "sector_impact": "Incrementa la eficiencia en computación científica."
+        },
+        {
+          "title": "Space-X: Self-Evolving Spatial Agents Weaving Clues into Evidence Chains",
+          "summary": "Un marco innovador para razonamiento espacial que mejora la construcción continua de cadenas de evidencia.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.24004",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "razonamiento",
+            "espacial",
+            "agentes"
+          ],
+          "what_changed": "Introduce un agente de ejecución que evoluciona la capacidad de razonamiento.",
+          "why_it_matters": "Mejora la precisión en la inferencia espacial utilizando múltiples modelos.",
+          "sector_impact": "Facilita el desarrollo de aplicaciones que requieren razonamiento espacial."
+        },
+        {
+          "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+          "summary": "Una arquitectura de memoria que permite a los agentes de IA adaptarse a sus propios errores sin modificar pesos de modelo.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.23588",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "memoria",
+            "empresas",
+            "agentes"
+          ],
+          "what_changed": "Usa un modelo instructor para mejorar su rendimiento sin modificaciones exhaustivas.",
+          "why_it_matters": "Aumenta la eficacia y reduce costos operativos a través de ajustes en la memoria.",
+          "sector_impact": "Aporta soluciones más económicas para la automatización empresarial."
+        },
+        {
+          "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
+          "summary": "Un marco para evaluar la capacidad de los agentes de IA de abstenerse de actuar en situaciones inciertas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.10059",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "agentes",
+            "abstención"
+          ],
+          "what_changed": "Desarrolla una evaluación sistemática para la abstención de agentes.",
+          "why_it_matters": "Reduce los riesgos asociados a decisiones erróneas de agentes autónomos.",
+          "sector_impact": "Mejora la fiabilidad en el uso de agentes de IA en procesos críticos."
+        },
+        {
+          "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+          "summary": "Un nuevo banco de pruebas diseñado para evaluar sistemas multi-agente basados en LLM en escenarios interactivos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2503.01935",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "colaboración",
+            "competencia"
+          ],
+          "what_changed": "Introducción de indicadores de rendimiento para colaboración y competencia.",
+          "why_it_matters": "Facilita la comparación efectiva de capacidades entre diversos agentes.",
+          "sector_impact": "Fortalece el desarrollo de sistemas complejos que requieren cooperación entre agentes."
+        },
+        {
+          "title": "CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation",
+          "summary": "Un marco para la reparación y generación automática de conjuntos de datos de razonamiento causal.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.24406",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "reparación de datos",
+            "agentes",
+            "causalidad"
+          ],
+          "what_changed": "Utiliza agentes para diagnóstico y reparación de datos erróneos.",
+          "why_it_matters": "Mejora la calidad de datos para modelos de razonamiento causal.",
+          "sector_impact": "Aumenta la precisión de predicciones en aplicaciones basadas en IA."
+        },
+        {
+          "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
+          "summary": "Un equipo de seguridad adaptativo que explora diferentes técnicas de inyección para asegurar agentes LLM.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.24313",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "seguridad",
+            "inyección",
+            "agentes"
+          ],
+          "what_changed": "Desarrolla un nuevo enfoque para la evaluación de la robustez de modelos.",
+          "why_it_matters": "Refuerza la seguridad en aplicaciones que utilizan IA en entornos sensibles.",
+          "sector_impact": "Aumenta la confianza en modelos de lenguaje utilizados en aplicaciones empresariales."
+        },
+        {
+          "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+          "summary": "Un agente que sintetiza puntos de control para facilitar pruebas en software interactivo.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.23257",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "pruebas",
+            "software",
+            "agentes"
+          ],
+          "what_changed": "Introduce una manera de restaurar estados profundos en software a partir de pruebas funcionales.",
+          "why_it_matters": "Un agente que sintetiza puntos de control para facilitar pruebas en software interactivo.",
+          "sector_impact": "Facilita la creación de software más robusto y fiable."
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -676,148 +818,6 @@
           "what_changed": "Introducción de un sistema que permite a los educadores crear simulaciones fácilmente.",
           "why_it_matters": "Facilita la creación de experiencias de aprendizaje eficaces y contextualizadas.",
           "sector_impact": "Impulsa nuevas formas de enseñanza y aprendizaje en el ámbito educativo."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-13",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-          "summary": "ChatGPT Wallet permite a los agentes de IA comprar y realizar pagos en nombre de los usuarios, comenzando con una implementación limitada para suscriptores Pro en EE. UU.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "ChatGPT",
-            "AI Wallet",
-            "Agentes"
-          ],
-          "what_changed": "Lanzamiento de una nueva herramienta de gestión de compras.",
-          "why_it_matters": "Facilita la vida de los usuarios al permitirles realizar compras automatizadas.",
-          "sector_impact": "Mejora la experiencia del consumidor a través de la automatización."
-        },
-        {
-          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-          "summary": "Potenciado por Gemini 4 Hydrogen, el Modo IA de Google mejora la comprensión de consultas complejas, proporcionando enlaces relevantes y respuestas visuales enriquecidas.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "Gemini",
-            "Búsqueda",
-            "AI"
-          ],
-          "what_changed": "Actualización del sistema de búsqueda de Google.",
-          "why_it_matters": "Permite a los usuarios resolver problemas complejos de manera más eficaz.",
-          "sector_impact": "Impacta positivamente en la búsqueda y acceso a información en línea."
-        },
-        {
-          "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-          "summary": "ElevenAI es una nueva aplicación de toma de notas y dictado de reuniones dirigida a equipos y empresas.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "ElevenLabs",
-            "Aplicación",
-            "Automatización"
-          ],
-          "what_changed": "Lanzamiento de una herramienta integral para la gestión de reuniones.",
-          "why_it_matters": "Facilita la organización y el seguimiento de reuniones para los equipos.",
-          "sector_impact": "Aumenta la productividad en entornos colaborativos."
-        },
-        {
-          "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-          "summary": "Tabletop es un nuevo experimento de Google Labs para la colaboración grupal. Crea itinerarios interactivos, encuestas y más con tu equipo. Únete a la lista de espera.",
-          "category": "tool",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "Google",
-            "Colaboración",
-            "Herramienta"
-          ],
-          "what_changed": "Presentación de una herramienta para colaboración en grupo.",
-          "why_it_matters": "Fomenta la colaboración efectiva y la creatividad en equipos.",
-          "sector_impact": "Transforma la forma en que los equipos colaboran y organizan proyectos."
-        },
-        {
-          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-          "summary": "",
-          "category": "framework",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "Framework",
-            "Ecosistema"
-          ],
-          "what_changed": "Lanzamiento de un nuevo framework para el ecosistema de IA.",
-          "why_it_matters": "Mejora las capacidades de desarrollo local en IA.",
-          "sector_impact": "Fortalece el desarrollo de modelos de IA en plataformas locales."
-        },
-        {
-          "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-          "summary": "",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/3d-lora-finetuning",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "Guía",
-            "Modelos 3D"
-          ],
-          "what_changed": "Publicación de una guía definitiva para ajuste fino de modelos de generación 3D.",
-          "why_it_matters": "Ayuda a desarrolladores a optimizar modelos 3D.",
-          "sector_impact": "Impacta la calidad y eficiencia de la generación 3D en aplicaciones."
-        },
-        {
-          "title": "Decision Models in Hugging Face",
-          "summary": "",
-          "category": "model",
-          "source_name": "Hugging Face",
-          "source_url": "https://huggingface.co/blog/decision",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Hugging Face",
-            "Modelos",
-            "Toma de Decisiones"
-          ],
-          "what_changed": "Introducción de nuevos modelos de decisión en Hugging Face.",
-          "why_it_matters": "Ofrece soluciones avanzadas para modelos de toma de decisiones.",
-          "sector_impact": "Enriquece la gama de herramientas disponibles para IA."
-        },
-        {
-          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
-          "summary": "Nueva investigación muestra que los modelos de IA más avanzados de China fueron entrenados con chips de Nvidia prohibidos.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "Nvidia",
-            "Modelos",
-            "IA"
-          ],
-          "what_changed": "Revelación sobre el uso de tecnología prohibida en modelos de IA.",
-          "why_it_matters": "Plantea preocupaciones de seguridad y competencia en IA.",
-          "sector_impact": "Puede afectar la regulación y el desarrollo de la tecnología de IA globalmente."
         }
       ]
     }

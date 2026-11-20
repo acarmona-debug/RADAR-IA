@@ -1,110 +1,144 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen diario de las innovaciones más relevantes en herramientas y modelos de IA.",
-  "opening_message": "Este radar destaca las principales actualizaciones en la tecnología de IA, enfocándose en nuevas herramientas, modelos y características que impactan a desarrolladores y empresas.",
+  "intro_message": "Este radar ofrece un resumen de innovaciones clave en herramientas y modelos de inteligencia artificial.",
+  "opening_message": "A continuación, se presentan las actualizaciones más relevantes en el ámbito de la IA, centradas en herramientas, modelos y nuevas integraciones.",
   "items": [
     {
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "summary": "Dale a tus agentes acceso a cientos de herramientas mientras usas menos tokens con Tool Retrieval, ahora en vista previa en la API de Gemini.",
-      "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "title": "EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds",
+      "summary": "Un marco que automatiza la construcción de entornos de ejecución para repositorios, mejorando la orquestación de agentes.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.23258",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Gemini",
-        "API",
-        "herramientas"
+        "automación",
+        "entornos",
+        "agentes"
       ],
-      "what_changed": "Se introdujo una nueva funcionalidad en la API para acceso a herramientas.",
-      "why_it_matters": "Optimiza el uso de tokens y aumenta la eficiencia de los agentes.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Presenta un enfoque integrado para la construcción de entornos científicos.",
+      "why_it_matters": "Reduce significativamente el esfuerzo manual en configuraciones complejas.",
+      "sector_impact": "Incrementa la eficiencia en computación científica."
     },
     {
-      "title": "Inventa: Decentralized Self-Improving Agents for Autonomous Scientific Discovery",
-      "summary": "Presentamos Inventa, un marco para el descubrimiento científico automatizado que utiliza unidades de investigación autónomas y conocimiento verificado.",
+      "title": "Space-X: Self-Evolving Spatial Agents Weaving Clues into Evidence Chains",
+      "summary": "Un marco innovador para razonamiento espacial que mejora la construcción continua de cadenas de evidencia.",
       "category": "framework",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.21847",
-      "relevance_score": 7,
+      "source_url": "https://arxiv.org/abs/2611.24004",
+      "relevance_score": 8,
       "status": "new",
       "tags": [
-        "autonomía",
-        "descubrimiento",
-        "IA"
+        "razonamiento",
+        "espacial",
+        "agentes"
       ],
-      "what_changed": "Creación de un marco que mejora la generación de ideas científicas.",
-      "why_it_matters": "Promueve la diversidad de ideas y la innovación en la investigación.",
-      "sector_impact": "Investigación científica"
+      "what_changed": "Introduce un agente de ejecución que evoluciona la capacidad de razonamiento.",
+      "why_it_matters": "Mejora la precisión en la inferencia espacial utilizando múltiples modelos.",
+      "sector_impact": "Facilita el desarrollo de aplicaciones que requieren razonamiento espacial."
     },
     {
-      "title": "Verifying Agents in Rubric-Graded Environments",
-      "summary": "Estudio sistemático de verificadores en entornos de agentes evaluados por rúbrica y la introducción de BankerVerifierBench.",
+      "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+      "summary": "Una arquitectura de memoria que permite a los agentes de IA adaptarse a sus propios errores sin modificar pesos de modelo.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.23588",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "memoria",
+        "empresas",
+        "agentes"
+      ],
+      "what_changed": "Usa un modelo instructor para mejorar su rendimiento sin modificaciones exhaustivas.",
+      "why_it_matters": "Aumenta la eficacia y reduce costos operativos a través de ajustes en la memoria.",
+      "sector_impact": "Aporta soluciones más económicas para la automatización empresarial."
+    },
+    {
+      "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
+      "summary": "Un marco para evaluar la capacidad de los agentes de IA de abstenerse de actuar en situaciones inciertas.",
       "category": "model",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22841",
+      "source_url": "https://arxiv.org/abs/2607.10059",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "verificación",
+        "evaluación",
         "agentes",
-        "evaluation"
+        "abstención"
       ],
-      "what_changed": "Desarrollo de un conjunto de evaluación para tareas bancarias.",
-      "why_it_matters": "Mejora los protocolos de verificación de resultados de agentes de IA.",
-      "sector_impact": "Finanzas"
+      "what_changed": "Desarrolla una evaluación sistemática para la abstención de agentes.",
+      "why_it_matters": "Reduce los riesgos asociados a decisiones erróneas de agentes autónomos.",
+      "sector_impact": "Mejora la fiabilidad en el uso de agentes de IA en procesos críticos."
     },
     {
-      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
-      "summary": "Estudio sobre cómo la gestión de contexto afecta la precisión de los agentes LLM al usar herramientas de simulación.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2610.26836",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "LLM",
-        "simulación",
-        "precisión"
-      ],
-      "what_changed": "Identificación de pérdidas de precisión debido a la falta de contexto.",
-      "why_it_matters": "Ofrece insights sobre cómo mejorar la efectividad de los agentes de IA.",
-      "sector_impact": "Ciencia de datos"
-    },
-    {
-      "title": "CueClash: Frontier Vision-Language Models Judge 3-D Relations Close to the Picture Plane",
-      "summary": "Modelo de visión-lenguaje que evalúa relaciones en 3D en imágenes, revelando falencias en los actuales modelos.",
-      "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.22180",
-      "relevance_score": 6,
-      "status": "new",
-      "tags": [
-        "visión",
-        "lenguaje",
-        "3D"
-      ],
-      "what_changed": "Separación de cue 2D y 3D para evaluación más precisa.",
-      "why_it_matters": "Aumenta la precisión de modelos de visión en la interpretación de escenas complejas.",
-      "sector_impact": "Visión por computadora"
-    },
-    {
-      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "summary": "Investigación sobre la capacidad de los agentes LLM para crear algoritmos de auto-mejoramiento sin guía externa.",
+      "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+      "summary": "Un nuevo banco de pruebas diseñado para evaluar sistemas multi-agente basados en LLM en escenarios interactivos.",
       "category": "tool",
       "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.23219",
+      "source_url": "https://arxiv.org/abs/2503.01935",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "auto-mejoramiento",
-        "LLM",
-        "IA"
+        "evaluación",
+        "colaboración",
+        "competencia"
       ],
-      "what_changed": "Demostración de auto-aprendizaje en ambientes restrictivos de recursos.",
-      "why_it_matters": "Opera un cambio en cómo concebimos el aprendizaje automatizado en modelos de IA.",
-      "sector_impact": "Desarrollo de software"
+      "what_changed": "Introducción de indicadores de rendimiento para colaboración y competencia.",
+      "why_it_matters": "Facilita la comparación efectiva de capacidades entre diversos agentes.",
+      "sector_impact": "Fortalece el desarrollo de sistemas complejos que requieren cooperación entre agentes."
+    },
+    {
+      "title": "CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation",
+      "summary": "Un marco para la reparación y generación automática de conjuntos de datos de razonamiento causal.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.24406",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "reparación de datos",
+        "agentes",
+        "causalidad"
+      ],
+      "what_changed": "Utiliza agentes para diagnóstico y reparación de datos erróneos.",
+      "why_it_matters": "Mejora la calidad de datos para modelos de razonamiento causal.",
+      "sector_impact": "Aumenta la precisión de predicciones en aplicaciones basadas en IA."
+    },
+    {
+      "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
+      "summary": "Un equipo de seguridad adaptativo que explora diferentes técnicas de inyección para asegurar agentes LLM.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.24313",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "seguridad",
+        "inyección",
+        "agentes"
+      ],
+      "what_changed": "Desarrolla un nuevo enfoque para la evaluación de la robustez de modelos.",
+      "why_it_matters": "Refuerza la seguridad en aplicaciones que utilizan IA en entornos sensibles.",
+      "sector_impact": "Aumenta la confianza en modelos de lenguaje utilizados en aplicaciones empresariales."
+    },
+    {
+      "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+      "summary": "Un agente que sintetiza puntos de control para facilitar pruebas en software interactivo.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.23257",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "pruebas",
+        "software",
+        "agentes"
+      ],
+      "what_changed": "Introduce una manera de restaurar estados profundos en software a partir de pruebas funcionales.",
+      "why_it_matters": "Un agente que sintetiza puntos de control para facilitar pruebas en software interactivo.",
+      "sector_impact": "Facilita la creación de software más robusto y fiable."
     }
   ]
 }
