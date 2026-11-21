@@ -1,6 +1,147 @@
 {
   "days": [
     {
+      "date": "2026-11-21",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "La app de Gemini ahora disponible en dispositivos Android de menor capacidad",
+          "summary": "La app de Google Gemini ahora soporta dispositivos Android de menor memoria, permitiendo acceso a Gemini Live y creación de imágenes personalizadas.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "Android",
+            "herramientas"
+          ],
+          "what_changed": "Soporte para dispositivos Android de menor memoria.",
+          "why_it_matters": "Facilita el acceso a herramientas avanzadas de IA para un público más amplio.",
+          "sector_impact": "Aumento en la accesibilidad de tecnologías de IA."
+        },
+        {
+          "title": "Google permite que Gemini use tu Mac",
+          "summary": "La actualización más reciente de Gemini incluye un agente de IA para Mac que organiza archivos y maneja flujos de trabajo complejos.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "Mac",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un agente de IA operativo en Mac.",
+          "why_it_matters": "Mejora la productividad del usuario al automatizar tareas del sistema.",
+          "sector_impact": "Innovación en el uso de IA en sistemas operativos."
+        },
+        {
+          "title": "Apple podría estar desarrollando su propio agente de IA para Mac",
+          "summary": "Apple parece estar construyendo agentes de IA que competen con los de Meta, Claude y OpenAI.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Apple",
+            "IA",
+            "agentes"
+          ],
+          "what_changed": "Iniciativas de desarrollo de un agente de IA por parte de Apple.",
+          "why_it_matters": "Incentiva la competencia en el sector de la inteligencia artificial de consumo.",
+          "sector_impact": "Potencial transformación en la usabilidad de los dispositivos Apple."
+        },
+        {
+          "title": "Lista de los mejores agentes de IA para mensajería",
+          "summary": "Se presenta una lista de los agentes de IA más destacados que funcionan en mensajes de texto, abarcando desde asistentes generales hasta especializados.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "mensajería"
+          ],
+          "what_changed": "Creación de una lista comprensiva de agentes de IA en mensajería.",
+          "why_it_matters": "Proporciona opciones diversificadas para usuarios y desarrolladores.",
+          "sector_impact": "Ampliación del uso y la integración de IA en la comunicación cotidiana."
+        },
+        {
+          "title": "Superhuman expande su asistente Go",
+          "summary": "Superhuman está haciendo de Go su asistente central, haciéndolo disponible en Docs y Mail.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Superhuman",
+            "IA",
+            "asistente"
+          ],
+          "what_changed": "Disponibilidad del asistente Go en más aplicaciones.",
+          "why_it_matters": "Mejoras en la eficiencia de uso de herramientas de productividad.",
+          "sector_impact": "Potencial transformación en la manera en que interactuamos con las herramientas digitales."
+        },
+        {
+          "title": "Meta revela problemas con su agente de IA Muse",
+          "summary": "El agente Muse de Meta está causando confusiones en las conversaciones y expone datos privados.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "Muse",
+            "IA"
+          ],
+          "what_changed": "Problemas identificados en el funcionamiento del agente Muse.",
+          "why_it_matters": "Plantea preocupaciones sobre la privacidad en el uso de IA.",
+          "sector_impact": "Impacto en la confianza de los usuarios hacia tecnologías de IA."
+        },
+        {
+          "title": "Aparatos inteligentes para oficina que potencian el uso de IA",
+          "summary": "Se presentan seis gadgets potenciados con IA que podrían modernizar tu oficina en casa.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "gadgets",
+            "IA",
+            "oficina"
+          ],
+          "what_changed": "Introducción de nuevos gadgets inteligentes al mercado.",
+          "why_it_matters": "Facilita el trabajo remoto y mejora la eficiencia.",
+          "sector_impact": "Modificación de espacios de trabajo utilizando tecnología avanzada."
+        },
+        {
+          "title": "Modelos de series temporales en Streamhouse: nuevas fronteras y casos de uso",
+          "summary": "",
+          "category": "model",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "modelos",
+            "series temporales"
+          ],
+          "what_changed": "Desarrollo y presentación de nuevos modelos en la plataforma.",
+          "why_it_matters": "Promueve el uso de modelos avanzados para el análisis de datos.",
+          "sector_impact": "Revolucionando el análisis de datos en entornos industriales."
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -693,131 +834,6 @@
           "what_changed": "Plan de inversión significativa en infraestructura de IA.",
           "why_it_matters": "Un impulso masivo a la infraestructura de IA puede acelerar la adopción de tecnologías avanzadas.",
           "sector_impact": "Impacto directo en la capacidad de las empresas para implementar soluciones de IA."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Multi-Task Self-Evolving Harnesses with the Agent as Its Own Optimizer",
-          "summary": "Propuesta de un framework que permite a los agentes mejorar sus propios harnesses mediante un proceso de evolución recursiva.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2609.38372",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "evolución",
-            "agentes",
-            "optimización"
-          ],
-          "what_changed": "Introducción de un sistema de auto-evolución para agentes AI.",
-          "why_it_matters": "Permite que los modelos mejoren de manera autónoma, aumentando la efectividad en tareas diversas.",
-          "sector_impact": "Potencial ampliación en la eficiencia de la resolución de tareas en múltiples dominios."
-        },
-        {
-          "title": "BELLS-O: Evaluating the Operational Trade-offs of LLM Supervision Systems",
-          "summary": "Un benchmark independiente que evalúa 33 sistemas de supervisión LLM en cuanto a eficiencia operacional y costos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.20668",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "supervisión",
-            "evaluación",
-            "costos"
-          ],
-          "what_changed": "Desarrollo de un marco operativo para evaluar sistemas de supervisión de LLM.",
-          "why_it_matters": "Ofrece herramientas precisas para seleccionar supervisores adecuados en AI aplicada.",
-          "sector_impact": "Impacto directo en la gestión de la seguridad en aplicaciones AI."
-        },
-        {
-          "title": "ADAPT: Agentic Diff-Aware Patch Testing for Pull Requests",
-          "summary": "Propuesta de un enfoque de generación de pruebas que utiliza agentes autónomos para producir pruebas enfocadas en cambios para PRs.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.16114",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "pruebas",
-            "agentes",
-            "software"
-          ],
-          "what_changed": "Introducción de un agente que genera pruebas específicas para cambios en PRs.",
-          "why_it_matters": "Mejora la calidad y cobertura de las pruebas en el proceso de desarrollo de software.",
-          "sector_impact": "Optimización en la entrega de software más seguro y efectivo."
-        },
-        {
-          "title": "The Impact of Large Language Models (LLMs) on Code Review Process",
-          "summary": "Estudio que investiga el efecto de los LLM en la eficiencia del proceso de revisión de código en GitHub.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2508.11034",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "revisión de código",
-            "productividad",
-            "GPT"
-          ],
-          "what_changed": "Detección de cómo GPT acelera los tiempos de revisión de PR.",
-          "why_it_matters": "Demuestra cómo la AI puede reducir significativamente el tiempo de resolución en revisiones de código.",
-          "sector_impact": "Aumento en la efectividad de equipos de desarrollo y colaboración."
-        },
-        {
-          "title": "Whose Agent Are You? Multi-Layer Fingerprinting and Attribution of Autonomous Web Agents",
-          "summary": "Investigación sobre métodos para distinguir entre agentes web AI y usuarios humanos utilizando huellas multi-capa.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.20910",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agentes web",
-            "huellas"
-          ],
-          "what_changed": "Desarrollo de un marco para identificar arquitecturas de agentes web.",
-          "why_it_matters": "Aumenta la protección de contenido y políticas de seguridad web.",
-          "sector_impact": "Mejora la seguridad en aplicaciones web que utilizan agentes autónomos."
-        },
-        {
-          "title": "Can LLMs Fix It Without Code? Toward Automated Verification of No-Code Bug Fixes",
-          "summary": "Evaluación automatizada de arreglos de bugs sin código generados por LLMs en un entorno real de navegador.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.11963",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "verificación",
-            "sin código",
-            "bugs"
-          ],
-          "what_changed": "Implementación de un pipeline automatizado para evaluar arreglos de bugs no codificados generados por LLM.",
-          "why_it_matters": "Reduce el tiempo de verificación y validación de soluciones propuestas.",
-          "sector_impact": "Mejora la eficiencia en la gestión de problemas de software."
-        },
-        {
-          "title": "Primer: An AI Framework for Instructor-Centered Educational Simulation Creation",
-          "summary": "Sistema de IA para ayudar a educadores a crear simulaciones educativas adaptativas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.16986",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "educación",
-            "simulación",
-            "IA"
-          ],
-          "what_changed": "Introducción de un sistema que permite a los educadores crear simulaciones fácilmente.",
-          "why_it_matters": "Facilita la creación de experiencias de aprendizaje eficaces y contextualizadas.",
-          "sector_impact": "Impulsa nuevas formas de enseñanza y aprendizaje en el ámbito educativo."
         }
       ]
     }
