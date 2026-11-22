@@ -1,143 +1,125 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "executive_title": "Radar Diario de IA",
-  "intro_message": "Resumen de los últimos avances en herramientas, modelos y agentes de IA.",
-  "opening_message": "A continuación, te presentamos las últimas novedades en inteligencia artificial con un enfoque en herramientas y modelos relevantes para developers.",
+  "intro_message": "Últimas novedades y avances en la inteligencia artificial.",
+  "opening_message": "Aquí están los desarrollos más relevantes y útiles en el ámbito de la IA.",
   "items": [
     {
-      "title": "La app de Gemini ahora disponible en dispositivos Android de menor capacidad",
-      "summary": "La app de Google Gemini ahora soporta dispositivos Android de menor memoria, permitiendo acceso a Gemini Live y creación de imágenes personalizadas.",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "summary": "Una nueva herramienta para mejorar la adaptación y el rendimiento de modelos de IA.",
       "category": "tool",
-      "source_name": "Google AI",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "Gemini",
-        "Android",
-        "herramientas"
-      ],
-      "what_changed": "Soporte para dispositivos Android de menor memoria.",
-      "why_it_matters": "Facilita el acceso a herramientas avanzadas de IA para un público más amplio.",
-      "sector_impact": "Aumento en la accesibilidad de tecnologías de IA."
-    },
-    {
-      "title": "Google permite que Gemini use tu Mac",
-      "summary": "La actualización más reciente de Gemini incluye un agente de IA para Mac que organiza archivos y maneja flujos de trabajo complejos.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/harness-adapters-at-scale",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Gemini",
-        "Mac",
-        "agentes"
+        "adaptación",
+        "modelos",
+        "rendimiento"
       ],
-      "what_changed": "Introducción de un agente de IA operativo en Mac.",
-      "why_it_matters": "Mejora la productividad del usuario al automatizar tareas del sistema.",
-      "sector_impact": "Innovación en el uso de IA en sistemas operativos."
+      "what_changed": "Se han introducido adaptadores para mejorar modelos existentes.",
+      "why_it_matters": "Optimiza el rendimiento y reduce costos en aplicaciones de IA.",
+      "sector_impact": "Mejora la eficiencia en el desarrollo de IA"
     },
     {
-      "title": "Apple podría estar desarrollando su propio agente de IA para Mac",
-      "summary": "Apple parece estar construyendo agentes de IA que competen con los de Meta, Claude y OpenAI.",
-      "category": "tool",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "summary": "Un nuevo modelo que mejora la eficiencia después del entrenamiento.",
+      "category": "model",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "eficiencia",
+        "IA",
+        "modelos"
+      ],
+      "what_changed": "Se ha lanzado un modelo más eficiente.",
+      "why_it_matters": "Permite un uso más efectivo de recursos computacionales.",
+      "sector_impact": "Impulsa la adopción de modelos de IA más eficientes"
+    },
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "summary": "Signal limita la captura de pantalla para proteger la privacidad del usuario ante la vigilancia impulsada por IA.",
+      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "Apple",
-        "IA",
-        "agentes"
+        "privacidad",
+        "seguridad",
+        "IA"
       ],
-      "what_changed": "Iniciativas de desarrollo de un agente de IA por parte de Apple.",
-      "why_it_matters": "Incentiva la competencia en el sector de la inteligencia artificial de consumo.",
-      "sector_impact": "Potencial transformación en la usabilidad de los dispositivos Apple."
+      "what_changed": "Implementación de restricciones en la aplicación.",
+      "why_it_matters": "Protege la privacidad en un contexto de creciente vigilancia.",
+      "sector_impact": "Impacta en el desarrollo de normas de privacidad en aplicaciones"
     },
     {
-      "title": "Lista de los mejores agentes de IA para mensajería",
-      "summary": "Se presenta una lista de los agentes de IA más destacados que funcionan en mensajes de texto, abarcando desde asistentes generales hasta especializados.",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "summary": "Se anticipa el lanzamiento de un dispositivo de IA de Meta.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
       "relevance_score": 6,
       "status": "new",
       "tags": [
-        "agentes",
-        "mensajería"
-      ],
-      "what_changed": "Creación de una lista comprensiva de agentes de IA en mensajería.",
-      "why_it_matters": "Proporciona opciones diversificadas para usuarios y desarrolladores.",
-      "sector_impact": "Ampliación del uso y la integración de IA en la comunicación cotidiana."
-    },
-    {
-      "title": "Superhuman expande su asistente Go",
-      "summary": "Superhuman está haciendo de Go su asistente central, haciéndolo disponible en Docs y Mail.",
-      "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "Superhuman",
+        "dispositivo",
         "IA",
-        "asistente"
+        "Meta"
       ],
-      "what_changed": "Disponibilidad del asistente Go en más aplicaciones.",
-      "why_it_matters": "Mejoras en la eficiencia de uso de herramientas de productividad.",
-      "sector_impact": "Potencial transformación en la manera en que interactuamos con las herramientas digitales."
+      "what_changed": "Lanzamiento próximo de un nuevo dispositivo de IA.",
+      "why_it_matters": "Aumenta la oferta de hardware de IA en el mercado.",
+      "sector_impact": "Relevante para el consumo y uso de IA en dispositivos personales"
     },
     {
-      "title": "Meta revela problemas con su agente de IA Muse",
-      "summary": "El agente Muse de Meta está causando confusiones en las conversaciones y expone datos privados.",
-      "category": "tool",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "summary": "Expertos sugieren que los recientes fallos tecnológicos pueden estar relacionados con la IA.",
+      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source_url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Meta",
-        "Muse",
+        "ciberseguridad",
         "IA"
       ],
-      "what_changed": "Problemas identificados en el funcionamiento del agente Muse.",
-      "why_it_matters": "Plantea preocupaciones sobre la privacidad en el uso de IA.",
-      "sector_impact": "Impacto en la confianza de los usuarios hacia tecnologías de IA."
+      "what_changed": "Investigaciones sobre fallos tecnológicos recientes.",
+      "why_it_matters": "Plantea cuestiones sobre la dependencia tecnológica y riesgos.",
+      "sector_impact": "Acerque a empresas a reconsiderar sus estrategias de seguridad"
     },
     {
-      "title": "Aparatos inteligentes para oficina que potencian el uso de IA",
-      "summary": "Se presentan seis gadgets potenciados con IA que podrían modernizar tu oficina en casa.",
-      "category": "tool",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "summary": "Inteligenecia artificial ha presentado una solución a un antiguo problema matemático.",
+      "category": "labs",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "source_url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "relevance_score": 5,
       "status": "new",
       "tags": [
-        "gadgets",
-        "IA",
-        "oficina"
+        "matemáticas",
+        "IA"
       ],
-      "what_changed": "Introducción de nuevos gadgets inteligentes al mercado.",
-      "why_it_matters": "Facilita el trabajo remoto y mejora la eficiencia.",
-      "sector_impact": "Modificación de espacios de trabajo utilizando tecnología avanzada."
+      "what_changed": "Una propuesta de solución a la hipótesis de Riemann.",
+      "why_it_matters": "Puede redefinir límites de la IA en matemáticas avanzadas.",
+      "sector_impact": "Impacto en la percepción de la capacidad de la IA"
     },
     {
-      "title": "Modelos de series temporales en Streamhouse: nuevas fronteras y casos de uso",
-      "summary": "",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "relevance_score": 4,
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "summary": "Daniel Ek invierte en una startup de fusión impulsada por un investigador de IA.",
+      "category": "sector",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "relevance_score": 5,
       "status": "new",
       "tags": [
-        "Hugging Face",
-        "modelos",
-        "series temporales"
+        "startup",
+        "fusión",
+        "IA"
       ],
-      "what_changed": "Desarrollo y presentación de nuevos modelos en la plataforma.",
-      "why_it_matters": "Promueve el uso de modelos avanzados para el análisis de datos.",
-      "sector_impact": "Revolucionando el análisis de datos en entornos industriales."
+      "what_changed": "Inversión significativa en una nueva tecnología.",
+      "why_it_matters": "Potencial para revolucionar la energía limpia a través de IA.",
+      "sector_impact": "Innovación en el campo energético y tecnológico"
     }
   ]
 }
