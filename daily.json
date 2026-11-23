@@ -1,125 +1,125 @@
 {
-  "date": "2026-11-22",
-  "executive_title": "Radar Diario de IA",
-  "intro_message": "Últimas novedades y avances en la inteligencia artificial.",
-  "opening_message": "Aquí están los desarrollos más relevantes y útiles en el ámbito de la IA.",
+  "date": "2026-11-23",
+  "executive_title": "Radar diario de Innovaciones en IA",
+  "intro_message": "Bienvenidos al radar diario de avances en IA, donde destacamos las herramientas, modelos y marcos más relevantes para desarrolladores.",
+  "opening_message": "Hoy, nos enfocamos en innovaciones que transforman la automatización y optimización en el campo del desarrollo de IA.",
   "items": [
     {
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "summary": "Una nueva herramienta para mejorar la adaptación y el rendimiento de modelos de IA.",
+      "title": "Anthropic lanza Claude Ship, permitiendo que agentes de IA revisen, corrijan y aprueben cambios de código",
+      "summary": "La nueva herramienta de Anthropic busca eliminar cuellos de botella en la aprobación de código generado por IA.",
       "category": "tool",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "adaptación",
-        "modelos",
-        "rendimiento"
-      ],
-      "what_changed": "Se han introducido adaptadores para mejorar modelos existentes.",
-      "why_it_matters": "Optimiza el rendimiento y reduce costos en aplicaciones de IA.",
-      "sector_impact": "Mejora la eficiencia en el desarrollo de IA"
-    },
-    {
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "summary": "Un nuevo modelo que mejora la eficiencia después del entrenamiento.",
-      "category": "model",
-      "source_name": "Hugging Face",
-      "source_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "relevance_score": 8,
-      "status": "new",
-      "tags": [
-        "eficiencia",
-        "IA",
-        "modelos"
-      ],
-      "what_changed": "Se ha lanzado un modelo más eficiente.",
-      "why_it_matters": "Permite un uso más efectivo de recursos computacionales.",
-      "sector_impact": "Impulsa la adopción de modelos de IA más eficientes"
-    },
-    {
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "summary": "Signal limita la captura de pantalla para proteger la privacidad del usuario ante la vigilancia impulsada por IA.",
-      "category": "sector",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "relevance_score": 8,
+      "status": "new",
+      "tags": [
+        "Claude",
+        "automatización",
+        "desarrollo"
+      ],
+      "what_changed": "Nueva funcionalidad para la revisión automática de código.",
+      "why_it_matters": "Facilita el desarrollo ágil y reduce la carga de trabajo en tareas rutinarias de revisión.",
+      "sector_impact": "Mejora la eficiencia en procesos de desarrollo de software."
+    },
+    {
+      "title": "AutoDFT: un marco multiagente para cálculos DFT autónomos",
+      "summary": "AutoDFT optimiza la teoría funcional de densidad (DFT) integrando razonamiento LLM en cada etapa del ciclo DFT.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2605.26179",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "privacidad",
-        "seguridad",
-        "IA"
+        "automatización",
+        "marco",
+        "agentes"
       ],
-      "what_changed": "Implementación de restricciones en la aplicación.",
-      "why_it_matters": "Protege la privacidad en un contexto de creciente vigilancia.",
-      "sector_impact": "Impacta en el desarrollo de normas de privacidad en aplicaciones"
+      "what_changed": "Introducción de un ciclo de planificación y ejecución autónomos.",
+      "why_it_matters": "Reduce la intervención humana y mejora la confiabilidad en predicciones de propiedades.",
+      "sector_impact": "Aumenta la capacidad de transformación en la investigación de materiales."
     },
     {
-      "title": "Meta’s new Muse Charm device may cost $300",
-      "summary": "Se anticipa el lanzamiento de un dispositivo de IA de Meta.",
+      "title": "R3D: Razonamiento Cuantitativo 3D para Dispositivos Wearables Egocéntricos",
+      "summary": "R3D introduce un marco para razonar sobre datos de video 3D egocéntricos, mejorando capacidades para asistentes portátiles.",
       "category": "tool",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-      "relevance_score": 6,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.02921",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "dispositivo",
-        "IA",
-        "Meta"
+        "herramienta",
+        "razonamiento"
       ],
-      "what_changed": "Lanzamiento próximo de un nuevo dispositivo de IA.",
-      "why_it_matters": "Aumenta la oferta de hardware de IA en el mercado.",
-      "sector_impact": "Relevante para el consumo y uso de IA en dispositivos personales"
+      "what_changed": "Desarrollo de un nuevo marco de benchmarks para razonamiento espacial.",
+      "why_it_matters": "Mejora el rendimiento en tareas de razonamiento espacial crítico.",
+      "sector_impact": "Impulsa la tecnología de asistencia personal y dispositivos wearables."
     },
     {
-      "title": "These tech outages are giving Y2K, AI agent style",
-      "summary": "Expertos sugieren que los recientes fallos tecnológicos pueden estar relacionados con la IA.",
+      "title": "Multi-Task Self-Evolving Harnesses con el Agente como su Propio Optimizador",
+      "summary": "Introducción a un marco donde los agentes pueden evolucionar sus propios arneses para mejorar el rendimiento en múltiples tareas.",
+      "category": "model",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.38372",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "modelo",
+        "auto-mejora"
+      ],
+      "what_changed": "Evolución autónoma de arneses para tareas variadas.",
+      "why_it_matters": "Mejora la adaptabilidad y eficiencia en el uso de modelos de IA.",
+      "sector_impact": "Transforma la manera en que los modelos se entrenan y optimizan."
+    },
+    {
+      "title": "FUSE: Un marco modular para evaluar capacidades peligrosas de LLMs",
+      "summary": "FUSE permite comparar las capacidades de riesgo entre diferentes LLMs de manera estructurada y modular.",
+      "category": "framework",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2609.02168",
+      "relevance_score": 7,
+      "status": "new",
+      "tags": [
+        "marco",
+        "evaluación",
+        "risk"
+      ],
+      "what_changed": "Desarrollo de un perfil de capacidad de riesgo modular.",
+      "why_it_matters": "Ayuda a los reguladores a entender el riesgo asociado a diferentes modelos de IA.",
+      "sector_impact": "Impacta las normas y evaluaciones de seguridad en IA."
+    },
+    {
+      "title": "Razonamiento Cuantitativo en Egocentric Wearables con R3D-Bench",
+      "summary": "Benchmark innovador para la evaluación del razonamiento espacial en dispositivos portátiles, dirigido a mejorar la asistencia virtual.",
       "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-      "relevance_score": 5,
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2607.02921",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "ciberseguridad",
-        "IA"
+        "benchmark",
+        "desarrolladores",
+        "asistente"
       ],
-      "what_changed": "Investigaciones sobre fallos tecnológicos recientes.",
-      "why_it_matters": "Plantea cuestiones sobre la dependencia tecnológica y riesgos.",
-      "sector_impact": "Acerque a empresas a reconsiderar sus estrategias de seguridad"
+      "what_changed": "Establecimiento de un nuevo estándar para evaluar razonamiento en 3D.",
+      "why_it_matters": "Aumenta la precisión en la asistencia a través de tecnologías emergentes.",
+      "sector_impact": "Potencial para revolucionar el sector de tecnología de consumo."
     },
     {
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "summary": "Inteligenecia artificial ha presentado una solución a un antiguo problema matemático.",
-      "category": "labs",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "relevance_score": 5,
+      "title": "Evaluación de la Seguridad Personal en Agentes mediante Safe Personal RSI",
+      "summary": "Un componente de evaluación que asegura que nuevas instrucciones de un asistente personal no comprometan la seguridad.",
+      "category": "tool",
+      "source_name": "ArXiv AI",
+      "source_url": "https://arxiv.org/abs/2611.23651",
+      "relevance_score": 7,
       "status": "new",
       "tags": [
-        "matemáticas",
-        "IA"
+        "herramienta",
+        "seguridad",
+        "agentes"
       ],
-      "what_changed": "Una propuesta de solución a la hipótesis de Riemann.",
-      "why_it_matters": "Puede redefinir límites de la IA en matemáticas avanzadas.",
-      "sector_impact": "Impacto en la percepción de la capacidad de la IA"
-    },
-    {
-      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-      "summary": "Daniel Ek invierte en una startup de fusión impulsada por un investigador de IA.",
-      "category": "sector",
-      "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-      "relevance_score": 5,
-      "status": "new",
-      "tags": [
-        "startup",
-        "fusión",
-        "IA"
-      ],
-      "what_changed": "Inversión significativa en una nueva tecnología.",
-      "why_it_matters": "Potencial para revolucionar la energía limpia a través de IA.",
-      "sector_impact": "Innovación en el campo energético y tecnológico"
+      "what_changed": "Establecimiento de un sistema para validar actualizaciones en asistentes personales.",
+      "why_it_matters": "Mejora la confianza en el uso de agentes personales para tareas críticas.",
+      "sector_impact": "Refuerza la seguridad en el diseño de asistentes de IA."
     }
   ]
 }

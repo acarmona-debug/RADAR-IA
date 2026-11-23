@@ -1,6 +1,129 @@
 {
   "days": [
     {
+      "date": "2026-11-23",
+      "executive_title": "Radar diario de Innovaciones en IA",
+      "items": [
+        {
+          "title": "Anthropic lanza Claude Ship, permitiendo que agentes de IA revisen, corrijan y aprueben cambios de código",
+          "summary": "La nueva herramienta de Anthropic busca eliminar cuellos de botella en la aprobación de código generado por IA.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Claude",
+            "automatización",
+            "desarrollo"
+          ],
+          "what_changed": "Nueva funcionalidad para la revisión automática de código.",
+          "why_it_matters": "Facilita el desarrollo ágil y reduce la carga de trabajo en tareas rutinarias de revisión.",
+          "sector_impact": "Mejora la eficiencia en procesos de desarrollo de software."
+        },
+        {
+          "title": "AutoDFT: un marco multiagente para cálculos DFT autónomos",
+          "summary": "AutoDFT optimiza la teoría funcional de densidad (DFT) integrando razonamiento LLM en cada etapa del ciclo DFT.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2605.26179",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "automatización",
+            "marco",
+            "agentes"
+          ],
+          "what_changed": "Introducción de un ciclo de planificación y ejecución autónomos.",
+          "why_it_matters": "Reduce la intervención humana y mejora la confiabilidad en predicciones de propiedades.",
+          "sector_impact": "Aumenta la capacidad de transformación en la investigación de materiales."
+        },
+        {
+          "title": "R3D: Razonamiento Cuantitativo 3D para Dispositivos Wearables Egocéntricos",
+          "summary": "R3D introduce un marco para razonar sobre datos de video 3D egocéntricos, mejorando capacidades para asistentes portátiles.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.02921",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramienta",
+            "razonamiento"
+          ],
+          "what_changed": "Desarrollo de un nuevo marco de benchmarks para razonamiento espacial.",
+          "why_it_matters": "Mejora el rendimiento en tareas de razonamiento espacial crítico.",
+          "sector_impact": "Impulsa la tecnología de asistencia personal y dispositivos wearables."
+        },
+        {
+          "title": "Multi-Task Self-Evolving Harnesses con el Agente como su Propio Optimizador",
+          "summary": "Introducción a un marco donde los agentes pueden evolucionar sus propios arneses para mejorar el rendimiento en múltiples tareas.",
+          "category": "model",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.38372",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "modelo",
+            "auto-mejora"
+          ],
+          "what_changed": "Evolución autónoma de arneses para tareas variadas.",
+          "why_it_matters": "Mejora la adaptabilidad y eficiencia en el uso de modelos de IA.",
+          "sector_impact": "Transforma la manera en que los modelos se entrenan y optimizan."
+        },
+        {
+          "title": "FUSE: Un marco modular para evaluar capacidades peligrosas de LLMs",
+          "summary": "FUSE permite comparar las capacidades de riesgo entre diferentes LLMs de manera estructurada y modular.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2609.02168",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "marco",
+            "evaluación",
+            "risk"
+          ],
+          "what_changed": "Desarrollo de un perfil de capacidad de riesgo modular.",
+          "why_it_matters": "Ayuda a los reguladores a entender el riesgo asociado a diferentes modelos de IA.",
+          "sector_impact": "Impacta las normas y evaluaciones de seguridad en IA."
+        },
+        {
+          "title": "Razonamiento Cuantitativo en Egocentric Wearables con R3D-Bench",
+          "summary": "Benchmark innovador para la evaluación del razonamiento espacial en dispositivos portátiles, dirigido a mejorar la asistencia virtual.",
+          "category": "sector",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2607.02921",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "benchmark",
+            "desarrolladores",
+            "asistente"
+          ],
+          "what_changed": "Establecimiento de un nuevo estándar para evaluar razonamiento en 3D.",
+          "why_it_matters": "Aumenta la precisión en la asistencia a través de tecnologías emergentes.",
+          "sector_impact": "Potencial para revolucionar el sector de tecnología de consumo."
+        },
+        {
+          "title": "Evaluación de la Seguridad Personal en Agentes mediante Safe Personal RSI",
+          "summary": "Un componente de evaluación que asegura que nuevas instrucciones de un asistente personal no comprometan la seguridad.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.23651",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramienta",
+            "seguridad",
+            "agentes"
+          ],
+          "what_changed": "Establecimiento de un sistema para validar actualizaciones en asistentes personales.",
+          "why_it_matters": "Mejora la confianza en el uso de agentes personales para tareas críticas.",
+          "sector_impact": "Refuerza la seguridad en el diseño de asistentes de IA."
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -765,124 +888,6 @@
           "what_changed": "Financiamiento para el desarrollo de un asistente de viaje AI.",
           "why_it_matters": "Optimiza la manera en que planificamos nuestros viajes.",
           "sector_impact": "Facilita el turismo y la exploración."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-16",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "WebArena-Pro: Un nuevo benchmark para Web Agents multimodales",
-          "summary": "Benchmark que evalúa agentes web que utilizan modelos de lenguaje y visión, abarcando 300 tareas a través de 20 aplicaciones web.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.17955",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "web agents"
-          ],
-          "what_changed": "Se incorpora soporte multimodal para audio y video en la evaluación de agentes web.",
-          "why_it_matters": "Brinda una cobertura amplia y aplicable para evaluar el rendimiento de agentes en escenarios reales.",
-          "sector_impact": "Mejora la evaluación de tecnologías que integran múltiples formas de contenido en entornos web."
-        },
-        {
-          "title": "AgenticPay: Benchmark para negociaciones multimodales",
-          "summary": "Nueva prueba que permite evaluar la capacidad de agentes multimodales para negociar en mercados realistas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.06008",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "negociación",
-            "multimodal"
-          ],
-          "what_changed": "Se integran 160 tareas en varios escenarios de negocio.",
-          "why_it_matters": "Permite a los investigadores probar la eficacia de agentes en entornos de comercio competitivos.",
-          "sector_impact": "Facilita el desarrollo de agentes capaces de negociar de manera efectiva en negocios."
-        },
-        {
-          "title": "G-CAST: Sistema de autoentrenamiento continuo para agentes de comercio electrónico",
-          "summary": "Nuevo enfoque para adaptar agentes a demandas cambiantes mediante autoentrenamiento gobernado.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.17814",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "autoentrenamiento",
-            "e-commerce"
-          ],
-          "what_changed": "Mejora el uso de nuevos comportamientos sin perder capacidades previas.",
-          "why_it_matters": "Aumenta la capacidad de los agentes para adaptarse a condiciones cambiantes en el comercio.",
-          "sector_impact": "Transforma cómo los agentes de IA interactúan en el comercio electrónico."
-        },
-        {
-          "title": "WeightBench: Evaluación de modelos de lenguaje como programadores en espacio de pesos",
-          "summary": "Benchmark que evalúa la capacidad de modelos de lenguaje para editar directamente parámetros de redes neuronales.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.18553",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "modelos de lenguaje"
-          ],
-          "what_changed": "Introduce tareas de programación en espacio de pesos para modelos de lenguaje.",
-          "why_it_matters": "Abre nuevas posibilidades para la interacción y edición en redes neuronales.",
-          "sector_impact": "Posibilita la mejora de modelos de IA mediante ajustes directos de sus parámetros."
-        },
-        {
-          "title": "LuthorSQL: Modelo Text-to-SQL no autoregresivo",
-          "summary": "Modelo diseñado para mejorar la velocidad y eficiencia de consultas SQL desde un entorno local.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.17780",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "SQL",
-            "modelo"
-          ],
-          "what_changed": "Optimiza las consultas SQL reduciendo costos y tiempo de procesamiento.",
-          "why_it_matters": "Facilita el uso de bases de datos sin dependencia de servicios externos costosos.",
-          "sector_impact": "Transforma la forma en que los agentes interactúan con bases de datos."
-        },
-        {
-          "title": "CoffeeBench: Evaluación de agentes en economías de múltiples agentes",
-          "summary": "Benchmark que simula un mercado de café para evaluar el desempeño de agentes LLM en entornos económicos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2606.16613",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "benchmark",
-            "agentes"
-          ],
-          "what_changed": "Mide el ingreso neto de agentes operando en un entorno simulado.",
-          "why_it_matters": "Proporciona un entorno de prueba realista para el desarrollo de IA en finanzas y comercio.",
-          "sector_impact": "Ayuda a entender el rendimiento de agentes en escenarios comerciales complejos."
-        },
-        {
-          "title": "ScrapeGraphAI-100k: Dataset para generación LLM con restricciones de esquema",
-          "summary": "Introduce un conjunto de datos para extracción estructurada que empareja contenido real con las peticiones y esquemas.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2602.15189",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "dataset",
-            "generación"
-          ],
-          "what_changed": "Se centra en la generación de salida conforme a un esquema JSON específico.",
-          "why_it_matters": "Mejora el entrenamiento y la evaluación de modelos de generación de contenido estructurado.",
-          "sector_impact": "Revoluciona el desarrollo de herramientas de IA para la extracción de datos."
         }
       ]
     }
