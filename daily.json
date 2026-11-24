@@ -1,125 +1,127 @@
 {
-  "date": "2026-11-23",
-  "executive_title": "Radar diario de Innovaciones en IA",
-  "intro_message": "Bienvenidos al radar diario de avances en IA, donde destacamos las herramientas, modelos y marcos más relevantes para desarrolladores.",
-  "opening_message": "Hoy, nos enfocamos en innovaciones que transforman la automatización y optimización en el campo del desarrollo de IA.",
+  "date": "2026-11-24",
+  "executive_title": "Radar Diario de IA",
+  "intro_message": "Actualizaciones clave sobre herramientas y modelos de IA.",
+  "opening_message": "Aquí tienes las últimas novedades y lanzamientos en el ámbito de la inteligencia artificial.",
   "items": [
     {
-      "title": "Anthropic lanza Claude Ship, permitiendo que agentes de IA revisen, corrijan y aprueben cambios de código",
-      "summary": "La nueva herramienta de Anthropic busca eliminar cuellos de botella en la aprobación de código generado por IA.",
+      "title": "Google Search’s AI Mode puede acceder a Drive y Wallet para respuestas personalizadas",
+      "summary": "Google integra su modo de IA en Drive y Wallet para ofrecer respuestas más personalizadas utilizando datos de usuarios.",
       "category": "tool",
       "source_name": "TechCrunch AI",
-      "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source_url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
       "relevance_score": 8,
       "status": "new",
       "tags": [
-        "Claude",
-        "automatización",
-        "desarrollo"
+        "Google",
+        "IA",
+        "personalización"
       ],
-      "what_changed": "Nueva funcionalidad para la revisión automática de código.",
-      "why_it_matters": "Facilita el desarrollo ágil y reduce la carga de trabajo en tareas rutinarias de revisión.",
-      "sector_impact": "Mejora la eficiencia en procesos de desarrollo de software."
+      "what_changed": "Integración de IA con Google Drive y Wallet.",
+      "why_it_matters": "Mejora la experiencia del usuario al personalizar la búsqueda.",
+      "sector_impact": "Tecnología y servicios digitales."
     },
     {
-      "title": "AutoDFT: un marco multiagente para cálculos DFT autónomos",
-      "summary": "AutoDFT optimiza la teoría funcional de densidad (DFT) integrando razonamiento LLM en cada etapa del ciclo DFT.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2605.26179",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "automatización",
-        "marco",
-        "agentes"
-      ],
-      "what_changed": "Introducción de un ciclo de planificación y ejecución autónomos.",
-      "why_it_matters": "Reduce la intervención humana y mejora la confiabilidad en predicciones de propiedades.",
-      "sector_impact": "Aumenta la capacidad de transformación en la investigación de materiales."
-    },
-    {
-      "title": "R3D: Razonamiento Cuantitativo 3D para Dispositivos Wearables Egocéntricos",
-      "summary": "R3D introduce un marco para razonar sobre datos de video 3D egocéntricos, mejorando capacidades para asistentes portátiles.",
-      "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.02921",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "herramienta",
-        "razonamiento"
-      ],
-      "what_changed": "Desarrollo de un nuevo marco de benchmarks para razonamiento espacial.",
-      "why_it_matters": "Mejora el rendimiento en tareas de razonamiento espacial crítico.",
-      "sector_impact": "Impulsa la tecnología de asistencia personal y dispositivos wearables."
-    },
-    {
-      "title": "Multi-Task Self-Evolving Harnesses con el Agente como su Propio Optimizador",
-      "summary": "Introducción a un marco donde los agentes pueden evolucionar sus propios arneses para mejorar el rendimiento en múltiples tareas.",
+      "title": "Google Gemini transforma experiencias para fanáticos de Golden State",
+      "summary": "Gemini potencia la experiencia de los fanáticos y operaciones comerciales para el equipo de Golden State.",
       "category": "model",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.38372",
+      "source_name": "Google AI",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
       "relevance_score": 7,
       "status": "new",
       "tags": [
-        "modelo",
-        "auto-mejora"
+        "Gemini",
+        "deportes",
+        "experiencias"
       ],
-      "what_changed": "Evolución autónoma de arneses para tareas variadas.",
-      "why_it_matters": "Mejora la adaptabilidad y eficiencia en el uso de modelos de IA.",
-      "sector_impact": "Transforma la manera en que los modelos se entrenan y optimizan."
+      "what_changed": "Colaboración entre Google Gemini y Golden State.",
+      "why_it_matters": "Impulsa la interactividad con los fanáticos y optimiza operaciones.",
+      "sector_impact": "Deportes y entretenimiento."
     },
     {
-      "title": "FUSE: Un marco modular para evaluar capacidades peligrosas de LLMs",
-      "summary": "FUSE permite comparar las capacidades de riesgo entre diferentes LLMs de manera estructurada y modular.",
-      "category": "framework",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2609.02168",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "marco",
-        "evaluación",
-        "risk"
-      ],
-      "what_changed": "Desarrollo de un perfil de capacidad de riesgo modular.",
-      "why_it_matters": "Ayuda a los reguladores a entender el riesgo asociado a diferentes modelos de IA.",
-      "sector_impact": "Impacta las normas y evaluaciones de seguridad en IA."
-    },
-    {
-      "title": "Razonamiento Cuantitativo en Egocentric Wearables con R3D-Bench",
-      "summary": "Benchmark innovador para la evaluación del razonamiento espacial en dispositivos portátiles, dirigido a mejorar la asistencia virtual.",
-      "category": "sector",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2607.02921",
-      "relevance_score": 7,
-      "status": "new",
-      "tags": [
-        "benchmark",
-        "desarrolladores",
-        "asistente"
-      ],
-      "what_changed": "Establecimiento de un nuevo estándar para evaluar razonamiento en 3D.",
-      "why_it_matters": "Aumenta la precisión en la asistencia a través de tecnologías emergentes.",
-      "sector_impact": "Potencial para revolucionar el sector de tecnología de consumo."
-    },
-    {
-      "title": "Evaluación de la Seguridad Personal en Agentes mediante Safe Personal RSI",
-      "summary": "Un componente de evaluación que asegura que nuevas instrucciones de un asistente personal no comprometan la seguridad.",
+      "title": "Meta introduce su asistente IA Muse en Instagram DMs",
+      "summary": "El asistente IA de Meta se integra directamente en los mensajes de Instagram, facilitando su uso.",
       "category": "tool",
-      "source_name": "ArXiv AI",
-      "source_url": "https://arxiv.org/abs/2611.23651",
-      "relevance_score": 7,
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "relevance_score": 6,
       "status": "new",
       "tags": [
-        "herramienta",
-        "seguridad",
-        "agentes"
+        "Meta",
+        "Instagram",
+        "asistente IA"
       ],
-      "what_changed": "Establecimiento de un sistema para validar actualizaciones en asistentes personales.",
-      "why_it_matters": "Mejora la confianza en el uso de agentes personales para tareas críticas.",
-      "sector_impact": "Refuerza la seguridad en el diseño de asistentes de IA."
+      "what_changed": "El asistente IA ahora está accesible en Instagram DMs.",
+      "why_it_matters": "Facilita el acceso a la tecnología IA para los usuarios.",
+      "sector_impact": "Redes sociales y comunicación."
+    },
+    {
+      "title": "Amazon adquiere tecnología de optimización de IA de Decart por $7.5B",
+      "summary": "Amazon está comprando la tecnología de optimización de IA de Decart para mejorar su eficiencia operativa.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Amazon",
+        "Decart",
+        "tecnología IA"
+      ],
+      "what_changed": "Adquisición de tecnología clave para optimización.",
+      "why_it_matters": "Mejora la competitividad en el mercado de IA.",
+      "sector_impact": "E-commerce y tecnología."
+    },
+    {
+      "title": "Walmart se asocia con Meta para ofertas de Black Friday a través de Muse",
+      "summary": "Walmart permite a los clientes acceder a ofertas de Black Friday a través del asistente IA de Meta, Muse.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Walmart",
+        "Meta",
+        "ofertas"
+      ],
+      "what_changed": "Integración de ofertas de Walmart en el asistente IA.",
+      "why_it_matters": "Walmart permite a los clientes acceder a ofertas de Black Friday a través del asistente IA de Meta, Muse.",
+      "sector_impact": "Retail y marketing."
+    },
+    {
+      "title": "La nueva capacidad de los agentes de IA para hacer predicciones de mercado",
+      "summary": "La startup Supertake permite a los agentes de IA traducir predicciones de mercado en carteras de acciones.",
+      "category": "tool",
+      "source_name": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "relevance_score": 5,
+      "status": "new",
+      "tags": [
+        "Supertake",
+        "IA",
+        "finanzas"
+      ],
+      "what_changed": "Los agentes de IA ahora pueden gestionar inversiones.",
+      "why_it_matters": "La startup Supertake permite a los agentes de IA traducir predicciones de mercado en carteras de acciones.",
+      "sector_impact": "Finanzas y tecnología."
+    },
+    {
+      "title": "Evaluación agentiva: Construcción y mantenimiento",
+      "summary": "Guía sobre cómo construir y mantener evaluaciones para sistemas de IA autónomos.",
+      "category": "framework",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/agentic-evals",
+      "relevance_score": 4,
+      "status": "new",
+      "tags": [
+        "Hugging Face",
+        "evaluación",
+        "IA"
+      ],
+      "what_changed": "Nuevas metodologías en evaluaciones de IA.",
+      "why_it_matters": "Guía sobre cómo construir y mantener evaluaciones para sistemas de IA autónomos.",
+      "sector_impact": "IA y desarrollo de software."
     }
   ]
 }

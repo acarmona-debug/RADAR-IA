@@ -1,6 +1,131 @@
 {
   "days": [
     {
+      "date": "2026-11-24",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "Google Search’s AI Mode puede acceder a Drive y Wallet para respuestas personalizadas",
+          "summary": "Google integra su modo de IA en Drive y Wallet para ofrecer respuestas más personalizadas utilizando datos de usuarios.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Google",
+            "IA",
+            "personalización"
+          ],
+          "what_changed": "Integración de IA con Google Drive y Wallet.",
+          "why_it_matters": "Mejora la experiencia del usuario al personalizar la búsqueda.",
+          "sector_impact": "Tecnología y servicios digitales."
+        },
+        {
+          "title": "Google Gemini transforma experiencias para fanáticos de Golden State",
+          "summary": "Gemini potencia la experiencia de los fanáticos y operaciones comerciales para el equipo de Golden State.",
+          "category": "model",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "Gemini",
+            "deportes",
+            "experiencias"
+          ],
+          "what_changed": "Colaboración entre Google Gemini y Golden State.",
+          "why_it_matters": "Impulsa la interactividad con los fanáticos y optimiza operaciones.",
+          "sector_impact": "Deportes y entretenimiento."
+        },
+        {
+          "title": "Meta introduce su asistente IA Muse en Instagram DMs",
+          "summary": "El asistente IA de Meta se integra directamente en los mensajes de Instagram, facilitando su uso.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Meta",
+            "Instagram",
+            "asistente IA"
+          ],
+          "what_changed": "El asistente IA ahora está accesible en Instagram DMs.",
+          "why_it_matters": "Facilita el acceso a la tecnología IA para los usuarios.",
+          "sector_impact": "Redes sociales y comunicación."
+        },
+        {
+          "title": "Amazon adquiere tecnología de optimización de IA de Decart por $7.5B",
+          "summary": "Amazon está comprando la tecnología de optimización de IA de Decart para mejorar su eficiencia operativa.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Amazon",
+            "Decart",
+            "tecnología IA"
+          ],
+          "what_changed": "Adquisición de tecnología clave para optimización.",
+          "why_it_matters": "Mejora la competitividad en el mercado de IA.",
+          "sector_impact": "E-commerce y tecnología."
+        },
+        {
+          "title": "Walmart se asocia con Meta para ofertas de Black Friday a través de Muse",
+          "summary": "Walmart permite a los clientes acceder a ofertas de Black Friday a través del asistente IA de Meta, Muse.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Walmart",
+            "Meta",
+            "ofertas"
+          ],
+          "what_changed": "Integración de ofertas de Walmart en el asistente IA.",
+          "why_it_matters": "Walmart permite a los clientes acceder a ofertas de Black Friday a través del asistente IA de Meta, Muse.",
+          "sector_impact": "Retail y marketing."
+        },
+        {
+          "title": "La nueva capacidad de los agentes de IA para hacer predicciones de mercado",
+          "summary": "La startup Supertake permite a los agentes de IA traducir predicciones de mercado en carteras de acciones.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "Supertake",
+            "IA",
+            "finanzas"
+          ],
+          "what_changed": "Los agentes de IA ahora pueden gestionar inversiones.",
+          "why_it_matters": "La startup Supertake permite a los agentes de IA traducir predicciones de mercado en carteras de acciones.",
+          "sector_impact": "Finanzas y tecnología."
+        },
+        {
+          "title": "Evaluación agentiva: Construcción y mantenimiento",
+          "summary": "Guía sobre cómo construir y mantener evaluaciones para sistemas de IA autónomos.",
+          "category": "framework",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/agentic-evals",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "Hugging Face",
+            "evaluación",
+            "IA"
+          ],
+          "what_changed": "Nuevas metodologías en evaluaciones de IA.",
+          "why_it_matters": "Guía sobre cómo construir y mantener evaluaciones para sistemas de IA autónomos.",
+          "sector_impact": "IA y desarrollo de software."
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "executive_title": "Radar diario de Innovaciones en IA",
       "items": [
@@ -769,125 +894,6 @@
           "what_changed": "Introducción de un banco de pruebas realista para evaluar tareas en un entorno bancario.",
           "why_it_matters": "Facilita la comparación de agentes en situaciones del mundo real.",
           "sector_impact": "Impacta el sector financiero al mejorar la calidad de los agentes de análisis."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-17",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "Proton’s Lumo, una alternativa centrada en la privacidad a ChatGPT y Claude, llega a escritorio",
-          "summary": "La nueva app de escritorio de Proton permite a los usuarios automatizar tareas con controles granulares sobre lo que la IA puede acceder.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automación",
-            "privacidad"
-          ],
-          "what_changed": "Lanzamiento de una nueva aplicación de escritorio.",
-          "why_it_matters": "Ofrece una alternativa segura a los populares modelos de IA actuales.",
-          "sector_impact": "Mejora la automatización y seguridad en tareas diarias."
-        },
-        {
-          "title": "Gemini ahora disponible para ayudarte en varias tareas",
-          "summary": "Nueva integración de Gemini en Google Workspace, ayudando en coordinación de llamadas y compras.",
-          "category": "model",
-          "source_name": "Google AI",
-          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "integración"
-          ],
-          "what_changed": "Funciones de Gemini se amplían y vuelven gratuitas en seis países.",
-          "why_it_matters": "Aumenta la eficiencia y permite a los usuarios delegar tareas repetitivas.",
-          "sector_impact": "Transforma el manejo de tareas en entornos laborales."
-        },
-        {
-          "title": "Model ML recauda $250M para automatizar el trabajo pesado en banca de inversión",
-          "summary": "La startup asegura que sus agentes comprenden el contexto completo de los acuerdos y actualizan automáticamente los modelos financieros.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "finanzas"
-          ],
-          "what_changed": "Financiamiento significativo para potenciar su tecnología.",
-          "why_it_matters": "Reduce la carga de trabajo en áreas críticas y mejora la precisión.",
-          "sector_impact": "Revoluciona la eficiencia en la banca de inversión."
-        },
-        {
-          "title": "Gemini Tasks se expande para ayudar en llamadas y compras",
-          "summary": "La nueva manera de Gemini ayuda a coordinar tareas de llamadas y hacer compras en nombre del usuario.",
-          "category": "model",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "automatización",
-            "asistente"
-          ],
-          "what_changed": "Funciones expandidas para mayor facilidad en tareas diarias.",
-          "why_it_matters": "Agiliza el manejo de tareas cotidianas.",
-          "sector_impact": "Mejora la productividad personal y profesional."
-        },
-        {
-          "title": "Pedestal AI recauda $4.7 millones para ‘agentificar’ la cadena de suministro",
-          "summary": "La compañía utiliza IA agencial para hacer que las cadenas de suministro sean más rápidas y confiables.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "cadena de suministro",
-            "automatización"
-          ],
-          "what_changed": "Inversión para desarrollar capacidades de automatización.",
-          "why_it_matters": "Aumenta la eficiencia y reduce retrasos en la producción.",
-          "sector_impact": "Transforma la logística y entrega en negocios."
-        },
-        {
-          "title": "Daydream presenta un nuevo agente de IA que actúa como estilista personal",
-          "summary": "Este agente de compras puede recordar tu estilo y realizar compras en tu nombre.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "moda",
-            "compras",
-            "automatización"
-          ],
-          "what_changed": "Innovación en asistentes de compra personalizados.",
-          "why_it_matters": "Facilita la experiencia de compra individualizada.",
-          "sector_impact": "Revoluciona la forma en que los consumidores interactúan con la moda."
-        },
-        {
-          "title": "Voyage Labs recauda $12 millones para un asistente de viaje especializado",
-          "summary": "Atlas, su producto insignia, funcionará como asistente personal para la planificación de viajes.",
-          "category": "tool",
-          "source_name": "TechCrunch AI",
-          "source_url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-          "relevance_score": 5,
-          "status": "new",
-          "tags": [
-            "viajes",
-            "automatización"
-          ],
-          "what_changed": "Financiamiento para el desarrollo de un asistente de viaje AI.",
-          "why_it_matters": "Optimiza la manera en que planificamos nuestros viajes.",
-          "sector_impact": "Facilita el turismo y la exploración."
         }
       ]
     }
