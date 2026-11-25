@@ -1,6 +1,143 @@
 {
   "days": [
     {
+      "date": "2026-11-25",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "summary": "Nuevas conexiones de Google Wallet, Drive y la app Gemini mejoran las respuestas de búsqueda personalizada en Modo Inteligente.",
+          "category": "tool",
+          "source_name": "Google AI",
+          "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "relevance_score": 8,
+          "status": "new",
+          "tags": [
+            "Google",
+            "IA",
+            "personalización"
+          ],
+          "what_changed": "Integración de servicios de Google para mejorar la búsqueda.",
+          "why_it_matters": "Aumenta la eficacia y personalización de las búsquedas en IA.",
+          "sector_impact": "Afecta a la experiencia de búsqueda y la interacción del usuario."
+        },
+        {
+          "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+          "summary": "Se introduce un medidor de uso único para ChatGPT al fusionar las experiencias de Chat y Trabajo.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "OpenAI",
+            "ChatGPT"
+          ],
+          "what_changed": "Fusión de las experiencias de Chat y Trabajo en ChatGPT.",
+          "why_it_matters": "Aumenta la eficiencia en el uso de ChatGPT para tareas múltiples.",
+          "sector_impact": "Impacto en la productividad y las herramientas de trabajo."
+        },
+        {
+          "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+          "summary": "Ambas compañías discuten un posible acuerdo para levantar el bloqueo de Muse.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "relevance_score": 6,
+          "status": "new",
+          "tags": [
+            "Amazon",
+            "Meta",
+            "Muse"
+          ],
+          "what_changed": "Posibles negociaciones para desbloquear el agente Muse.",
+          "why_it_matters": "Podría ampliar las capacidades de Muse en el ecosistema de IA.",
+          "sector_impact": "Afecta la competencia en el mercado de agentes de IA."
+        },
+        {
+          "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+          "summary": "Los centros de datos de IA enfrentan mayores dificultades en construcción y costos.",
+          "category": "framework",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "centros de datos",
+            "IA"
+          ],
+          "what_changed": "Dificultades en la construcción de centros de datos de IA.",
+          "why_it_matters": "Impacta en la escalabilidad y disponibilidad de servicios de IA.",
+          "sector_impact": "Afecta la infraestructura necesaria para el desarrollo de IA."
+        },
+        {
+          "title": "Where scientists draw the line on AI agents",
+          "summary": "",
+          "category": "tool",
+          "source_name": "Hugging Face",
+          "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "IA",
+            "investigación"
+          ],
+          "what_changed": "Nuevas perspectivas sobre los límites en el uso de agentes de IA.",
+          "why_it_matters": "Plantea debates éticos y límites de desarrollo en IA.",
+          "sector_impact": "Impacto en las regulaciones y futuras investigaciones en IA."
+        },
+        {
+          "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+          "summary": "El nuevo enfoque de Maple busca crear productos de IA que protejan la privacidad de los usuarios.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+          "relevance_score": 5,
+          "status": "new",
+          "tags": [
+            "privacidad",
+            "IA"
+          ],
+          "what_changed": "Innovación en arquitectura de IA centrada en la privacidad.",
+          "why_it_matters": "Responde a crecientes preocupaciones sobre la protección de datos.",
+          "sector_impact": "Transforma el enfoque hacia la privacidad en IA."
+        },
+        {
+          "title": "Even the best AI agents struggle with everyday life",
+          "summary": "Los asistentes de IA avanzados lidian con dificultades para completar tareas cotidianas con fiabilidad.",
+          "category": "tool",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "IA",
+            "asistentes"
+          ],
+          "what_changed": "Establecimiento de un nuevo estándar para la fiabilidad de agentes de IA.",
+          "why_it_matters": "Afecta la percepción y confianza en los asistentes de IA.",
+          "sector_impact": "Desafíos en la adopción de tecnología de IA en la vida diaria."
+        },
+        {
+          "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+          "summary": "La caída de las acciones de Anthropic podría afectar las valoraciones de startups de IA.",
+          "category": "sector",
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+          "relevance_score": 4,
+          "status": "new",
+          "tags": [
+            "startups",
+            "acciones",
+            "IA"
+          ],
+          "what_changed": "Caídas en el valor de acciones de una empresa clave en IA.",
+          "why_it_matters": "Señala inestabilidad en el ecosistema de startups de IA.",
+          "sector_impact": "Influencia en la inversión y financiamiento en el sector."
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -759,141 +896,6 @@
           "what_changed": "Demostración de auto-aprendizaje en ambientes restrictivos de recursos.",
           "why_it_matters": "Opera un cambio en cómo concebimos el aprendizaje automatizado en modelos de IA.",
           "sector_impact": "Desarrollo de software"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-18",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
-          "summary": "Un sistema que atribuye cada salida de una sesión de agente a sus entradas, mejorando la interpretabilidad de procesos de decisión.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.22511",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "interpretabilidad",
-            "LLM",
-            "governanza"
-          ],
-          "what_changed": "Presenta un sistema de gobernanza del contexto y la línea de contenido para agentes LLM.",
-          "why_it_matters": "Mejora la transparencia en la toma de decisiones de los agentes LLM.",
-          "sector_impact": "Aumenta la confiabilidad en aplicaciones que utilizan LLMs en contextos críticos."
-        },
-        {
-          "title": "RLDE: A Reinforcement Learning Framework for Interpretable Iterative Document Editing",
-          "summary": "Introducción de un marco de aprendizaje por refuerzo para la edición de documentos que hace que el proceso de edición sea interpretable y eficiente.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.22039",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "aprendizaje por refuerzo",
-            "edición de documentos"
-          ],
-          "what_changed": "Propone un enfoque de MDP para la revisión de documentos.",
-          "why_it_matters": "Permite ediciones más precisas y claras en documentos largos.",
-          "sector_impact": "Aumenta la eficiencia en la redacción y revisión documentaria, clave para el sector educativo y empresarial."
-        },
-        {
-          "title": "Evolution Under Fire: Evolving Agent Safety Harnesses",
-          "summary": "Un marco que mejora la seguridad de los agentes mediante la evolución adaptativa de arneses de seguridad.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.22583",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "agentes"
-          ],
-          "what_changed": "Introduce la evolución adaptativa de arneses de seguridad para agentes.",
-          "why_it_matters": "Permite que los agentes operen de manera más segura en entornos no confiables.",
-          "sector_impact": "Mejora la resiliencia y seguridad en aplicaciones de agentes en sectores críticos."
-        },
-        {
-          "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution",
-          "summary": "Una nueva arquitectura para la creación, alojamiento y ejecución de agentes que fomenta la interoperabilidad.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.21978",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "arquitectura",
-            "agentes"
-          ],
-          "what_changed": "Descompone roles en la creación y ejecución de agentes.",
-          "why_it_matters": "Facilita un ecosistema de agentes autónomos y servicios independientes.",
-          "sector_impact": "Permite la creación de un nuevo ecosistema de agentes en la web."
-        },
-        {
-          "title": "MatOS: An Agent Operating System for Materials Research",
-          "summary": "Un sistema operativo para agentes que mejora la investigación de materiales mediante la administración adaptable de recursos.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2610.34203",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "investigación",
-            "materiales"
-          ],
-          "what_changed": "Introducción de un sistema adaptativo para gestionar la investigación de materiales.",
-          "why_it_matters": "Incrementa la eficacia en la identificación y desarrollo de nuevos materiales.",
-          "sector_impact": "Revoluciona la investigación de materiales mediante la automatización."
-        },
-        {
-          "title": "Chaining AI Tasks with OverServe: Amplifying Resource Attacks on SaaS Agents",
-          "summary": "Un marco que incluye ataques de amplificación de recursos en agentes SaaS mediante un diseño conjunto de herramientas y prompts.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.14808",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "SaaS",
-            "seguridad"
-          ],
-          "what_changed": "Permite el diseño de ataques que consumen recursos en servicios SaaS.",
-          "why_it_matters": "Aborda preocupaciones sobre la seguridad operativa en entornos SaaS.",
-          "sector_impact": "Mejora la resiliencia en implementaciones SaaS al desafiar vulnerabilidades."
-        },
-        {
-          "title": "Reliable Evaluation of AI Agents for Investment Research",
-          "summary": "Marco para evaluar la calidad y validez de los agentes de IA en tareas de investigación financiera.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.22338",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "investigación financiera"
-          ],
-          "what_changed": "Distancia entre calidad del resultado y calidad del proceso de ejecución.",
-          "why_it_matters": "Mejora la precisión en la evaluación de agentes para investigación financiera.",
-          "sector_impact": "Aumenta la fiabilidad en el uso de IA para decisiones de inversión."
-        },
-        {
-          "title": "ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments",
-          "summary": "Un banco de pruebas con tareas de inversión bancaria que evalúa la desempeño de agentes de IA.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.22085",
-          "relevance_score": 6,
-          "status": "new",
-          "tags": [
-            "banco",
-            "agentes"
-          ],
-          "what_changed": "Introducción de un banco de pruebas realista para evaluar tareas en un entorno bancario.",
-          "why_it_matters": "Facilita la comparación de agentes en situaciones del mundo real.",
-          "sector_impact": "Impacta el sector financiero al mejorar la calidad de los agentes de análisis."
         }
       ]
     }
