@@ -1,6 +1,124 @@
 {
   "days": [
     {
+      "date": "2026-11-27",
+      "executive_title": "Radar Diario de IA",
+      "items": [
+        {
+          "title": "EATS: Scaling Tool-Use Experience for Medical Reasoning Agents",
+          "summary": "Un enfoque para mejorar la selección de herramientas en agentes de razonamiento médico mediante el uso de memoria de interacciones pasadas.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.33897",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "herramientas",
+            "razonamiento médico"
+          ],
+          "what_changed": "Desarrolla una memoria para mejorar la selección de herramientas.",
+          "why_it_matters": "Facilita el manejo de situaciones clínicas complejas mediante mejores decisiones automatizadas.",
+          "sector_impact": "Salud"
+        },
+        {
+          "title": "ML-Tool-Bench: Tool-Augmented Planning for ML Tasks",
+          "summary": "Un nuevo benchmark para evaluar agentes de ML que utilizan enfoques aumentados por herramientas en una variedad de tareas de ML.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2512.00672",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "agentes",
+            "machine learning"
+          ],
+          "what_changed": "Introduce un conjunto curado de herramientas para evaluar la planificación de agentes.",
+          "why_it_matters": "Permite una evaluación más efectiva de los agentes que manejan flujos de trabajo de ML complejos.",
+          "sector_impact": "Tecnologías de la información"
+        },
+        {
+          "title": "ExtractBench Pro: The Long Tail of Document Extraction",
+          "summary": "Benchmark para evaluar sistemas de extracción de documentos en seis modos desafiantes y no representados previamente.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.33791",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "extracción de datos",
+            "documentación"
+          ],
+          "what_changed": "Mejora la visibilidad en el rendimiento de sistemas de extracción de documentos.",
+          "why_it_matters": "Asegura que los sistemas de extracción mejoren su eficiencia y precisión.",
+          "sector_impact": "Servicios de información"
+        },
+        {
+          "title": "RadOncGym: An Agent-Based Framework for Radiotherapy Dose-Mimicking Optimization",
+          "summary": "Marco basado en agentes para optimizar la predicción de dosis en radioterapia.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.33821",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "radioterapia",
+            "optimización"
+          ],
+          "what_changed": "Introduce una forma iterativa de ajustar los pesos de planificación en tratamientos.",
+          "why_it_matters": "Aumenta la efectividad de los planes de tratamiento al optimizar la dosis administrada.",
+          "sector_impact": "Cuidado de la salud"
+        },
+        {
+          "title": "ConTra: A Training Framework for Effective Contextual Retrieval via Prefix Generation",
+          "summary": "Un marco de entrenamiento que mejora la recuperación contextual a través de la generación de prefijos.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.34366",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "recuperación de información",
+            "entrenamiento"
+          ],
+          "what_changed": "Implementa un generador de prefijos ligero basado en aprendizaje por refuerzo.",
+          "why_it_matters": "Facilita la indexación sin sacrificar calidad en la búsqueda de información.",
+          "sector_impact": "Tecnologías de la información"
+        },
+        {
+          "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+          "summary": "Marco para la generación automatizada de hipótesis científicas mediante colaboración de múltiples agentes.",
+          "category": "framework",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.33563",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "colaboración",
+            "ciencia"
+          ],
+          "what_changed": "Mejoras en la representación del conocimiento y en la colaboración entre roles especializados.",
+          "why_it_matters": "Facilita la innovación en la ciencia mediante el trabajo colaborativo de agentes.",
+          "sector_impact": "Investigación científica"
+        },
+        {
+          "title": "REE: A Scientific Research Entrance Exam for AI Agents",
+          "summary": "Evaluación de la capacidad de los agentes de IA para resolver problemas de investigación científica de manera autónoma.",
+          "category": "tool",
+          "source_name": "ArXiv AI",
+          "source_url": "https://arxiv.org/abs/2611.34646",
+          "relevance_score": 7,
+          "status": "new",
+          "tags": [
+            "evaluación",
+            "investigación"
+          ],
+          "what_changed": "Introduce un conjunto de tareas de investigación abiertas para evaluar el rendimiento de los agentes de IA.",
+          "why_it_matters": "Proporciona un marco para medir la mejora en la resolución de problemas científicos.",
+          "sector_impact": "Investigación científica"
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "executive_title": "Radar Diario de IA",
       "items": [
@@ -788,148 +906,6 @@
           "what_changed": "Desarrollo y presentación de nuevos modelos en la plataforma.",
           "why_it_matters": "Promueve el uso de modelos avanzados para el análisis de datos.",
           "sector_impact": "Revolucionando el análisis de datos en entornos industriales."
-        }
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "executive_title": "Radar Diario de IA",
-      "items": [
-        {
-          "title": "EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds",
-          "summary": "Un marco que automatiza la construcción de entornos de ejecución para repositorios, mejorando la orquestación de agentes.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.23258",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "automación",
-            "entornos",
-            "agentes"
-          ],
-          "what_changed": "Presenta un enfoque integrado para la construcción de entornos científicos.",
-          "why_it_matters": "Reduce significativamente el esfuerzo manual en configuraciones complejas.",
-          "sector_impact": "Incrementa la eficiencia en computación científica."
-        },
-        {
-          "title": "Space-X: Self-Evolving Spatial Agents Weaving Clues into Evidence Chains",
-          "summary": "Un marco innovador para razonamiento espacial que mejora la construcción continua de cadenas de evidencia.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.24004",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "razonamiento",
-            "espacial",
-            "agentes"
-          ],
-          "what_changed": "Introduce un agente de ejecución que evoluciona la capacidad de razonamiento.",
-          "why_it_matters": "Mejora la precisión en la inferencia espacial utilizando múltiples modelos.",
-          "sector_impact": "Facilita el desarrollo de aplicaciones que requieren razonamiento espacial."
-        },
-        {
-          "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
-          "summary": "Una arquitectura de memoria que permite a los agentes de IA adaptarse a sus propios errores sin modificar pesos de modelo.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.23588",
-          "relevance_score": 8,
-          "status": "new",
-          "tags": [
-            "memoria",
-            "empresas",
-            "agentes"
-          ],
-          "what_changed": "Usa un modelo instructor para mejorar su rendimiento sin modificaciones exhaustivas.",
-          "why_it_matters": "Aumenta la eficacia y reduce costos operativos a través de ajustes en la memoria.",
-          "sector_impact": "Aporta soluciones más económicas para la automatización empresarial."
-        },
-        {
-          "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
-          "summary": "Un marco para evaluar la capacidad de los agentes de IA de abstenerse de actuar en situaciones inciertas.",
-          "category": "model",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2607.10059",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "agentes",
-            "abstención"
-          ],
-          "what_changed": "Desarrolla una evaluación sistemática para la abstención de agentes.",
-          "why_it_matters": "Reduce los riesgos asociados a decisiones erróneas de agentes autónomos.",
-          "sector_impact": "Mejora la fiabilidad en el uso de agentes de IA en procesos críticos."
-        },
-        {
-          "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
-          "summary": "Un nuevo banco de pruebas diseñado para evaluar sistemas multi-agente basados en LLM en escenarios interactivos.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2503.01935",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "evaluación",
-            "colaboración",
-            "competencia"
-          ],
-          "what_changed": "Introducción de indicadores de rendimiento para colaboración y competencia.",
-          "why_it_matters": "Facilita la comparación efectiva de capacidades entre diversos agentes.",
-          "sector_impact": "Fortalece el desarrollo de sistemas complejos que requieren cooperación entre agentes."
-        },
-        {
-          "title": "CaDO: Formal Verification-Guided Multi-Agent Framework for Causal Dataset Repair and Generation",
-          "summary": "Un marco para la reparación y generación automática de conjuntos de datos de razonamiento causal.",
-          "category": "framework",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.24406",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "reparación de datos",
-            "agentes",
-            "causalidad"
-          ],
-          "what_changed": "Utiliza agentes para diagnóstico y reparación de datos erróneos.",
-          "why_it_matters": "Mejora la calidad de datos para modelos de razonamiento causal.",
-          "sector_impact": "Aumenta la precisión de predicciones en aplicaciones basadas en IA."
-        },
-        {
-          "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
-          "summary": "Un equipo de seguridad adaptativo que explora diferentes técnicas de inyección para asegurar agentes LLM.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.24313",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "seguridad",
-            "inyección",
-            "agentes"
-          ],
-          "what_changed": "Desarrolla un nuevo enfoque para la evaluación de la robustez de modelos.",
-          "why_it_matters": "Refuerza la seguridad en aplicaciones que utilizan IA en entornos sensibles.",
-          "sector_impact": "Aumenta la confianza en modelos de lenguaje utilizados en aplicaciones empresariales."
-        },
-        {
-          "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
-          "summary": "Un agente que sintetiza puntos de control para facilitar pruebas en software interactivo.",
-          "category": "tool",
-          "source_name": "ArXiv AI",
-          "source_url": "https://arxiv.org/abs/2611.23257",
-          "relevance_score": 7,
-          "status": "new",
-          "tags": [
-            "pruebas",
-            "software",
-            "agentes"
-          ],
-          "what_changed": "Introduce una manera de restaurar estados profundos en software a partir de pruebas funcionales.",
-          "why_it_matters": "Un agente que sintetiza puntos de control para facilitar pruebas en software interactivo.",
-          "sector_impact": "Facilita la creación de software más robusto y fiable."
         }
       ]
     }
